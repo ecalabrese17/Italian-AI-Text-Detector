@@ -1,0 +1,326 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non il compianto Kaiser, bensì una sua ombra, un fantasma del passato che torna a materializzarsi con forza:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	compianto	compianto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	Kaiser	Kaiser	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	bensì	bensì	CCONJ	CC	_	10	cc	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	passato	passato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	materializzarsi	_	_	_	_	_	_	_	_
+20	materializzar	materializzare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	forza	forza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = infatti, Giancarlo Fisichella, l'ex pilota d'affezione popolare, è stato individuato come il possibile “piede di supporto” per Kimi Räikkönen, in un’operazione che potrebbe portare il finlandese a rientrare nel Cavallino Rampante.
+1	infatti	infatti	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Giancarlo	Giancarlo	PROPN	SP	_	15	nsubj:pass	_	_
+4	Fisichella	Fisichella	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	ex	ex	ADJ	A	_	8	amod	_	_
+8	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	affezione	affezione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	popolare	popolare	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	individuato	individuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	come	come	ADP	E	_	20	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	possibile	possibile	ADJ	A	Number=Sing	20	amod	_	_
+19	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	piede	piede	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	22	punct	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	Kimi	Kimi	PROPN	SP	_	22	nmod	_	_
+26	Räikkönen	Räikkönen	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	portare	portare	VERB	V	VerbForm=Inf	30	acl:relcl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	finlandese	finlandese	ADJ	A	Number=Sing	33	obj	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	rientrare	rientrare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+38-39	nel	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Cavallino	Cavallino	PROPN	SP	_	37	obl	_	_
+41	Rampante	rampante	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Le indiscrezioni, alimentate da un network di informatori legati ai team e ai dirigenti, non sono certo nuove, ma giovedì, giorno di prove libere a Barcellona, potrebbe essere la giornata decisiva.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	indiscrezioni	indiscrezione	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	alimentate	alimentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	network	network	NOUN	S	Gender=Masc	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	informatori	informatore	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	team	team	NOUN	S	Gender=Masc	10	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	dirigenti	dirigente	NOUN	S	Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	certo	certo	ADV	B	_	22	advmod	_	_
+22	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ma	ma	CCONJ	CC	_	25	cc	_	_
+25	giovedì	giovedì	NOUN	S	Gender=Masc	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	prove	prova	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+30	libere	libero	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	Barcellona	Barcellona	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	27	punct	_	_
+34	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+35	essere	essere	AUX	V	VerbForm=Inf	37	cop	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+38	decisiva	decisivo	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	37	punct	_	_
+
+# sent_id = 4
+# text = La Ferrari, in un momento di profonda crisi di risultati e di immagine, cerca disperatamente una soluzione, un asso di classifica in grado di fornire punti immediatamente e rilanciare la competitività.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ferrari	Ferrari	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	crisi	crisi	NOUN	S	Gender=Fem	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	disperatamente	disperatamente	ADV	B	_	16	advmod	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	asso	asso	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	grado	grado	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	fornire	fornire	VERB	V	VerbForm=Inf	26	acl	_	_
+29	punti	punto	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	immediatamente	immediatamente	ADV	B	_	28	advmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	rilanciare	rilanciare	VERB	V	VerbForm=Inf	28	conj	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	competitività	competitività	NOUN	S	Gender=Fem	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = Ed è qui che Fisichella entra in scena.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	qui	qui	ADV	B	_	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	Fisichella	Fisichella	PROPN	SP	_	6	nsubj	_	_
+6	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = L’esperienza del pilota romano, pur datata, è innegabile.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	romano	romano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	pur	pure	ADV	B	_	9	advmod	_	_
+9	datata	datato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	innegabile	innegabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = La sua intesa con le vetture, soprattutto quelle più "vecchie" e da "sbloccare", è leggendaria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	intesa	intesa	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	vetture	vettura	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	soprattutto	soprattutto	ADV	B	_	9	advmod	_	_
+9	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	3	nmod	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	vecchie	vecchio	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	da	da	ADP	E	_	17	mark	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	sbloccare	sbloccare	VERB	V	VerbForm=Inf	9	conj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	leggendaria	leggendario	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 8
+# text = Fisichella, dotato di un talento puro e di una determinazione che pochi possono eguagliare, ha spesso dimostrato di saper estrarre prestazioni eccezionali da macchine che, sul carta, sarebbero pronte a rimanere anonime.
+1	Fisichella	Fisichella	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	talento	talento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	puro	puro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+13	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	eguagliare	eguagliare	VERB	V	VerbForm=Inf	11	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	spesso	spesso	ADV	B	_	19	advmod	_	_
+19	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	saper	sapere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	estrarre	estrarre	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	prestazioni	prestazione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+24	eccezionali	eccezionale	ADJ	A	Number=Plur	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	34	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	carta	carta	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	pronte	pronto	ADJ	A	Gender=Fem|Number=Plur	26	acl:relcl	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	rimanere	rimanere	VERB	V	VerbForm=Inf	34	advcl	_	_
+37	anonime	anonimo	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 9
+# text = La scelta di Räikkönen, a cinquant'anni, è un’operazione rischiosa, un’ultima spiaggia per una squadra che fatica a trovare la zampata che le serve per rialzarsi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Räikkönen	Räikkönen	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	cinquant'	cinquanta	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	rischiosa	rischioso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	fatica	fatico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	trovare	trovare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	zampata	zampata	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31-32	rialzarsi	_	_	_	_	_	_	_	SpaceAfter=No
+31	rialzar	rialzarre	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 10
+# text = Il pilota finlandese, pur con un pedigree prestigioso e un’aura di leggenda, sta affrontando un periodo altalenante, lontano dai livelli che gli sono valsi il
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	finlandese	finlandese	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	pur	pure	ADV	B	_	8	advmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pedigree	pedigree	NOUN	S	Gender=Masc	2	nmod	_	_
+9	prestigioso	prestigioso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	aura	aura	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	leggenda	leggenda	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	affrontando	affrontare	VERB	V	VerbForm=Ger	30	advcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	altalenante	altalenante	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	lontano	lontano	ADV	B	_	17	advmod	_	_
+23-24	dai	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+28	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	valsi	valso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	SpacesAfter=\n
+

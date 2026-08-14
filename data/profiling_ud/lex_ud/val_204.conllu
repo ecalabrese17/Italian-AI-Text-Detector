@@ -1,0 +1,696 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sempre di origini romene , l'uomo è stato arrestato dalla squadra mobile di Caserta.
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	origini	origino	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+4	romene	romena	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	mobile	mobile	ADJ	A	Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Caserta	Caserta	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Alecxandru Bogadan Colteanu (pare essere il suo nome), 26 anni, è il romeno sospettato di essere il quarto uomo della banda che ha compiuto una violenza senza senso nei confronti di Carlo Martelli e Niva Bazzan.
+1	Alecxandru	Alecxandru	PROPN	SP	_	5	nsubj	_	_
+2	Bogadan	Bogadan	PROPN	SP	_	1	flat:name	_	_
+3	Colteanu	Colteanu	PROPN	SP	_	1	flat:name	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	nome	nome	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	26	26	NUM	N	NumType=Card	13	nummod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	romeno	romeno	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+18	sospettato	sospettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	di	di	ADP	E	_	23	mark	_	_
+20	essere	essere	AUX	V	VerbForm=Inf	23	cop	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	18	xcomp	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	banda	banda	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	senza	senza	ADP	E	_	33	case	_	_
+33	senso	senso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+34-35	nei	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Carlo	Carlo	PROPN	SP	_	36	nmod	_	_
+39	Martelli	Martelli	PROPN	SP	_	38	flat:name	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	Niva	Nivo	PROPN	SP	_	38	conj	_	_
+42	Bazzan	Bazzan	PROPN	SP	_	41	flat:name	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Stando a quanto emerso dalle indagini, sembra essere proprio lui il "capo" della folle banda e il tagliatore di orecchie.
+1	Stando	stare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	1	obl	_	_
+4	emerso	emergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dalle	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+11	proprio	proprio	ADV	B	_	12	advmod	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	ccomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	capo	capo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	folle	folle	ADJ	A	Number=Sing	20	amod	_	_
+20	banda	banda	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tagliatore	tagliatore	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Alecxandru era già ricercato in passato per scontare la condanna di un reato commesso quando era minorenne.
+1	Alecxandru	Alecxandru	PROPN	SP	_	4	nsubj:pass	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	ricercato	ricercato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	scontare	scontare	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	reato	reato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	quando	quando	SCONJ	CS	_	17	mark	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	minorenne	minorenere	ADJ	A	Number=Sing	14	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Al momento dell'arresto eseguito dalla polizia, il ragazzo ha mostrato una patente romena falsa.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	eseguito	eseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	patente	patente	ADJ	A	Number=Sing	18	amod	_	_
+18	romena	romena	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = L'arresto del quarto uomo Alecxandru Bogadan Colteanu sarebbe stato acchiappato perché si sarebbe fregato con le sue stesse mani.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	Alecxandru	Alecxandru	PROPN	SP	_	6	nmod	_	_
+8	Bogadan	Bogadan	PROPN	SP	_	7	flat:name	_	_
+9	Colteanu	Colteanu	PROPN	SP	_	7	flat:name	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	acchiappato	acchiappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	perché	perché	SCONJ	CS	_	16	mark	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fregato	fregare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	con	con	ADP	E	_	21	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	mani	mano	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Il ragazzino, infatti, ha tentato di vendere uno degli orologi che aveva rubato nella villa dei coniugi Martelli.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragazzino	ragazzino	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	vendere	vendere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	orologi	orologio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	villa	villa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	coniugi	coniuge	NOUN	S	Number=Plur	19	nmod	_	_
+23	Martelli	Martelli	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = L'uomo, secondo quanto riporta Tgcom24 , avrebbe tentato di entrare in contatto con alcuni circuiti di ricettatori, nella speranza di piazzare l'orologio e ottenere del denaro per proseguire la fuga.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	nmod	_	_
+6	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+7	Tgcom24	Tgcom24	PROPN	SP	_	6	obj	_	_
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	entrare	entrare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	circuiti	circuito	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	ricettatori	ricettatore	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	piazzare	piazzare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	ottenere	ottenere	VERB	V	VerbForm=Inf	25	conj	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	proseguire	proseguire	VERB	V	VerbForm=Inf	29	advcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Una mossa che ha però permesso agli investigatori di rintracciarlo nella zona di Caserta, dove poi è stato arrestato.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	però	però	ADV	B	_	6	advmod	_	_
+6	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7-8	agli	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	rintracciarlo	_	_	_	_	_	_	_	_
+11	rintracciar	rintracciare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	zona	zona	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Caserta	Caserta	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	dove	dove	ADV	B	_	23	advmod	_	_
+20	poi	poi	ADV	B	_	23	advmod	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = L'aggressione Niva Bazzan e Carlo Martelli sono stati massacrati di botte e derubati domenica mattina nella loro villa di Lanciano.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aggressione	aggressione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3	Niva	Nivo	PROPN	SP	_	2	nmod	_	_
+4	Bazzan	Bazzan	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Carlo	Carlo	PROPN	SP	_	3	conj	_	_
+7	Martelli	Martelli	PROPN	SP	_	6	flat:name	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	massacrati	massacrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	botte	botte	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	derubati	derubare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	conj	_	_
+15	domenica	domenica	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	villa	villa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Lanciano	lanciano	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = I quattro aggressori avevano curato i coniugi, si erano introdotti nella loro abitazioni e una volta dentro avevano messo in atto il loro diabolico piano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
+3	aggressori	aggressore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	coniugi	coniuge	NOUN	S	Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	introdotti	introdurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+19	dentro	dentro	ADV	B	_	21	advmod	_	_
+20	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	atto	atto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+26	diabolico	diabolico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	piano	piano	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Cercavano una cassaforte che non c'era.
+1	Cercavano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cassaforte	cassaforte	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = E per ottenere risposte hanno pure tagliato un pezzo di orecchio a Niva.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	ottenere	ottenere	VERB	V	VerbForm=Inf	7	advcl	_	_
+4	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	pure	pure	ADV	B	_	7	advmod	_	_
+7	tagliato	tagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Niva	Niva	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Folli.
+1	Folli	Follo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Fortunatamente, durante la loro vergognosa furia non hanno picchiato il figlio disabile della coppia che si trovava nella sua stanza.
+1	Fortunatamente	fortunatamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	durante	durante	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vergognosa	vergognoso	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	furia	furio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	picchiato	picchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	disabile	disabile	ADJ	A	Number=Sing	12	amod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 16
+# text = Le belve Ma questo scempio, ora, lo pagano caro.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	belve	belvo	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	Ma	ma	CCONJ	CC	_	10	cc	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	scempio	scempio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ora	ora	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	pagano	pagano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	caro	caro	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = E tutte e quattro le belve romene sono finite in manette.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	quattro	quattro	NUM	N	NumType=Card	2	conj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	belve	belvo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	romene	romena	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	finite	finire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	manette	manette	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = I ragazzi sono di età compresa fra i 25 e 30 anni.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	età	età	NOUN	S	Gender=Fem	0	root	_	_
+6	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	fra	fra	ADP	E	_	12	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	25	25	NUM	N	NumType=Card	12	nummod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	30	30	NUM	N	NumType=Card	9	conj	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = E sembrano non essere nuovi a questo genere di assalti.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	2	ccomp	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	genere	genere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	assalti	assalto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Assalti che ora sono stati finalmente stroncati.
+1	Assalti	assalto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+3	ora	ora	ADV	B	_	7	advmod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	finalmente	finalmente	ADV	B	_	7	advmod	_	_
+7	stroncati	stroncare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = "Da qualche ora avevamo sotto controllo l'autovettura dei rapinatori per una serie di reati contro il patrimonio avvenuti in zona, anche con atti violenti", ha spiegato il colonnello Florimondo Forleo.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	4	case	_	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	avevamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	sotto	sotto	ADP	E	_	7	case	_	_
+7	controllo	controllare	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	autovettura	autovettura	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	rapinatori	rapinatore	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	serie	serie	NOUN	S	Gender=Fem	9	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	reati	reato	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	contro	contro	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	avvenuti	avvenire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	zona	zona	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	atti	atto	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+28	violenti	violento	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	27	punct	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	colonnello	colonnello	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+35	Florimondo	Florimondo	PROPN	SP	_	34	nmod	_	_
+36	Forleo	Forleo	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Si tratta di sei furti con "spaccata" commessi nelle ultime tre settimane ai danni di bar, tabacchi e benzinai dove i banditi avevano rubato numerosi tagliandi di gratta e vinci, stecche di sigarette e contanti.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	sei	sei	NUM	N	NumType=Card	5	nummod	_	_
+5	furti	furto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	spaccata	spaccare	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	15	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+13	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	15	amod	_	_
+14	tre	tre	NUM	N	NumType=Card	15	nummod	_	_
+15	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	danni	danno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	bar	bar	NOUN	S	Gender=Masc	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	tabacchi	tabacco	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	benzinai	benzinai	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+25	dove	dove	ADV	B	_	29	advmod	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	banditi	bandito	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+28	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+30	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	tagliandi	tagliando	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	gratta	gratta	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	vinci	vincio	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	stecche	stecca	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	sigarette	sigaretta	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = "Dal gps - continua -abbiamo avuto la conferma che la loro macchina era stata nei pressi della villa per tutta la durata della rapina ai coniugi Martelli".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2-3	Dal	_	_	_	_	_	_	_	_
+2	Da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	gps	gps	NOUN	S	Gender=Masc	9	obl	_	_
+5	-	-	PUNCT	FF	_	6	punct	_	_
+6	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	che	che	SCONJ	CS	_	20	mark	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+18-19	nei	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	pressi	pressi	NOUN	S	Gender=Masc|Number=Plur	11	advcl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	villa	villa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	per	per	ADP	E	_	27	case	_	_
+25	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	27	det:predet	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	durata	durata	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	rapina	rapina	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	ai	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	coniugi	coniuge	NOUN	S	Number=Plur	27	nmod	_	_
+34	Martelli	Martelli	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = Il commento di Matteo Salvini Immediatamente, anche il ministro dell'Interno ha commentato la notizia dell'arresto del quarto uomo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	commento	commento	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Matteo	Matteo	PROPN	SP	_	2	nmod	_	_
+5	Salvini	Salvini	PROPN	SP	_	4	flat:name	_	_
+6	Immediatamente	immediatamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Interno	Interno	PROPN	SP	_	10	nmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 25
+# text = E su Twitter Matteo Salvini scrive:
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	su	su	ADP	E	_	3	case	_	_
+3	Twitter	Twitter	PROPN	SP	_	6	obl	_	_
+4	Matteo	Matteo	PROPN	SP	_	3	flat:name	_	_
+5	Salvini	Salvini	PROPN	SP	_	3	flat:name	_	_
+6	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 26
+# text = "Preso anche il quarto rapinatore straniero infame, pare il tagliatore di orecchie, bene".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	rapinatore	rapinatore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	infame	infame	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tagliatore	tagliatore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Preso anche il quarto rapinatore straniero infame, pare il tagliatore di orecchie, bene!
+1	Preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	rapinatore	rapinatore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	infame	infame	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tagliatore	tagliatore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	bene	bene	ADV	B	_	11	advmod	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = #Lanciano pic.twitter.com/bBQLOrAk3C — Matteo Salvini (@matteosalvinimi) 27 settembre 2018
+1	#Lanciano	#Lanciano	PROPN	SP	_	0	root	_	_
+2	pic.twitter.com/bBQLOrAk3C	pic.twitter.com/bBQLOrAk3C	PROPN	SP	_	1	flat:name	_	_
+3	—	—	PUNCT	FF	_	4	punct	_	_
+4	Matteo	Matteo	PROPN	SP	_	1	nmod	_	_
+5	Salvini	Salvini	PROPN	SP	_	4	flat:name	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	@matteosalvinimi	@matteosalvinimo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	27	27	NUM	N	NumType=Card	4	nmod	_	_
+10	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	2018	2018	NUM	N	NumType=Card	9	flat	_	SpacesAfter=\n
+

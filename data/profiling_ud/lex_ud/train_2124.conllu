@@ -1,0 +1,695 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Elementare, Watson, commenterebbe Sherlock Holmes:
+1	Elementare	elementare	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Watson	Watson	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	commenterebbe	commentare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Sherlock	Sherlock	PROPN	SP	_	5	obj	_	_
+7	Holmes	Holmes	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = la nuova gravidanza di Kate Middleton sembra la notizia in grado di salvare il regno, e dunque anche il posto a Downing Street a David Cameron.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Kate	Kate	PROPN	SP	_	3	nmod	_	_
+6	Middleton	Middleton	PROPN	SP	_	5	flat:name	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	salvare	salvare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	regno	regno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	dunque	dunque	ADV	B	_	21	advmod	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	posto	posto	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Downing	Downing	PROPN	SP	_	21	nmod	_	_
+24	Street	Street	PROPN	SP	_	23	flat:name	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	David	David	PROPN	SP	_	23	nmod	_	_
+27	Cameron	Cameron	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Niente avviene per caso a Buckingham Palace: e non dovrebbe essere una coincidenza il fatto che l'annuncio di un secondo "royal baby" a poco più di un anno di distanza dalla nascita del principino George sia arrivato dopo un colloquio di emergenza tra la sovrana e premier al castello scozzese di Balmoral, dove Sua Maestà sta concludendo le vacanze estive.
+1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Buckingham	Buckingham	PROPN	SP	_	2	obl	_	_
+7	Palace	Palace	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+11	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	che	che	SCONJ	CS	_	43	mark	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+20	di	di	ADP	E	_	25	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+22	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+23	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+24	royal	royal	ADJ	A	_	25	amod	_	_
+25	baby	baby	NOUN	S	_	19	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	poco	poco	ADV	B	_	29	advmod	_	_
+29	più	più	ADV	B	_	25	nmod	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	anno	anno	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35-36	dalla	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	principino	principino	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41	George	George	PROPN	SP	_	40	nmod	_	_
+42	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+44	dopo	dopo	ADP	E	_	46	case	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+49	tra	tra	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	sovrana	sovrana	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	premier	premiere	NOUN	S	_	51	conj	_	_
+54-55	al	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	castello	castello	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+57	scozzese	scozzese	ADJ	A	Number=Sing	56	amod	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	Balmoral	Balmoral	PROPN	SP	_	56	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	56	punct	_	_
+61	dove	dove	ADV	B	_	65	advmod	_	_
+62	Sua	Sua	PROPN	SP	_	65	nsubj	_	_
+63	Maestà	Maestà	PROPN	SP	_	62	flat:name	_	_
+64	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	aux	_	_
+65	concludendo	concludere	VERB	V	VerbForm=Ger	56	acl:relcl	_	_
+66	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
+67	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	65	obj	_	_
+68	estive	estivo	ADJ	A	Gender=Fem|Number=Plur	67	amod	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Cosa si siano detti, nessuno lo sa ("cosa pagherei per essere stato una mosca sulla parete in quel momento" scrive oggi un commentatore sulla stampa londinese).
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detti	dire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	12	nsubj	_	_
+12	pagherei	paghere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	per	per	ADP	E	_	17	mark	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	17	aux	_	_
+15	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mosca	mosca	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	parete	parete	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	momento	momento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	12	punct	_	_
+25	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+26	oggi	oggi	ADV	B	_	25	advmod	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	commentatore	commentatore	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	londinese	londinese	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = RNews, Franceschini: se un bebè reale salverà il Regno Disunito.
+1	RNews	RNews	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Franceschini	Franceschini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	se	se	SCONJ	CS	_	9	mark	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bebè	bebè	NOUN	S	Gender=Masc	9	nsubj	_	_
+8	reale	reale	ADJ	A	Number=Sing	7	amod	_	_
+9	salverà	salvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Regno	Regno	PROPN	SP	_	9	obj	_	_
+12	Disunito	Disunito	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ma non è difficile immaginarlo:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+5-6	immaginarlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	immaginar	immaginare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = la regina aveva convocato Cameron per esprimergli la sua grave preoccupazione ("sono inorridita all'idea", gli avrebbe detto secondo le indiscrezioni) per la possibilità che la Scozia voti a favore dell'indipendenza nel referendum in programma il 18 settembre.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	regina	regina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	convocato	convocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	Cameron	Cameron	PROPN	SP	_	4	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	esprimergli	_	_	_	_	_	_	_	_
+7	esprimer	esprimere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	grave	grave	ADJ	A	Number=Sing	12	amod	_	_
+12	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	inorridita	inorridire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	idea	idea	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+23	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+25	secondo	secondo	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	indiscrezioni	indiscrezione	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	24	punct	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	possibilità	possibilità	NOUN	S	Gender=Fem	4	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	34	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Scozia	Scozia	PROPN	SP	_	31	acl:relcl	_	_
+35	voti	voto	NOUN	S	Gender=Masc|Number=Plur	34	amod	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	favore	favore	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	indipendenza	indipendenza	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41-42	nel	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	referendum	referendum	NOUN	S	Gender=Masc	40	nmod	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	programma	programma	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	18	18	NUM	N	NumType=Card	45	nmod	_	_
+48	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	47	flat	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Un sondaggio pubblicato domenica dal Sunday Times, lo stesso giorno dell'incontro fra il premier e la sovrana, ha dato per la prima volta gli indipendentisti in vantaggio , 51 a 49 per cento.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sondaggio	sondaggio	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+3	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sunday	Sunday	PROPN	SP	_	3	obl:agent	_	_
+8	Times	Times	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	fra	fra	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	premier	premier	NOUN	S	_	15	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sovrana	sovrana	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	per	per	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	_
+28	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	indipendentisti	indipendentista	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	51	51	NUM	N	NumType=Card	24	nummod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	49	49	NUM	N	NumType=Card	34	nummod	_	_
+37	per	per	ADP	E	_	38	case	_	_
+38	cento	cento	NUM	N	NumType=Card	36	nummod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 9
+# text = Stamane la Gran Bretagna si è svegliata come se fosse di fronte a una minaccia nazionale:
+1	Stamane	Stamanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Gran	Gran	PROPN	SP	_	1	nsubj	_	_
+4	Bretagna	Bretagna	PROPN	SP	_	3	flat:name	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	svegliata	svegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	come	come	ADV	B	_	12	advmod	_	_
+9	se	se	SCONJ	CS	_	12	mark	_	_
+10	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fronte	fronte	NOUN	S	Number=Sing	7	advcl	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	nazionale	nazionale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = "Abbiamo dieci giorni per salvare l'Unione" titola il Telegraph, "stiamo per diventare il Regno Dis-Unito", si dispera il Mirror.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dieci	dieci	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	salvare	salvare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Unione	Unione	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	10	punct	_	_
+10	titola	titola	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Telegraph	Telegraph	PROPN	SP	_	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	stiamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	diventare	diventare	VERB	V	VerbForm=Inf	24	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Regno	Regno	PROPN	SP	_	24	nsubj	_	_
+20	Dis-Unito	Dis-Unito	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	dispera	disperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Mirror	Mirror	PROPN	SP	_	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = I piani per scongiurare questa eventualità, incluse promesse di maggiore autonomia alla Scozia formulate in fretta e furia dal governo di Londra, non apparivano molto convincenti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	piani	piano	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	scongiurare	scongiurare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	eventualità	eventualità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	incluse	includere	NOUN	S	Gender=Fem|Number=Plur	28	nsubj	_	_
+9	promesse	promessa	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+12	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Scozia	Scozia	PROPN	SP	_	8	nmod	_	_
+16	formulate	formulare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	furia	furia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	governo	governo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Londra	Londra	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	8	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	apparivano	apparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	convincenti	convincente	ADJ	A	Number=Plur	28	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 12
+# text = Cosa poteva inventare in extremis il fronte del "no" per capovolgere la situazione?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	inventare	inventare	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	extremis	extremis	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fronte	fronte	NOUN	S	Number=Sing	3	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	no	no	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	14	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	capovolgere	capovolgere	VERB	V	VerbForm=Inf	7	acl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Con un piccolo sforzo di fantasia non è difficile vedere la regina che dice a Cameron:
+1	Con	con	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	regina	regina	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Cameron	Cameron	PROPN	SP	_	14	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 14
+# text = "Posso fare qualcosa per aiutarla, primo ministro".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	aiutarla	_	_	_	_	_	_	_	SpaceAfter=No
+6	aiutar	aiutare	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Neanche 24 ore dopo, palazzo reale annuncia che Kate è incinta per la seconda volta.
+1	Neanche	neanche	ADV	BN	PronType=Neg	3	advmod	_	_
+2	24	24	NUM	N	NumType=Card	3	nummod	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	reale	reale	ADJ	A	Number=Sing	6	amod	_	_
+8	annuncia	annunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	Kate	Kate	PROPN	SP	_	12	nsubj:pass	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	incinta	incincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Sicuramente la regina lo sapeva già.
+1	Sicuramente	sicuramente	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	regina	regina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	già	già	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = E verosimilmente Kate avrebbe preferito aspettare ancora un po' prima di dare al mondo la lieta novella.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	verosimilmente	verosimilmente	ADV	B	_	5	advmod	_	_
+3	Kate	Kate	PROPN	SP	_	5	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	aspettare	aspettare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	ancora	ancora	ADV	B	_	6	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	10	advmod	_	_
+10	prima	prima	ADV	B	_	12	mark	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	dare	dare	VERB	V	VerbForm=Inf	6	advcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lieta	lieto	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+18	novella	novella	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Ma non c'era tempo da perdere.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	perdere	perdere	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Una gravidanza reale, un secondo erede per i Windsor dopo il piccolo George, è il genere di notizie che allietano la popolazione.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	reale	reale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	erede	erede	NOUN	S	Number=Sing	2	conj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Windsor	Windsor	PROPN	SP	_	7	nmod	_	_
+11	dopo	dopo	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	George	George	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	genere	genere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	allietano	allietare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = Forse basterà per suscitare anche in Scozia qualche simpatia in più per la monarchia e spostare gli equilibri del referendum quanto basta per fare prevalere i "no" alla secessione.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	suscitare	suscitare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Scozia	Scozia	PROPN	SP	_	4	obl	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	monarchia	monarchia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	spostare	spostare	VERB	V	VerbForm=Inf	4	conj	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	equilibri	equilibrio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	referendum	referendum	NOUN	S	Gender=Masc	18	nmod	_	_
+22	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obj	_	_
+23	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	prevalere	prevalere	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	no	no	ADV	BN	PronType=Neg	26	advmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	_
+31-32	alla	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	secessione	secessione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Come nelle fiabe, se finirà così diremo tutti che ci voleva una principessa per salvare il regno.
+1	Come	come	ADV	B	_	7	advmod	_	_
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	fiabe	fiabo	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	finirà	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	diremo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	advcl	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	principessa	principessa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	salvare	salvare	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	regno	regno	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = E per mantenere il posto a David Cameron, che viceversa, se la Scozia se ne andrà per conto proprio, rischia di ricevere un calcio dai propri compagni di partito e di passare alla storia come il premier che ha rimpicciolito la Gran Bretagna.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	mantenere	mantenere	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	David	David	PROPN	SP	_	3	obl	_	_
+8	Cameron	Cameron	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+11	viceversa	viceversa	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	se	se	SCONJ	CS	_	18	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Scozia	Scozia	PROPN	SP	_	18	nsubj	_	_
+16	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+18	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	advcl	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	conto	conto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	ricevere	ricevere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	dai	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	partito	partito	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	passare	passare	VERB	V	VerbForm=Inf	25	conj	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	storia	storia	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+40	come	come	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	premier	premier	NOUN	S	_	36	obl	_	_
+43	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	rimpicciolito	rimpicciolire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Gran	Gran	PROPN	SP	_	45	obj	_	_
+48	Bretagna	Bretagna	PROPN	SP	_	47	flat:name	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Come minimo, per gratitudine, Elisabetta dovrebbe lasciare lo scettro a William, anziché a suo padre Carlo, quando verrà il momento.
+1	Come	come	ADP	E	_	2	case	_	_
+2	minimo	minimo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	gratitudine	gratitudine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Elisabetta	Elisabetta	PROPN	SP	_	9	nsubj	_	_
+8	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	scettro	scettro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	William	William	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	anziché	anziché	ADV	B	_	18	advmod	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	padre	padre	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+19	Carlo	Carlo	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	9	punct	_	_
+21	quando	quando	SCONJ	CS	_	22	mark	_	_
+22	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = Anche se, dal punto di vista del marketing, la mossa giusta a questo punto sarebbe lasciarlo a Kate.
+1	Anche	anche	ADV	B	_	20	mark	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	punto	punto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	marketing	marketing	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	punto	punto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20-21	lasciarlo	_	_	_	_	_	_	_	_
+20	lasciar	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Kate	Kate	PROPN	SP	_	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

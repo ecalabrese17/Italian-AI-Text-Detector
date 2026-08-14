@@ -1,0 +1,294 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma la rabbia inglese non è durata a lungo, poiché solo 3 minuti dopo, l'attaccante inglese Harry Kane ha ristabilito la parità portando il punteggio finale sull'1-1.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	inglese	inglese	ADJ	A	Number=Sing	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	poiché	poiché	SCONJ	CS	_	23	mark	_	_
+12	solo	solo	ADV	B	_	14	advmod	_	_
+13	3	3	NUM	N	NumType=Card	14	nummod	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+15	dopo	dopo	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	attaccante	attaccante	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+19	inglese	inglese	ADJ	A	Number=Sing	18	amod	_	_
+20	Harry	Harry	PROPN	SP	_	18	nmod	_	_
+21	Kane	Kane	PROPN	SP	_	20	flat:name	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	ristabilito	ristabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	parità	parità	NOUN	S	Gender=Fem	23	obj	_	_
+26	portando	portare	VERB	V	VerbForm=Ger	23	advcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	finale	finale	ADJ	A	Number=Sing	28	amod	_	_
+30-31	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+30	su	su	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	1	1	NUM	N	NumType=Card	26	obl	_	SpaceAfter=No
+33	-	-	PUNCT	FF	_	32	punct	_	SpaceAfter=No
+34	1	1	NUM	N	NumType=Card	32	compound	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Il match è stato disputato in un'atmosfera molto tesa, con le tifoserie delle due squadre che si sono scatenate in cori e insulti reciproci.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	match	match	NOUN	S	Gender=Masc	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	disputato	disputare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	tifoserie	tifoseria	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	scatenate	scatenare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	cori	coro	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+27	reciproci	reciproco	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = La tensione si è Umgebung sul campo, con numerosi falli e proteste da parte di entrambe le squadre.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Umgebung	Umgebung	PROPN	SP	_	4	obl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	campo	campo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	con	con	ADP	E	_	5	case	_	_
+11	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	falli	fallo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il direttore di gara è stato costretto ašķantare diverse ammonizioni e a gestire alcune situazioni diottesistiche.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gara	gara	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	ašķantare	ašķantare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	ammonizioni	ammonizione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	gestire	gestire	VERB	V	VerbForm=Inf	7	conj	_	_
+14	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	diottesistiche	diottesistico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Il gol di Berezutski è arrivato inaspettato, quando sembrava che la partita fosse diretta verso un pareggio a reti inviolate.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gol	goal	NOUN	S	Gender=Masc	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Berezutski	Berezutski	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	inaspettato	inaspettato	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	partita	partita	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	diretta	dirigere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+16	verso	verso	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	reti	rete	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	inviolate	inviolato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Il difensore russo è stato il più lesto a sfruttare un Corner battuto dalla sua squadra, anticipando la difesa inglese e battendo il portiere inglese Joe Hart con una варi Cervo in.contrib Boys efficace.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	difensore	difensore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	russo	russo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	lesto	lesto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	sfruttare	sfruttare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Corner	Corner	PROPN	SP	_	10	obj	_	_
+13	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	anticipando	anticipare	VERB	V	VerbForm=Ger	10	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	inglese	inglese	ADJ	A	Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	battendo	battere	VERB	V	VerbForm=Ger	19	conj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	inglese	inglese	ADJ	A	Number=Sing	26	amod	_	_
+28	Joe	Joe	PROPN	SP	_	26	nmod	_	_
+29	Hart	Hart	PROPN	SP	_	28	flat:name	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	варi	варo	NOUN	S	Number=Plur	24	obl	_	_
+33	Cervo	Cervo	PROPN	SP	_	32	nmod	_	_
+34	in.contrib	in.contrib	PROPN	SP	_	32	nmod	_	_
+35	Boys	Boys	PROPN	SP	_	34	flat:name	_	_
+36	efficace	efficace	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = La reazione inglese non si è fatta attendere, con Kane che ha ristabilito la parità con un calcio di punizione che ha superato in altezza la barriera e si è insaccato alle spalle del portiere russo Igor Akinfeev.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	inglese	inglese	ADJ	A	Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	attendere	attendere	VERB	V	VerbForm=Inf	7	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Kane	Kane	PROPN	SP	_	8	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ristabilito	ristabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	parità	parità	NOUN	S	Gender=Fem	14	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	insaccato	insaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	russo	russo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	Igor	Igor	PROPN	SP	_	38	nmod	_	_
+41	Akinfeev	Akinfeev	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Il risultato finale di 1-1 non rendered vuole justice allo spettacolo offerto dalle due squadre, ma composto una delle partite più emozionanti di questa fase delle Qualificazioni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	finale	finale	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	1	1	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+6	-1	-1	NUM	N	NumType=Card	8	nummod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	rendered	rendere	NOUN	S	Gender=Fem	2	nmod	_	_
+9	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	justice	justice	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+11-12	allo	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	14	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	composto	comporre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+22	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	21	obj	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	partite	partita	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	emozionanti	emozionante	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	fase	fase	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	Qualificazioni	Qualificazioni	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Entrambe le squadre hanno dato tutto sul campo, e despite thetechnical ability of the English team
+1	Entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	campo	campo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	despite	despire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	thetechnical	thetechnical	DET	DQ	Number=Sing|PronType=Int	14	det	_	_
+14	ability	ability	NOUN	S	Gender=Masc	12	obj	_	_
+15	of	of	ADP	E	_	18	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	English	English	ADJ	A	_	18	amod	_	_
+18	team	team	NOUN	S	Gender=Masc	14	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,533 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eppure lo scoglio economico che finora ha rallentato le trattative potrebbe essere superato senza spendere un euro:
+1	Eppure	eppure	ADV	B	_	3	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scoglio	scoglio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+4	economico	economico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	finora	finora	ADV	B	_	8	advmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rallentato	rallentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	trattative	trattativa	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	senza	senza	ADP	E	_	15	mark	_	_
+15	spendere	spendere	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	euro	euro	NOUN	S	Gender=Masc	15	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = basterebbe cancellare i sussidi alle fonti fossili per ottenere - secondo i calcoli di Fatih Birol, capo economista dell'Iea (International Energy Agency) - metà degli obiettivi di riduzione dei gas serra.
+1	basterebbe	bastare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	cancellare	cancellare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	fossili	fossile	ADJ	A	Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	ottenere	ottenere	VERB	V	VerbForm=Inf	7	acl	_	_
+11	-	-	PUNCT	FF	_	14	punct	_	_
+12	secondo	secondo	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	calcoli	calcolo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Fatih	Fatih	PROPN	SP	_	14	nmod	_	_
+17	Birol	Birol	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	capo	capo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+20	economista	economisto	NOUN	S	Number=Sing	19	compound	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Iea	Iea	PROPN	SP	_	20	nmod	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	International	International	PROPN	SP	_	23	appos	_	_
+26	Energy	Energy	PROPN	SP	_	25	flat:name	_	_
+27	Agency	Agency	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	25	punct	_	_
+29	-	-	PUNCT	FF	_	25	punct	_	_
+30	metà	metà	NOUN	S	Gender=Fem	23	nmod	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36-37	dei	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	gas	gas	NOUN	S	Gender=Masc	35	nmod	_	_
+39	serra	serra	NOUN	S	Gender=Fem|Number=Sing	38	compound	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il dato è contenuto in un dossier della Legambiente che mette in linea i numeri del paradosso climatico:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dato	dato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	contenuto	contenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dossier	dossier	NOUN	S	Gender=Masc	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Legambiente	Legambiente	PROPN	SP	_	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	linea	linea	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	paradosso	paradosso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = paghiamo per aumentare i livelli di inquinamento.
+1	paghiamo	pagare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	aumentare	aumentare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il World Energy Outlook 2014 dell'Iea ricorda che nel 2013 gli incentivi ai combustibili fossili, responsabili dell'84% delle emissioni serra, hanno raggiunto quota 550 miliardi di dollari (sussidi al consumo).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	World	World	NOUN	S	_	9	nsubj	_	_
+3	Energy	Energy	PROPN	SP	_	2	nmod	_	_
+4	Outlook	Outlook	PROPN	SP	_	3	flat:name	_	_
+5	2014	2014	NUM	N	NumType=Card	3	flat:name	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Iea	Iea	PROPN	SP	_	2	nmod	_	_
+9	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	32	mark	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2013	2013	NUM	N	NumType=Card	32	obl	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	combustibili	combustibile	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	fossili	fossile	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	responsabili	responsabile	ADJ	A	Number=Plur	18	amod	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	25	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+24	84	84	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	SYM	_	21	obl	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	serra	serra	NOUN	S	Gender=Fem|Number=Sing	28	compound	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	15	punct	_	_
+31	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+33	quota	quota	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+34	550	550	NUM	N	NumType=Card	35	nummod	_	_
+35	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+38	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Se al conteggio aggiungiamo i danni ambientali, sanitari e sociali prodotti dall'uso di petrolio, carbone e gas si arriva - stime del Fondo monetario internazionale - a 1.900 miliardi di dollari (circa il 2,5% del Pil globale).
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	conteggio	conteggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	aggiungiamo	aggiungere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	danni	danno	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	ambientali	ambientale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	sanitari	sanitario	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	sociali	sociale	ADJ	A	Number=Plur	8	conj	_	_
+13	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	_
+14-15	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	uso	uso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	gas	gas	NOUN	S	Gender=Masc	18	conj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:impers	_	_
+24	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	-	-	PUNCT	FF	_	24	punct	_	_
+26	stime	stima	NOUN	S	Gender=Fem|Number=Plur	24	xcomp	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	monetario	monetario	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	internazionale	internazionale	ADJ	A	Number=Sing	29	amod	_	_
+32	-	-	PUNCT	FB	_	29	punct	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	1.900	1.900	NUM	N	NumType=Card	35	nummod	_	_
+35	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+38	(	(	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+39	circa	circa	ADV	B	_	42	advmod	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	2,5	2,5	NUM	N	NumType=Card	42	nummod	_	SpaceAfter=No
+42	%	%	SYM	SYM	_	35	nmod	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Pil	Pil	PROPN	SP	_	42	nmod	_	_
+46	globale	globale	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	)	)	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 7
+# text = Contro i 120 miliardi di incentivi andati alle rinnovabili nel 2013.
+1	Contro	contro	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	120	120	NUM	N	NumType=Card	4	nummod	_	_
+4	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	rinnovabili	rinnovabile	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2013	2013	NUM	N	NumType=Card	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Una contraddizione evidente, eppure i sussidi alle fonti fossili continuano a crescere.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contraddizione	contraddizione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	evidente	evidente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	eppure	eppure	CCONJ	CC	_	7	cc	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	fossili	fossile	ADJ	A	Number=Plur	10	amod	_	_
+12	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	crescere	crescere	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Erano 544 nel 2012, 523 nel 2011 e 412 nel 2010.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	544	544	NUM	N	NumType=Card	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2012	2012	NUM	N	NumType=Card	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	523	523	NUM	N	NumType=Card	2	nummod	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2011	2011	NUM	N	NumType=Card	7	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	412	412	NUM	N	NumType=Card	7	conj	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2010	2010	NUM	N	NumType=Card	2	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Si prevede che questi fondi, destinati per il 92% ai produttori petroliferi, nel 2020 arriveranno a quota 660 miliardi, pari allo 0,7% del Pil mondiale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	20	mark	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	92	92	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	SYM	_	7	obl	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	produttori	produttore	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+15	petroliferi	petrolifero	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2020	2020	NUM	N	NumType=Card	7	obl	_	_
+20	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	quota	quota	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	660	660	NUM	N	NumType=Card	24	nummod	_	_
+24	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	pari	pari	ADJ	A	_	22	amod	_	_
+27-28	allo	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	0,7	0,7	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+30	%	%	SYM	SYM	_	26	obl	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Pil	Pil	PROPN	SP	_	30	nmod	_	_
+34	mondiale	mondiale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E in Italia?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Una contabilità dei sussidi alle fonti fossili non esiste, ma li abbiamo calcolati noi assemblando dati ufficiali:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	contabilità	contabilità	NOUN	S	Gender=Fem	12	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+10	fossili	fossile	ADJ	A	Number=Plur	9	amod	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+16	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	calcolati	calcolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	conj	_	_
+18	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+19	assemblando	assemblare	VERB	V	VerbForm=Ger	17	advcl	_	_
+20	dati	dato	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	ufficiali	ufficiale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 13
+# text = sono 17,8 miliardi di euro tra sussidi diretti, indiretti, esenzioni, sconti", commenta Edoardo Zanchini, vicepresidente di Legambiente.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	17,8	17,8	NUM	N	NumType=Card	3	nummod	_	_
+3	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	euro	euro	NOUN	S	Gender=Masc	3	nmod	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	sussidi	sussidio	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	diretti	diretto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	indiretti	indiretto	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	esenzioni	esenzione	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	sconti	sconto	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	Edoardo	Edoardo	PROPN	SP	_	17	nsubj	_	_
+19	Zanchini	Zanchini	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	vicepresidente	vicepresidente	NOUN	S	Number=Sing	18	appos	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Legambiente	Legambiente	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = "Un costo molto alto che si accompagna alle perdite in termini di bilancia commerciale:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	costo	costo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	alto	alto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	accompagna	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	perdite	perdita	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	termini	termine	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	bilancia	bilancia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	commerciale	commerciale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = la spesa nazionale per l'approvvigionamento di energia dall'estero nel 2013 è stata pari a 55,8 miliardi di euro.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+3	nazionale	nazionale	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	approvvigionamento	approvvigionamento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	energia	energia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	estero	estero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	2013	2013	NUM	N	NumType=Card	2	nmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+17	pari	pari	ADJ	A	_	0	root	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	55,8	55,8	NUM	N	NumType=Card	20	nummod	_	_
+20	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	euro	euro	NOUN	S	Gender=Masc	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 16
+# text = E' vero che si sta lentamente riducendo in parte per la crisi economica e in parte per gli interventi su efficienza energetica e rinnovabili.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	lentamente	lento	ADV	B	_	7	advmod	_	_
+7	riducendo	ridurre	VERB	V	VerbForm=Ger	2	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	crisi	crisi	NOUN	S	Gender=Fem	9	nmod	_	_
+13	economica	economico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	efficienza	efficienza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	rinnovabili	rinnovabile	ADJ	A	Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Ma l'elemento che più continua a pesare sulla nostra fattura energetica è il petrolio, con il 54% del costo totale.
+1	Ma	ma	CCONJ	CC	_	16	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	pesare	pesare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	fattura	fattura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	54	54	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	16	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	costo	costo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	totale	totale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 18
+# text = E l'aumento della voce legata al costo dei combustibili fossili, passata dal 2003 a oggi da 107 euro a 294 euro, ha fatto impennare le bollette elettriche delle famiglie".
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	costo	costo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	combustibili	combustibile	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	fossili	fossile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2003	2003	NUM	N	NumType=Card	16	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	oggi	oggi	ADV	B	_	30	advmod	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	107	107	NUM	N	NumType=Card	24	nummod	_	_
+24	euro	euro	NOUN	S	Gender=Masc	30	obl	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	294	294	NUM	N	NumType=Card	27	nummod	_	_
+27	euro	euro	NOUN	S	Gender=Masc	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31	impennare	impennare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	bollette	bolletta	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+34	elettriche	elettrico	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

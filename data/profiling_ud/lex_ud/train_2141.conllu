@@ -1,0 +1,436 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La piccola ha un neuroblastoma che le sta mangiando viva.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	neuroblastoma	neuroblastoma	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
+8	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	mangiando	mangiare	VERB	V	VerbForm=Ger	5	acl:relcl	_	_
+10	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = I suoi genitori stanno cercando di farle vivere gli utlimi istanti della sua breve vita nel miglior modo possibile, ma anche per loro è dura vedere tutta questa sofferenza raggruppata in un piccolo corpicino.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	farle	_	_	_	_	_	_	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	utlimi	utlimo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	istanti	istante	ADJ	A	Number=Plur	11	amod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	breve	breve	ADJ	A	Number=Sing	17	amod	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+22	possibile	possibile	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	29	punct	_	_
+24	ma	ma	CCONJ	CC	_	29	cc	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	29	obl	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	dura	duro	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+30	vedere	vedere	VERB	V	VerbForm=Inf	29	csubj	_	_
+31	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	33	det:predet	_	_
+32	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+33	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+34	raggruppata	raggruppare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+35	in	in	ADP	E	_	38	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	corpicino	corpicino	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = " Sono un fotografo e non mi sono mai trovato in una situazione del genere.
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fotografo	fotografo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	genere	genere	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non ho mai avuto difficoltà a fotografare una bimba.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	obj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	fotografare	fotografare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Lei, però, non è una bimba qualunque:
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	qualunque	qualunque	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = è mia figlia e sta morendo a causa di un cancro .
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	morendo	morire	VERB	V	VerbForm=Ger	3	conj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	causa	causa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il cancro infantile è terribile, prima che mia figlia contrasse non ne sapevo niente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	infantile	infantile	ADJ	A	Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	prima	prima	ADV	B	_	11	mark	_	_
+8	che	che	SCONJ	CS	_	7	fixed	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	contrasse	contrarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+15	niente	niente	PRON	PI	Number=Sing|PronType=Ind	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = E' devastante, ti toglie le forze anche se sei un mucchietto di ossa.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	devastante	devastante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	forze	forza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	anche	anche	ADV	B	_	12	mark	_	_
+9	se	se	SCONJ	CS	_	8	fixed	_	_
+10	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mucchietto	mucchietto	NOUN	S	Gender=Masc|Number=Sing	5	advcl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	ossa	osso	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Non ti guarda in faccia, se ti deve portare via lo fa " - inizia così il lungo post che il padre di Jessica ha scritto su Facebook.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	se	se	SCONJ	CS	_	10	mark	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	expl	_	_
+9	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	portare	portare	VERB	V	VerbForm=Inf	13	csubj	_	_
+11	via	via	ADV	B	_	13	advmod	_	_
+12	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	-	-	PUNCT	FF	_	13	punct	_	_
+16	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	così	così	ADV	B	_	16	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+20	post	post	ADV	B	_	16	advmod	_	_
+21	che	che	SCONJ	CS	_	27	mark	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	padre	padre	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Jessica	Jessica	PROPN	SP	_	23	nmod	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+28	su	su	ADP	E	_	29	case	_	_
+29	Facebook	Facebook	PROPN	SP	_	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ma tra le varie righe scritte, alcune hanno colpito l'attenzione degli utenti social: " Voi vede questa foto per la prima volta.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	tra	tra	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	varie	vario	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	righe	riga	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+6	scritte	scritto	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	utenti	utente	NOUN	S	Number=Plur	12	nmod	_	_
+16	social	social	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	10	punct	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	_
+19	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	20	nsubj	_	_
+20	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+21	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	foto	foto	NOUN	S	Gender=Fem	20	obj	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	volta	volta	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Noi genitori di questi bimbi siamo abituati.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	abituati	abituare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Ogni giorno ci si ripresenta questa immagine per più volte.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	ripresenta	ripresentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	più	più	DET	DI	PronType=Ind	10	det	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Vediamo i nostri figli contorcersi dal dolore e noi non possiamo fare nulla.
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	contorcersi	contorcergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	1	conj	_	_
+14	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = In questa foto Jessica sta piangendo da dolore.
+1	In	in	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	foto	foto	NOUN	S	Gender=Fem	6	obl	_	_
+4	Jessica	Jessica	PROPN	SP	_	6	nsubj	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	piangendo	piangere	VERB	V	VerbForm=Ger	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Una lacrima le riga il volto e le vene stanno per scoppiarle dal corpo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lacrima	lacrima	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+4	riga	rigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	volto	volto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	vene	vena	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+10	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	scoppiarle	_	_	_	_	_	_	_	_
+12	scoppiar	scoppiare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	obj	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Vi chiedo scusa se con queste immagini posso offendervi, non è mia intenzione.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	scusa	scusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+4	se	se	SCONJ	CS	_	9	mark	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	offendervi	_	_	_	_	_	_	_	SpaceAfter=No
+9	offender	offendere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+10	vi	vi	ADV	B	_	9	advmod	_	_
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Quello che vi chiedo è di aiutare la ricerca scientifica.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	aiutare	aiutare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Donate - se potete - qualcosa.
+1	Donate	Donata	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	4	punct	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	potete	potere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	-	-	PUNCT	FF	_	4	punct	_	_
+6	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Tantissimi bambini hanno il cancro infantile , ma di cure ce ne sono ancora troppo poche.
+1	Tantissimi	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	infantile	infantile	ADJ	A	Number=Sing	5	amod	_	_
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cure	cura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+11	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	conj	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	ancora	ancora	ADV	B	_	16	advmod	_	_
+15	troppo	troppo	ADV	B	_	16	advmod	_	_
+16	poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	11	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = E quelle che già esistono costano moltissimo" .
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	costano	costere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	moltissimo	molto	ADV	B	Degree=Abs	6	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	_
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = La volontà del padre di Jessica è semplicemente quello di sensibilizzare l'opinione pubblica sulla ricerca scientifica .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volontà	volontà	NOUN	S	Gender=Fem	10	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Jessica	Jessica	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	semplicemente	semplicemente	ADV	B	_	10	advmod	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	sensibilizzare	sensibilizzare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 22
+# text = La piccola tra qualche giorno si spegnerà, la nostra coscienza no. ( Guarda le foto della piccola Jessica ) Ecco il sito dove poter donare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	spegnerà	spegnere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+12	no	no	ADV	BN	PronType=Neg	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	_
+15	Guarda	guardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	foto	foto	NOUN	S	Gender=Fem	15	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	Jessica	Jessica	PROPN	SP	_	17	nmod	_	_
+22	)	)	PUNCT	FB	_	15	punct	_	_
+23	Ecco	ecco	ADV	B	_	7	advmod	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sito	sito	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+26	dove	dove	ADV	B	_	28	advmod	_	_
+27	poter	potere	AUX	VM	VerbForm=Inf	28	aux	_	_
+28	donare	donare	VERB	V	VerbForm=Inf	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

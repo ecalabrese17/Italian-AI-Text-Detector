@@ -1,0 +1,353 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le assicuro, è stato come ricevere un pugno nello stomaco, così le ho dato tutto quello che avevo, ossia 20 euro.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	assicuro	assicuro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	come	come	SCONJ	CS	_	7	mark	_	_
+7	ricevere	ricevere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	nello	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	così	così	ADV	B	_	17	advmod	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+21	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ossia	ossia	CCONJ	CC	_	25	cc	_	_
+24	20	20	NUM	N	NumType=Card	25	nummod	_	_
+25	euro	euro	NOUN	S	Gender=Masc	21	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Si è messa a piangere e mi ha voluto abbracciare e baciare e mi ha detto:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	piangere	piangere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	abbracciare	abbracciare	VERB	V	VerbForm=Inf	3	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	baciare	baciare	VERB	V	VerbForm=Inf	10	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = «Che Dio la benedica».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Che	che	DET	DQ	PronType=Int	3	det	_	_
+3	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	benedica	benedica	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Caro Sallusti, è così che il nostro paese si è ridotto?
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Sallusti	Sallusti	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	così	così	ADV	B	_	0	root	_	_
+6	che	che	SCONJ	CS	_	12	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Quando sento che immigrati che accogliamo buttano il cibo ho un moto di ribellione tale che mi verrebbe voglia di cacciarli tutti a calci nel sedere.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	accogliamo	accoglare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	buttano	buttare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	moto	moto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	ribellione	ribellione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	tale	tale	ADJ	A	Number=Sing	12	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	verrebbe	verere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	cacciarli	_	_	_	_	_	_	_	_
+21	cacciar	cacciare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	obl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	calci	calce	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sedere	sedere	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mi dica Lei, sono forse razzista?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dica	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	forse	forse	ADV	B	_	7	advmod	_	_
+7	razzista	razzedere	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Flavia Maccari e-mail Cara Flavia, purtroppo lei non è l'unica a cui è capitato di imbattersi in una situazione del genere.
+1	Flavia	Flavia	ADP	E	_	3	case	_	_
+2	Maccari	Maccaro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	e-mail	e-mail	NOUN	S	_	12	obl	_	_
+4	Cara	Caro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	Flavia	Flavia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	purtroppo	purtroppo	ADV	B	_	8	advmod	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	unica	unico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	imbattersi	_	_	_	_	_	_	_	_
+18	imbatter	imbattere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	genere	genere	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = La disperazione e il bisogno non hanno colore né razza, ma quando sono stampati sulla faccia dei nostri vicini di casa fanno ancora più male perché sono la prova di un fallimento che è tutto nostro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	colore	colore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	né	né	CCONJ	CC	_	10	cc	_	_
+10	razza	razza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	quando	quando	SCONJ	CS	_	15	mark	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	stampati	stampare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	casa	casa	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+26	ancora	ancora	ADV	B	_	27	advmod	_	_
+27	più	più	ADV	B	_	25	advmod	_	_
+28	male	male	ADV	B	_	25	obj	_	_
+29	perché	perché	SCONJ	CS	_	32	mark	_	_
+30	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	prova	prova	NOUN	S	Gender=Fem|Number=Sing	15	advcl	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+37	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+38	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	obl	_	_
+39	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Dei governi, che hanno il dovere di non lasciare indietro gli ultimi, ma anche di chi si occupa di soccorrere lo straprossimo e abbandona il prossimo al suo destino.
+1-2	Dei	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	governi	governo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	lasciare	lasciare	VERB	V	VerbForm=Inf	8	acl	_	_
+12	indietro	indietro	ADV	B	_	11	advmod	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	anche	anche	ADV	B	_	19	advmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	conj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	soccorrere	soccorrere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	straprossimo	straprossimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	27	obj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	destino	destino	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Che senso ha spendere tempo, soldi ed energie a occuparsi degli immigrati e abbandonare genitori anziani al loro destino, mai una visita, una carezza, un aiuto?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	spendere	spendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	energie	energia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-12	occuparsi	_	_	_	_	_	_	_	_
+11	occupar	occupare	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	abbandonare	abbandonare	VERB	V	VerbForm=Inf	11	conj	_	_
+18	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	destino	destino	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	mai	mai	ADV	B	_	27	advmod	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	visita	visita	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+34	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Stiamo ore collegati in internet a discutere dei massimi sistemi con un tizio dall'altra parte del mondo e non ci accorgiamo che il nostro vicino di casa è in grande difficoltà, spesso neppure lo conosciamo.
+1	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	collegati	collegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	internet	internet	NOUN	S	_	3	obl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	discutere	discutere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	massimi	massimo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tizio	tizio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15-16	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+15	da	da	ADP	E	_	18	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	expl	_	_
+25	accorgiamo	accorgere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+26	che	che	SCONJ	CS	_	35	mark	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	vicino	vicino	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	casa	casa	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	grande	grande	ADJ	A	Number=Sing	35	amod	_	_
+35	difficoltà	difficoltà	NOUN	S	Gender=Fem	25	ccomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	spesso	spesso	ADV	B	_	40	advmod	_	_
+38	neppure	neppure	ADV	BN	PronType=Neg	40	advmod	_	_
+39	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	35	advcl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Sarò vecchio, ma sono per meno global e più local.
+1	Sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	ma	ma	CCONJ	CC	_	8	cc	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	meno	meno	ADV	B	_	8	advmod	_	_
+8	global	global	NOUN	S	_	2	conj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	local	local	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = I razzisti veri sono quelli che snobbano il prossimo.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	razzisti	razzista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	veri	vero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	snobbano	snobbano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,353 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora in questione è di 80 anni ed è stata affidata, con un contratto di sette mesi, ad una domestica ecuadoriana di 25 anni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	80	80	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	sette	sette	NUM	N	NumType=Card	19	nummod	_	_
+19	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	ad	a	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpacesAfter=\s\s
+23	domestica	domestica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+24	ecuadoriana	ecuadoriano	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	25	25	NUM	N	NumType=Card	27	nummod	_	_
+27	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Secondo la relazione redatta dalla Prefettura, la collaboratrice domestica avrebbe tenuto un comportamento deplorevole sia con la propria padrona che con la di lei sorella.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+4	redatta	redattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Prefettura	Prefettura	PROPN	SP	_	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	collaboratrice	collaboratrice	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	domestica	domestico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	deplorevole	deplorevole	ADJ	A	Number=Sing	15	amod	_	_
+17	sia	sia	CCONJ	CC	_	21	cc	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+22	che	che	PRON	PR	PronType=Rel	26	case	_	_
+23	con	con	ADP	E	_	26	case	_	_
+24	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+27	sorella	sorello	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Per la turpe vicenda la colf è stata rinviata a giudizio con l’accusa di maltrattamenti.
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	turpe	turpa	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	vicenda	vicendere	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	colf	colf	NOUN	S	Number=Sing	9	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	rinviata	rinviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	maltrattamenti	maltrattamento	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = La Procura della Repubblica ha richiesto anche la misura cautelare del divieto di avvicinamento alle due vittime per evitare che la violenza continui, nell’attesa che si concluda il processo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procura	Procura	PROPN	SP	_	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Repubblica	Repubblica	PROPN	SP	_	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	misura	misura	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	cautelare	cautelare	ADJ	A	Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	avvicinamento	avvicinamento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	evitare	evitare	VERB	V	VerbForm=Inf	7	advcl	_	_
+23	che	che	SCONJ	CS	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28-29	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+28	in	in	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj:pass	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:pass	_	_
+33	concluda	concludere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	processo	processo	NOUN	S	Gender=Masc|Number=Sing	33	nsubj:pass	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Da parte sua l’assistita si è detta pronta a collaborare con la Procura per ottenere giustizia, rilasciando una intervista telefonica.
+1	Da	da	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	assistita	assistita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	collaborare	collaborare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Procura	Procura	PROPN	SP	_	11	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	ottenere	ottenere	VERB	V	VerbForm=Inf	11	advcl	_	_
+17	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	rilasciando	rilasciare	VERB	V	VerbForm=Ger	16	advcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = La badante secondo le ricostruzioni, si sarebbe confessata per le ripetute percosse e le frasi umilianti rivolte alla donna.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	badante	badante	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	secondo	secondo	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ricostruzioni	ricostruzione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	confessata	confessare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	ripetute	ripetuta	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	percosse	percosso	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+17	umilianti	umiliante	ADJ	A	Number=Plur	16	amod	_	_
+18	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	donna	donna	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Per la precisione la domestica le avrebbe strattonato il collo, preso a calci sulle gambe e minacciata di morte.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	domestica	domestica	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	strattonato	strattonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	collo	collo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	calci	calce	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	minacciata	minacciata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	morte	morte	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Le avrebbe che inoltre l'avrebbe apostrofata con insulti del tipo “vai a lavorare” e “tornatene da dove vieni”.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	inoltre	inoltre	ADV	B	_	7	advmod	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	apostrofata	apostrofare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	lavorare	lavorare	VERB	V	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	14	punct	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	tornatene	tornatena	ADV	B	_	23	case	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	dove	dove	ADV	B	_	23	advmod	_	_
+23	vieni	vieni	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 9
+# text = Parole che hanno disgustato profondamente l’interessata trattandosi della madre di sua madre con cui viva una storia di amore incondizionato ed affetto.
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	disgustato	disgustare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	profondamente	profondamente	ADV	B	_	4	advmod	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	interessata	interessata	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	trattandosi	_	_	_	_	_	_	_	_
+8	trattando	trattare	VERB	V	VerbForm=Ger	4	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	18	obl	_	_
+18	viva	vivere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	storia	storia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	amore	amore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	incondizionato	incondizionato	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	ed	e	CCONJ	CC	_	25	cc	_	_
+25	affetto	affetto	ADJ	A	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ovviamente, sono in tanti a chiedere un inasprimento delle multe per la riedizione di questo tipo di aggressioni in un paese civile.
+1	Ovviamente	ovviamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	chiedere	chiedere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	inasprimento	inasprimento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	multe	multa	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	riedizione	riedizione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	aggressioni	aggressione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+24	civile	civile	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = In attesa perciò di un’adeguata risposta dello Stato in termini assicurativi e di sostegno economico alla vittima delle deturpazioni familiari, alla signora non resta che continuare a vivere questa stagione di incertezze e mortificazioni fino alla conclusione della vicenda giudiziaria.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+3	perciò	perciò	ADV	B	_	7	advmod	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	adeguata	adeguato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8-9	dello	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	termini	termine	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+13	assicurativi	assicurativo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	economico	economico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	deturpazioni	deturpazione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	familiari	familiare	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	2	punct	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	signora	signore	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+31	che	che	SCONJ	CS	_	32	mark	_	_
+32	continuare	continuare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	vivere	vivere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
+36	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	incertezze	incertezza	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	mortificazioni	mortificazione	NOUN	S	Gender=Fem|Number=Plur	38	conj	_	_
+41	fino	fino	ADV	B	_	44	case	_	_
+42-43	alla	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	41	fixed	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+45-46	della	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	_
+48	giudiziaria	giudiziario	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

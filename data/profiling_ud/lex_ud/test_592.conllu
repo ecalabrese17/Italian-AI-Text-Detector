@@ -1,0 +1,227 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Secondo le stime, questo nuovo approccio potrebbe portare a risparmi di circa 2 miliardi di euro.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	stime	stima	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	portare	portare	VERB	V	VerbForm=Inf	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	risparmi	risparmio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	circa	circa	ADV	B	_	14	advmod	_	_
+14	2	2	NUM	N	NumType=Card	15	nummod	_	_
+15	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	euro	euro	NOUN	S	Gender=Masc	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Il problema dei farmaci vecchi e costosi è un tema che da tempo assilla il sistema sanitario italiano.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+15	assilla	assillare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Molti di questi farmaci, nonostante siano ancora utilizzati, non sono più all'avanguardia e possono avere effetti collaterali più gravi rispetto a quelli più moderni.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	nonostante	nonostante	SCONJ	CS	_	9	mark	_	_
+7	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	utilizzati	utilizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	più	più	ADV	B	_	16	advmod	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	avanguardia	avanguardia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	avere	avere	VERB	V	VerbForm=Inf	16	conj	_	_
+20	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	collaterali	collaterale	ADJ	A	Number=Plur	20	amod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	gravi	grave	ADJ	A	Number=Plur	20	amod	_	_
+24	rispetto	rispetto	ADV	B	_	26	case	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	20	nmod	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	moderni	moderno	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Inoltre, il loro costo è spesso eccessivamente elevato, gravando sulle casse del sistema sanitario e sui pazienti.
+1	Inoltre	inoltre	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	costo	costo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	spesso	spesso	ADV	B	_	9	advmod	_	_
+8	eccessivamente	eccessivamente	ADV	B	_	9	advmod	_	_
+9	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	gravando	gravare	VERB	V	VerbForm=Ger	9	advcl	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	casse	cassa	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	sui	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	pazienti	paziente	NOUN	S	Number=Plur	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Il nuovo prontuario dei farmaci mira a rivoluzionare questo scenario, promuovendo l'uso di farmaci più innovativi e meno costosi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	prontuario	prontuario	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	mira	mirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	rivoluzionare	rivoluzionare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	promuovendo	promuovere	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	uso	uso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	innovativi	innovativo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	meno	meno	ADV	B	_	22	advmod	_	_
+22	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ciò sarà possibile grazie a una revisione approfondita delle liste dei farmaci autorizzati e a una maggiore attenzione verso le esigenze dei pazienti.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+4	grazie	grazie	NOUN	S	_	7	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	approfondita	approfondire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	liste	lista	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	autorizzati	autorizzato	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	20	amod	_	_
+20	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+21	verso	verso	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	pazienti	paziente	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = I medici e gli esperti sanitari saranno incoraggiati a prescrivere farmaci più efficaci e meno costosi, riducendo così la spesa farmaceutica e migliorando la qualità delle cure.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	medici	medico	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	sanitari	sanitario	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	incoraggiati	incoraggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	prescrivere	prescrivere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	efficaci	efficace	ADJ	A	Number=Plur	11	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	meno	meno	ADV	B	_	16	advmod	_	_
+16	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	riducendo	ridurre	VERB	V	VerbForm=Ger	8	advcl	_	_
+19	così	così	ADV	B	_	18	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	farmaceutica	farmaceutico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	migliorando	migliorare	VERB	V	VerbForm=Ger	18	conj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	qualità	qualità	NOUN	S	Gender=Fem	24	obj	_	_
+27-28	delle	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	cure	cura	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = L'introduzione del nuovo prontuario dei farmaci è il risultato di un lungo e impegnativo lavoro di
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	introduzione	introduzione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	prontuario	prontuario	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	18	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+15	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	impegnativo	impegnativo	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+19	di	di	ADP	E	_	18	case	_	SpacesAfter=\n
+

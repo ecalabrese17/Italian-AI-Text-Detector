@@ -1,0 +1,595 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Forse il vostro.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vostro	vostro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma di qualcuno sicuramente.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	sicuramente	sicuramente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il piccolo ha un anno e mezzo e ha una malattia genetica che potrebbe portarselo via in pochi mesi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piccolo	piccolo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	genetica	genetico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-17	portarselo	_	_	_	_	_	_	_	_
+15	portar	portare	VERB	V	VerbForm=Inf	11	acl:relcl	_	_
+16	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+18	via	via	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Potrebbe spezzargli le ali prima ancora che possa imparare a volare.
+1	Potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	spezzargli	_	_	_	_	_	_	_	_
+2	spezzar	spezzare	VERB	V	VerbForm=Inf	0	root	_	_
+3	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ali	ala	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	prima	prima	ADV	B	_	10	advmod	_	_
+7	ancora	ancora	ADV	B	_	10	advmod	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	imparare	imparare	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	volare	volare	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nato e residente a Londra, dove lavorano i suoi genitori italiani, Alessandro non sta bene.
+1	Nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	residente	residente	ADJ	A	Number=Sing	1	conj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Londra	Londra	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	dove	dove	ADV	B	_	8	advmod	_	_
+8	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	Alessandro	Alessandro	PROPN	SP	_	8	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+17	bene	bene	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Così il papà Paolo Montresor e la mamma Cristiana Console hanno chiesto l'aiuto del web.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	papà	papà	NOUN	S	Gender=Masc	12	nsubj	_	_
+4	Paolo	Paolo	PROPN	SP	_	3	nmod	_	_
+5	Montresor	Montresor	PROPN	SP	_	4	flat:name	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	Cristiana	cristiana	PROPN	SP	_	8	nmod	_	_
+10	Console	console	PROPN	SP	_	9	flat:name	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	web	webbraio	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = I medici che gli hanno diagnosticato l' Hlm (malattia rarissima che colpisce solo lo 0,002 dei bambini), lo stanno curando con un farmaco sperimentale che però il bambino prima o poi metabolizzerà, e allora non servirà più a niente.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	medici	medico	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	diagnosticato	diagnosticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Hlm	Hlm	PROPN	SP	_	6	obj	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+11	rarissima	raro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	colpisce	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	solo	solo	ADV	B	_	13	advmod	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	0,002	0,002	NUM	N	NumType=Card	13	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+23	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	curando	curare	VERB	V	VerbForm=Ger	0	root	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	sperimentale	sperimentale	ADJ	A	Number=Sing	27	amod	_	_
+29	che	che	PRON	PR	PronType=Rel	36	obj	_	_
+30	però	però	ADV	B	_	32	advmod	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+33	prima	prima	ADV	B	_	36	advmod	_	_
+34	o	o	CCONJ	CC	_	36	cc	_	_
+35	poi	poi	ADV	B	_	36	advmod	_	_
+36	metabolizzerà	metabolizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	41	punct	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39	allora	allora	ADV	B	_	41	advmod	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	servirà	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	conj	_	_
+42	più	più	ADV	B	_	41	advmod	_	_
+43	a	a	ADP	E	_	44	case	_	_
+44	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	41	obl	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 8
+# text = E nessuno, nemmeno la casa farmaceutica produttrice, è in grado di dire per quanto tempo quella medicina può fare effetto.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nemmeno	nemmeno	ADV	BN	PronType=Neg	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+7	farmaceutica	farmaceutico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	produttrice	produttrice	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	dire	dire	VERB	V	VerbForm=Inf	12	acl	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	medicina	medicino	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	12	conj	_	_
+22	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Per questo l'appello sui social perché solo una cosa potrebbe funzionare:
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	appello	appello	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	social	social	NOUN	S	Gender=Masc	4	nmod	_	_
+8	perché	perché	SCONJ	CS	_	13	mark	_	_
+9	solo	solo	ADV	B	_	13	advmod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	funzionare	funzionare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 10
+# text = il trapianto di midollo osseo .
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trapianto	trapianto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	osseo	osseo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il trapianto di midollo osseo In questo contesto così tragico e drammatico, c'è nche un però grosso come una casa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trapianto	trapianto	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	osseo	osseo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	In	in	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	tragico	tragico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	nche	nche	ADV	BN	PronType=Neg	15	advmod	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	però	però	ADV	B	_	19	advmod	_	_
+19	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = In tutti i registri mondiali dei donatori non ce n’è uno che sia compatibile con le sue caratteristiche.
+1	In	in	ADP	E	_	4	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	registri	registro	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+5	mondiali	mondiale	ADJ	A	Number=Plur	4	amod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	donatori	donatore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+11	n’	no	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	13	iobj	_	SpaceAfter=No
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+14	che	che	SCONJ	CS	_	16	mark	_	_
+15	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	compatibile	compatibile	ADJ	A	Number=Sing	13	ccomp	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 13
+# text = Alessandro non solo ha una malattia rarissima, ha anche un antigene altrettanto raro, e così pure quell’unica soluzione, che comunque non è una passeggiata, sembra irraggiungibile.
+1	Alessandro	Alessandro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	rarissima	raro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	antigene	antigena	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	altrettanto	altrettanto	ADV	B	_	14	advmod	_	_
+14	raro	raro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	22	punct	_	_
+16	e	e	CCONJ	CC	_	22	cc	_	_
+17	così	così	ADV	B	_	22	advmod	_	_
+18	pure	pure	ADV	B	_	19	advmod	_	_
+19-20	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	qui	qui	ADV	B	_	22	advmod	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+21	unica	unico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+25	comunque	comunque	ADV	B	_	29	advmod	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	22	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+32	irraggiungibile	irraggiungibile	ADJ	A	Number=Sing	31	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Nessuno vuole arrendersi.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	arrendersi	_	_	_	_	_	_	_	SpaceAfter=No
+3	arrender	arrendere	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Tanto meno la famiglia di Alessandro.
+1	Tanto	tanto	ADV	B	_	2	advmod	_	_
+2	meno	meno	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Alessandro	Alessandro	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Per questo l'uso dei social:
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uso	uso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	social	social	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 17
+# text = per far conoscere il caso del loro bambino e trovare un donatore compatibile.
+1	per	per	ADP	E	_	2	mark	_	_
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	conoscere	conoscere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	trovare	trovare	VERB	V	VerbForm=Inf	2	conj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	donatore	donatore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	compatibile	compatibile	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Forse qualcuno che non sia ancora iscritto nei registri internazionali.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	iscritto	iscrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	registri	registro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	internazionali	internazionale	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = La pagina Facebook per Alessandro La pagina Facebook aperta a nome di Alessandro sta funzionando.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	Facebook	Facebook	PROPN	SP	_	2	nmod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	Alessandro	Alessandro	PROPN	SP	_	2	nmod	_	_
+6	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	Facebook	Facebook	PROPN	SP	_	7	nmod	_	_
+9	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Alessandro	Alessandro	PROPN	SP	_	11	nmod	_	_
+14	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	funzionando	funzionare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 20
+# text = In centianaia chiedono informazioni, contattano la famiglia e si stanno facendo avanti.
+1	In	in	ADP	E	_	2	case	_	_
+2	centianaia	centianaio	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	contattano	contattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	3	conj	_	_
+13	avanti	avanti	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Il coordinamento dei presidi delle scuole superiori campane ha preso contatti con l’Admo (l’associazione donatori di midollo osseo) invitando gli studenti maggiorenni a sottoporsi al prelievo di saliva dal quale si può stabilire l’eventuale compatibilità con il bambino.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	coordinamento	coordinamento	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	presidi	presidio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	8	amod	_	_
+10	campane	campana	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	contatti	contatto	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Admo	Admo	PROPN	SP	_	12	obl	_	_
+17	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	16	appos	_	_
+20	donatori	donatore	NOUN	S	Gender=Masc|Number=Plur	19	compound	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	osseo	osseo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	19	punct	_	_
+25	invitando	invitare	VERB	V	VerbForm=Ger	12	advcl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	maggiorenni	maggiorenne	ADJ	A	Number=Plur	27	amod	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30-31	sottoporsi	_	_	_	_	_	_	_	_
+30	sottopor	sottoporre	VERB	V	VerbForm=Inf	25	xcomp	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	prelievo	prelievo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	saliva	saliva	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	quale	quale	PRON	PR	Number=Sing|PronType=Rel	42	obl	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl:impers	_	_
+41	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	stabilire	stabilire	VERB	V	VerbForm=Inf	36	acl:relcl	_	_
+43	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+44	eventuale	eventuale	ADJ	A	Number=Sing	45	amod	_	_
+45	compatibilità	compatibilità	NOUN	S	Gender=Fem	42	obj	_	_
+46	con	con	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 22
+# text = La famiglia di Alessandro e l’Admo stanno organizzando punti di raccolta nelle piazze dove chiunque - purché maggiorenne e non più che 35enne -può andare a sottoporsi al prelievo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Alessandro	Alessandro	PROPN	SP	_	2	nmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Admo	Admo	PROPN	SP	_	2	conj	_	_
+8	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	organizzando	organizzare	VERB	V	VerbForm=Ger	0	root	_	_
+10	punti	punto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+16	dove	dove	ADV	B	_	17	case	_	_
+17	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	15	acl:relcl	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	purché	purché	SCONJ	CS	_	20	mark	_	_
+20	maggiorenne	maggiorenne	ADJ	A	Gender=Fem|Number=Plur	17	advcl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	più	più	ADV	B	_	20	conj	_	_
+24	che	che	SCONJ	CS	_	27	mark	_	_
+25	35enne	35enere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+26	-può	-potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	andare	andare	VERB	V	VerbForm=Inf	23	ccomp	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29-30	sottoporsi	_	_	_	_	_	_	_	_
+29	sottopor	sottoporre	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	prelievo	prelievo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 23
+# text = Oggi e domani saranno a Milano, in piazza Sraffa, sabato in piazza Trieste e Trento a Napoli, domenica a Caserta, in piazza Dante.
+1	Oggi	oggi	ADV	B	_	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	domani	domani	ADV	B	_	4	advmod	_	_
+4	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Milano	Milano	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Sraffa	Sraffa	PROPN	SP	_	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	Trieste	Trieste	PROPN	SP	_	14	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Trento	Trento	PROPN	SP	_	1	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Napoli	Napoli	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Caserta	Caserta	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+27	Dante	Dante	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = "Io e mia moglie siamo pronti a spostare le montagne, ma dobbiamo avere un appiglio da quale cominciare - dice Paolo al Corriere -.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	spostare	spostare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	montagne	montagna	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	avere	avere	VERB	V	VerbForm=Inf	7	conj	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	appiglio	appiglio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	obl	_	_
+20	cominciare	cominciare	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	-	-	PUNCT	FF	_	22	punct	_	_
+22	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+23	Paolo	Paolo	PROPN	SP	_	22	nsubj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Corriere	Corriere	PROPN	SP	_	22	obl	_	_
+27	-	-	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Donare il midollo osseo non comporta nulla di invasivo.
+1	Donare	Donare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	osseo	osseo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	invasivo	invasivo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = È come donare il sangue, uguale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	donare	donare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	uguale	uguale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Un prelievo in vena".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	prelievo	prelievo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	vena	vena	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Ecco la pagina Facebook
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	Facebook	Facebook	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

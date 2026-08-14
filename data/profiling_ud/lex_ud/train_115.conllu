@@ -1,0 +1,359 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un’altra serata, un altro scandalo, un’altra sconfitta per la nostra cultura.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	sconfitta	sconfitta|sconfitto	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il talento – se così si può chiamare – di Belen Rodriguez ha fatto drizzare le antenne a più suon di campana.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	talento	talento	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	–	–	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	8	mark	_	_
+5	così	così	ADV	B	_	8	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	chiamare	chiamare	VERB	V	VerbForm=Inf	14	advcl	_	_
+9	–	–	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Belen	Belen	PROPN	SP	_	8	obl	_	_
+12	Rodriguez	Rodriguez	PROPN	SP	_	11	flat:name	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	drizzare	drizzare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	antenne	antenna	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	suon	suon	ADV	BN	PronType=Neg	15	advmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	campana	campano	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Batte il Ciak, la famosa casa di produzione che si crede custode di valori e di un’immagine “seria” della televisione.
+1	Batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ciak	Ciak	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	custode	custode	NOUN	S	Gender=Masc|Number=Sing	12	xcomp	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	valori	valore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	seria	serio	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	19	punct	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un’affermazione che non riguarda tanto la capacità performativa della showgirl, né tanto meno le sue competizioni con i colleghi televisivi, quanto un’amara verità:
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	tanto	tanto	ADV	B	_	5	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	capacità	capacità	NOUN	S	Gender=Fem	5	obj	_	_
+9	performativa	performativo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	showgirl	showgirl	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	né	né	CCONJ	CC	_	19	cc	_	_
+15	tanto	tanto	ADV	B	_	16	advmod	_	_
+16	meno	meno	ADV	B	_	19	advmod	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	competizioni	competizione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	televisivi	televisivo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	quanto	quanto	ADP	E	_	28	case	_	_
+26	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+27	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	verità	verità	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = la televisione italiana è stata completamente comprata, e il gusto del pubblico, se non si vuole dire la sua sensibilità, è stato manipolato.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	completamente	completamente	ADV	B	_	7	advmod	_	_
+7	comprata	comprare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	se	se	SCONJ	CS	_	20	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+19	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dire	dire	VERB	V	VerbForm=Inf	7	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	sensibilità	sensibilità	NOUN	S	Gender=Fem	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	manipolato	manipolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Si parla di “voto popolare”, di “piace al pubblico”, di “bisogna seguire le preferenze del telespettatore”.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	voto	voto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+6	popolare	popolare	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	di	di	ADP	E	_	19	mark	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	seguire	seguire	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	telespettatore	telespettatore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma chi decide cosa piace?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	nsubj	_	_
+3	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Chi stabilisce il criterio di valutazione?
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	stabilisce	stabilire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E, soprattutto, chi si permette di imporre questi criteri al nostro pubblico?
+1	E	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	soprattutto	soprattutto	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	imporre	imporre	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = La risposta è chiara:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = gli interessi economici e le logiche del mercato, dettate da una minoranza di potenti che vedono nella televisione un mero strumento di profitto.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	economici	economico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	logiche	logica	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	dettate	dettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	potenti	potente	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	mero	mero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = L'intervento di De Filippi, uno degli ultimi baluardi di buon senso e di rispetto per le tradizioni, si scontra con questa nuova, pericolosa deriva.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	De	De	PROPN	SP	_	2	nmod	_	_
+5	Filippi	Filippi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	appos	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
+11	baluardi	baluardo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	buon	buono	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	senso	senso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	scontra	scontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	con	con	ADP	E	_	29	case	_	_
+25	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+26	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	pericolosa	pericolosa	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	deriva	derivo	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 13
+# text = La sua decisione di mettere in pausa Italia’s Got Talent non è un atto di ostilità verso la Rodriguez, né un gesto di misoginia, come vorrebbero far credere i commentatori più sensazionalistici (e, diciamolo, spesso guidati da interessi ben precisi).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	mettere	mettere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	Italia	Italia	PROPN	SP	_	5	obj	_	SpaceAfter=No
+9	’s	’s	PROPN	SW	Foreign=Yes	8	flat:name	_	_
+10	Got	Got	PROPN	SP	_	8	flat:name	_	_
+11	Talent	Talent	PROPN	SP	_	8	flat:name	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	atto	atto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	ostilità	ostilità	NOUN	S	Gender=Fem	15	nmod	_	_
+18	verso	verso	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Rodriguez	Rodriguez	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	né	né	CCONJ	CC	_	24	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	misoginia	misoginia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	come	come	SCONJ	CS	_	29	mark	_	_
+29	vorrebbero	vorere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+30	far	fare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+31	credere	credere	VERB	V	VerbForm=Inf	30	ccomp	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	commentatori	commentatore	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34	più	più	ADV	B	_	35	advmod	_	_
+35	sensazionalistici	sensazionalistico	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+36	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+37	e	e	CCONJ	CC	_	38	cc	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	33	punct	_	_
+39-40	diciamolo	_	_	_	_	_	_	_	SpaceAfter=No
+39	diciamo	dire	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+40	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	,	,	PUNCT	FF	_	43	punct	_	_
+42	spesso	spesso	ADV	B	_	43	advmod	_	_
+43	guidati	guidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	39	conj	_	_
+44	da	da	ADP	E	_	45	case	_	_
+45	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	43	obl:agent	_	_
+46	ben	bene	ADV	B	_	47	advmod	_	_
+47	precisi	preciso	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+48	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 14
+# text = È un segnale, un grido d’allarme.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	grido	grido	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	d’	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = È un riconoscimento che
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	3	nsubj	_	SpacesAfter=\n
+

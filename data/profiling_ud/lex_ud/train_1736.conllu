@@ -1,0 +1,753 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = la battaglia di Arginuse.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Arginuse	Arginuse	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Fu lì che gli ateniesi sconfissero gli spartani, verso la fine della Guerra del Peloponneso.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	lì	lì	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ateniesi	ateniesi	NOUN	S	Number=Plur	6	nsubj	_	_
+6	sconfissero	sconfisdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	spartani	spartano	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	verso	verso	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Peloponneso	Peloponneso	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma le perdite furono pesanti per Atene che successivamente affrontò la sconfitta.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	perdite	perdita	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	pesanti	pesare	ADJ	A	Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	Atene	Atene	PROPN	SP	_	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	successivamente	successivamente	ADV	B	_	10	advmod	_	_
+10	affrontò	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Da un'isola una penisola.
+1	Da	da	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	isola	isola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Le isole Arginuse, oggi chiamate Garip, si trovano a poche centinaia di metri al largo della costa turca.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	isole	isola	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	Arginuse	Arginuse	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	oggi	oggi	ADV	B	_	7	advmod	_	_
+6	chiamate	chiamare	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	Garip	Garip	PROPN	SP	_	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	metri	metro	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	largo	largo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	costa	costa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	turca	turca	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Le fonti storiche parlano di tre isole, ma per lungo tempo l'esatta posizione della terza è rimasta sconosciuta.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	fonti	fonto	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	storiche	storico	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	isole	isola	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	20	punct	_	_
+9	ma	ma	CCONJ	CC	_	20	cc	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	esatta	esatto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	nmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21	sconosciuta	sconosciuto	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = I test effettuati dai ricercatori indicherebbero che l'attuale penisola costituiva un tempo un'isola.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	test	test	NOUN	S	Gender=Masc	7	nsubj	_	_
+3	effettuati	effettuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	3	obl:agent	_	_
+7	indicherebbero	indichare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	attuale	attuale	ADJ	A	Number=Sing	11	amod	_	_
+11	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	costituiva	costituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	isola	isola	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = In un momento imprecisato prima della fine del Medioevo, tra l'isola e la terraferma si formò un ponte di terra.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+4	imprecisato	imprecisato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	prima	prima	ADV	B	_	8	case	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fine	fine	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Medioevo	Medioevo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	isola	isola	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	terraferma	terraferma	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	formò	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	terra	terra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 9
+# text = Una mappa ottomana del XVI secolo mostra infatti che all'epoca l'isola era già diventata una penisola.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mappa	mappa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ottomana	ottomano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	XVI	sedicesimo	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	_
+7	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	infatti	infatti	ADV	B	_	8	advmod	_	_
+10	che	che	SCONJ	CS	_	18	mark	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	isola	isola	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Sembra che l'isola si sia connessa con la terraferma grazie ai depositi accumulatisi in uno stretto canale naturale, forse in seguito a un terremoto o all'erosione del suolo.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	isola	isola	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	connessa	connessare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	terraferma	terraferma	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	obl	_	_
+11	grazie	grazie	NOUN	S	_	14	case	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	depositi	deposito	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15-16	accumulatisi	_	_	_	_	_	_	_	_
+15	accumulati	accumulare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	canale	canale	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+21	naturale	naturale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	forse	forse	ADV	B	_	25	advmod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	terremoto	terremoto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	o	o	CCONJ	CC	_	32	cc	_	_
+30-31	all'	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	erosione	erosione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = "Gli studiosi stanno cercando di stabilire l'età della stratificazione attraverso la datazione al radiocarbonio, il che contribuirebbe a determinare la dinamica del fenomeno", ha detto Felix Pirson, direttore dell'Istituto Archeologico Tedesco di Instanbul.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	studiosi	studioso	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	stabilire	stabilire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	età	età	NOUN	S	Gender=Fem	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stratificazione	stratificazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	attraverso	attraverso	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	datazione	datazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	radiocarbonio	radiocarbonio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	contribuirebbe	contribuire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	determinare	determinare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	dinamica	dinamica	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	5	punct	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+34	Felix	Felix	PROPN	SP	_	33	nsubj	_	_
+35	Pirson	Pirson	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	34	appos	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	Istituto	Istituto	PROPN	SP	_	37	nmod	_	_
+41	Archeologico	archeologico	PROPN	SP	_	40	flat:name	_	_
+42	Tedesco	tedesco	PROPN	SP	_	40	flat:name	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	Instanbul	Instanbul	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Gli archeologi hanno anche rinvenuto nelle vicinanze i resti sommersi di un antico porto risalente al periodo Ellenistico (dal 323 a.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	archeologi	archeologo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	rinvenuto	rinvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	vicinanze	vicinanza	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	resti	resto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+11	sommersi	sommerso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	antico	antico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	porto	porto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	risalente	risalente	ADJ	A	Number=Sing	15	amod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+20	Ellenistico	Ellenistico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	323	323	NUM	N	NumType=Card	5	obl	_	_
+25	a	a	X	X	_	24	flat	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = C.
+1	C.	cetera	NOUN	S	_	0	root	_	_
+
+# sent_id = 14
+# text = al 31 a.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	31	31	NUM	N	NumType=Card	0	root	_	_
+4	a	a	X	X	_	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = C. ), il che costituisce un'ulteriore indicazione del fatto che l'attuale penisola era un tempo separata dalla terraferma.
+1	C.	c.	NOUN	S	_	6	nmod	_	_
+2	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	costituisce	costituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ulteriore	ulteriore	ADJ	A	Number=Sing	9	amod	_	_
+9	indicazione	indicazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	attuale	attuale	ADJ	A	Number=Sing	16	amod	_	_
+16	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	_
+20	separata	separare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	terraferma	terraferma	NOUN	S	Gender=Fem|Number=Sing	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = L'antica città di Kane.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	antica	antico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	città	città	NOUN	S	Gender=Fem	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Kane	Kane	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Anche se durante l'antichità Kane era solo un villaggio, occupava una posizione strategica lungo una rotta commerciale marittima dal Mar Nero lungo la costa meridionale della Turchia, con un vasto porto nel quale le imbarcazioni potevano trovare riparo dalle tempeste.
+1	Anche	anche	ADV	B	_	10	advmod	_	_
+2	se	se	SCONJ	CS	_	10	mark	_	_
+3	durante	durante	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	antichità	antichità	NOUN	S	Gender=Fem	10	obl	_	_
+6	Kane	Kane	PROPN	SP	_	10	nsubj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	occupava	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	lungo	lungo	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	commerciale	commerciale	ADJ	A	Number=Sing	18	amod	_	_
+20	marittima	marittimo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Mar	Mar	PROPN	SP	_	20	obl	_	_
+24	Nero	Nero	PROPN	SP	_	23	flat:name	_	_
+25	lungo	lungo	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	costa	costa	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	meridionale	meridionale	ADJ	A	Number=Sing	27	amod	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Turchia	Turchia	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	12	punct	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	vasto	vasto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+36	porto	porto	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	nel	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	quale	quale	PRON	PR	Number=Sing|PronType=Rel	43	obl	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	imbarcazioni	imbarcazioni	NOUN	S	Gender=Fem|Number=Plur	43	nsubj	_	_
+42	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+43	trovare	trovare	VERB	V	VerbForm=Inf	35	acl:relcl	_	_
+44	riparo	riparo	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+45-46	dalle	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 18
+# text = Le ricerche precedenti avevano riportato alla luce sull'isola ceramiche che evidenziano la presenza di rotte commerciali;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	precedenti	precedente	ADJ	A	Number=Plur	2	amod	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	luce	luce	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+9	su	su	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	isola	isola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	ceramiche	ceramiche	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	evidenziano	evidenziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	rotte	rotta	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	commerciali	commerciale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 19
+# text = una rete di rotte la cui esistenza è oggi ulteriormente testimoniata da microrganismi originari dal Mar Nero.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rete	rete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	rotte	rotta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	cui	cui	DET	DR	PronType=Rel	7	det:poss	_	_
+7	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+9	oggi	oggi	ADV	B	_	11	advmod	_	_
+10	ulteriormente	ulteriormente	ADV	B	_	11	advmod	_	_
+11	testimoniata	testimoniare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	microrganismi	microrganismo	NOUN	S	Gender=Masc|Number=Plur	11	obl:agent	_	_
+14	originari	originare	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Mar	Mar	PROPN	SP	_	14	obl	_	_
+18	Nero	Nero	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = "L'archeologia classica è diventata ben più complessa rispetto a un ventennio fa - spiega Pirson - .Oggi può essere integrata da tecniche sofisticate che permettono di studiare le diverse influenze ambientali".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	archeologia	archeologia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	classica	classico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ben	bene	ADV	B	_	9	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	_
+10	rispetto	rispetto	ADP	E	_	13	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ventennio	ventennio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	fa	fare	ADV	B	_	13	advmod	_	_
+15	-	-	PUNCT	FB	_	16	punct	_	_
+16	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+17	Pirson	Pirson	PROPN	SP	_	16	nsubj	_	_
+18	-	-	PUNCT	FF	_	16	punct	_	_
+19	.Oggi	.Oggi	PROPN	SP	_	22	nsubj:pass	_	_
+20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	22	aux:pass	_	_
+22	integrata	integrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	22	obl:agent	_	_
+25	sofisticate	sofisticato	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	permettono	permettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	studiare	studiare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+31	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+32	influenze	influenza	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+33	ambientali	ambientale	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = La battaglia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = La battaglia delle Arginuse ebbe un risvolto amaro per gli ateniesi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Arginuse	Arginuse	PROPN	SP	_	2	nmod	_	_
+6	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	risvolto	risvolto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	amaro	amaro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	ateniesi	ateniesi	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Pur avendo sconfitto gli spartani, in seguito una tempesta rese loro impossibile recuperare i compagni le cui navi erano andate distrutte.
+1	Pur	pure	ADV	B	_	3	advmod	_	_
+2	avendo	avere	AUX	VA	VerbForm=Ger	3	aux	_	_
+3	sconfitto	sconfiggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	spartani	spartano	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+11	rese	rese	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	iobj	_	_
+13	impossibile	impossibile	ADJ	A	Number=Sing	11	xcomp	_	_
+14	recuperare	recuperare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	cui	cui	DET	DR	PronType=Rel	19	det:poss	_	_
+19	navi	nave	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+20	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+22	distrutte	distrutte	ADJ	A	Gender=Fem|Number=Plur	21	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Quando i generiali ateniesi fecero ritorno a casa, vennero condannati a morte dai loro concittadini per non essere riusciti a salvare i loro soldati.
+1	Quando	quando	SCONJ	CS	_	5	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	generiali	generiale	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	ateniesi	ateniese	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+6	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	vennero	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	morte	morte	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14-15	dai	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	concittadini	concittadino	NOUN	S	Gender=Masc|Number=Plur	11	obl:agent	_	_
+18	per	per	ADP	E	_	21	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	21	aux	_	_
+21	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	advcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	salvare	salvare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 25
+# text = "Ciò demoralizzò i comandanti ateniesi e di fatto contribuì, un anno dopo, alla loro definitiva sconfitta nella Guerra del Peloponneso", spiega lo storico Barry Strauss della Cornell University.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ciò	Ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	demoralizzò	demoralizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	comandanti	comandante	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	ateniesi	ateniese	ADJ	A	Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	contribuì	contribuì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	dopo	dopo	ADP	E	_	13	case	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	20	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Peloponneso	Peloponneso	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	3	punct	_	_
+29	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	storico	storico	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	Barry	Barry	PROPN	SP	_	29	nsubj	_	_
+33	Strauss	strauss	PROPN	SP	_	32	flat:name	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Cornell	Cornell	PROPN	SP	_	32	nmod	_	_
+37	University	University	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = La vendetta di Atene decretò di fatto la successiva sconfitta e vittoria degli spartani, concorda Paul Cartledge della Cambridge University.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vendetta	vendetta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Atene	Atene	PROPN	SP	_	2	nmod	_	_
+5	decretò	decretare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	spartani	spartano	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	concorda	concordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	Paul	Paul	PROPN	SP	_	17	nsubj	_	_
+19	Cartledge	Cartledge	PROPN	SP	_	18	flat:name	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Cambridge	Cambridge	PROPN	SP	_	18	nmod	_	_
+23	University	University	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = "Mettendo sotto processo gli otto ammiragli che avevano vinto la battaglia, e condannandoli illegalmente a morte, la democratica Atene trasformò una vittoria in sconfitta".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Mettendo	mettere	VERB	V	VerbForm=Ger	24	advcl	_	_
+3	sotto	sotto	ADP	E	_	4	case	_	_
+4	processo	processo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	otto	otto	NUM	N	NumType=Card	7	nummod	_	_
+7	ammiragli	ammiraglio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15-16	condannandoli	_	_	_	_	_	_	_	_
+15	condannando	condannare	VERB	V	VerbForm=Ger	10	conj	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	illegalmente	illegalmente	ADV	B	_	15	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	morte	morte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	democratica	democratica	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	Atene	Atene	PROPN	SP	_	24	nsubj	_	_
+24	trasformò	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 28
+# text = E' improbabile che ci siano ancora resti delle imbarcazioni di legno impiegate nella battaglia delle Arginuse, ma le prossime ricerche cercheranno di ricostruire una cronologia coerente con le fonti storiche che offra un quadro preciso delle rotte marittime dell'intera regione.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	improbabile	improbabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	resti	resto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	imbarcazioni	imbarcazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	legno	legno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	impiegate	impiegare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Arginuse	Arginuse	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	ma	ma	CCONJ	CC	_	25	cc	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	cercheranno	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	ricostruire	ricostruire	VERB	V	VerbForm=Inf	25	ccomp	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	cronologia	cronologia	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	coerente	coerente	ADJ	A	Number=Sing	29	amod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+34	storiche	storico	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+35	che	che	PRON	PR	PronType=Rel	38	cc	_	_
+36	offra	offrire	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	33	acl:relcl	_	_
+39	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40-41	delle	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	rotte	rotta	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+43	marittime	marittimo	ADJ	A	Gender=Fem|Number=Plur	42	amod	_	_
+44-45	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+44	di	di	ADP	E	_	47	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+46	intera	intero	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+47	regione	regione	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

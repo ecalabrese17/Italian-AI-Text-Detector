@@ -1,0 +1,311 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non un semplice poker, ma un vero e proprio massacro:
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	semplice	semplice	ADJ	A	Number=Sing	4	amod	_	_
+4	poker	poker	NOUN	S	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	ma	ma	CCONJ	CC	_	11	cc	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	massacro	massacro	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = nove reti, un record assoluto in una sola partita di campionato brasiliano.
+1	nove	nove	NUM	N	NumType=Card	2	nummod	_	_
+2	reti	rete	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	record	record	NOUN	S	Gender=Masc	2	appos	_	_
+6	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	partita	partita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	brasiliano	brasiliano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un numero che ripete, a distanza di quasi quarant’anni, la leggenda di Enzo Savoldi.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	quasi	quasi	ADV	B	_	10	advmod	_	_
+10	quarant’	quaranta	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	leggenda	leggenda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Enzo	Enzo	PROPN	SP	_	14	nmod	_	_
+17	Savoldi	Savoldi	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Quaranta e nove anni fa, il bomber di Castel Volturno, allora in forza alla Napoli, incise il suo nome nella storia con una prestazione che ancora oggi fa sognare i nostalgici.
+1	Quaranta	quaranta	NUM	N	NumType=Card	4	nummod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	nove	nove	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+5	fa	fa	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bomber	bomber	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Castel	Castel	PROPN	SP	_	8	nmod	_	_
+11	Volturno	Volturno	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	allora	allora	ADV	B	_	15	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	forza	forza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Napoli	Napoli	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	incise	incidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	nome	nome	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	storia	storia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	prestazione	prestazione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+31	ancora	ancora	ADV	B	_	32	advmod	_	_
+32	oggi	oggi	ADV	B	_	33	advmod	_	_
+33	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+34	sognare	sognare	VERB	V	VerbForm=Inf	33	ccomp	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	nostalgici	nostalgico	NUM	N	NumType=Card	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = Nove gol, un’assoluta pioggia di reti contro il Cagliari, un’ondata di potenza che schiaffeggiò la concorrenza e definì, per un po’, un’epoca.
+1	Nove	nove	NUM	N	NumType=Card	2	nummod	_	_
+2	gol	gol	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	reti	rete	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	contro	contro	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Cagliari	Cagliari	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	schiaffeggiò	schiaffeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	definì	definire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	per	per	ADP	E	_	29	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+26	po’	poco	ADV	B	_	29	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Savoldi, uomo di fatica, di sudore e di grande generosità, rappresentava il calcio di una generazione, fatto di lavoro sporco e di implacabile determinazione.
+1	Savoldi	Savoldi	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	generosità	generosità	NOUN	S	Gender=Fem	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	sporco	sporco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	implacabile	implacabile	ADJ	A	Number=Sing	28	amod	_	_
+28	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Mertens, invece, è un prodotto del sistema, dell’ottimizzazione, della tecnologia.
+1	Mertens	Mertens	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ottimizzazione	ottimizzazione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Un giocatore raffinato, efficiente, ma forse...
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	raffinato	raffinato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	efficiente	efficiente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	forse..	forse	NOUN	S	_	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = privo di quella scintilla, di quella fame primordiale che rende un bomber davvero indimenticabile.
+1	privo	privo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	scintilla	scintilla	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	fame	fame	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	primordiale	primordiale	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bomber	bomber	NOUN	S	Gender=Masc	11	obj	_	_
+14	davvero	davvero	ADV	B	_	15	advmod	_	_
+15	indimenticabile	indimenticabile	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Il suo poker è stato un’occasione persa, una dimostrazione di forza brutale, quasi animalesca, che ricorda da vicino il Savoldi del passato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	poker	poker	NOUN	S	_	7	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	persa	perso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	forza	forza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	brutale	brutale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	quasi	quasi	ADV	B	_	17	advmod	_	_
+17	animalesca	animalesco	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	vicino	vicino	ADV	B	_	20	advmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Savoldi	Savoldi	PROPN	SP	_	20	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	passato	passato	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Si parla di un’analisi psicologica, di un possibile collasso a seguito di pressioni eccessive.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	analisi	analisi	NOUN	S	Gender=Fem	2	obl	_	_
+6	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	possibile	possibile	ADJ	A	Number=Sing	11	amod	_	_
+11	collasso	collasso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pressioni	pressione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	eccessive	eccessivo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Ma a noi pare che la verità sia più semplice:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	obl	_	_
+4	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verità	verità	NOUN	S	Gender=Fem	10	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	semplice	semplice	ADJ	A	Number=Sing	4	ccomp	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 13
+# text = Mertens ha semplicemente sguazzato in un mare di occasioni, una cima che Savoldi, con la sua tenacia, ha conquistato a suon
+1	Mertens	Mertens	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	semplicemente	semplicemente	ADV	B	_	4	advmod	_	_
+4	sguazzato	sguazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mare	mare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cima	cima	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+14	Savoldi	Savoldi	PROPN	SP	_	22	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	suon	suon	ADV	BN	PronType=Neg	22	advmod	_	SpacesAfter=\n
+

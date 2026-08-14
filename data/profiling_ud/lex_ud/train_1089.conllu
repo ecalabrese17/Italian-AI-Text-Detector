@@ -1,0 +1,270 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La protesta non è arrivata con coscienza, né con mazzette, né con imprecazioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	né	né	CCONJ	CC	_	11	cc	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	mazzette	mazzetta	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	né	né	CCONJ	CC	_	15	cc	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	imprecazioni	imprecazione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = È partita da un semplice oggetto:
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	_
+6	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = un'opera teatrale che, nonostante i suoi 30 anni di vita, ha rifiutato di essere dimenticata.
+1	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opera	opera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	teatrale	teatrale	ADJ	A	Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	15	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nonostante	nonostante	ADP	E	_	10	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	30	30	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	rifiutato	rifiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+16	di	di	ADP	E	_	18	mark	_	_
+17	essere	essere	AUX	VA	VerbForm=Inf	18	aux:pass	_	_
+18	dimenticata	dimenticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si chiama *Il canto delle porte chiuse*.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	*Il	*Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	canto	canto	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	porte	porta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	chiuse*	chiuse*	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = È un dramma nato nel 1994, nel senso di protesta contro l’abbandono della città centrale, contro la mancanza di casa, contro la costruzione di palazzoni su mura storiche.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1994	1994	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	città	città	NOUN	S	Gender=Fem	16	nmod	_	_
+20	centrale	centrale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	4	punct	_	_
+22	contro	contro	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	casa	casa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	4	punct	_	_
+28	contro	contro	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	palazzoni	palazzone	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	mura	muro	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+35	storiche	storico	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = L’opera è stata rappresentata in caso:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opera	opera	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	rappresentata	rappresentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = una volta, e poi non ancora.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ma adesso, una settimana fa, si è ripresentata, con una scena che non ha un chiaro inizio né una fine.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	adesso	adesso	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+6	fa	fa	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ripresentata	esripresenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	scena	scena	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21	né	né	CCONJ	CC	_	23	cc	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Si è aperta con il silenzio, e ha iniziato a parlare solo quando gli spettatori hanno cominciato a piangere.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	parlare	parlare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	solo	solo	ADV	B	_	12	advmod	_	_
+14	quando	quando	SCONJ	CS	_	18	mark	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	piangere	piangere	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Il punto di rottura non è stato né il costo delle scene né la disponibilità dei teatri.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	rottura	rottura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	né	né	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	costo	costo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	scene	scena	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	né	né	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	disponibilità	disponibilità	NOUN	S	Gender=Fem	10	conj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	teatri	teatro	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Il problema è stato bello più profondo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = la resistenza di un pubblico che non si confronta con la propria storia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	confronta	confrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma oggi, in una piazza davanti al palazzo di cultura, migliaia di persone che non erano mai andate a teatro si sono radunati, guidati non da manifesti né
+1	Ma	ma	CCONJ	CC	_	26	cc	_	_
+2	oggi	oggi	ADV	B	_	26	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+7	davanti	davanti	ADV	B	_	10	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	10	appos	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	radunati	radunare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	guidati	guidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	manifesti	manifesto	NOUN	S	Gender=Masc|Number=Plur	26	appos	_	_
+32	né	né	CCONJ	CC	_	26	cc	_	SpacesAfter=\n
+

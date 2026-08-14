@@ -1,0 +1,236 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La frase, sebbene semplice, ha suscitato un affluire di reazioni, dalle comprensioni estreme alla folla di accuse e interrogativi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sebbene	sebbene	SCONJ	CS	_	5	mark	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	affluire	affluira	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	comprensioni	comprensione	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+17	estreme	estremo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	folla	folla	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	interrogativi	interrogativo	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Orlando non ha parlato di riforme concrete, ma di una trasformazione culturale dell'ambito giudiziario che, secondo lui, è già avvenuta.
+1	Orlando	Orlando	VERB	V	VerbForm=Ger	4	advcl	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	concrete	concreto	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+13	culturale	culturale	ADJ	A	Number=Sing	12	amod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	giudiziario	giudiziario	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	25	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	secondo	secondo	ADP	E	_	21	case	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = "La giustizia non è più una questione di diritto, ma di condotta", ha affermato, alludendo a una nuova etica delle istituzioni.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	più	più	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	alludendo	alludere	VERB	V	VerbForm=Ger	18	advcl	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	etica	etica	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = L'obiettivo, nel suo discorso, era quello di rompere con il modello di superbia della giustizia come strumento di potere, di un sistema che si è sempre dotato di meccanismi di controllo totale, ma che ora, grazie alla sfida democratica e alla pressione sociale, si è rilevato vulnerabile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	rompere	rompere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	modello	modello	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	superbia	superbia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	potere	potere	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	sempre	sempre	ADV	B	_	33	advmod	_	_
+33	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	meccanismi	meccanismo	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	totale	totale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	33	punct	_	_
+40	ma	ma	CCONJ	CC	_	57	cc	_	_
+41	che	che	PRON	PR	PronType=Rel	57	nsubj	_	_
+42	ora	ora	ADV	B	_	41	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	grazie	grazie	NOUN	S	_	47	case	_	_
+45-46	alla	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	44	fixed	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	57	obl	_	_
+48	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+49	e	e	CCONJ	CC	_	52	cc	_	_
+50-51	alla	_	_	_	_	_	_	_	_
+50	a	a	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	47	conj	_	_
+53	sociale	sociale	ADJ	A	Number=Sing	52	amod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	47	punct	_	_
+55	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	57	expl	_	_
+56	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	rilevato	rilevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	_
+58	vulnerabile	vulnerabile	ADJ	A	Number=Sing	57	xcomp	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Per Orlando, il vero cambio è stato il ruolo dell’opinione pubblica.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Orlando	Orlando	PROPN	SP	_	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11-12	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = "Gli italiani hanno finito di fare affidamento sui ‘crimini fatti’ per giustificare l’ignoranza delle dinamiche sociali", ha spiegato.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	affidamento	affidamento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	sui	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	‘crimini	‘crimino	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	’	’	PUNCT	FF	_	12	punct	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	giustificare	giustificare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	sociali	sociale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = "Ora chiedono spiegazioni, verità, e non più ricostruzione spettacolare di corte".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ora	ora	ADV	B	_	3	advmod	_	_
+3	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	spiegazioni	spiegazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	verità	verità	NOUN	S	Gender=Fem	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	spettacolare	spettacolare	ADJ	A	Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	corte	corte	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Una frase che risuona
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	risuona	risuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpacesAfter=\n
+

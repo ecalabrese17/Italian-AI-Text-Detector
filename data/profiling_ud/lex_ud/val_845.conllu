@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Simone, dal canto suo, non ha mai ammesso di essere stato l'unico a dire "no" e per tutta la settimana ha mentito.
+1	Simone	Simone	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	canto	canto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	mai	mai	ADV	B	_	11	advmod	_	_
+11	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	16	mark	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	16	aux	_	_
+14	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	unico	unico	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	dire	dire	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	no	no	ADV	BN	PronType=Neg	16	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	e	e	CCONJ	CC	_	28	cc	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	26	det:predet	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	mentito	mentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Affrontando questo discorso, dallo studio ha preso la parola Angelo che è sbottato.
+1	Affrontando	affrontare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5-6	dallo	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	studio	studio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	parola	parola	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	Angelo	Angelo	PROPN	SP	_	11	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sbottato	sbottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = "Tu non dovresti proprio salutare con quella faccia di merda che ti ritrovi - ha esclamato Angelo Sanzio -.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	dovresti	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	proprio	proprio	ADV	B	_	6	advmod	_	_
+6	salutare	salutare	VERB	V	VerbForm=Inf	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	merda	merda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+14	ritrovi	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	-	-	PUNCT	FF	_	17	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	esclamato	esclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+18	Angelo	Angelo	PROPN	SP	_	17	nsubj	_	_
+19	Sanzio	Sanzio	PROPN	SP	_	18	flat:name	_	_
+20	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Tu non dovevi permetterti di giudicarmi per un bacio a stampo con Filippo.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	dovevi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	permetterti	_	_	_	_	_	_	_	_
+4	permetter	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	giudicarmi	_	_	_	_	_	_	_	_
+7	giudicar	giudicare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	Filippo	Filippo	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Tu non sai neanche cos'è l'amore.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	neanche	neanche	ADV	BN	PronType=Neg	5	advmod	_	_
+5	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	3	ccomp	_	SpaceAfter=No
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sei stato l'unico a fare la doccia con le mutande bianche davanti a me.
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	unico	unico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	doccia	doccia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mutande	mutanda	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+12	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	davanti	davanti	ADV	B	_	15	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = E quando mi toccavi il culo in camera?".
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	toccavi	toccavo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	culo	culo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	camera	camera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E viste queste affermazioni fortissime, la conduttrice del Gf Nip l'ha bloccato e gli ha chiesto di moderare il linguaggio.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	viste	vedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	affermazioni	affermazione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+5	fortissime	forte	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	conduttrice	conduttore	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gf	Gf	PROPN	SP	_	8	nmod	_	_
+12	Nip	Nip	PROPN	SP	_	11	flat:name	_	_
+13	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	moderare	moderare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = Poi il Ken italiano è andato avanti.
+1	Poi	poi	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ken	Ken	PROPN	SP	_	6	nsubj	_	_
+4	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	avanti	avanti	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = "Non ti permettere mai più di giudicarmi - ha urlato agitatissimo Angelo -.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	permettere	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	4	advmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	giudicarmi	_	_	_	_	_	_	_	_
+8	giudicar	giudicare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	urlato	urlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+13	agitatissimo	agitato	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	Angelo	Angelo	PROPN	SP	_	12	nsubj	_	_
+15	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Tu sei una persona che può andare avanti solo con le stampelle perché in piedi da solo non ci puoi stare.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+8	avanti	avanti	ADV	B	_	7	advmod	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	stampelle	stampella	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13	perché	perché	ADV	B	_	21	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	solo	solo	ADV	B	_	21	advmod	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+20	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	stare	stare	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Sono rimasto scioccato per le parole che hai detto su di me.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	scioccato	scioccare	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ti facevo una persona leale, mi hai deluso profondamente.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	leale	leale	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	deluso	deludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+10	profondamente	profondamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Goditi la vittoria finchè dura".
+1	Goditi	Godire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	finchè	finché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	dura	duro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Ma in tutto questo discorso, Simone Coccia non ha battuto ciglio, si è fatto suggire soltanto un debole:
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Simone	Simone	PROPN	SP	_	11	nsubj	_	_
+8	Coccia	Coccia	PROPN	SP	_	7	flat:name	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+12	ciglio	ciglio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	suggire	suggire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	soltanto	soltanto	ADV	B	_	20	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	debole	debole	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 16
+# text = "Io non ti ho giudicato".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	giudicato	giudicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Ma cosa è stato a far scatenerare così Sanzio?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	far	fare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	scatenerare	scatenerare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	Sanzio	Sanzio	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Angelo non ha digerito la battuta omofoba che Simone ha pronunciato quando è stato eliminato dalla casa del Gf , "cosa mi tocca vedere", riferito al bacio a stampo tra Filippo e Angelo.
+1	Angelo	Angelo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	digerito	digerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	battuta	battuta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	omofoba	omofobare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	Simone	Simone	PROPN	SP	_	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pronunciato	pronunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+12	quando	quando	SCONJ	CS	_	15	mark	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	eliminato	eliminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Gf	Gf	PROPN	SP	_	18	nmod	_	_
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+24	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+26	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+27	vedere	vedere	VERB	V	VerbForm=Inf	26	csubj	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	11	punct	_	_
+30	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	tra	tra	ADP	E	_	37	case	_	_
+37	Filippo	Filippo	PROPN	SP	_	33	nmod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	Angelo	Angelo	PROPN	SP	_	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

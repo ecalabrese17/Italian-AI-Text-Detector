@@ -1,0 +1,761 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oggi all'ospedale di Leer non ci sono più né pazienti né membri dello staff di MSF.
+1	Oggi	oggi	ADV	B	_	9	advmod	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Leer	Leer	PROPN	SP	_	4	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	più	più	ADV	B	_	9	advmod	_	_
+11	né	né	CCONJ	CC	_	12	cc	_	_
+12	pazienti	paziente	NOUN	S	Number=Plur	9	conj	_	_
+13	né	né	CCONJ	CC	_	14	cc	_	_
+14	membri	membro	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	staff	staff	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	MSF	MSF	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = L'unica via di fuga possibile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	possibile	possibile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "Nonostante le condizioni incredibilmente difficili - riferisce Raphael Gorgeu, Capomissione di Medici Senza Frontiere in Sud Sudan - il nostro staff locale ha continuato a gestire l'ospedale di Leer finché è stato possibile".
+1	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+2	Nonostante	nonostante	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+5	incredibilmente	incredibilmente	ADV	B	_	6	advmod	_	_
+6	difficili	difficile	ADJ	A	Number=Plur	4	amod	_	_
+7	-	-	PUNCT	FB	_	8	punct	_	_
+8	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+9	Raphael	Raphael	PROPN	SP	_	8	nsubj	_	_
+10	Gorgeu	Gorgeu	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	Capomissione	Capomissione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Medici	medico	NUM	N	NumType=Card	12	nummod	_	_
+15	Senza	senza	ADP	E	_	16	case	_	_
+16	Frontiere	frontiere	PROPN	SP	_	12	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Sud	Sud	PROPN	SP	_	12	nmod	_	_
+19	Sudan	Sudan	PROPN	SP	_	18	flat:name	_	_
+20	-	-	PUNCT	FF	_	8	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	staff	staff	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+24	locale	locale	ADJ	A	Number=Sing	23	amod	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	gestire	gestire	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Leer	Leer	PROPN	SP	_	30	nmod	_	_
+33	finché	finché	SCONJ	CS	_	36	mark	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	cop	_	_
+36	possibile	possibile	ADJ	A	Number=Sing	28	advcl	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 4
+# text = "Ma negli ultimi giorni la situazione è diventata troppo instabile e l'unico modo per continuare a fornire cure mediche era trasportare i pazienti fuori dall'ospedale e fuggire con la popolazione nella macchia.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	10	cc	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+6	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	instabile	instabile	ADJ	A	Number=Sing	10	xcomp	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	unico	unico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	continuare	continuare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	fornire	fornire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	cure	cura	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	trasportare	trasportare	VERB	V	VerbForm=Inf	10	conj	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	fuori	fuori	ADV	B	_	30	case	_	_
+28-29	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+28	da	da	ADP	E	_	27	fixed	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	fuggire	fuggire	VERB	V	VerbForm=Inf	10	conj	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 6
+# text = Il 21 gennaio, dodici operatori internazionali di MSF erano stati costretti ad evacuare Leer a causa del rapido peggioramento delle condizioni di sicurezza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	21	21	NUM	N	NumType=Card	12	obl	_	_
+3	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	dodici	dodici	NUM	N	NumType=Card	6	nummod	_	_
+6	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+7	internazionali	internazionale	ADJ	A	Number=Plur	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	MSF	MSF	PROPN	SP	_	6	nmod	_	_
+10	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14	evacuare	evacuare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	Leer	Leer	PROPN	SP	_	14	obj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	causa	causa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	peggioramento	peggioramento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Nonostante la maggior parte degli abitanti di Leer fossero fuggiti, molti operatori locali dello staff di Medici Senza Frontiere avevano scelto di rimanere in città per continuare a fornire cure mediche salvavita all'ospedale, finché le condizioni di sicurezza avrebbero permesso.
+1	Nonostante	nonostante	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	abitanti	abitante	NOUN	S	Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Leer	Leer	PROPN	SP	_	7	nmod	_	_
+10	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	fuggiti	fuggire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+15	locali	locale	ADJ	A	Number=Plur	14	amod	_	_
+16-17	dello	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	staff	staff	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Medici	medico	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	Senza	senza	ADP	E	_	22	case	_	_
+22	Frontiere	frontiere	PROPN	SP	_	18	nmod	_	_
+23	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	rimanere	rimanere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	città	città	NOUN	S	Gender=Fem	26	obl	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30	continuare	continuare	VERB	V	VerbForm=Inf	26	advcl	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	fornire	fornire	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	cure	cura	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+34	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+35	salvavita	salvavitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+36-37	all'	_	_	_	_	_	_	_	SpaceAfter=No
+36	a	a	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	24	punct	_	_
+40	finché	finché	SCONJ	CS	_	46	mark	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	46	nsubj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+46	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 8
+# text = Migliaia di persone senza cure.
+1	Migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	cure	cura	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Lo scorso 31 gennaio, medici e pazienti sono stati costretti a lasciare l'ospedale e fuggire nella boscaglia.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	31	31	NUM	N	NumType=Card	11	obl	_	_
+4	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	medici	medico	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	pazienti	paziente	NOUN	S	Number=Plur	6	conj	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	lasciare	lasciare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	fuggire	fuggire	VERB	V	VerbForm=Inf	13	conj	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	boscaglia	boscaglia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Il risultato è che ora più di 270.000 persone non hanno accesso alle cure mediche.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	ora	ora	ADV	B	_	9	advmod	_	_
+6	più	più	ADV	B	_	9	advmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	270.000	270.000	NUM	N	NumType=Card	9	nummod	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+12	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	cure	cura	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 12
+# text = Dall'inizio della crisi, decine di migliaia di persone sono state sfollate dalle loro case nella zona sud dello Unity State.
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	crisi	crisi	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	decine	decina	NOUN	S	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	sfollate	sfollato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	case	casa	NOUN	S	Gender=Fem|Number=Plur	15	obl:agent	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	zona	zona	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23	sud	sud	NOUN	S	Gender=Masc|Number=Sing	22	compound	_	_
+24-25	dello	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Unity	Unity	PROPN	SP	_	22	nmod	_	_
+27	State	State	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 13
+# text = Tra questi, più di 10.000 sfollati fuggiti dai combattimenti a Bentiu che si erano rifugiati a Leer e ora sono stati sfollati una seconda volta.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	7	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	più	più	ADV	B	_	7	advmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	10.000	10.000	NUM	N	NumType=Card	7	nummod	_	_
+7	sfollati	sfollato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	fuggiti	fuggire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	combattimenti	combattimento	NOUN	S	Gender=Masc|Number=Plur	8	obl:agent	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Bentiu	Bentiu	PROPN	SP	_	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	rifugiati	rifugiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Leer	Leer	PROPN	SP	_	17	obl	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	ora	ora	ADV	B	_	24	advmod	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	sfollati	sfollare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
+27	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Più a lungo la popolazione vive all'esterno - senza cibo adeguato, acqua potabile e ripari - più diventa vulnerabile a epidemie e malnutrizione.
+1	Più	più	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	-	-	PUNCT	FB	_	6	punct	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	potabile	potabile	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	ripari	ripari	ADJ	A	Number=Sing	16	conj	_	_
+19	-	-	PUNCT	FB	_	12	punct	_	_
+20	più	più	ADV	B	_	6	advmod	_	_
+21	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+22	vulnerabile	vulnerabile	ADJ	A	Number=Sing	21	xcomp	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	epidemie	epidemia	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	malnutrizione	malnutrizione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 15
+# text = Da 25 anni a Leer.
+1	Da	da	ADP	E	_	3	case	_	_
+2	25	25	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Leer	Leer	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = MSF ha lavorato a Leer negli ultimi 25 anni, fornendo cure ambulatoriali e non, a bambini e adulti, e si è occupata di chirurgia, maternità, trattamenti per la tubercolosi e l'HIV e terapia intensiva.
+1	MSF	MSF	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Leer	Leer	PROPN	SP	_	3	obl	_	_
+6-7	negli	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	10	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+9	25	25	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	fornendo	fornire	VERB	V	VerbForm=Ger	3	advcl	_	_
+13	cure	cura	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	ambulatoriali	ambulatoriale	ADJ	A	Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	occupata	occupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	chirurgia	chirurgia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	maternità	maternità	NOUN	S	Gender=Fem	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	tubercolosi	tubercolosi	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	HIV	hiv	PROPN	SP	_	35	conj	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+41	intensiva	intensivo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = MSF è pronta a rientrare a Leer appena le condizioni di sicurezza lo consentiranno.
+1	MSF	MSF	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	rientrare	rientrare	VERB	V	VerbForm=Inf	14	advcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Leer	Leer	PROPN	SP	_	5	obl	_	_
+8	appena	appena	ADV	B	_	10	advmod	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	consentiranno	consentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = MSF invita le parti a rispettare l'integrità delle strutture mediche, a consentire alle organizzazioni umanitarie di accedere alle comunità colpite e a permettere ai pazienti di ricevere cure mediche a prescindere dalla loro origine o etnia.
+1	MSF	MSF	PROPN	SP	_	2	nsubj	_	_
+2	invita	invitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parti	parte	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	rispettare	rispettare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	integrità	integrità	NOUN	S	Gender=Fem	6	obj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	consentire	consentire	VERB	V	VerbForm=Inf	2	conj	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	umanitarie	umanitario	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	accedere	accedere	VERB	V	VerbForm=Inf	18	acl	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	comunità	comunità	NOUN	S	Gender=Fem	21	obl	_	_
+25	colpite	colpite	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	permettere	permettere	VERB	V	VerbForm=Inf	21	conj	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	pazienti	paziente	NOUN	S	Number=Plur	28	obl	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	ricevere	ricevere	VERB	V	VerbForm=Inf	28	xcomp	_	_
+34	cure	cura	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+35	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	prescindere	prescindere	VERB	V	VerbForm=Inf	33	advcl	_	_
+38-39	dalla	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	41	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	loro	loro	DET	AP	Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	origine	origine	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+42	o	o	CCONJ	CC	_	43	cc	_	_
+43	etnia	etnia	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Tenuti in piedi 14 progetti in 9 dei 10 Stati.
+1	Tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	14	14	NUM	N	NumType=Card	5	nummod	_	_
+5	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	9	9	NUM	N	NumType=Card	5	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	10	10	NUM	N	NumType=Card	11	nummod	_	_
+11	Stati	stare	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = MSF lavora nella regione che oggi è la Repubblica del Sud Sudan dal 1983.
+1	MSF	MSF	PROPN	SP	_	2	nsubj	_	_
+2	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	regione	regione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	oggi	oggi	ADV	B	_	8	advmod	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Repubblica	Repubblica	PROPN	SP	_	8	nsubj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Sud	Sud	PROPN	SP	_	10	nmod	_	_
+14	Sudan	Sudan	PROPN	SP	_	13	flat:name	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	1983	1983	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Attualmente, gestisce 14 progetti in nove dei dieci stati del paese, con progetti regolari a Agok, Aweil, Bentiu, Gogrial, Maban, Malakal, Nasir, Yambio, Lankien, Yuai e Yida e quattro interventi di emergenza a Juba, Awerial, Malakal e Nimule.
+1	Attualmente	attualmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	gestisce	gestire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	14	14	NUM	N	NumType=Card	5	nummod	_	_
+5	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	nove	nove	NUM	N	NumType=Card	3	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	dieci	dieci	NUM	N	NumType=Card	11	nummod	_	_
+11	stati	stare	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	paese	paese	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+18	regolari	regolare	ADJ	A	Number=Plur	17	amod	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Agok	Agok	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	Aweil	Aweil	PROPN	SP	_	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	Bentiu	Bentiu	PROPN	SP	_	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	Gogrial	Gogrial	PROPN	SP	_	20	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Maban	Maban	PROPN	SP	_	20	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	Malakal	Malakal	PROPN	SP	_	20	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	Nasir	Nasir	PROPN	SP	_	20	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	Yambio	Yambio	PROPN	SP	_	20	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	Lankien	Lankien	PROPN	SP	_	20	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	Yuai	Yuai	PROPN	SP	_	20	conj	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	Yida	Yida	PROPN	SP	_	20	conj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	quattro	quattro	NUM	N	NumType=Card	43	nummod	_	_
+43	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+46	a	a	ADP	E	_	47	case	_	_
+47	Juba	Juba	PROPN	SP	_	43	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	49	punct	_	_
+49	Awerial	Awerial	PROPN	SP	_	47	conj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	51	punct	_	_
+51	Malakal	Malakal	PROPN	SP	_	47	conj	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	Nimule	Nimule	PROPN	SP	_	47	conj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Oltre a fornire cure mediche di base e specialistiche, MSF risponde a diversi tipi di emergenza come sfollamenti a larga scala, flussi di rifugiati, situazioni di grave malnutrizione, e picchi di malattie come il morbillo, la malaria, la dissenteria acuta, il Kala Azar.
+1	Oltre	oltre	ADV	B	_	3	mark	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	fornire	fornire	VERB	V	VerbForm=Inf	12	advcl	_	_
+4	cure	cura	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	base	base	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	specialistiche	specialistica	ADV	B	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	MSF	MSF	PROPN	SP	_	12	nsubj	_	_
+12	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	sfollamenti	sfollamento	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	larga	largo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	scala	scala	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	flussi	flusso	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	rifugiati	rifugiato	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	grave	grave	ADJ	A	Number=Sing	31	amod	_	_
+31	malnutrizione	malnutrizione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	picchi	picchio	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+37	come	come	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	morbillo	morbillo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	dissenteria	dissenteria	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	_
+46	acuta	acuto	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	12	punct	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	Kala	Kala	PROPN	SP	_	12	nsubj	_	_
+50	Azar	Azar	PROPN	SP	_	49	flat:name	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 23
+# text = MSF sta anche fornendo assistenza medica e umanitaria ai rifugiati del Sud Sudan in Kenya e Uganda, e inizieranno presto attività per i rifugiati in Etiopia.
+1	MSF	MSF	PROPN	SP	_	4	nsubj	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	fornendo	fornire	VERB	V	VerbForm=Ger	0	root	_	_
+5	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	medica	medico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	umanitaria	umanitario	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	rifugiati	rifugiato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Sud	Sud	PROPN	SP	_	11	nmod	_	_
+15	Sudan	Sudan	PROPN	SP	_	14	flat:name	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Kenya	Kenya	PROPN	SP	_	14	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Uganda	Uganda	PROPN	SP	_	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	inizieranno	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+23	presto	presto	ADV	B	_	22	advmod	_	_
+24	attività	attività	NOUN	S	Gender=Fem	22	obj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	rifugiati	rifugiato	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Etiopia	Etiopia	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Migliaia di visite.
+1	Migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	visite	visita	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Nelle prime cinque settimane di crisi, MSF ha effettuato 71.973 visite (27.688 a bambini sotto i 5 anni) e 2.719 ospedalizzazioni (di cui 1.600 bambini sotto i 5 anni), ha curato 1.252 ferite di guerra, e assistito 1.610 parti.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	5	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	amod	_	_
+4	cinque	cinque	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	crisi	crisi	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	MSF	MSF	PROPN	SP	_	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	effettuato	effettuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	71.973	71.973	NUM	N	NumType=Card	13	nummod	_	_
+13	visite	visita	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	27.688	27.688	NUM	N	NumType=Card	11	nummod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	sotto	sotto	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	5	5	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	15	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	2.719	2.719	NUM	N	NumType=Card	25	nummod	_	_
+25	ospedalizzazioni	ospedalizzazione	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+26	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	di	di	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	30	nmod	_	_
+29	1.600	1.600	NUM	N	NumType=Card	30	nummod	_	_
+30	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+31	sotto	sotto	ADP	E	_	34	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	5	5	NUM	N	NumType=Card	34	nummod	_	_
+34	anni	anno	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+39	1.252	1.252	NUM	N	NumType=Card	40	nummod	_	_
+40	ferite	ferita	NOUN	S	Gender=Fem|Number=Plur	38	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	assistito	assistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+46	1.610	1.610	NUM	N	NumType=Card	47	nummod	_	_
+47	parti	parte	NOUN	S	Gender=Fem|Number=Plur	45	obj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 26
+# text = Attualmente, 278 operatori internazionali e 2.890 operatori nazionali lavorano in questi progetti di MSF.
+1	Attualmente	attualmente	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	278	278	NUM	N	NumType=Card	4	nummod	_	_
+4	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	internazionali	internazionale	ADJ	A	Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	2.890	2.890	NUM	N	NumType=Card	8	nummod	_	_
+8	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	nazionali	nazionale	ADJ	A	Number=Plur	8	amod	_	_
+10	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	MSF	MSF	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

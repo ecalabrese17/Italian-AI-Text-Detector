@@ -1,0 +1,328 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oggi, a quanto pare, la logica è diversa:
+1	Oggi	oggi	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	1	obl	_	_
+5	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	logica	logica	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = premiamo chi fa “moda”, chi “parla al pubblico” e, soprattutto, chi si adatta ai dettami del politically correct che purtroppo dilagano nelle nostre pagine.
+1	premiamo	premiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	1	obj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	moda	moda	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	conj	_	_
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	10	punct	_	_
+15	e	e	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	soprattutto	soprattutto	ADV	B	_	21	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	chi	chi	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	adatta	adattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	dettami	dettame	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	politically	politically	NOUN	S	_	24	nmod	_	_
+28	correct	correct	ADJ	A	_	27	amod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	purtroppo	purtroppo	ADV	B	_	31	advmod	_	_
+31	dilagano	dilagare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+32-33	nelle	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono undici, quindi, i titoli che rimangono in lizza per la cinquina che, come sempre, deciderà il vincitore.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	undici	undici	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quindi	quindi	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	lizza	lizza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cinquina	cinquina	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	sempre	sempre	ADV	B	_	20	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	deciderà	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Una lista che, onestamente, lascia perplessi.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lista	lista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	onestamente	onestamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	perplessi	perplesso	ADJ	A	Gender=Masc|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Domanda legittima: si è davvero fatto un lavoro di selezione di alto livello, o si è barattato per voti e promesse di visibilità?
+1	Domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+2	legittima	legittimo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	davvero	davvero	ADV	B	_	7	advmod	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	selezione	selezione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	alto	alto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	livello	livello	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	o	o	CCONJ	CC	_	19	cc	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	barattato	barattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	voti	voto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	visibilità	visibilità	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = C’è un’impressionante prevalenza di romanzi che, vorrei dire, ripropongono varianti di un’idea già stata detta, senza offrire spunti di originalità o, ancor meglio, di coraggio.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	impressionante	impressionante	ADJ	A	Number=Sing	5	amod	_	_
+5	prevalenza	prevalenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	ripropongono	riproporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+14	varianti	variante	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	idea	idea	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	già	già	ADV	B	_	20	advmod	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	senza	senza	ADP	E	_	23	mark	_	_
+23	offrire	offrire	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	spunti	spunto	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	originalità	originalità	NOUN	S	Gender=Fem	24	nmod	_	_
+27	o	o	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	ancor	ancora	ADV	B	_	30	advmod	_	_
+30	meglio	meglio	ADV	B	_	23	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	14	punct	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = E non si può non notare una certa scarsa attenzione alle tematiche che da sempre definiscono l'identità italiana:
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	notare	notare	VERB	V	VerbForm=Inf	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	certa	certo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+9	scarsa	scarso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	tematiche	tematica	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	definiscono	definire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	identità	identità	NOUN	S	Gender=Fem	17	obj	_	_
+20	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 8
+# text = la famiglia, il lavoro, la difesa dei valori tradizionali.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	valori	valore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	tradizionali	tradizionale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Sono temi fondamentali, spesso ignorati o trattati con superficialità in quest'edizione.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	temi	tema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	fondamentali	fondamentale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	spesso	spesso	ADV	B	_	6	advmod	_	_
+6	ignorati	ignorare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	superficialità	superficialità	NOUN	S	Gender=Fem	8	obl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	SpaceAfter=No
+13	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Non si parla di identità nazionale, non si affrontano le derive culturali che minacciano il nostro patrimonio, non si celebra il bene comune.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	identità	identità	NOUN	S	Gender=Fem	3	obl	_	_
+6	nazionale	nazionale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	affrontano	affrontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	derive	deriva	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	culturali	culturale	ADJ	A	Number=Plur	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	minacciano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	celebra	celebrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	bene	bene	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	comune	comune	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Anzi, si tende a enfatizzare le divisioni, le minoranze, le questioni identitarie che, a mio avviso, distolgono l’attenzione dai problemi reali del Paese.
+1	Anzi	anzi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	enfatizzare	enfatizzare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	minoranze	minoranza	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+15	identitarie	identitario	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	22	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	distolgono	distolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	dai	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+28	reali	reale	ADJ	A	Number=Plur	27	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Certo, la letteratura è un bene prezioso e merita attenzione.
+1	Certo	certo	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	letteratura	letteratura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bene	bene	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	merita	merito	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Ma il Premio Strega, come si è trasformato negli ultimi anni, sembra più un’occasione di autopromozione per
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Premio	premio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	Strega	Strega	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	come	come	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	più	più	ADV	B	_	15	advmod	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	autopromozione	autopromozione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	per	per	ADP	E	_	18	case	_	SpacesAfter=\n
+

@@ -1,0 +1,434 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E’ morto nella notte, a causa di un infarto, l’ex europarlamentare Enzo Erminio Boso.
+1	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	morto	morire	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	causa	causa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	infarto	infarto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	ex	ex	ADJ	A	_	15	amod	_	_
+15	europarlamentare	europarlamentare	NOUN	S	Number=Sing	2	nsubj	_	_
+16	Enzo	Enzo	PROPN	SP	_	15	nmod	_	_
+17	Erminio	Erminio	PROPN	SP	_	16	flat:name	_	_
+18	Boso	Boso	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Aveva 73 anni e sin dall’inizio aveva partecipato all’avventura politica del partito fondato da Umberto Bossi.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	73	73	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	10	cc	_	_
+5	sin	sino	ADV	B	_	10	advmod	_	_
+6-7	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	politica	politico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	partito	partito	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	fondato	fondare	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Umberto	Umberto	PROPN	SP	_	17	nmod	_	_
+21	Bossi	Bossi	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Dal 1992 al 1996 aveva ricoperto il ruolo di senatore della Repubblica per il Carroccio mentre nel 1998 e nel 2003 era stato eletto al Consiglio della Provincia Autonoma di Trento.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1992	1992	NUM	N	NumType=Card	8	nummod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	1996	1996	NUM	N	NumType=Card	8	obl	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Repubblica	Repubblica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Carroccio	Carroccio	PROPN	SP	_	8	nmod	_	_
+19	mentre	mentre	CCONJ	CC	_	22	cc	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	1998	1998	NUM	N	NumType=Card	18	conj	_	_
+23	e	e	CCONJ	CC	_	29	cc	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	2003	2003	NUM	N	NumType=Card	29	nummod	_	_
+27	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+28	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Consiglio	consiglio	PROPN	SP	_	29	obl	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	Autonoma	autonoma	PROPN	SP	_	35	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Trento	Trento	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Candidato alle Elezioni europee del 2004, ottenne circa 10.000 preferenze nella circoscrizione nord.
+1	Candidato	candidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2004	2004	NUM	N	NumType=Card	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	ottenne	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	circa	circa	ADV	B	_	12	advmod	_	_
+12	10.000	10.000	NUM	N	NumType=Card	13	nummod	_	_
+13	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	circoscrizione	circoscrizione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	nord	nord	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = A giugno 2008 venne proclamato europarlamentare, subentrando a Gian Paolo Gobbo.
+1	A	a	ADP	E	_	2	case	_	_
+2	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	2008	2008	NUM	N	NumType=Card	2	flat	_	_
+4	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	proclamato	proclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	europarlamentare	europarlamentare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	subentrando	subentrare	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Gian	Gian	PROPN	SP	_	8	obl	_	_
+11	Paolo	Paolo	PROPN	SP	_	10	flat:name	_	_
+12	Gobbo	Gobbo	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = In vista delle europee del 2014 la Lega Nord presentò la sua candidatura nella circoscrizione Italia nord-orientale, dove ottenne circa 3300 preferenze, non abbastanza per risultare eletto.
+1	In	in	ADP	E	_	2	case	_	_
+2	vista	vista	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	europee	europeo	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2014	2014	NUM	N	NumType=Card	5	nmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lega	Lega	PROPN	SP	_	12	nsubj	_	_
+11	Nord	Nord	PROPN	SP	_	10	flat:name	_	_
+12	presentò	presente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	circoscrizione	circoscrizione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19	Italia	Italia	PROPN	SP	_	18	nmod	_	_
+20	nord-orientale	nord-orientale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	dove	dove	ADV	B	_	23	advmod	_	_
+23	ottenne	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+24	circa	circa	ADV	B	_	25	advmod	_	_
+25	3300	3300	NUM	N	NumType=Card	26	nummod	_	_
+26	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	12	punct	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	abbastanza	abbastanza	ADV	B	_	12	advmod	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	risultare	risultare	VERB	V	VerbForm=Inf	12	advcl	_	_
+32	eletto	eleggere	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Boso aveva partecipato alle ultime elezioni provinciali, senza risultare eletto.
+1	Boso	Boso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	7	amod	_	_
+7	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	provinciali	provinciale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	risultare	risultare	VERB	V	VerbForm=Inf	3	advcl	_	_
+12	eletto	eleggere	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Oggi piango un amico, un vecchio amico, un compagno di tante battaglie politiche e di tanti momenti vissuti insieme.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Oggi	oggi	ADV	B	_	3	advmod	_	_
+3	piango	piangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	battaglie	battaglia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+21	vissuti	vivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22	insieme	insieme	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Con Erminio Boso se ne va un pezzo di storia della Lega, insieme a tanti ricordi.
+1	Con	con	ADP	E	_	2	case	_	_
+2	Erminio	Erminio	PROPN	SP	_	6	obl	_	_
+3	Boso	Boso	PROPN	SP	_	6	nsubj	_	_
+4	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Lega	lega	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	insieme	insieme	ADV	B	_	18	case	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = È stato un alfiere nelle battaglie per l'autonomia, ha sempre lottato per le ragioni del suo Trentino, del suo popolo e delle sue montagne, magari a volte esagerando nei toni, ma è sempre stato un uomo generoso e di grande cuore.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	alfiere	alfiere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	battaglie	battaglia	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	lottato	lottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Trentino	Trentino	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+27	e	e	CCONJ	CC	_	31	cc	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	montagne	montagna	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	14	punct	_	_
+33	magari	magari	ADV	B	_	35	advmod	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	volte	volte	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+36	esagerando	esagerare	VERB	V	VerbForm=Ger	14	advcl	_	_
+37-38	nei	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	toni	tono	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	46	punct	_	_
+41	ma	ma	CCONJ	CC	_	46	cc	_	_
+42	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+43	sempre	sempre	ADV	B	_	46	advmod	_	_
+44	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	cop	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+47	generoso	generoso	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
+48	e	e	CCONJ	CC	_	51	cc	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	grande	grande	ADJ	A	Number=Sing	51	amod	_	_
+51	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	47	conj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Lo avevo incontrato pochi giorni fa, sabato scorso, quando mi ha accompagnato nel mio giro di incontri in Trentino, per parlare di autonomia e di altri aspetti istituzionali:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	fa	fare	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	quando	quando	SCONJ	CS	_	14	mark	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	giro	giro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	Trentino	Trentino	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	parlare	parlare	VERB	V	VerbForm=Inf	3	advcl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
+32	istituzionali	istituzionale	ADJ	A	Number=Plur	31	amod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = fino all'ultimo ha lavorato per la sua gente!"
+1	fino	fino	ADV	B	_	4	case	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	6	punct	_	_
+
+# sent_id = 13
+# text = Così il senatore Roberto Calderoli della Lega.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Roberto	Roberto	PROPN	SP	_	3	nmod	_	_
+5	Calderoli	Calderoli	PROPN	SP	_	4	flat:name	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lega	Lega	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = “Addio Enzo, i tuoi insegnamenti rimarranno indelebili nei cuori di tutti coloro che amano e credono nelle battaglie della Lega”, sono queste le parole pronunciate dall'Assessore all'istruzione, cultura e università e Segretario Nazionale della Lega Trentino Mirko Bisesti.
+1	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Addio	Addio	INTJ	I	_	8	discourse	_	_
+3	Enzo	Enzo	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	insegnamenti	insegnamente	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	rimarranno	rimarre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	indelebili	indelebile	ADJ	A	Number=Plur	8	xcomp	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	battaglie	battaglia	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Lega	lega	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	8	punct	_	_
+28	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	nsubj	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	parole	parola	NOUN	S	Gender=Fem|Number=Plur	29	nsubj	_	_
+32	pronunciate	pronunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+33-34	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+33	da	da	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	Assessore	assessore	PROPN	SP	_	32	obl:agent	_	_
+36-37	all'	_	_	_	_	_	_	_	SpaceAfter=No
+36	a	a	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	università	università	NOUN	S	Gender=Fem	38	conj	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	Segretario	Segretario	PROPN	SP	_	31	conj	_	_
+45	Nazionale	Nazionale	PROPN	SP	_	44	flat:name	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	Lega	lega	PROPN	SP	_	44	nmod	_	_
+49	Trentino	Trentino	PROPN	SP	_	48	flat:name	_	_
+50	Mirko	Mirko	PROPN	SP	_	48	flat:name	_	_
+51	Bisesti	Bisesto	PROPN	SP	_	48	flat:name	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

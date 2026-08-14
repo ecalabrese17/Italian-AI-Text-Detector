@@ -1,0 +1,505 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non solo:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = il centro Baobab è stato il simbolo di una Roma solidale e instancabile.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centro	centro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Baobab	Baobab	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Roma	Roma	PROPN	SP	_	7	nmod	_	_
+11	solidale	solidale	ADJ	A	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	instancabile	instancabile	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Per buona parte dello scorso anno infatti, Baobab è stato il cuore pulsante di un’accoglienza senza precedenti, che ha visto la mobilitazione spontanea di moltissimi cittadini.
+1	Per	per	ADP	E	_	3	case	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	infatti	infatti	ADV	B	_	14	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Baobab	Baobab	PROPN	SP	_	14	nsubj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	pulsante	pulsante	ADJ	A	Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	precedenti	precedente	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	14	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	mobilitazione	mobilitazione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	spontanea	spontaneo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	moltissimi	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+30	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Si calcola che, da giugno a settembre 2015, il centro abbia accolto 30.000 migranti in transito:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	calcola	calcolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	2015	2015	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	centro	centro	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+15	30.000	30.000	NUM	N	NumType=Card	16	nummod	_	_
+16	migranti	migrante	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	transito	transito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = una realtà importantissima per una città, che soffre la carenza di centri di accoglienza adeguati.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem	0	root	_	_
+3	importantissima	importante	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	città	città	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	centri	centro	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	adeguati	adeguato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Nel dicembre dello stesso anno è arrivato lo sgombero su ordinanza del commissario straordinario Francesco Paolo Tronca.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	sgombero	sgombero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	ordinanza	ordinanza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	commissario	commissario	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	straordinario	straordinario	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	_
+18	Francesco	Francesco	PROPN	SP	_	16	nmod	_	_
+19	Paolo	Paolo	PROPN	SP	_	18	flat:name	_	_
+20	Tronca	Tronca	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Dopo mesi di dialogo con le istituzioni e promesse di riaprire il centro in un’altra sede, non si è ancora giunti a nulla di concreto.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	riaprire	riaprire	VERB	V	VerbForm=Inf	2	acl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	altra	altro	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	sede	sede	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	ancora	ancora	ADV	B	_	23	advmod	_	_
+23	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 8
+# text = Baobab Experience.
+1	Baobab	Baobab	PROPN	SP	_	0	root	_	_
+2	Experience	Experience	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = E allora i volontari stanno provando a riorganizzarsi autonomamente all’interno dell’ex Istituto Ittiogenico di Roma.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	allora	allora	ADV	B	_	6	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	provando	provare	VERB	V	VerbForm=Ger	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	riorganizzarsi	_	_	_	_	_	_	_	_
+8	riorganizzar	riorganizzare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	autonomamente	autonomo	ADV	B	_	8	advmod	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	interno	interno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14-15	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	17	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	ex	ex	ADJ	A	_	17	amod	_	_
+17	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	Ittiogenico	Ittiogenico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Roma	Roma	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = La situazione non è ancora definita, pochi giorni fa è avvenuto un ulteriore sgombero e si cercano aperture da parte della Regione, mentre grandi associazioni umanitarie come Save the Children , Arci , Emergency e Unhcr hanno già dato la loro disponibilità a collaborare al progetto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	definita	definire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+10	fa	fa	ADV	B	_	9	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ulteriore	ulteriora	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	sgombero	sgombero	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:pass	_	_
+18	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	aperture	apertura	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	12	punct	_	_
+26	mentre	mentre	SCONJ	CS	_	42	mark	_	_
+27	grandi	grande	ADJ	A	Number=Plur	28	amod	_	_
+28	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	42	nsubj	_	_
+29	umanitarie	umanitario	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30	come	come	ADP	E	_	31	case	_	_
+31	Save	Save	PROPN	SP	_	28	nmod	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	Children	Children	PROPN	SP	_	31	nmod	_	_
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	Arci	Arco	PROPN	SP	_	31	conj	_	_
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	Emergency	Emergency	PROPN	SP	_	31	conj	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	Unhcr	Unhcr	PROPN	SP	_	31	conj	_	_
+40	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+41	già	già	ADV	B	_	42	advmod	_	_
+42	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	disponibilità	disponibilità	NOUN	S	Gender=Fem	42	obj	_	_
+46	a	a	ADP	E	_	47	mark	_	_
+47	collaborare	collaborare	VERB	V	VerbForm=Inf	42	advcl	_	_
+48-49	al	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Baobab Experience , questo il nome, mira a riprendere la sua fondamentale attività di accoglienza e sostegno dei migranti in transito.
+1	Baobab	Baobab	PROPN	SP	_	8	nsubj	_	_
+2	Experience	Experience	PROPN	SP	_	1	flat:name	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	mira	mirare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	riprendere	riprendere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	fondamentale	fondamentale	ADJ	A	Number=Sing	14	amod	_	_
+14	attività	attività	NOUN	S	Gender=Fem	10	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	migranti	migrante	NOUN	S	Number=Plur	18	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	transito	transito	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Per inaugurare il nuovo corso e promuovere questo modello di accoglienza i volontari di Baobab Experience hanno organizzato la manifestazione “Pensare migrante” che si terrà venerdì 29, sabato 30 aprile e domenica 1 maggio “Pensare Migrante” .
+1	Per	per	ADP	E	_	2	mark	_	_
+2	inaugurare	inaugurare	VERB	V	VerbForm=Inf	18	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	promuovere	promuovere	VERB	V	VerbForm=Inf	2	conj	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	modello	modello	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Baobab	Baobab	PROPN	SP	_	13	nmod	_	_
+16	Experience	Experience	PROPN	SP	_	15	flat:name	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Pensare	pensare	PROPN	SP	_	20	nmod	_	_
+23	migrante	migrante	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	22	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	terrà	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl:relcl	_	_
+28	venerdì	venerdì	NOUN	S	Gender=Masc	27	obl	_	_
+29	29	29	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	18	punct	_	_
+31	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+32	30	30	NUM	N	NumType=Card	31	nmod	_	_
+33	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	32	flat	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+36	1	1	NUM	N	NumType=Card	35	nmod	_	_
+37	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	36	flat	_	_
+38	“	“	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	Pensare	pensare	PROPN	SP	_	35	nmod	_	_
+40	Migrante	Migrante	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+41	”	”	PUNCT	FB	_	39	punct	_	_
+42	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 13
+# text = L’iniziativa di tre giorni viene descritta dagli organizzatori come l’incontro di “diverse realtà attive nell’accoglienza ai migranti provenienti da tutta Italia, con lo scopo di costruire una rete informale, che garantisca un vero e proprio corridoio umanitario non istituzionale”.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tre	tre	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	descritta	descrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dagli	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	organizzatori	organizzatore	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	realtà	realtà	NOUN	S	Gender=Fem	13	nmod	_	_
+18	attive	attivo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	in	in	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	migranti	migrante	NOUN	S	Number=Plur	21	nmod	_	_
+25	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	24	acl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
+28	Italia	Italia	PROPN	SP	_	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	7	punct	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	costruire	costruire	VERB	V	VerbForm=Inf	32	acl	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	rete	rete	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	informale	informale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	garantisca	garantire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+42	vero	vero	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	42	conj	_	_
+45	corridoio	corridoio	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+46	umanitario	umanitario	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+47	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+48	istituzionale	istituzionale	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+49	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Si svolgerà negli spazi della Città dell’Altra Economia a Testaccio e ospiterà interventi di giornalisti, attivisti e scrittori, ma anche dibattiti, workshop, mostre e proiezioni, concerti e mercatini.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	svolgerà	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	spazi	spazio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Città	città	PROPN	SP	_	5	nmod	_	_
+9-10	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Altra	altro	PROPN	SP	_	8	nmod	_	_
+12	Economia	economia	PROPN	SP	_	11	flat:name	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Testaccio	Testaccio	PROPN	SP	_	2	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ospiterà	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+17	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	anche	anche	ADV	B	_	27	advmod	_	_
+27	dibattiti	dibattito	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	workshop	workshop	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	mostre	mostra	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	proiezioni	proiezione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	mercatini	mercatino	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Tutto questo, per raccontare la cultura della solidarietà e per inserire Baobab Experience in una rete umanitaria più ampia.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	raccontare	raccontare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	solidarietà	solidarietà	NOUN	S	Gender=Fem	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	inserire	inserire	VERB	V	VerbForm=Inf	5	conj	_	_
+14	Baobab	Baobab	PROPN	SP	_	13	obj	_	_
+15	Experience	Experience	PROPN	SP	_	14	flat:name	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rete	rete	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	umanitaria	umanitario	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	ampia	ampio	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Il programma dettagliato è sul sito di Baobab Experience.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programma	programma	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	dettagliato	dettagliato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sito	sito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Baobab	Baobab	PROPN	SP	_	7	nmod	_	_
+10	Experience	Experience	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = È inoltre attivo una raccolta fondi sulla piattaforma buonacausa.org per coprire le spese di organizzazione e per consentire a Baobab Experience di organizzarsi al meglio nei mesi a venire.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	inoltre	inoltre	ADV	B	_	3	advmod	_	_
+3	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	5	compound	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	buonacausa.org	buonacausa.org	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	coprire	coprire	VERB	V	VerbForm=Inf	3	advcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	consentire	consentire	VERB	V	VerbForm=Inf	12	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Baobab	Baobab	PROPN	SP	_	19	obl	_	_
+22	Experience	Experience	PROPN	SP	_	21	flat:name	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	organizzarsi	_	_	_	_	_	_	_	_
+24	organizzar	organizzare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	meglio	meglio	NOUN	S	Gender=Masc	24	obl	_	_
+29-30	nei	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	venire	venire	VERB	V	VerbForm=Inf	31	acl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,343 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La troppa solitudine .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	troppa	troppo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La protagonista di questa storia, raccontata da La Stampa , è un’ ultranovantenne residente nel quartiere di San Carlo all’Arena.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	protagonista	protagonista	NOUN	S	Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	raccontata	raccontare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Stampa	stampa	PROPN	SP	_	7	obl:agent	_	_
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ultranovantenne	ultranovantenne	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	residente	residente	ADJ	A	Number=Sing	14	amod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	San	San	PROPN	SP	_	18	nmod	_	_
+21	Carlo	Carlo	PROPN	SP	_	20	flat:name	_	_
+22-23	all’	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	Arena	Arena	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Qui i poliziotti sono arrivati celermente, una volta ricevuto l’allarme dalla centrale operativa:
+1	Qui	qui	ADV	B	_	5	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	celermente	celermente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+10	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	centrale	centrale	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	operativa	operativo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = "Rapina in casa, la vittima è una ultranovantenne, è stata legata".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Rapina	Rapinare	PROPN	SP	_	14	nsubj:pass	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ultranovantenne	ultranovantenne	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Ma gli agenti hanno trovato la signora libera, ma sola, in una casa tutta in ordine, ma umanamente vuota.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	agenti	agente	NOUN	S	Number=Plur	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	libera	libero	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	umanamente	umano	ADV	B	_	22	advmod	_	_
+22	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Insomma, altro che malviventi:
+1	Insomma	insomma	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	malviventi	malvivere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = la donna si è inventata tutto per di avere un po’ di compagnia .
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	inventata	inventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	tutto	tutto	ADV	B	_	9	advmod	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	di	di	ADP	E	_	7	fixed	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po’	poco	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Lo ha ammesso lei stessa:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = "Perdonatemi, è che sono sola, non esco di casa da un mese.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2-3	Perdonatemi	_	_	_	_	_	_	_	SpaceAfter=No
+2	Perdonate	Perdonare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	esco	uscire	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mese	mese	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Non ho nessuno e non mi posso permettere una badante " . Poi, la tenera richiesta che dà un colpo al cuore dei poliziotti:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	e	e	CCONJ	CC	_	8	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	permettere	permettere	VERB	V	VerbForm=Inf	3	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	badante	badante	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	.	.	PUNCT	FS	_	10	punct	_	_
+13	Poi	poi	ADV	B	_	17	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Voi mi portereste a fare un piccolo giro per Napoli" .
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	portereste	porteredere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	Napoli	Napoli	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	4	punct	_	_
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Richiesta accordata dagli uomini in divisa commossi dalla domanda e dalla situazione dell’anziana.
+1	Richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	accordata	accordare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	dagli	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	2	obl:agent	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	commossi	commuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	anziana	anziano	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Così gli agenti l'hanno scortata al bar per offrirle un cappuccino , ma prima di riportarla a casa l'hanno accompagnata in chiesa e affidata al parroco , chiedendogli:
+1	Così	così	ADV	B	_	6	advmod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	agenti	agente	NOUN	S	Number=Plur	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scortata	esscorere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bar	bar	NOUN	S	Gender=Masc	6	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	offrirle	_	_	_	_	_	_	_	_
+11	offrir	offrire	VERB	V	VerbForm=Inf	9	acl	_	_
+12	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cappuccino	cappuccino	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	,	,	PUNCT	FF	_	25	punct	_	_
+16	ma	ma	CCONJ	CC	_	25	cc	_	_
+17	prima	prima	ADV	B	_	19	mark	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19-20	riportarla	_	_	_	_	_	_	_	_
+19	riportar	riportare	VERB	V	VerbForm=Inf	25	advcl	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+23	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	accompagnata	accompagnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	,	,	PUNCT	FF	_	25	punct	_	_
+34-35	chiedendogli	_	_	_	_	_	_	_	SpaceAfter=No
+34	chiedendo	chiedere	VERB	V	VerbForm=Ger	25	advcl	_	_
+35	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	iobj	_	_
+36	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 14
+# text = "Padre, non può restare sola, occorre trovare subito una soluzione" .
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Padre	Padre	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	restare	restare	VERB	V	VerbForm=Inf	0	root	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	trovare	trovare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	subito	subito	ADV	B	_	10	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = E il prete l’ha trovata subito:
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prete	prete	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	subito	subito	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 16
+# text = "Tranquilli, ora subentriamo noi, una persona si prenderà cura di lei" .
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Tranquilli	tranquillo	PROPN	SP	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ora	ora	ADV	B	_	5	advmod	_	_
+5	subentriamo	subentrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	prenderà	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+12	cura	cura	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	5	punct	_	_
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Una volta ogni tanto, una bella favola a lieto fine.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	favola	favola	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	fine	fine	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

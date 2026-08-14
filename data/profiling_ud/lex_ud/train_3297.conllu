@@ -1,0 +1,893 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così abbiamo deciso di tornare a farci sentire”.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	tornare	tornare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	farci	_	_	_	_	_	_	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+9	sentire	sentire	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Paolo Bellino è un giornalista, ex responsabile della mobilità ciclabile al comune di Roma.
+1	Paolo	Paolo	PROPN	SP	_	5	nsubj	_	_
+2	Bellino	Bellino	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giornalista	giornalista	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ex	ex	ADJ	A	_	8	amod	_	_
+8	responsabile	responsabile	NOUN	S	Number=Sing	5	appos	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mobilità	mobilità	NOUN	S	Gender=Fem	8	nmod	_	_
+12	ciclabile	ciclabile	ADJ	A	Number=Sing	11	amod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comune	comune	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Roma	Roma	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma soprattutto è uno dei coordinatori di Salvaiciclisti , il movimento che sabato 28 aprile (a sei anni esatti dalla prima edizione) sarà tra i promotori di Bicifestazione : migliaia di persone, in sella alla propria bicicletta, si raduneranno su via dei Fori Imperiali.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	soprattutto	soprattutto	ADV	B	_	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	coordinatori	coordinatore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Salvaiciclisti	Salvaiciclisti	PROPN	SP	_	7	nmod	_	_
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+13	che	che	DET	DQ	PronType=Int	14	det	_	_
+14	sabato	sabare	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	28	28	NUM	N	NumType=Card	14	nmod	_	_
+16	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	sei	sei	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+21-22	esatti	_	_	_	_	_	_	_	_
+21	esat	esare	ADV	B	_	20	advmod	_	_
+22	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	appos	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	22	obl:agent	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	4	punct	_	_
+28	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	tra	tra	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	promotori	promotore	NOUN	S	Gender=Masc|Number=Plur	47	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Bicifestazione	Bicifestazione	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	:	:	PUNCT	FC	_	31	punct	_	_
+35	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	31	appos	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	persone	persona	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	sella	sella	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41-42	alla	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	44	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	31	punct	_	_
+46	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	47	expl	_	_
+47	raduneranno	radunare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	conj	_	_
+48	su	su	ADP	E	_	49	case	_	_
+49	via	via	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+50-51	dei	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	Fori	Fori	NOUN	S	Gender=Masc|Number=Plur	49	nmod	_	_
+53	Imperiali	Imperiali	ADJ	A	Gender=Masc|Number=Plur	52	amod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 4
+# text = Per chiedere un cambiamento nel modello di mobilità del nostro Paese, finora incentrato sempre e solo sul traffico a motore.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modello	modello	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	mobilità	mobilità	NOUN	S	Gender=Fem	7	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	finora	finora	ADV	B	_	16	advmod	_	_
+16	incentrato	incentrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+17	sempre	sempre	ADV	B	_	16	advmod	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	solo	solo	ADV	B	_	22	advmod	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	motore	motore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = “Noi non siamo ‘amanti della bici’ – precisa Bellino – siamo amanti della vita.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	‘amanti	‘amante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bici	bico	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	’	’	PUNCT	FF	_	8	punct	_	_
+10	–	–	PUNCT	FF	_	8	punct	_	_
+11	precisa	precisare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	Bellino	Bellino	PROPN	SP	_	8	nmod	_	_
+13	–	–	PUNCT	FF	_	15	punct	_	_
+14	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	amanti	amare	ADJ	A	Number=Plur	5	parataxis	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Muoversi per le strade, oggi, è un pericolo non solo per i ciclisti.
+1-2	Muoversi	_	_	_	_	_	_	_	_
+1	Muover	muovere	VERB	V	VerbForm=Inf	11	csubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	strade	strada	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	oggi	oggi	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	solo	solo	ADV	B	_	16	advmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ciclisti	ciclista	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = I bambini non giocano più davanti casa, gli anziani non si fidano a uscire, i disabili hanno difficoltà a girare in sicurezza”.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	giocano	giocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	davanti	davanti	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	fidano	fidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	uscire	uscire	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	disabili	disabile	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+19	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	difficoltà	difficoltà	NOUN	S	Gender=Fem	19	obj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	girare	girare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = I numeri, al riguardo, sono impietosi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	impietosi	impietoso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Nel 2016, secondo l’Istat, 3283 persone sono rimaste vittime di incidenti stradali:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2016	2016	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Istat	Istat	PROPN	SP	_	12	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	3283	3283	NUM	N	NumType=Card	10	nummod	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	12	xcomp	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	stradali	stradale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 10
+# text = di queste, 275 erano in bici.
+1	di	di	ADP	E	_	2	case	_	_
+2	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	275	275	NUM	N	NumType=Card	2	conj	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	bici	bico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Dati che peggiorano se si parla di feriti:
+1	Dati	dare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	peggiorano	peggiorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	feriti	ferito	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = 249.175 in totale, 16.413 sui pedali.
+1	249.175	249.175	NUM	N	NumType=Card	3	nummod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	totale	totale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	16.413	16.413	NUM	N	NumType=Card	3	nummod	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pedali	pedale	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = “Sulle nostre strade c’è troppa gente che corre su mezzi pesanti.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Sulle	_	_	_	_	_	_	_	_
+2	Su	su	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	strade	strada	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+6	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	troppa	troppo	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	pesanti	pesante	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Il tema non riguarda solo i cicloturisti, ma tutti i cittadini.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tema	tema	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cicloturisti	cicloturista	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = C’è un bullismo stradale ben evidente a tutti, ma si finge di non vederlo”, spiega il giornalista.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bullismo	bullismo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	stradale	stradale	ADJ	A	Number=Sing	4	amod	_	_
+6	ben	bene	ADV	B	_	7	advmod	_	_
+7	evidente	evidente	ADJ	A	Number=Sing	4	amod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	finge	fingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	di	di	ADP	E	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16-17	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+16	veder	vedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giornalista	giornalista	NOUN	S	Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Un trasporto pubblico più efficiente, la possibilità di usufruirne portando con sé la propria bici, un piano per la mobilità che garantisca maggiori sicurezze nei tragitti per le scuole e per i posti di lavoro, controlli e limiti di velocità più stringenti, piste ciclabili continue e sicure.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	efficiente	efficiente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	possibilità	possibilità	NOUN	S	Gender=Fem	2	nmod	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	usufruirne	_	_	_	_	_	_	_	_
+10	usufruir	usufruire	VERB	V	VerbForm=Inf	8	acl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+12	portando	portare	VERB	V	VerbForm=Ger	10	advcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	obl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	bici	bico	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	piano	piano	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mobilità	mobilità	NOUN	S	Gender=Fem	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	garantisca	garantire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	27	amod	_	_
+27	sicurezze	sicurezza	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+28-29	nei	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	tragitti	tragitto	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	posti	posto	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	velocità	velocità	NOUN	S	Gender=Fem	43	nmod	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	stringenti	stringente	ADJ	A	Number=Plur	45	amod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	49	punct	_	_
+49	piste	pista	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+50	ciclabili	ciclabile	ADJ	A	Number=Plur	49	amod	_	_
+51	continue	continuo	ADJ	A	Gender=Fem|Number=Plur	49	amod	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	sicure	sicuro	ADV	BN	PronType=Neg	51	conj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Sono questi i punti su cui Salvaiciclisti intende focalizzare l’attenzione.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	punti	punto	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	su	su	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	Salvaiciclisti	Salvaiciclisti	PROPN	SP	_	8	nsubj	_	_
+8	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	focalizzare	focalizzare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Con una manifestazione politica e non partitica, durante la quale arriveranno proposte per migliorare le nostre città.
+1	Con	con	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	politica	politico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	partitica	partitico	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	durante	durante	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+12	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+13	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	migliorare	migliorare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	città	città	NOUN	S	Gender=Fem	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Nel 2012 Bicifestazione fu un grande successo.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2012	2012	NUM	N	NumType=Card	8	nummod	_	_
+4	Bicifestazione	Bicifestazione	PROPN	SP	_	8	nsubj	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	successo	successo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Si parlò di circa 50mila persone presenti:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	parlò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	circa	circa	ADV	B	_	5	advmod	_	_
+5	50mila	50mila	NUM	N	NumType=Card	6	nummod	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	presenti	presente	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 21
+# text = un colpo d’occhio, soprattutto quando abbandonarono le bici per stendersi a terra .
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	d’	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	soprattutto	soprattutto	ADV	B	_	8	advmod	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	abbandonarono	abbandonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	bici	bico	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	stendersi	_	_	_	_	_	_	_	_
+12	stender	stendere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	terra	terra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Un fiume di gente che commemorava le tante, troppe vittime della strada.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	commemorava	commemorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tante	tante	NOUN	S	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	strada	strada	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Sei anni dopo, i cittadini che si spostano stabilmente sui pedali sono in aumento, grazie anche al diffondersi di iniziative come il bike sharing e al fenomeno delle bici elettriche.
+1	Sei	sei	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	spostano	spostare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	stabilmente	stabilmente	ADV	B	_	9	advmod	_	_
+11-12	sui	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	pedali	pedale	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	grazie	grazie	NOUN	S	_	16	conj	_	_
+19	anche	anche	ADV	B	_	22	advmod	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22-23	diffondersi	_	_	_	_	_	_	_	_
+22	diffonder	diffonder	VERB	V	VerbForm=Inf	18	acl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	bike	bike	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	sharing	sharing	NOUN	S	Gender=Masc	28	compound	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	bici	bico	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	elettriche	elettrico	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 24
+# text = “Le persone che usano la bici – dichiara Bellino - sono l’avanguardia di una mobilità che altrove è già realtà e qui ancora stenta a partire.
+1	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bici	bico	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	–	–	PUNCT	FB	_	3	punct	_	_
+9	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+10	Bellino	Bellino	PROPN	SP	_	9	obj	_	_
+11	-	-	PUNCT	FB	_	14	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	avanguardia	avanguardia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mobilità	mobilità	NOUN	S	Gender=Fem	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	altrove	altrove	ADV	B	_	22	advmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	già	già	ADV	B	_	22	advmod	_	_
+22	realtà	realtà	NOUN	S	Gender=Fem	17	acl:relcl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	qui	qui	ADV	B	_	26	advmod	_	_
+25	ancora	ancora	ADV	B	_	26	advmod	_	_
+26	stenta	stentare	ADJ	A	Gender=Fem|Number=Sing	22	conj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	partire	partire	VERB	V	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 25
+# text = L’unico risultato che abbiamo raggiunto in questi anni, e di cui andiamo fieri, è stata la Legge quadro sulla mobilità ciclistica , di cui l’ex deputato Paolo Gandolfi è stato uno degli artefici”.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unico	unico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+14	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	fieri	fiere	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Legge	legge	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+21	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	20	compound	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mobilità	mobilità	NOUN	S	Gender=Fem	20	nmod	_	_
+25	ciclistica	ciclistico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	36	obl	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+30	ex	ex	ADJ	A	_	31	amod	_	_
+31	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+32	Paolo	Paolo	PROPN	SP	_	31	nmod	_	_
+33	Gandolfi	Gandolfi	PROPN	SP	_	32	flat:name	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	cop	_	_
+36	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	acl:relcl	_	_
+37-38	degli	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	artefici	arteficio	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	”	”	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 26
+# text = La normativa tuttavia, chiarisce ancora il giornalista, nasce monca, visto che tra le prime stesure e la formulazione finale alcuni punti sono stati tagliati.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	tuttavia	tuttavia	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	chiarisce	chiarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giornalista	giornalista	NOUN	S	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	monca	monco	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+14	che	che	SCONJ	CS	_	27	mark	_	_
+15	tra	tra	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	18	amod	_	_
+18	stesure	stesura	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	formulazione	formulazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	finale	finale	ADJ	A	Number=Sing	21	amod	_	_
+23	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	punti	punto	NOUN	S	Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	tagliati	tagliare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = Su tutti, la creazione di una direzione generale sulla ciclabilità all’interno del ministero delle Infrastrutture e dei Trasporti, rimasta un’utopia.
+1	Su	su	ADP	E	_	2	case	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ciclabilità	ciclabilità	NOUN	S	Gender=Fem	8	nmod	_	_
+13-14	all’	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	interno	interno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	Infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Trasporti	trasporto	PROPN	SP	_	18	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	utopia	utopia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = “Lo stesso nuovo Codice della strada – precisa Bellino – è stato boicottato fino alla fine della scorsa legislatura”.
+1	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Codice	Codice	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	–	–	PUNCT	FB	_	5	punct	_	_
+10	precisa	precisare	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	Bellino	Bellino	PROPN	SP	_	5	nmod	_	_
+12	–	–	PUNCT	FF	_	5	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	boicottato	boicottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	fino	fino	ADV	B	_	19	case	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	legislatura	legislatura	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 29
+# text = In Italia Salvaiciclisti si ispirò a un’ iniziativa del Times , in Inghilterra, che sintetizzò in otto punti la sua proposta per fermare gli incidenti sulle strade delle nostre città.
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	5	obl	_	_
+3	Salvaiciclisti	Salvaiciclisti	PROPN	SP	_	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ispirò	ispirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Times	Times	PROPN	SP	_	8	nmod	_	_
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Inghilterra	Inghilterra	PROPN	SP	_	5	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	sintetizzò	sintetizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	otto	otto	NUM	N	NumType=Card	20	nummod	_	_
+20	punti	punto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	fermare	fermare	VERB	V	VerbForm=Inf	17	advcl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28-29	sulle	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	strade	strada	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	città	città	NOUN	S	Gender=Fem	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = “Negli ultimi anni a Londra è stato fatto tantissimo, sia con Boris Johnson che con Sadiq Khan - conclude Bellino – mentre a Roma non è cambiato niente a prescindere dal colore dell’amministrazione.
+1	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2-3	Negli	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Londra	Londra	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	tantissimo	tanto	ADV	B	Degree=Abs	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	sia	sia	CCONJ	CC	_	15	cc	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	Boris	Boris	PROPN	SP	_	10	conj	_	_
+16	Johnson	Johnson	PROPN	SP	_	15	flat:name	_	_
+17	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	Sadiq	Sadiq	PROPN	SP	_	22	obl	_	_
+20	Khan	Khan	PROPN	SP	_	19	flat:name	_	_
+21	-	-	PUNCT	FF	_	22	punct	_	_
+22	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+23	Bellino	Bellino	PROPN	SP	_	22	nsubj	_	_
+24	–	–	PUNCT	FF	_	22	punct	_	_
+25	mentre	mentre	SCONJ	CS	_	30	mark	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Roma	Roma	PROPN	SP	_	30	obl	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+31	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	obj	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	prescindere	prescindere	VERB	V	VerbForm=Inf	30	advcl	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	colore	colore	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37-38	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+37	di	di	ADP	E	_	39	case	_	_
+38	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 31
+# text = Siamo arretrati dal punto di vista normativo e anche culturale”.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	arretrati	arretrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl:agent	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vista	vista	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	culturale	culturale	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = La manifestazione di sabato prossimo, fissata per le 16, secondo Bellino serve anche a cercare di colmare questo gap: “Faremo parlare delle persone, cercheremo di spingere perché si prediligano mezzi di trasporto meno invasivi delle auto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	fissata	fissare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	16	16	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	secondo	secondo	ADP	E	_	13	case	_	_
+13	Bellino	Bellino	PROPN	SP	_	14	obl	_	_
+14	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	cercare	cercare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	colmare	colmare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	gap	gap	NOUN	S	_	19	obj	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	14	punct	_	_
+23	“	“	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+24	Faremo	fare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	25	aux	_	_
+25	parlare	parlare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	persone	persona	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	cercheremo	cerchere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	25	conj	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	spingere	spingere	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	perché	perché	SCONJ	CS	_	35	mark	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	prediligano	prediligare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+36	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39	meno	meno	ADV	B	_	40	advmod	_	_
+40	invasivi	invasivo	ADJ	A	Number=Plur	36	amod	_	_
+41-42	delle	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	auto	auto	NOUN	S	Gender=Fem	36	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 33
+# text = E forse faremo qualcos’altro, ma non voglio rovinare la sorpresa”.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	forse	forse	ADV	B	_	3	advmod	_	_
+3	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	qualcos’	qualcoso	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rovinare	rovinare	VERB	V	VerbForm=Inf	3	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

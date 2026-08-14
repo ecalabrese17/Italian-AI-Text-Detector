@@ -1,0 +1,274 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tuttavia, esistono segnali, spesso sottovalutati o ignorati, che ormai nella vita quotidiana aiutano a prevenire l'evento.
+1	Tuttavia	tuttavia	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	spesso	spesso	ADV	B	_	7	advmod	_	_
+7	sottovalutati	sottovalutare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	ignorati	ignorare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+12	ormai	ormai	ADV	B	_	15	advmod	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	prevenire	prevenire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	evento	evento	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ecco, senza esagerazioni, gli otto segnali che annunciano l'arrivo di un infarto.
+1	Ecco	ecco	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	esagerazioni	esagerazione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	otto	otto	NUM	N	NumType=Card	8	nummod	_	_
+8	segnali	segnali	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	annunciano	annunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	infarto	infarto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Non si tratta di oro puro né di miracoli, ma di gravi allertamenti che il corpo umano non si oppone a comunicare se si guarda con attenzione.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	oro	oro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	puro	puro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	né	né	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	miracoli	miracolo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gravi	grave	ADJ	A	Number=Plur	14	amod	_	_
+14	allertamenti	allertamento	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+18	umano	umano	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	oppone	opporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	comunicare	comunicare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	se	se	SCONJ	CS	_	26	mark	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il primo segnale è una forte pressione al petto, che può essere sentita come un peso o un àncora metallica che si pone sul posto centrale del torace.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	forte	forte	ADJ	A	Number=Sing	7	amod	_	_
+7	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	petto	petto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	peso	peso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	àncora	àncora	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	metallica	metallico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	pone	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	posto	posto	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	centrale	centrale	ADJ	A	Number=Sing	28	amod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	torace	torace	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Spesso questa sensazione si manifesta senza avvertire di essere una normalità del corpo.
+1	Spesso	spesso	ADV	B	_	5	advmod	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	manifesta	manifestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7	avvertire	avvertire	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	di	di	ADP	E	_	11	mark	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	normalità	normalità	NOUN	S	Gender=Fem	7	ccomp	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = È importante notare che non si tratta semplicemente di un mal dipetto o di affaticamento, ma di un senso di oppressione che non scompare con la respirazione profonda.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+3	notare	notare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	semplicemente	semplicemente	ADV	B	_	7	advmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mal	male	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	dipetto	dipetto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	affaticamento	affaticamento	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	scompare	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	respirazione	respirazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il secondo segnale riguarda l’irregolarità del battito cardiaco:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	irregolarità	irregolarità	NOUN	S	Gender=Fem	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	battito	battito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	cardiaco	cardiaco	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = può essere un palpitio, una sensazione di battiti accelerati o inversamente di rallentamento.
+1	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	palpitio	palpitio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	battiti	battito	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	accelerati	accelerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	o	o	CCONJ	CC	_	14	cc	_	_
+12	inversamente	inversamente	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rallentamento	rallentamento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Questi sintomi, spesso attribuiti a tensioni nervose o a sforzi fisici, possono realmente essere segni di un'instabilità nella funzione cardiaca.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	spesso	spesso	ADV	B	_	5	advmod	_	_
+5	attribuiti	attribuire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8	nervose	nervoso	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+12	fisici	fisico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	realmente	realmente	ADV	B	_	17	advmod	_	_
+16	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+17	segni	segno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	instabilità	instabilità	NOUN	S	Gender=Fem	17	nmod	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	cardiaca	cardiaco	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 10
+# text = Un cuore che batte fuori tempo è un cuore che potrebbe essere in pericolo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	fuori	fuori	ADV	B	_	4	advmod	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Il terzo segnale è la comparsa incontrollata di sudore freddo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	comparsa	comparsa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	incontrollata	incontrollato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Non si tratta di sudore normale,
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	normale	normale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+

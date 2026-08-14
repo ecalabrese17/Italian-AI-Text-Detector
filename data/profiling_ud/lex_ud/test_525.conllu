@@ -1,0 +1,336 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quali sostanze girano nei locali?
+1	Quali	quale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	girano	girare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	locali	locale	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = "Cocaina, anfetamina, ketamina, acidi, metanfetamine.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Cocaina	cocaina	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anfetamina	anfetamina	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	ketamina	ketamina	ADV	B	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	acidi	acido	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	metanfetamine	metanfetamine	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L'ecstasy fa parte di quest'ultima categoria.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ecstasy	ecstasy	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	quest'	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+7	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Dovrebbe essere a base di mdma ma dentro le pasticche può esserci di tutto.
+1	Dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	base	base	NOUN	S	Gender=Fem|Number=Sing	12	advcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	mdma	mdma	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	dentro	dentro	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	pasticche	pasticca	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	esserci	_	_	_	_	_	_	_	_
+12	esser	essere	VERB	V	VerbForm=Inf	0	root	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = E poi ovviamente c'è tantissimo alcol".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	_
+3	ovviamente	ovviamente	ADV	B	_	5	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	tantissimo	tanto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	amod	_	_
+7	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Voi cosa fate nei locali?
+1	Voi	Vo	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	locali	locale	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "Informiamo i ragazzi sulle sostanze e sui rischi di effetti avversi e inattesi che si corrono incrociandole.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Informiamo	Informare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	sui	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	avversi	avverso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	inattesi	inatteso	ADJ	A	Number=Plur	14	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	corrono	correre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	incrociandole	incrociandole	ADJ	A	Gender=Fem|Number=Plur	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Dissuadiamo dal consumo i più giovani, a chi ha già iniziato diamo consigli per gestire le droghe".
+1	Dissuadiamo	Dissuadare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	giovani	giovane	ADJ	A	Number=Plur	1	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	obl	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	già	già	ADV	B	_	13	advmod	_	_
+13	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	diamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+15	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	gestire	gestire	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	droghe	droga	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Quali comportamenti vanno tenuti?
+1	Quali	quale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = "È fondamentale l'acqua.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Chi assume sostanze come l'mdma può andare in ipertermia.
+1	Chi	chi	PRON	PQ	PronType=Int	8	nsubj	_	_
+2	assume	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	mdma	mdma	NOUN	S	Gender=Masc	2	obl	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ipertermia	ipertermia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Si mette a ballare e non sente la stanchezza così anche se la sua temperatura si alza non beve.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	ballare	ballare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	così	così	ADV	B	_	9	advmod	_	_
+11	anche	anche	ADV	B	_	17	mark	_	_
+12	se	se	SCONJ	CS	_	11	fixed	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	temperatura	temperatura	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	alza	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	beve	bere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Diciamo ai gestori di rendere disponibile l'acqua fresca nei bagni.
+1	Diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	gestori	gestore	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	rendere	rendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	disponibile	disponibile	ADJ	A	Number=Sing	6	xcomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bagni	bagno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = E per evitare colpi di freddo a chi vuole uscire a prendere un po' d'aria, chiediamo di permettere il recupero dei giubbotti dal guardaroba anche prima del fine serata".
+1	E	e	CCONJ	CC	_	18	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	evitare	evitare	VERB	V	VerbForm=Inf	18	advcl	_	_
+4	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obl	_	_
+9	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	uscire	uscire	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	aria	aria	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	permettere	permettere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	recupero	recupero	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	giubbotti	giubbotto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	guardaroba	guardaroba	NOUN	S	Number=Sing	20	obl	_	_
+29	anche	anche	ADV	B	_	33	advmod	_	_
+30	prima	prima	ADV	B	_	33	case	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	30	fixed	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fine	fine	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+34	serata	serata	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = Altri consigli?
+1	Altri	altro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = "È importante mangiare e invece molti vanno a ballare a stomaco vuoto e rischiano collassi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	mangiare	mangiare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	invece	invece	ADV	B	_	8	advmod	_	_
+7	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+8	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	ballare	ballare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	collassi	collasso	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Noi diamo noccioline e patatine per reintegrare almeno i sali.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	noccioline	nocciolina	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	patatine	patatina	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	reintegrare	reintegrare	VERB	V	VerbForm=Inf	2	advcl	_	_
+8	almeno	almeno	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sali	sale	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = E poi consigliamo di fermarsi ogni tanto, li invitiamo nelle nostre zone chill out.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	consigliamo	consigliare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	fermarsi	_	_	_	_	_	_	_	_
+5	fermar	fermare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+11	invitiamo	invitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12-13	nelle	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	zone	zona	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+16	chill	chill	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	out	out	NOUN	S	Gender=Masc	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Qui trovano il medico se hanno bisogno di aiuto ma anche gli psicologi che li fanno riflettere su quanto consumano".
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	psicologi	psicologo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+16	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	riflettere	riflettere	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+20	consumano	consumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

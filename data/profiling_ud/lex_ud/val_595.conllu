@@ -1,0 +1,539 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il presidente dell'ordine dei commercialisti, Mario Tagarelli, sostituirà Ferrante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	commercialisti	commercialista	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	Mario	Mario	PROPN	SP	_	2	nmod	_	_
+11	Tagarelli	Tagarelli	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	sostituirà	sostituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	Ferrante	Ferrante	PROPN	SP	_	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = La notizia arriva dopo che, ieri, il gip aveva cambiato idea sulla possibilità di utilizzo degli impianti dell' Ilva , che dovranno essere risanati senza "facoltà d'uso a fini produttivi".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	ieri	ieri	ADV	B	_	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gip	gip	NOUN	S	Gender=Masc	12	nsubj	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+13	idea	idea	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	possibilità	possibilità	NOUN	S	Gender=Fem	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22-23	dell'	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	Ilva	Ilva	PROPN	SP	_	21	nmod	_	_
+25	,	,	PUNCT	FF	_	12	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj:pass	_	_
+27	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	29	aux	_	_
+28	essere	essere	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	risanati	risanare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+30	senza	senza	ADP	E	_	32	case	_	_
+31	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	facoltà	facoltà	NOUN	S	Gender=Fem	29	obl	_	_
+33	d'	di	ADP	E	_	34	case	_	SpaceAfter=No
+34	uso	uso	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	fini	fine	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+37	produttivi	produttivo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ed è l'ennesima presa di posizione non gardita al governo e alle forze della maggioranza.
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	ennesima	ennesimo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	presa	presa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	gardita	gardire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	forze	forza	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Il segretario del Pdl Angelino Alfano incalza il presidente del Consiglio:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Pdl	Pdl	PROPN	SP	_	2	nmod	_	_
+6	Angelino	Angelino	PROPN	SP	_	5	flat:name	_	_
+7	Alfano	Alfano	PROPN	SP	_	5	flat:name	_	_
+8	incalza	incalzare	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Chiedo al presidente Mario Monti di prendere direttamente e personalmente in mano il dossier Ilva, per almeno due ragioni fondamentali.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	Mario	Mario	PROPN	SP	_	5	nmod	_	_
+7	Monti	Monti	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	prendere	prendere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+10	direttamente	direttamente	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	personalmente	personalmente	ADV	B	_	14	advmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dossier	dossier	NOUN	S	Gender=Masc	9	obj	_	_
+17	Ilva	Ilva	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	per	per	ADP	E	_	22	case	_	_
+20	almeno	almeno	ADV	B	_	21	advmod	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+23	fondamentali	fondamentale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La prima:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = la politica industriale la fa il Governo, non la magistratura e, con tutto il rispetto, non può essere un atto giudiziario a dire la parola definitiva sull’industria dell’acciaio in Italia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	industriale	industriale	ADJ	A	Number=Sing	2	amod	_	_
+4	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	e	e	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	essere	essere	AUX	V	VerbForm=Inf	23	cop	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	atto	atto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+24	giudiziario	giudiziario	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	dire	dire	VERB	V	VerbForm=Inf	23	acl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	parola	parola	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+30	su	su	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	industria	industria	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+33-34	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	Italia	Italia	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = La seconda: vogliamo o no attrarre investitori anche internazionali?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	no	no	ADV	BN	PronType=Neg	7	advmod	_	_
+7	attrarre	attrarre	VERB	V	VerbForm=Inf	4	conj	_	_
+8	investitori	investitore	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	internazionali	internazionale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Se l’obiettivo è quello di spaventarli, ci stiamo riuscendo" . Sulla stessa linea anche il segretario del Pd Luigi Bersani :
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	advcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	spaventarli	_	_	_	_	_	_	_	SpaceAfter=No
+7	spaventar	spaventare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	riuscendo	riuscire	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	.	.	PUNCT	FS	_	12	punct	_	_
+15-16	Sulla	_	_	_	_	_	_	_	_
+15	Su	su	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	linea	linea	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Pd	Pd	PROPN	SP	_	21	nmod	_	_
+25	Luigi	Luigi	PROPN	SP	_	24	flat:name	_	_
+26	Bersani	Bersani	PROPN	SP	_	24	flat:name	_	_
+27	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 10
+# text = "È indispensabile che il governo con tutti gli strumenti formali e informali che ha, faccia chiarezza.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	indispensabile	indispensabile	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	17	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	formali	formale	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	informali	informale	ADJ	A	Number=Plur	11	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+18	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Bisogna essere consapevoli che la confusione attorno al più grande stabilimento siderurgico d’Europa farà presto il giro del mondo" . Da Roma il primo a battere un colpo è il ministro dello Sviluppo Economico Corrado Passera :
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	3	cop	_	_
+3	consapevoli	consapevole	ADJ	A	Number=Plur	1	ccomp	_	_
+4	che	che	SCONJ	CS	_	16	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+7	attorno	attorno	ADV	B	_	12	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	siderurgico	siderurgico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	d’	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	Europa	Europa	PROPN	SP	_	12	nmod	_	_
+16	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+17	presto	presto	ADV	B	_	16	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	giro	giro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	16	punct	_	_
+24	.	.	PUNCT	FS	_	3	punct	_	_
+25	Da	Da	ADP	E	_	26	case	_	_
+26	Roma	Roma	PROPN	SP	_	3	obl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	battere	battere	VERB	V	VerbForm=Inf	28	advcl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+36-37	dello	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Sviluppo	Sviluppo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	Economico	economico	PROPN	SP	_	38	nmod	_	_
+40	Corrado	Corrado	PROPN	SP	_	39	flat:name	_	_
+41	Passera	Passera	PROPN	SP	_	39	flat:name	_	_
+42	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Il Governo sta seguendo costantemente e con la massima attenzione la difficile e complessa questione dell’Ilva di Taranto".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	seguendo	seguire	VERB	V	VerbForm=Ger	0	root	_	_
+6	costantemente	costantemente	ADV	B	_	5	advmod	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	16	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+16	questione	questione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Ilva	Ilva	PROPN	SP	_	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Taranto	Taranto	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ma in serata fonti di Palazzo Chigi fanno sapere che Il premier Mario Monti ha chiesto ai ministri competenti di recarsi sul posto il 17 agosto e di riferire sulla situazione, contestualmente il ministro della Giustizia Paola Severino chiederà l’acquisizione dei due provvedimenti con i quali il gip ha confermato il sequestro degli impianti dell’Ilva di Taranto e ha revocato la nomina di Bruno Ferrante dall’incarico di curatore dello stabilimento.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	serata	serata	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	fonti	fonto	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Palazzo	Palazzo	PROPN	SP	_	4	nmod	_	_
+7	Chigi	Chigi	PROPN	SP	_	6	flat:name	_	_
+8	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	advcl	_	_
+9	sapere	sapere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	premier	premier	NOUN	S	_	16	nsubj	_	_
+13	Mario	Mario	PROPN	SP	_	12	nmod	_	_
+14	Monti	Monti	PROPN	SP	_	13	flat:name	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	competenti	competente	ADJ	A	Number=Plur	19	amod	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	recarsi	_	_	_	_	_	_	_	_
+22	recar	recare	VERB	V	VerbForm=Inf	19	acl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24-25	sul	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	posto	posto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	17	17	NUM	N	NumType=Card	22	obl	_	_
+29	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	28	flat	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	riferire	riferire	VERB	V	VerbForm=Inf	22	conj	_	_
+33-34	sulla	_	_	_	_	_	_	_	_
+33	su	su	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	8	punct	_	_
+37	contestualmente	contestualmente	ADV	B	_	39	advmod	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Giustizia	Giustizia	PROPN	SP	_	39	nmod	_	_
+43	Paola	Paola	PROPN	SP	_	39	nmod	_	_
+44	Severino	Severino	PROPN	SP	_	43	flat:name	_	_
+45	chiederà	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+46	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	acquisizione	acquisizione	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	_
+48-49	dei	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	51	case	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+50	due	due	NUM	N	NumType=Card	51	nummod	_	_
+51	provvedimenti	provvedimento	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+52	con	con	ADP	E	_	54	case	_	_
+53	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	quali	quale	PRON	PR	Number=Plur|PronType=Rel	58	obl	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	gip	gip	NOUN	S	Gender=Masc	58	nsubj	_	_
+57	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+58	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	58	obj	_	_
+61-62	degli	_	_	_	_	_	_	_	_
+61	di	di	ADP	E	_	63	case	_	_
+62	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
+63	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	60	nmod	_	_
+64-65	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+64	di	di	ADP	E	_	66	case	_	_
+65	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	66	det	_	_
+66	Ilva	Ilva	PROPN	SP	_	63	nmod	_	_
+67	di	di	ADP	E	_	68	case	_	_
+68	Taranto	Taranto	PROPN	SP	_	66	nmod	_	_
+69	e	e	CCONJ	CC	_	71	cc	_	_
+70	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	aux	_	_
+71	revocato	revocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	conj	_	_
+72	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	nomina	nomina	NOUN	S	Gender=Fem|Number=Sing	71	obj	_	_
+74	di	di	ADP	E	_	75	case	_	_
+75	Bruno	Bruno	PROPN	SP	_	73	nmod	_	_
+76	Ferrante	Ferrante	PROPN	SP	_	75	flat:name	_	_
+77-78	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+77	da	da	ADP	E	_	79	case	_	_
+78	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	79	det	_	_
+79	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	71	obl	_	_
+80	di	di	ADP	E	_	81	case	_	_
+81	curatore	curatore	NOUN	S	Gender=Masc|Number=Sing	79	nmod	_	_
+82-83	dello	_	_	_	_	_	_	_	_
+82	di	di	ADP	E	_	84	case	_	_
+83	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
+84	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	81	nmod	_	SpaceAfter=No
+85	.	.	PUNCT	FS	_	45	punct	_	_
+
+# sent_id = 14
+# text = Ma il problema salute rimane aperto.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	salute	saluto	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	_
+5	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	aperto	aperto	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = È maggiore del 15% l’incidenza dei tumori nell’area del sito dell’Ilva di Taranto, con un picco del 30% in più per quelli al polmone:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	15	15	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	SYM	_	2	obl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	incidenza	incidenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	tumori	tumore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12-13	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	area	area	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sito	sito	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Ilva	Ilva	PROPN	SP	_	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Taranto	Taranto	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	8	punct	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	picco	picco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	30	30	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+30	%	%	SYM	SYM	_	26	nmod	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	più	più	ADV	B	_	8	advmod	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	32	obl	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	polmone	polmone	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = i dati saranno presentati al ministero della Salute a metà settembre prossimo.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	presentati	presentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Salute	Salute	PROPN	SP	_	7	nmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	metà	metà	NOUN	S	Gender=Fem	13	nmod	_	_
+13	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+14	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Il ministro Renato Balduzzi riceverà nei prossimi giorni nuovi dati sul rischio dal Centro per il controllo delle malattie
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Renato	Renato	PROPN	SP	_	2	nmod	_	_
+4	Balduzzi	Balduzzi	PROPN	SP	_	3	flat:name	_	_
+5	riceverà	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	dati	dato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Centro	Centro	PROPN	SP	_	14	nmod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpacesAfter=\n
+

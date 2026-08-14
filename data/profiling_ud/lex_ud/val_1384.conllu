@@ -1,0 +1,360 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il Cavallo, Silvio Berlusconi, si è subito riportato ad Arcore, dopo l’ennesima caduta, questa volta al malleolo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Cavallo	Cavallo	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Silvio	Silvio	PROPN	SP	_	2	appos	_	_
+5	Berlusconi	Berlusconi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	subito	subito	ADV	B	_	10	advmod	_	_
+10	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	Arcore	Arcore	PROPN	SP	_	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	dopo	dopo	ADP	E	_	17	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	ennesima	ennesimo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	malleolo	malleolo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Una frattura, nulla di più.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frattura	frattura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non drammi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	drammi	drare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non catarsi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2-3	catarsi	_	_	_	_	_	_	_	SpaceAfter=No
+2	catar	catare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Una brutta storta, per carità, che richiede una ventina di giorni di riposo e cautela.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	brutta	brutto	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	storta	storta	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	carità	carità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ventina	ventina	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = È un campanello d’allarme, certo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	certo	certo	ADV	B	_	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Un campanello che suona sempre più flebile, sempre più lontano.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	sempre	sempre	ADV	B	_	4	advmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	flebile	flebile	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ma, diciamocelo chiaramente, la fragilità fisica di Silvio Berlusconi è ormai una costante.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	diciamocelo	diciamocelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+4	chiaramente	chiaramente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fragilità	fragilità	NOUN	S	Gender=Fem	3	obj	_	_
+8	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Silvio	Silvio	PROPN	SP	_	7	nmod	_	_
+11	Berlusconi	Berlusconi	PROPN	SP	_	10	flat:name	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	ormai	ormai	ADV	B	_	15	advmod	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	costante	costante	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = Non si tratta di fare i pettegoli, né di alimentare le polemiche, ma di constatare un dato di fatto:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	pettegoli	pettegolo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	né	né	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	alimentare	alimentare	VERB	V	VerbForm=Inf	5	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	constatare	constatare	VERB	V	VerbForm=Inf	3	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dato	dato	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = l’uomo, la sua energia, il suo influsso nel mondo, vanno tenuti vivi, perché la politica italiana ne ha ben bisogno.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	energia	energia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	influsso	influsso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	vivi	vivo	ADJ	A	Gender=Masc|Number=Plur	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	perché	perché	SCONJ	CS	_	24	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	politica	politica	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+22	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
+24	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+25	ben	bene	ADV	B	_	24	advmod	_	_
+26	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Vorrebbero che il suo ritiro fosse una occasione, un momento di riflessione, un’opportunità per delegare, per dare respiro ai suoi fedeli.
+1	Vorrebbero	volere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ritiro	ritiro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	momento	momento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	opportunità	opportunità	NOUN	S	Gender=Fem	13	appos	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	delegare	delegare	VERB	V	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	dare	dare	VERB	V	VerbForm=Inf	18	advcl	_	_
+22	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	fedeli	fedele	NOUN	S	Number=Plur	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ma è chiaro che la situazione attuale, la politica, le sfide a cui il Paese è sottoposto, impongono una presenza costante.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	21	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+7	attuale	attuale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	politica	politica	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Paese	Paese	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	impongono	imporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	costante	costante	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = E Berlusconi, nonostante tutto, non ha intenzione di abbandonare la scena.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	Berlusconi	Berlusconi	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nonostante	nonostante	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	abbandonare	abbandonare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scena	scena	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Il rientro ad Arcore non è una resa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rientro	rientro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	Arcore	Arcore	PROPN	SP	_	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	resa	resa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = È un’organizzazione, un rimpicciolimento delle emergenze, una revisione delle priorità.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rimpicciolimento	rimpicciolimento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	emergenze	emergenze	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	priorità	priorità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = L’indecisione, la superficialità, la mancanza di una visione strategica – caratteristiche che troppo spesso sono state attribuite al leader di Forza Italia – dovranno essere compensate da una gestione più attenta, da un coordinamento più efficace.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	indecisione	indecisione	NOUN	S	Gender=Fem|Number=Sing	30	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	superficialità	superficialità	NOUN	S	Gender=Fem	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	–	–	PUNCT	FF	_	11	punct	_	_
+14	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+16	troppo	troppo	ADV	B	_	17	advmod	_	_
+17	spesso	spesso	ADV	B	_	20	advmod	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	attribuite	attribuire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	leader	leader	NOUN	S	_	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Forza	Forza	PROPN	SP	_	23	nmod	_	_
+26	Italia	Italia	PROPN	SP	_	25	flat:name	_	_
+27	–	–	PUNCT	FB	_	2	punct	_	_
+28	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	_
+29	essere	essere	AUX	VA	VerbForm=Inf	30	aux:pass	_	_
+30	compensate	compensato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	30	obl:agent	_	_
+34	più	più	ADV	B	_	35	advmod	_	_
+35	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	coordinamento	coordinamento	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	efficace	efficace	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 17
+# text = Ci aspettano settimane cruciali, dovranno emergere le nuove figure chiave, i giovani talenti, coloro che sapranno raccogliere l’eredità del Cavallo
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	aspettano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	cruciali	cruciale	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
+7	emergere	emergere	VERB	V	VerbForm=Inf	2	conj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	figure	figura	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+11	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	giovani	giovane	ADJ	A	Number=Plur	15	amod	_	_
+15	talenti	talento	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	15	appos	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	sapranno	sapre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	17	acl:relcl	_	_
+20	raccogliere	raccogliere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	eredità	eredità	NOUN	S	Gender=Fem	20	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Cavallo	Cavallo	PROPN	SP	_	22	nmod	_	SpacesAfter=\n
+

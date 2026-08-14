@@ -1,0 +1,350 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A piazzale Clodio è attesa un'informativa della polizia postale.
+1	A	a	ADP	E	_	3	case	_	_
+2	piazzale	piazzale	ADJ	A	Number=Sing	3	amod	_	_
+3	Clodio	Clodio	PROPN	SP	_	5	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	attesa	attendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	informativa	informativa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	postale	postale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Politica Quel network russo di profili fake che inquieta la politica italiana:
+1	Politica	politico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Quel	quello	PROPN	SP	_	0	root	_	_
+3	network	network	NOUN	S	Gender=Masc	2	nmod	_	_
+4	russo	russo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	profili	profili	ADJ	A	Number=Plur	7	amod	_	_
+7	fake	fake	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	inquieta	inquietare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	politica	politica	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ecco tutti i dati sui troll gestiti da San Pietroburgo di MARIANNA BRUSCHI, GIULIANO FOSCHINI E FABIO TONACCI
+1	ecco	ecco	ADV	B	_	4	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	dati	dato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	troll	troll	NOUN	S	Gender=Masc	4	nmod	_	_
+8	gestiti	gestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	San	San	PROPN	SP	_	8	obl:agent	_	_
+11	Pietroburgo	Pietroburgo	PROPN	SP	_	10	flat:name	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	MARIANNA	Marianna	PROPN	SP	_	10	nmod	_	_
+14	BRUSCHI	bruschi	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	GIULIANO	Giuliano	PROPN	SP	_	10	appos	_	_
+17	FOSCHINI	FOSCHINI	PROPN	SP	_	16	flat:name	_	_
+18	E	e	CCONJ	CC	_	19	cc	_	_
+19	FABIO	Fabio	PROPN	SP	_	16	conj	_	_
+20	TONACCI	TONACCI	PROPN	SP	_	19	flat:name	_	_
+
+# sent_id = 4
+# text = La vicenda riguarda ciò che è avvenuto la notte tra il 27 e il 28 maggio, come scritto da Repubblica lo scorso 30 maggio, proprio nelle ore in cui il Capo dello Stato espresse il suo "no" alla candidatura di Paolo Savona come ministro dell'Economia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	tra	tra	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	27	27	NUM	N	NumType=Card	9	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	28	28	NUM	N	NumType=Card	12	conj	_	_
+16	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	come	come	SCONJ	CS	_	19	mark	_	_
+19	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	Repubblica	Repubblica	PROPN	SP	_	19	obl:agent	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	30	30	NUM	N	NumType=Card	19	obl	_	_
+25	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	3	punct	_	_
+27	proprio	proprio	ADV	B	_	30	advmod	_	_
+28-29	nelle	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	ore	ora	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	cui	cui	PRON	PR	PronType=Rel	30	nmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Capo	capo	PROPN	SP	_	38	nsubj	_	_
+35-36	dello	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	espresse	esprimere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+40	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+41	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+42	no	no	ADV	BN	PronType=Neg	38	advmod	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	38	punct	_	_
+44-45	alla	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	Paolo	Paolo	PROPN	SP	_	46	nmod	_	_
+49	Savona	Savona	PROPN	SP	_	48	flat:name	_	_
+50	come	come	ADP	E	_	51	case	_	_
+51	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+52-53	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+52	di	di	ADP	E	_	54	case	_	_
+53	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	54	det	_	_
+54	Economia	economia	PROPN	SP	_	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Su Twitter si registrarono in pochi minuti circa 400 nuovi profili, tutti riconducibili ad un'unica origine, dai quali partirono migliaia di messaggi di insulti e di inviti alle dimissioni nei confronti del Presidente della Repubblica.
+1	Su	su	ADP	E	_	2	case	_	_
+2	Twitter	Twitter	PROPN	SP	_	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	registrarono	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	circa	circa	ADV	B	_	9	advmod	_	_
+9	400	400	NUM	N	NumType=Card	7	nummod	_	_
+10	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	7	appos	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	obl	_	_
+14	riconducibili	riconducibile	ADJ	A	Number=Plur	11	amod	_	_
+15	ad	a	ADP	E	_	18	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	unica	unico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	origine	origine	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	quali	quale	PRON	PR	Number=Plur|PronType=Rel	23	obl	_	_
+23	partirono	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+24	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	inviti	invito	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+32-33	alle	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+35-36	nei	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Repubblica	Repubblica	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = C'era dunque una regia unica che aveva come obiettivo il Quirinale alle prese con una delicatissima vicenda politica durante la quale si è sfiorata la crisi istituzionale dopo una richiesta di impeachment (rientrata alcune ore dopo)?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	dunque	dunque	ADV	B	_	2	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	regia	regia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	unica	unico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Quirinale	Quirinale	PROPN	SP	_	8	obj	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	prese	presa	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	delicatissima	delicato	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	19	amod	_	_
+19	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	politica	politico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	durante	durante	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	26	obl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	sfiorata	sfiorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	crisi	crisi	NOUN	S	Gender=Fem	26	nsubj	_	_
+29	istituzionale	istituzionale	ADJ	A	Number=Sing	28	amod	_	_
+30	dopo	dopo	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	impeachment	impeachment	NOUN	S	Number=Sing	32	nmod	_	_
+35	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	rientrata	rientrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+37	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	38	det	_	_
+38	ore	ora	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+39	dopo	dopo	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+41	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = L'ipotesi è che dietro questi attacchi simultanei possano esserci operatori specializzati in troll, soggetti anonimi che sui social lanciano messaggi provocatori.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ipotesi	ipotesi	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	dietro	dietro	ADV	B	_	10	advmod	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	simultanei	simultanei	ADJ	A	Number=Plur	7	amod	_	_
+9	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	esserci	_	_	_	_	_	_	_	_
+10	esser	essere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+12	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+13	specializzati	specializzato	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	troll	troll	NOUN	S	Gender=Masc	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	anonimi	anonimo	NOUN	S	Gender=Masc|Number=Plur	12	appos	_	_
+19	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+20-21	sui	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	social	social	NOUN	S	Gender=Masc	23	obl	_	_
+23	lanciano	lanciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+24	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	provocatori	provocatore	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Una pista che ricorda da vicino quanto avvenuto durante l'ultima campagna elettorale americana, con il Russiagate.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pista	pista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	vicino	vicino	ADV	B	_	4	advmod	_	_
+7	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	4	obl	_	_
+8	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+9	durante	durante	ADP	E	_	12	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	elettorale	elettorale	ADJ	A	Number=Sing	12	amod	_	_
+14	americana	americano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Russiagate	Russiagate	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Di questa vicenda si occuperà lunedì anche il Copasir, con l'audizione del direttore del Dis, Alessandro Pansa.
+1	Di	di	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	occuperà	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	lunedì	lunedì	NOUN	S	Gender=Masc	5	obl	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Copasir	Copasir	PROPN	SP	_	5	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	audizione	audizione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Dis	Dis	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	Alessandro	Alessandro	PROPN	SP	_	16	appos	_	_
+22	Pansa	Pansa	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Grande attenzione quindi al passaggio di lunedì per cercare di mettere insieme tutti i tasselli della vicenda.
+1	Grande	grande	ADJ	A	Number=Sing	2	amod	_	_
+2	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	quindi	quindi	ADV	B	_	6	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lunedì	lunedì	NOUN	S	Gender=Masc	6	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	cercare	cercare	VERB	V	VerbForm=Inf	2	acl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	mettere	mettere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	insieme	insieme	ADV	B	_	12	advmod	_	_
+14	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	tasselli	tassello	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il profilo penale con cui rubricare il fascicolo di indagine sarà valutato dai magistrati dopo l'analisi dell'informativa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	penale	penale	ADJ	A	Number=Sing	2	amod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	rubricare	rubricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fascicolo	fascicolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+12	valutato	valutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+16	dopo	dopo	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	analisi	analisi	NOUN	S	Gender=Fem	12	obl	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	informativa	informativa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

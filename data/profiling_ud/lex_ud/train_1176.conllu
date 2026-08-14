@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sicilyari, Bendini e Frascio.
+1	Sicilyari	Sicilyari	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Bendini	Bendini	PROPN	SP	_	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Frascio	Frascio	PROPN	SP	_	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sono questi i nomi degli insetti che, in آبنا apparsi in Italia, minacciano la produzione di pomodori e, di conseguenza, l'intera filiera agroalimentare italiana.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	آبنا	ابنا	PROPN	SP	_	12	obl	_	_
+12-13	apparsi	_	_	_	_	_	_	_	_
+12	appar	apparre	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	minacciano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	pomodori	pomodoro	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	29	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+28	intera	intero	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	filiera	filiera	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+30	agroalimentare	agroalimentare	ADJ	A	Number=Sing	29	amod	_	_
+31	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Gli insetti, originari del Giappone, si sono dimostrati particolarmente aggressivi e resistenti ai trattamenti chimici, mettendo a rischio la produzione nazionale di pomodori, che rappresenta una importante fonte di reddito per molte imprese agricole.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	originari	originario	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Giappone	Giappone	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dimostrati	dimostrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	particolarmente	particolarmente	ADV	B	_	13	advmod	_	_
+13	aggressivi	aggressivo	ADJ	A	Gender=Masc|Number=Plur	11	xcomp	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	resistenti	resistente	ADJ	A	Number=Plur	13	conj	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+19	chimici	chimico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	mettendo	mettere	VERB	V	VerbForm=Ger	11	advcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+26	nazionale	nazionale	ADJ	A	Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	pomodori	pomodoro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	importante	importante	ADJ	A	Number=Sing	34	amod	_	_
+34	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	39	det	_	_
+39	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+40	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = L'Unione Europea ha già attivato una trovata di ricerca per capire come contrastare questi insetti, ma gli esperti temono che potrebbe essere troppo tardi per evitare danni金曜 hingevoli.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Unione	Unione	PROPN	SP	_	6	nsubj	_	_
+3	Europea	Europea	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	attivato	attivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	trovata	trovata	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	capire	capire	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	contrastare	contrastare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+15	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+21	temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+22	che	che	SCONJ	CS	_	28	mark	_	_
+23	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+24	essere	essere	AUX	V	VerbForm=Inf	28	aux	_	_
+25	troppo	troppo	ADV	B	_	26	advmod	_	_
+26	tardi	tardi	ADV	B	_	28	advmod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	evitare	evitare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+29	danni金曜	danni金曜	PROPN	SP	_	28	obj	_	_
+30	hingevoli	hingevole	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 5
+# text = "Occorre prendere subito misure drastiche per contenere la diffusione di questi insetti - afferma un entomologo della Facoltà di Agraria di Bologna -.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	prendere	prendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5	misure	misura	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	drastiche	drastico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	contenere	contenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	-	-	PUNCT	FF	_	15	punct	_	_
+15	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	entomologo	entomologo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Facoltà	facoltà	PROPN	SP	_	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Agraria	agraria	PROPN	SP	_	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Bologna	Bologna	PROPN	SP	_	20	nmod	_	_
+25	-	-	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Se non agiamo in modo risoluto, il danno economico potrebbe essere incalcolabile.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	agiamo	agire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	risoluto	risoluto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	danno	danno	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	economico	economico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+13	incalcolabile	incalcolabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 8
+# text = Ma come sono arrivati questi insetti in Italia?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Gli esperti sospettano che laoriasis siano stati importati accidentalmente insieme a piante o materiale vegetale provenienti dal Giappone.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sospettano	sospettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	laoriasis	laoriasis	ADV	B	_	8	advmod	_	_
+6	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	importati	importare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	accidentalmente	accidentalmente	ADV	B	_	8	advmod	_	_
+10	insieme	insieme	ADV	B	_	8	advmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+15	vegetale	vegetale	ADJ	A	Number=Sing	14	amod	_	_
+16	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	14	acl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Giappone	Giappone	PROPN	SP	_	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = "È un problema globale - spiega un portavoce dell'agenzia-Regimenti Faunistici Europea -.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	globale	globale	ADJ	A	Number=Sing	4	amod	_	_
+6	-	-	PUNCT	FB	_	7	punct	_	_
+7	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	portavoce	portavoce	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+14	Regimenti	Regimento	PROPN	SP	_	9	nmod	_	_
+15	Faunistici	Faunistici	PROPN	SP	_	14	flat:name	_	_
+16	Europea	Europea	PROPN	SP	_	14	flat:name	_	_
+17	-	-	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Gli insetti possono viaggiare con facilità attraverso i mezzi di trasporto internazionali, e una volta che sono arrivati in un nuovo territorio, possono diffondersi rapidamente e mettere a rischio le colture locali.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	viaggiare	viaggiare	VERB	V	VerbForm=Inf	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	facilità	facilità	NOUN	S	Gender=Fem	4	obl	_	_
+7	attraverso	attraverso	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	internazionali	internazionale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26-27	diffondersi	_	_	_	_	_	_	_	_
+26	diffonder	diffondere	VERB	V	VerbForm=Inf	4	conj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	rapidamente	rapidamente	ADV	B	_	26	advmod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	mettere	mettere	VERB	V	VerbForm=Inf	26	conj	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	colture	coltura	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+35	locali	locale	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 12
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 13
+# text = In attesa di una soluzione, gli agricoltori italiani sono costretti a fare i conti con l'ultima minaccia che si aggiunge alle sfide già cui devono far fronte, come il cambiamento climatico e la concorrenza internazionale.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	agricoltori	agricoltore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	conti	conto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23-24	alle	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+26	già	già	ADV	B	_	29	advmod	_	_
+27	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+28	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	far	fare	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+30	fronte	fronte	NOUN	S	Number=Sing	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	come	come	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+39	internazionale	internazionale	ADJ	A	Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 14
+# text = "Questi insetti hanno un potenziale devastante - conclude il presidente di una associazione di agricoltori del sud Italia -.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	potenziale	potenziale	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	devastante	devastante	ADJ	A	Number=Sing	6	amod	_	_
+8	-	-	PUNCT	FF	_	9	punct	_	_
+9	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	agricoltori	agricoltore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sud	sud	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Italia	Italia	PROPN	SP	_	19	nmod	_	_
+21	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Speriamo che gli sforzi per contrastarli siano
+1	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	contrastarli	_	_	_	_	_	_	_	_
+6	contrastar	contrastare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpacesAfter=\n
+

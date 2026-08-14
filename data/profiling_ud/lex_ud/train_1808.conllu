@@ -1,0 +1,735 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Perché sostiene Hillary Clinton?
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Hillary	Hillary	PROPN	SP	_	2	nsubj	_	_
+4	Clinton	Clinton	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = "A Bill non piacevo.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	Bill	Bill	PROPN	SP	_	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	piacevo	piacere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Non mi aspetto nulla da Hillary, ma è la migliore tra i due candidati".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Hillary	Hillary	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	3	conj	_	_
+12	tra	tra	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Dirà alla sua gente che devono votare Clinton, per impedire che vinca Trump?
+1	Dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	gente	gente	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	votare	votare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+9	Clinton	Clinton	PROPN	SP	_	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	impedire	impedire	VERB	V	VerbForm=Inf	1	advcl	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14	vinca	vincare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15	Trump	Trump	PROPN	SP	_	14	obj	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = "È mio dovere".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ci può spiegare perché Trump non le piace?
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spiegare	spiegare	VERB	V	VerbForm=Inf	0	root	_	_
+4	perché	perché	SCONJ	CS	_	8	mark	_	_
+5	Trump	Trump	PROPN	SP	_	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "Ha passato la sua vita a fare del male alla gente, l'ha calpestata e sfruttata.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	passato	passato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	male	male	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gente	gente	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	calpestata	calpestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sfruttata	sfruttare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non vedo come potrebbe cambiare ora.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cambiare	cambiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	ora	ora	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Come potrebbe cambiare il suo cuore.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Le persone vogliono Trump perché dice quello che loro pensano.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Trump	Trump	PROPN	SP	_	3	obj	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Vogliono un uomo d'affari bianco al potere.
+1	Vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	affari	affare	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	potere	potere	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Dicono: riavremo la nostra terra.
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	riavremo	riavre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ah. Ci sono brave persone, con un cuore buono.
+1	Ah	ah	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	brave	brave	NUM	N	NumType=Card	6	nummod	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+11	buono	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ma anche loro hanno in mente:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	mente	menta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 15
+# text = vogliamo riavere la nostra terra.
+1	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riavere	riavere	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Farò di tutto affinché Trump non vinca".
+1	Farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obl	_	_
+4	affinché	affinché	SCONJ	CS	_	7	mark	_	_
+5	Trump	Trump	PROPN	SP	_	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	vinca	vincare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Se Trump dovesse vincere, quali sarebbero le conseguenze per il suo popolo?
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	Trump	Trump	PROPN	SP	_	4	nsubj	_	_
+3	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	vincere	vincere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	quali	quale	PRON	PR	Number=Plur|PronType=Rel	7	nsubj	_	_
+7	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = "Finora non ha detto molto sui nativi americani.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Finora	finora	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	molto	molto	ADV	B	_	5	advmod	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	americani	americano	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Però utilizza la parola "Pocahontas" come parolaccia.
+1	Però	però	ADV	B	_	2	advmod	_	_
+2	utilizza	utilizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parola	parola	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Pocahontas	Pocahontas	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	parolaccia	parolaccia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Abbiamo anche avuto delle brutte esperienze con lui a causa dei casinò.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	casinò	casinò	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Quando il Governo concesse i casinò agli indiani, lui si oppose con forza.
+1	Quando	quando	SCONJ	CS	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	concesse	concedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	casinò	casinò	NOUN	S	Gender=Masc	4	obj	_	_
+7-8	agli	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	indiani	indiano	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	oppose	opporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	forza	forza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 22
+# text = Per questo motivo ha subito delle perdite nei suoi casinò e non ce lo perdonerà.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	subito	subire	ADV	B	_	8	advmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	perdite	perdita	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	casinò	casinò	NOUN	S	Gender=Masc	8	nmod	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	perdonerà	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Se viene eletto, il divario sarà ancora maggiore.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	divario	divario	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = Non solo tra le varie razze, ma anche tre le religioni.
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	solo	solo	ADV	B	_	6	advmod	_	_
+3	tra	tra	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	varie	vario	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	razze	razza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	religioni	religione	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = La parità dei diritti oggi non è ancora assoluta, bisogna continuare a lottare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	parità	parità	NOUN	S	Gender=Fem	10	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	oggi	oggi	ADV	B	_	10	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	ancora	ancora	ADV	B	_	10	advmod	_	_
+10	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	continuare	continuare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	lottare	lottare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Ma se vince Trump, torneremo ai vecchi tempi, quelli peggiori".
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	Trump	Trump	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	torneremo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	obj	_	_
+13	peggiori	peggiore	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = Che peso ha il presidente degli Stati Uniti per i nativi americani?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	peso	peso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Stati	Stati	PROPN	SP	_	5	nmod	_	_
+9	Uniti	Uniti	PROPN	SP	_	8	flat:name	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+13	americani	americano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = "Chi sarà il presidente è una questione molto importante.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+3	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	importante	importante	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Perché è il presidente a decidere chi diventerà ministro.
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	decidere	decidere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obj	_	_
+8	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
+9	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = E con loro io concludo affari e contratti.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	concludo	concludo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	affari	affare	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Al momento le cose vanno bene.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+6	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 32
+# text = Con il ministro dell'agricoltura abbiamo grandi progetti sull'orticoltura biologica.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	grandi	grande	ADJ	A	Number=Plur	9	amod	_	_
+9	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+10	su	su	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	orticoltura	orticoltura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 33
+# text = Queste iniziative ci aiutano molto e sono importanti per la nostra vita quotidiana".
+1	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	importanti	importante	ADJ	A	Number=Plur	4	conj	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Quali sono i problemi principali a Pine Ridge?
+1	Quali	quale	PRON	PQ	Number=Plur|PronType=Int	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+5	principali	principale	ADJ	A	Number=Plur	4	amod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Pine	Pine	PROPN	SP	_	4	nmod	_	_
+8	Ridge	Ridge	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = "L'economia.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	economia	economia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 36
+# text = La gente vuole soldi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = Cerco sempre di dire loro che il denaro non è poi così importante.
+1	Cerco	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+6	che	che	SCONJ	CS	_	13	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	poi	poi	ADV	B	_	13	advmod	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	importante	importante	ADJ	A	Number=Sing	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 38
+# text = E abbiamo molti problemi legati ad alcol, droga e povertà.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	droga	droga	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	povertà	povertà	NOUN	S	Gender=Fem	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = Qui viviamo in condizioni da terzo mondo.
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	viviamo	vivere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Soprattutto le strade.
+1	Soprattutto	soprattutto	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	strade	strada	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 41
+# text = Quando piove non sono più percorribili.
+1	Quando	quando	SCONJ	CS	_	6	mark	_	_
+2	piove	piove	ADV	B	_	6	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	percorribili	percorribile	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 42
+# text = Siamo responsabili al 100 percento dei nostri 11 000 chilometri quadrati di terra.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	responsabili	responsabile	ADJ	A	Number=Plur	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	100	100	NUM	N	NumType=Card	6	nummod	_	_
+6	percento	percento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	12	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+9	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+10	11	11	NUM	N	NumType=Card	12	nummod	_	_
+11	000	000	NUM	N	NumType=Card	10	flat	_	_
+12	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+13	quadrati	quadrato	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 43
+# text = Non abbiamo un corpo di polizia, né un sistema sanitario.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	né	né	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 44
+# text = Dobbiamo cavarcela da soli.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cavarcela	cavarcelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	soli	solo	ADJ	A	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 45
+# text = Per questo abbiamo bisogno di aiuto".
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 46
+# text = Come può aiutarvi il governo nazionale?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	aiutarvi	_	_	_	_	_	_	_	_
+3	aiutar	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	nazionale	nazionale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 47
+# text = "Ci possono aiutare in tutto.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 48
+# text = Se solo lo volessero.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	volessero	volere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 49
+# text = Per molto tempo qui tutti i bianchi hanno potuto uccidere i nativi americani, abusare di loro e fargli del male, senza essere puniti.
+1	Per	per	ADP	E	_	3	case	_	_
+2	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	qui	qui	ADV	B	_	10	advmod	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	uccidere	uccidere	VERB	V	VerbForm=Inf	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	americani	americano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	abusare	abusare	VERB	V	VerbForm=Inf	10	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19-20	fargli	_	_	_	_	_	_	_	_
+19	far	fare	VERB	V	VerbForm=Inf	15	conj	_	_
+20	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	male	male	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	senza	senza	ADP	E	_	27	mark	_	_
+26	essere	essere	AUX	VA	VerbForm=Inf	27	aux:pass	_	_
+27	puniti	punire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 50
+# text = Solo nel 1924 i nativi americani sono diventati cittadini di questo Stato.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	1924	1924	NUM	N	NumType=Card	9	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	nativi	nativo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	americani	americano	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	9	xcomp	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 51
+# text = Siamo stati maltrattati a lungo, e diciamo che ancora oggi non veniamo trattati bene".
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	maltrattati	maltrattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	ancora	ancora	ADV	B	_	14	advmod	_	_
+11	oggi	oggi	ADV	B	_	14	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	veniamo	venire	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	_	_
+15	bene	bene	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

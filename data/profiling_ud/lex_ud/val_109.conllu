@@ -1,0 +1,564 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E' tornato a casa e si è messo a dormire.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	dormire	dormire	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ai genitori ha raccontato di aver forato.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	forato	forare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma i segni dell'impatto col ciclista sulla vettura non hanno convinto mamma e papà.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	segni	segno	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ciclista	ciclista	NOUN	S	Number=Sing	6	nmod	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vettura	vettura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	papà	papà	NOUN	S	Gender=Masc	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 4
+# text = I genitori hanno percorso a ritroso la strada e, giunti sul luogo dell'incidente hanno scoperto quanto era accaduto realmente.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	percorso	percorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	ritroso	ritroso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	22	punct	_	_
+11	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	advcl	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	nsubj	_	_
+20	quanto	quanto	ADV	B	_	22	advmod	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+23	realmente	realmente	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = E sono stati proprio loro a indirizzare i carabinieri della compagnia di San Donà verso loro figlio.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	cop	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	indirizzare	indirizzare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	San	San	PROPN	SP	_	12	nmod	_	_
+15	Donà	Donà	PROPN	SP	_	14	flat:name	_	_
+16	verso	verso	ADP	E	_	18	case	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Che è stato fermato con l'accusa di omicidio stradale.
+1	Che	che	PRON	PQ	PronType=Int	4	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	stradale	stradale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Dettagli riportati da Venezia Today .
+1	Dettagli	dettagli	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	riportati	riportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Venezia	Venezia	PROPN	SP	_	2	obl:agent	_	_
+5	Today	Today	PROPN	SP	_	4	flat:name	_	_
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = L'incidente è avvenuto nei pressi dello svincolo di Torre di Fine.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	pressi	pressi	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8-9	dello	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	svincolo	svincolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Torre	Torre	PROPN	SP	_	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Fine	fine	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Alle prime ore del mattino, il giovane al volante si è trovato davanti il ciclista sul ponte di Revedoli.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giovane	giovane	NOUN	S	Number=Sing	16	nsubj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	volante	volante	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	davanti	davanti	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ciclista	ciclista	NOUN	S	Number=Sing	16	obl	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Revedoli	Revedoli	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = Il turista proveniva da Eraclea mare e pedalava in direzione del paese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	turista	turista	NOUN	S	Number=Sing	3	nsubj	_	_
+3	proveniva	provenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Eraclea	Eraclea	PROPN	SP	_	3	obl	_	_
+6	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	pedalava	pedalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Con il pirata in fuga, a chiamare i soccorsi è stata una signora passata poco dopo l'investimento.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pirata	pirata	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	chiamare	chiamare	VERB	V	VerbForm=Inf	3	acl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	soccorsi	soccorso	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	signora	signore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	poco	poco	ADV	B	_	15	advmod	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 12
+# text = Il ciclista a terra, esanime.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ciclista	ciclista	NOUN	S	Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	esanime	esanimo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ai sanitari del 118 non è rimasto che constatarne il decesso.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sanitari	sanitario	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	118	118	NUM	N	NumType=Card	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	11	mark	_	_
+11-12	constatarne	_	_	_	_	_	_	_	_
+11	constatar	constatare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	decesso	decesso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 14
+# text = Mentre ai carabinieri toccavano i rilievi e le prime ipotesi sull'accaduto, il giovane rientrava a casa con l'auto ammaccata e una ruota squarciata.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	toccavano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	rilievi	rilievo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	ipotesi	ipotesi	NOUN	S	Gender=Fem	18	nsubj	_	_
+12-13	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+12	su	su	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	giovane	giovane	NOUN	S	Number=Sing	18	nsubj	_	_
+18	rientrava	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	auto	auto	NOUN	S	Gender=Fem	18	obl	_	_
+24	ammaccata	ammaccato	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	ruota	ruota	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+28	squarciata	squarciato	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = Per giustificarsi, aveva raccontato ai genitori di essere incappato in una foratura.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	giustificarsi	_	_	_	_	_	_	_	SpaceAfter=No
+2	giustificar	giustificarre	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	incappato	incappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	foratura	foratura	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Ma i danni erano troppi per trarre in inganno i suoi.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	danni	danno	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	troppi	troppo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	trarre	trarre	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	inganno	inganno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Mamma e papà avevano capito che il ragazzo nascondeva loro qualcosa.
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	papà	papà	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	nascondeva	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Quando, giunti sul luogo dell'incidente, si sono trovati davanti l'ambulanza e le auto dei carabinieri, il sospetto si è trasformato in un presentimento troppo forte da tenere solo per loro.
+1	Quando	quando	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	13	punct	_	_
+3	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	advcl	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	advcl	_	_
+14	davanti	davanti	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	auto	auto	NOUN	S	Gender=Fem	16	conj	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	13	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	presentimento	presentimento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	troppo	troppo	ADV	B	_	33	advmod	_	_
+33	forte	forte	ADJ	A	Number=Sing	31	amod	_	_
+34	da	da	ADP	E	_	35	mark	_	_
+35	tenere	tenere	VERB	V	VerbForm=Inf	33	advcl	_	_
+36	solo	solo	ADV	B	_	38	advmod	_	_
+37	per	per	ADP	E	_	38	case	_	_
+38	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 19
+# text = Di qui, la testimonianza resa ai carabinieri sullo strano ritorno a casa di loro figlio e quei danni sull'auto.
+1	Di	di	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	resa	rendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	sullo	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	strano	strano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	danni	danno	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+22-23	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+22	su	su	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	auto	auto	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = I carabinieri avevano già repertato alcuni pezzi di carrozzeria sul luogo dell'impatto.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	repertato	repertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	carrozzeria	carrozzeria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Giunti all'abitazione indicata, si sono trovati davanti l'auto dell'investitore.
+1	Giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	indicata	indicata	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	davanti	davanti	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	auto	auto	NOUN	S	Gender=Fem	9	obl	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	investitore	investitore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = il giovane dormiva.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	0	root	_	_
+3	dormiva	dormiva	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Lo hanno fatto vestire e portato in caserma per accertamenti.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	vestire	vestire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	caserma	caserma	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Sentito il magistrato di turno, il 18enne è stato fermato per omicidio stradale e omissione di soccorso.
+1	Sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	magistrato	magistrato	NOUN	S	Gender=Masc|Number=Sing	1	xcomp	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	turno	turno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	18enne	18enne	NOUN	S	Number=Sing	11	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	stare	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	stradale	stradale	ADJ	A	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	omissione	omissione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 25
+# text = Il sospetto è che possa essersi messo al volante sotto l'effetto di alcol e stupefacenti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6-7	essersi	_	_	_	_	_	_	_	_
+6	esser	essere	AUX	VA	VerbForm=Inf	8	aux	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	volante	volante	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	sotto	sotto	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	stupefacenti	stupefacente	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 26
+# text = Si è in attesa del risultato dei test per averne conferma.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	test	test	NOUN	S	Gender=Masc	7	nmod	_	_
+11	per	per	ADP	E	_	14	mark	_	_
+12-13	averne	_	_	_	_	_	_	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	conferma	conferma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Al termine degli accertamenti si procederà con il suo trasferimento in carcere.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	procederà	procedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,316 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Titolo:
+1	Titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = "Il texano dagli occhi di ghiaccio" (Mondadori, 18 euro).
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	texano	texare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	dagli	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Mondadori	Mondadori	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	18	18	NUM	N	NumType=Card	14	nummod	_	_
+14	euro	euro	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E già questo basterebbe per spiegare di chi si parla, meglio, di chi si sparla.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	basterebbe	bastare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	spiegare	spiegare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	PronType=Rel	6	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	meglio	meglio	ADV	B	_	4	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	chi	chi	PRON	PR	PronType=Rel	4	conj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17-18	sparla	_	_	_	_	_	_	_	SpaceAfter=No
+17	spar	spare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Siamo di fronte al libro verità di Reed Albergotti e Vanessa O'Connell, due valorosi giornalisti del "Wall Streeet Journal" che da anni si occupano di Armstrong, a partire da quando usava i soldi delle poste americane (team US Postal) per comprarsi doping.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	verità	verità	NOUN	S	Gender=Fem	6	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Reed	Reed	PROPN	SP	_	7	nmod	_	_
+10	Albergotti	Albergotti	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Vanessa	Vanessa	PROPN	SP	_	9	conj	_	_
+13	O'	O'	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	Connell	Connell	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	due	due	NUM	N	NumType=Card	18	nummod	_	_
+17	valorosi	valoroso	ADJ	A	Number=Plur	18	amod	_	_
+18	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	12	appos	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Wall	Wall	PROPN	SP	_	18	nmod	_	_
+23	Streeet	Streeet	PROPN	SP	_	22	flat:name	_	_
+24	Journal	Journal	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	22	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	occupano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Armstrong	Armstrong	PROPN	SP	_	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	partire	partire	VERB	V	VerbForm=Inf	30	advcl	_	_
+36	da	da	ADP	E	_	38	mark	_	_
+37	quando	quando	SCONJ	CS	_	36	fixed	_	_
+38	usava	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	advcl	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+41-42	delle	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	poste	posta	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	_
+44	americane	americano	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+45	(	(	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	team	team	X	X	_	30	obj	_	_
+47	US	US	PROPN	SP	_	46	flat:name	_	_
+48	Postal	Postal	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+49	)	)	PUNCT	FB	_	46	punct	_	_
+50	per	per	ADP	E	_	51	mark	_	_
+51-52	comprarsi	_	_	_	_	_	_	_	_
+51	comprar	comprare	VERB	V	VerbForm=Inf	30	advcl	_	_
+52	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl	_	_
+53	doping	doping	NOUN	S	Gender=Masc	51	xcomp	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Con le sue 430 pagine, il libro - molto serio, molto documentato - si incarica sostanzialmente di demolire quel che resta di un mito già abbastanza frantumato.
+1	Con	con	ADP	E	_	5	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	430	430	NUM	N	NumType=Card	5	nummod	_	_
+5	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	libro	libro	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+9	-	-	PUNCT	FB	_	11	punct	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	serio	serio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	documentato	documentare	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+15	-	-	PUNCT	FB	_	8	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	incarica	incaricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	sostanzialmente	sostanzialmente	ADV	B	_	17	advmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	demolire	demolire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+21	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mito	mito	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	già	già	ADV	B	_	29	advmod	_	_
+28	abbastanza	abbastanza	ADV	B	_	29	advmod	_	_
+29	frantumato	frantumato	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 6
+# text = Oltre al risaputo, si scopre che Armstrong era infrequentabile anche come semplice persona, per via della sua arroganza e della sua protervia.
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	risaputo	risaputo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	Armstrong	Armstrong	PROPN	SP	_	11	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	infrequentabile	infrequentabile	ADJ	A	Number=Sing	7	ccomp	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	semplice	semplice	ADJ	A	Number=Sing	15	amod	_	_
+15	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	via	via	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	arroganza	arroganza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	protervia	protervia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Penosa anche la sua figura di macho alla costante caccia di prede, soprattutto miss dopo le premiazioni.
+1	Penosa	Penoso	ADV	B	_	5	advmod	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	figura	figura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	macho	macho	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	costante	costante	ADJ	A	Number=Sing	11	amod	_	_
+11	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	prede	prede	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	soprattutto	soprattutto	ADV	B	_	16	advmod	_	_
+16	miss	miss	NOUN	S	Gender=Masc	5	appos	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	premiazioni	premiazione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Per gli amanti del genere, è la biografia - tra documento e gossip - di un mito finto, bugiardo, alla fine sbugiardato.
+1	Per	per	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	amanti	amante	NOUN	S	Number=Plur	10	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	genere	genere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	biografia	biografia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	-	-	PUNCT	FB	_	10	punct	_	_
+12	tra	tra	ADP	E	_	13	case	_	_
+13	documento	documento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	gossip	gossip	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	-	-	PUNCT	FF	_	10	punct	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mito	mito	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+20	finto	finto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	bugiardo	bugiardo	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+27	sbugiardato	sbugiardato	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Certo non si può dire che sia un libro sconvolgente, perchè ormai di Armstrong non sconvolge più nulla.
+1	Certo	certo	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	libro	libro	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+10	sconvolgente	sconvolgente	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	perchè	perché	SCONJ	CS	_	17	mark	_	_
+13	ormai	ormai	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Armstrong	Armstrong	PROPN	SP	_	17	obl	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	sconvolge	sconvolgere	VERB	V	VerbForm=Inf	5	advcl	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = E forse sta proprio qui il lato debole del volume:
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	forse	forse	ADV	B	_	7	advmod	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	qui	qui	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lato	lato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	debole	debole	ADJ	A	Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	volume	volume	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 11
+# text = arrivare troppo tardi, ad argomento esaurito.
+1	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	tardi	tardi	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	esaurito	esaurito	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = L'ambizione è quella di diventare la vera pietra tombale su una storia incredibile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	diventare	diventare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vera	vero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	6	xcomp	_	_
+10	tombale	tombale	ADJ	A	Number=Sing	9	amod	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	incredibile	incredibile	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Il risultato certo è quello della saturazione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	certo	certo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	saturazione	saturazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,295 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il colera, una malattia duodenale infettiva acuta causata dal batterio Vibrio cholerae, si Diffusion Si diffonde tramite linger acqua contaminata e cibo non cotto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	colera	colera	NOUN	S	_	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+6	duodenale	duodenale	ADJ	A	Number=Sing	5	amod	_	_
+7	infettiva	infettivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	acuta	acuta	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	_
+9	causata	causare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	batterio	batterio	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	Vibrio	Vibrio	PROPN	SP	_	12	nmod	_	_
+14	cholerae	cholerarre	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+17	Diffusion	Diffusion	PROPN	SP	_	16	nsubj	_	_
+18	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	diffonde	diffondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	tramite	tramite	ADP	E	_	21	mark	_	_
+21	linger	linger	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+23	contaminata	contaminato	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	cotto	cotto	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = In un paese in cui l'accesso all'acqua potabile è limitato e le strutture igieniche sono spesso insufficienti, i bambini sono particolarmente vulnerabili a questa malattia, che può essere fatale se non trattata in modo adeguato.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	potabile	potabile	ADJ	A	Number=Sing	10	amod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+17	igieniche	igienico	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	spesso	spesso	ADV	B	_	20	advmod	_	_
+20	insufficienti	insufficiente	ADJ	A	Number=Plur	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	particolarmente	particolarmente	ADV	B	_	26	advmod	_	_
+26	vulnerabili	vulnerabile	ADJ	A	Number=Plur	0	root	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+32	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	essere	essere	AUX	VA	VerbForm=Inf	34	cop	_	_
+34	fatale	fatale	ADJ	A	Number=Sing	29	acl:relcl	_	_
+35	se	se	SCONJ	CS	_	37	mark	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	trattata	trattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	modo	modo	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+40	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 3
+# text = La situazione è ulteriormente aggravata dalla-Din poi dieta della carestia che minaccia il paese.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	ulteriormente	ulteriormente	ADV	B	_	5	advmod	_	_
+5	aggravata	aggravare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	-Din	-Din	PROPN	SP	_	5	obl:agent	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	dieta	dieta	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	carestia	carestia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	minaccia	minacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	paese	paese	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Dân milioni di persone in Somalia sono a rischio di fame a causa della peggiore siccità degli ultimi 40 anni.
+1	Dân	Dâno	ADP	E	_	2	case	_	_
+2	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Somalia	Somalia	PROPN	SP	_	4	nmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fame	fama	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	17	amod	_	_
+17	siccità	siccità	NOUN	S	Gender=Fem	13	nmod	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	22	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+20	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+21	40	40	NUM	N	NumType=Card	22	nummod	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = La mancanza di cibo e acqua potabile ha costretto molte famiglie a desplazarse verso aree urbane già sovraffollate e inductive a insuffic Places sporchi e insulatorie igieniche insufficienti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	potabile	potabile	ADJ	A	Number=Sing	4	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	desplazarse	desplazarire	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	verso	verso	ADP	E	_	15	case	_	_
+15	aree	area	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	urbane	urbano	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	sovraffollate	sovraffollato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	inductive	inductivo	ADJ	A	Gender=Fem|Number=Plur	18	conj	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	insuffic	insuffic	ADJ	A	_	23	amod	_	_
+23	Places	Places	PROPN	SP	_	20	obl	_	_
+24	sporchi	sporco	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	insulatorie	insulatoria	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+27	igieniche	igienico	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+28	insufficienti	insufficiente	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Il governo somalo sta cercando di fronteggiare la situazione con l'assistenza internazionale, ma gli sforzi finora non sono stati sufficienti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	somalo	somalo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fronteggiare	fronteggiare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	internazionale	internazionale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	ma	ma	CCONJ	CC	_	22	cc	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+18	finora	finora	ADV	B	_	17	advmod	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+21	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	cop	_	_
+22	sufficienti	sufficiente	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = L Esperanto Esperto di diritti umani Medici Senza Frontiere ha dichiarato che la mancanza di fondi e di personale sta rendendo ancora più difficile affrontare l'emergenza.
+1	L	l	PROPN	SP	_	11	nsubj	_	_
+2	Esperanto	Esperanto	PROPN	SP	_	1	flat:name	_	_
+3	Esperto	esperto	PROPN	SP	_	1	flat:name	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	umani	umano	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	Medici	medico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+8	Senza	Senza	ADP	E	_	9	case	_	_
+9	Frontiere	frontiere	PROPN	SP	_	5	nmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	che	che	SCONJ	CS	_	21	mark	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	personale	personale	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	rendendo	rendere	VERB	V	VerbForm=Ger	11	ccomp	_	_
+22	ancora	ancora	ADV	B	_	24	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	difficile	difficile	ADJ	A	Number=Sing	21	xcomp	_	_
+25	affrontare	affrontare	VERB	V	VerbForm=Inf	24	csubj	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = La comunità internazionale deve intervenire urgentemente per fornire gli aiuti necessari alla Somalia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunità	comunità	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	internazionale	internazionale	ADJ	A	Number=Sing	2	amod	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	intervenire	intervenire	VERB	V	VerbForm=Inf	0	root	_	_
+6	urgentemente	urgentemente	ADV	B	_	5	advmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	fornire	fornire	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Somalia	Somalia	PROPN	SP	_	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = È fondamentale potenziare i programmi di distribuzione di acqua potabile e cibo, oltre che di vaccinazione contro il colera, per contenere la diffusione della malattia.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	_
+3	potenziare	potenziare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	potabile	potabile	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	oltre	oltre	ADV	B	_	17	case	_	_
+15	che	che	SCONJ	CS	_	14	fixed	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	vaccinazione	vaccinazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+18	contro	contro	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	colera	colera	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	contenere	contenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = È anche importante sostenere i programmi di sviluppo a lungo termine per garantire un futuro sostenibile per la popolazione somala.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	sostenere	sostenere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	termine	termine	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	garantire	garantire	VERB	V	VerbForm=Inf	6	acl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	sostenibile	sostenibile	ADJ	A	Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	somala	somalo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

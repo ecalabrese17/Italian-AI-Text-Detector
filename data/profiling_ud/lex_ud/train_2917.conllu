@@ -1,0 +1,286 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = volna Meghan Markle, 35 anni, è conosciuta soprattutto per il suo ruolo nella serie televisiva "Suits", dove interpreta Rachel Zane.
+1	volna	volnare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Meghan	Meghan	PROPN	SP	_	9	nsubj:pass	_	_
+3	Markle	Markle	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	35	35	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	conosciuta	conoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	soprattutto	soprattutto	ADV	B	_	14	advmod	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	serie	serie	NOUN	S	Gender=Fem	9	obl	_	_
+18	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Suits	Suits	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	dove	dove	ADV	B	_	25	advmod	_	_
+24	interpreta	interpretare	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	Rachel	Rachel	PROPN	SP	_	17	acl:relcl	_	_
+26	Zane	Zane	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Tuttavia, la sua carriera non si limita alla soli piccole scherm perch perch screen:
+1	Tuttavia	tuttavia	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	limita	limitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	soli	solo	NOUN	S	Gender=Fem	8	obl	_	_
+12	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	scherm	scherm	X	SW	Foreign=Yes	11	nmod	_	_
+14	perch	perch	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	perch	perch	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	screen	screen	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = infatti, ha anche preso parte a diversi film e ha lavorato come call girl in un episodio della sitcom "Suits".
+1	infatti	infatti	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	5	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	call	call	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	girl	girl	NOUN	S	Gender=Masc	12	obl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sitcom	sitcom	NOUN	S	_	18	nmod	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Suits	Suits	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La relazione tra il principe Harry e Meghan Markle è stata ufficializzata solo di recente, ma secondo fonti vicine alla coppia, i due si frequentano già da qualche tempo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	principe	principe	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Harry	Harry	PROPN	SP	_	5	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Meghan	Meghan	PROPN	SP	_	6	conj	_	_
+9	Markle	Markle	PROPN	SP	_	8	flat:name	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	ufficializzata	ufficializzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	recente	recente	ADJ	A	Number=Sing	28	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ma	ma	CCONJ	CC	_	19	cc	_	_
+18	secondo	secondo	ADP	E	_	19	case	_	_
+19	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+20	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	15	punct	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	due	due	NUM	N	NumType=Card	28	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	frequentano	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+29	già	già	ADV	B	_	28	advmod	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	32	det	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = La notizia ha subito suscitato interesse e curiosità presso il pubblico, sia per la bellezza di Meghan che per il suorahamascelle non convenzionali per un membro della famiglia reale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	subito	subito	ADV	B	_	5	advmod	_	_
+5	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	curiosità	curiosità	NOUN	S	Gender=Fem	6	conj	_	_
+9	presso	presso	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	sia	sia	CCONJ	CC	_	16	cc	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Meghan	Meghan	PROPN	SP	_	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	22	case	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	suorahamascelle	suorahamascella	NOUN	S	Number=Sing	16	nmod	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	convenzionali	convenzionale	ADJ	A	Number=Plur	22	amod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	membro	membro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	reale	reale	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Sembr che laებზეreating fra Harry e Meghan sia nata durante le olimpiadi diInvitedal 2016, quando entrambi si trovavano a Toronto per gli eventi sportivi.
+1	Sembr	Sembre	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	laებზეreating	laებზეreating	NOUN	S	Gender=Masc	9	obl	_	_
+4	fra	fra	ADP	E	_	5	case	_	_
+5	Harry	Harry	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Meghan	Meghan	PROPN	SP	_	5	conj	_	_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	olimpiadi	olimpiadio	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	diInvitedal	diInvitedal	PROPN	SP	_	12	nmod	_	_
+14	2016	2016	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	quando	quando	SCONJ	CS	_	19	mark	_	_
+17	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	trovavano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Toronto	Toronto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+25	sportivi	sportivo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Da allora, la coppia si sarebbe vista diverse volte in segreto, fino a quando non hanno deciso di rendere pubblica la relazione.
+1	Da	da	ADP	E	_	2	case	_	_
+2	allora	allora	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	fino	fino	ADV	B	_	19	mark	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	quando	quando	SCONJ	CS	_	14	fixed	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	rendere	rendere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	21	xcomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Naturalmente, la notizia ha anche sollevato alcune domande sulla compatibilità di Meghan con la vita reale.
+1	Naturalmente	naturalmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	compatibilità	compatibilità	NOUN	S	Gender=Fem	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Meghan	Meghan	PROPN	SP	_	12	nmod	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+18	reale	reale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Inoltre, si sono già levate voci che criticano la relaciónfra Harry e Meghan perchè la differenza di c qué si tratta di un'attrice americana divorziata e != per i canoni tradizionali della famiglia reale.
+1	Inoltre	inoltre	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	levate	levare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	voci	voce	NOUN	S	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	criticano	criticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	relaciónfra	relaciónfra	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	Harry	Harry	PROPN	SP	_	11	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Meghan	Meghan	PROPN	SP	_	12	conj	_	_
+15	perchè	perché	SCONJ	CS	_	22	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	c	c	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	qué	qué	PRON	PE	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	americana	americano	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	divorziata	divorziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+28	e	e	CCONJ	CC	_	32	cc	_	_
+29	!=	!=	PUNCT	FF	_	32	punct	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	canoni	canone	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
+33	tradizionali	tradizionale	ADJ	A	Number=Plur	32	amod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+37	reale	reale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Tuttavia, Harry sembra determineddetermined
+1	Tuttavia	tuttavia	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Harry	Harry	PROPN	SP	_	4	nsubj	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	determineddetermined	determineddetermined	CCONJ	CC	_	4	xcomp	_	SpacesAfter=\n
+

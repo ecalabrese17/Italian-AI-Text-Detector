@@ -1,0 +1,249 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tante.
+1	Tante	tanto	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Non se, però, il destino benevolo ci rifila in bocca quelle rare olive di grande polpa compatta, croccante, consistente e di facile distacco dal nocciolo.
+1	Non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+2	se	se	SCONJ	CS	_	10	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	10	punct	_	_
+4	però	però	ADV	B	_	10	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	destino	destino	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	benevolo	benevolo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+10	rifila	rifilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	10	obj	_	_
+14	rare	rare	VERB	V	VerbForm=Inf	13	acl	_	_
+15	olive	olive	ADV	B	_	14	advmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	polpa	polpa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	compatta	compatto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	croccante	croccante	ADJ	A	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	consistente	consistente	ADJ	A	Number=Sing	19	conj	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	facile	facile	ADJ	A	Number=Sing	27	amod	_	_
+27	distacco	distacco	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	nocciolo	nocciolo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Capita con quelle prodotte a Villa Sicilia, villasicilia.com, di tipo Nocellara del Belice, olive da mensa da sei generazioni oggi timbrate da Emerico Amari, imprenditore siculo-austriaco.
+1	Capita	capitare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	1	obl	_	_
+4	prodotte	produrre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Villa	Villa	PROPN	SP	_	4	obl	_	_
+7	Sicilia	Sicilia	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	villasicilia.com	villasicilia.com	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+13	Nocellara	Nocellara	PROPN	SP	_	12	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Belice	Belice	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	olive	olive	ADV	B	_	20	advmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	sei	sei	NUM	N	NumType=Card	23	nummod	_	_
+23	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	oggi	oggi	ADV	B	_	25	advmod	_	_
+25	timbrate	timbrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	Emerico	Emerico	PROPN	SP	_	25	obl:agent	_	_
+28	Amari	Amare	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	imprenditore	imprenditore	NOUN	S	Gender=Masc|Number=Sing	27	appos	_	_
+31	siculo	siculo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+33	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = I segreti di tanta bontà annidano nella bassa resa degli ulivi, nella fermentazione in acqua e sale da 8 a 12 mesi, priva di additivi chimici, nel tasso di acidità bassissimo (0,01%) e nel sentimento paterno di Amari:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	segreti	segreto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	bontà	bontà	NOUN	S	Gender=Fem	2	nmod	_	_
+6	annidano	annidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	resa	resa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	ulivi	ulivo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fermentazione	fermentazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	sale	sale	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	8	8	NUM	N	NumType=Card	26	nummod	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	12	12	NUM	N	NumType=Card	26	nummod	_	_
+26	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28	priva	privo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	additivi	additivo	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+31	chimici	chimico	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	6	punct	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	acidità	acidità	NOUN	S	Gender=Fem	35	nmod	_	_
+38	bassissimo	basso	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	37	amod	_	_
+39	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	0,01	0,01	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+41	%	%	SYM	SYM	_	37	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	41	punct	_	_
+43	e	e	CCONJ	CC	_	46	cc	_	_
+44-45	nel	_	_	_	_	_	_	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+47	paterno	paterno	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	Amari	Amare	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = «Se nella raccolta unoliva va persa, soffro», spiega.
+1	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	8	mark	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	unoliva	unolivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	persa	perdere	ADJ	A	Gender=Fem|Number=Sing	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	soffro	soffro	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Tale dedizione transita dritta sui nostri palati allhappy hour di sempre più bar dItalia e oltre (il Jamaica in Brera a Milano è un esempio).
+1	Tale	tale	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	dedizione	dedizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	transita	transito	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	dritta	dritta	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	palati	palato	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	allhappy	allhappy	X	SW	Foreign=Yes	8	compound	_	_
+10	hour	hour	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	bar	barre	NOUN	S	Gender=Masc	8	nmod	_	_
+15	dItalia	dItalia	PROPN	SP	_	14	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	oltre	oltre	ADV	B	_	27	advmod	_	_
+18	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Jamaica	Jamaica	PROPN	SP	_	27	nsubj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	Brera	Brera	PROPN	SP	_	20	nmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Milano	Milano	PROPN	SP	_	20	nmod	_	_
+25	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma varrebbe la pena verificare tanta bontà direttamente alla sorgente, quella piana del Belice su cui Amari ha appena rimesso a nuovo con gran gusto un baglio di proprietà.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	varrebbe	valere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pena	pena	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	verificare	verificare	VERB	V	VerbForm=Inf	2	csubj	_	_
+6	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	bontà	bontà	NOUN	S	Gender=Fem	5	obj	_	_
+8	direttamente	direttamente	ADV	B	_	5	advmod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorgente	sorgente	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+14	piana	piano	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Belice	Belice	PROPN	SP	_	14	nmod	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+20	Amari	Amare	PROPN	SP	_	23	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	appena	appena	ADV	B	_	23	advmod	_	_
+23	rimesso	rimettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	23	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	gran	grande	ADJ	A	Number=Sing	28	amod	_	_
+28	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	baglio	baglio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	proprietà	proprietà	NOUN	S	Gender=Fem	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Da queste finestre si osserva lacropoli dellinsediamento archeologico di Selinunte e nelle belle giornate persino Pantelleria.
+1	Da	da	ADP	E	_	3	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	osserva	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	lacropoli	lacropole	ADJ	A	Number=Plur	7	amod	_	_
+7	dellinsediamento	dellinsediamento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	archeologico	archeologico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Selinunte	Selinunta	PROPN	SP	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	nelle	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	belle	bello	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+15	giornate	giornata	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	persino	persino	ADV	B	_	15	advmod	_	_
+17	Pantelleria	Pantelleria	PROPN	SP	_	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

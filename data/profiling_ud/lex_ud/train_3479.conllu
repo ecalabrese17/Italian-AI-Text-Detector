@@ -1,0 +1,451 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Abolire 400 leggi già nei primi giorni di governo".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abolire	abolire	VERB	V	VerbForm=Inf	0	root	_	_
+3	400	400	NUM	N	NumType=Card	4	nummod	_	_
+4	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	già	già	ADV	B	_	9	advmod	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Oggi in Italia gli onesti restano imbrigliati dalla burocrazia mentre i disonesti si muovono benissimo.
+1	Oggi	oggi	ADV	B	_	6	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	6	obl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	onesti	onesto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	imbrigliati	imbrigliare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	xcomp	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	mentre	mentre	SCONJ	CS	_	15	mark	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	disonesti	disonesto	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	muovono	muovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	benissimo	bene	ADV	B	Degree=Abs	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = È inutile continuare a tartassare chi le tasse già le paga e continuare a favorire chi invece evade il fisco.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	inutile	inutile	ADJ	A	Number=Sing	0	root	_	_
+3	continuare	continuare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	tartassare	tartassare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obj	_	_
+7	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tasse	tarre	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	paga	paga	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	continuare	continuare	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	favorire	favorire	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	obj	_	_
+17	invece	invece	ADV	B	_	20	advmod	_	_
+18	evade	evadere	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fisco	fisco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Nel nostro Paese ci sono 187mila leggi, più le leggi regionali, le norme europee, i regolamenti...
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	187mila	187mila	NUM	N	NumType=Card	8	nummod	_	_
+8	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+13	regionali	regionale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	norme	norma	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+17	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	regolamenti...	regolamenti...	NOUN	S	_	6	conj	_	_
+
+# sent_id = 5
+# text = e sul cittadino piove mediamente una nuova norma al giorno".
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mediamente	mediamente	ADV	B	_	5	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	norma	norma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Di Maio prende un impegno con gli imprenditori:
+1	Di	di	ADP	E	_	2	case	_	_
+2	Maio	Maio	PROPN	SP	_	3	obl	_	_
+3	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = "Lo spesometro va abolito, ha solo complicato le cose per gli imprenditori e non serve a nulla".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	spesometro	spesometro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	abolito	abolire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	complicato	complicato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Stessa promessa per il redditometro:
+1	Stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2	promessa	promettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	redditometro	redditometro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = "Lo Stato lo ha creato ma non lo usa, però lo lascia lì, non lo abolisce.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	però	però	ADV	B	_	14	advmod	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	lì	lì	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	abolisce	abolire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Aboliremo anche la legge sugli studi di settore:
+1	Aboliremo	Abolire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	legge	legge	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	sugli	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	studi	studio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	settore	settore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = è semplificando che si aumenta il gettito fiscale e si riduce la pressione fiscale perché si riducono i costi per gli adempimenti burocratici, che ammontano a 30 miliardi l'anno per le pmi, e a 130 giorni l'anno in termini di tempo".
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	semplificando	semplificare	VERB	V	VerbForm=Ger	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	aumenta	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gettito	gettito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	fiscale	fiscale	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	riduce	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	fiscale	fiscale	ADJ	A	Number=Sing	13	amod	_	_
+15	perché	perché	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+17	riducono	ridurre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	costi	costo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	adempimenti	adempimente	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	burocratici	burocratico	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	ammontano	ammontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	30	30	NUM	N	NumType=Card	29	nummod	_	_
+29	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	pmi	pmo	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	130	130	NUM	N	NumType=Card	39	nummod	_	_
+39	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	anno	anno	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	termini	termine	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Un discorso che vale per il privato ma anche per il pubblico.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	privato	privato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = "Basta parlare con le università che sostengono costi enormi per adempiere ai procedimenti burocratici.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	università	università	NOUN	S	Gender=Fem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	costi	costo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	enormi	enorme	ADJ	A	Number=Plur	9	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	adempiere	adempiere	VERB	V	VerbForm=Inf	9	acl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	procedimenti	procedimento	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	burocratici	burocratico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Gli altri Paesi si sono già attrezzati per la sburocratizzazione:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	altri	altro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	già	già	ADV	B	_	7	advmod	_	_
+7	attrezzati	attrezzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sburocratizzazione	sburocratizzazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 15
+# text = l'Italia deve solo adottare il modello.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	5	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	adottare	adottare	VERB	V	VerbForm=Inf	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modello	modello	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = E lo deve fare subito.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Tra l'altro, la semplificazione per lo Stato non ha costi".
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	semplificazione	semplificazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	costi	costo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 18
+# text = Semplificare la burocrazia vuol dire anche ridurre le ridondanze tecnologiche.
+1	Semplificare	semplificare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	ridurre	ridurre	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	ridondanze	ridondanza	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	tecnologiche	tecnologico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = "Ci sono oltre 16mila database che monitorano le attività delle aziende", spiega Davide Casaleggio, ideatore della piattaforma Rousseau, a margine della conferenza.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	oltre	oltre	ADV	B	_	5	advmod	_	_
+5	16mila	16mila	NUM	N	NumType=Card	6	nummod	_	_
+6	database	database	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	monitorano	monitorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	attività	attività	NOUN	S	Gender=Fem	8	obj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+17	Davide	Davide	PROPN	SP	_	16	nsubj	_	_
+18	Casaleggio	Casaleggio	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	ideatore	ideatore	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	Rousseau	Rousseau	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	margine	margine	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = "Queste banche dati dovrebbero essere raccordate al massimo in 10, per riuscire a definire ciò che è giusto che le imprese paghino ma nulla di più.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	banche	banca	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+4	dati	dato	NOUN	S	Gender=Masc|Number=Plur	3	compound	_	_
+5	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	raccordate	raccordare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	10	10	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	riuscire	riuscire	VERB	V	VerbForm=Inf	7	advcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	definire	definire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	giusto	giusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	paghino	paghino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	ma	ma	CCONJ	CC	_	27	cc	_	_
+27	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	più	più	ADV	B	_	27	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = La burocrazia si traduce nel 2 per cento stimato di impatto sul pil in termini di inefficienza, che tramite questo progetto e altri che porteremo avanti riusciremo a diminuire".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	traduce	tradurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2	2	NUM	N	NumType=Card	4	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	cento	cento	NUM	N	NumType=Card	10	nummod	_	_
+10	stimato	stimato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pil	pil	NOUN	S	Gender=Masc	12	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	termini	termine	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	inefficienza	inefficienza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	24	case	_	_
+22	tramite	tramite	ADP	E	_	24	case	_	_
+23	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	conj	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	porteremo	portare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	30	aux	_	_
+29	avanti	avanti	ADV	B	_	30	advmod	_	_
+30	riusciremo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	24	acl:relcl	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	diminuire	diminuire	VERB	V	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

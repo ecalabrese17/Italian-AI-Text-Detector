@@ -1,0 +1,434 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Queste le principali novità previste nel provvedimento:
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	principali	principale	ADJ	A	Number=Plur	4	amod	_	_
+4	novità	novità	NOUN	S	Gender=Fem	1	nsubj	_	_
+5	previste	prevedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = Torturatori in carcere .
+1	Torturatori	Torturatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono pesanti le pene contro chi tortura.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	pesanti	pesare	ADJ	A	Number=Plur	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pene	pena	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	contro	contro	ADP	E	_	6	case	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nmod	_	_
+7	tortura	tortura	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il nuovo reato introdotto nel codice penale punisce infatti con la reclusione da 4 a 10 anni chiunque, con violenza o minaccia o violando i propri obblighi di protezione cura o assistenza, intenzionalmente cagiona a una persona a lui affidata o sottoposta alla sua autorità sofferenze fisiche o psichiche al fine di ottenere dichiarazioni o informazioni o infliggere una punizione o vincere una resistenza o ancora in ragione dell'appartenenza etnica, dell'orientamento sessuale o delle opinioni politiche o religiose.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	reato	reato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	codice	codice	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	penale	penale	ADJ	A	Number=Sing	7	amod	_	_
+9	punisce	punire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	infatti	infatti	ADV	B	_	9	advmod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	4	4	NUM	N	NumType=Card	13	nummod	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	10	10	NUM	N	NumType=Card	18	nummod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+19	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	9	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	minaccia	minaccia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+25	o	o	CCONJ	CC	_	26	cc	_	_
+26	violando	violare	VERB	V	VerbForm=Ger	24	conj	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	obblighi	obbligo	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	cura	cura	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33	o	o	CCONJ	CC	_	34	cc	_	_
+34	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	24	punct	_	_
+36	intenzionalmente	intenzionalmente	ADV	B	_	37	advmod	_	_
+37	cagiona	cagionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	persona	persona	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+41	a	a	ADP	E	_	42	case	_	_
+42	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obl	_	_
+43	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+44	o	o	CCONJ	CC	_	45	cc	_	_
+45	sottoposta	sottoporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	_
+46-47	alla	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	49	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	autorità	autorità	NOUN	S	Gender=Fem	45	obl	_	_
+50	sofferenze	sofferenzo	NOUN	S	Gender=Fem|Number=Plur	45	nsubj:pass	_	_
+51	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	50	amod	_	_
+52	o	o	CCONJ	CC	_	53	cc	_	_
+53	psichiche	psichico	ADJ	A	Gender=Fem|Number=Plur	51	conj	_	_
+54-55	al	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	fine	fine	NOUN	S	Number=Sing	50	obl	_	_
+57	di	di	ADP	E	_	58	mark	_	_
+58	ottenere	ottenere	VERB	V	VerbForm=Inf	56	acl	_	_
+59	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	58	obj	_	_
+60	o	o	CCONJ	CC	_	61	cc	_	_
+61	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	59	conj	_	_
+62	o	o	CCONJ	CC	_	63	cc	_	_
+63	infliggere	infliggere	VERB	V	VerbForm=Inf	58	conj	_	_
+64	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	63	obj	_	_
+66	o	o	CCONJ	CC	_	67	cc	_	_
+67	vincere	vincere	VERB	V	VerbForm=Inf	65	conj	_	_
+68	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	67	obj	_	_
+70	o	o	CCONJ	CC	_	73	cc	_	_
+71	ancora	ancora	ADV	B	_	73	advmod	_	_
+72	in	in	ADP	E	_	73	case	_	_
+73	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	69	conj	_	_
+74-75	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+74	di	di	ADP	E	_	76	case	_	_
+75	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	76	det	_	_
+76	appartenenza	appartenenza	NOUN	S	Gender=Fem|Number=Sing	73	nmod	_	_
+77	etnica	etnico	ADJ	A	Gender=Fem|Number=Sing	76	amod	_	SpaceAfter=No
+78	,	,	PUNCT	FF	_	76	punct	_	_
+79-80	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+79	di	di	ADP	E	_	81	case	_	_
+80	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	81	det	_	_
+81	orientamento	orientamento	NOUN	S	Gender=Masc|Number=Sing	76	nmod	_	_
+82	sessuale	sessuale	ADJ	A	Number=Sing	81	amod	_	_
+83	o	o	CCONJ	CC	_	86	cc	_	_
+84-85	delle	_	_	_	_	_	_	_	_
+84	di	di	ADP	E	_	86	case	_	_
+85	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	86	det	_	_
+86	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	81	conj	_	_
+87	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	86	amod	_	_
+88	o	o	CCONJ	CC	_	89	cc	_	_
+89	religiose	religioso	ADJ	A	Gender=Fem|Number=Plur	87	conj	_	SpaceAfter=No
+90	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = La sofferenza dovrà però essere acuta e comunque ulteriore rispetto a quella che deriva dalla semplice detenzione o altre legittime misure limitative dei diritti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+4	però	però	ADV	B	_	6	advmod	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	acuta	acutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	comunque	comunque	ADV	B	_	9	advmod	_	_
+9	ulteriore	ulteriore	ADJ	A	Number=Sing	6	conj	_	_
+10	rispetto	rispetto	ADV	B	_	12	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	deriva	derivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	semplice	semplice	ADJ	A	Number=Sing	18	amod	_	_
+18	detenzione	detenzione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	21	nsubj	_	_
+21	legittime	legittimo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+22	misure	misura	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+23	limitative	limitativo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Specifiche aggravanti, peraltro, scattano in caso di lesioni o morte.
+1	Specifiche	specifica	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+2	aggravanti	aggravante	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	peraltro	peraltro	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	scattano	scattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	morte	morto	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Aggravante per agenti .
+1	Aggravante	Aggravante	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Se a torturare è un pubblico ufficiale o un incaricato di pubblico servizio, con abuso dei poteri o in violazione dei suoi doveri, la pena è aggravata da 5 a 15 anni.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	torturare	torturare	VERB	V	VerbForm=Inf	6	advcl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	ufficiale	ufficiale	ADJ	A	Number=Sing	6	amod	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	incaricato	incaricato	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	abuso	abuso	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	poteri	potere	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	o	o	CCONJ	CC	_	22	cc	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pena	pena	NOUN	S	Gender=Fem|Number=Sing	31	nsubj:pass	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	aggravata	aggravare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+32	da	da	ADP	E	_	36	case	_	_
+33	5	5	NUM	N	NumType=Card	36	nummod	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	15	15	NUM	N	NumType=Card	36	nummod	_	_
+36	anni	anno	NOUN	S	Gender=Masc|Number=Plur	31	obl:agent	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Istigazione alla tortura .
+1	Istigazione	istigazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = È istigazione specifica che vale solo per pubblici ufficiali e incaricati di pubblico servizio.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	istigazione	istigazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	specifica	specifica	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	solo	solo	ADV	B	_	9	advmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	incaricati	incaricare	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il nuovo reato prevede il carcere fino a 6 anni se l'istigazione non è accolta o comunque non c'è stata tortura.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	reato	reato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	fino	fino	ADV	B	_	10	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	6	6	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11	se	se	SCONJ	CS	_	16	mark	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	istigazione	istigazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+17	o	o	CCONJ	CC	_	22	cc	_	_
+18	comunque	comunque	ADV	B	_	22	advmod	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	SpaceAfter=No
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+23	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Prescrizione lunga .
+1	Prescrizione	prescrizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = I termini di prescrizione raddoppiano, dunque il reato di tortura se prima non interviene il processo, si estinguerà in 20 anni.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	termini	termine	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	prescrizione	prescrizione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	raddoppiano	raddoppiano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	dunque	dunque	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	reato	reato	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	se	se	SCONJ	CS	_	15	mark	_	_
+13	prima	prima	ADV	B	_	15	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	interviene	intervenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	processo	processo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	estinguerà	estinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	20	20	NUM	N	NumType=Card	23	nummod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 14
+# text = Stop espulsioni .
+1	Stop	stop	NOUN	S	Gender=Masc	0	root	_	_
+2	espulsioni	espulsione	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Divieto assoluto di espulsione o respingimento verso paesi che praticano la tortura o dove la violazione dei diritti umani sia grave e sistematica.
+1	Divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	espulsione	espulsione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	respingimento	respingimento	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+7	verso	verso	ADP	E	_	8	case	_	_
+8	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	praticano	praticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	dove	dove	ADV	B	_	12	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	umani	umano	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+21	sia	essere	CCONJ	CC	_	22	cc	_	_
+22	grave	grave	ADJ	A	Number=Sing	19	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	sistematica	sistematico	ADJ	A	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Dichiarazioni estorte nulle .
+1	Dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	estorte	estorto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	nulle	_	_	_	_	_	_	_	_
+3	nu	nu	ADP	E	_	4	case	_	_
+4	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	obl	_	_
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Qualsiasi dichiarazione o informazione estorta sotto tortura non è utilizzabile in un processo.
+1	Qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+5	estorta	estorto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	sotto	sotto	ADP	E	_	7	case	_	_
+7	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	utilizzabile	utilizzabile	ADJ	A	Number=Sing	0	root	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = Valgono però come prova contro gli imputati di tortura.
+1	Valgono	valere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	prova	prova	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Niente immunità .
+1	Niente	niente	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	immunità	immunità	NOUN	S	Gender=Fem	0	root	_	_
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = I cittadini stranieri imputati o condannati per tortura in altro Stato o da un tribunale internazionale non possono godere di immunità dalla giurisdizione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+3	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	imputati	imputare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	altro	altro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	Stato	Stato	PROPN	SP	_	8	nmod	_	_
+12	o	o	CCONJ	CC	_	15	cc	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+16	internazionale	internazionale	ADJ	A	Number=Sing	15	amod	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	godere	godere	VERB	V	VerbForm=Inf	0	root	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	immunità	immunità	NOUN	S	Gender=Fem	19	obl	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	giurisdizione	giurisdizione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 21
+# text = Se richiesto, saranno estradati.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	estradati	estradare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

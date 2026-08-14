@@ -1,0 +1,406 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una scelta coraggiosa, secondo alcuni, un presagio di sventura secondo altri.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	coraggiosa	coraggioso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	secondo	secondo	ADP	E	_	6	case	_	_
+6	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presagio	presagio	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sventura	sventura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	secondo	secondo	ADP	E	_	13	case	_	_
+13	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma come stanno realmente le cose?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	realmente	realmente	ADV	B	_	3	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È vero, Frizzi è stato anche vittima di una brutta malattia, il Diabete.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	Frizzi	Frizzi	PROPN	SP	_	8	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Diabete	diabete	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Tuttavia, il suo problema di salute, inizialmente ben tenuto segreto, non ha inciso minimamente sull'immagine di uno dei presentatori più amati della TV.
+1	Tuttavia	tuttavia	ADV	B	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	salute	salute	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	inizialmente	inizialmente	ADV	B	_	11	advmod	_	_
+10	ben	bene	ADV	B	_	11	advmod	_	_
+11	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+12	segreto	segreto	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	inciso	incidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	minimamente	minimamente	ADV	B	_	16	advmod	_	_
+18-19	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nmod	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	presentatori	presentatore	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	amati	amato	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	TV.	TV.	PROPN	SP	_	25	nmod	_	_
+
+# sent_id = 5
+# text = ## Frizzi: un personaggio amato dal pubblico
+1	#	#	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	#	#	PUNCT	FF	_	1	punct	_	_
+3	Frizzi	Frizzi	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 6
+# text = Fabrizio Frizzi è stato per anni il volto simbolo della RAI, uno di quei presentatori educati e sempre sorridenti che già molti anni fa venivano definiti i "nuovi Mike Buongiorno".
+1	Fabrizio	Fabrizio	PROPN	SP	_	9	nsubj	_	_
+2	Frizzi	Frizzi	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	volto	volto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	RAI	RAI	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	appos	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	presentatori	presentatorio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	educati	educato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	sempre	sempre	ADV	B	_	21	advmod	_	_
+21	sorridenti	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	conj	_	_
+22	che	che	SCONJ	CS	_	28	mark	_	_
+23	già	già	ADV	B	_	28	advmod	_	_
+24	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+26	fa	fa	ADV	B	_	25	advmod	_	_
+27	venivano	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	aux:pass	_	_
+28	definiti	definire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+30	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+32	Mike	Mike	PROPN	SP	_	28	nsubj:pass	_	_
+33	Buongiorno	Buongiorno	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Un patrimonio per l'azienda di Stato, un volto familiare per i telespettatori.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Stato	stato	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	volto	volto	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+11	familiare	familiare	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	telespettatori	telespettatore	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un presentatore che da quando aveva iniziato a lavorare per la TV nel lontano 1980 non aveva mai sbagliato un colpo sul palcoscenico con ospiti da tutto il mondo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presentatore	presentatora	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4	da	da	ADP	E	_	7	mark	_	_
+5	quando	quando	SCONJ	CS	_	4	fixed	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	TV	TV	PROPN	SP	_	9	obl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	1980	1980	NUM	N	NumType=Card	9	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	mai	mai	ADV	B	_	20	advmod	_	_
+20	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	palcoscenico	palcoscenico	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	ospiti	ospite	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	da	da	ADP	E	_	31	case	_	_
+29	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	31	det:predet	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 9
+# text = ## Conti al suo posto:
+1	#	#	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	#	#	PUNCT	FF	_	1	punct	_	_
+3	Conti	conto	PROPN	SP	_	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = una sostituzione naturale
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sostituzione	sostituzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	naturale	naturale	ADJ	A	Number=Sing	2	amod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 11
+# text = Ora che Frizzi non c'è più, per forza di cose il programma ha dovuto cercare un sostituto.
+1	Ora	ora	ADV	B	_	6	advmod	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Frizzi	Frizzi	PROPN	SP	_	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+7	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	forza	forza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	programma	programma	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux	_	_
+17	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sostituto	sostituto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 12
+# text = Carlo Conti ci risulta noto per le sue ospitate in RAI, non per i suoi programmi in prima serata.
+1	Carlo	Carlo	PROPN	SP	_	4	nsubj	_	_
+2	Conti	Conti	PROPN	SP	_	1	flat:name	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	noto	noto	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	ospitate	ospitato	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	RAI	RAI	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	serata	serata	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ma Conti ha le carte in regola per condurre un programma di successo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	Conti	Conti	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	carte	carta	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	regola	regola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	condurre	condurre	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	programma	programma	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	successo	successo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = ## Conto sul "Portion Fortune" sulla RAI
+1	#	#	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	#	#	PUNCT	FF	_	3	punct	_	_
+3	Conto	conto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Portion	Portion	PROPN	SP	_	3	nmod	_	_
+8	Fortune	Fortuno	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	RAI	RAI	PROPN	SP	_	7	nmod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 15
+# text = Dunque, come dicevamo all'inizio questo cambio non è così sorprendente, anzi fa piacere ad alcuni che uno del cast storico di "Fonts" possa finalmente sedersi sulla poltrona dei concorrenti.
+1	Dunque	dunque	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	dicevamo	dicere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	sorprendente	sorprendente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	anzi	anzi	ADV	B	_	16	advmod	_	_
+16	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	ad	a	ADP	E	_	20	case	_	_
+19	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	che	che	PRON	PR	PronType=Rel	32	obl	_	_
+21	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	nsubj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cast	cast	NOUN	S	Gender=Masc	21	nmod	_	_
+25	storico	storico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	Fonts	Fonts	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	_
+30	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	finalmente	finalmente	ADV	B	_	32	advmod	_	_
+32-33	sedersi	_	_	_	_	_	_	_	_
+32	seder	sedere	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+34-35	sulla	_	_	_	_	_	_	_	_
+34	su	su	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	concorrenti	concorrente	NOUN	S	Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 16
+# text = In fondo Carlo Conti fu promosso per la sua verve con la conduzione de "L'Eredità", un'anticipazione piccola ma efficace dell'imminente approdo a "Portion Fortune".
+1	In	in	ADP	E	_	2	case	_	_
+2	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	Carlo	Carlo	PROPN	SP	_	6	nsubj:pass	_	_
+4	Conti	Conti	PROPN	SP	_	3	flat:name	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	verve	verva	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	conduzione	conduzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	E	_	17	case	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Eredità	eredità	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	anticipazione	anticipazione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+22	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	ma	ma	CCONJ	CC	_	24	cc	_	_
+24	efficace	efficace	ADJ	A	Number=Sing	22	conj	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	28	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+27	imminente	imminente	ADJ	A	Number=Sing	28	amod	_	_
+28	approdo	approdo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	Portion	Portion	PROPN	SP	_	28	nmod	_	_
+32	Fortune	Fortuno	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = ## Scherzi a parte...
+1	#	#	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	#	#	PUNCT	FF	_	5	punct	_	_
+3	Scherzi	Scherzi	ADV	B	_	5	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	parte..	parte..	NOUN	S	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Scherzi a parte, il sospetto è che questa scelta arrivi un po' tardi
+1	Scherzi	Scherzo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	arrivi	arrivare	ADV	B	_	13	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	ADV	B	_	7	advmod	_	_
+14	tardi	tardi	ADV	B	_	13	advmod	_	SpacesAfter=\n
+

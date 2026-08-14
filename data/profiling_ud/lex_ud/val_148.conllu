@@ -1,0 +1,459 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Ma i Nas dicono il falso, io ho mantenuto il massimo riserbo sulla mia paziente che ora aspetta un figlio.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Nas	Nas	PROPN	SP	_	5	nsubj	_	_
+5	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	falso	falso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	mantenuto	mantenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	riserbo	riserbo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	paziente	paziente	NOUN	S	Number=Sing	11	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	ora	ora	ADV	B	_	21	advmod	_	_
+21	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma come possono dire che la gravidanza non c'è, visto che hanno solo verificato la mia struttura milanese?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	solo	solo	ADV	B	_	16	advmod	_	_
+16	verificato	verificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	milanese	milanese	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La verità è che dicono questo per gettare discredito".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	gettare	gettare	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	discredito	discredito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Si sente un perseguitato?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	perseguitato	perseguitato	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "È da 35 anni che mi batto su tutti i fronti della procreazione assistita.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	35	35	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	batto	barre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	procreazione	procreazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	assistita	assistito	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = E visto che non mi arrendo, allora mi fanno la guerra.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	arrendo	arrere	VERB	V	VerbForm=Ger	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	allora	allora	ADV	B	_	10	advmod	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Ma io so di essere nel giusto e vado avanti.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	essere	essere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	11	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	vado	andare	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	avanti	avanti	NOUN	S	Gender=Masc	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Mi vogliono arrestare?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrestare	arrestare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Lo facciano.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	facciano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ma, in questa situazione, chi si deve vergognare e dimettere è il ministro Lorenzin ".
+1	Ma	ma	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	chi	chi	PRON	PR	PronType=Rel	0	root	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	vergognare	vergognare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	dimettere	dimettere	VERB	V	VerbForm=Inf	10	conj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+16	Lorenzin	Lorenzin	PROPN	SP	_	15	nmod	_	_
+17	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Il ministro dice di non aver ordinato nessun blitz.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	ordinato	ordinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+8	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	blitz	blitz	NOUN	S	Gender=Masc	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Mente sapendo di mentire.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Mente	mente	PROPN	SP	_	0	root	_	_
+3	sapendo	sapere	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	mentire	mentire	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = La segnalazione ai Nas l'ha fatta lei.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	segnalazione	segnalazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Nas	Nas	PROPN	SP	_	2	nmod	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Io, comunque, querelerò il ministro per "abuso d'ufficio".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	comunque	comunque	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	querelerò	querelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	abuso	abuso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Lei è una integralista cattolica che si oppone alla libertà di procreazione".
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	integralista	integralista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	cattolica	cattolico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	oppone	opporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	libertà	libertà	NOUN	S	Gender=Fem	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	procreazione	procreazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Però il ministro ha creato una commissione per definire le nuove linee guida sulla fecondazione assistita da applicare ovunque, a partire dagli ospedali pubblici.
+1	Però	però	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	definire	definire	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	linee	linea	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	guida	guidare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fecondazione	fecondazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	assistita	assistere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19	applicare	applicare	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	ovunque	ovunque	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	partire	partire	VERB	V	VerbForm=Inf	19	advcl	_	_
+24-25	dagli	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+27	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = "La sentenza c'è da tre mesi e questa pantomima della commissione è solo servita a perdere tempo.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	pantomima	pantomima	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	solo	solo	ADV	B	_	17	advmod	_	_
+17	servita	servire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	perdere	perdere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Non c'è bisogno di una nuova normativa.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Questo è solo un espediente per rinviare e impedire che in Italia si applichi l'eterologa".
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	espediente	espediente	NOUN	S	Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	rinviare	rinviare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	impedire	impedire	VERB	V	VerbForm=Inf	7	conj	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Italia	Italia	PROPN	SP	_	14	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	applichi	applicare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	eterologa	eterologo	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Lei però è andato avanti.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	però	però	ADV	B	_	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = "Certo, perché anche in base al parere di autorevoli giuristi, la sentenza della Consulta ripristina la normativa precedente alla legge 40, quindi per noi l'eterologa è ampiamente lecita ".
+1	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	36	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perché	perché	SCONJ	CS	_	20	mark	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	base	base	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	parere	parere	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	autorevoli	autorevole	ADJ	A	Number=Plur	13	amod	_	_
+13	giuristi	giurista	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Consulta	consulta	PROPN	SP	_	16	nmod	_	_
+20	ripristina	ripristinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	precedente	precedente	ADJ	A	Number=Sing	22	amod	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	legge	legge	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+27	40	40	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	20	punct	_	_
+29	quindi	quindi	ADV	B	_	31	advmod	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	obl	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	eterologa	eterologo	NOUN	S	Gender=Masc	36	nsubj	_	_
+34	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	ampiamente	ampiamente	ADV	B	_	36	advmod	_	_
+36	lecita	lecitare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+37	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 22
+# text = Oggi, intanto dovrà rispondere alle domande dei Nas.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	intanto	intanto	ADV	B	_	5	advmod	_	_
+4	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	rispondere	rispondere	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Nas	Nas	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = "Sì, mi metteranno sul banco degli imputati e so già che dovrò spiegare quali metodiche ho usato.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	metteranno	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	banco	banco	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	già	già	ADV	B	_	17	advmod	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	dovrò	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	17	aux	_	_
+17	spiegare	spiegare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+18	quali	quale	PRON	PR	Number=Plur|PronType=Rel	21	iobj	_	_
+19	metodiche	metodica	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	21	obj	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Una assurdità.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assurdità	assurdità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Finalmente abbiamo una sentenza che fa piazza pulita di un divieto assurdo e barbaro e io, medico, devo ancora giustificare il mio operato".
+1	Finalmente	finalmente	ADV	B	_	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	pulita	pulito	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+12	assurdo	assurdo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	barbaro	barbaro	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	medico	medico	NOUN	S	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	ancora	ancora	ADV	B	_	22	advmod	_	_
+22	giustificare	giustificare	VERB	V	VerbForm=Inf	2	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	operato	operato	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

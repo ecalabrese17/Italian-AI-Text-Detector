@@ -1,0 +1,334 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Attualmente ricopre la carica diודי这里 Vice Presidente dell'azienda farmaceutica globalization company.
+1	Attualmente	attualmente	ADV	B	_	2	advmod	_	_
+2	ricopre	ricoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	carica	carica	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	diודי这里	diודי这里	PROPN	SP	_	4	nmod	_	_
+6	Vice	vice	PROPN	SP	_	5	flat:name	_	_
+7	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	5	flat:name	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+11	farmaceutica	farmaceutico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	globalization	globalization	ADP	E	_	13	case	_	_
+13	company	company	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La carriera di Bondi è iniziata nel 1977, quando ha iniziato a lavorare per la SNAM (Società Nazionale Metanodotti), dove ha ricoperto vari ruoli di responsabilità in campo finanziario e amministrativo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bondi	Bondi	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	1977	1977	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	lavorare	lavorare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	SNAM	SNAM	PROPN	SP	_	15	obl	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Società	società	NOUN	S	Gender=Fem	18	appos	_	_
+21	Nazionale	nazionale	PROPN	SP	_	20	nmod	_	_
+22	Metanodotti	Metanodotti	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	dove	dove	ADV	B	_	27	advmod	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+28	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	ruoli	ruolo	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	responsabilità	responsabilità	NOUN	S	Gender=Fem	29	nmod	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	campo	campo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	finanziario	finanziario	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	amministrativo	amministrativo	ADJ	A	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Nel 1993 è stato nominato Vice Direttore Generale della SNAM, diventando poi Direttore Generale nel 1997.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1993	1993	NUM	N	NumType=Card	6	nummod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	nominato	nominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	Vice	vice	PROPN	SP	_	6	nsubj:pass	_	_
+8	Direttore	direttore	PROPN	SP	_	7	flat:name	_	_
+9	Generale	generale	PROPN	SP	_	7	flat:name	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	SNAM	SNAM	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	diventando	diventare	VERB	V	VerbForm=Ger	6	advcl	_	_
+15	poi	poi	ADV	B	_	14	advmod	_	_
+16	Direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	Generale	Generale	ADJ	A	Number=Sing	16	amod	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	1997	1997	NUM	N	NumType=Card	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Nel 2002 è stato chiamato a ricoprire il ruolo di Direttore Generale e Amministratore Delegato di ENI, una delle più importanti società energetiche italiane.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2002	2002	NUM	N	NumType=Card	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	ricoprire	ricoprire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Direttore	direttore	PROPN	SP	_	10	nmod	_	_
+13	Generale	generale	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Amministratore	amministratore	PROPN	SP	_	12	conj	_	_
+16	Delegato	delegato	PROPN	SP	_	15	flat:name	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ENI	ENI	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	15	appos	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	25	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	importanti	importante	ADJ	A	Number=Plur	25	amod	_	_
+25	società	società	NOUN	S	Gender=Fem	20	nmod	_	_
+26	energetiche	energetico	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = costumesIn questo ruolo ha guidato l'azienda attraverso un periodo di grande cambiamento,-portando avanti una serie di riforme e di investimenti per garantire la sostenibilità e la competitività dell'azienda sul mercato globale.
+1	costumesIn	costumesino	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	attraverso	attraverso	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+13	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	portando	portare	VERB	V	VerbForm=Ger	5	advcl	_	_
+17	avanti	avanti	ADV	B	_	16	advmod	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	serie	serie	NOUN	S	Gender=Fem	16	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	garantire	garantire	VERB	V	VerbForm=Inf	16	advcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	26	obj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	competitività	competitività	NOUN	S	Gender=Fem	28	conj	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35-36	sul	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	globale	globale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Nel 2014 è stato nominato amministratore delegato di='# disguised company', dove ha guidato la società attraverso un periodo di importante crisi finanziaria, portando a termine un:#guide progetto di ristrutturazione e di rafforzamento patrimoniale che ha reformed allowed l'azienda a tornare alla profitability.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2014	2014	NUM	N	NumType=Card	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	nominato	nominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+8	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di='	di='	ADP	E	_	11	case	_	SpaceAfter=No
+10	#	#	PUNCT	FF	_	11	punct	_	_
+11	disguised	disguised	NOUN	S	_	7	nmod	_	_
+12	company	company	NOUN	S	_	11	compound	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	dove	dove	ADV	B	_	17	advmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	società	società	NOUN	S	Gender=Fem	17	obj	_	_
+20	attraverso	attraverso	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	importante	importante	ADJ	A	Number=Sing	25	amod	_	_
+25	crisi	crisi	NOUN	S	Gender=Fem	22	nmod	_	_
+26	finanziaria	finanziario	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28	portando	portare	VERB	V	VerbForm=Ger	6	advcl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	termine	termine	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	31	punct	_	SpaceAfter=No
+33	#guide	#guida	ADJ	A	Number=Sing	34	amod	_	_
+34	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	ristrutturazione	ristrutturazione	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	rafforzamento	rafforzamento	NOUN	S	Gender=Masc|Number=Sing	36	conj	_	_
+40	patrimoniale	patrimoniale	ADJ	A	Number=Sing	39	amod	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+43	reformed	reforme	X	X	_	42	obj	_	_
+44	allowed	allowe	X	X	_	43	flat:foreign	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+47	a	a	ADP	E	_	48	mark	_	_
+48	tornare	tornare	VERB	V	VerbForm=Inf	46	acl	_	_
+49-50	alla	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	profitability	profitability	NOUN	S	Gender=Fem	48	obl	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 7
+# text = Oggi, Bondi ricopre il ruolo di Vice Presidente di 'globalization company', un'azienda farmaceutica italiana con una forte presenza a livello internazionale.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Bondi	Bondi	PROPN	SP	_	4	nsubj	_	_
+4	ricopre	ricoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Vice	vice	PROPN	SP	_	6	nmod	_	_
+9	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	8	flat:name	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	globalization	globalization	NOUN	S	_	8	nmod	_	_
+13	company	company	NOUN	S	_	12	compound	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+18	farmaceutica	farmaceutico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	forte	forte	ADJ	A	Number=Sing	23	amod	_	_
+23	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	livello	livello	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	internazionale	internazionale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = In questo ruolo continua a portare avanti la sua passione per la sostenibilità ambientale e sociale degli affari, e lavora per sviluppare nuove soluzioni innovative per il settore farmaceutico.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	portare	portare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	avanti	avanti	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	10	nmod	_	_
+14	ambientale	ambientale	ADJ	A	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	sociale	sociale	ADJ	A	Number=Sing	14	conj	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	affari	affare	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	sviluppare	sviluppare	VERB	V	VerbForm=Inf	22	advcl	_	_
+25	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+27	innovative	innovativo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	settore	settore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+31	farmaceutico	farmaceutico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Enrico Bondi è spesso descritto come un Manager pragmatico e determinato, sempre attento alle sfide e alle opportunità del mercato globale.
+1	Enrico	Enrico	PROPN	SP	_	5	nsubj:pass	_	_
+2	Bondi	Bondi	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	spesso	spesso	ADV	B	_	5	advmod	_	_
+5	descritto	descrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Manager	manager	PROPN	SP	_	5	obl	_	_
+9	pragmatico	pragmatico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	attento	attento	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	opportunità	opportunità	NOUN	S	Gender=Fem	17	conj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	globale	globale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = La sua carriera dimostra come sia possibile portare avanti un измененоamb
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	possibile	possibile	ADJ	A	Number=Sing	4	advcl	_	_
+8	portare	portare	VERB	V	VerbForm=Inf	7	csubj	_	_
+9	avanti	avanti	ADV	B	_	8	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	измененоamb	измененоamb	NOUN	S	Gender=Masc	8	obj	_	SpacesAfter=\n
+

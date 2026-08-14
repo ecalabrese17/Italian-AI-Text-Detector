@@ -1,0 +1,504 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fatih Birol, l'economista turco alla guida dell'Iea, spiega perché.
+1	Fatih	Fatih	PROPN	SP	_	14	nsubj	_	_
+2	Birol	Birol	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	economista	economista	NOUN	S	Number=Sing	1	appos	_	_
+6	turco	turco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	guida	guida	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Iea	Iea	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	perché	perché	SCONJ	CS	_	16	mark	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Che cosa suggerisce l'Iea ai governi per mantenere l'aumento delle temperature sotto ai 2°C rispetto ai tempi pre-industriali?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	suggerisce	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Iea	Iea	PROPN	SP	_	3	nsubj	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	governi	governo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	mantenere	mantenere	VERB	V	VerbForm=Inf	5	acl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	sotto	sotto	ADP	E	_	19	case	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	2°C	2°C	PROPN	SP	_	15	nmod	_	_
+20	rispetto	rispetto	ADV	B	_	23	case	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+24	pre-industriali	pre-industriale	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "Con gli attuali impegni presi dai governi le emissioni di CO2 toccheranno il massimo nel 2030, ma per rispettare i +2°C lo dovrebbero raggiungere entro il 2020 per poi calare.
+1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	attuali	attuale	ADJ	A	Number=Plur	5	amod	_	_
+5	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+6	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	governi	governo	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	CO2	CO2	PROPN	SP	_	11	nmod	_	_
+14	toccheranno	tocchare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2030	2030	NUM	N	NumType=Card	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	28	punct	_	_
+21	ma	ma	CCONJ	CC	_	28	cc	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	rispettare	rispettare	VERB	V	VerbForm=Inf	28	advcl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	+2°C	+2°C	PROPN	SP	_	23	obj	_	_
+26	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+27	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	raggiungere	raggiungere	VERB	V	VerbForm=Inf	14	conj	_	_
+29	entro	entro	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	2020	2020	NUM	N	NumType=Card	28	nummod	_	_
+32	per	per	ADP	E	_	34	mark	_	_
+33	poi	poi	ADV	B	_	34	advmod	_	_
+34	calare	calare	VERB	V	VerbForm=Inf	28	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Ci si può riuscire, senza stravolgere l'economia e ridurre la crescita nei Paesi in via di sviluppo, applicando cinque misure:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	riuscire	riuscire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7	stravolgere	stravolgere	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	economia	economia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	ridurre	ridurre	VERB	V	VerbForm=Inf	7	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Paesi	Paesi	PROPN	SP	_	11	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	via	via	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	4	punct	_	_
+22	applicando	applicare	VERB	V	VerbForm=Ger	4	advcl	_	_
+23	cinque	cinque	NUM	N	NumType=Card	24	nummod	_	_
+24	misure	misura	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = eliminare entro il 2030 gli attuali 500 miliardi di sussidi alle fonti fossili; aumentare l'efficienza energetica in ogni settore;
+1	eliminare	eliminare	VERB	V	VerbForm=Inf	0	root	_	_
+2	entro	entro	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2030	2030	NUM	N	NumType=Card	1	nummod	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	attuali	attuale	ADJ	A	Number=Plur	8	amod	_	_
+7	500	500	NUM	N	NumType=Card	8	nummod	_	_
+8	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+14	fossili	fossile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	16	punct	_	_
+16	aumentare	aumentare	VERB	V	VerbForm=Inf	1	conj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	efficienza	efficienza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	settore	settore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = eliminare le centrali a carbone meno efficienti;
+1	eliminare	eliminare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	centrali	centrale	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	meno	meno	ADV	B	_	7	advmod	_	_
+7	efficienti	efficiente	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = aumentare gli investimenti in rinnovabili da 270 a 400 miliardi di dollari nel 2030; minimizzare le perdite di metano dalle operazioni oil & gas.
+1	aumentare	aumentare	VERB	V	VerbForm=Inf	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	rinnovabili	rinnovabile	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	da	da	ADP	E	_	10	case	_	_
+7	270	270	NUM	N	NumType=Card	10	nummod	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	400	400	NUM	N	NumType=Card	10	nummod	_	_
+10	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2030	2030	NUM	N	NumType=Card	1	obl	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	17	punct	_	_
+17	minimizzare	minimizzare	VERB	V	VerbForm=Inf	1	conj	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	perdite	perdita	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	metano	metare	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	dalle	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+25	oil	oile	ADJ	A	_	24	amod	_	_
+26	&	&	SYM	SYM	_	24	nmod	_	_
+27	gas	gas	NOUN	S	Gender=Masc	26	compound	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Per riuscirci servono altri 3.000 miliardi di dollari di investimenti".
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	riuscirci	_	_	_	_	_	_	_	_
+2	riuscir	riuscire	VERB	V	VerbForm=Inf	4	advcl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	3.000	3.000	NUM	N	NumType=Card	7	nummod	_	_
+7	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Nel vostro World Energy Outlook 2015 prevedete però al 2040 un aumento del 20% del consumo di carbone.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	World	World	PROPN	SP	_	8	obl	_	_
+5	Energy	Energy	PROPN	SP	_	8	nsubj	_	_
+6	Outlook	Outlook	PROPN	SP	_	5	flat:name	_	_
+7	2015	2015	NUM	N	NumType=Card	5	nummod	_	_
+8	prevedete	prevedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	però	però	ADV	B	_	8	advmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2040	2040	NUM	N	NumType=Card	8	obl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	20	20	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	14	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = "I nostri scenari sono basati su estrapolazioni realistiche della situazione attuale.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	scenari	scenaro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	basati	basare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	estrapolazioni	estrapolazione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	realistiche	realistico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	attuale	attuale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Oggi il carbone produce il 41% dell'elettricità mondiale e i suoi consumi continuano ad aumentare.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	41	41	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	4	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	elettricità	elettricità	NOUN	S	Gender=Fem	7	nmod	_	_
+11	mondiale	mondiale	ADJ	A	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	consumi	consumo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+16	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	ad	a	ADP	E	_	18	mark	_	_
+18	aumentare	aumentare	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Noi suggeriamo di sostituirlo con rinnovabili e metano, ma al momento, visto anche il suo uso crescente nei Paesi in via di sviluppo, sembra che si potrà raggiungere l'obbiettivo dei +2°C non tanto sperando di eliminarlo, quanto con la rimozione della CO2 dai fumi delle centrali a carbone e il suo "sequestro" sotterraneo".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	suggeriamo	suggerire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	sostituirlo	_	_	_	_	_	_	_	_
+4	sostituir	sostituire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	rinnovabili	rinnovabile	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	metano	metano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	30	punct	_	_
+11	ma	ma	CCONJ	CC	_	30	cc	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	momento	momento	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	anche	anche	ADV	B	_	20	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	uso	uso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+21	crescente	crescere	ADJ	A	Number=Sing	20	amod	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Paesi	Paesi	PROPN	SP	_	20	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	via	via	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	14	punct	_	_
+30	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+31	che	che	SCONJ	CS	_	34	mark	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl:impers	_	_
+33	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	aux	_	_
+34	raggiungere	raggiungere	VERB	V	VerbForm=Inf	30	ccomp	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	obbiettivo	obbiettivo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	+2°C	+2°C	PROPN	SP	_	36	nmod	_	_
+40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+41	tanto	tanto	ADV	B	_	42	advmod	_	_
+42	sperando	sperare	VERB	V	VerbForm=Ger	36	advcl	_	_
+43	di	di	ADP	E	_	44	mark	_	_
+44-45	eliminarlo	_	_	_	_	_	_	_	SpaceAfter=No
+44	eliminar	eliminare	VERB	V	VerbForm=Inf	42	xcomp	_	_
+45	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	_
+46	,	,	PUNCT	FF	_	44	punct	_	_
+47	quanto	quanto	ADV	B	_	50	cc	_	_
+48	con	con	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	rimozione	rimozione	NOUN	S	Gender=Fem|Number=Sing	44	conj	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	CO2	CO2	PROPN	SP	_	50	nmod	_	_
+54-55	dai	_	_	_	_	_	_	_	_
+54	da	da	ADP	E	_	56	case	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	fumi	fume	NOUN	S	Gender=Masc|Number=Plur	53	nmod	_	_
+57-58	delle	_	_	_	_	_	_	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	59	det	_	_
+59	centrali	centrale	NOUN	S	Gender=Fem|Number=Plur	56	nmod	_	_
+60	a	a	ADP	E	_	61	case	_	_
+61	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	59	nmod	_	_
+62	e	e	CCONJ	CC	_	66	cc	_	_
+63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+64	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	66	det:poss	_	_
+65	"	"	PUNCT	FB	_	66	punct	_	SpaceAfter=No
+66	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+67	"	"	PUNCT	FB	_	68	punct	_	_
+68	sotterraneo	sotterraneo	ADJ	A	Gender=Masc|Number=Sing	66	amod	_	SpaceAfter=No
+69	"	"	PUNCT	FB	_	68	punct	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Eppure vari ricercatori affermano che sistemi energetici basati solo sulle rinnovabili saranno possibili entro il 2050 in quasi tutti i Paesi del mondo.
+1	Eppure	eppure	CCONJ	CC	_	4	cc	_	_
+2	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	affermano	affermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	_
+6	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+7	energetici	energetico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	basati	basare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	rinnovabili	rinnovabile	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+14	possibili	possibile	ADJ	A	Number=Plur	4	ccomp	_	_
+15	entro	entro	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2050	2050	NUM	N	NumType=Card	14	obl	_	_
+18	in	in	ADP	E	_	22	case	_	_
+19	quasi	quasi	ADV	B	_	22	advmod	_	_
+20	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = "Il nostro scenario con le politiche più favorevoli alle rinnovabili prevede al massimo un 65% di produzione elettrica da queste fonti, grazie soprattutto a eolico e solare.
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	favorevoli	favorevole	ADJ	A	Number=Plur	4	amod	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	rinnovabili	rinnovabile	NOUN	S	Number=Plur	9	obl	_	_
+13	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	65	65	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+19	%	%	SYM	SYM	_	13	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	13	punct	_	_
+27	grazie	grazie	NOUN	S	_	13	appos	_	_
+28	soprattutto	soprattutto	ADV	B	_	27	fixed	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	eolico	eolico	ADJ	A	Gender=Masc|Number=Sing	27	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	solare	solare	ADJ	A	Number=Sing	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 15
+# text = E in altri settori, come i trasporti, la loro penetrazione sarà probabilmente più bassa.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	settori	settore	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	penetrazione	penetrazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+14	probabilmente	probabilmente	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 16
+# text = Al momento un mondo che nel 2050 sia al 100% "rinnovabile" non sembra realistico.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2050	2050	NUM	N	NumType=Card	19	obl	_	_
+10	sia	essere	CCONJ	CC	_	14	cc	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	100	100	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	SYM	_	19	obl	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	rinnovabile	rinnovabile	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+20	realistico	realistico	ADJ	A	Gender=Masc|Number=Sing	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Se però in futuro lo scenario politico e tecnologico diventasse ancora più favorevole, aggiorneremo le nostre previsioni".
+1	Se	se	SCONJ	CS	_	10	mark	_	_
+2	però	però	ADV	B	_	10	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	politico	politico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	tecnologico	tecnologico	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	diventasse	diventare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+11	ancora	ancora	ADV	B	_	12	advmod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	favorevole	favorevole	ADJ	A	Number=Sing	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	aggiorneremo	aggiornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

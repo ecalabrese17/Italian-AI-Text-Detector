@@ -1,0 +1,567 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Megyn Kelly custodiva un segreto tremendo:
+1	Megyn	Megyn	PROPN	SP	_	3	nsubj	_	_
+2	Kelly	Kelly	PROPN	SP	_	1	flat:name	_	_
+3	custodiva	custodire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	tremendo	tremendo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = era stata molestata sessualmente dal suo capo, il potente Roger Ailes , chief executive della Fox e braccio destro di Rupert Murdoch .
+1	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	molestata	molestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	sessualmente	sessualmente	ADV	B	_	3	advmod	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	potente	potente	ADJ	A	Number=Sing	12	amod	_	_
+12	Roger	Roger	PROPN	SP	_	3	nsubj:pass	_	_
+13	Ailes	Ailes	PROPN	SP	_	12	flat:name	_	_
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	chief	chief	NOUN	S	Number=Sing	12	appos	_	_
+16	executive	executivo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Fox	Fox	PROPN	SP	_	15	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+22	destro	destro	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Rupert	Rupert	PROPN	SP	_	21	nmod	_	_
+25	Murdoch	Murdoch	PROPN	SP	_	24	flat:name	_	_
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lo scandalo fa tremare la televisione di riferimento della destra, proprio mentre il partito repubblicano incorona Trump alla convention di Cleveland.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fa	fa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tremare	tremare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	destra	destra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	proprio	proprio	ADV	B	_	18	advmod	_	_
+14	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	partito	partito	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	repubblicano	repubblicano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	incorona	incoronare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+19	Trump	Trump	PROPN	SP	_	18	obj	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	convention	convention	NOUN	S	Gender=Fem	18	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Cleveland	Cleveland	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Le dimissioni di Ailes vengono date per imminenti, forse oggi stesso.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Ailes	Ailes	PROPN	SP	_	2	nmod	_	_
+5	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	date	dare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	imminenti	imminente	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	forse	forse	ADV	B	_	11	advmod	_	_
+11	oggi	oggi	ADV	B	_	12	advmod	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Che una tempesta si stesse addensando sui vertici della Fox, era noto da tempo.
+1	Che	che	SCONJ	CS	_	6	mark	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	stesse	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	addensando	addensare	VERB	V	VerbForm=Ger	15	advcl	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	vertici	vertice	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Fox	Fox	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	noto	noto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Ad accusare Ailes di molestie sessuali era stata per prima un'altra conduttrice della stessa televisione, Gretchen Carlson .
+1	Ad	a	ADP	E	_	2	mark	_	_
+2	accusare	accusare	VERB	V	VerbForm=Inf	13	advcl	_	_
+3	Ailes	Ailes	PROPN	SP	_	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	molestie	molestia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	sessuali	sessuale	ADJ	A	Number=Plur	5	amod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+8	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+9	per	per	ADP	E	_	13	case	_	_
+10	prima	prima	ADV	B	_	13	advmod	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	altra	altro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	conduttrice	conduttore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	Gretchen	Gretchen	PROPN	SP	_	13	appos	_	_
+20	Carlson	Carlson	PROPN	SP	_	19	flat:name	_	_
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = La denuncia della Carlson è di alcune settimane fa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Carlson	Carlson	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	fa	fa	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Ma Ailes aveva reagito sdegnosamente, tramite i suoi avvocati.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	Ailes	Ailes	PROPN	SP	_	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	reagito	reagire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	sdegnosamente	sdegnosamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	tramite	tramite	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Non solo il team legale del chief executive aveva respinto le accuse, ma aveva dipinto la Carlson come una dipendente delusa, rancorosa e vendicativa per ragioni di carriera.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	team	team	NOUN	S	Gender=Masc	11	nsubj	_	_
+5	legale	legale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	chief	chief	NOUN	S	Gender=Masc	4	nmod	_	_
+9	executive	executivo	ADJ	A	_	8	amod	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	respinto	respingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	dipinto	dipingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Carlson	Carlson	PROPN	SP	_	17	obj	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	dipendente	dipendente	NOUN	S	Number=Sing	19	nmod	_	_
+23	delusa	deluso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	rancorosa	rancoroso	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	vendicativa	vendicativo	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = I guai sono aumentati però quando dietro la Carlson altre giornaliste del gruppo hanno cominciato a vuotare il sacco, e l'elenco delle denunce si è allungato.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aumentati	aumentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	quando	quando	SCONJ	CS	_	16	mark	_	_
+7	dietro	dietro	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Carlson	Carlson	PROPN	SP	_	16	obl	_	_
+10	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	giornaliste	giornalista	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	vuotare	vuotare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	30	punct	_	_
+22	e	e	CCONJ	CC	_	30	cc	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	allungato	allungare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Usa, Ceo Fox News denunciato:
+1	Usa	Usa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Ceo	ceo	PROPN	SP	_	1	conj	_	_
+4	Fox	Fox	PROPN	SP	_	6	nsubj	_	_
+5	News	News	PROPN	SP	_	4	flat:name	_	_
+6	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = giornalista lo accusa di moleste sessuali Fino a poche ore fa mancava solo lei:
+1	giornalista	giornalista	NOUN	S	Number=Sing	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	moleste	molesta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	sessuali	sessuale	ADJ	A	Number=Plur	5	amod	_	_
+7	Fino	fino	ADV	B	_	10	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+11	fa	fare	ADV	B	_	10	advmod	_	_
+12	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+13	solo	solo	ADV	B	_	14	advmod	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 13
+# text = la superstar di Fox.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	superstar	superstar	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Fox	Fox	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = La Kelly era rimasta in silenzio finora.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Kelly	Kelly	PROPN	SP	_	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	finora	finora	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Ma da stamane nei dossier a carico di Ailes si è aggiunto anche il suo.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	stamane	stamana	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dossier	dossier	NOUN	S	Gender=Masc	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	carico	carico	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Ailes	Ailes	PROPN	SP	_	8	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nsubj:pass	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 16
+# text = Di certo non si può addebitare la denuncia della Kelly a delusioni di carriera:
+1	Di	di	ADP	E	_	2	case	_	_
+2	certo	certo	ADV	B	_	6	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	addebitare	addebitare	VERB	V	VerbForm=Inf	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Kelly	Kelly	PROPN	SP	_	8	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	delusioni	delusione	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 17
+# text = la sua notorietà è alle stelle.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	notorietà	notorietà	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Megyn Kelly era già famosa un anno fa, ma a proiettarla verso un ulteriore balzo di celebrità è stato l'estate scorsa il suo memorabile scontro con Trump .
+1	Megyn	Megyn	PROPN	SP	_	5	nsubj	_	_
+2	Kelly	Kelly	PROPN	SP	_	1	flat:name	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12-13	proiettarla	_	_	_	_	_	_	_	_
+12	proiettar	proiettare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	verso	verso	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	ulteriore	ulteriore	ADJ	A	Number=Sing	17	amod	_	_
+17	balzo	balzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	celebrità	celebrità	NOUN	S	Gender=Fem	17	nmod	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	cop	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	estate	estate	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+24	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	memorabile	memorabile	ADJ	A	Number=Sing	28	amod	_	_
+28	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	Trump	Trump	PROPN	SP	_	28	nmod	_	_
+31	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 19
+# text = Lei lo accusò in tv di avere insultato le donne.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	accusò	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	tv	tv	NOUN	S	Gender=Fem	3	obl	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	avere	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	insultato	insultare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Lui reagì con pesanti e volgari allusioni al suo ciclo mestruale.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	reagì	reagire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	7	case	_	_
+4	pesanti	pesante	ADJ	A	Number=Plur	7	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	volgari	volgare	ADJ	A	Number=Plur	4	conj	_	_
+7	allusioni	allusione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12	mestruale	mestruale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Poi i due si rividero per una ripetizione del "match", dentro l'ufficio di Trump nella Tower della Quinta Strada.
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	due	due	NUM	N	NumType=Card	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	rividero	rividerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ripetizione	ripetizione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	match	match	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	dentro	dentro	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Trump	Trump	PROPN	SP	_	17	nmod	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Tower	Tower	PROPN	SP	_	17	nmod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	Quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	Strada	strada	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Finì in pareggio.
+1	Finì	finire	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Donald Trump chiede scusa a Megyn Kelly: pace fatta.
+1	Donald	Donald	PROPN	SP	_	3	nsubj	_	_
+2	Trump	Trump	PROPN	SP	_	1	flat:name	_	_
+3	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Megyn	Megyn	PROPN	SP	_	3	obl	_	_
+7	Kelly	Kelly	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+9	pace	pace	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+10	fatta	fatto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Ora nello scontro con Ailes è certo che il perdente sarà lui.
+1	Ora	ora	ADV	B	_	12	advmod	_	_
+2-3	nello	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Ailes	Ailes	PROPN	SP	_	4	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	certo	certo	ADV	B	_	12	advmod	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	perdente	perdente	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 25
+# text = Già da diversi giorni si rincorrevano voci sull'imminente dimissione o licenziamento del chief executive.
+1	Già	già	ADV	B	_	6	advmod	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	rincorrevano	rincorrevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	voci	voce	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+8-9	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	imminente	imminente	ADJ	A	Number=Sing	11	amod	_	_
+11	dimissione	dimissione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	licenziamento	licenziamento	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	chief	chief	NOUN	S	Gender=Masc	13	nmod	_	_
+17	executive	executivo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = Pare che il vecchio Rupert abbia tentato di difenderlo ma che sia stato messo in minoranza dai figli, sempre più influenti nella gestione della Fox.
+1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Rupert	Rupert	PROPN	SP	_	7	nsubj	_	_
+6	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	difenderlo	_	_	_	_	_	_	_	_
+9	difender	difendere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	sempre	sempre	ADV	B	_	23	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	influenti	influente	ADJ	A	Number=Plur	15	amod	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Fox	Fox	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = E' uno scandalo che esplode in un momento delicato visto che la Fox è di gran lunga la tv più seguita dagli elettori repubblicani .
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	esplode	esplodere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	che	che	SCONJ	CS	_	17	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Fox	Fox	PROPN	SP	_	17	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gran	grande	ADJ	A	Number=Sing	17	amod	_	_
+17	lunga	lunga	ADJ	A	Gender=Fem|Number=Sing	10	ccomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tv	tv	NOUN	S	Gender=Fem	17	nsubj	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22-23	dagli	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	21	obl:agent	_	_
+25	repubblicani	repubblicano	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

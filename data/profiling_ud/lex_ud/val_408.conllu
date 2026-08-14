@@ -1,0 +1,339 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La situazione peggiora tra gli adolescenti:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	peggiora	peggiorare	ADV	B	_	6	advmod	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	adolescenti	adolescenti	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = oltre l'80% non raggiunge il Fleet foot, le indicate $$30$$ minuti di camminata al giorno.
+1	oltre	oltre	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	80	80	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fleet	Fleet	PROPN	SP	_	6	nsubj	_	_
+9	foot	foot	NOUN	S	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	iobj	_	_
+12	indicate	indicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	$$30$$	$$30$$	PROPN	SP	_	12	nsubj	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	camminata	camminare	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma quali sono le conseguenze di questa mancanza di attività fisica?
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	quali	quale	PRON	PR	Number=Plur|PronType=Rel	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	attività	attività	NOUN	S	Gender=Fem	8	nmod	_	_
+11	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Gli esperti avvisano che la sedentarietà può portare a numerosi problemi di salute, come l'obesità, il diabete di tipo 2, le patologie cardiovascolari e le malattie gastrointestinali.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	avvisano	avvisare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sedentarietà	sedentarietà	NOUN	S	Gender=Fem	8	nsubj	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	portare	portare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	salute	salute	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	obesità	obesità	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	diabete	diabete	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	2	2	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+27	cardiovascolari	cardiovascolare	ADJ	A	Number=Plur	26	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+31	gastrointestinali	gastrointestinale	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Inoltre, la mancanza di attività fisica può avere un impatto negativo sulla salute mentale, aumentando il rischio di depressione e stress.
+1	Inoltre	inoltre	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	attività	attività	NOUN	S	Gender=Fem	4	nmod	_	_
+7	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	negativo	negativo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	salute	salute	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	mentale	mentale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	aumentando	aumentare	VERB	V	VerbForm=Ger	9	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	stress	stress	NOUN	S	Gender=Masc	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Sono diversi i fattori che influiscono su questa tendenza.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	influiscono	influire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Da un lato, c'è l'uso eccessivo di dispositivi elettronici (cellulari, tablet, TV), dall'altro c'è la mancanza di aree-green e praticabili, particolarmente in grandi città, per giocare e muoversi.
+1	Da	da	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lato	lato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uso	uso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	dispositivi	dispositivo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	elettronici	elettronico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	cellulari	cellulare	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	tablet	table	NOUN	S	Gender=Masc	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	TV	TV	PROPN	SP	_	14	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21-22	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+21	da	da	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+24	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	SpaceAfter=No
+25	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	aree-	_	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	green	green	NOUN	S	Gender=Masc	27	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	praticabili	praticabile	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	6	punct	_	_
+34	particolarmente	particolarmente	ADV	B	_	37	advmod	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	grandi	grande	ADJ	A	Number=Plur	37	amod	_	_
+37	città	città	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	6	punct	_	_
+39	per	per	ADP	E	_	40	mark	_	_
+40	giocare	giocare	VERB	V	VerbForm=Inf	6	advcl	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42-43	muoversi	_	_	_	_	_	_	_	SpaceAfter=No
+42	muover	muovere	VERB	V	VerbForm=Inf	40	conj	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+44	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Inoltre, anche l'ambiente sociale e la cultura del tempo libero hanno un ruolo:
+1	Inoltre	inoltre	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+6	sociale	sociale	ADJ	A	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	libero	libero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 9
+# text = il modello del cittadino pigro e consumeristico è ben radicato nella società italiana.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modello	modello	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	pigro	pigro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	consumeristico	consumeristico	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	ben	bene	ADV	B	_	11	advmod	_	_
+11	radicato	radicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	11	obl	_	_
+15	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Ma come possiamo invertire questa tendenza?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	invertire	invertire	VERB	V	VerbForm=Inf	0	root	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Bisogna che i genitori si preoccupino dell'attività fisica dei propri figli, incoraggiandoli a muoversi e ad adoptioni stili di vita attivi.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	preoccupino	preoccupare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	attività	attività	NOUN	S	Gender=Fem	6	obl	_	_
+10	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16-17	incoraggiandoli	_	_	_	_	_	_	_	_
+16	incoraggiando	incoraggiare	VERB	V	VerbForm=Ger	1	advcl	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	muoversi	_	_	_	_	_	_	_	_
+19	muover	muovere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	ad	a	ADP	E	_	23	case	_	_
+23	adoptioni	adoptione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	stili	stile	ADJ	A	Number=Plur	23	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	attivi	attivo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = E' anche importante che le scuole integrino l'attività fisica come parte dell'insegnamento, creando anche attività extrascolastiche.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	integrino	integrare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attività	attività	NOUN	S	Gender=Fem	7	obj	_	_
+10	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	insegnamento	insegnamento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	creando	creare	VERB	V	VerbForm=Ger	3	advcl	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	attività	attività	NOUN	S	Gender=Fem	17	obj	_	_
+20	extrascolastiche	extrascolastico	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Sia importante, inoltre, che vengano promosse politiche di green spaces e la creazione di aree giocattoli e sportellisicure.
+1	Sia	sia	CCONJ	CC	_	2	cc	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inoltre	inoltre	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+7	vengano	venire	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	promosse	promuovere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	politiche	politica	ADJ	A	Gender=Fem|Number=Plur	8	xcomp	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	green	green	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	spaces	space	NOUN	S	Gender=Masc	9	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	aree	area	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	giocattoli	giocattole	ADJ	A	Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sportellisicure	sportellisicuro	ADV	BN	PronType=Neg	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Non è troppo tardi per invertire la tendenza, ma tutti noi, genitori, insegnati, responsabili politici, dobbiamo lavorare insieme
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	troppo	troppo	ADV	B	_	4	advmod	_	_
+4	tardi	tardi	ADV	B	_	22	advmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	invertire	invertire	VERB	V	VerbForm=Inf	22	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	22	punct	_	_
+10	ma	ma	CCONJ	CC	_	22	cc	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	obl	_	_
+12	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	insegnati	insegnare	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	responsabili	responsabile	NOUN	S	Number=Plur	12	conj	_	_
+19	politici	politico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+23	insieme	insieme	ADV	B	_	22	advmod	_	SpacesAfter=\n
+

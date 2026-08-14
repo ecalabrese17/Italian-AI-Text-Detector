@@ -1,0 +1,388 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella seconda gara la Russia schianta la Repubblica Ceca 4-1.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	gara	gara	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Russia	Russia	PROPN	SP	_	7	nsubj	_	_
+7	schianta	schianto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Repubblica	Repubblica	PROPN	SP	_	7	obj	_	_
+10	Ceca	ceca	PROPN	SP	_	9	flat:name	_	_
+11	4	4	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	1	1	NUM	N	NumType=Card	11	compound	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Sabato le prime big in campo:
+1	Sabato	sabare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	big	big	NOUN	S	_	1	nsubj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	campo	campo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Olanda-Danimarca (ore 18) e Germania-Portogallo (20.45).
+1	Olanda	Olanda	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Danimarca	Danimarca	PROPN	SP	_	1	nmod	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+6	18	18	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	5	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Germania-Portogallo	Germania-Portogallo	PROPN	SP	_	1	conj	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	20.45	20.45	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La cerimonia di apertura, durata pochi minuti, ha visto esibirsi in campo, sopra un telone azzurro a copertura del campo, 800 artisti provenienti da 63 Paesi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	esibirsi	_	_	_	_	_	_	_	_
+12	esibir	esibire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	campo	campo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	sopra	sopra	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	telone	telone	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+20	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	copertura	copertura	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	campo	campo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	800	800	NUM	N	NumType=Card	28	nummod	_	_
+28	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+29	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	28	acl	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	63	63	NUM	N	NumType=Card	32	nummod	_	_
+32	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Belle, anche se molto semplici, le coreografie.
+1	Belle	bello	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	6	mark	_	_
+4	se	se	SCONJ	CS	_	3	fixed	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	semplici	semplice	ADJ	A	Number=Plur	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	coreografie	coreografia	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Polonia-Grecia 1-1 Polonia in vantaggio con Lewandowski al 17' pt: l'attaccante del Borussia Dortmund ha schiacciato di testa.
+1	Polonia	Polonia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Grecia	Grecia	PROPN	SP	_	24	nsubj	_	_
+4	1	1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	1	1	NUM	N	NumType=Card	4	compound	_	_
+7	Polonia	Polonia	PROPN	SP	_	3	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Lewandowski	Lewandowski	PROPN	SP	_	9	nmod	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	17'	17'	NUM	N	NumType=Card	15	nummod	_	_
+15	pt	pt	NOUN	S	_	9	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	attaccante	attaccante	NOUN	S	Number=Sing	24	nsubj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Borussia	Borussia	PROPN	SP	_	18	nmod	_	_
+22	Dortmund	Dortmund	PROPN	SP	_	21	flat:name	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	schiacciato	schiacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	testa	testa	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 7
+# text = Molto fiscale dl'arbitro, lo spagnolo Carballo:
+1	Molto	molto	ADV	B	_	2	advmod	_	_
+2	fiscale	fiscale	ADJ	A	Number=Sing	0	root	_	_
+3	dl'	dlo	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	Carballo	Carballo	PROPN	SP	_	4	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = due cartellini giali nei confronti di Kostaris Papastathopoulos (ex Milan) e conseguente espulsione poco dopo la mezz’ora.
+1	due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	cartellini	cartellino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	giali	giale	ADJ	A	Number=Plur	2	amod	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Kostaris	Kostaris	PROPN	SP	_	6	nmod	_	_
+9	Papastathopoulos	Papastathopoulos	PROPN	SP	_	8	flat:name	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	ex	ex	ADJ	A	_	12	amod	_	_
+12	Milan	Milan	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	conseguente	conseguente	ADJ	A	Number=Sing	16	amod	_	_
+16	espulsione	espulsione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+17	poco	poco	ADV	B	_	21	advmod	_	_
+18	dopo	dopo	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mezz’	mezzo	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ora	ora	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Inizia il secondo tempo e la Grecia pareggia subito con Salpingidis (6' st).
+1	Inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Grecia	Grecia	PROPN	SP	_	8	nsubj	_	_
+8	pareggia	pareggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	subito	subito	ADV	B	_	8	advmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Salpingidis	Salpingidis	PROPN	SP	_	8	obl	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	6'	6'	NUM	N	NumType=Card	14	nummod	_	_
+14	st	st	NOUN	S	_	11	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Al 24' st grandissima occasione per la Grecia: il portiere polacco Szczesny atterra in area Salpingidis, lanciato in rete.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	24'	24'	NUM	N	NumType=Card	4	nummod	_	_
+4	st	st	SYM	X	_	6	nmod	_	_
+5	grandissima	grande	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	6	amod	_	_
+6	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Grecia	Grecia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	polacco	polacco	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	Szczesny	Szczesny	PROPN	SP	_	12	nmod	_	_
+15	atterra	atterra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	area	area	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	Salpingidis	Salpingidis	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	rete	rete	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Espulsione e calcio di rigore.
+1	Espulsione	espulsione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Tyton, il portiere di riserva sceso in campo al posto di Rybus, fa il miracolo e para il penalty calciato dal capitano della Grecia, Karagounis.
+1	Tyton	Tyton	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	riserva	riserva	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sceso	scendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	campo	campo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	posto	posto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Rybus	Rybus	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	para	parare	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	penalty	penalty	NOUN	S	Gender=Masc	16	conj	_	_
+23	calciato	calciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	23	obl:agent	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Grecia	Grecia	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	Karagounis	Karagounis	PROPN	SP	_	26	appos	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = La partita si chiude sull'1-1.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	chiude	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	1	1	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	1	1	NUM	N	NumType=Card	7	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Azzurri:
+1	Azzurri	azzurro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = Barzagli resta tra i 23 Il difensore della Juventus, Andrea Barzagli resterà tra i 23 azzurri di Euro 2012.
+1	Barzagli	Barzagli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	23	23	NUM	N	NumType=Card	14	obl	_	_
+6	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	difensore	difensore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Juventus	Juventus	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	Andrea	Andrea	PROPN	SP	_	14	nsubj	_	_
+13	Barzagli	Barzagli	PROPN	SP	_	12	flat:name	_	_
+14	resterà	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+15	tra	tra	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	23	23	NUM	N	NumType=Card	18	nummod	_	_
+18	azzurri	azzurro	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Euro	Euro	PROPN	SP	_	18	nmod	_	_
+21	2012	2012	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 16
+# text = Lo ha confermato la Federcalcio.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Federcalcio	Federcalcio	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = La decisione di Prandelli è arrivata dopo gli esami effettuati oggi dal giocatore per verificare le condizioni del polpaccio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Prandelli	Prandelli	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	dopo	dopo	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	esami	esame	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	effettuati	effettuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	oggi	oggi	ADV	B	_	10	advmod	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	verificare	verificare	VERB	V	VerbForm=Inf	10	advcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	polpaccio	polpaccio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Lo staff medico azzurro cercherà di recuperarlo per la terza partita del girone C contro l’Irlanda di Trapattoni.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	staff	staff	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	medico	medico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	cercherà	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	recuperarlo	_	_	_	_	_	_	_	_
+7	recuperar	recuperare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	partita	partita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	girone	girone	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	C	C	PROPN	SP	_	15	nmod	_	_
+17	contro	contro	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Irlanda	Irlanda	PROPN	SP	_	12	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Trapattoni	Trapattoni	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Davide Astori, chiamato per la possibile sostituzione, resterà fino a domani sera in ritiro.
+1	Davide	Davido	PROPN	SP	_	10	nsubj	_	_
+2	Astori	Astore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	possibile	possibile	ADJ	A	Number=Sing	8	amod	_	_
+8	sostituzione	sostituzione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	resterà	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	fino	fino	ADV	B	_	14	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	domani	domani	ADV	B	_	14	advmod	_	_
+14	sera	sera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	ritiro	ritiro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

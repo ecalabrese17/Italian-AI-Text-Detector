@@ -1,0 +1,371 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In questo quadro "c'è un grande assente:
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	assente	assente	ADJ	A	Number=Sing	6	nsubj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = è Forza Italia, che non è nè carne nè pesce.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	Forza	Forza	PROPN	SP	_	0	root	_	_
+3	Italia	Italia	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	nè	nè	CCONJ	CC	_	9	cc	_	_
+9	carne	carne	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+10	nè	nè	CCONJ	CC	_	11	cc	_	_
+11	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Quindi non c'è nessuna ragione per votarla.
+1	Quindi	quindi	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	votarla	_	_	_	_	_	_	_	SpaceAfter=No
+8	votar	votare	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il voto a Forza Italia è davvero un voto inutile".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	voto	voto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Forza	Forza	PROPN	SP	_	2	nmod	_	_
+5	Italia	Italia	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	davvero	davvero	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	voto	voto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	inutile	inutile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Lo ha detto il leader di Ncd, Angelino Alfano, parlando a una iniziativa a Roma.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	leader	leader	NOUN	S	_	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Ncd	Ncd	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	Angelino	Angelino	PROPN	SP	_	5	appos	_	_
+10	Alfano	Alfano	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	parlando	parlare	VERB	V	VerbForm=Ger	3	advcl	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Roma	Roma	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = "Oggi Forza Italia - ha aggiunto Alfano - non è buona per stare dentro al governo, ma non è nemmeno schierata in maniera visibile all'opposizione, perché lì c'è già Grillo.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	Oggi	oggi	ADV	B	_	12	advmod	_	_
+3	Forza	Forza	PROPN	SP	_	12	nsubj	_	_
+4	Italia	Italia	PROPN	SP	_	3	flat:name	_	_
+5	-	-	PUNCT	FF	_	3	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+8	Alfano	Alfano	PROPN	SP	_	7	nsubj	_	_
+9	-	-	PUNCT	FF	_	7	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	stare	stare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	dentro	dentro	ADV	B	_	14	advmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	ma	ma	CCONJ	CC	_	24	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	nemmeno	nemmeno	ADV	BN	PronType=Neg	24	advmod	_	_
+24	schierata	schierare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	visibile	visibile	ADJ	A	Number=Sing	26	amod	_	_
+28-29	all'	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	24	punct	_	_
+32	perché	perché	SCONJ	CS	_	35	mark	_	_
+33	lì	lì	ADV	B	_	35	advmod	_	_
+34	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	SpaceAfter=No
+35	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+36	già	già	ADV	B	_	35	advmod	_	_
+37	Grillo	Grillo	PROPN	SP	_	35	nsubj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Quindi - ha insistito Alfano - il voto a Forza Italia è davvero il voto inutile".
+1	Quindi	quindi	ADV	B	_	15	advmod	_	_
+2	-	-	PUNCT	FF	_	4	punct	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	insistito	insistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+5	Alfano	Alfano	PROPN	SP	_	4	nsubj	_	_
+6	-	-	PUNCT	FF	_	4	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	voto	voto	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Forza	Forza	PROPN	SP	_	8	nmod	_	_
+11	Italia	Italia	PROPN	SP	_	10	flat:name	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	davvero	davvero	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	voto	voto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	inutile	inutile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = Non solo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Per il leader Ncd, chi "in passato ha votato per il Pdl, voti alle Europee per noi e noi utilizzeremo tutti i voti ottenuti per riunire i moderati italiani.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	leader	leader	NOUN	S	_	6	obl	_	_
+4	Ncd	Ncd	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+7	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	in	in	ADP	E	_	9	case	_	_
+9	passato	passato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Pdl	Pdl	PROPN	SP	_	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	voti	voto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Europee	europee	PROPN	SP	_	16	nmod	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	16	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+24	utilizzeremo	utilizzare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	11	conj	_	_
+25	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	27	det:predet	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	voti	voto	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+28	ottenuti	ottenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30	riunire	riunire	VERB	V	VerbForm=Inf	28	advcl	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	moderati	moderato	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+33	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = E' l'impegno che assumiamo".
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	assumiamo	assumere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Durissima la risposta degli ex amici.
+1	Durissima	duro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	3	amod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ex	ex	ADJ	A	_	7	amod	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Più che preoccuparsi del voto di Forza Italia - dice Maurizio Gasparri - Alfano dovrebbe guardare in casa propria.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Più	più	ADV	B	_	13	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4-5	preoccuparsi	_	_	_	_	_	_	_	_
+4	preoccupar	preoccupare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	voto	voto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Forza	Forza	PROPN	SP	_	8	nmod	_	_
+11	Italia	Italia	PROPN	SP	_	10	flat:name	_	_
+12	-	-	PUNCT	FF	_	2	punct	_	_
+13	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+14	Maurizio	Maurizio	PROPN	SP	_	13	nsubj	_	_
+15	Gasparri	Gasparri	PROPN	SP	_	14	flat:name	_	_
+16	-	-	PUNCT	FF	_	13	punct	_	_
+17	Alfano	Alfano	PROPN	SP	_	19	nsubj	_	_
+18	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	propria	proprio	ADJ	A	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 13
+# text = Infatti il voto ad Ncd più che inutile è dannoso".
+1	Infatti	infatti	ADV	B	_	10	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	voto	voto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	Ncd	Ncd	PROPN	SP	_	10	obl	_	_
+6	più	più	ADV	B	_	10	advmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	inutile	inutile	ADJ	A	Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	dannoso	dannoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Il vicepresidente FI del Senato aggiunge che "con l'operazione 'Mare nostrum' il governo Renzi, appoggiato dal partito di Alfano, ha permesso nuovi sbarchi sulle coste italiane, a differenza di Forza Italia che, con il governo Berlusconi, attraverso accordi internazionali, aveva rimandato a casa i clandestini".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vicepresidente	vicepresidente	NOUN	S	Number=Sing	7	nsubj	_	_
+3	FI	FI	PROPN	SP	_	2	nmod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Senato	Senato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+10	con	con	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+13	'Mare	'Mare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+14	nostrum'	nostrume	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	Renzi	Renzi	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	appoggiato	appoggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	partito	partito	NOUN	S	Gender=Masc|Number=Sing	19	obl:agent	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Alfano	Alfano	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	13	punct	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+28	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	sbarchi	sbarco	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30-31	sulle	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	coste	costa	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+33	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	27	punct	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Forza	Forza	PROPN	SP	_	36	nmod	_	_
+39	Italia	Italia	PROPN	SP	_	38	flat:name	_	_
+40	che	che	PRON	PR	PronType=Rel	52	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	con	con	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	governo	governo	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
+45	Berlusconi	Berlusconi	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	44	punct	_	_
+47	attraverso	attraverso	ADP	E	_	48	case	_	_
+48	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	52	obl	_	_
+49	internazionali	internazionale	ADJ	A	Number=Plur	48	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	48	punct	_	_
+51	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	aux	_	_
+52	rimandato	rimandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl:relcl	_	_
+53	a	a	ADP	E	_	54	case	_	_
+54	casa	casa	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	clandestini	clandestino	NOUN	S	Gender=Masc|Number=Plur	52	obj	_	SpaceAfter=No
+57	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = "I cittadini italiani hanno capito che Alfano, finora da ministro dell'Interno, non ne ha azzeccata una.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	che	che	SCONJ	CS	_	20	mark	_	_
+8	Alfano	Alfano	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	finora	finora	ADV	B	_	12	advmod	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Interno	Interno	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	azzeccata	azzeccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+21	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Segua più il Viminale.
+1	Segua	seguire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	più	più	ADV	B	_	1	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Viminale	Viminale	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Tanto - conclude - il suo partito non andrà lontano a forza di importare clandestini".
+1	Tanto	tanto	ADV	B	_	9	advmod	_	_
+2	-	-	PUNCT	FF	_	3	punct	_	_
+3	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	partito	partito	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	lontano	lontano	ADV	B	_	9	advmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	forza	forza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	importare	importare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15	clandestini	clandestino	ADJ	A	Gender=Masc|Number=Plur	14	xcomp	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

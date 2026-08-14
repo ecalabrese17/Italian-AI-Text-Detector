@@ -1,0 +1,578 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le sue parole richiamano il 'mea culpa' a nome della Chiesa che Joseph Ratzinger pronunciò il 12 giugno 2010.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	richiamano	richiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	mea	mea	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	culpa	culpa	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	7	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+16	Joseph	Joseph	PROPN	SP	_	18	nsubj	_	_
+17	Ratzinger	Ratzinger	PROPN	SP	_	16	flat:name	_	_
+18	pronunciò	pronunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	12	12	NUM	N	NumType=Card	18	obl	_	_
+21	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22	2010	2010	NUM	N	NumType=Card	20	flat	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = "Nessun passo indietro".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	indietro	indietro	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La riflessione è partita innanzitutto dagli abusi commessi su minori da esponenti della Chiesa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	innanzitutto	innanzitutto	ADV	B	_	4	advmod	_	_
+6-7	dagli	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	minori	minore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mi sento chiamato a farmi carico" e "a chiedere perdono" per il male che alcuni sacerdoti "hanno compiuto, per gli abusi sessuali sui bambini", ha detto il pontefice, assicurando che non verrà fatto nessun "passo indietro" nel "trattamento di questo problema" e nelle "sanzioni".
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	carico	carico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	a	a	ADP	E	_	11	mark	_	_
+11	chiedere	chiedere	VERB	V	VerbForm=Inf	6	conj	_	_
+12	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	male	male	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	che	che	SCONJ	CS	_	22	mark	_	_
+18	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	sacerdoti	sacerdote	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+27	sessuali	sessuale	ADJ	A	Number=Plur	26	amod	_	_
+28-29	sui	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	pontefice	pontefice	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	34	punct	_	_
+38	assicurando	assicurare	VERB	V	VerbForm=Ger	34	advcl	_	_
+39	che	che	SCONJ	CS	_	42	mark	_	_
+40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+41	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	42	aux:pass	_	_
+42	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	ccomp	_	_
+43	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	45	det	_	_
+44	"	"	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+45	passo	passo	NOUN	S	Gender=Masc|Number=Sing	42	nsubj:pass	_	_
+46	indietro	indietro	ADV	B	_	45	advmod	_	SpaceAfter=No
+47	"	"	PUNCT	FB	_	45	punct	_	_
+48-49	nel	_	_	_	_	_	_	_	_
+48	in	in	ADP	E	_	51	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	"	"	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+51	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	54	det	_	_
+54	problema	problema	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+55	"	"	PUNCT	FB	_	45	punct	_	_
+56	e	e	CCONJ	CC	_	60	cc	_	_
+57-58	nelle	_	_	_	_	_	_	_	_
+57	in	in	ADP	E	_	60	case	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	60	det	_	_
+59	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+60	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	45	conj	_	SpaceAfter=No
+61	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "La Chiesa è cosciente di questo danno!
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	cosciente	cosciente	ADJ	A	Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	danno	danno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = E' un danno personale e morale loro...
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	danno	danno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	personale	personale	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	morale	morale	ADJ	A	Number=Sing	4	conj	_	_
+7	loro...	loro.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = ma di uomini di Chiesa!
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = E noi non vogliamo compiere un passo indietro in ciò che riguarda il trattamento di questo problema e le sanzioni che devono essere comminate.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	compiere	compiere	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passo	passo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	indietro	indietro	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	problema	problema	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj:pass	_	_
+22	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	comminate	comminare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Al contrario credo che dobbiamo essere molto forti!
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	credo	credo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	essere	essere	AUX	VA	VerbForm=Inf	9	cop	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	forti	forte	ADJ	A	Number=Plur	4	ccomp	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Con i bambini non si gioca!".
+1	Con	con	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = I bambini-soldato.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Poi Papa Francesco ha parlato delle condizioni dei bambini in tante aree del mondo.
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	Papa	Papa	PROPN	SP	_	5	nsubj	_	_
+3	Francesco	Francesco	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	aree	area	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = "Ai nostri giorni è importante portare avanti i progetti contro il lavoro-schiavo, contro il reclutamento dei bambini-soldato e ogni tipo di violenza sui minori, ha detto ringraziando i rappresentanti dell'organismo che si occupa dei minori per il loro impegno.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Ai	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+8	portare	portare	VERB	V	VerbForm=Inf	7	csubj	_	_
+9	avanti	avanti	ADV	B	_	8	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	-	-	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	schiavo	schiavo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	contro	contro	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	reclutamento	reclutamento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	23	compound	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31-32	sui	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	minori	minore	NOUN	S	Number=Plur	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+37	ringraziando	ringraziare	SCONJ	CS	_	39	mark	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	rappresentanti	rappresentante	NOUN	S	Number=Plur	36	ccomp	_	_
+40-41	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+40	di	di	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+44	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+45	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+46-47	dei	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	minori	minore	NOUN	S	Number=Plur	45	obl	_	_
+49	per	per	ADP	E	_	52	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	loro	loro	DET	AP	Poss=Yes|PronType=Prs	52	det:poss	_	_
+52	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = "E' una espressione concreta e attuale - ha detto a loro il Papa - della predilezione che il Signore Gesù ha per loro".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	attuale	attuale	ADJ	A	Number=Sing	5	conj	_	_
+8	-	-	PUNCT	FB	_	10	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	obl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Papa	Papa	PROPN	SP	_	10	nsubj	_	_
+15	-	-	PUNCT	FF	_	10	punct	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	predilezione	predilezione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Signore	signore	PROPN	SP	_	23	nsubj	_	_
+22	Gesù	Gesù	PROPN	SP	_	21	flat:name	_	_
+23	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = "Bambini hanno diritto a un padre e una madre".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Bambini	bambini	PROPN	SP	_	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = "Occorre ribadire il diritto dei bambini a crescere in una famiglia, con un papà e una mamma capaci di creare un ambiente idoneo al suo sviluppo e alla sua maturazione affettiva.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ribadire	ribadire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	crescere	crescere	VERB	V	VerbForm=Inf	5	acl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	papà	papà	NOUN	S	Gender=Masc	10	obl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+21	capaci	capace	ADJ	A	Number=Plur	20	amod	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	creare	creare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	idoneo	idoneo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+31	e	e	CCONJ	CC	_	35	cc	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	35	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	maturazione	maturazione	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+36	affettiva	affettivo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Continuando a maturare in relazione alla mascolinità e alla femminilità di un padre e di una madre".
+1	Continuando	continuare	VERB	V	VerbForm=Ger	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	maturare	maturare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mascolinità	mascolinità	NOUN	S	Gender=Fem	5	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	femminilità	femminilità	NOUN	S	Gender=Fem	5	conj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	madre	madre	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = La "impostazione dei progetti educativi", ha detto il papa, è innanzitutto necessario "sostenere il diritto dei genitori all'educazione morale e religiosa dei propri figli":
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	impostazione	impostazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	educativi	educativo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	nsubj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	papa	papa	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	innanzitutto	innanzitutto	ADV	B	_	17	advmod	_	_
+17	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+18	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	sostenere	sostenere	VERB	V	VerbForm=Inf	17	ccomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	morale	morale	ADJ	A	Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	28	conj	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 19
+# text = "a questo proposito vorrei manifestare il mio rifiuto per ogni tipo di sperimentazione educativa con i bambini.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	manifestare	manifestare	VERB	V	VerbForm=Inf	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	rifiuto	rifiuto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sperimentazione	sperimentazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	educativa	educativo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Con i bambini e i giovani non si può sperimentare.
+1	Con	con	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	e	e	CCONJ	CC	_	10	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giovani	giovane	NOUN	S	Number=Plur	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sperimentare	sperimentare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Non sono cavie da laboratorio!
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cavie	cavia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Gli orrori della manipolazione educativa che abbiamo vissuto nelle grandi dittature genocide del secolo XX non sono spariti.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	orrori	orrore	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	manipolazione	manipolazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	educativa	educativo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10-11	nelle	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	grandi	grande	ADJ	A	Number=Plur	13	amod	_	_
+13	dittature	dittatura	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	genocide	genocido	ADJ	A	Number=Sing	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	XX	Xx	PROPN	SP	_	17	nmod	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	spariti	sparire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 23
+# text = Conservano la loro attualità sotto vesti diverse e proposte che, con pretesa di modernità, spingono i bambini e i giovani a camminare sulla strada dittatoriale del 'pensiero unico'".
+1	Conservano	conservare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	attualità	attualità	NOUN	S	Gender=Fem	1	obj	_	_
+5	sotto	sotto	ADP	E	_	6	case	_	_
+6	vesti	veste	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	pretesa	pretesa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	modernità	modernità	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	spingono	spingere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	giovani	giovane	NOUN	S	Number=Plur	19	conj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	camminare	camminare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	strada	strada	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	dittatoriale	dittatoriale	ADJ	A	Number=Sing	27	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	'	'	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+33	unico	unico	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	'	'	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

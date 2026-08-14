@@ -1,0 +1,637 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma il grand jury non si riunirà fino a lunedì.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	grand	grand	ADJ	A	_	4	amod	_	_
+4	jury	jury	NOUN	S	_	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	riunirà	riunire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	fino	fino	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	lunedì	lunedì	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Lo riferisce la Cnn che cita fonti vicino al caso.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Cnn	Cnn	PROPN	SP	_	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	cita	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	vicino	vicino	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non è chiaro il motivo, anche se è escluso che i dodici giurati si trovino a uno stallo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	anche	anche	ADV	B	_	10	mark	_	_
+8	se	se	SCONJ	CS	_	7	fixed	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	dodici	dodici	NUM	N	NumType=Card	14	nummod	_	_
+14	giurati	giurato	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	trovino	trovare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	stallo	stallo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Mentre l'attesa si protrae la tensione continua a salire e Obama in un'intervista registrata ieri ad Abc News , dopo aver detto che tutti hanno il diritto di esprimere le proprie opinioni e di riunirsi pacificamente per protestare contro azioni che ritengono ingiuste, ha aggiunto che usare qualsiasi evento come una scusa per la violenza è inaccettabile.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	protrae	protrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	salire	salire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Obama	Obama	PROPN	SP	_	10	obj	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+16	registrata	registrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	ieri	ieri	ADV	B	_	16	advmod	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	Abc	Abc	PROPN	SP	_	16	obl	_	_
+20	News	News	PROPN	SP	_	19	flat:name	_	_
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	dopo	dopo	SCONJ	CS	_	24	mark	_	_
+23	aver	avere	AUX	VA	VerbForm=Inf	24	aux	_	_
+24	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+25	che	che	SCONJ	CS	_	27	mark	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	27	nsubj	_	_
+27	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	esprimere	esprimere	VERB	V	VerbForm=Inf	29	acl	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37-38	riunirsi	_	_	_	_	_	_	_	_
+37	riunir	riunire	VERB	V	VerbForm=Inf	31	conj	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39	pacificamente	pacificamente	ADV	B	_	37	advmod	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41	protestare	protestare	VERB	V	VerbForm=Inf	37	advcl	_	_
+42	contro	contro	ADP	E	_	43	case	_	_
+43	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	41	obl	_	_
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+45	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+46	ingiuste	ingiusto	ADJ	A	Gender=Fem|Number=Plur	45	xcomp	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	8	punct	_	_
+48	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	61	acl:relcl	_	_
+50	che	che	SCONJ	CS	_	51	mark	_	_
+51	usare	usare	VERB	V	VerbForm=Inf	49	ccomp	_	_
+52	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	53	det	_	_
+53	evento	evento	NOUN	S	Gender=Masc|Number=Sing	51	obj	_	_
+54	come	come	ADP	E	_	56	case	_	_
+55	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	_
+57	per	per	ADP	E	_	59	case	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	56	nmod	_	_
+60	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+61	inaccettabile	inaccettabile	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = "Penso, innanzitutto, che le proteste debbano essere mantenute pacifiche", ha detto Obama nell'intervista, registrata a Las Vegas prima del suo discorso sull'immigrazione.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	innanzitutto	innanzitutto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+9	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	mantenute	mantenere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+12	pacifiche	pacifiche	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+17	Obama	Obama	PROPN	SP	_	16	nsubj	_	_
+18-19	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	in	in	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	registrata	registrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Las	Las	PROPN	SP	_	22	obl	_	_
+25	Vegas	Vegas	PROPN	SP	_	24	flat:name	_	_
+26	prima	prima	ADV	B	_	30	case	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	26	fixed	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+31-32	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+31	su	su	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	immigrazione	immigrazione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = "Questo è un Paese che permette a tutti di esprimere le loro opinioni, permette le assemblee pacifiche, e di protestare contro le azioni che si ritengono ingiuste", ha detto il presidente Usa.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	esprimere	esprimere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	assemblee	assemblea	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+19	pacifiche	pacifiche	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	protestare	protestare	VERB	V	VerbForm=Inf	5	conj	_	_
+24	contro	contro	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	ingiuste	ingiusto	ADJ	A	Gender=Fem|Number=Plur	29	xcomp	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+37	Usa	Usa	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = "Tuttavia usare qualsiasi evento come una scusa per la violenza è contrario allo Stato di diritto, è contrario a chi siamo".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tuttavia	tuttavia	ADV	B	_	3	advmod	_	_
+3	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	evento	evento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	_
+14-15	allo	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	chi	chi	PRON	PR	Number=Sing|PronType=Rel	21	obl	_	_
+24	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = VIDEO A Saint Louis "giustizia per Michael Brown" Saint Louis:
+1	VIDEO	video	PROPN	SP	_	0	root	_	_
+2	A	a	PROPN	SP	_	1	flat:name	_	_
+3	Saint	Saint	PROPN	SP	_	1	flat:name	_	_
+4	Louis	Louis	PROPN	SP	_	1	flat:name	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Michael	Michael	PROPN	SP	_	1	nmod	_	_
+9	Brown	Brown	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	_
+11	Saint	Saint	PROPN	SP	_	8	flat:name	_	_
+12	Louis	Louis	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = "Giustizia per Michael Brown".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Giustizia	Giustizia	PROPN	SP	_	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Michael	Michael	PROPN	SP	_	2	nmod	_	_
+5	Brown	Brown	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = L'intervista completa dovrebbe essere trasmessa domani da This week di Abc .
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	completa	completo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	trasmessa	trasmettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	domani	domani	ADV	B	_	6	advmod	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	This	This	PROPN	SP	_	6	obl:agent	_	_
+10	week	week	NOUN	S	Gender=Masc	9	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Abc	Abc	PROPN	SP	_	10	nmod	_	_
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = La rete ha diffuso il commento di Obama su Ferguson questa notte ora locale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rete	rete	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	commento	commento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Obama	Obama	PROPN	SP	_	6	nmod	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	Ferguson	Ferguson	PROPN	SP	_	6	nmod	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	ora	ora	ADV	B	_	14	advmod	_	_
+14	locale	locale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = L'uccisione di Brown, che era disarmato, aveva scatenato proteste di massa nella zona di Saint Louis, alcune delle quali erano sfociate in violenze.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uccisione	uccisione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Brown	Brown	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	disarmato	disarmato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	massa	massa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	zona	zona	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Saint	Saint	PROPN	SP	_	17	nmod	_	_
+20	Louis	Louis	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	11	punct	_	_
+22	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	27	nsubj:pass	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	quali	quale	PRON	PR	Number=Plur|PronType=Rel	22	nmod	_	_
+26	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	sfociate	sfociare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Il caso ha inoltre riacceso il dibattito sui rapporti tra polizia e minoranze negli Stati Uniti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	inoltre	inoltre	ADV	B	_	5	advmod	_	_
+5	riacceso	riaccendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	minoranze	minoranza	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15-16	negli	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Stati	Stati	PROPN	SP	_	14	nmod	_	_
+18	Uniti	Uniti	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = A Ferguson due terzi dei residenti sono neri, ma gli agenti sono quasi tutti bianchi.
+1	A	a	ADP	E	_	2	case	_	_
+2	Ferguson	Ferguson	PROPN	SP	_	9	obl	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	terzi	terzo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	residenti	residente	NOUN	S	Number=Plur	4	nmod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	neri	nero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	ma	ma	CCONJ	CC	_	17	cc	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	quasi	quasi	ADV	B	_	16	advmod	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	_
+17	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = La città, dunque, è in attesa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dunque	dunque	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Di sicuro c'è che le autorità vivono nel timore di nuove sommosse mentre si attende il 'verdetto'.
+1	Di	di	ADP	E	_	2	case	_	_
+2	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	autorità	autorità	NOUN	S	Gender=Fem	8	nsubj	_	_
+8	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	timore	timore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+14	sommosse	sommosso	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+15	mentre	mentre	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	attende	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	'	minuti	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Secondo quanto riportato dai media locali, davanti al grand jury l'agente ha affermato di aver agito per legittima difesa mentre alcuni testimoni hanno riferito di aver visto il 18enne con le mani in alto quando veniva ucciso.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+3	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	media	media	NOUN	S	Gender=Masc|Number=Plur	3	obl:agent	_	_
+7	locali	locale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	davanti	davanti	ADV	B	_	13	case	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	grand	grand	ADJ	A	_	13	amod	_	_
+13	jury	jury	NOUN	S	_	3	obl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	agente	agente	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	aver	avere	AUX	VA	VerbForm=Inf	20	aux	_	_
+20	agito	agire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	xcomp	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	legittima	legittimo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	mentre	mentre	SCONJ	CS	_	28	mark	_	_
+25	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	testimoni	testimone	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+27	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+29	di	di	ADP	E	_	31	mark	_	_
+30	aver	avere	AUX	VA	VerbForm=Inf	31	aux	_	_
+31	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	xcomp	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	18enne	18enne	NOUN	S	Number=Sing	31	obj	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	mani	mano	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	alto	alto	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+39	quando	quando	SCONJ	CS	_	41	mark	_	_
+40	veniva	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+41	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = Il grand jury negli Usa è una speciale giuria chiamata a stabilire se le prove raccolte in un caso sono sufficienti per dare il via al processo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grand	grand	NOUN	S	_	10	nsubj	_	_
+3	jury	jury	NOUN	S	_	2	compound	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Usa	Usa	PROPN	SP	_	2	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	speciale	speciale	ADJ	A	Number=Sing	10	amod	_	_
+10	giuria	giuria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	stabilire	stabilire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	se	se	SCONJ	CS	_	22	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	prove	prova	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+17	raccolte	raccogliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caso	caso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	sufficienti	sufficiente	ADJ	A	Number=Plur	13	ccomp	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	dare	dare	VERB	V	VerbForm=Inf	22	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	via	via	NOUN	S	_	24	obj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	processo	processo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 19
+# text = Di fatto ha le stesse competenze che in Italia spettano al Gup, giudice dell'udienza preliminare.
+1	Di	di	ADP	E	_	2	case	_	_
+2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	10	obl	_	_
+10	spettano	spettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Gup	Gup	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	preliminare	preliminare	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = A sua volta la giuria vera e propria, quella chiamata a decidere del destino dell'imputato nel processo, è formata da altri giurati ed è indicata con il francesisimo 'petit' jury perché si limita a 12 persone mentre il 'grand jury' può essere formato fino ad un massimo di 23 cittadini.
+1	A	a	ADP	E	_	3	case	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giuria	giuria	NOUN	S	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+6	vera	vero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nmod	_	_
+11	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	decidere	decidere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	destino	destino	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	imputato	imputato	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	processo	processo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	5	punct	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	formata	formare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	28	det	_	_
+28	giurati	giurare	NOUN	S	Gender=Masc|Number=Plur	25	obl:agent	_	_
+29	ed	e	CCONJ	CC	_	31	cc	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	indicata	indicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	francesisimo	francesisimo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	'	'	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+36	petit'	petito	SCONJ	CS	_	40	mark	_	_
+37	jury	jury	CCONJ	CC	_	40	cc	_	_
+38	perché	perché	SCONJ	CS	_	40	mark	_	_
+39	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl	_	_
+40	limita	limitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	12	12	NUM	N	NumType=Card	43	nummod	_	_
+43	persone	persona	NOUN	S	Gender=Fem|Number=Plur	40	obl	_	_
+44	mentre	mentre	SCONJ	CS	_	52	mark	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+46	'	'	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+47	grand	grand	ADJ	A	_	48	amod	_	_
+48	jury	jury	NOUN	S	_	52	nsubj:pass	_	SpaceAfter=No
+49	'	'	PUNCT	FB	_	48	punct	_	_
+50	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
+51	essere	essere	AUX	VA	VerbForm=Inf	52	aux:pass	_	_
+52	formato	formare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	_	_
+53	fino	fino	ADV	B	_	56	case	_	_
+54	ad	a	ADP	E	_	53	fixed	_	_
+55	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	23	23	NUM	N	NumType=Card	59	nummod	_	_
+59	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	56	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 21
+# text = In entrambi i casi i membri sono estratti a sorte tra tutti gli americani.
+1	In	in	ADP	E	_	4	case	_	_
+2	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	casi	caso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	membri	membro	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	estratti	estrarre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	tra	tra	ADP	E	_	14	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	americani	americano	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = Proprio ieri a New York un poliziotto di origini asiatiche ha ucciso un giovane papà di colore disarmato nel corso di una perlustrazione in un edificio popolare a Brooklyn.
+1	Proprio	proprio	ADV	B	_	2	advmod	_	_
+2	ieri	ieri	ADV	B	_	12	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	New	New	PROPN	SP	_	2	obl	_	_
+5	York	York	PROPN	SP	_	4	flat:name	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	poliziotto	poliziotto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	origini	origine	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	asiatiche	asiatico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	giovane	giovane	ADJ	A	Number=Sing	15	amod	_	_
+15	papà	papà	NOUN	S	Gender=Masc	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	colore	colore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	disarmato	disarmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	corso	corso	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	perlustrazione	perlustrazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	edificio	edificio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	popolare	popolare	ADJ	A	Number=Sing	27	amod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Brooklyn	Brooklyn	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

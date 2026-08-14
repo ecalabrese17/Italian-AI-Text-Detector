@@ -1,0 +1,823 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il primo è forse quello più diffuso al giorno d'oggi:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	forse	forse	ADV	B	_	5	advmod	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	oggi	oggi	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = Paul McCartney rimasto ucciso in un incidente stradale nel 1967 e poi sostituito da un sosia.
+1	Paul	Paul	PROPN	SP	_	0	root	_	_
+2	McCartney	McCartney	PROPN	SP	_	1	flat:name	_	_
+3	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	stradale	stradale	ADJ	A	Number=Sing	7	amod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	1967	1967	NUM	N	NumType=Card	3	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	poi	poi	ADV	B	_	14	advmod	_	_
+14	sostituito	sostituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sosia	sosia	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Improbabile, ma non per tutti:
+1	Improbabile	improbabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = di sicuro il "sosia di Paul McCartney " ha un enorme senso dell'umorismo visto che nel 1993 ha pubblicato un album dal titolo "Paul is Live".
+1	di	di	ADP	E	_	2	case	_	_
+2	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	sosia	sosia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Paul	Paul	PROPN	SP	_	5	nmod	_	_
+8	McCartney	McCartney	PROPN	SP	_	7	flat:name	_	_
+9	"	"	PUNCT	FB	_	5	punct	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	enorme	enorme	ADJ	A	Number=Sing	13	amod	_	_
+13	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	umorismo	umorismo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	1993	1993	NUM	N	NumType=Card	23	nummod	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	album	album	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+29	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+30	Paul	Paul	PROPN	SP	_	31	nsubj	_	_
+31	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+32	Live	Live	PROPN	SP	_	31	obj	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Un'altra credenza riguarda l'uomo sullo sfondo nella copertina di " Abbey Road ", quella con i quattro Beatles che camminano sulle strisce pedonali:
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	credenza	credenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	sullo	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	copertina	copertina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	_
+15	Abbey	Abbey	PROPN	SP	_	12	nmod	_	_
+16	Road	road	PROPN	SP	_	15	flat:name	_	_
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	quattro	quattro	NUM	N	NumType=Card	23	nummod	_	_
+23	Beatles	Beatles	PROPN	SP	_	19	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	camminano	camminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26-27	sulle	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	strisce	striscia	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+29	pedonali	pedonale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = sono in molti a essere convinti che quel signore sia un 92enne che non ha mai sentito l'album di cui è "protagonista".
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+4	a	a	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	convinti	convinguere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	signore	signore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	92enne	92enne	NOUN	S	Number=Sing	6	ccomp	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	mai	mai	ADV	B	_	17	advmod	_	_
+17	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	album	album	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	protagonista	protagonista	NOUN	S	Number=Sing	19	acl:relcl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = La verità è che non si sa nulla su quell'uomo, che molto probabilmente era un semplice passante al posto giusto nel momento giusto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	quell'	quello	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	probabilmente	probabilmente	ADV	B	_	19	advmod	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	semplice	semplice	ADJ	A	Number=Sing	19	amod	_	_
+19	passante	passante	NOUN	S	Gender=Masc|Number=Sing	11	acl:relcl	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	posto	posto	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Un altro mito molto popolare riguarda uno dei loro brani più noti, " Lucy in the Sky with Diamonds ".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	mito	mito	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	popolare	popolare	ADJ	A	Number=Sing	3	amod	_	_
+6	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	brani	brano	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	noti	noto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	"	"	PUNCT	FB	_	20	punct	_	_
+16	Lucy	Lucy	CCONJ	CC	_	20	cc	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	Sky	Sky	ADJ	A	_	20	amod	_	_
+20	with	with	NOUN	S	_	6	conj	_	_
+21	Diamonds	Diamonds	PROPN	SP	_	20	nmod	_	_
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = In tanti sostengono si tratti di un inno alla droga LSD - basti vedere le iniziali delle parole del titolo - ma quando venne chiesta conferma a John Lennon lui si limitò a rispondere: « Non ci avevo mai pensato, voglio dire, chi si prende la briga di andare a vedere le iniziali del titolo di una canzone?
+1	In	in	ADP	E	_	3	case	_	_
+2	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	sostengono	sostenere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratti	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	inno	inno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	droga	droga	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	LSD	LSD	PROPN	SP	_	11	nmod	_	_
+13	-	-	PUNCT	FF	_	5	punct	_	_
+14	basti	bastare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	47	mark	_	_
+15	vedere	vedere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	iniziali	iniziale	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	parole	parola	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	-	-	PUNCT	FF	_	14	punct	_	_
+25	ma	ma	CCONJ	CC	_	28	cc	_	_
+26	quando	quando	ADV	B	_	28	advmod	_	_
+27	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	chiesta	chiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+29	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	John	John	PROPN	SP	_	29	nmod	_	_
+32	Lennon	Lennon	PROPN	SP	_	31	flat:name	_	_
+33	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	limitò	limitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	rispondere	rispondere	VERB	V	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	35	punct	_	_
+39	«	«	PUNCT	FB	_	44	punct	_	_
+40	Non	non	ADV	BN	PronType=Neg	44	advmod	_	_
+41	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	44	obj	_	_
+42	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	44	aux	_	_
+43	mai	mai	ADV	B	_	44	advmod	_	_
+44	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	dire	dire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	51	punct	_	_
+49	chi	chi	PRON	PR	PronType=Rel	51	nsubj	_	_
+50	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl	_	_
+51	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	ccomp	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	briga	briga	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+54	di	di	ADP	E	_	55	mark	_	_
+55	andare	andare	VERB	V	VerbForm=Inf	53	acl	_	_
+56	a	a	ADP	E	_	57	mark	_	_
+57	vedere	vedere	VERB	V	VerbForm=Inf	55	xcomp	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	59	det	_	_
+59	iniziali	iniziale	NOUN	S	Gender=Fem|Number=Plur	57	obj	_	_
+60-61	del	_	_	_	_	_	_	_	_
+60	di	di	ADP	E	_	62	case	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	59	nmod	_	_
+63	di	di	ADP	E	_	65	case	_	_
+64	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	62	nmod	_	SpaceAfter=No
+66	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = ».
+1	»	»	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = A proposito di Lennon, la sua strana connessione al numero 9: nato il 9 ottobre, visse in Newcastle Road al numero 9, rimase nei Beatles per 9 anni e morì nella 9th Avenue di New York.
+1	A	a	ADP	E	_	2	case	_	_
+2	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Lennon	Lennon	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	strana	strano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	numero	numero	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	9	9	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	9	punct	_	_
+15	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	9	9	NUM	N	NumType=Card	15	obl	_	_
+18	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	visse	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	Newcastle	Newcastle	PROPN	SP	_	20	obl	_	_
+23	Road	road	PROPN	SP	_	22	flat:name	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	numero	numero	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+27	9	9	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	20	punct	_	_
+29	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+30-31	nei	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	Beatles	Beatles	PROPN	SP	_	29	obl	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	9	9	NUM	N	NumType=Card	35	nummod	_	_
+35	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+38-39	nella	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	9th	9th	NOUN	S	Number=Sing	37	obl	_	_
+41	Avenue	Avenue	PROPN	SP	_	40	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	New	New	PROPN	SP	_	41	nmod	_	_
+44	York	York	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 12
+# text = Qui il punto va ai complottisti, lo stesso John ha sempre ammesso che le coincidenze erano molto strane.
+1	Qui	qui	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	complottisti	complottista	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	John	John	PROPN	SP	_	14	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	coincidenze	coincidenza	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+18	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	strane	strano	ADJ	A	Gender=Fem|Number=Plur	14	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = NME ci rivela inoltre che Lennon non ha mai detto che Ringo Starr non è stato il miglior batterista dei Beatles.
+1	NME	NME	PROPN	SP	_	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	inoltre	inoltre	ADV	B	_	10	advmod	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	Lennon	Lennon	PROPN	SP	_	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	che	che	SCONJ	CS	_	19	mark	_	_
+12	Ringo	Ringo	PROPN	SP	_	19	nsubj	_	_
+13	Starr	Starr	PROPN	SP	_	12	flat:name	_	_
+14	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+16	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	miglior	migliore	ADJ	A	Degree=Cmp|Number=Sing	19	amod	_	_
+19	batterista	batterista	NOUN	S	Gender=Masc|Number=Sing	10	ccomp	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Beatles	Beatles	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = I miti sui batteristi non finiscono qui:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	miti	mito	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	sui	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	batteristi	batterista	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	qui	qui	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 15
+# text = il primo batterista dei Beatles, Pete Best , non fu licenziato perché - come pensano molti - "esteticamente più bello" di Paul McCartney, ma per via di dissidi con il manager Brian Epstein.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	batterista	batterista	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Beatles	Beatles	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Pete	Pete	PROPN	SP	_	3	appos	_	_
+9	Best	Best	PROPN	SP	_	8	flat:name	_	_
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	licenziato	licenziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	perché	perché	SCONJ	CS	_	17	mark	_	_
+15	-	-	PUNCT	FF	_	17	punct	_	_
+16	come	come	SCONJ	CS	_	17	mark	_	_
+17	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	nsubj	_	_
+19	-	-	PUNCT	FF	_	17	punct	_	_
+20	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21	esteticamente	estetico	ADV	B	_	23	advmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	bello	bello	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Paul	Paul	PROPN	SP	_	13	nmod	_	_
+27	McCartney	McCartney	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	ma	ma	CCONJ	CC	_	31	cc	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	via	via	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	dissidi	dissidio	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	manager	manager	NOUN	S	_	33	nmod	_	_
+37	Brian	Brian	PROPN	SP	_	36	nmod	_	_
+38	Epstein	Epstein	PROPN	SP	_	37	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 16
+# text = Certamente è più divertente e originale l'altra ipotesi, bisogna ammetterlo, ma non è giusta.
+1	Certamente	certamente	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	divertente	divertente	ADJ	A	Number=Sing	11	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	originale	originale	ADJ	A	Number=Sing	4	conj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	altra	altro	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12-13	ammetterlo	_	_	_	_	_	_	_	SpaceAfter=No
+12	ammetter	ammettere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = E " Yesterday " non è stata ispirata da un sogno di "Macca":
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	_
+3	Yesterday	Yesterday	PROPN	SP	_	8	nsubj:pass	_	_
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	ispirata	ispirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Macca	Macca	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 18
+# text = o meglio, lo è stato parzialmente, perché in prima battuta il brano si intitolava "Scrambled Eggs", ossia un ben poco poetico e per nulla rock "Uova strapazzate".
+1	o	o	CCONJ	CC	_	2	cc	_	_
+2	meglio	meglio	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	parzialmente	parzialmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	perché	perché	SCONJ	CS	_	16	mark	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	battuta	battuta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	brano	brano	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	intitolava	intitolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Scrambled	Scrambled	PROPN	SP	_	16	xcomp	_	_
+19	Eggs	Eggs	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	ossia	ossia	CCONJ	CC	_	26	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	ben	ben	ADV	B	_	26	advmod	_	_
+25	poco	poco	ADV	B	_	26	advmod	_	_
+26	poetico	poetico	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	nulla	nulla	NOUN	S	Gender=Masc	18	conj	_	_
+30	rock	rock	NOUN	S	Gender=Masc	29	compound	_	_
+31	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	Uova	uova	PROPN	SP	_	29	nmod	_	_
+33	strapazzate	strapazzato	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Mito più "di costume":
+1	Mito	mito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	più	più	ADV	B	_	1	advmod	_	_
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	di	di	ADP	E	_	5	case	_	_
+5	costume	costume	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 20
+# text = è opinione condivisa da molti quella che vuole Paul inventore dei selfie .
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	condivisa	condividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	Paul	Paul	PROPN	SP	_	8	obj	_	_
+10	inventore	inventore	NOUN	S	Gender=Masc|Number=Sing	9	flat:name	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	selfie	selfia	NOUN	S	Gender=Fem	9	nmod	_	_
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Chi crede ciò, probabilmente non sa che i primi selfie - l'autoscatto col braccio teso in avanti a reggere la macchina fotografica - risalgono agli inizi del ventesimo secolo.
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	probabilmente	probabilmente	ADV	B	_	7	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	che	che	SCONJ	CS	_	27	mark	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
+11	selfie	selfia	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+12	-	-	PUNCT	FF	_	14	punct	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	autoscatto	autoscatto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	col	_	_	_	_	_	_	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	teso	teso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	avanti	avanti	ADV	B	_	17	advmod	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	reggere	reggere	VERB	V	VerbForm=Inf	14	acl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	fotografica	fotografico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	-	-	PUNCT	FF	_	14	punct	_	_
+27	risalgono	risalire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+28-29	agli	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	inizi	inizio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	ventesimo	ventesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	34	amod	_	_
+34	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = E no, all'epoca Paul McCartney non era nato.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	no	no	ADV	BN	PronType=Neg	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+7	Paul	Paul	PROPN	SP	_	11	nsubj	_	_
+8	McCartney	McCartney	PROPN	SP	_	7	flat:name	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 23
+# text = Un mito parziale e più tecnico, invece, è quello secondo cui i Beatles hanno inventato il feedback acustico [il rumore stridente che si verifica quando un microfono o una chitarra è troppo vicino all'altoparlante che emette i suoni captati dal microfono stesso, ndr ]: sì, loro furono i primi a metterlo su un vinile, ma i primi a utilizzarli dal vivo furono Kinks e Who .
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mito	mito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	parziale	parziale	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	invece	invece	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	56	nsubj	_	_
+12	secondo	secondo	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	11	nmod	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Beatles	Beatles	PROPN	SP	_	17	nsubj	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	feedback	feedback	NOUN	S	Gender=Masc	17	obj	_	_
+20	acustico	acustico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	[	[	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	stridente	stridente	ADJ	A	Number=Sing	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	verifica	verificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+28	quando	quando	SCONJ	CS	_	36	mark	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	microfono	microfono	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+31	o	o	CCONJ	CC	_	33	cc	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	chitarra	chitarra	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+34	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	troppo	troppo	ADV	B	_	36	advmod	_	_
+36	vicino	vicino	ADV	B	_	27	advcl	_	_
+37-38	all'	_	_	_	_	_	_	_	SpaceAfter=No
+37	a	a	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	altoparlante	altoparlante	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	emette	emettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	suoni	suono	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+44	captati	captare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	43	acl	_	_
+45-46	dal	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	microfono	microfono	NOUN	S	Gender=Masc|Number=Sing	44	obl:agent	_	_
+48	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	47	punct	_	_
+50	ndr	ndr	NOUN	S	_	47	nmod	_	_
+51	]	]	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+52	:	:	PUNCT	FC	_	11	punct	_	_
+53	sì	sì	INTJ	I	Polarity=Pos	11	appos	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	11	punct	_	_
+55	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	56	nsubj	_	_
+56	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+57	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	56	obl	_	_
+59	a	a	ADP	E	_	60	mark	_	_
+60-61	metterlo	_	_	_	_	_	_	_	_
+60	metter	mettere	VERB	V	VerbForm=Inf	56	xcomp	_	_
+61	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	obj	_	_
+62	su	su	ADP	E	_	64	case	_	_
+63	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	vinile	vinile	NOUN	S	Gender=Masc|Number=Sing	60	obl	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	68	punct	_	_
+66	ma	ma	CCONJ	CC	_	68	cc	_	_
+67	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	_	_
+68	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	56	conj	_	_
+69	a	a	ADP	E	_	70	mark	_	_
+70-71	utilizzarli	_	_	_	_	_	_	_	_
+70	utilizzar	utilizzare	VERB	V	VerbForm=Inf	68	advcl	_	_
+71	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	70	obj	_	_
+72-73	dal	_	_	_	_	_	_	_	_
+72	da	da	ADP	E	_	75	case	_	_
+73	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+74	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	75	amod	_	_
+75	furono	essere	NOUN	S	Gender=Masc|Number=Sing	70	obl	_	_
+76	Kinks	Kinks	PROPN	SP	_	75	nmod	_	_
+77	e	e	CCONJ	CC	_	78	cc	_	_
+78	Who	Who	PROPN	SP	_	76	conj	_	_
+79	.	.	PUNCT	FS	_	56	punct	_	_
+
+# sent_id = 24
+# text = Vero è, invece, che Richard Nixon faceva "controllare da vicino" John Lennon, accusandolo di essere comunista : lo hanno rivelato documenti pubblicati nel 2007.
+1	Vero	vero	PROPN	SP	_	26	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	invece	invece	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	Richard	Richard	PROPN	SP	_	9	nsubj	_	_
+8	Nixon	Nixon	PROPN	SP	_	7	flat:name	_	_
+9	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	controllare	controllare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	vicino	vicino	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	_
+15	John	John	PROPN	SP	_	11	obj	_	_
+16	Lennon	Lennon	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18-19	accusandolo	_	_	_	_	_	_	_	_
+18	accusando	accusare	VERB	V	VerbForm=Ger	9	advcl	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	di	di	ADP	E	_	22	mark	_	_
+21	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+22	comunista	comunista	ADJ	A	Number=Sing	18	xcomp	_	_
+23	:	:	PUNCT	FC	_	1	punct	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+28	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	2007	2007	NUM	N	NumType=Card	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 25
+# text = Decisamente falso, invece, è che Mark Chapman , l'assassino di John Lennon, ha subito un lavaggio del cervello per prendersi la responsabilità del reato.
+1	Decisamente	decisamente	ADV	B	_	2	advmod	_	_
+2	falso	falso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	17	mark	_	_
+8	Mark	Mark	PROPN	SP	_	17	nsubj	_	_
+9	Chapman	Chapman	PROPN	SP	_	8	flat:name	_	_
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	assassino	assassino	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	John	John	PROPN	SP	_	12	nmod	_	_
+15	Lennon	Lennon	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+18	subito	subito	ADV	B	_	17	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lavaggio	lavaggio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25-26	prendersi	_	_	_	_	_	_	_	_
+25	prender	prendere	VERB	V	VerbForm=Inf	17	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	responsabilità	responsabilità	NOUN	S	Gender=Fem	25	obj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	reato	reato	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = NME, infine, smentisce anche tutte le teorie secondo cui John Lennon avrebbe incontrato un extraterrestre:
+1	NME	NME	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	infine	infine	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	smentisce	smentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+10	secondo	secondo	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+12	John	John	PROPN	SP	_	15	nsubj	_	_
+13	Lennon	Lennon	PROPN	SP	_	12	flat:name	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	extraterrestre	extraterrestra	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 27
+# text = non ha presentato alcuna prova, a riguardo, probabilmente stavolta non ce n'è davvero bisogno.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	prova	prova	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	probabilmente	probabilmente	ADV	B	_	15	advmod	_	_
+11	stavolta	stavolta	ADV	B	_	15	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	SpaceAfter=No
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	davvero	davvero	ADV	B	_	15	advmod	_	_
+17	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

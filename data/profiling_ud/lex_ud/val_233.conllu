@@ -1,0 +1,252 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non si tratta di un semplice movimento militare, ma di un tentativo di rottura del tessuto democratico.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	7	amod	_	_
+7	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	militare	militare	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	rottura	rottura	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tessuto	tessuto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Un golpe, sì, anche se non in forma chiara, né annunciato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	golpe	golpe	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sì	sì	INTJ	I	Polarity=Pos	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	anche	anche	ADV	B	_	10	advmod	_	_
+7	se	se	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	2	advcl	_	_
+11	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	né	né	CCONJ	CC	_	14	cc	_	_
+14	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Chi lo ha finanziato?
+1	Chi	chi	PRON	PR	PronType=Rel	4	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finanziato	finanziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Chi lo ha organizzato in segreto, nelle sale del Duce, all’ombra degli uffici della difesa, dove i documenti non sono mai stati condivisi?
+1	Chi	chi	PRON	PR	PronType=Rel	4	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	sale	sala	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Duce	Duce	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15-16	all’	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	dove	dove	ADV	B	_	32	advmod	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	32	nsubj:pass	_	_
+28	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+29	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+30	mai	mai	ADV	B	_	32	advmod	_	_
+31	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	condivisi	condividere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+33	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = I colonnelli, soprattutto quegli altri che si sono infilati nella curia, sono agli occhi di un'indagine.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	colonnelli	colonnello	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	soprattutto	soprattutto	ADV	B	_	6	advmod	_	_
+5	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	appos	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	infilati	infilare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	curia	curia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 6
+# text = Ma dietro di loro, c'è un'altra figura:
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	dietro	dietro	ADV	B	_	4	case	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	altra	altro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	figura	figura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = quella dei giudici.
+1	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Fino a qualche settimana fa, le autorità civili erano sicure che il sistema fosse intoccabile.
+1	Fino	fino	ADV	B	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+5	fa	fa	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	autorità	autorità	NOUN	S	Gender=Fem	16	nsubj	_	_
+9	civili	civile	ADJ	A	Number=Plur	8	amod	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+11	sicure	sicuro	ADV	B	_	16	advmod	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	intoccabile	intoccabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 9
+# text = Il Parere del Corteo, la discussione sul disarmo delle forze armate, le nomine alle stanze di riserva del tribunale, erano solo parte di un processo che sembrava procedere in linea con la costituzione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Parere	parere	PROPN	SP	_	30	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Corteo	corteo	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	disarmo	disarmo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	forze	forza	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	armate	armato	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	nomine	nomina	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	riserva	riserva	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+29	solo	solo	ADV	B	_	30	advmod	_	_
+30	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	processo	processo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+36	procedere	procedere	VERB	V	VerbForm=Inf	35	xcomp	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	linea	linea	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 10
+# text = Ma dopo il tentativo di bloccare le manifestazioni della città, quando le strade si sono riempite di colori e di muri con strapazzi di parola, i giudici sono stati chiamati a interv
+1	Ma	ma	CCONJ	CC	_	33	cc	_	_
+2	dopo	dopo	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	bloccare	bloccare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	manifestazioni	manifestazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	città	città	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	quando	quando	SCONJ	CS	_	18	mark	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	strade	strada	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	riempite	riempire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	advcl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	colori	colore	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	muri	muro	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	strapazzi	strapazzo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	parola	parola	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	33	nsubj:pass	_	_
+31	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	aux:pass	_	_
+33	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	interv	interv	NOUN	S	Gender=Fem	33	obl	_	SpacesAfter=\n
+

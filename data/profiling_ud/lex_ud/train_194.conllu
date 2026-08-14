@@ -1,0 +1,701 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È ancora Barcellona-Real Madrid, Guardiola contro Mourinho, Messi contro Cristiano Ronaldo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	Barcellona	Barcellona	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	Real	Real	PROPN	SP	_	3	flat:name	_	_
+6	Madrid	Madrid	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Guardiola	guardiola	PROPN	SP	_	3	conj	_	_
+9	contro	contro	ADP	E	_	10	case	_	_
+10	Mourinho	Mourinho	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Messi	mettere	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+13	contro	contro	ADP	E	_	14	case	_	_
+14	Cristiano	cristiano	PROPN	SP	_	12	nmod	_	_
+15	Ronaldo	Ronaldo	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Stasera (ore 20, diretta Skysport) torna il Clasico, la sfida infinita, che al solito deciderà le sorti della Liga.
+1	Stasera	stasera	ADV	B	_	3	advmod	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+4	20	20	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	Skysport	Skysport	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	6	punct	_	_
+9	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Clasico	Clasico	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+15	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	solito	solito	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+21	deciderà	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	sorti	sorte	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Liga	Liga	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = È dal 2004-05 che il titolo spagnolo finisce o in Catalogna o nella capitale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2004	2004	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	05	05	NUM	N	NumType=Card	4	compound	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+12	o	o	CCONJ	CC	_	14	cc	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Catalogna	Catalogna	PROPN	SP	_	11	conj	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E negli ultimi otto anni solo in un'occasione (2007-08, grazie al Villarreal) le due rivali non hanno concluso il campionato come prima e seconda in classifica.
+1	E	e	CCONJ	CC	_	26	cc	_	_
+2-3	negli	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	6	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+4	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+5	otto	otto	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7	solo	solo	ADV	B	_	10	advmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	2007	2007	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	08	08	NUM	N	NumType=Card	12	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	grazie	grazie	NOUN	S	_	19	case	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Villarreal	Villarreal	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	6	punct	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	rivali	rivale	NOUN	S	Number=Plur	26	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	come	come	ADP	E	_	30	case	_	_
+30	prima	prima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	obl	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	30	conj	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 5
+# text = Se le merengues dovessero uscire indenni dal Camp Nou, il titolo sarebbe praticamente già pronto a prendere spazio nella bacheca del Santiago Bernabeu.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	merengues	merengues	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	17	advcl	_	_
+6	indenni	indenne	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Camp	Camp	PROPN	SP	_	5	obl	_	_
+10	Nou	Nou	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	praticamente	praticamente	ADV	B	_	17	advmod	_	_
+16	già	già	ADV	B	_	17	advmod	_	_
+17	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	prendere	prendere	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	bacheca	bacheca	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Santiago	Santiago	PROPN	SP	_	23	nmod	_	_
+27	Bernabeu	Bernabeu	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 6
+# text = Addirittura i quattro punti che separano le due rivali a quattro giornate dalla fine potrebbero essere una garanzia sufficiente per il Real anche in caso di sconfitta.
+1	Addirittura	addirittura	ADV	B	_	4	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	punti	punto	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	separano	separare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	rivali	rivale	NOUN	S	Number=Plur	6	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	quattro	quattro	NUM	N	NumType=Card	6	obl	_	_
+12	giornate	giornata	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	garanzia	garanzia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+20	sufficiente	sufficiente	ADJ	A	Number=Sing	19	amod	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Real	Real	PROPN	SP	_	20	obl	_	_
+24	anche	anche	ADV	B	_	26	advmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	caso	caso	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 7
+# text = Mourinho, rappresentato ancora una volta ieri in conferenza stampa dal fido Karanka, guarda il lato positivo.
+1	Mourinho	Mourinho	ADJ	A	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	rappresentato	rappresentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	ieri	ieri	ADV	B	_	6	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fido	fido	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	Karanka	Karanka	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lato	lato	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = «Saremo comunque primi sabato sera», pare continui a ripetere ai suoi, forse per togliere pressione.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Saremo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	cop	_	_
+3	comunque	comunque	ADV	B	_	4	advmod	_	_
+4	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	0	root	_	_
+5	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	continui	continuare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	ripetere	ripetere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	19	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	forse	forse	ADV	B	_	19	advmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	togliere	togliere	VERB	V	VerbForm=Inf	12	obl	_	_
+20	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Tutto vero.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ma l'ennesimo insuccesso di fronte al "nemico" Guardiola non verrebbe digerito benissimo nella capitale.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	insuccesso	insuccesso	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	fronte	fronte	NOUN	S	Number=Sing	4	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	Guardiola	Guardiola	PROPN	SP	_	6	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	verrebbe	verere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	digerito	digerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	benissimo	bene	ADV	B	Degree=Abs	15	advmod	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Il Real Madrid non batte il Barcellona in campionato dalla stagione 2007-08, quando ai blancos riuscì addirittura la doppietta:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Real	Real	PROPN	SP	_	5	nsubj	_	_
+3	Madrid	Madrid	PROPN	SP	_	2	flat:name	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Barcellona	Barcellona	PROPN	SP	_	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+13	2007	2007	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	08	08	NUM	N	NumType=Card	13	compound	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	quando	quando	SCONJ	CS	_	21	mark	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	blancos	blancos	NOUN	S	Gender=Masc	21	obl	_	_
+21	riuscì	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+22	addirittura	addirittura	ADV	B	_	24	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	doppietta	doppietta	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = Camp Nou espugnato con un gol di Julio Baptista all'andata, larga vittoria per 4-1 al ritorno.
+1	Camp	Camp	PROPN	SP	_	0	root	_	_
+2	Nou	Nou	PROPN	SP	_	1	flat:name	_	_
+3	espugnato	espugnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gol	gol	NOUN	S	Gender=Masc	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Julio	Julio	PROPN	SP	_	6	nmod	_	_
+9	Baptista	Baptista	PROPN	SP	_	8	flat:name	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	andata	andata	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	larga	largo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	4	4	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	-1	-1	NUM	N	NumType=Card	15	nummod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Ma quello era il Barça di Rijkaard alle ultime battute, prima dell'era Pep.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Barça	Barça	PROPN	SP	_	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Rijkaard	Rijkaard	PROPN	SP	_	5	nmod	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	battute	battuta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	prima	prima	ADV	B	_	16	case	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	13	fixed	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	era	era	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17	Pep	Pep	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Il pignolissimo Mou replicherebbe che lui con Guardiola ci ha già vinto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	pignolissimo	pignolissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	_
+3	Mou	Mou	PROPN	SP	_	4	nsubj	_	_
+4	replicherebbe	replichare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	ADP	E	_	6	case	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Guardiola	Guardiola	PROPN	SP	_	4	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	vinto	vinto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Sia con l'Inter nell'anno del Triplete che con lo stesso Real in finale di coppa del Re lo scorso anno, sebbene solo ai tempi supplementari.
+1	Sia	sia	CCONJ	CC	_	4	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Inter	Inter	PROPN	SP	_	0	root	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Triplete	triplete	PROPN	SP	_	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	15	cc	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	Real	Real	PROPN	SP	_	10	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	finale	finale	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	coppa	coppa	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Re	Re	PROPN	SP	_	19	nmod	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	15	punct	_	_
+27	sebbene	sebbene	SCONJ	CS	_	15	appos	_	_
+28	solo	solo	ADV	B	_	31	advmod	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+32	supplementari	supplementare	ADJ	A	Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Ma il tifo madridista, dopo anni di sottomissione al potere blaugrana, ha fame di rivalse.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tifo	tifo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	madridista	madridista	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sottomissione	sottomissione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	potere	potere	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	blaugrana	blaugrano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	fame	fame	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	rivalse	rivalse	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 17
+# text = Non vuole solo vincere, ma dimostrare di non essere più inferiore agli alieni catalani.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	vincere	vincere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	dimostrare	dimostrare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	di	di	ADP	E	_	12	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	7	xcomp	_	_
+13-14	agli	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	alieni	alieno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	catalani	catalani	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Il calendario dà un piccolo vantaggio agli ospiti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	agli	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ospiti	ospite	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Che dopo le semifinali di Champions League hanno avuto un giorno in più per riposare e prepararsi al Clasico.
+1	Che	che	SCONJ	CS	_	9	mark	_	_
+2	dopo	dopo	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	semifinali	semifinale	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Champions	Champions	PROPN	SP	_	4	nmod	_	_
+7	League	League	PROPN	SP	_	6	flat:name	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	più	più	ADV	B	_	11	advmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	riposare	riposare	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17-18	prepararsi	_	_	_	_	_	_	_	_
+17	preparar	preparare	VERB	V	VerbForm=Inf	15	conj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Clasico	Clasico	PROPN	SP	_	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Il Barça è tornato in Spagna, infatti, solo giovedì da Londra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Barça	Barça	PROPN	SP	_	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Spagna	Spagna	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	infatti	infatti	ADV	B	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	solo	solo	ADV	B	_	11	advmod	_	_
+11	giovedì	giovedì	NOUN	S	Gender=Masc	4	obl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Londra	Londra	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = E martedì prossimo avrà già la gara di ritorno, mentre il Real riaffronterà il Bayern di mercoledì.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	martedì	martedì	NOUN	S	Gender=Masc	4	obl	_	_
+3	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	già	già	ADV	B	_	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Real	Real	PROPN	SP	_	14	nsubj	_	_
+14	riaffronterà	riaffrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Bayern	Bayern	PROPN	SP	_	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	mercoledì	mercoledì	NOUN	S	Gender=Masc	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Sulla Rambla non fanno eccessive polemiche.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Rambla	Rambla	PROPN	SP	_	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	eccessive	eccessivo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	polemiche	polemica	ADJ	A	Gender=Fem|Number=Plur	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Altro stile, fosse successo a Mou probabilmente ne avremmo sentite di cotte e di crude.
+1	Altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	stile	stile	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Mou	Mou	PROPN	SP	_	5	obl	_	_
+8	probabilmente	probabilmente	ADV	B	_	11	advmod	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+10	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sentite	sentire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cotte	cotta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	crude	cruda	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Karanka ha comunque trovato da ridire ieri:
+1	Karanka	Karanka	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	comunque	comunque	ADV	B	_	4	advmod	_	_
+4	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	ridire	ridire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	ieri	ieri	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 25
+# text = «Possiamo giocare ad altissimo livello, ma a volte accadono cose che non dipendono da noi…».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	giocare	giocare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	_
+6	livello	livello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+11	accadono	accadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	dipendono	dipendire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	noi…	noi…	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Solita malizia sugli arbitri.
+1	Solita	solito	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	malizia	malizia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	sugli	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Intanto lo Special One sta preparando una sorpresa tattica all'avversario.
+1	Intanto	intanto	ADV	B	_	6	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Special	Special	PROPN	SP	_	6	nsubj	_	_
+4	One	One	PROPN	SP	_	3	flat:name	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	preparando	preparare	VERB	V	VerbForm=Ger	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sorpresa	sorpresa	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	tattica	tattico	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = Togliere dalla naftalina Lass Diarra, praticamente ai margini della rosa da un mese.
+1	Togliere	togliere	VERB	V	VerbForm=Inf	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	naftalina	naftalina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	Lass	Lass	PROPN	SP	_	4	nmod	_	_
+6	Diarra	Diarra	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	praticamente	praticamente	ADV	B	_	11	advmod	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	margini	margine	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mese	mese	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Il centrocampista francese andrebbe a rinforzare una mediana piuttosto fisica, pensata per contrastare il palleggio blaugrana.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centrocampista	centrocampista	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	francese	francese	ADJ	A	Number=Sing	2	amod	_	_
+4	andrebbe	andre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	rinforzare	rinforzare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mediana	mediano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	piuttosto	piuttosto	ADV	B	_	10	advmod	_	_
+10	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	pensata	pensare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	contrastare	contrastare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	palleggio	palleggio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	blaugrana	blaugrano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Il Real dovrà sperare invece in Ronaldo per l'attacco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Real	Real	PROPN	SP	_	4	nsubj	_	_
+3	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	sperare	sperare	VERB	V	VerbForm=Inf	0	root	_	_
+5	invece	invece	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Ronaldo	Ronaldo	PROPN	SP	_	4	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 31
+# text = La superstar portoghese contro il Barça ha segnato solo cinque gol.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	superstar	superstar	NOUN	S	Gender=Fem	8	nsubj	_	_
+3	portoghese	portoghese	ADJ	A	Number=Sing	2	amod	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Barça	Barça	PROPN	SP	_	2	nmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	segnato	segnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	solo	solo	ADV	B	_	8	advmod	_	_
+10	cinque	cinque	NUM	N	NumType=Card	11	nummod	_	_
+11	gol	goal	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 32
+# text = Magro bottino per un ingordo come lui.
+1	Magro	magro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	bottino	bottino	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ingordo	ingordo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

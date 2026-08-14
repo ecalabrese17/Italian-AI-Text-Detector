@@ -1,0 +1,420 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Amina Mohammed, rappresentante speciale del segretario generale delle Nazioni Unite Ban Ki-moon, è ottimista.
+1	Amina	Amina	PROPN	SP	_	18	nsubj	_	_
+2	Mohammed	Mohammed	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	rappresentante	rappresentante	NOUN	S	Number=Sing	1	appos	_	_
+5	speciale	speciale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Nazioni	Nazioni	PROPN	SP	_	8	nmod	_	_
+13	Unite	Unite	PROPN	SP	_	12	flat:name	_	_
+14	Ban	Ban	PROPN	SP	_	4	nmod	_	_
+15	Ki-moon	Ki-moon	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	ottimista	ottimista	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = A Roma per un evento organizzato da Action Aid, sorride:
+1	A	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	11	obl	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	evento	evento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Action	Action	PROPN	SP	_	6	obl:agent	_	_
+9	Aid	Aid	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = "Dobbiamo essere ottimisti per forza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	ottimisti	ottimedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	forza	forza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Senza speranza non si va avanti".
+1	Senza	senza	ADP	E	_	2	case	_	_
+2	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	avanti	avanti	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Dopo la campagna bringbackourgirls, delle ragazze rapite si è parlato poco.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4	bringbackourgirls	bringbackourgirls	NOUN	S	Gender=Fem	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	rapite	rapite	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	poco	poco	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Se sono ancora prigioniere è anche colpa nostra che le abbiamo dimenticate?
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	prigioniere	prigioniero	ADJ	A	Gender=Fem|Number=Plur	7	advcl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	colpa	colpare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dimenticate	dimenticare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = "I genitori, il loro paese non le hanno certo dimenticate.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+10	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	certo	certo	ADV	B	_	12	advmod	_	_
+12	dimenticate	dimenticare	ADJ	A	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = È vero, l'attenzione dei media è calata:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	media	media	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	calata	calare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 9
+# text = ma solo perché nel mondo tante brutte notizie si susseguono.
+1	ma	ma	CCONJ	CC	_	11	cc	_	_
+2	solo	solo	ADV	B	_	11	advmod	_	_
+3	perché	perché	ADV	B	_	11	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+7	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+8	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	notizie	notizie	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	susseguono	susseguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Oggi riportarle a casa è fondamentale.
+1	Oggi	oggi	ADV	B	_	7	advmod	_	_
+2-3	riportarle	_	_	_	_	_	_	_	_
+2	riportar	riportare	VERB	V	VerbForm=Inf	7	csubj	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Ma sarà importante non dimenticarle il giorno dopo la liberazione.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5-6	dimenticarle	_	_	_	_	_	_	_	_
+5	dimenticar	dimenticare	VERB	V	VerbForm=Inf	3	csubj	_	_
+6	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	dopo	dopo	ADV	B	_	8	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Dovremo aiutarle nella loro odissea di recupero".
+1	Dovremo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2-3	aiutarle	_	_	_	_	_	_	_	_
+2	aiutar	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	odissea	odissea	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	recupero	recupero	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il nuovo governo eletto in Nigeria ha dunque più chance di liberarle del precedente?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Nigeria	Nigeria	PROPN	SP	_	4	obl	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dunque	dunque	ADV	B	_	7	advmod	_	_
+9	più	più	ADV	B	_	7	advmod	_	_
+10	chance	chance	NOUN	S	Gender=Fem	7	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	liberarle	_	_	_	_	_	_	_	_
+12	liberar	liberare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = "La Nigeria sta vivendo una nuova alba.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Nigeria	Nigeria	PROPN	SP	_	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	vivendo	vivere	VERB	V	VerbForm=Ger	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	alba	alba	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = La democrazia ha messo radici profonde, la gente ha votato in massa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	radici	radice	NUM	N	NumType=Card	6	nummod	_	_
+6	profonde	profondo	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	massa	massa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = L'ex presidente Jonathan ha fatto quel che era nelle sue capacità.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Jonathan	Jonathan	PROPN	SP	_	3	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+10-11	nelle	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	capacità	capacità	NOUN	S	Gender=Fem	7	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Ora Buhari deve affrontare una sfida complessa:
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	Buhari	Buhari	PROPN	SP	_	4	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	affrontare	affrontare	VERB	V	VerbForm=Inf	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 18
+# text = ma ha nuove chance per riuscire".
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	chance	chancia	NOUN	S	Gender=Fem	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	riuscire	riuscire	VERB	V	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Ovunque nel mondo la scuola è diventata un obiettivo...
+1	Ovunque	ovunque	ADV	B	_	8	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	obiettivo..	obiettivo..	NOUN	S	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = "Attaccare una scuola fa sentire la gente insicura.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Attaccare	attaccare	VERB	V	VerbForm=Inf	5	csubj	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	fa	fa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sentire	sentire	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	insicura	insicuro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = I figli sono il nostro lato più vulnerabile, lo stomaco della società.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lato	lato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	vulnerabile	vulnerabile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Ma la soluzione non è aumentare i controlli: semmai mettere le comunità in sicurezza".
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aumentare	aumentare	VERB	V	VerbForm=Inf	0	root	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+10	semmai	semmai	SCONJ	CS	_	11	mark	_	_
+11	mettere	mettere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	comunità	comunità	NOUN	S	Gender=Fem	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Che significa?
+1	Che	che	PRON	PR	PronType=Rel	2	obj	_	_
+2	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = "Nessuno nasce terrorista.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	terrorista	terrorista	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Così ciascuno dovrebbe interrogarsi su cosa non funziona nella sua comunità.
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	interrogarsi	_	_	_	_	_	_	_	_
+4	interrogar	interrogare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	comunità	comunità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Creare nuove opportunità è il modo più efficace per combattere il terrorismo.
+1	Creare	creare	VERB	V	VerbForm=Inf	6	csubj	_	_
+2	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	opportunità	opportunità	NOUN	S	Gender=Fem	1	obj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	efficace	efficace	ADJ	A	Number=Sing	6	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	combattere	combattere	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = Non si può soccombere alla globalizzazione dell'indifferenza, la piaga peggiore della nostra epoca".
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	soccombere	soccombere	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	globalizzazione	globalizzazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+14	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

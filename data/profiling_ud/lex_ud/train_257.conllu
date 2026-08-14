@@ -1,0 +1,424 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I medici sostengono che il picco deve ancora arrivare.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	medici	medico	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	picco	picco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	arrivare	arrivare	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Per contrastare l’influenza e impedirci di bloccarci per diversi giorni, bisogna seguire una corretta alimentazione a base di vitamina C e sali minerali .
+1	Per	per	ADP	E	_	2	mark	_	_
+2	contrastare	contrastare	VERB	V	VerbForm=Inf	15	advcl	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6-7	impedirci	_	_	_	_	_	_	_	_
+6	impedir	impedire	VERB	V	VerbForm=Inf	2	conj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	bloccarci	_	_	_	_	_	_	_	_
+9	bloccar	bloccare	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	seguire	seguire	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	base	base	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	C	C	PROPN	SP	_	23	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	sali	sale	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+27	minerali	minerali	ADJ	A	Number=Plur	26	amod	_	_
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = E’ ciò che ha ribadito la Coldiretti lo scorso weekend nell’ambito della manifestazione chiamata “Vitamina Day”.
+1	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Coldiretti	Coldiretti	PROPN	SP	_	5	obj	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	weekend	weekend	NOUN	S	Gender=Masc	5	obl	_	_
+11-12	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+11	in	in	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	Vitamina	vitamina	PROPN	SP	_	17	xcomp	_	_
+20	Day	day	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La Coldiretti è a sostegno di tutti i rimedi contadini , i cosiddetti “rimedi della nonna” che promuovono il consumo di frutta e verdure e prodotti naturali .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Coldiretti	Coldiretti	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	rimedi	rimedio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	9	compound	_	_
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	cosiddetti	cosiddetto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+14	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	rimedi	rimedio	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	promuovono	promuovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	verdure	verdura	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+30	naturali	naturale	ADJ	A	Number=Plur	29	amod	_	_
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Essi consentono all’organismo di aumentare le difese immunitarie e ammalarsi di rado.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	consentono	consentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	aumentare	aumentare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	difese	difesa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	immunitarie	immunitario	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	ammalarsi	_	_	_	_	_	_	_	_
+12	ammalar	ammalare	VERB	V	VerbForm=Inf	2	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	rado	rado	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Al primo posto dei rimedi contadini utili a contrastare l’influenza, vi è il consumo di agrumi come arance, clementine, mandarini, pompelmi, limoni.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	rimedi	rimedio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	7	appos	_	_
+9	utili	utile	ADJ	A	Number=Plur	8	amod	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	contrastare	contrastare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
+16	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	agrumi	agrume	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	arance	arancia	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	clementine	clementina	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	mandarini	mandarino	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	pompelmi	pompelmo	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	limoni	limone	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Ricchi di vitamina C, hanno un effetto benefico contro le scorie che minacciano il nostro organismo.
+1	Ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	C	C	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	benefico	benefico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	scorie	scoria	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	minacciano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Le vitamine contenute negli agrumi sono capaci di annientare gli attacchi di virus e batteri in maniera efficace.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vitamine	vitamina	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	contenute	contenere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	agrumi	agrume	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	capaci	capace	ADJ	A	Number=Plur	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	annientare	annientare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	virus	virus	NOUN	S	Gender=Masc	12	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	batteri	battere	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+19	efficace	efficace	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Nella dieta non vanno nemmeno trascurate le portate a base di legumi e cereali come fave, lenticchie, ceci, fagioli.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	nemmeno	nemmeno	ADV	BN	PronType=Neg	7	advmod	_	_
+7	trascurate	trascurare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	portate	portato	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	base	base	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	legumi	legume	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	cereali	cereali	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	fave	fave	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	lenticchie	lenticchio	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	ceci	cece	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	fagioli	fagiolo	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Essi sono ricchissimi di fibre che permettono di smaltire i sovraccarichi migliorando le funzionalità intestinali.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ricchissimi	ricco	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fibre	fibra	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	permettono	permettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	smaltire	smaltire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sovraccarichi	sovraccarico	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	migliorando	migliorare	VERB	V	VerbForm=Ger	9	advcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	funzionalità	funzionalità	NOUN	S	Gender=Fem	12	obj	_	_
+15	intestinali	intestinale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Gustose sono le zuppe miste di legumi da condire con spezie, altrettanto salutari e miracolose come il rosmarino, il timo, l’origano, lo zenzero e la curcuma.
+1	Gustose	Gustose	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	zuppe	zuppa	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+5	miste	misto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	legumi	legume	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	condire	condire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	spezie	spezie	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	altrettanto	altrettanto	ADV	B	_	14	advmod	_	_
+14	salutari	salutare	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	miracolose	miracoloso	ADJ	A	Number=Sing	14	conj	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rosmarino	rosmarino	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	timo	timo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	origano	origano	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	zenzero	zenzero	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	curcuma	curcuma	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = In caso di gola infiammata il rimedio contadino più utilizzato è quello di fare i gargarismi con il succo di due limoni, diluito in mezzo bicchiere di sale e acqua.
+1	In	in	ADP	E	_	2	case	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gola	gola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	infiammata	infiammare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	contadino	contadino	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	utilizzato	utilizzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	gargarismi	gargarismo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	succo	succo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	limoni	limone	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	14	punct	_	_
+24	diluito	diluire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	sale	sale	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Altri rimedi per curare il mal di gola sono bere un infuso di acqua bollente con foglie di basilico fresco.
+1	Altri	altro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	rimedi	rimedio	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	curare	curare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mal	male	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	gola	gola	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	bere	bere	VERB	V	VerbForm=Inf	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	infuso	infuso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	bollente	bollente	ADJ	A	Number=Sing	14	amod	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	basilico	basilico	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = In alternativa il basilico può essere sostituito dall’aceto di mele (sei cucchiai aggiunti a mezzo bicchiere d’acqua).
+1	In	in	ADP	E	_	2	case	_	_
+2	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	basilico	basilico	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	sostituito	sostituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	aceto	aceto	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	mele	mela	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	sei	sei	NUM	N	NumType=Card	15	nummod	_	_
+15	cucchiai	cucchiaio	NOUN	S	Gender=Masc|Number=Plur	10	appos	_	_
+16	aggiunti	aggiunto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	d’	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Se il mal di gola vi ha provocato anche la raucedine , potreste gustare un centrifugato a base di carote fresche e un cucchiaio di miele.
+1	Se	se	SCONJ	CS	_	8	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mal	male	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	gola	gola	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	provocato	provocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	raucedine	raucedine	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	potreste	potresta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	nmod	_	_
+14	gustare	gustare	VERB	V	VerbForm=Inf	13	acl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	centrifugato	centrifugato	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	base	base	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	carote	carota	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	fresche	fresco	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cucchiaio	cucchiaio	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	miele	miele	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Oltre ad essere efficace è anche gustoso e altamente nutriente.
+1	Oltre	oltre	ADV	B	_	4	mark	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	efficace	efficace	ADJ	A	Number=Sing	0	root	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	gustoso	gustoso	ADJ	A	Gender=Masc|Number=Sing	4	advcl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	altamente	altamente	ADV	B	_	10	advmod	_	_
+10	nutriente	nutriente	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

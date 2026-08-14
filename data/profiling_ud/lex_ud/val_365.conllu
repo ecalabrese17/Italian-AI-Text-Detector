@@ -1,0 +1,882 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E ora, una dopo l'altra, arrivano le sentenze.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	nsubj	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	sentenze	sentenza	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Più o meno forti nelle cifre richieste, ma sempre durissime nella sostanza.
+1	Più	più	ADV	B	_	4	advmod	_	_
+2	o	o	CCONJ	CC	_	4	cc	_	_
+3	meno	meno	ADV	B	_	4	advmod	_	_
+4	forti	forte	ADJ	A	Number=Plur	0	root	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	cifre	cifra	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	richieste	richiesto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	durissime	duro	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	4	conj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = È l'appendice finale di un lavoro lungo e laborioso.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	appendice	appendice	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	finale	finale	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	laborioso	laborioso	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Per chiudere il dossier relativo al gigante dell'e-commerce ci sono voluti tre anni.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	chiudere	chiudere	VERB	V	VerbForm=Inf	14	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dossier	dossier	NOUN	S	Gender=Masc	2	obj	_	_
+5	relativo	relativo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gigante	gigante	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	e-commerce	e-commercia	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	voluti	volere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	tre	tre	NUM	N	NumType=Card	16	nummod	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = E non è finita:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = la creatura di Jeff Bezos è già sul piede di guerra («Nessun trattamento di favore ricevuto, tutte le tasse sono state pagate), il Granducato cade dalle nuvole («Scelte fiscali non illegali»), e il recupero delle somme richieste non sarà una passeggiata di salute.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Jeff	Jeff	PROPN	SP	_	2	nmod	_	_
+5	Bezos	Bezos	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	già	già	ADV	B	_	10	advmod	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piede	piede	NOUN	S	Gender=Masc|Number=Sing	54	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	«	«	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	favore	favore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	ricevuto	ricevuto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	26	punct	_	_
+21	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	26	nsubj:pass	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	pagate	pagare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	10	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Granducato	Granducato	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+31	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+32-33	dalle	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+35	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+36	«	«	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	Scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	10	appos	_	_
+38	fiscali	fiscale	ADJ	A	Number=Plur	37	amod	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	illegali	illegale	ADJ	A	Number=Plur	37	amod	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	46	punct	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	recupero	recupero	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+47-48	delle	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	somme	somma	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	_
+50	richieste	richiesto	ADJ	A	Gender=Fem|Number=Plur	49	amod	_	_
+51	non	non	ADV	BN	PronType=Neg	54	advmod	_	_
+52	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	54	cop	_	_
+53	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	salute	salute	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	54	punct	_	_
+
+# sent_id = 7
+# text = Il caso dell'Irlanda lo dimostra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Irlanda	Irlanda	PROPN	SP	_	2	nmod	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = All'invito rivolto dalla Commissione di far rientrare nelle casse statali, entro lo scorso 3 gennaio, ben 13 miliardi di imposte non versate da Apple, Dublino ha fatto orecchie da mercante:
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	invito	invito	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+4	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	rientrare	rientrare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	casse	cassa	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	statali	statale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	entro	entro	ADP	E	_	19	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	3	3	NUM	N	NumType=Card	10	obl	_	_
+20	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	10	punct	_	_
+22	ben	bene	ADV	B	_	24	advmod	_	_
+23	13	13	NUM	N	NumType=Card	24	nummod	_	_
+24	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	imposte	imposta	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	versate	versare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	Apple	Apple	PROPN	SP	_	28	obl:agent	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	Dublino	Dublino	PROPN	SP	_	34	nsubj	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+35	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	_
+36	da	da	ADP	E	_	37	case	_	_
+37	mercante	mercante	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	34	punct	_	_
+
+# sent_id = 9
+# text = il tempo è scaduto, e la procedura d'infrazione è scattata ieri con la denuncia presso la Corte Ue.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scaduto	scadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	procedura	procedura	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	infrazione	infrazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	scattata	scattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	ieri	ieri	ADV	B	_	12	advmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	presso	presso	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Corte	Corte	PROPN	SP	_	16	nmod	_	_
+20	Ue	Ue	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Nel caso di Amazon, tutto ruota attorno alla cosiddetta tax ruling, formuletta magica che sintetizza il trattamento di favore fiscale ottenuto dalle multinazionali in seguito a un accordo (i cui contenuti sono spesso top secret) raggiunto con Stati sovrani.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Amazon	Amazon	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det	_	_
+8	ruota	ruotare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	attorno	attorno	ADV	B	_	13	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	cosiddetta	cosiddetto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	tax	tax	NOUN	S	_	14	nmod	_	_
+14	ruling	ruling	NOUN	S	Gender=Masc	8	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	formuletta	formuletta	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+17	magica	magico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	sintetizza	sintetizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	favore	favore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	fiscale	fiscale	ADJ	A	Number=Sing	23	amod	_	_
+25	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+26-27	dalle	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	multinazionali	multinazionale	NOUN	S	Gender=Fem|Number=Plur	25	obl:agent	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	cui	cui	DET	DR	PronType=Rel	37	det:poss	_	_
+37	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	40	nsubj	_	_
+38	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	spesso	spesso	ADV	B	_	40	advmod	_	_
+40	top	top	ADJ	A	_	33	amod	_	_
+41	secret	secret	NOUN	S	_	40	obl	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	40	punct	_	_
+43	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+44	con	con	ADP	E	_	45	case	_	_
+45	Stati	stare	NOUN	S	Gender=Masc|Number=Plur	43	obl	_	_
+46	sovrani	sovrano	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Peraltro, niente di particolarmente esoterico sotto il profilo tecnico:
+1	Peraltro	peraltro	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	niente	niente	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	particolarmente	particolarmente	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	esoterico	esoterico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	sotto	sotto	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = a volte, è sufficiente portare in deduzione alcune voci di costo per abbassare (e non di poco) la base imponibile.
+1	a	a	ADP	E	_	2	case	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	_
+6	portare	portare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	deduzione	deduzione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	voci	voce	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	costo	costo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	abbassare	abbassare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	poco	poco	ADV	B	_	14	conj	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	base	base	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+23	imponibile	imponibile	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Apple, per esempio, caricava all'Irlanda costi (deducibili) relativi ad attività di ricerca e sviluppo su base mondiale.
+1	Apple	Apple	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	caricava	caricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Irlanda	Irlanda	PROPN	SP	_	6	obl	_	_
+10	costi	costo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	deducibili	deducibile	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	relativi	relativo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+15	ad	a	ADP	E	_	16	case	_	_
+16	attività	attività	NOUN	S	Gender=Fem	14	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+21	su	su	ADP	E	_	22	case	_	_
+22	base	base	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+23	mondiale	mondiale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Come visto, qualche soldino l'ha risparmiato.
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	soldino	soldino	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	risparmiato	risparmiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = Gli 007 di Bruxelles sono giunti alla conclusione che il tax ruling concesso dal Lussemburgo ad Amazon nel 2003, e prolungato poi nel 2011, ha diminuito le tasse pagate dal colosso americano nel Granducato, «senza alcuna giustificazione valida».
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	007	007	NUM	N	NumType=Card	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bruxelles	Bruxelles	PROPN	SP	_	2	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	che	che	SCONJ	CS	_	32	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tax	tax	NOUN	S	Gender=Masc	32	nsubj	_	_
+13	ruling	ruling	NOUN	S	Gender=Masc	12	compound	_	_
+14	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Lussemburgo	Lussemburgo	PROPN	SP	_	14	obl:agent	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	Amazon	Amazon	PROPN	SP	_	17	nmod	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	2003	2003	NUM	N	NumType=Card	14	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	prolungato	prolungare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+26	poi	poi	ADV	B	_	25	advmod	_	_
+27-28	nel	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	2011	2011	NUM	N	NumType=Card	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	12	punct	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	diminuito	diminuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+35	pagate	pagare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	34	acl	_	_
+36-37	dal	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	colosso	colosso	NOUN	S	Gender=Masc|Number=Sing	35	obl:agent	_	_
+39	americano	americano	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40-41	nel	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Granducato	Granducato	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	47	punct	_	_
+44	«	«	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+45	senza	senza	ADP	E	_	47	case	_	_
+46	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	47	det	_	_
+47	giustificazione	giustificazione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+48	valida	valido	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+49	»	»	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Ma c'è di più.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = C'è la ricostruzione di come l'intesa abbia consentito al gruppo di spostare la grande maggioranza dei suoi utili da Amazon Eu, controllata di Amazon soggetta a tassazione in Lussemburgo, ad una holding che non è soggetta a tassazione, Amazon Europe Holding Technologies (Aeht).
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	intesa	intesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	spostare	spostare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	utili	utile	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	Amazon	Amazon	PROPN	SP	_	15	obl	_	_
+25	Eu	Eu	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	controllata	controllare	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Amazon	Amazon	PROPN	SP	_	27	obl	_	_
+30	soggetta	soggetto	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	Lussemburgo	Lussemburgo	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	ad	a	ADP	E	_	38	case	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	holding	holding	NOUN	S	Gender=Fem	27	obl	_	_
+39	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+41	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+42	soggetta	soggetto	ADJ	A	Gender=Fem|Number=Sing	38	acl:relcl	_	_
+43	a	a	ADP	E	_	44	case	_	_
+44	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	Amazon	Amazon	PROPN	SP	_	44	nmod	_	_
+47	Europe	Europe	PROPN	SP	_	46	flat:name	_	_
+48	Holding	holding	PROPN	SP	_	46	flat:name	_	_
+49	Technologies	technologies	PROPN	SP	_	46	flat:name	_	_
+50	(	(	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+51	Aeht	Aeht	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+52	)	)	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Ecco l'elusione.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	elusione	elusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Ancor più dettagliata dalla commissaria europea alla Concorrenza, Margrethe Vestager:
+1	Ancor	ancora	ADV	B	_	3	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	dettagliata	dettagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	commissaria	commissario	NOUN	S	Gender=Fem|Number=Sing	3	obl:agent	_	_
+7	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Concorrenza	concorrenza	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	Margrethe	Margrethe	PROPN	SP	_	6	appos	_	_
+13	Vestager	Vestager	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = «Il Lussemburgo - spiega - ha concesso sgravi fiscali illegali ad Amazon.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Lussemburgo	Lussemburgo	PROPN	SP	_	8	nsubj	_	_
+4	-	-	PUNCT	FB	_	3	punct	_	_
+5	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+6	-	-	PUNCT	FB	_	5	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	sgravi	sgravo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	fiscali	fiscalo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	illegali	illegale	ADJ	A	Number=Plur	10	amod	_	_
+12	ad	a	ADP	E	_	13	case	_	_
+13	Amazon	Amazon	PROPN	SP	_	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = Come risultato, quasi tre quarti degli utili di Amazon erano esenti da tassazione.
+1	Come	come	ADP	E	_	2	case	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	quarti	quarto	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	utili	utile	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Amazon	Amazon	PROPN	SP	_	9	nmod	_	_
+12	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	esenti	esente	ADJ	A	Number=Plur	0	root	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 22
+# text = In altre parole, ad Amazon è stato consentito di pagare quattro volte meno tasse rispetto ad altre compagnie locali soggette alla medesime leggi nazionali in materia tributaria.
+1	In	in	ADP	E	_	3	case	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	Amazon	Amazon	PROPN	SP	_	9	obl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	pagare	pagare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	quattro	quattro	NUM	N	NumType=Card	13	nummod	_	_
+13	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	meno	meno	ADV	B	_	15	advmod	_	_
+15	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+16	rispetto	rispetto	ADV	B	_	19	case	_	_
+17	ad	a	ADP	E	_	16	fixed	_	_
+18	altre	altro	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	compagnie	compagnia	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+20	locali	locale	ADJ	A	Number=Plur	19	amod	_	_
+21	soggette	soggetto	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	medesime	medesimo	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+26	nazionali	nazionale	ADJ	A	Number=Plur	25	amod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	materia	materia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	tributaria	tributario	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 23
+# text = Questo - conclude - è illegale».
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+2	-	-	PUNCT	FF	_	3	punct	_	_
+3	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	illegale	illegale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = In attesa che si compia l'inevitabile duello tra le parti a colpi di ricorsi, carte bollate e avvocati, la posizione di Bruxelles sembra altrettanto chiara nel non voler coinvolgere nell'affaire il presidente della Commissione, Jean-Claude Juncker, che nel 2003 era capo del governo e ministro delle Finanze lussemburghesi.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj:pass	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	compia	compiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	inevitabile	inevitabile	ADJ	A	Number=Sing	8	amod	_	_
+8	duello	duello	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	parti	parte	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ricorsi	ricorso	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	carte	carta	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+18	bollate	bollato	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Bruxelles	Bruxelles	PROPN	SP	_	23	nmod	_	_
+26	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	altrettanto	altrettanto	ADV	B	_	28	advmod	_	_
+28	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	26	xcomp	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	33	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	voler	volere	AUX	VM	VerbForm=Inf	33	aux	_	_
+33	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	26	obl	_	_
+34-35	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+34	in	in	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	affaire	affaire	VERB	V	VerbForm=Inf	33	obl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	36	punct	_	_
+43	Jean	Jean	PROPN	SP	_	36	appos	_	SpaceAfter=No
+44	-	-	PUNCT	FF	_	43	punct	_	SpaceAfter=No
+45	Claude	Claude	PROPN	SP	_	43	flat:name	_	_
+46	Juncker	Juncker	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	43	punct	_	_
+48	che	che	PRON	PR	PronType=Rel	53	nsubj	_	_
+49-50	nel	_	_	_	_	_	_	_	_
+49	in	in	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	2003	2003	NUM	N	NumType=Card	53	nummod	_	_
+52	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	cop	_	_
+53	capo	capo	NOUN	S	Gender=Masc|Number=Sing	43	acl:relcl	_	_
+54-55	del	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	governo	governo	NOUN	S	Gender=Masc|Number=Sing	53	nmod	_	_
+57	e	e	CCONJ	CC	_	58	cc	_	_
+58	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	56	conj	_	_
+59-60	delle	_	_	_	_	_	_	_	_
+59	di	di	ADP	E	_	61	case	_	_
+60	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	61	det	_	_
+61	Finanze	finanza	NOUN	S	Gender=Fem|Number=Plur	58	nmod	_	_
+62	lussemburghesi	lussemburghese	ADJ	A	Number=Plur	61	amod	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 25
+# text = La Vestager ha già messo le mani avanti:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Vestager	Vestager	PROPN	SP	_	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	avanti	avanti	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 26
+# text = «Noi investighiamo sul comportamento degli Stati, non si tratta di un investigare dal punto di vista penale su single persone».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	investighiamo	investighare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Stati	Stati	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	investigare	investigara	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	punto	punto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	vista	vista	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	penale	penale	ADJ	A	Number=Sing	19	amod	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	single	single	ADJ	A	_	25	amod	_	_
+25	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Comunque, in ordine di tempo, Amazon è solo l'ultima corporation pizzicata per disinvolto comportamento fiscale.
+1	Comunque	comunque	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Amazon	Amazon	PROPN	SP	_	13	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	solo	solo	ADV	B	_	13	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	corporation	corporation	NOUN	S	Gender=Fem	0	root	_	_
+14	pizzicata	pizzicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	disinvolto	disinvolto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	fiscale	fiscale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 28
+# text = Nell'ottobre 2015 Lussemburgo e Olanda erano finite nell'occhio del ciclone per aver concesso vantaggi fiscali selettivi rispettivamente a Fiat Finance and Trade e a Starbucks.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	2015	2015	NUM	N	NumType=Card	5	nummod	_	_
+5	Lussemburgo	Lussemburgo	PROPN	SP	_	9	nsubj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Olanda	Olanda	PROPN	SP	_	5	conj	_	_
+8	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	finite	finire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ciclone	ciclone	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	per	per	ADP	E	_	18	mark	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+18	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+19	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	fiscali	fiscale	ADJ	A	Number=Plur	19	amod	_	_
+21	selettivi	selettivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+22	rispettivamente	rispettivamente	ADV	B	_	24	advmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Fiat	Fiat	PROPN	SP	_	19	nmod	_	_
+25	Finance	Finance	PROPN	SP	_	24	flat:name	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	Trade	Trade	PROPN	SP	_	24	conj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Starbucks	Starbucks	PROPN	SP	_	24	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 29
+# text = Erano sfuggiti all'imposta fra i 20 e i 30 milioni di euro in entrambi i casi.
+1	Erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	sfuggiti	sfuggire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	fra	fra	ADP	E	_	12	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	20	20	NUM	N	NumType=Card	12	nummod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	30	30	NUM	N	NumType=Card	12	nummod	_	_
+12	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	euro	euro	NOUN	S	Gender=Masc	12	nmod	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	casi	caso	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Qualche mese dopo era toccato al Belgio, compiacente verso almeno 35 multinazionali nel calcolo sugli utili in eccesso, una pratica ritenuta illegale dalle norme sugli aiuti di Stato.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	mese	mese	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	dopo	dopo	ADV	B	_	5	advmod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Belgio	Belgio	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	compiacente	compiacente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	verso	verso	ADP	E	_	14	case	_	_
+12	almeno	almeno	ADV	B	_	13	advmod	_	_
+13	35	35	NUM	N	NumType=Card	14	nummod	_	_
+14	multinazionali	multinazionale	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	sugli	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	utili	utile	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	5	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+26	ritenuta	ritenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27	illegale	illegale	ADJ	A	Number=Sing	26	xcomp	_	_
+28-29	dalle	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	norme	norma	NOUN	S	Gender=Fem|Number=Plur	26	obl:agent	_	_
+31-32	sugli	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Stato	Stato	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Poi, nell'agosto 2016, era stata la volta di Irlanda-Apple.
+1	Poi	poi	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+6	2016	2016	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Irlanda-Apple	Irlanda-Apple	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 32
+# text = Nel mirino restano ora McDonald's e Gdf Suez (ora Engie).
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ora	ora	ADV	B	_	4	advmod	_	_
+6	McDonald	McDonald	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	's	's	PART	PART	_	6	case	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Gdf	Gdf	PROPN	SP	_	6	conj	_	_
+10	Suez	Suez	PROPN	SP	_	9	flat:name	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	ora	ora	ADV	B	_	13	advmod	_	_
+13	Engie	Engie	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = Il caso non è chiuso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	chiuso	chiuso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

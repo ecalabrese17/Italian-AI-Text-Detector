@@ -1,0 +1,317 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tra i tanti esempi, ne vogliamo citare alcuni che hanno fatto notizia in questi ultimi tempi.
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	esempi	esempio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+7	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	citare	citare	VERB	V	VerbForm=Inf	0	root	_	_
+9	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+16	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Il primo riguarda l'uso di sangue finto per avvolgono i libri.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uso	uso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	finto	finto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	avvolgono	avvolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	libri	libro	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sì, avete letto bene.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Un'editrice statunitense, Ms. 'uàà fave, cemetery diйн tane avere inventato un modo estremamente originale per promuovere i suoi libri, avvolgendo ogni singolo volume in una fascetta di sangue finto.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	editrice	editore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	statunitense	statunitense	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Ms	Ms	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+7	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	uàà	uàà	NOUN	S	Gender=Fem	5	nmod	_	_
+9	fave	fave	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	cemetery	cemetery	NOUN	S	Gender=Masc	5	appos	_	_
+12	diйн	diйн	PROPN	SP	_	11	nmod	_	_
+13	tane	tano	NOUN	S	Gender=Fem|Number=Plur	12	flat:name	_	_
+14	avere	avere	AUX	VA	VerbForm=Inf	15	aux	_	_
+15	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	estremamente	estremamente	ADV	B	_	19	advmod	_	_
+19	originale	originale	ADJ	A	Number=Sing	17	amod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	promuovere	promuovere	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	libri	libro	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	15	punct	_	_
+26	avvolgendo	avvolgere	VERB	V	VerbForm=Ger	15	advcl	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+28	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	volume	volume	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	fascetta	fascetta	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	finto	finto	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Secondo lei, questo stratagemma sarebbe in grado di attirare l'attenzione dei lettori, incuriosendoli e spingendoli ad acquistare il libro.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	stratagemma	stratagemma	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	attirare	attirare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17-18	incuriosendoli	_	_	_	_	_	_	_	_
+17	incuriosendo	incuriosere	VERB	V	VerbForm=Ger	10	advcl	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	spingendoli	_	_	_	_	_	_	_	_
+20	spingendo	spingere	VERB	V	VerbForm=Ger	17	conj	_	_
+21	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+22	ad	a	ADP	E	_	23	mark	_	_
+23	acquistare	acquistare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	libro	libro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Certamente, è un'idea che fa discutere e che potrebbe attirare l'attenzione di un pubblico giovane e curioso, ma non tutti sono persuasi della sua efficacia.
+1	Certamente	certamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	discutere	discutere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	attirare	attirare	VERB	V	VerbForm=Inf	7	conj	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	giovane	giovane	ADJ	A	Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	ma	ma	CCONJ	CC	_	26	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	26	nsubj	_	_
+25	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	persuasi	persuasi	ADV	B	_	12	conj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Un altro esempio di innovazione nel mercato editoriale riguarda l'uso della birra.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	editoriale	editoriale	ADJ	A	Number=Sing	8	amod	_	_
+10	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	uso	uso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	birra	birra	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Una casa editrice tedesca, infatti, ha deciso di lanciare una linea di libri accostando a ogni volume unaırra artigianale.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	editrice	editore	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	lanciare	lanciare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	linea	linea	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	libri	libro	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	accostando	accostare	VERB	V	VerbForm=Ger	11	advcl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	volume	volume	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	unaırra	unaırra	ADJ	A	_	19	amod	_	_
+21	artigianale	artigianale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Si tratta di una medicina unisex, per tutti i gusti e per ogni occasione, che ha già riscosso un notevole successo tra i lettori.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	unisex	unisex	ADJ	A	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	già	già	ADV	B	_	20	advmod	_	_
+20	riscosso	riscuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	notevole	notevole	ADJ	A	Number=Sing	23	amod	_	_
+23	successo	successo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	tra	tra	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = La birra, infatti, è un prodotto che fa parte della cultura tedesca e ha sempre rappresentato un simbolo di convivialità e di aggregatione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	birra	birra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	rappresentato	rappresentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	convivialità	convivialità	NOUN	S	Gender=Fem	21	nmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	aggregatione	aggregatione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Accostarla a un libro potrebbe quindi essere un modo per creare un'esperienza di lettura ancora più coinvolgente, in cui il piacere della lettura si accompagna al piacere del gusto.
+1-2	Accostarla	_	_	_	_	_	_	_	_
+1	Accostar	accostare	VERB	V	VerbForm=Inf	10	csubj	_	_
+2	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	libro	libro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	quindi	quindi	ADV	B	_	10	advmod	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	creare	creare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	coinvolgente	coinvolgente	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	accompagna	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Infine, parliamo di un fenomeno che sta sempre più
+1	Infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	_
+10	più	più	ADV	B	_	8	advmod	_	SpacesAfter=\n
+

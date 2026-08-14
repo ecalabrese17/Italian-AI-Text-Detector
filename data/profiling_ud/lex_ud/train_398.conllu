@@ -1,0 +1,570 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Esecuzione di camorra filmata dalla telecamera di sicurezza fuori da un bar.
+1	Esecuzione	esecuzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	camorra	camorra	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	filmata	filmare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	telecamera	telecamera	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	fuori	fuori	ADV	B	_	13	case	_	_
+11	da	da	ADP	E	_	10	fixed	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bar	bar	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il video dura pochi secondi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È giorno.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si vede l’esterno di un bar:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bar	bar	NOUN	S	Gender=Masc	2	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = tendone a strisce abbassato, giochino giallo a gettoni per bambini e un grosso banco per gelati.
+1-2	tendone	_	_	_	_	_	_	_	_
+1	tendo	tendere	VERB	V	VerbForm=Ger	0	root	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	1	iobj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	strisce	striscia	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	abbassato	abbassato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	giochino	giochino	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	gettoni	gettone	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	banco	banco	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	gelati	gelato	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = In diretta è stata registrata la morte di Mariano Bacioterracino avvenuta lo scorso 11 maggio.
+1	In	in	ADP	E	_	2	case	_	_
+2	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	registrata	registrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Mariano	Mariano	PROPN	SP	_	7	nmod	_	_
+10	Bacioterracino	Bacioterracino	PROPN	SP	_	9	flat:name	_	_
+11	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	11	11	NUM	N	NumType=Card	11	obl	_	_
+15	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = La procura della Repubblicai, per dare una svolta alle indagini, ha disposto la diffusione in video.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Repubblicai	Repubblicai	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	dare	dare	VERB	V	VerbForm=Inf	2	acl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	video	video	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = L'omicidio Agghiaccianti le immagini riprese dalla telecamera di un circuito di videosorveglianza.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Agghiaccianti	Agghiacciante	PROPN	SP	_	2	nmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+6	riprese	riprendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	telecamera	telecamera	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	circuito	circuito	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	videosorveglianza	videosorveglianza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = C’è un uomo con alcune buste della spesa che traffica con dei soldi e aspetta.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	buste	buste	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	traffica	trafficare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Forse è il "palo".
+1	Forse	forse	ADV	B	_	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	palo	palo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Intanto un uomo, camicia bianca, maglietta nera e jeans sta fumando una sigaretta, è appoggiato al distributore di giochini per bimbi.
+1	Intanto	intanto	ADV	B	_	13	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+6	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	maglietta	maglietta	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	nera	nero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	jeans	jeans	NOUN	S	Gender=Masc	3	conj	_	_
+12	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fumando	fumare	VERB	V	VerbForm=Ger	18	advcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	appoggiato	appoggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	distributore	distributore	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	giochini	giochino	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Si volta.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	volta	volta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = La sua attenzione viene richiamata da un uomo che ha le mani in tasca e che sta uscendo dall’esercizio commerciale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	richiamata	richiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	uscendo	uscire	VERB	V	VerbForm=Ger	14	conj	_	_
+19-20	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+19	da	da	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	commerciale	commerciale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Il killer ha un cappello con visiera, jeans, giubbotto scuro e scarpe da ginnastica, gli si avvicina alle spalle e lo spinge leggermente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	killer	killer	NOUN	S	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	visiera	visiera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	jeans	jeans	PROPN	Sw	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	giubbotto	giubbotto	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	scuro	scuro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	scarpe	scarpo	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	ginnastica	ginnastica	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	avvicina	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+27	leggermente	leggermente	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = La vittima si inginocchia e poi, in una frazione di secondo, si stende al suolo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	inginocchia	inginocchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	poi	poi	ADV	B	_	10	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	frazione	frazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	stende	stendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = È un attimo: il sicario gli avvicina la pistola alla nuca e spara.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sicario	sicario	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	avvicina	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nuca	nuca	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	spara	spara	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Un colpo secco mentre il "palo" si allontana.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	secco	secco	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+4	mentre	mentre	SCONJ	CS	_	10	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	palo	palo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	allontana	allontanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Il killer si incammina velocemente ancora con la pistola in pugno.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	killer	killer	NOUN	S	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	incammina	incamminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	velocemente	velocemente	ADV	B	_	4	advmod	_	_
+6	ancora	ancora	ADV	B	_	4	advmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Informazioni
+1	Informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+
+# sent_id = 20
+# text = La procura partenopea ha deciso di diffondere il video sollecitando la "collaborazione di chiunque sia in grado di fornire informazioni utili all’identificazione del killer e del suo correo".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	partenopea	partenopeo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	diffondere	diffondere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	video	video	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	sollecitando	sollecitare	VERB	V	VerbForm=Ger	7	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	13	nmod	_	_
+16	sia	essere	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	grado	grado	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	fornire	fornire	VERB	V	VerbForm=Inf	18	acl	_	_
+21	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	utili	utile	ADJ	A	Number=Plur	21	amod	_	_
+23-24	all’	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	identificazione	identificazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	killer	killer	NOUN	S	_	25	nmod	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	correo	correo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Il provvedimento è stato adottato "in quanto a tutt’oggi - si legge in una nota - non è stato possibile identificare né l’esecutore materiale del delitto né la persona che si ritiene abbia svolto nell’occasione il ruolo di 'specchiettista', entrambi ben visibili nel video".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	adottato	adottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	in	in	ADP	E	_	11	case	_	_
+8	quanto	quanto	ADV	B	_	7	fixed	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	tutt’	tutto	DET	T	Gender=Fem|Number=Sing	11	det	_	SpaceAfter=No
+11	oggi	oggi	ADV	B	_	5	advmod	_	_
+12	-	-	PUNCT	FB	_	5	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	nota	noto	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	-	-	PUNCT	FF	_	14	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	cop	_	_
+22	possibile	possibile	ADJ	A	Number=Sing	5	parataxis	_	_
+23	identificare	identificare	VERB	V	VerbForm=Inf	22	csubj	_	_
+24	né	né	SCONJ	CS	_	26	mark	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	esecutore	esecutore	NOUN	S	Gender=Masc|Number=Sing	23	ccomp	_	_
+27	materiale	materiale	ADJ	A	Number=Sing	26	amod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31	né	né	CCONJ	CC	_	33	cc	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	persona	persona	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj:pass	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl:impers	_	_
+36	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	svolto	svolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	ccomp	_	_
+39-40	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+39	in	in	ADP	E	_	41	case	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	'	'	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	specchiettista	specchiettista	NOUN	S	Number=Sing	43	nmod	_	SpaceAfter=No
+47	'	'	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	33	punct	_	_
+49	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	33	conj	_	_
+50	ben	bene	ADV	B	_	51	advmod	_	_
+51	visibili	visibili	ADJ	A	Number=Plur	49	amod	_	_
+52-53	nel	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	video	video	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+55	"	"	PUNCT	FB	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = La procura, dunque, ha firmato un decreto che rende pubblico il filmato sperando che la sua diffusione aiuti, con la collaborazione di chi può dare indizi utili, le indagini.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dunque	dunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	filmato	filmato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	sperando	sperare	VERB	V	VerbForm=Ger	11	advcl	_	_
+16	che	che	SCONJ	CS	_	28	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+20	aiuti	aiuto	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	chi	chi	PRON	PR	Number=Sing|PronType=Rel	24	nmod	_	_
+27	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	dare	dare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+29	indizi	indizio	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	utili	utile	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = La taglia
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	taglia	taglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 24
+# text = Il commissario regionale campano dei Verdi Francesco Emilio Borrelli, insieme a un gruppo di imprenditori, ha deciso di donare 2mila euro "a chi identificherà e farà arrestare il killer della Sanità le cui immagini sono state rese pubbliche stamattina dalla procura".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	commissario	commissario	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	regionale	regionale	ADJ	A	Number=Sing	2	amod	_	_
+4	campano	campare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Verdi	Verdi	PROPN	SP	_	4	obl	_	_
+8	Francesco	Francesco	PROPN	SP	_	7	flat:name	_	_
+9	Emilio	Emilio	PROPN	SP	_	7	flat:name	_	_
+10	Borrelli	Borrelli	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	insieme	insieme	ADV	B	_	15	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	donare	donare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	2mila	2mila	NUM	N	NumType=Card	24	nummod	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	obj	_	_
+25	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	a	a	ADP	E	_	27	case	_	_
+27	chi	chi	PRON	PR	Number=Sing|PronType=Rel	22	obl	_	_
+28	identificherà	identificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	conj	_	_
+31	arrestare	arrestare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	killer	killer	NOUN	S	Gender=Masc	31	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Sanità	sanità	NOUN	S	Gender=Fem	33	nmod	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	cui	cui	DET	DR	PronType=Rel	39	det:poss	_	_
+39	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	42	nsubj:pass	_	_
+40	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+41	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	42	aux:pass	_	_
+42	rese	rendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	36	acl:relcl	_	_
+43	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	_
+44	stamattina	stamattina	NOUN	S	Gender=Fem|Number=Sing	42	xcomp	_	_
+45-46	dalla	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	procura	procura	NOUN	S	Gender=Fem|Number=Sing	42	obl:agent	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = Lo si legge in una nota che precisa che "per ottenere il premio basterà rivolgersi alla federazione regionale dei Verdi".
+1	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nota	nota	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	che	che	SCONJ	CS	_	15	mark	_	_
+10	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+11	per	per	ADP	E	_	12	mark	_	_
+12	ottenere	ottenere	VERB	V	VerbForm=Inf	15	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	premio	premio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
+16-17	rivolgersi	_	_	_	_	_	_	_	_
+16	rivolger	rivolgere	VERB	V	VerbForm=Inf	15	csubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	federazione	federazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	regionale	regionale	ADJ	A	Number=Sing	20	amod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Verdi	Verdi	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Servirà il 3-0 o il 4-1.
+1	Servirà	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	3-0	3-0	NUM	N	NumType=Card	1	obj	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	4	4	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	1	1	NUM	N	NumType=Card	6	compound	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tutto in salita, quindi per i granata, rimasti in 10 dopo soli 27’.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	salita	salita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	quindi	quindi	ADV	B	_	8	advmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	granata	granata	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	10	10	NUM	N	NumType=Card	10	nummod	_	_
+13	dopo	dopo	ADP	E	_	15	case	_	_
+14	soli	solo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	27	27	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+16	’	’	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Benassi, già ammonito per un fallo tattico, ha rimediato il secondo giallo per un’entrata scorretta sul belga Witsel.
+1	Benassi	Benassi	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	ammonito	ammonire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fallo	fallo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	tattico	tattico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rimediato	rimediare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	giallo	giallo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	scorretta	scorretto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	belga	belga	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	Witsel	Witsel	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Per riequilibrare il centrocampo, Ventura ha inserito Vives, sacrificando una punta, il veloce Martinez, utile nei contropiede.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	riequilibrare	riequilibrare	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	centrocampo	centrocampo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Ventura	Ventura	PROPN	SP	_	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	inserito	inserire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	Vives	Vives	PROPN	SP	_	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	sacrificando	sacrificare	VERB	V	VerbForm=Ger	8	advcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	punta	punta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	veloce	veloce	ADJ	A	Number=Sing	17	amod	_	_
+17	Martinez	Martinez	PROPN	SP	_	8	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	utile	utile	ADJ	A	Number=Sing	17	amod	_	_
+20-21	nei	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	contropiede	contropiedere	NOUN	S	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = L’inferiorità numerica ha bloccato psicologicamente il Toro , ripiegato nella sua metà campo a cercare di difendere lo 0-0.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	inferiorità	inferiorità	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	numerica	numerico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	psicologicamente	psicologicamente	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Toro	toro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	ripiegato	ripiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	metà	metà	NOUN	S	Gender=Fem	10	obl	_	_
+15	campo	campo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	cercare	cercare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	difendere	difendere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	obj	_	_
+21	0	0	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	0	0	NUM	N	NumType=Card	21	compound	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ma il palleggio nella trequarti dello Zenit ha presto punito i granata:
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	palleggio	palleggio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	trequarti	trequarto	NOUN	S	Number=Plur	3	nmod	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Zenit	Zenit	PROPN	SP	_	6	nmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	presto	presto	ADV	B	_	12	advmod	_	_
+12	punito	punire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	granata	granata	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 7
+# text = Witsel ha sfruttato errori e sfortuna - Glik è scivolato mentre stava per spazzare l’area - portando i russi sull’1-0.
+1	Witsel	Witsel	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sfruttato	sfruttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	errori	errore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	sfortuna	sfortuna	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	Glik	Glik	PROPN	SP	_	6	nmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scivolato	scivolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+12	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	spazzare	spazzare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	area	area	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	-	-	PUNCT	FF	_	12	punct	_	_
+18	portando	portare	VERB	V	VerbForm=Ger	12	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	russi	russo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21-22	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+21	su	su	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	1	1	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	0	0	NUM	N	NumType=Card	23	compound	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Padelli ha evitato il secondo gol con una respinta di piede su Hulk, con il Toro in nove per l’infortunio muscolare di Vives, sostituito qualche minuto dopo da Farnerud.
+1	Padelli	Padelli	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	evitato	evitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	gol	goal	NOUN	S	Gender=Masc	3	obj	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	respinta	respinta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	piede	piede	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	Hulk	Hulk	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Toro	toro	PROPN	SP	_	3	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	nove	nove	NUM	N	NumType=Card	17	nummod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	infortunio	infortunio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+23	muscolare	muscolare	ADJ	A	Number=Sing	22	amod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Vives	Vives	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	sostituito	sostituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+28	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	dopo	dopo	ADV	B	_	29	advmod	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	Farnerud	Farnerud	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Il portiere granata, però, si è arreso sull’azione successiva:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	granata	granata	ADJ	A	_	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	però	però	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arreso	arrendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+10	su	su	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	azione	azione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 10
+# text = una serie di tocchi di ’primà hanno portato Hulk al tiro.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	serie	serie	NOUN	S	Gender=Fem	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tocchi	tocchio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	’	’	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	primà	primà	NOUN	S	Gender=Fem	4	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Hulk	Hulk	PROPN	SP	_	9	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Il possente brasiliano ha colpito il palo, ma per Mimmo Criscito è stato un gioco da ragazzi infilare la porta rimasta sguarnita.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	possente	possente	ADJ	A	Number=Sing	3	amod	_	_
+3	brasiliano	brasiliano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	palo	palo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	16	punct	_	_
+9	ma	ma	CCONJ	CC	_	16	cc	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	Mimmo	mimmo	PROPN	SP	_	16	obl	_	_
+12	Criscito	Criscito	PROPN	SP	_	11	flat:name	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	infilare	infilare	VERB	V	VerbForm=Inf	16	csubj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	porta	porta	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	sguarnita	sguarnito	ADJ	A	Gender=Fem|Number=Sing	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Il Toro ha continuato a subire, attento a non subire il terzo gol, ma troppo remissivo e restio a costruire gioco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Toro	toro	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	subire	subire	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	attento	attento	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	a	a	ADP	E	_	11	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	subire	subire	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	gol	goal	NOUN	S	Gender=Masc	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	troppo	troppo	ADV	B	_	18	advmod	_	_
+18	remissivo	remissivo	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	restio	restio	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	costruire	costruire	VERB	V	VerbForm=Inf	11	advcl	_	_
+23	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Si è svegliato negli ultimi 10’ scarsi, ma prima Garay ha stoppato Maxi Lopez poi Farnerud ha sbagliato il tocco su calcio di punizione, facendo imbufalire Ventura.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	10’	10o	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+8-9	scarsi	_	_	_	_	_	_	_	SpaceAfter=No
+8	scar	scarre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	prima	prima	ADV	B	_	15	advmod	_	_
+13	Garay	Garay	PROPN	SP	_	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	stoppato	stoppare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+16	Maxi	maxi	PROPN	SP	_	15	obj	_	_
+17	Lopez	Lopez	PROPN	SP	_	16	flat:name	_	_
+18	poi	poi	ADV	B	_	15	advmod	_	_
+19	Farnerud	Farnerud	PROPN	SP	_	15	xcomp	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	su	su	ADP	E	_	25	case	_	_
+25	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29	facendo	fare	VERB	V	VerbForm=Ger	21	advcl	_	_
+30	imbufalire	imbufalire	VERB	V	VerbForm=Inf	29	ccomp	_	_
+31	Ventura	Ventura	PROPN	SP	_	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

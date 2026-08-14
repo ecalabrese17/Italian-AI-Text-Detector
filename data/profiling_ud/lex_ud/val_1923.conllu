@@ -1,0 +1,333 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non si tratta di una novità, ma è una tendenza che si sta accentuando negli ultimi anni.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	novità	novità	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	accentuando	accentuare	VERB	V	VerbForm=Ger	11	acl:relcl	_	_
+16-17	negli	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La scuola dovrebbe essere il luogo dove le disuguaglianze sociali possono essere superate, dove tutti i ragazzi, indipendentemente dalle loro condizioni economiche e sociali, possono avere uguali opportunità di successo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	dove	dove	ADV	B	_	13	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	disuguaglianze	disuguaglianze	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+10	sociali	sociale	ADJ	A	Number=Plur	9	amod	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	superate	superare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	dove	dove	ADV	B	_	30	advmod	_	_
+16	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	indipendentemente	indipendentemente	ADV	B	_	18	advmod	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+25	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	sociali	sociale	ADJ	A	Number=Plur	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	avere	avere	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+31	uguali	uguale	DET	DQ	Number=Plur|PronType=Int	32	det	_	_
+32	opportunità	opportunità	NOUN	S	Gender=Fem	30	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	successo	successo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Tuttavia, questo non sta avvenendo e il Censis ci mette di fronte a un dato preoccupante:
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avvenendo	avvenire	VERB	V	VerbForm=Ger	0	root	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Censis	Censis	PROPN	SP	_	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+11	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	fronte	fronte	NOUN	S	Number=Sing	11	obl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dato	dato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	preoccupante	preoccupante	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = quasi il 30% dei giovani italiani non ha ancora acquisito competenze di base in lettura e matematica.
+1	quasi	quasi	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	30	30	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	12	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	giovani	giovane	NOUN	S	Number=Plur	4	nmod	_	_
+8	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	ancora	ancora	ADV	B	_	12	advmod	_	_
+12	acquisito	acquisire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	base	base	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = La questione della mobilità sociale è strettamente legata alla qualità dell'istruzione che si riceve.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mobilità	mobilità	NOUN	S	Gender=Fem	2	nmod	_	_
+6	sociale	sociale	ADJ	A	Number=Sing	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	strettamente	strettamente	ADV	B	_	9	advmod	_	_
+9	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	qualità	qualità	NOUN	S	Gender=Fem	9	obl	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Se la scuola non è in grado di offrire un'istruzione di qualità, allora svanisce il suo ruolo di strumento di mobilità sociale.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	grado	grado	NOUN	S	Gender=Masc|Number=Sing	16	advcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	offrire	offrire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	qualità	qualità	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	allora	allora	ADV	B	_	16	advmod	_	_
+16	svanisce	svanire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	mobilità	mobilità	NOUN	S	Gender=Fem	21	nmod	_	_
+24	sociale	sociale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = E la qualità dell'istruzione dipende da molteplici fattori, come la formazione degli insegnanti, le dotazioni tecniche e materiali delle scuole, il contesto socio-economico degli studenti, solo per citarne alcuni.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	qualità	qualità	NOUN	S	Gender=Fem	7	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	molteplici	molteplice	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	insegnanti	insegnante	NOUN	S	Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	dotazioni	dotazione	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+21	tecniche	tecnico	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	materiali	materiale	ADJ	A	Number=Plur	21	conj	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+30	socio	socio	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	-	-	PUNCT	FF	_	30	punct	_	SpaceAfter=No
+32	economico	economico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+33-34	degli	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	solo	solo	ADV	B	_	39	advmod	_	_
+38	per	per	ADP	E	_	39	mark	_	_
+39-40	citarne	_	_	_	_	_	_	_	_
+39	citar	citare	VERB	V	VerbForm=Inf	35	acl	_	_
+40	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
+41	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Ma ciò che emerge dal rapporto Censis è che esistono importanti disuguaglianze territoriali, con regioni più ricche che offrono una qualità dell'istruzione superiore rispetto a regioni più povere.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	Censis	Censis	PROPN	SP	_	7	nmod	_	_
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	11	mark	_	_
+11	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	importanti	importante	ADJ	A	Number=Plur	13	amod	_	_
+13	disuguaglianze	disuguaglianza	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+14	territoriali	territoriale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	ricche	ricco	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	offrono	offrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	qualità	qualità	NOUN	S	Gender=Fem	21	obj	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	26	amod	_	_
+28	rispetto	rispetto	ADV	B	_	30	case	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	povere	povero	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Inoltre, il Censis sottolinea come la scuola stia diventando sempre più selettiva, a discapito dei più deboli.
+1	Inoltre	inoltre	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Censis	Censis	PROPN	SP	_	5	nsubj	_	_
+5	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	stia	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	diventando	diventare	VERB	V	VerbForm=Ger	5	advcl	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	selettiva	selettivo	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	deboli	debole	ADJ	A	Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Come progressisti, dobbiamo fare nostro questo allarme e PřATTIvaMENE terza origine MetFormalSufRedClass,Althoughit is governed by the verb “to be,” the subject “the sun” is in the predicate nominative case.
+1	Come	come	ADP	E	_	2	case	_	_
+2	progressisti	progressista	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	PřATTIvaMENE	PřATTIvaMENE	PROPN	SP	_	12	conj	_	_
+11	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	origine	origine	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+13	MetFormalSufRedClass,Althoughit	MetFormalSufRedClass,Althoughit	X	SW	Foreign=Yes	30	nmod	_	_
+14	is	is	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	governed	governed	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	by	by	X	SW	Foreign=Yes	13	flat:foreign	_	_
+17	the	the	X	SW	Foreign=Yes	13	flat:foreign	_	_
+18	verb	verb	X	SW	Foreign=Yes	13	flat:foreign	_	_
+19	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+20	to	to	X	X	_	13	flat:foreign	_	_
+21	be	ba	NOUN	S	Gender=Fem|Number=Plur	20	compound	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	13	punct	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	subject	subject	NOUN	S	_	30	nsubj	_	_
+26	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	sun	sun	X	SW	Foreign=Yes	25	nmod	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	28	punct	_	_
+30	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	the	the	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+33	predicate	predicato	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+34	nominative	nominativo	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+35	case	casa	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 11
+# text = The remainder of the sentence is adjectival description.
+1	The	The	X	SW	Foreign=Yes	7	nsubj	_	_
+2	remainder	remainder	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	sentence	sentence	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	is	is	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	adjectival	adjectival	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	description	description	ADV	BN	PronType=Neg	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = E' necessario interven
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	interven	interven	INTJ	I	_	2	punct	_	SpacesAfter=\n
+

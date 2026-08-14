@@ -1,0 +1,310 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Senza mia moglie 'La ferocia' non sarebbe stato possibile ", dice Lagioia .
+1	Senza	senza	ADP	E	_	3	case	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ferocia	ferocia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+11	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+15	Lagioia	Lagioia	PROPN	SP	_	14	nsubj	_	_
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Poi dal Ninfeo di Villa Giulia aggiunge che " la ferocia, come il titolo del libro, è quello che sta accadendo ora ad Atene.
+1	Poi	poi	ADV	B	_	8	advmod	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ninfeo	Ninfeo	PROPN	SP	_	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Villa	Villa	PROPN	SP	_	4	nmod	_	_
+7	Giulia	Giulia	PROPN	SP	_	6	flat:name	_	_
+8	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	22	mark	_	_
+10	"	"	PUNCT	FB	_	22	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ferocia	ferocia	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	libro	libro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	ccomp	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	accadendo	accadere	VERB	V	VerbForm=Ger	22	acl:relcl	_	_
+26	ora	ora	ADV	B	_	25	advmod	_	_
+27	ad	a	ADP	E	_	28	case	_	_
+28	Atene	Atene	PROPN	SP	_	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Siamo sulla stessa barca, se fallisce la Grecia fallisce anche la Germania ".
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	barca	barca	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	fallisce	fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Grecia	Grecia	PROPN	SP	_	11	nsubj	_	_
+11	fallisce	fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Germania	Germania	PROPN	SP	_	11	obj	_	_
+15	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 5
+# text = L'unica cosa che mi interessa della ferocia - ha poi detto lo scrittore - è l'antidoto.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ferocia	ferocia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	-	-	PUNCT	FB	_	13	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	poi	poi	ADV	B	_	13	advmod	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	parataxis	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	-	-	PUNCT	FB	_	13	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	antidoto	antidoto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 6
+# text = La ferocia è l'istinto alla prevaricazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ferocia	ferocia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prevaricazione	prevaricazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Noi, però, siamo tra quei pochi animali in grado di estirpare questo istinto ".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	tra	tra	ADP	E	_	9	case	_	_
+7	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	animali	animale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	estirpare	estirpare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Dietro di lui si è piazzata "La sposa", l'opera edita da Bompiani di Mauro Covacich .
+1	Dietro	dietro	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	piazzata	piazzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+13	opera	opera	NOUN	S	Gender=Fem|Number=Sing	9	compound	_	_
+14	edita	edire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Bompiani	Bompiani	PROPN	SP	_	14	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Mauro	Mauro	PROPN	SP	_	16	nmod	_	_
+19	Covacich	Covacich	PROPN	SP	_	18	flat:name	_	_
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Poi Elena Ferrante , con il suo "Storia della bambina perduta", delle edizioni e/o.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	Elena	Elena	PROPN	SP	_	0	root	_	_
+3	Ferrante	Ferrante	PROPN	SP	_	2	flat:name	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	9	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Storia	storia	PROPN	SP	_	2	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	edizioni	edizione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+20	/o	/o	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il presidente della giuria, Francesco Piccolo, vincitore del premio lo scorso anno , aveva puntato su di lei fino all'ultimo, dichiarandolo anche sui social network.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giuria	giuria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Francesco	Francesco	PROPN	SP	_	5	nmod	_	_
+8	Piccolo	piccolo	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	premio	premio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	puntato	puntare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+23	fino	fino	ADV	B	_	26	case	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	23	fixed	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28-29	dichiarandolo	_	_	_	_	_	_	_	_
+28	dichiarando	dichiarare	VERB	V	VerbForm=Ger	19	advcl	_	_
+29	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	anche	anche	ADV	B	_	34	advmod	_	_
+31-32	sui	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	34	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	social	social	ADJ	A	Number=Sing	34	amod	_	_
+34	network	network	NOUN	S	Gender=Masc	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 11
+# text = " Lo Strega dovrebbe migliorare sulla limpidezza del voto, ma in fondo lo amo con i suoi pregi e difetti.
+1	"	"	PUNCT	FB	_	5	punct	_	_
+2	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	Strega	Strega	PROPN	SP	_	5	nsubj	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	migliorare	migliorare	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	limpidezza	limpidezza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	voto	voto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+16	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	amo	amare	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	pregi	prege	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	difetti	difetto	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Anche quest'ultima serata è un bartaccone che un po' ci rappresenta ", ha aggiunto.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	quest'	questo	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	serata	serata	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bartaccone	bartaccone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	po'	poco	ADV	B	_	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+12	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Minore il numero degli ospiti presenti quest'anno - si parla di cinquecento persone in meno - e meno anche giornalisti e fotografi presenti sotto il palco.
+1	Minore	minore	NOUN	S	Number=Sing	12	obl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	numero	numero	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ospiti	ospite	NOUN	S	Number=Plur	3	nmod	_	_
+7	presenti	presente	ADJ	A	Number=Plur	6	amod	_	_
+8	quest'	questo	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	-	-	PUNCT	FB	_	1	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	cinquecento	cinquecento	NUM	N	NumType=Card	15	nummod	_	_
+15	persone	persona	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	meno	meno	ADV	B	_	12	advmod	_	_
+18	-	-	PUNCT	FF	_	22	punct	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	meno	meno	ADV	B	_	21	advmod	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	fotografi	fotografo	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+25	presenti	presente	ADJ	A	Number=Plur	24	amod	_	_
+26	sotto	sotto	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	palco	palco	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

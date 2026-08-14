@@ -1,0 +1,442 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Titolo di questo articolo, “Mangia (bene) come leggi”, è un invito a non confondere la “legge” con il “leggere”:
+1	Titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Mangia	mangia	PROPN	SP	_	1	appos	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	invito	invito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	a	a	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	confondere	confondere	VERB	V	VerbForm=Inf	17	acl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	legge	legge	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	23	punct	_	_
+25	con	con	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	leggere	leggere	VERB	V	VerbForm=Inf	20	obl	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 2
+# text = chi si ferma a leggere le disposizioni è già dove la normativa dovrebbe portarci.
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	leggere	leggere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	disposizioni	disposizione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+9	già	già	ADV	B	_	14	advmod	_	_
+10	dove	dove	ADV	B	_	14	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	portarci	_	_	_	_	_	_	_	SpaceAfter=No
+14	portar	portare	VERB	V	VerbForm=Inf	0	root	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = La legge, in sua paternità, è composta da tre pilastri fondamentali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	legge	legge	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	paternità	paternità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	composta	comporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	pilastri	pilastro	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+13	fondamentali	fondamentale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Il primo, la normativa sulla gestione dei prodotti alimentari:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	alimentari	alimentare	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = obbligo di etichettatura nutrizionale chiara, limitazioni di pubblicità per prodotti ricchi di zuccheri, grassi e sale verso i minori e in aree pubbliche, e disposizioni su minimi di proteine per i pasti scolastici.
+1	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	etichettatura	etichettatura	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	nutrizionale	nutrizionale	ADJ	A	Number=Sing	3	amod	_	_
+5	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	limitazioni	limitazione	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	pubblicità	pubblicità	NOUN	S	Gender=Fem	7	nmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	zuccheri	zucchero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	grassi	grasso	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19	verso	verso	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	minori	minore	NOUN	S	Number=Plur	18	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	aree	area	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+25	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	disposizioni	disposizione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+29	su	su	ADP	E	_	30	case	_	_
+30	minimi	minimo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	pasti	pasto	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+36	scolastici	scolastico	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il secondo pilastro è la promozione di un modello di produzione alimentare sostenibile:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	pilastro	pilastro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	promozione	promozione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	modello	modello	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	alimentare	alimentare	ADJ	A	Number=Sing	11	amod	_	_
+13	sostenibile	sostenibile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = incentivi per l’agricoltura biologica, sanzioni per l’uso eccessivo di pesticidi, e un nuovo Fondo Verde per sostenere le cooperative agricole.
+1	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	uso	uso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	pesticidi	pesticidio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	Fondo	Fondo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+19	Verde	Verde	ADJ	A	Number=Sing	18	amod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	sostenere	sostenere	VERB	V	VerbForm=Inf	18	acl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	cooperative	cooperativa	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Il terzo, l’educazione alimentare:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terzo	terzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	alimentare	alimentare	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = obbligo di lezioni scolastiche sulla nutrizione, programmazione di campagne di sensibilizzazione per i cittadini, e un obiettivo ambizioso di riduzione dell’obesità del 10% entro il 2030.
+1	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	scolastiche	scolastico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nutrizione	nutrizione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	programmazione	programmazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	campagne	campagna	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sensibilizzazione	sensibilizzazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+21	ambizioso	ambizioso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	obesità	obesità	NOUN	S	Gender=Fem	23	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	10	10	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+30	%	%	SYM	SYM	_	26	nmod	_	_
+31	entro	entro	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	2030	2030	NUM	N	NumType=Card	1	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Il ministro della Salute, in una conferenza stampa dopo la promulgazione del decreto, ha detto che “l’obiettivo è chiaro:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Salute	Salute	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+10	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	9	compound	_	_
+11	dopo	dopo	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	promulgazione	promulgazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	che	che	SCONJ	CS	_	25	mark	_	_
+21	“	“	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	19	ccomp	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 11
+# text = fare in modo che ogni cittadino non solo comprenda il valore delle proprie scelte alimentari, ma sia anche facilmente in grado di fare scelte consapevoli grazie a strumenti normativi potenti.
+1	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	comprenda	comprendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	valore	valore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+16	alimentari	alimentare	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	23	punct	_	_
+18	ma	ma	CCONJ	CC	_	23	cc	_	_
+19	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21	facilmente	facilmente	ADV	B	_	23	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+27	consapevoli	consapevole	ADJ	A	Number=Plur	26	amod	_	_
+28	grazie	grazie	NOUN	S	_	30	case	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+31	normativi	normativo	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	potenti	potente	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 12
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 13
+# text = Questa dichiarazione è tutt’altro che sorpresa.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	tutt’	tutto	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sorpresa	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Nel corso degli ultimi anni, la salute pubblica italiana ha mostrato percentuali inquietanti:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	salute	salute	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	percentuali	percentuale	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	inquietanti	inquietante	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 15
+# text = secondo l’ISTAT, il 30,8% della popolazione adulta è in sovrappeso, mentre il 13,5% è sopra la soglia di obesità.
+1	secondo	secondo	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ISTAT	ISTAT	PROPN	SP	_	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	30,8	30,8	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	14	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	adulta	adulto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	sovrappeso	sovrappeso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	mentre	mentre	SCONJ	CS	_	23	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	13,5	13,5	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+19	%	%	SYM	SYM	_	23	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	sopra	sopra	ADV	B	_	23	advmod	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	14	advcl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	obesità	obesità	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 16
+# text = Il carico sanitario associato a malattie metaboliche, cardiovascolari e alcuni tipi di cancro richiama l’attenzione di chi, soprattutto i più vulnerabili, lottano in un contesto di distribuzione del cibo fortemente diseguale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carico	carico	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	associato	associare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	metaboliche	metabolico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	cardiovascolari	cardiovascolare	ADJ	A	Number=Plur	7	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	richiama	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	chi	chi	PRON	PR	PronType=Rel	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	soprattutto	soprattutto	ADV	B	_	24	advmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	vulnerabili	vulnerabile	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	lottano	lottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	fortemente	fortemente	ADV	B	_	36	advmod	_	_
+36	diseguale	diseguale	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 17
+# text = Tuttavia, l’implementazione di una legge su un tema così intrinsecamente personale e culturale non nasce senza ostacoli.
+1	Tuttavia	tuttavia	ADV	B	_	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	implementazione	implementazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	legge	legge	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	intrinsecamente	intrinseco	ADV	B	_	13	advmod	_	_
+13	personale	personale	ADJ	A	Number=Sing	10	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	culturale	culturale	ADJ	A	Number=Sing	13	conj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = La stessa legge, pur imponendo norme rigide sugli standard di etichettatura,
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	legge	legge	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	pur	pure	ADV	B	_	6	advmod	_	_
+6	imponendo	imporre	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	norme	norma	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	rigide	rigido	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9-10	sugli	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	standard	standard	NOUN	S	Gender=Masc	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	etichettatura	etichettatura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+

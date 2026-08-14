@@ -1,0 +1,597 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ieri MbS, come viene colloquialmente chiamato, si è concesso una fotogenica passeggiata lungo la Grande Muraglia.
+1	Ieri	ieri	ADV	B	_	11	advmod	_	_
+2	MbS	MbS	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	7	mark	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	colloquialmente	colloquialmente	ADV	B	_	7	advmod	_	_
+7	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fotogenica	fotogenica	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	passeggiata	passeggiare	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	lungo	lungo	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Grande	grande	PROPN	SP	_	13	nmod	_	_
+18	Muraglia	Muraglia	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Ma il piatto della forte della visita sarà oggi, quando il presidentissimo cinese Xi Jinping lo riceverà in pompa magna.
+1	Ma	ma	CCONJ	CC	_	20	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	forte	forte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	visita	visita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
+11	oggi	oggi	ADV	B	_	20	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	quando	quando	SCONJ	CS	_	20	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidentissimo	presidentissimo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+16	cinese	cinese	ADJ	A	Number=Sing	17	amod	_	_
+17	Xi	Xi	PROPN	SP	_	15	nmod	_	_
+18	Jinping	Jinping	PROPN	SP	_	17	flat:name	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	riceverà	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	pompa	pompa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	magna	magno	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 3
+# text = Xi vuole discutere di forniture energetiche e investimenti comuni, ma senza rischiare di spaventare o alienarsi un altro partner chiave come l’Iran, arcinemico dei Sauditi.
+1	Xi	Xi	PROPN	SP	_	3	nsubj	_	_
+2	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	discutere	discutere	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	forniture	fornitura	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	energetiche	energetico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9	comuni	comune	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13	rischiare	rischiare	VERB	V	VerbForm=Inf	3	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	spaventare	spaventare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17-18	alienarsi	_	_	_	_	_	_	_	_
+17	alienar	alienare	VERB	V	VerbForm=Inf	15	conj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	altro	altro	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	partner	partner	NOUN	S	_	17	obj	_	_
+22	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	21	compound	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	Iran	Iran	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	arcinemico	arcinemico	NOUN	S	Gender=Masc|Number=Sing	25	appos	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	Sauditi	Saudito	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Storicamente i rapporti tra Cina ed Arabia Saudita sono sempre stati abbastanza freddi, visto l’asse tra Riad e Washington.
+1	Storicamente	storicamente	ADV	B	_	13	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+4	tra	tra	ADP	E	_	5	case	_	_
+5	Cina	Cina	PROPN	SP	_	3	nmod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	Arabia	Arabia	PROPN	SP	_	5	conj	_	_
+8	Saudita	Saudita	PROPN	SP	_	7	flat:name	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	sempre	sempre	ADV	B	_	13	advmod	_	_
+11	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	cop	_	_
+12	abbastanza	abbastanza	ADV	B	_	13	advmod	_	_
+13	freddi	freddo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	asse	asse	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	tra	tra	ADP	E	_	19	case	_	_
+19	Riad	Riad	PROPN	SP	_	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	Washington	Washington	PROPN	SP	_	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Negli ultimi anni però, man mano che la fame di energia dell’economia cinese cresceva, il Regno è diventato il primo fornitore di petrolio di Pechino, e Pechino il suo primo partner commerciale.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+5	però	però	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	man	mano	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	compound	_	_
+9	che	che	SCONJ	CS	_	18	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fame	fame	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	energia	energia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	economia	economia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17	cinese	cinese	ADJ	A	Number=Sing	16	amod	_	_
+18	cresceva	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Regno	Regno	PROPN	SP	_	23	nsubj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+26	fornitore	fornitore	NOUN	S	Gender=Masc|Number=Sing	23	xcomp	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Pechino	Pechino	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	Pechino	Pechino	PROPN	SP	_	23	conj	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+35	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+36	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	37	amod	_	_
+37	partner	partner	NOUN	S	_	23	xcomp	_	_
+38	commerciale	commerciale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 6
+# text = Solo lo scorso anno i flussi verso la Cina sono cresciuti del 44%, il dato più alto tra tutti i Paesi del mondo.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	flussi	flusso	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Cina	Cina	PROPN	SP	_	6	nmod	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	44	44	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	dato	dato	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	alto	alto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+21	tra	tra	ADP	E	_	24	case	_	_
+22	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	24	det:predet	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = rep Approfondimento Khashoggi, scacco Cia a Mbs:
+1	rep	rep	NOUN	S	Gender=Masc	0	root	_	_
+2	Approfondimento	Approfondimento	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+3	Khashoggi	Khashoggi	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	scacco	scaccare	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	Cia	cia	PROPN	SP	_	5	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Mbs	Mbs	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = la partita più difficile di Trump di FRANCESCA CAFERRI
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	2	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Trump	Trump	PROPN	SP	_	8	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	FRANCESCA	Francesca	PROPN	SP	_	2	nmod	_	_
+9	CAFERRI	CAFERRI	PROPN	SP	_	8	flat:name	_	_
+
+# sent_id = 9
+# text = La visita è l’occasione per firmare nuovi accordi di fornitura di lungo periodo e una joint-venture per costruire una raffineria nel nordest della Cina.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visita	visita	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	firmare	firmare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fornitura	fornitura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	joint-	_	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	venture	venture	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	costruire	costruire	VERB	V	VerbForm=Inf	18	acl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	raffineria	raffineria	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	nordest	nordest	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Cina	Cina	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Ma anche, novità, di espandere la cooperazione in Paesi terzi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	novità	novità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	espandere	espandere	VERB	V	VerbForm=Inf	4	acl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Paesi	paese	PROPN	SP	_	9	nmod	_	_
+12	terzi	terzo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Le direttrici della Via della seta cinese corrono tutto attorno alla penisola araba e Riad potrebbe salire a bordo di alcuni di quei mastodontici progetti infrastrutturali.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	direttrici	direttore	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Via	Via	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	seta	seta	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	cinese	cinese	ADJ	A	Number=Sing	8	amod	_	_
+10	corrono	correre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+12	attorno	attorno	ADV	B	_	15	case	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	araba	arabo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Riad	Riad	PROPN	SP	_	16	conj	_	_
+19	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	salire	salire	VERB	V	VerbForm=Inf	10	advcl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	nmod	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	28	det	_	_
+27	mastodontici	mastodontico	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+29	infrastrutturali	infrastrutturale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Durante la tappa in Pakistan, MbS ha annunciato un investimento di 10 miliardi di dollari per la costruzione di un complesso petrolchimico a Gwadar, sulla costa a Sud del Paese.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tappa	tappa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Pakistan	Pakistan	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	MbS	MbS	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	10	10	NUM	N	NumType=Card	14	nummod	_	_
+14	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	complesso	complesso	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	petrolchimico	petrolchimico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Gwadar	Gwadar	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	costa	costa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Sud	Sud	PROPN	SP	_	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Gwadar è un fulcro della Via della seta, lì Pechino ha costruito e controlla un porto centrale nelle rotte che ha disegnato verso Africa ed Europa.
+1	Gwadar	Gwadar	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fulcro	fulcro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Via	Via	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	seta	seta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	lì	lì	ADV	B	_	13	advmod	_	_
+13	Pechino	Pechino	PROPN	SP	_	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	porto	porto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	centrale	centrale	ADJ	A	Number=Sing	19	amod	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	rotte	rotta	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+27	verso	verso	ADP	E	_	28	case	_	_
+28	Africa	Africa	PROPN	SP	_	26	obl	_	_
+29	ed	e	CCONJ	CC	_	30	cc	_	_
+30	Europa	Europa	PROPN	SP	_	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Arabia e Cina sono anche i due maggiori finanziatori del disastrato governo pakistano.
+1	Arabia	Arabia	PROPN	SP	_	9	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Cina	Cina	PROPN	SP	_	1	conj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	anche	anche	ADV	B	_	9	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	due	due	NUM	N	NumType=Card	9	nummod	_	_
+8	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	9	amod	_	_
+9	finanziatori	finanziatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	disastrato	disastrato	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	pakistano	pakistano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Mohammed bin Salman sulla Grande Muraglia prima dell'incontro con Xi Jinping Tutto questo, Pechino sta cercando di farlo senza spaventare lo storico avversario dei Sauditi nella regione, cioè l’Iran.
+1	Mohammed	Mohamme	PROPN	SP	_	20	nsubj	_	_
+2	bin	bino	ADP	E	_	3	case	_	_
+3	Salman	Salman	PROPN	SP	_	1	nmod	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	Grande	Grande	ADJ	A	Number=Sing	7	amod	_	_
+7	Muraglia	Muraglia	PROPN	SP	_	1	nmod	_	_
+8	prima	prima	ADV	B	_	11	case	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	8	fixed	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Xi	Xi	PROPN	SP	_	11	nmod	_	_
+14	Jinping	Jinping	PROPN	SP	_	13	flat:name	_	_
+15	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	Pechino	Pechino	PROPN	SP	_	20	nsubj	_	_
+19	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	farlo	_	_	_	_	_	_	_	_
+22	far	fare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	senza	senza	ADP	E	_	25	mark	_	_
+25	spaventare	spaventare	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	storico	storico	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	Sauditi	Saudito	PROPN	SP	_	28	nmod	_	_
+32-33	nella	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	regione	regione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	cioè	cioè	CCONJ	CC	_	38	cc	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	Iran	Iran	PROPN	SP	_	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 16
+# text = Dopo l’uscita degli Stati Uniti dall’accordo sul nucleare, la Cina si è schierata dalla parte di Teheran, subentrando a diversi investimenti abbandonati dalle aziende europee.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Stati	Stati	PROPN	SP	_	3	nmod	_	_
+7	Uniti	Uniti	PROPN	SP	_	6	flat:name	_	_
+8-9	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nucleare	nucleare	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Cina	Cina	PROPN	SP	_	19	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	schierata	schierare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Teheran	Teheran	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	subentrando	subentrare	VERB	V	VerbForm=Ger	19	advcl	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	abbandonati	abbandonare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31-32	dalle	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	30	obl:agent	_	_
+34	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 17
+# text = Poco prima dell’arrivo a Pechino di MbS, in città erano stati accolti il ministro degli Esteri e il presidente del Parlamento iraniano, una sorta di grande messaggio di rassicurazione.
+1	Poco	poco	ADV	B	_	5	advmod	_	_
+2	prima	prima	ADV	B	_	5	case	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	2	fixed	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Pechino	Pechino	PROPN	SP	_	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	MbS	MbS	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	città	città	NOUN	S	Gender=Fem	15	obl	_	_
+13	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	accolti	accogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Parlamento	Parlamento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	iraniano	iraniano	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	23	appos	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	grande	grande	ADJ	A	Number=Sing	33	amod	_	_
+33	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	rassicurazione	rassicurazione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 18
+# text = Un secondo, lo ha messo nero su bianco ieri il quotidiano di regime Global Times , ribadendo il mantra della diplomazia mandarina:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	nero	nero	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	ieri	ieri	ADV	B	_	6	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	regime	regime	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	Global	Global	PROPN	SP	_	12	nmod	_	_
+16	Times	Times	PROPN	SP	_	15	flat:name	_	_
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	ribadendo	ribadire	VERB	V	VerbForm=Ger	6	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mantra	mantra	NOUN	S	Gender=Masc	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	diplomazia	diplomazia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	mandarina	mandarina	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 19
+# text = la Cina non vuole fare politica, solo affari.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Cina	Cina	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	affari	affare	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Eppure in Medio Oriente raramente politica e affari sono slegati.
+1	Eppure	eppure	CCONJ	CC	_	3	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Medio	medio	PROPN	SP	_	10	nsubj	_	_
+4	Oriente	Oriente	PROPN	SP	_	3	flat:name	_	_
+5	raramente	raramente	ADV	B	_	6	advmod	_	_
+6	politica	politico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	affari	affare	ADJ	A	Number=Plur	6	conj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	slegati	slegare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 21
+# text = Pechino sta camminando su un filo molto sottile.
+1	Pechino	Pechino	PROPN	SP	_	3	nsubj	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	camminando	camminare	VERB	V	VerbForm=Ger	0	root	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	filo	filo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	sottile	sottile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

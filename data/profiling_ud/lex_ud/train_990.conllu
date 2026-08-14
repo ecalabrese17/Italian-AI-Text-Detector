@@ -1,0 +1,365 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La frase, purciò, non è stata accolta come mera poesia politica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	purciò	purciò	ADV	B	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	mera	mero	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	politica	politico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Un certo fatto, quasi ironico, che ha scatenato l’attenzione dei media:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	certo	certo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quasi	quasi	ADV	B	_	6	advmod	_	_
+6	ironico	ironico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	media	media	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = l’invito sarebbe stato accompagnato da un’arte pubblicata sulla recentissima ‘80 euro’ – la quale, per chi la conosce, è una forma di moneta, non di comunicazione politica.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	invito	invito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	arte	arte	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	pubblicata	pubblicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	14	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	recentissima	recente	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	14	amod	_	_
+13	‘80	‘80	NUM	N	NumType=Card	14	nummod	_	_
+14	euro	euro	NOUN	S	Gender=Masc	9	obl	_	SpaceAfter=No
+15	’	’	PUNCT	FF	_	5	punct	_	_
+16	–	–	PUNCT	FB	_	5	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quale	quale	PRON	PR	Number=Sing|PronType=Rel	5	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	chi	chi	PRON	PR	Number=Sing|PronType=Rel	27	nsubj	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	forma	forma	NOUN	S	Gender=Fem|Number=Sing	18	acl:relcl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	moneta	moneta	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+34	politica	politico	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Si tratta di una nuova iniziativa per sottolineare il valore del turismo all’interno della cultura nazionale:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	sottolineare	sottolineare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	valore	valore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	interno	interno	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	nazionale	nazionale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = la produzione di moneta con immagini delle destinazioni italiane mira a rinvigorire l’ibrido tra economia e patrimonio, ma al contempo nasconde una delicatezza che sfiora lo stato di marketing sovranazionale.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	moneta	moneta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	destinazioni	destinazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	mira	mirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	rinvigorire	rinvigorire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ibrido	ibrido	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	tra	tra	ADP	E	_	17	case	_	_
+17	economia	economia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	ma	ma	CCONJ	CC	_	25	cc	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	contempo	contempo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+25	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	delicatezza	delicatezza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	sfiora	sfiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	stato	stato	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	marketing	marketing	NOUN	S	Gender=Masc	31	nmod	_	_
+34	sovranazionale	sovranazionale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Per i protagonisti della destra conservatrice, o meglio per chi si posiziona a sostegno dell’autosufficienza economica degli italiani, questa trasformazione è un elemento che ricorda la storia contemporanea del turismo in Italia:
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	destra	destra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	conservatrice	conservatore	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	meglio	meglio	ADV	B	_	3	conj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	posiziona	posizionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	autosufficienza	autosufficienza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	economica	economico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	3	punct	_	_
+25	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	storia	storia	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	contemporanea	contemporaneo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	Italia	Italia	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	29	punct	_	_
+
+# sent_id = 7
+# text = un modo per invogliare i cittadini a vivere la loro terra, a combattere la fuga di capitali e a mantenere la spirito“in casa nostra”.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	invogliare	invogliare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	vivere	vivere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	combattere	combattere	VERB	V	VerbForm=Inf	8	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	capitali	capitale	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	mantenere	mantenere	VERB	V	VerbForm=Inf	8	conj	_	_
+22	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	spirito“	spirito“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	in	in	ADP	E	_	25	case	_	_
+25	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Se questo rimane anche solo una metafora, il fatto che la frase sia “sugli 80 euro” è un messaggio implicito:
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	metafora	metafora	NOUN	S	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+11	che	che	SCONJ	CS	_	23	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	frase	frase	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+14	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+15	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+16-17	sugli	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	80	80	NUM	N	NumType=Card	19	nummod	_	_
+19	euro	euro	NOUN	S	Gender=Masc	23	obl	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	10	advcl	_	_
+24	implicito	implicito	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = il valore dell’itinerario turistico deve essere rispettato e difeso, come il valore del denaro stesso.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	valore	valore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	itinerario	itinerario	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	rispettato	rispettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	difeso	difendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	valore	valore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Insomma, i cittadini, come si è detto, possono partire in vacanza con serenità.
+1	Insomma	insomma	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	partire	partire	VERB	V	VerbForm=Inf	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	serenità	serenità	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = E dentro il rialzo del loro portafoglio, frammenti della nostra ricchezza culturale rimangono costantemente rappresentati sul pezzo di denaro che hanno in tasca, ricordandoci che l’Italia è sempre dove l’Europa la ama e che il suo piatto del vecchio casale è pronto, in qualsiasi moneta, a essere servito.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	dentro	dentro	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	rialzo	rialzo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	portafoglio	portafoglio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	frammenti	frammento	NOUN	S	Gender=Masc|Number=Plur	4	appos	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	culturale	culturale	ADJ	A	Number=Sing	14	amod	_	_
+16	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	costantemente	costantemente	ADV	B	_	18	advmod	_	_
+18	rappresentati	rappresentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	xcomp	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	16	punct	_	_
+29-30	ricordandoci	_	_	_	_	_	_	_	_
+29	ricordando	ricordare	VERB	V	VerbForm=Ger	16	advcl	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	expl	_	_
+31	che	che	SCONJ	CS	_	38	mark	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	Italia	Italia	PROPN	SP	_	38	nsubj	_	_
+34	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+35	sempre	sempre	ADV	B	_	38	advmod	_	_
+36	dove	dove	ADV	B	_	38	advmod	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	Europa	Europa	PROPN	SP	_	29	obl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	ama	ama	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	e	e	CCONJ	CC	_	51	cc	_	_
+42	che	che	SCONJ	CS	_	51	mark	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	_
+46-47	del	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+49	casale	casala	ADJ	A	Number=Sing	48	amod	_	_
+50	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
+51	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	38	conj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	51	punct	_	_
+53	in	in	ADP	E	_	55	case	_	_
+54	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	55	det	_	_
+55	moneta	moneta	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	55	punct	_	_
+57	a	a	ADP	E	_	59	mark	_	_
+58	essere	essere	AUX	VA	VerbForm=Inf	59	aux:pass	_	_
+59	servito	servire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	advcl	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	38	punct	_	SpacesAfter=\n
+

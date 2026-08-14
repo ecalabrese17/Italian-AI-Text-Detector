@@ -1,0 +1,314 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Mi ha abbandonato," ha ammesso Dimitri, con un tono che lascia presagire un’incredibile delusione, intervistato da un tabloid straniero, e fuga la parola ‘madre’.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	abbandonato	abbandonato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	8	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+9	Dimitri	Dimitri	PROPN	SP	_	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tono	tono	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	presagire	presagire	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	incredibile	incredibile	ADJ	A	Number=Sing	19	amod	_	_
+19	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tabloid	tabloid	NOUN	S	Number=Sing	21	obl:agent	_	_
+25	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	fuga	fugare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	parola	parola	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	‘madre	‘madre	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	’	’	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non è una notizia sorprendente, a dire il vero.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	sorprendente	sorprendente	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vero	vero	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La signora Grecia, con la sua ossessione per le lacrime teatrali e i drammi gonfiati, si è costruita un impero sulla manipolazione emotiva.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+3	Grecia	Grecia	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	teatrali	teatrale	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	drammi	dramma	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+16	gonfiati	gonfiato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	costruita	costruire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	impero	impero	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	manipolazione	manipolazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	emotiva	emotivo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 4
+# text = Un impero che ha logorato il suo consorte, Cosimo, e che ora, a quanto pare, ha lasciato in frantumi il figlio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	impero	impero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	logorato	logorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	consorte	consorte	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Cosimo	Cosimo	PROPN	SP	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	21	punct	_	_
+12	e	e	CCONJ	CC	_	21	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+14	ora	ora	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+18	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	frantumi	frantume	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma la vera sorpresa non è la rottura, bensì l'assenza di una minima pietà.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vera	vero	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rottura	rottura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	bensì	bensì	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	pietà	pietà	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Mentre il pubblico italiano è stato abituato a considerarla una vittima, una donna tormentata dalla vita e da un marito, Dimitri sembra finalmente aver rischiato l’autenticità, confidando a un giornalista straniero la verità:
+1	Mentre	mentre	SCONJ	CS	_	7	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	abituato	abituare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	considerarla	_	_	_	_	_	_	_	_
+9	considerar	considerare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+16	tormentata	estormenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	dalla	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vita	vita	NOUN	S	Gender=Fem|Number=Sing	16	obl:agent	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	marito	marito	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25	Dimitri	Dimitri	PROPN	SP	_	26	nsubj	_	_
+26	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	finalmente	finalmente	ADV	B	_	26	advmod	_	_
+28	aver	avere	AUX	VA	VerbForm=Inf	29	aux	_	_
+29	rischiato	rischiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	autenticità	autenticità	NOUN	S	Gender=Fem	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	29	punct	_	_
+33	confidando	confidare	VERB	V	VerbForm=Ger	29	advcl	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	giornalista	giornalista	NOUN	S	Number=Sing	33	obl	_	_
+37	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	verità	verità	NOUN	S	Gender=Fem	33	obj	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	26	punct	_	_
+
+# sent_id = 7
+# text = che la madre non è altro che un’attrice magistrale nel finire i conti.
+1	che	che	SCONJ	CS	_	6	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	6	advcl	_	_
+10	magistrale	magistrale	ADJ	A	Number=Sing	9	amod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	finire	finire	VERB	V	VerbForm=Inf	10	obl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	conti	conto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Una creatura che, per fare scena, necessita di un dramma di proporzioni epiche, una caduta di stile, un dolore che si vorrebbe vero ma che è solo recitato.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+7	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	necessita	necessitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	proporzioni	proporzione	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	epiche	epico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	stile	stile	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+26	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	vero	vero	ADJ	A	Gender=Masc|Number=Sing	23	acl:relcl	_	_
+28	ma	ma	CCONJ	CC	_	32	cc	_	_
+29	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	solo	solo	ADV	B	_	32	advmod	_	_
+32	recitato	recitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E qui mi permetto un’analisi lucida:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	permetto	permettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	analisi	analisi	NOUN	S	Gender=Fem	4	obj	_	_
+7	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = Il Grande Fratello, o meglio, "Isola dei Famosi", ha solo amplificato, polarizzato e perennemente esposto il suo spettacolo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Grande	Grande	PROPN	SP	_	17	nsubj	_	_
+3	Fratello	fratello	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	meglio	meglio	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Isola	isola	PROPN	SP	_	2	nmod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Famosi	famoso	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	solo	solo	ADV	B	_	17	advmod	_	_
+17	amplificato	amplificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	polarizzato	polarizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	perennemente	perennemente	ADV	B	_	22	advmod	_	_
+22	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 11
+# text = Non abbiamo visto Grecia Pappas, abbiamo visto una performance di un’eccellente, sebbene infelice, artista.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Grecia	Grecia	PROPN	SP	_	3	obj	_	_
+5	Pappas	Pappas	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	performance	performance	NOUN	S	Gender=Fem	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	eccellente	eccellente	ADJ	A	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	sebbene	sebbene	SCONJ	CS	_	16	mark	_	_
+16	infelice	infelice	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	artista	artista	NOUN	S	Number=Sing	8	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Il figlio, finalmente libero dall’ombra del padre e,
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	finalmente	finalmente	ADV	B	_	5	advmod	_	_
+5	libero	libero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+6-7	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	padre	padre	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

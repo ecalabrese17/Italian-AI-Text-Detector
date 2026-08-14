@@ -1,0 +1,360 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I dati parlano chiaro:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = secondo le stime dell'Istat, nel 2021 quasi 160mila italiani hanno deciso di Leave Italy, ossia di lasciare il proprio paese per cercare fortuna all'estero.
+1	secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	stime	stima	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Istat	Istat	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2021	2021	NUM	N	NumType=Card	13	nummod	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	160mila	160mila	NUM	N	NumType=Card	10	flat	_	_
+13	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Leave	Leave	PROPN	SP	_	15	obl	_	_
+18	Italy	Italy	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	ossia	ossia	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	lasciare	lasciare	VERB	V	VerbForm=Inf	17	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	paese	paese	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	cercare	cercare	VERB	V	VerbForm=Inf	22	advcl	_	_
+28	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+29-30	all'	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	estero	estero	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Un numero preoccupante che si aggiunge alla decina di milioni di connazionali che negli ultimi anni hanno già deciso di etr'atterra all'estero.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	preoccupante	preoccupante	ADJ	A	Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	decina	decina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	connazionali	connazionale	NOUN	S	Number=Plur	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+15-16	negli	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	già	già	ADV	B	_	21	advmod	_	_
+21	deciso	deciso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	etr'	etro	DET	DD	Number=Sing|PronType=Dem	24	det	_	SpaceAfter=No
+24	atterra	atterra	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	estero	estero	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma perché gli italiani scelgono di andare via?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	scelgono	scegliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	via	via	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La risposta è semplice:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = mancanza di opportunità lavorative e basso reddito.
+1	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	opportunità	opportunità	NOUN	S	Gender=Fem	1	nmod	_	_
+4	lavorative	lavorativo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	basso	basso	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Il tasso di disoccupazione in Italia è ancora troppo alto e molti giovani, specialmente, non vedono alcuna speranza nel futuro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	2	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	ancora	ancora	ADV	B	_	10	advmod	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	alto	alto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+11	e	e	CCONJ	CC	_	18	cc	_	_
+12	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	giovani	giovane	NOUN	S	Number=Plur	18	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	specialmente	specialmente	ADV	B	_	18	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
+20	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Inoltre, il reddito medio italiano è uno dei più bassi in Europa, con una differenza abissale rispetto ad altri paesi dell'Unione Europea.
+1	Inoltre	inoltre	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	medio	medio	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	8	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Europa	Europa	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+19	abissale	abissale	ADJ	A	Number=Sing	18	amod	_	_
+20	rispetto	rispetto	ADV	B	_	23	case	_	_
+21	ad	a	ADP	E	_	20	fixed	_	_
+22	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Unione	Unione	PROPN	SP	_	23	nmod	_	_
+27	Europea	Europea	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Ma non sono solo i giovani ad andarsene:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giovani	giovane	NOUN	S	Number=Plur	0	root	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8-10	andarsene	_	_	_	_	_	_	_	SpaceAfter=No
+8	andar	andare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+11	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = sempre più professionisti e imprenditori stanno scegliendo di fare le valigie per cercare fortuna altrove, attratti dalle opportunità lavorative e dai incentivi fiscali offerti da altri paesi.
+1	sempre	sempre	ADV	B	_	2	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	professionisti	professionista	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scegliendo	scegliere	VERB	V	VerbForm=Ger	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	valigie	valigia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	cercare	cercare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	altrove	altrove	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	attratti	attrarre	ADV	B	_	20	advmod	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	opportunità	opportunità	NOUN	S	Gender=Fem	7	conj	_	_
+21	lavorative	lavorativo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dai	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+26	fiscali	fiscale	ADJ	A	Number=Plur	25	amod	_	_
+27	offerti	offrire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	altri	altro	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+30	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	27	obl:agent	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Questo fenomeno ha delle conseguenze preoccupanti per l'Italia:
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	preoccupanti	preoccupante	ADJ	A	Number=Plur	6	amod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = si stima che, solo nel 2021, l'Italia abbia perso cervelli per un valore di oltre 50 miliardi di euro.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	stima	stimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	13	punct	_	_
+5	solo	solo	ADV	B	_	8	advmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2021	2021	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Italia	Italia	PROPN	SP	_	13	nsubj	_	_
+12	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+14	cervelli	cervello	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	valore	valore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	oltre	oltre	ADV	B	_	20	advmod	_	_
+20	50	50	NUM	N	NumType=Card	21	nummod	_	_
+21	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	euro	euro	NOUN	S	Gender=Masc	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Una perdita che, a lungo termine, potrebbe avere ripercussioni sull'economia e competitività del nostro paese.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	termine	termine	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+11	ripercussioni	ripercussione	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12-13	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+12	su	su	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	economia	economia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	competitività	competitività	NOUN	S	Gender=Fem	14	conj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	paese	paese	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Inoltre, la partenza dei nostri concittadini ha un impatto anche sulla società e sulla cultura italiana.
+1	Inoltre	inoltre	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	concittadini	concittadino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	società	società	NOUN	S	Gender=Fem	11	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Diventa sempre più difficile mantenere vivi i legami con la propria terra d'origine per chi è costretto a vivere lontano.
+1	Diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	1	xcomp	_	_
+5	mantenere	mantenere	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	vivi	vivo	ADJ	A	Gender=Masc|Number=Plur	5	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	legami	legame	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	terra	terra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	origine	origine	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	vivere	vivere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	lontano	lontano	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Eppure, ci sono deiarbeitetiichtiCèèperòè wird vivenza che mostrano
+1	Eppure	eppure	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	deiarbeitetiichtiCè	deiarbeitetiichtiCé	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	èperò	èperò	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	wird	wird	ADJ	A	_	4	ccomp	_	_
+9	vivenza	vivenza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpacesAfter=\n
+

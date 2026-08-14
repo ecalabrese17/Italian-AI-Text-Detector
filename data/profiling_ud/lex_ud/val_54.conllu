@@ -1,0 +1,411 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Disertarli non è utile.
+1-2	Disertarli	_	_	_	_	_	_	_	_
+1	Disertar	Disertare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	utile	utile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Penso che tutti debbano portare il proprio contributo affinché il nostro confronto interno sia vero, ma anche leale e rispettoso".
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	portare	portare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	affinché	affinché	SCONJ	CS	_	15	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	interno	interno	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	sia	sia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	vero	vero	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ma	ma	CCONJ	CC	_	19	cc	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	leale	leale	ADJ	A	Number=Sing	1	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	rispettoso	rispettoso	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Arrivando alla riunione, il presidente della Commissione Lavoro della Camera Cesare Damiano ha dichiarato che "da parte di Bersani non c'è stato nessun ordine di scuderia a non partecipare" rivolto alla minoranza del partito.
+1	Arrivando	arrivare	VERB	V	VerbForm=Ger	18	advcl	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	Lavoro	lavoro	PROPN	SP	_	10	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Camera	Camera	PROPN	SP	_	11	nmod	_	_
+15	Cesare	Cesare	PROPN	SP	_	14	flat:name	_	_
+16	Damiano	Damiano	PROPN	SP	_	14	flat:name	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	che	che	SCONJ	CS	_	28	mark	_	_
+20	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+21	da	da	ADP	E	_	22	case	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Bersani	Bersani	PROPN	SP	_	22	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	SpaceAfter=No
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+29	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	scuderia	scuderia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	a	a	ADP	E	_	35	mark	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	partecipare	partecipare	VERB	V	VerbForm=Inf	28	ccomp	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	37	punct	_	_
+37	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	xcomp	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	partito	partito	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 4
+# text = Da parte sua l'ex segretario ha replicato oggi al Gr1:
+1	Da	da	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ex	ex	ADJ	A	_	6	amod	_	_
+6	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	replicato	replicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	oggi	oggi	ADV	B	_	8	advmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Gr1	Gr1	PROPN	SP	_	8	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 5
+# text = "Ognuno farà quel che vorrà.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	vorrà	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Io gliele ho mandate quattro idee.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gliele	gliele	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	mandate	mandare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+5	quattro	quattro	NUM	N	NumType=Card	6	nummod	_	_
+6	idee	idea	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Non in burocratese, molto brevi.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	burocratese	burocratesa	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	brevi	breve	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Praticamente ho partecipato.
+1	Praticamente	praticamente	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = No?
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = al di là delle battute è ora di discutere sul serio.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	7	advmod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	battute	battuta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	ora	ora	ADV	B	_	11	advmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	discutere	discutere	VERB	V	VerbForm=Inf	0	root	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	serio	serio	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 11
+# text = Attenzione che stiamo cambiando forma alla nostra democrazia e non sono cosucce da poco.
+1	Attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+3	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cambiando	cambiare	VERB	V	VerbForm=Ger	1	acl:relcl	_	_
+5	forma	forma	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	cosucce	cosucce	ADJ	A	Number=Sing	1	conj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	poco	poco	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Sarà ora di discutere seriamente, non per spot.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	discutere	discutere	VERB	V	VerbForm=Inf	0	root	_	_
+5	seriamente	seriamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	spot	spot	NOUN	S	Gender=Masc	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Basta fare una discussione ordinata.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	ordinata	ordinato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Facciamo come abbiamo fatto col cosiddetto metodo Mattarella".
+1	Facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	4	mark	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	cosiddetto	cosiddetto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	Mattarella	Mattarella	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Nel corso dell'incontro Renzi ha annunciato che probabilmente il dieci maggio si terranno le elezioni regionali, come scrive su Twitter il deputato Ettore Rosato:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	probabilmente	probabilmente	ADV	B	_	16	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dieci	dieci	NUM	N	NumType=Card	16	obl	_	_
+14	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+16	terranno	terrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+19	regionali	regionale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	come	come	SCONJ	CS	_	22	mark	_	_
+22	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+23	su	su	ADP	E	_	24	case	_	_
+24	Twitter	Twitter	PROPN	SP	_	22	obl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+27	Ettore	Ettore	PROPN	SP	_	26	nmod	_	_
+28	Rosato	Rosato	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 16
+# text = Incontro di @matteorenzi con @Deputatipd e @SenatoriPD Menù: scuola, rai, ambiente, fisco.
+1	Incontro	incontro	ADP	E	_	3	case	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	@matteorenzi	@matteorenzi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	@Deputatipd	@Deputatipd	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	@SenatoriPD	@SenatoriPD	PROPN	SP	_	5	conj	_	_
+8	Menù	menù	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+10	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	rai	rare	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	fisco	fisco	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Intanto il 10 maggio probabili le amministrative — Ettore Rosato (@Ettore_Rosato) 27 Febbraio 2015 All'ordine del giorno, tra le altre cose, le misure sulla scuola che saranno esaminate dal Cdm di martedì.
+1	Intanto	intanto	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	10	10	NUM	N	NumType=Card	7	nummod	_	_
+4	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	probabili	probabile	ADJ	A	Number=Plur	3	amod	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	amministrative	amministrativa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+8	—	—	PUNCT	FF	_	9	punct	_	_
+9	Ettore	Ettore	PROPN	SP	_	7	nmod	_	_
+10	Rosato	Rosato	PROPN	SP	_	9	flat:name	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	@Ettore_Rosato	@Ettore_Rosato	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	27	27	NUM	N	NumType=Card	9	nmod	_	_
+15	Febbraio	febbraio	PROPN	SP	_	14	flat	_	_
+16	2015	2015	NUM	N	NumType=Card	14	flat	_	_
+17-18	All'	_	_	_	_	_	_	_	SpaceAfter=No
+17	A	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	7	punct	_	_
+24	tra	tra	ADP	E	_	27	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	altre	altro	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+27	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	misure	misura	NOUN	S	Gender=Fem|Number=Plur	27	conj	_	_
+31-32	sulla	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj:pass	_	_
+35	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	36	aux:pass	_	_
+36	esaminate	esaminare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Cdm	Cdm	PROPN	SP	_	36	obl:agent	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	martedì	martedì	NOUN	S	Gender=Masc	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = In proposito una trentina di studenti hanno protestato davanti alla sede del Pd:
+1	In	in	ADP	E	_	2	case	_	_
+2	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	trentina	trentina	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	protestato	protestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	davanti	davanti	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sede	sede	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pd	Pd	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 19
+# text = "La scuola è pubblica e non si tocca, la difenderemo con la lotta", era lo slogan.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	difenderemo	difendare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	slogan	slogan	NOUN	S	Gender=Masc	5	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Sono stati accesi anche alcuni fumogeni.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	accesi	accendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	fumogeni	fumogeno	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Poi sono intervenute le forze dell'ordine quando gli studenti hanno provato ad avvicinarsi all'ingresso.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	intervenute	intervenire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	forze	forza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	quando	quando	SCONJ	CS	_	13	mark	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15-16	avvicinarsi	_	_	_	_	_	_	_	_
+15	avvicinar	avvicinare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

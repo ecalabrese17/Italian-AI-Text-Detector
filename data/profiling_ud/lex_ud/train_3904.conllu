@@ -1,0 +1,274 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il film, diretto dal regista David F. Sandberg, si basa sull'omonimo corto del 2013, che aveva già fatto parlare di sé per la sua originale e innovativa trama.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	film	film	NOUN	S	Gender=Masc	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	regista	regista	NOUN	S	Number=Sing	4	obl:agent	_	_
+8	David	David	PROPN	SP	_	7	nmod	_	_
+9	F.	F.	PROPN	SP	_	8	flat:name	_	_
+10	Sandberg	Sandberg	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14-15	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+14	su	su	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	omonimo	omonimo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	corto	corto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2013	2013	NUM	N	NumType=Card	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+26	parlare	parlare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	obl	_	_
+29	per	per	ADP	E	_	35	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+32	originale	originale	ADJ	A	Number=Sing	35	amod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	innovativa	innovativo	ADJ	A	Gender=Fem|Number=Sing	32	conj	_	_
+35	trama	trama	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = La pellicola è prodotta da James Wan, il regista di "Saw" e "The Conjuring", e si può già intuire che il thriller e l'orrore saranno protagonisti assoluti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	James	James	PROPN	SP	_	4	obl:agent	_	_
+7	Wan	Wan	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	regista	regista	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Saw	Saw	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	The	The	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	Conjuring	Conjuring	PROPN	SP	_	13	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:impers	_	_
+23	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	intuire	intuire	VERB	V	VerbForm=Inf	4	conj	_	_
+26	che	che	SCONJ	CS	_	33	mark	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	thriller	thriller	NOUN	S	Gender=Masc	33	nsubj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+32	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	33	cop	_	_
+33	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	25	ccomp	_	_
+34	assoluti	assoluto	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La storia si svolge intorno a una weaken famiglia, composta dalla madre Sophie (Maria Bello) e dalle sue due figlie, Rebecca (Teresa Palmer) e Martin (Gabrielle Bateman).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	svolge	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	intorno	intorno	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	weaken	weaken	NOUN	S	Gender=Fem	4	obl	_	_
+9	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	composta	comporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	madre	madre	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	Sophie	Sophie	PROPN	SP	_	14	nmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Maria	Maria	PROPN	SP	_	15	appos	_	_
+18	Bello	bello	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	17	punct	_	_
+20	e	e	CCONJ	CC	_	25	cc	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	25	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+23	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+24	due	due	NUM	N	NumType=Card	25	nummod	_	_
+25	figlie	figlio	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	Rebecca	Rebecca	PROPN	SP	_	25	appos	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	Teresa	Teresa	PROPN	SP	_	27	nmod	_	_
+30	Palmer	Palmer	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	29	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	Martin	Martin	PROPN	SP	_	27	conj	_	_
+34	(	(	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	Gabrielle	Gabrielle	PROPN	SP	_	33	appos	_	_
+36	Bateman	Bateman	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La giovane Rebecca torna a casa dopo anni di distanza,rist");
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+3	Rebecca	Rebecca	PROPN	SP	_	4	nsubj	_	_
+4	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	dopo	dopo	ADP	E	_	8	case	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	distanza,rist	distanza,rist	NOUN	S	_	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = and) ( belongings,) separate,look virtually identical, it is not initially clear; finou reminds her of her past.
+1	and	and	NOUN	S	_	4	nmod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	_
+4	belongings	belongings	NOUN	S	_	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	4	punct	_	_
+7	separate,look	separate,look	X	SW	Foreign=Yes	0	root	_	_
+8	virtually	virtually	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	identical	identical	ADJ	A	_	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	it	it	X	SW	Foreign=Yes	7	flat:foreign	_	_
+12	is	is	X	SW	Foreign=Yes	7	flat:foreign	_	_
+13	not	not	X	SW	Foreign=Yes	7	flat:foreign	_	_
+14	initially	initially	X	SW	Foreign=Yes	7	flat:foreign	_	_
+15	clear	cleare	NOUN	S	Gender=Masc	7	flat:foreign	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	17	punct	_	_
+17	finou	finou	X	SW	Foreign=Yes	7	conj	_	_
+18	reminds	reminds	X	SW	Foreign=Yes	17	flat:foreign	_	_
+19	her	here	X	SW	Foreign=Yes	17	flat:foreign	_	_
+20	of	of	X	SW	Foreign=Yes	17	flat:foreign	_	_
+21	her	her	X	SW	Foreign=Yes	17	flat:foreign	_	_
+22	past	past	X	SW	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = It is then that dark, sinister figure begins to appear in their house, making the family's life a living hell.
+1	It	It	X	SW	Foreign=Yes	0	root	_	_
+2	is	is	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	then	then	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	that	that	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	dark	dark	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	sinister	sinister	X	SW	Foreign=Yes	1	appos	_	_
+8	figure	figure	NOUN	S	Gender=Fem|Number=Plur	7	compound	_	_
+9	begins	begins	X	SW	Foreign=Yes	8	compound	_	_
+10	to	to	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	appear	appeare	VERB	V	VerbForm=Inf	7	amod	_	_
+12	in	in	ADP	E	_	13	mark	_	_
+13	their	their	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	house	houso	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	making	making	SYM	X	_	14	conj	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	family	family	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+19	's	's	PART	PART	_	18	case	_	_
+20	life	life	NOUN	S	_	18	nmod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	living	living	NOUN	S	Gender=Masc	13	obl	_	_
+23	hell	hell	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = The catch is that this creature, known only as "Diana", can only manifest itself when the lights are turned off, and disappears as soon as they are turned back on.
+1	The	The	X	SW	Foreign=Yes	22	nsubj	_	_
+2	catch	catch	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	is	is	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	that	that	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	this	this	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	1	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	known	knowno	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	only	only	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	as	a	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Diana	Diana	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	can	can	NOUN	S	Gender=Masc	1	appos	_	_
+16	only	only	X	SW	Foreign=Yes	15	compound	_	_
+17	manifest	manifest	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	itself	itself	X	SW	Foreign=Yes	16	flat:foreign	_	_
+19	when	when	X	SW	Foreign=Yes	16	flat:foreign	_	_
+20	the	the	X	SW	Foreign=Yes	16	flat:foreign	_	_
+21	lights	lights	X	SW	Foreign=Yes	15	flat:foreign	_	_
+22	are	are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	turned	turned	X	SW	Foreign=Yes	22	obj	_	_
+24	off	off	X	SW	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	and	and	X	SW	Foreign=Yes	23	flat:foreign	_	_
+27	disappears	disappears	X	SW	Foreign=Yes	23	flat:foreign	_	_
+28	as	as	X	SW	Foreign=Yes	23	flat:foreign	_	_
+29	soon	soon	X	SW	Foreign=Yes	23	flat:foreign	_	_
+30	as	as	X	SW	Foreign=Yes	23	flat:foreign	_	_
+31	they	they	X	SW	Foreign=Yes	23	flat:foreign	_	_
+32	are	are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+33	turned	turned	X	SW	Foreign=Yes	32	obj	_	_
+34	back	back	X	SW	Foreign=Yes	33	flat:foreign	_	_
+35	on	on	X	SW	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 8
+# text = Il film si sviluppa attraverso una serie di jumpscare e colpi di scena, mantenendo alta la tensione fin dai primi minuti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	film	film	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	sviluppa	sviluppare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	attraverso	attraverso	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	serie	serie	NOUN	S	Gender=Fem	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	jumpscare	jumpscare	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	scena	scena	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	mantenendo	mantenere	VERB	V	VerbForm=Ger	4	advcl	_	_
+16	alta	alto	ADJ	A	Gender=Fem|Number=Sing	15	xcomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	fin	fino	ADV	B	_	23	case	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	19	fixed	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	23	amod	_	_
+23	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = La particularesituazione narrativa, che vede i personaggi frighteningly (
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	particularesituazione	particularesituazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	narrativa	narrativo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	frighteningly	frighteningly	ADJ	A	_	8	amod	_	_
+10	(	(	PUNCT	FB	_	2	punct	_	SpacesAfter=\n
+

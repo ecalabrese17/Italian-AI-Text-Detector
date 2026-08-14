@@ -1,0 +1,393 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che, in un post su Facebook , ha attaccato il Cinque Stelle.
+1	Che	che	PRON	PR	PronType=Rel	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	post	post	NOUN	S	_	10	obl	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	Facebook	Facebook	PROPN	SP	_	5	nmod	_	_
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	attaccato	attaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Cinque	Cinque	PROPN	SP	_	10	obj	_	_
+13	Stelle	Stelle	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = "Dicevano in campagna elettorale che avrebbero fermato il Terzo Valico.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Dicevano	Dicere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	elettorale	elettorale	ADJ	A	Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	Terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	Valico	valico	PROPN	SP	_	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Oggi che sono al Governo si sono rimangiati tutto.
+1	Oggi	oggi	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rimangiati	rimangiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il Terzo Valico è amianto, devastazione ambientale, corruzione, arresti, tangenti, infiltrazioni della criminalità organizzata, distruzione di sorgenti e falde acquifere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Terzo	terzo	PROPN	SP	_	5	nsubj	_	_
+3	Valico	valico	PROPN	SP	_	2	flat:name	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	amianto	amianto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	devastazione	devastazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8	ambientale	ambientale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	arresti	arresto	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	tangenti	tangente	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	infiltrazioni	infiltrazione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	criminalità	criminalità	NOUN	S	Gender=Fem	16	nmod	_	_
+20	organizzata	organizzato	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	distruzione	distruzione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	sorgenti	sorgente	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	falde	faldere	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+27	acquifere	acquifere	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Al Movimento 5 Stelle ciò non interessa.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Movimento	Movimento	PROPN	SP	_	8	obl	_	_
+4	5	5	NUM	N	NumType=Card	5	nummod	_	_
+5	Stelle	Stelle	PROPN	SP	_	3	flat:name	_	_
+6	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Loro e la Lega sono il Governo della continuità.
+1	Loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Lega	Lega	PROPN	SP	_	1	conj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Governo	Governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	continuità	continuità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = I soliti noti possono continuare a fare affari sulla pelle dei cittadini.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	soliti	solite	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	noti	noto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	continuare	continuare	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	affari	affare	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = 'Tanto la malattia arriva fra trent'anni' come disse un dirigente apicale del Cociv, consorzio costruttore dell'opera, riferendosi al problema amianto".
+1	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Tanto	tanto	ADV	B	_	5	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	trent'	trenta	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	5	punct	_	_
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dirigente	dirigente	NOUN	S	Number=Sing	11	nsubj	_	_
+14	apicale	apicale	ADJ	A	Number=Sing	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Cociv	Cociv	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	consorzio	consorzio	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+20	costruttore	costruttore	NOUN	S	Gender=Masc|Number=Sing	19	compound	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	opera	opera	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	11	punct	_	_
+25-26	riferendosi	_	_	_	_	_	_	_	_
+25	riferendo	riferire	VERB	V	VerbForm=Ger	11	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	problema	problema	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30	amianto	amianto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Questo il comunicato degli attivisti contrari alla grande opera, che accompagnano il loro commento al calcolo costi-benefici di Toninelli con un fotomontaggio inequivocabile.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	contrari	contrario	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	opera	opera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	accompagnano	accompagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	commento	commento	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+21	costi	costo	NOUN	S	Gender=Masc|Number=Plur	20	compound	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	21	compound	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Toninelli	Toninelli	PROPN	SP	_	20	nmod	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	fotomontaggio	fotomontaggio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+29	inequivocabile	inequivocabile	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Due le immagini sovrapposte.
+1	Due	due	NUM	N	NumType=Card	3	nummod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	sovrapposte	sovrapposte	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Sopra la foto che ritrae un corteo con decine di bandiere no Tav , con scritto "LA GENTE DEGNA".
+1	Sopra	sopra	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	foto	foto	NOUN	S	Gender=Fem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	ritrae	ritrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	decine	decina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	no	no	ADV	BN	PronType=Neg	11	advmod	_	_
+13	Tav	Tav	PROPN	SP	_	11	nmod	_	_
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	scritto	scritto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	LA	il	PROPN	SP	_	16	nmod	_	_
+19	GENTE	gente	PROPN	SP	_	18	flat:name	_	_
+20	DEGNA	DEGNA	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Sotto, invece, il selfie dei ministri pentastellati con la didascalia "I TRADITORI".
+1	Sotto	sotto	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	selfie	selfia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	pentastellati	pentastellare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	didascalia	didascalia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	TRADITORI	traditore	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Ma non è finita qui.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	qui	qui	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Perché il giorno prima, la stessa pagina aveva pubblicato un altro post durissimo verso i pentastellati.
+1	Perché	perché	ADV	B	_	10	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	prima	prima	ADV	B	_	10	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	altro	altro	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	post	post	NOUN	S	_	10	obj	_	_
+14	durissimo	duro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	13	amod	_	_
+15	verso	verso	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	pentastellati	pentastellato	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = Se nel testo si leggeva, tra le altre cose, che "Il Movimento 5 Stelle è uguale agli altri.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	testo	testo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	tra	tra	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	altre	altro	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Movimento	Movimento	PROPN	SP	_	20	nsubj	_	_
+17	5	5	NUM	N	NumType=Card	16	flat:name	_	_
+18	Stelle	Stelle	PROPN	SP	_	16	flat:name	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	uguale	uguale	ADJ	A	Number=Sing	11	acl:relcl	_	_
+21-22	agli	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = E' parte del sistema che dicevano di voler combattere, è succube degli interessi di Salini Impregilo esattamente come lo era il Partito Democratico ", il messaggio lanciato dalle foto allegato era ancora più forte.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	voler	volere	AUX	VM	VerbForm=Inf	10	aux	_	_
+10	combattere	combattere	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	succube	succube	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+14-15	degli	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Salini	Salini	PROPN	SP	_	16	nmod	_	_
+19	Impregilo	Impregilo	PROPN	SP	_	18	flat:name	_	_
+20	esattamente	esattamente	ADV	B	_	22	advmod	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	advcl	_	_
+23	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+26	Democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	39	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+31	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+32-33	dalle	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	foto	foto	NOUN	S	Gender=Fem	31	obl	_	_
+35	allegato	allegato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	cop	_	_
+37	ancora	ancora	ADV	B	_	39	advmod	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	forte	forte	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 17
+# text = Sopra un altro corteo no Tav, sotto una bandiera incendiata del Movimento 5 Stelle.
+1	Sopra	sopra	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	altro	altro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	no	no	ADV	BN	PronType=Neg	4	advmod	_	_
+6	Tav	Tav	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	sotto	sotto	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+11	incendiata	incendiato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Movimento	Movimento	PROPN	SP	_	11	obl	_	_
+15	5	5	NUM	N	NumType=Card	14	flat:name	_	_
+16	Stelle	Stelle	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Tempi duri per i grillini...
+1	Tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	duri	duro	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	grillini...	grillini...	NOUN	S	_	1	nmod	_	SpacesAfter=\n
+

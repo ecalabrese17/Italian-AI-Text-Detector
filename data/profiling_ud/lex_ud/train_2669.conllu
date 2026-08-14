@@ -1,0 +1,292 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una ricerca recente condotta dall’Istituto Italiano di Salute e dal Centro Studi Pubblica ha messo in luce un dato sorprendente:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	recente	recente	ADJ	A	Number=Sing	2	amod	_	_
+4	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	Italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Salute	salute	PROPN	SP	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Centro	centro	PROPN	SP	_	7	conj	_	_
+15	Studi	studi	PROPN	SP	_	14	flat:name	_	_
+16	Pubblica	Pubblica	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	luce	luce	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dato	dato	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+23	sorprendente	sorprendente	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 2
+# text = oltre il 70 per cento dei cittadini intervistati considera il web il secondo riferimento per informarsi sulla propria salute, dopo il medico.
+1	oltre	oltre	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	70	70	NUM	N	NumType=Card	10	obl	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	cento	cento	NUM	N	NumType=Card	3	nummod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+9	intervistati	intervistato	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	considera	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	web	webbraio	NOUN	S	Gender=Masc	10	obj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	informarsi	_	_	_	_	_	_	_	_
+17	informar	informare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	salute	salute	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	10	punct	_	_
+24	dopo	dopo	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	medico	medico	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Questo dato non è del tutto nuovo, ma la sua portata ha assunto un significato ancora più urgente in un momento in cui le persone si sentono sempre più responsabili della propria salute e vogliono avere accesso a informazioni affidabili, immediate e spesso in forma di video, testi o interviste con esperti.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	dato	dato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tutto	tutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	portata	portata	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	assunto	assumere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	significato	significato	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	ancora	ancora	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	urgente	urgente	ADJ	A	Number=Sing	17	amod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	momento	momento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	persone	persona	NOUN	S	Gender=Fem|Number=Plur	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+30	sempre	sempre	ADV	B	_	29	advmod	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	responsabili	responsabile	ADJ	A	Number=Plur	29	xcomp	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	salute	salute	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	avere	avere	VERB	V	VerbForm=Inf	7	conj	_	_
+40	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+41	a	a	ADP	E	_	42	case	_	_
+42	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	_
+43	affidabili	affidabile	ADJ	A	Number=Plur	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	40	punct	_	_
+45	immediate	immediato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	40	acl	_	_
+46	e	e	CCONJ	CC	_	49	cc	_	_
+47	spesso	spesso	ADV	B	_	49	advmod	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	forma	forma	NOUN	S	Gender=Fem|Number=Sing	45	conj	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	video	video	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	53	punct	_	_
+53	testi	testo	NOUN	S	Gender=Masc|Number=Plur	51	conj	_	_
+54	o	o	CCONJ	CC	_	55	cc	_	_
+55	interviste	intervista	NOUN	S	Gender=Fem|Number=Plur	51	conj	_	_
+56	con	con	ADP	E	_	57	case	_	_
+57	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	55	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Il web ha superato il ruolo di semplice strumento di informazione:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	web	web	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	semplice	semplice	ADJ	A	Number=Sing	9	amod	_	_
+9	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = è diventato uno spazio di condivisione, di consultazione e di autogestione della salute.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	condivisione	condivisione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	consultazione	consultazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	autogestione	autogestione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	salute	salute	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sito web specializzati, blog di medici, gruppi di supporto, forum di pazienti, applicazioni di tracciamento delle problematiche – tutto questo è oggi parte integrante dell’esperienza sanitaria quotidiana.
+1	Sito	sito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+2	web	web	NOUN	S	Gender=Masc	1	obj	_	_
+3	specializzati	specializzato	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	blog	blog	NOUN	S	_	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	medici	medico	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	forum	forum	NOUN	S	Gender=Masc	11	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pazienti	paziente	NOUN	S	Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tracciamento	tracciamento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	problematiche	problematica	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	–	–	PUNCT	FF	_	9	punct	_	_
+24	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+25	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	nsubj	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	oggi	oggi	ADV	B	_	28	advmod	_	_
+28	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+29	integrante	integrante	ADJ	A	Number=Sing	28	amod	_	_
+30-31	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+30	di	di	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+33	sanitaria	sanitario	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 7
+# text = La confidenza dei cittadini nei confronti di queste piattaforme cresce, soprattutto tra i giovani, che hanno cresciuto con un’ecosistema digitale in cui la conoscenza si ottiene facilmente, rapidamente e senza barriere geografiche o di costo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confidenza	confidenza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	piattaforme	piattaforma	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	soprattutto	soprattutto	ADV	B	_	17	advmod	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	giovani	giovane	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	cresciuto	crescere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ecosistema	ecosistema	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	digitale	digitale	ADJ	A	Number=Sing	24	amod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	31	obl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+31	ottiene	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+32	facilmente	facilmente	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	rapidamente	rapidamente	ADV	B	_	31	advmod	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	senza	senza	ADP	E	_	37	case	_	_
+37	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+38	geografiche	geografico	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+39	o	o	CCONJ	CC	_	41	cc	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	costo	costo	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Tuttavia, questo cambiamento non è senza rischi.
+1	Tuttavia	tuttavia	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = La stessa ricerca ha evidenziato che più del 40 per cento dei soggetti ha accesso a informazioni errate, semplificate o distorti, soprattutto
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	evidenziato	evidenziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	16	mark	_	_
+7	più	più	ADV	B	_	16	advmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	40	40	NUM	N	NumType=Card	7	nummod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	cento	cento	NUM	N	NumType=Card	10	nummod	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	soggetti	soggetto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+17	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	errate	errato	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	semplificate	semplificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	distorti	distortare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	soprattutto	soprattutto	ADV	B	_	16	advmod	_	SpacesAfter=\n
+

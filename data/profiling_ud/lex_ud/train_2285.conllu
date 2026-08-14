@@ -1,0 +1,200 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma è emerso un giallo che divide le persone, il cui senso è semplice e spietato:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	emerso	emergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giallo	giallo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	divide	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	cui	cui	DET	DR	PronType=Rel	13	det:poss	_	_
+13	senso	senso	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	semplice	semplice	ADJ	A	Number=Sing	0	root	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	spietato	spietato	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 2
+# text = a quale punto la natura diventa metafora di conflitto, e chi dei due – l’uomo o la natura – ha il diritto di governare il territorio?
+1	a	a	ADP	E	_	3	case	_	_
+2	quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	natura	natura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	metafora	metafora	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	chi	chi	PRON	PQ	PronType=Int	6	conj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	due	due	NUM	N	NumType=Card	18	nummod	_	_
+16	–	–	PUNCT	FF	_	18	punct	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	natura	natura	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	–	–	PUNCT	FB	_	23	punct	_	_
+23	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	governare	governare	VERB	V	VerbForm=Inf	25	acl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Dopo che i primi video, presi tramite telecamere a lungo range installate da enti ambientali, hanno mostrato un’orsa tra i boschi di Taurisano, i cittadini delle zone limitrofe hanno cominciato a chiedersi se Gemma fosse stata uccisa o se, al contrario, fosse sopravvissuta e fuggita in un nuovo territorio.
+1	Dopo	dopo	SCONJ	CS	_	19	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	video	video	NOUN	S	Gender=Masc	19	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+8	tramite	tramite	ADP	E	_	9	mark	_	_
+9	telecamere	telecamera	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	range	rangia	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	installate	installare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	enti	ente	NOUN	S	Gender=Masc|Number=Plur	13	obl:agent	_	_
+16	ambientali	ambientale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	orsa	orsa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	tra	tra	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	boschi	bosco	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Taurisano	Taurisano	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	35	nsubj	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	zone	zona	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+33	limitrofe	limitrofe	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+34	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37-38	chiedersi	_	_	_	_	_	_	_	_
+37	chieder	chiedere	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39	se	se	SCONJ	CS	_	43	mark	_	_
+40	Gemma	Gemma	PROPN	SP	_	43	nsubj:pass	_	_
+41	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+42	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	43	aux:pass	_	_
+43	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
+44	o	o	CCONJ	CC	_	52	cc	_	_
+45	se	se	SCONJ	CS	_	52	mark	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	52	punct	_	_
+47-48	al	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	aux:pass	_	_
+52	sopravvissuta	sopravvivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	fuggita	fuggire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	52	conj	_	_
+55	in	in	ADP	E	_	58	case	_	_
+56	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+57	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	58	amod	_	_
+58	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	54	obl	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	43	punct	_	_
+
+# sent_id = 4
+# text = I vigili del fuoco, che hanno ricevuto segnalazioni in diversi giorni, hanno parlato di ricerche notturne e di tracce di rifiuti in zone difficili da raggiungere.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vigili	vigile	NOUN	S	Number=Plur	16	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	segnalazioni	segnalazione	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+19	notturne	notturno	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	zone	zona	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	difficili	difficile	ADJ	A	Number=Plur	26	amod	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29	raggiungere	raggiungere	VERB	V	VerbForm=Inf	27	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = Ma nessuno ha trovato il corpo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Nessuno ha visto l’animale in carne e ossa.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	animale	animale	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	carne	carne	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ossa	osso	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = A bruciare, invece, è la tensione tra i diversi gruppi sociali.
+1	A	a	ADP	E	_	2	mark	_	_
+2	bruciare	bruciare	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	tra	tra	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	sociali	sociale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = I
+1	I	I	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	0	root	_	SpacesAfter=\n
+

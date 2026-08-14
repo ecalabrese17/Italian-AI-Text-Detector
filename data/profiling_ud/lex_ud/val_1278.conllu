@@ -1,0 +1,498 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parchi .
+1	Parchi	parco	PROPN	SP	_	0	root	_	_
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La prima, il ddl sulla riforma della governance dei parchi , è stata approvata il 10 novembre 2016 al Senato ma ha creato parecchie divisioni (il testo non ha convinto le ong ambientaliste, da Legambiente al Wwf) e l'approvazione definitiva da parte della Camera è a serio rischio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ddl	ddl	NOUN	S	Gender=Masc	18	nsubj:pass	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	governance	governance	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	parchi	parco	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	approvata	approvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	10	10	NUM	N	NumType=Card	18	obl	_	_
+21	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22	2016	2016	NUM	N	NumType=Card	20	flat	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Senato	Senato	PROPN	SP	_	18	obl	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+29	parecchie	parecchio	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+31	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	testo	testo	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	ong	ong	NOUN	S	Gender=Fem	36	obj	_	_
+39	ambientaliste	ambientalista	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	da	da	ADP	E	_	42	case	_	_
+42	Legambiente	Legambiente	PROPN	SP	_	36	obl:agent	_	_
+43-44	al	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Wwf	Wwf	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	36	punct	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
+49	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+50	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	_
+51	da	da	ADP	E	_	52	case	_	_
+52	parte	parte	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+53-54	della	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	Camera	Camera	PROPN	SP	_	52	nmod	_	_
+56	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	cop	_	_
+57	a	a	ADP	E	_	59	case	_	_
+58	serio	serio	ADJ	A	Gender=Masc|Number=Sing	59	amod	_	_
+59	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = Parte degli emendamenti è stata già smaltita, ma la discussione sul testo è stata accantonata per dare precedenza ai correttivi della manovra economica.
+1	Parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+2-3	degli	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	emendamenti	emendamento	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	smaltita	smaltire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	18	punct	_	_
+10	ma	ma	CCONJ	CC	_	18	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	testo	testo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	accantonata	accantonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	dare	dare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	precedenza	precedenza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	correttivi	correttivo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	manovra	manovra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	economica	economico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Consumo di suolo .
+1	Consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = La seconda, quella contro il consumo di suolo che punta a frenare il cemento selvaggio e a recuperare le aree già cementificate, è stata approvata dalla Camera a maggio dello scorso anno e da allora è bloccata a Palazzo Madama.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	27	nsubj:pass	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	frenare	frenare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cemento	cemento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	selvaggio	selvaggio	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	recuperare	recuperare	VERB	V	VerbForm=Inf	13	conj	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	aree	area	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	già	già	ADV	B	_	23	advmod	_	_
+23	cementificate	cementificato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	4	punct	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	approvata	approvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Camera	camera	PROPN	SP	_	27	obl:agent	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+33-34	dello	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	anno	anno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+37	e	e	CCONJ	CC	_	41	cc	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	allora	allora	ADV	B	_	41	advmod	_	_
+40	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	bloccata	bloccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	Palazzo	Palazzo	PROPN	SP	_	41	obl	_	_
+44	Madama	Madama	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 6
+# text = "Per come è stata stravolta dai vari emendamenti è quasi meglio che salti.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	come	come	ADV	B	_	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	stravolta	stravolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	vari	vario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	emendamenti	emendamento	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	quasi	quasi	ADV	B	_	13	advmod	_	_
+13	meglio	meglio	ADV	B	_	6	advmod	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15	salti	salto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ne faremo una migliore quando saremo al governo", commenta il deputato M5s Massimo De Rosa .
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	xcomp	_	_
+5	quando	quando	SCONJ	CS	_	6	mark	_	_
+6	saremo	sare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	M5s	M5s	PROPN	SP	_	14	nmod	_	_
+16	Massimo	Massimo	PROPN	SP	_	15	flat:name	_	_
+17	De	De	PROPN	SP	_	15	flat:name	_	_
+18	Rosa	Rosa	PROPN	SP	_	15	flat:name	_	_
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Era un buon punto di equilibrio", rivendica invece il relatore Pd Massimo Fiorio , che però è pessimista:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	rivendica	rivendire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	invece	invece	ADV	B	_	10	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	relatore	relatore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	Pd	Pd	PROPN	SP	_	13	nmod	_	_
+15	Massimo	Massimo	PROPN	SP	_	13	nmod	_	_
+16	Fiorio	Fiorio	PROPN	SP	_	15	flat:name	_	_
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	però	però	ADV	B	_	21	advmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	pessimista	pessimista	ADJ	A	Number=Sing	13	acl:relcl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = "Non vedo prospettive per l'approvazione definitiva".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prospettive	prospettiva	ADJ	A	Gender=Fem|Number=Plur	3	obj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Piccoli comuni .
+1	Piccoli	piccolo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	comuni	comune	ADJ	A	Number=Plur	1	amod	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = La terza, il ddl sui piccoli comuni che salva i borghi italiani dall'estinzione e dallo spopolamento, ha avuto il via libera di Montecitorio a settembre scorso.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	terza	terzo	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ddl	ddl	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	comuni	comune	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	salva	salvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	borghi	borgo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+15	da	da	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	estinzione	estinzione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	dallo	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	spopolamento	spopolamento	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	via	via	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	libera	libero	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Montecitorio	Montecitorio	PROPN	SP	_	26	nmod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+32	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 12
+# text = Ma al momento il testo è ancora fermo in commissione Ambiente del Senato.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	testo	testo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	Ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	11	compound	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Senato	Senato	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Cosmesi ecologica .
+1	Cosmesi	Cosmese	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	ecologica	ecologico	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Anche questo progetto di legge, dopo il sì all'unanimità di Montecitorio a ottobre 2016, giace arenato al Senato.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	legge	legge	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	dopo	dopo	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sì	sì	NOUN	S	Gender=Masc	3	nmod	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	unanimità	unanimità	NOUN	S	Gender=Fem	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Montecitorio	Montecitorio	PROPN	SP	_	9	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	2016	2016	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	giace	giace	ADJ	A	Number=Sing	9	amod	_	_
+20	arenato	arenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Senato	Senato	PROPN	SP	_	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = "È un peccato - commenta il deputato Pd Ermete Realacci , primo firmatario - perché i provvedimento fissava i criteri per ottenere il marchio di eco-dermo-compatibilità che renderà facilmente smascherabili le ecobufale.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Pd	Pd	PROPN	SP	_	8	nmod	_	_
+10	Ermete	Ermere	PROPN	SP	_	9	flat:name	_	_
+11	Realacci	Realacci	PROPN	SP	_	9	flat:name	_	_
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	firmatario	firmatario	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+15	-	-	PUNCT	FF	_	6	punct	_	_
+16	perché	perché	SCONJ	CS	_	19	mark	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	fissava	fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	ottenere	ottenere	VERB	V	VerbForm=Inf	21	acl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	marchio	marchio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	eco-dermo	eco-dermo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	compatibilità	compatibilità	NOUN	S	Gender=Fem	27	compound	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	renderà	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	acl:relcl	_	_
+32	facilmente	facilmente	ADV	B	_	31	advmod	_	_
+33	smascherabili	smascherabile	ADJ	A	Number=Plur	31	xcomp	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	ecobufale	ecobufale	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Inoltre vietava l'uso nei cosmetici delle microplastiche , che sono le principali responsabili dell'inquinamento del mare".
+1	Inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	vietava	vietare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uso	uso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cosmetici	cosmetico	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	microplastiche	microplastica	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	principali	principale	ADJ	A	Number=Plur	16	amod	_	_
+16	responsabili	responsabile	NOUN	S	Number=Plur	2	acl:relcl	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mare	mare	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Agricoltura bio .
+1	Agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	bio	bio	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Infine rischia di rimanere a metà strada anche la legge sull'agricoltura biologica, appena approvata da Montecitorio (il 2 maggio) e all'esame in commissione al Senato, volta a riorganizzare il settore affrontando anche il tema dei controlli, in combinata con un decreto legge che, pure quello, si è perso per strada.
+1	Infine	infine	ADV	B	_	2	advmod	_	_
+2	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	rimanere	rimanere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	metà	metà	NOUN	S	Gender=Fem	4	obl	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	legge	legge	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+11-12	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+11	su	su	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	appena	appena	ADV	B	_	17	advmod	_	_
+17	approvata	approvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	Montecitorio	Montecitorio	PROPN	SP	_	17	obl:agent	_	_
+20	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	2	2	NUM	N	NumType=Card	19	nummod	_	_
+23	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	22	punct	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	esame	esame	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Senato	Senato	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	17	punct	_	_
+35	volta	volta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	riorganizzare	riorganizzare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	settore	settore	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40	affrontando	affrontare	VERB	V	VerbForm=Ger	37	advcl	_	_
+41	anche	anche	ADV	B	_	43	advmod	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	tema	tema	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	combinata	combinata	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+50	con	con	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+53	legge	legge	NOUN	S	Gender=Fem|Number=Sing	52	compound	_	_
+54	che	che	PRON	PR	PronType=Rel	61	nsubj	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	54	punct	_	_
+56	pure	pure	ADV	B	_	57	advmod	_	_
+57	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	61	nsubj	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	57	punct	_	_
+59	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	61	expl	_	_
+60	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
+61	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	acl:relcl	_	_
+62	per	per	ADP	E	_	63	case	_	_
+63	strada	strada	NOUN	S	Gender=Fem|Number=Sing	61	obl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

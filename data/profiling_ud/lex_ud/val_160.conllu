@@ -1,0 +1,506 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La polizia usa lacrimogeni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	usa	usare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	lacrimogeni	lacrimogeno	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Lo riferiscono testimoni.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	riferiscono	riferire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	testimoni	testimone	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Dopo aver ascoltato Rafsanjani alla preghiera del venerdì, migliaia di manifestanti sono scesi in piazza per sostenere apertamente il leader dell’opposizione.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+4	Rafsanjani	Rafsanjani	PROPN	SP	_	3	obj	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	venerdì	venerdì	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	manifestanti	manifestante	NOUN	S	Number=Plur	12	nmod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	sostenere	sostenere	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	apertamente	apertamente	ADV	B	_	20	advmod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	leader	leader	NOUN	S	Gender=Masc	20	obj	_	_
+24-25	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = "Ripristinare la fiducia che c’era e che ora è in qualche misura venuta meno - ha detto la massima autorità spirituale del Paese - non è necessario imprigionare la gente.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ripristinare	ripristinare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	14	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+10	ora	ora	ADV	B	_	14	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	misura	misura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+15	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	meno	meno	ADV	B	_	15	advmod	_	_
+17	-	-	PUNCT	FF	_	19	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	autorità	autorità	NOUN	S	Gender=Fem	19	nsubj	_	_
+23	spirituale	spirituale	ADJ	A	Number=Sing	22	amod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Paese	paese	PROPN	SP	_	22	nmod	_	_
+27	-	-	PUNCT	FF	_	19	punct	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+31	imprigionare	imprigionare	VERB	V	VerbForm=Inf	30	csubj	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	gente	gente	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Lasciamo che tornino alle loro famiglie".
+1	Lasciamo	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	tornino	tornare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ancora contestazioni
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	contestazioni	contestazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+
+# sent_id = 7
+# text = L’ex presidente Akbar Hashemi Rafsanjani parla di "una situazione amara".
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	Akbar	Akbar	PROPN	SP	_	3	nmod	_	_
+5	Hashemi	Hashemi	PROPN	SP	_	4	flat:name	_	_
+6	Rafsanjani	Rafsanjani	PROPN	SP	_	4	flat:name	_	_
+7	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Dopo le contestate elezioni presidenziali del 12 giugno, che hanno visto ufficialmente rieletto il presidente Mahmud Ahmadinejad, i sostenitori di Moussavi hanno preso coraggio e si sono opposti al regime iraniano.
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	contestate	contestato	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+5	presidenziali	presidenziale	ADJ	A	Number=Plur	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	12	12	NUM	N	NumType=Card	4	nmod	_	_
+9	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+14	ufficialmente	ufficialmente	ADV	B	_	15	advmod	_	_
+15	rieletto	rieleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+18	Mahmud	Mahmud	PROPN	SP	_	17	nmod	_	_
+19	Ahmadinejad	Ahmadinejad	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sostenitori	sostenitore	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Moussavi	Moussavo	PROPN	SP	_	22	nmod	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+30	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	opposti	opporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	regime	regime	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	iraniano	iraniano	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 9
+# text = Ancora oggi, in occasione della preghiera del venerdì, decine di migliaia di manifestanti sono scesi in strada a Teheran per protestare ancora contro Ahmadinejad.
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	oggi	oggi	ADV	B	_	19	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	venerdì	venerdì	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	decine	decina	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	manifestanti	manifestante	NOUN	S	Number=Plur	15	nmod	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	strada	strada	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Teheran	Teheran	PROPN	SP	_	21	nmod	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	protestare	protestare	VERB	V	VerbForm=Inf	19	advcl	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27	contro	contro	ADP	E	_	28	case	_	_
+28	Ahmadinejad	Ahmadinejad	PROPN	SP	_	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 10
+# text = La polizia, presente in massa, in assetto anti sommossa, è intervenuta lanciando lacrimogeni e caricando i manifestanti che indossano un braccialetto verde, il colore scelto da Moussavi durante la campagna elettorale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	presente	presente	ADJ	A	Number=Sing	2	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	massa	massa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	assetto	assetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	anti	anti	ADJ	A	_	11	amod	_	_
+11	sommossa	sommossa	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	intervenuta	intervenuto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	lanciando	lanciare	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	lacrimogeni	lacrimogeno	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	caricando	caricare	VERB	V	VerbForm=Ger	15	conj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	manifestanti	manifestante	NOUN	S	Number=Plur	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	indossano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	braccialetto	braccialetto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	verde	verde	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	14	punct	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	colore	colore	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+29	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	Moussavi	Moussavo	PROPN	SP	_	29	obl:agent	_	_
+32	durante	durante	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+35	elettorale	elettorale	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 11
+# text = Quindici gli studenti arrestati.
+1	Quindici	quindici	NUM	N	NumType=Card	3	nummod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	arrestati	arrestare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = L’obiettivo dell’opposizione è di dimostrare la propria forza durante la preghiera del venerdì affidata all’ayatollah Akbar Hashemi Rafsanjani, alla presenza di Moussavi e di Mehdi Karoubi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	dimostrare	dimostrare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	forza	forza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	durante	durante	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	venerdì	venerdì	NOUN	S	Gender=Masc	14	nmod	_	_
+18	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	all’	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	ayatollah	ayatollah	NOUN	S	Gender=Masc	18	obl	_	_
+22	Akbar	Akbar	PROPN	SP	_	21	nmod	_	_
+23	Hashemi	Hashemi	PROPN	SP	_	22	flat:name	_	_
+24	Rafsanjani	Rafsanjani	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Moussavi	Moussavo	PROPN	SP	_	28	nmod	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Mehdi	Mehdi	PROPN	SP	_	30	conj	_	_
+34	Karoubi	Karoubi	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = L'appello di Rafsanjani I manifestanti iraniani arrestati nei giorni scorsi durante le proteste per l’esito delle presidenziali "devono essere liberati".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	appello	appello	NOUN	S	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Rafsanjani	Rafsanjani	PROPN	SP	_	2	nmod	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	manifestanti	manifestante	NOUN	S	Number=Plur	4	nsubj	_	_
+7	iraniani	iraniano	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	durante	durante	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	esito	esito	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	presidenziali	presidenziale	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+23	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	essere	essere	AUX	VA	VerbForm=Inf	25	aux:pass	_	_
+25	liberati	liberare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 14
+# text = L’ex presidente Akbar Hashemi Rafsanjani ha denunciato che l’Iran sta attraversando "una crisi" che può essere risolta con l’elezione di "un presidente che sia voluto dal popolo".
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	Akbar	Akbar	PROPN	SP	_	3	nmod	_	_
+5	Hashemi	Hashemi	PROPN	SP	_	4	flat:name	_	_
+6	Rafsanjani	Rafsanjani	PROPN	SP	_	4	flat:name	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Iran	Iran	PROPN	SP	_	13	nsubj	_	_
+12	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	attraversando	attraversare	VERB	V	VerbForm=Ger	8	ccomp	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	crisi	crisi	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj:pass	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	21	aux:pass	_	_
+21	risolta	risolvere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj:pass	_	_
+30	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+32-33	dal	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	31	obl:agent	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = L’ex presidente ha ricordato che l’ayatollah Ruhollah Khomeini, fondatore della Repubblica islamica, "ha sempre sottolineato il ruolo del popolo" nella politica iraniana.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	21	mark	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ayatollah	ayatollah	NOUN	S	Gender=Masc	21	nsubj	_	_
+9	Ruhollah	Ruhollah	PROPN	SP	_	8	nmod	_	_
+10	Khomeini	Khomeini	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Repubblica	repubblica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	islamica	islamico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	sempre	sempre	ADV	B	_	21	advmod	_	_
+21	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	30	punct	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	politica	politica	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+31	iraniana	iraniano	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Per questo, ha affermato Rafsanjani, "anche i membri dell’Assemblea degli Esperti, che eleggono la Guida suprema, sono eletti dal popolo, così come i parlamentari.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	Rafsanjani	Rafsanjani	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	membri	membro	NOUN	S	Gender=Masc|Number=Plur	6	appos	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Assemblea	assemblea	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Esperti	esperti	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	eleggono	eleggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Guida	guida	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	suprema	supremo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	eletti	eleggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	26	obl:agent	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	così	così	ADV	B	_	34	cc	_	_
+32	come	come	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	parlamentari	parlamentare	NOUN	S	Number=Plur	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = E anche il presidente deve essere scelto dal popolo".
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Poi Rafsanjani ha puntato il dito contro il Consiglio dei Guardiani, colpevole di "non aver usato nel miglior modo possibile" il tempo supplementare che gli aveva dato la Guida suprema, ayatollah Ali Khamenei, per esaminare le denunce di brogli.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	Rafsanjani	Rafsanjani	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	puntato	puntare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dito	dito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	contro	contro	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Guardiani	guardiano	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	colpevole	colpevole	ADJ	A	Number=Sing	4	amod	_	_
+15	di	di	ADP	E	_	19	mark	_	_
+16	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	aver	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	possibile	possibile	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	27	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	supplementare	supplementare	ADJ	A	Number=Sing	27	amod	_	_
+29	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+30	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
+31	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Guida	guida	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35	suprema	supremo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	ayatollah	ayatollah	INTJ	I	_	38	discourse	_	_
+38	Ali	Ali	PROPN	SP	_	27	conj	_	_
+39	Khamenei	Khamenei	PROPN	SP	_	38	flat:name	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	19	punct	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	esaminare	esaminare	VERB	V	VerbForm=Inf	19	advcl	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	brogli	broglie	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

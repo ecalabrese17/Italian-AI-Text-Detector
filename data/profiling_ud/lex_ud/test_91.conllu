@@ -1,0 +1,197 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sua scheda elettorale riporta che si descriveva come un esperto di sicurezza certificato dalle forze dell'ordine e titolare di un'attività di vigilanza che però non sembra avere sede legale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	scheda	scheda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	elettorale	elettorale	ADJ	A	Number=Sing	3	amod	_	_
+5	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	descriveva	descrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	esperto	esperto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	certificato	certificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	forze	forza	NOUN	S	Gender=Fem|Number=Plur	14	obl:agent	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	titolare	titolare	NOUN	S	Number=Sing	17	conj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	attività	attività	NOUN	S	Gender=Fem	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	vigilanza	vigilanza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	però	però	ADV	B	_	31	advmod	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+32	avere	avere	VERB	V	VerbForm=Inf	31	xcomp	_	_
+33	sede	sede	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+34	legale	legale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il segretario leghista Matteo Salvini ha subito preso le distanze da Traini, definendolo un pazzo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	leghista	leghista	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	Matteo	Matteo	PROPN	SP	_	2	nmod	_	_
+5	Salvini	Salvini	PROPN	SP	_	4	flat:name	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	subito	subito	ADV	B	_	8	advmod	_	_
+8	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Traini	Traini	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14-15	definendolo	_	_	_	_	_	_	_	_
+14	definendo	definire	VERB	V	VerbForm=Ger	8	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pazzo	pazzo	NOUN	S	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = In più di un'occasione in passato il partito aveva espresso idee della sua adrenalina comune.
+1	In	in	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	11	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	partito	partito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	idee	idea	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	adrenalina	adrenalina	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	comune	comune	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Di Traini si sono sapute molte cose in queste ore.
+1	Di	di	ADP	E	_	2	case	_	_
+2	Traini	Traini	PROPN	SP	_	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sapute	sapere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Vive con la nonna, Oscar, un nome maschile che suo nonno gli aveva imposto, e la bisnonna.
+1	Vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Oscar	Oscar	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	nome	nome	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+10	maschile	maschile	ADJ	A	Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	bisnonna	bisnonna	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Si era candidato come sindaco per la Lega a Corridonia nel 2017 e nel 2018 era stato condannato per violenza privata e lesioni per motivi di discriminazione razziale aggravata.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	candidato	candidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lega	Lega	PROPN	SP	_	5	nmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Corridonia	Corridonia	PROPN	SP	_	3	nmod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2017	2017	NUM	N	NumType=Card	3	nummod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2018	2018	NUM	N	NumType=Card	13	conj	_	_
+18	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	privata	privato	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	razziale	razziale	ADJ	A	Number=Sing	29	amod	_	_
+31	aggravata	aggravato	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = La famiglia di Traini ha detto che era depresso e assumeva farmaci, che leggeva molti libri sulla seconda guerra mondiale e che aveva fatto parte dei suoi grup
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Traini	Traini	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	depresso	deprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	assumeva	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+12	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	libri	libro	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
+21	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22	mondiale	mondiale	ADJ	A	Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	grup	grup	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpacesAfter=\n
+

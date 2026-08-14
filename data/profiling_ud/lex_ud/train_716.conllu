@@ -1,0 +1,599 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sullo sfondo, l'arbitro che implora la vittoriosa Naomi Osaka:
+1-2	Sullo	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	implora	implorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vittoriosa	vittorioso	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	Naomi	Naomi	PROPN	SP	_	10	nmod	_	_
+12	Osaka	Osaka	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = "Non la puoi far vincere?".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	vincere	vincere	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mark Knight ha disegnato il cartoon facendo satira sui "capricci" della leggenda del tennis americano.
+1	Mark	Mark	PROPN	SP	_	4	nsubj	_	_
+2	Knight	Knight	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cartoon	cartoon	NOUN	S	Gender=Masc	4	obj	_	_
+7	facendo	fare	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	satira	satira	ADV	B	_	7	advmod	_	_
+9-10	sui	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	capricci	capriccio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	leggenda	leggenda	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	americano	americano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Tanto è bastato, una sana botta di ironia, da scatenare una valanga di mail di protesta provenienti dagli Stati Uniti, che hanno sommerso la redazione di Herald Sun, il quotidiano che ha pubblicato la vignetta.
+1	Tanto	tanto	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	bastato	bastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sana	sano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	botta	botta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	scatenare	scatenare	VERB	V	VerbForm=Inf	7	acl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	valanga	valanga	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	mail	mail	NOUN	S	Gender=Masc	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	16	acl	_	_
+20-21	dagli	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Stati	Stati	PROPN	SP	_	19	obl	_	_
+23	Uniti	Uniti	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	sommerso	sommergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Herald	Herald	PROPN	SP	_	29	nmod	_	_
+32	Sun	sun	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	3	punct	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl:relcl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	vignetta	vignetta	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = L'editore australiano si è subito schierato dalla parte del suo vignettista.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	editore	editore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	australiano	australiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	subito	subito	ADV	B	_	7	advmod	_	_
+7	schierato	schierare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	vignettista	vignettista	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Damon Johnston ha dichiarato:
+1	Damon	Damon	PROPN	SP	_	4	nsubj	_	_
+2	Johnston	Johnston	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Una campionessa di tennis ha avuto un capriccio sul palcoscenico mondiale, e la vignetta di Mark l'ha raffigurato.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	campionessa	campione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	capriccio	capriccio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	palcoscenico	palcoscenico	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	mondiale	mondiale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	e	e	CCONJ	CC	_	22	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vignetta	vignetta	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Mark	Mark	PROPN	SP	_	17	nmod	_	_
+20	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	raffigurato	raffigurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Non ha nulla a che fare con il genere o la razza".
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	_
+4	a	a	ADP	E	_	6	mark	_	_
+5	che	che	SCONJ	CS	_	4	fixed	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	genere	genere	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	razza	razza	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Criticism of Mark Knight's Serena Williams cartoon shows the world has gone too PC & misunderstands the role of news media cartoons and satire.
+1	Criticism	Criticism	NOUN	S	Gender=Masc	0	root	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	Mark	Mark	PROPN	SP	_	1	nmod	_	_
+4	Knight	Knight	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	's	's	PART	PART	_	6	case	_	_
+6	Serena	Serena	PROPN	SP	_	4	flat:name	_	_
+7	Williams	Williams	PROPN	SP	_	4	flat:name	_	_
+8	cartoon	cartoon	X	SW	Foreign=Yes	17	nmod	_	_
+9	shows	shows	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	the	the	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	world	world	X	SW	Foreign=Yes	8	flat:foreign	_	_
+12	has	has	X	SW	Foreign=Yes	8	flat:foreign	_	_
+13	gone	gone	X	SW	Foreign=Yes	8	flat:foreign	_	_
+14	too	too	X	SW	Foreign=Yes	8	flat:foreign	_	_
+15	PC	Pc	X	SW	Foreign=Yes	8	flat:foreign	_	_
+16	&	&	SYM	SYM	_	8	flat:foreign	_	_
+17	misunderstands	misunderstands	NOUN	S	Gender=Masc	4	appos	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	role	rola	NOUN	S	Number=Sing	17	nmod	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	news	news	NOUN	S	_	23	nmod	_	_
+22	media	medio	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	cartoons	cartoons	NOUN	S	Gender=Fem	19	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	satire	satire	VERB	V	VerbForm=Inf	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Poor behaviour in any sport needs to be called out. #media #cartoons #markknight @Knightcartoons @theheraldsun https://t.co/KQFuvIJp0Q pic.twitter.com/sRo3AQ1cJW — Michael Miller (@mm_newscorpaus) 10 settembre 2018 Nella finale degli US open feminili, la vittoria della giapponese Osaka su Serena Williams, ha scatenato la rabbia della tennista che ha accusato l'arbitro di sessismo e ingiustizia.
+1	Poor	Poor	X	SW	Foreign=Yes	48	nsubj	_	_
+2	behaviour	behaviourre	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	in	in	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	any	any	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	sport	sport	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	needs	needs	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	be	ba	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+9	called	calle	X	SW	Foreign=Yes	8	nmod	_	_
+10	out	out	X	SW	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+12	#media	#media	NOUN	S	Gender=Fem|Number=Sing	9	appos	_	_
+13	#cartoons	#cartoons	X	SW	Foreign=Yes	17	appos	_	_
+14	#markknight	#markknight	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	@Knightcartoons	@Knightcartoons	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	@theheraldsun	@theheraldsun	X	SW	Foreign=Yes	13	flat:foreign	_	_
+17	https://t.co/KQFuvIJp0Q	https://t.co/kqfuvijp0q	PROPN	SP	_	12	nmod	_	_
+18	pic.twitter.com/sRo3AQ1cJW	pic.twitter.com/sro3aq1cjw	PROPN	SP	_	17	flat:name	_	_
+19	—	—	PUNCT	FF	_	17	punct	_	_
+20	Michael	Michael	PROPN	SP	_	17	appos	_	_
+21	Miller	Miller	PROPN	SP	_	20	flat:name	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	@mm_newscorpaus	@mm_newscorpaus	NOUN	S	_	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	_
+25	10	10	NUM	N	NumType=Card	20	nmod	_	_
+26	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	25	flat	_	_
+27	2018	2018	NUM	N	NumType=Card	25	flat	_	_
+28-29	Nella	_	_	_	_	_	_	_	_
+28	In	in	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	finale	finale	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	US	US	PROPN	SP	_	30	nmod	_	_
+34	open	open	ADV	B	_	35	advmod	_	_
+35	feminili	feminile	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	20	punct	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	20	appos	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	giapponese	giapponese	ADJ	A	Number=Sing	42	amod	_	_
+42	Osaka	Osaka	PROPN	SP	_	38	nmod	_	_
+43	su	su	ADP	E	_	44	case	_	_
+44	Serena	Serena	PROPN	SP	_	42	nmod	_	_
+45	Williams	Williams	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	1	punct	_	_
+47	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	scatenato	scatenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	48	obj	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	tennista	tennista	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	_
+54	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+55	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+56	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	acl:relcl	_	_
+57	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	58	det	_	SpaceAfter=No
+58	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	56	obj	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	sessismo	sessismo	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+61	e	e	CCONJ	CC	_	62	cc	_	_
+62	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	60	conj	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	48	punct	_	_
+
+# sent_id = 11
+# text = Le è stata comminata una multa da 17mila dollari per aver commesso tre violazioni:
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	comminata	comminare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	multa	multa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	17mila	17mila	NUM	N	NumType=Card	9	nummod	_	_
+9	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	per	per	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+13	tre	tre	NUM	N	NumType=Card	14	nummod	_	_
+14	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = 4mila dollari per i presunti segnali scambiati col suo coach durante il match, 3mila per aver rotto la racchetta in un gesto di rabbia e 10mila per ‘abuso verbale, avendo dato del ‘ladro’ al giudice di linea Carlos Ramos.
+1	4mila	4mila	NUM	N	NumType=Card	2	nummod	_	_
+2	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	presunti	presunto	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	scambiati	scambiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	col	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	coach	coach	NOUN	S	_	7	obl	_	_
+12	durante	durante	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	match	match	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	3mila	3mila	NUM	N	NumType=Card	34	nummod	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	aver	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	racchetta	racchetta	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	10mila	10mila	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	‘abuso	‘abuso	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	verbale	verbale	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	19	punct	_	_
+33	avendo	avere	AUX	VA	VerbForm=Ger	34	aux	_	_
+34	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	‘ladro	‘ladro	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+38	’	’	PUNCT	FF	_	37	punct	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	linea	linea	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44	Carlos	Carlos	PROPN	SP	_	43	nmod	_	_
+45	Ramos	Ramos	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 13
+# text = Us Open, Williams attacca l'arbitro:
+1	Us	Us	PROPN	SP	_	5	obl	_	_
+2	Open	Open	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Williams	Williams	PROPN	SP	_	5	nsubj	_	_
+5	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = "Non baro per vincere.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	baro	baro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	vincere	vincere	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Preferirei perdere".
+1	Preferirei	Preferiere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	perdere	perdere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Knight si è detto "sbalordito" dalla reazione americana:
+1	Knight	Knight	PROPN	SP	_	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	sbalordito	sbalordire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	americana	americano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 17
+# text = "Ho disegnato questa vignetta domenica sera dopo aver visto la finale degli US Open, e ho trovato interessante vedere la miglior tennista del mondo che fa i capricci.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	vignetta	vignetto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	dopo	dopo	SCONJ	CS	_	10	mark	_	_
+9	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	finale	finale	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	US	US	PROPN	SP	_	12	nmod	_	_
+16	Open	Open	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+21	interessante	interessante	ADJ	A	Number=Sing	20	xcomp	_	_
+22	vedere	vedere	VERB	V	VerbForm=Inf	20	csubj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	miglior	migliore	ADJ	A	Degree=Cmp|Number=Sing	25	amod	_	_
+25	tennista	tennista	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	capricci	capriccio	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Il mio telefono non smette di squillare.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	smette	smettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	squillare	squillare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Il mondo è impazzito".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	impazzito	impazzire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Il vignettista sostiene che era solo una satira su un comportamento discutibile, non sulla gara.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vignettista	vignettista	NOUN	S	Number=Sing	3	nsubj	_	_
+3	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	satira	satira	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	discutibile	discutibile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gara	gara	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = "Tre giorni prima avevo disegnato un fumetto su Nick Kyrgios che veniva portato via per le orecchie, come si fa con i bambini".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	prima	prima	ADV	B	_	3	advmod	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fumetto	fumetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	Nick	Nick	PROPN	SP	_	8	nmod	_	_
+11	Kyrgios	Kyrgios	PROPN	SP	_	10	flat:name	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	veniva	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	via	via	ADV	B	_	14	advmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	come	come	SCONJ	CS	_	22	mark	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Il conduttore radiofonico Neil Mitchell ha difeso Knight sul suo programma 3AW:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	radiofonico	radiofonico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	Neil	Neil	PROPN	SP	_	2	nmod	_	_
+5	Mitchell	Mitchell	PROPN	SP	_	4	flat:name	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	difeso	difendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	Knight	Knight	PROPN	SP	_	7	obj	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	programma	programma	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	3AW	3AW	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 23
+# text = "E' un inquietante fraintendimento.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	inquietante	inquietante	ADJ	A	Number=Sing	5	amod	_	_
+5	fraintendimento	fraintendimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Ho guardato la vignetta e non mi è nemmeno passato per la mente che avesse a che fare con la razza.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vignetta	vignetta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	nemmeno	nemmeno	ADV	BN	PronType=Neg	10	advmod	_	_
+10	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mente	mente	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	a	a	ADP	E	_	18	mark	_	_
+17	che	che	SCONJ	CS	_	16	fixed	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	razza	razza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Si è comportata da bulla, una bambina petulante che stava facendo i capricci perché perdeva".
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comportata	comportare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	bulla	bulla	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	petulante	petulante	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	capricci	capriccio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	perché	perché	SCONJ	CS	_	16	mark	_	_
+16	perdeva	perdevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Us Open, Serena Williams litiga con l'arbitro:
+1	Us	Us	PROPN	SP	_	6	nsubj	_	_
+2	Open	Open	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Serena	Serena	PROPN	SP	_	1	conj	_	_
+5	Williams	Williams	PROPN	SP	_	4	flat:name	_	_
+6	litiga	litigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 27
+# text = "Ladro".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ladro	Ladro	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = E lui le toglie un game
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+4	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	game	game	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpacesAfter=\n
+

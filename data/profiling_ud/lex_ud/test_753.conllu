@@ -1,0 +1,821 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aurelio De Laurentiis, patron del Napoli, è fra i più convinti assertori di questo progetto rivoluzionario.
+1	Aurelio	Aurelio	PROPN	SP	_	15	nsubj	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Laurentiis	Laurentiis	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	patron	patron	NOUN	S	_	1	appos	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Napoli	Napoli	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+11	fra	fra	ADP	E	_	15	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	convinti	convinto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	assertori	assertore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	rivoluzionario	rivoluzionario	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Anzi, lui lo chiama il torneo Cinque Nazioni del calcio, come ha dichiarato in una recente intervista a Repubblica.
+1	Anzi	anzi	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	torneo	torneo	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	_
+8	Cinque	Cinque	PROPN	SP	_	7	nmod	_	_
+9	Nazioni	Nazioni	PROPN	SP	_	8	flat:name	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	come	come	SCONJ	CS	_	16	mark	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	recente	recente	ADJ	A	Number=Sing	20	amod	_	_
+20	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Repubblica	Repubblica	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = "Vi prenderebbero parte le prime sei inglesi, italiane (quindi anche il Napoli, ndr), spagnole, tedesche e francesi con un business da 10 miliardi all'anno.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	prenderebbero	prendere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+6	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	8	amod	_	_
+7	sei	sei	NUM	N	NumType=Card	8	nummod	_	_
+8	inglesi	inglese	NOUN	S	Number=Plur	3	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+11	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	quindi	quindi	ADV	B	_	15	advmod	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Napoli	Napoli	PROPN	SP	_	3	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	ndr	ndr	NOUN	S	_	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	spagnole	spagnole	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	tedesche	tedesco	ADJ	A	Gender=Fem|Number=Plur	3	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	francesi	francese	ADJ	A	Number=Plur	3	conj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	business	business	NOUN	S	Gender=Masc	3	obl	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	10	10	NUM	N	NumType=Card	30	nummod	_	_
+30	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31-32	all'	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	anno	anno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Basta col teatrino dell'Uefa...".
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	col	_	_	_	_	_	_	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	teatrino	teatrino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Uefa...	Uefa...	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Andrea Agnelli è sicuro che questa formula attuale della Champions League sia penalizzante, con ricavi troppo bassi (un miliardo e 200 milioni all'anno) rispetto a quelli che produce lo sport professionistico made in Usa.
+1	Andrea	Andrea	PROPN	SP	_	4	nsubj	_	_
+2	Agnelli	Agnelli	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	formula	formula	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+8	attuale	attuale	ADJ	A	Number=Sing	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Champions	Champions	PROPN	SP	_	7	nmod	_	_
+12	League	League	PROPN	SP	_	11	flat:name	_	_
+13	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	penalizzante	penalizzare	ADJ	A	Number=Sing	4	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	ricavi	ricavo	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	troppo	troppo	ADV	B	_	19	advmod	_	_
+19	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+20	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	200	200	NUM	N	NumType=Card	25	nummod	_	_
+25	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	22	punct	_	_
+30	rispetto	rispetto	ADV	B	_	32	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	obl	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	sport	sport	NOUN	S	Gender=Masc	34	obj	_	_
+37	professionistico	professionistico	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	made	made	X	SW	Foreign=Yes	36	nmod	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	Usa	Usa	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Secondo alcuni progetti le grandi Nazioni calcistiche avrebbero almeno quattro squadre fisse, se non sei, e alcune (almeno tre) avrebbero il posto garantito in base alla loro storia sportiva.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	grandi	grande	ADJ	A	Number=Plur	6	amod	_	_
+6	Nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+7	calcistiche	calcistico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+9	almeno	almeno	ADV	B	_	10	advmod	_	_
+10	quattro	quattro	NUM	N	NumType=Card	11	nummod	_	_
+11	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+12	fisse	fisso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	se	se	SCONJ	CS	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	sei	sei	NUM	N	NumType=Card	24	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	24	punct	_	_
+18	e	e	CCONJ	CC	_	24	cc	_	_
+19	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+20	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	almeno	almeno	ADV	B	_	22	advmod	_	_
+22	tre	tre	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	avrebbero	avere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	posto	posto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	garantito	garantire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	base	base	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	storia	storia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+34	sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 7
+# text = Se così fosse, in Italia toccherebbe a Juve, Inter e Milan.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	così	così	ADV	B	_	7	advmod	_	_
+3	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	7	obl	_	_
+7	toccherebbe	tocchare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Juve	Juve	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Inter	Inter	PROPN	SP	_	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Milan	Milan	PROPN	SP	_	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Galliani ne sarebbe felice: da anni sogna una specie di wild card per il suo Milan che, come si è visto, ultimamente fatica a qualificarsi per le Coppe europee ma ha un passato più che glorioso.
+1	Galliani	Galliani	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+8	sogna	sognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	specie	specie	NOUN	S	Gender=Fem	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	wild	wild	NOUN	S	Gender=Masc	10	nmod	_	_
+13	card	card	NOUN	S	Gender=Masc	12	compound	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Milan	Milan	PROPN	SP	_	10	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	come	come	SCONJ	CS	_	23	mark	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	ultimamente	ultimo	ADV	B	_	26	advmod	_	_
+26	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28-29	qualificarsi	_	_	_	_	_	_	_	_
+28	qualificar	qualificarre	VERB	V	VerbForm=Inf	26	acl	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	Coppe	coppe	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+33	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+34	ma	ma	CCONJ	CC	_	35	cc	_	_
+35	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	passato	passato	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38	più	più	ADV	B	_	40	advmod	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	glorioso	glorioso	ADJ	A	Gender=Masc|Number=Sing	37	acl:relcl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = La Superlega si giocherebbe di martedì e mercoledì, come adesso la Champions, ma ci sono anche alcune ipotesi di farla giocare di sabato e domenica (in questo caso non si sa che fine farebbero i campionati nazionali).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Superlega	Superlega	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	giocherebbe	giochare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	martedì	martedì	NOUN	S	Gender=Masc	4	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	mercoledì	mercoledì	NOUN	S	Gender=Masc	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	adesso	adesso	ADV	B	_	4	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Champions	Champions	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	anche	anche	ADV	B	_	17	advmod	_	_
+19	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	ipotesi	ipotesi	NOUN	S	Gender=Fem	17	nsubj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	farla	_	_	_	_	_	_	_	_
+22	far	fare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	giocare	giocare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+29	(	(	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+30	in	in	ADP	E	_	32	case	_	_
+31	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	caso	caso	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl:impers	_	_
+35	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+36	che	che	SCONJ	CS	_	38	mark	_	_
+37	fine	fine	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+38	farebbero	fare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	campionati	campionato	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+41	nazionali	nazionale	ADJ	A	Number=Plur	40	amod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Una cosa è certa, c'è poco tempo per decidere:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	certa	certo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	decidere	decidere	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = l'attuale formula della Champions è in vigore sino al 2018, dopo si cambia e già il prossimo anno l'Uefa dovrà fare il bando d'asta per i diritti tv.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	attuale	attuale	ADJ	A	Number=Sing	3	amod	_	_
+3	formula	formula	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Champions	Champions	PROPN	SP	_	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	vigore	vigore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	sino	sino	ADV	B	_	13	case	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2018	2018	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	dopo	dopo	ADV	B	_	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+17	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18	e	e	CCONJ	CC	_	26	cc	_	_
+19	già	già	ADV	B	_	22	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	Uefa	Uefa	PROPN	SP	_	26	nsubj	_	_
+25	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	17	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	bando	bando	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	asta	asta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+34	tv	tv	NOUN	S	Gender=Masc	33	compound	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Una patata bollente per il prossimo presidente Uefa:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patata	patata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	bollente	bollente	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	Uefa	Uefa	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = entro il 20 luglio bisogna presentare le candidature (si vota il 14 settembre ad Atene).
+1	entro	entro	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	20	20	NUM	N	NumType=Card	5	obl	_	_
+4	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	presentare	presentare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	candidature	candidatura	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	vota	votare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	14	14	NUM	N	NumType=Card	11	obl	_	_
+14	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	_
+15	ad	a	ADP	E	_	16	case	_	_
+16	Atene	Atene	PROPN	SP	_	11	obl	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Sinora si sono fatti avanti ufficialmente solo Michael Van Praag, olandese, e Alexander Ceferin, sloveno.
+1	Sinora	sinora	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	_
+6	ufficialmente	ufficialmente	ADV	B	_	4	advmod	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	Michael	Michael	PROPN	SP	_	4	nsubj	_	_
+9	Van	Van	PROPN	SP	_	8	flat:name	_	_
+10	Praag	Praag	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	olandese	olandese	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Alexander	Alexander	PROPN	SP	_	4	conj	_	_
+16	Ceferin	Ceferin	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	sloveno	sloveno	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Non si sa cosa farà Angel Maria Villar, spagnolo, che ha anche problemi interni.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+5	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+6	Angel	Angel	PROPN	SP	_	5	nsubj	_	_
+7	Maria	Maria	PROPN	SP	_	6	flat:name	_	_
+8	Villar	Villar	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	interni	interno	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Ceferin è appoggiato da Infantino, n.1 Fifa, dalle Federazioni scandinave e da Carlo Tavecchio.
+1	Ceferin	Ceferin	PROPN	SP	_	3	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	appoggiato	appoggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Infantino	Infantino	PROPN	SP	_	3	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	n.1	n.l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fifa	Fifa	PROPN	SP	_	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Federazioni	Federazioni	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+13	scandinave	scandinave	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Carlo	Carlo	PROPN	SP	_	12	conj	_	_
+17	Tavecchio	Tavecchio	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Al momento sembra il favorito.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	favorito	favorito	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Chiunque sia l'erede di Michel Platini, comunque, dovrà fronteggiare questo progetto che parte dalla Cina e che incontra molti sostenitori europei, non solo italiani.
+1	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+2	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	erede	erede	NOUN	S	Number=Sing	12	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Michel	Michel	PROPN	SP	_	4	nmod	_	_
+7	Platini	Platini	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	comunque	comunque	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	fronteggiare	fronteggiare	VERB	V	VerbForm=Inf	0	root	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	parte	parte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17-18	dalla	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Cina	Cina	PROPN	SP	_	16	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	incontra	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	sostenitori	sostenitore	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	solo	solo	ADV	B	_	29	advmod	_	_
+29	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 19
+# text = Agnelli e c. ne fanno una questione di prestigio, di visibilità, non solo di soldi.
+1	Agnelli	Agnelle	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	c	c	NOUN	S	_	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	prestigio	prestigio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	visibilità	visibilità	NOUN	S	Gender=Fem	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	solo	solo	ADV	B	_	18	advmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Questa Champions non va più bene, è superata:
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Champions	Champions	PROPN	SP	_	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	superata	superare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 21
+# text = di sicuro cambierà.
+1	di	di	ADP	E	_	2	case	_	_
+2	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	cambierà	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = E aumenterà lo spettacolo, soprattutto nella prima fase.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	aumenterà	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	fase	fase	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Ma, come detto, bisognerà decidere in fretta.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	bisognerà	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	decidere	decidere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Roma 2024, lunedì Malagò incontra il vicesindaco Frongia Appuntamento ad Ostia, lunedì mattina:
+1	Roma	Roma	PROPN	SP	_	6	obl	_	_
+2	2024	2024	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lunedì	lunedì	NOUN	S	Gender=Masc	6	nsubj	_	_
+5	Malagò	Malagò	PROPN	SP	_	4	nmod	_	_
+6	incontra	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vicesindaco	vicesindaco	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	Frongia	Frongia	PROPN	SP	_	8	nmod	_	_
+10	Appuntamento	appuntamento	PROPN	SP	_	9	flat:name	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	Ostia	Ostia	PROPN	SP	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	lunedì	lunedì	NOUN	S	Gender=Masc	12	nmod	_	_
+15	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 25
+# text = all'inagurazione della nuova pista di atletica ci saranno Giovanni Malagò, il sottosegretario Luca Lotti e probabilmente il vicesindaco Daniele Frongia (difficile ci sia la Raggi).
+1-2	all'	_	_	_	_	_	_	_	SpaceAfter=No
+1	a	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inagurazione	inagurazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	pista	pista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	atletica	atletica	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+12	Giovanni	Giovanni	PROPN	SP	_	0	root	_	_
+13	Malagò	Malagò	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sottosegretario	sottosegretario	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+17	Luca	Luca	PROPN	SP	_	16	nmod	_	_
+18	Lotti	Lotti	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	probabilmente	probabilmente	ADV	B	_	22	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	vicesindaco	vicesindaco	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+23	Daniele	Daniele	PROPN	SP	_	22	nmod	_	_
+24	Frongia	Frongia	PROPN	SP	_	23	flat:name	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	difficile	difficile	ADJ	A	Number=Sing	23	amod	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+28	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Raggi	raggio	PROPN	SP	_	27	nsubj	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 26
+# text = Può essere l'occasione di parlare o almeno accennare a Roma 2024.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	almeno	almeno	ADV	B	_	9	advmod	_	_
+9	accennare	accennare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Roma	Roma	PROPN	SP	_	9	obl	_	_
+12	2024	2024	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Il tempo stringe, verso il 27-28 luglio Malagò volerà a Rio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	stringe	stringere	NOUN	S	Gender=Masc	2	compound	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	verso	verso	ADP	E	_	11	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+7	27	27	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	28	28	NUM	N	NumType=Card	7	compound	_	_
+10	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	_
+11	Malagò	Malagò	PROPN	SP	_	12	obl	_	_
+12	volerà	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Rio	Rio	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 28
+# text = Frongia, in un'intervista al Tempo, ha ribadito la sua posizione, che è quella della sindaca:
+1	Frongia	Frongia	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	acl:relcl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sindaca	sindaca	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 29
+# text = "Nessuna preclusione sui Giochi ma al momento le priorità sono altre.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	preclusione	preclusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Giochi	gioco	NOUN	S	Number=Sing	3	nmod	_	_
+7	ma	ma	CCONJ	CC	_	14	cc	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	priorità	priorità	NOUN	S	Gender=Fem	14	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = I trasporti, i rifiuti ad esempio".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = Vero: ma ciò non esclude che la candidatura possa andare avanti lo stesso.
+1	Vero	vero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	esclude	escludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+12	avanti	avanti	ADV	B	_	11	advmod	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Questo Malagò cercherà di spiegare ai nuovi inquilini del Campidoglio.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Malagò	Malagò	PROPN	SP	_	3	nsubj	_	_
+3	cercherà	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	spiegare	spiegare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	inquilini	inquilino	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Campidoglio	Campidoglio	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = Il n.1 del Coni è un grande comunicatore, e non ha certo intenzione di arrendersi dopo oltre un anno e mezzo di lavoro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	n.1	n.1	NUM	N	NumType=Card	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Coni	cono	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	comunicatore	comunicatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	certo	certo	ADV	B	_	13	advmod	_	_
+15	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	arrendersi	_	_	_	_	_	_	_	_
+17	arrender	arrendere	VERB	V	VerbForm=Inf	15	acl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	dopo	dopo	ADV	B	_	17	advmod	_	_
+20	oltre	oltre	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 34
+# text = Affossare adesso la candidatura sarebbe una autentica follia.
+1	Affossare	Affossare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	adesso	adesso	ADV	B	_	1	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	autentica	autentico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	follia	follia	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = Speriamo in bene.
+1	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	bene	bene	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = Frongia nell'intervista non ha parlato di referendum, e questo è positivo.
+1	Frongia	Frongiare	ADV	B	_	7	advmod	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	referendum	referendum	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

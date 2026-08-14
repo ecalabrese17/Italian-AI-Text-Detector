@@ -1,0 +1,328 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Settecento chilometri di oceano?
+1	Settecento	Settecento	NUM	N	NumType=Card	2	nummod	_	_
+2	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oceano	oceano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Una donna, ricondotta a riva con una modica cifra in contanti, che si ritrova in balia delle circostanze e, probabilmente, dell'instabilità sociale di quel territorio.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ricondotta	ricondurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	riva	rivare	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	modica	modico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	ritrova	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	balia	balia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	e	e	CCONJ	CC	_	28	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	probabilmente	probabilmente	ADV	B	_	28	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	instabilità	instabilità	NOUN	S	Gender=Fem	2	conj	_	_
+29	sociale	sociale	ADJ	A	Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non si tratta di un dramma collettivo, non ancora.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	collettivo	collettivo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	ancora	ancora	ADV	B	_	3	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non ci sono flussi migratori che ci assalgono, non ci sono navi cariche di persone che giungono sulle nostre coste.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	flussi	flusso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	migratori	migratorio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	assalgono	assalire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	navi	nave	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+14	cariche	carica	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	giungono	giungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	sulle	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	coste	costa	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma questo episodio, innegabilmente sconvolgente, rappresenta la concreta manifestazione di un problema ben più ampio, della nostra incapacità di affrontare con fermezza e responsabilità le conseguenze delle politiche di “apertura” che abbiamo attuato negli anni.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	innegabilmente	innegabilmente	ADV	B	_	6	advmod	_	_
+6	sconvolgente	sconvolgente	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	problema	problema	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	ben	bene	ADV	B	_	17	advmod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	incapacità	incapacità	NOUN	S	Gender=Fem	14	conj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	affrontare	affrontare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	fermezza	fermezza	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	responsabilità	responsabilità	NOUN	S	Gender=Fem	26	conj	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	“	“	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+37	”	”	PUNCT	FB	_	36	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	40	obj	_	_
+39	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	attuato	attuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+41-42	negli	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	anni	anno	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = È facile apparire compassionevoli, invocare diritti umani e pietà.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+3	apparire	apparire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	compassionevoli	compassionevole	ADJ	A	Number=Plur	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	invocare	invocare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	umani	umano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pietà	pietà	NOUN	S	Gender=Fem	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma la realtà è che dietro ogni “rifugiato” o “richiedente asilo”, spesso, si cela una strategia criminale, un business lucroso basato sulla disperazione e sull'esplotazione.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	realtà	realtà	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	20	mark	_	_
+6	dietro	dietro	ADP	E	_	9	case	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	rifugiato	rifugiare	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	13	punct	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	richiedente	richiedente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+14	asilo	asilo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	spesso	spesso	ADV	B	_	13	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:pass	_	_
+20	cela	celare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+23	criminale	criminale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	business	business	NOUN	S	Gender=Masc	22	nmod	_	_
+27	lucroso	lucroso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	basato	basato	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+33	su	su	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	esplotazione	esplotazione	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Quanti soldi vengono immessi in questo giro infernale?
+1	Quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	immessi	immettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	infernale	infernale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Quante vite vengono sacrificate per il profitto di organizzazioni malavitose e trafficanti?
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	vite	vita	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	sacrificate	sacrificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	malavitose	malavitoso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	trafficanti	trafficante	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = E poi, diciamocelo chiaramente:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	diciamocelo	diciamocelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chiaramente	chiaramente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = la “donna”, come viene definita l'ennesima creatura in balia del caso, non è una vittima innocente.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+4	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	come	come	ADV	B	_	8	advmod	_	_
+7	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	definita	definire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	ennesima	ennesimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	balia	balia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	caso	caso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+22	innocente	innocente	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 12
+# text = Si presume, e lo si speri, che accenda questa sua disperata fuga da un paese di malaffare e mafie, un paese che forse ha anche contribuito, indirettamente, a spingere verso l'esilio questa persona.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	presume	presumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	speri	sperare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	accenda	accendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	disperata	disperata	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	fuga	fugare	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	malaffare	malaffare	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	mafie	mafia	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+26	forse	forse	ADV	B	_	29	advmod	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	anche	anche	ADV	B	_	29	advmod	_	_
+29	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	24	punct	_	_
+31	indirettamente	indirettamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	2	punct	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	spingere	spingere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+35	verso	verso	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	esilio	esilio	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+38	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
+39	persona	persona	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il nostro paese, invece, si trova a dover gestire le migrazioni che ne derivano, con un crollo del sistema
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	11	mark	_	_
+10	dover	dovere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	gestire	gestire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	migrazioni	migrazione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+16	derivano	derivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpacesAfter=\n
+

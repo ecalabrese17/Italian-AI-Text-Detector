@@ -1,0 +1,269 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il parroco che affermerebbe che "è colpa delle donne" non solo commette un grave errore di valutazione, ma è anche un chiaro esempio di degrado culturale e morale che va fermato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	affermerebbe	affermare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	solo	solo	ADV	B	_	15	advmod	_	_
+15	commette	commettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	grave	grave	ADJ	A	Number=Sing	18	amod	_	_
+18	errore	errore	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	27	punct	_	_
+22	ma	ma	CCONJ	CC	_	27	cc	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	anche	anche	ADV	B	_	27	advmod	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	culturale	culturale	ADJ	A	Number=Sing	29	amod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	morale	morale	ADJ	A	Number=Sing	30	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Le vittime del femminicidio sono persone umane, con diritti, con valori, con storia e con dignità.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	femminicidio	femminicidio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+8	umane	umano	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	valori	valore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	dignità	dignità	NOUN	S	Gender=Fem	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = È tempo di parlare con responsabilità, senso di comunità e senso del dovere, non con generalizzazioni e pregiudizi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	responsabilità	responsabilità	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	comunità	comunità	NOUN	S	Gender=Fem	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	generalizzazioni	generalizzazione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	pregiudizi	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il vero cammino verso la sicurezza delle donne passa attraverso la guerra contro l’ignoranza, il rigetto della vita e l’assenza di rispetto verso l’altro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	verso	verso	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	attraverso	attraverso	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rigetto	rigetto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	verso	verso	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Se qualcuno vuole dire che qualcuno è "colpa" di qualcosa, sia chiaro:
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = non è mai la colpa delle donne, ma il fallimento di una società che non ha imparato a difendere le vite, a rispettare i valori e a guarire dalle ferite del passato.
+1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	mai	mai	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	società	società	NOUN	S	Gender=Fem	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	difendere	difendere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	vite	vita	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	rispettare	rispettare	VERB	V	VerbForm=Inf	21	advcl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	valori	valore	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	guarire	guarire	VERB	V	VerbForm=Inf	26	conj	_	_
+32-33	dalle	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	ferite	ferita	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	passato	passato	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Il vero ruolo del cattolicesimo, e di ogni altro sistema morale, è quello di insegnare il rispetto, la responsabilità e l'amore come falci di vita.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cattolicesimo	cattolicesimo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	morale	morale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	insegnare	insegnare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	responsabilità	responsabilità	NOUN	S	Gender=Fem	20	nsubj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+27	come	come	ADP	E	_	28	case	_	_
+28	falci	falci	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	vita	vita	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Non ci sono soluzioni in una semplice assegnazione di colpa.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	8	amod	_	_
+8	assegnazione	assegnazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ci sono soluzioni nella civiltà, nella famiglia, nella saggezza e nell'operato di tutti.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	civiltà	civiltà	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	saggezza	saggezza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	in	in	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	operato	operato	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

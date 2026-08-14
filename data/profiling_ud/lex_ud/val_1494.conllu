@@ -1,0 +1,686 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In realtà il governo non fa che annunciare tagli al cuneo fiscale da quando si è insediato.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	annunciare	annunciare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	tagli	tagli	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cuneo	cuneo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	fiscale	fiscale	ADJ	A	Number=Sing	12	amod	_	_
+14	da	da	ADP	E	_	18	mark	_	_
+15	quando	quando	SCONJ	CS	_	14	fixed	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	insediato	insediare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Di tanto in tanto Matteo Renzi lo promette, ma i buoni propositi vengono puntualmente disattesi.
+1	Di	di	ADP	E	_	2	case	_	_
+2	tanto	tanto	ADV	B	_	8	obl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	tanto	tanto	ADV	B	_	8	obl	_	_
+5	Matteo	Matteo	PROPN	SP	_	8	nsubj	_	_
+6	Renzi	Renzi	PROPN	SP	_	5	flat:name	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	promette	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	_	_
+10	ma	ma	CCONJ	CC	_	16	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	propositi	proposito	NOUN	S	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+14	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	puntualmente	puntualmente	ADV	B	_	16	advmod	_	_
+16	disattesi	disattendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Tanto che il cuneo fiscale sui lavoratori dipendenti continua crescere inesorabilemente.
+1	Tanto	tanto	ADV	B	_	10	advmod	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cuneo	cuneo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	fiscale	fiscale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	dipendenti	dipendente	ADJ	A	Number=Plur	8	amod	_	_
+10	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	crescere	crescere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	inesorabilemente	inesorabilemente	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = "Negli ultimi cinque anni - si legge in un report dell' Ocse - è aumentato di 1,8 punti percentuali, passando dal 47,2% del 2010 al 49% dello scorso anno" .
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2-3	Negli	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	6	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+4	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	report	report	NOUN	S	Gender=Masc	9	obl	_	_
+13-14	dell'	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Ocse	Ocse	PROPN	SP	_	12	nmod	_	_
+16	-	-	PUNCT	FF	_	9	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	1,8	1,8	NUM	N	NumType=Card	21	nummod	_	_
+21	punti	punto	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	percentuali	percentuale	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	passando	passare	VERB	V	VerbForm=Ger	18	advcl	_	_
+25-26	dal	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	47,2	47,2	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	24	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	2010	2010	NUM	N	NumType=Card	28	nmod	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	49	49	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
+35	%	%	SYM	SYM	_	24	obl	_	_
+36-37	dello	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	39	case	_	_
+37	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+39	anno	anno	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	18	punct	_	_
+41	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = L'Unione europea continua a ripetercelo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Unione	Unione	PROPN	SP	_	4	nsubj	_	_
+3	europea	Europea	PROPN	SP	_	2	flat:name	_	_
+4	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	ripetercelo	ripetercelare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ma il ministro dell'Economia Pier Carlo Padoan sembra far finta di niente.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Economia	economia	PROPN	SP	_	3	nmod	_	_
+7	Pier	Pier	PROPN	SP	_	3	nmod	_	_
+8	Carlo	Carlo	PROPN	SP	_	7	flat:name	_	_
+9	Padoan	Padoan	PROPN	SP	_	7	flat:name	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	finta	finta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Anzi.
+1	Anzi	anzi	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La scorsa settimana ha addirittura fatto diramare un nota dal dicastero di via XX
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	addirittura	addirittura	ADV	B	_	6	advmod	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	diramare	diramare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	nota	nota	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dicastero	dicastero	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	via	via	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	XX	XX	ADJ	NO	Number=Sing|NumType=Ord	14	amod	_	_
+
+# sent_id = 9
+# text = Settembre in cui attribuiva al governo Renzi "numerose misure di alleggerimento della pressione fiscale sui fattori produttivi:
+1	Settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	cui	cui	PRON	PR	PronType=Rel	4	obl	_	_
+4	attribuiva	attribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	Renzi	Renzi	PROPN	SP	_	7	nmod	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	misure	misura	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	alleggerimento	alleggerimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	fiscale	fiscale	ADJ	A	Number=Sing	16	amod	_	_
+18-19	sui	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+21	produttivi	produttivo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = l'abolizione del costo del lavoro dalla base imponibile dell'Irap a partire dal 2015, il super-ammortamento sugli investimenti in beni materiali strumentali dal 2016, la riduzione dell'aliquota Ires a partire dal 2017, nonché l'erogazione del bonus 80 euro a partire dal 2014" .
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	abolizione	abolizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	costo	costo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	base	base	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+12	imponibile	imponibile	ADJ	A	Number=Sing	11	amod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Irap	Irap	PROPN	SP	_	11	nmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	partire	partire	VERB	V	VerbForm=Inf	11	acl	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2015	2015	NUM	N	NumType=Card	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	super-	_	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	ammortamento	ammortamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+25-26	sugli	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	beni	bene	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+30	materiali	materiale	ADJ	A	Number=Plur	29	amod	_	_
+31	strumentali	strumentale	ADJ	A	Number=Plur	29	amod	_	_
+32-33	dal	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	2016	2016	NUM	N	NumType=Card	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	aliquota	aliquota	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	Ires	Ires	PROPN	SP	_	40	nmod	_	_
+42	a	a	ADP	E	_	43	mark	_	_
+43	partire	partire	VERB	V	VerbForm=Inf	37	acl	_	_
+44-45	dal	_	_	_	_	_	_	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	2017	2017	NUM	N	NumType=Card	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	50	punct	_	_
+48	nonché	nonché	CCONJ	CC	_	50	cc	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	erogazione	erogazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+51-52	del	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	bonus	bonus	NOUN	S	Gender=Masc	50	nmod	_	_
+54	80	80	NUM	N	NumType=Card	55	nummod	_	_
+55	euro	euro	NOUN	S	Gender=Masc	53	nmod	_	_
+56	a	a	ADP	E	_	57	mark	_	_
+57	partire	partire	VERB	V	VerbForm=Inf	50	advcl	_	_
+58-59	dal	_	_	_	_	_	_	_	_
+58	da	da	ADP	E	_	60	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	2014	2014	NUM	N	NumType=Card	57	obl	_	SpaceAfter=No
+61	"	"	PUNCT	FB	_	2	punct	_	_
+62	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il tutto, spiegava ancora il Mef, "con effetti rilevanti nella riduzione del cuneo fiscale" .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	spiegava	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	ancora	ancora	ADV	B	_	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Mef	Mef	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	con	con	ADP	E	_	11	case	_	_
+11	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+12	rilevanti	rilevante	ADJ	A	Number=Plur	11	amod	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cuneo	cuneo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	fiscale	fiscale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	4	punct	_	_
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Le parole del ministrero si schiantano, però, contro la realtà.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministrero	ministrero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	schiantano	schiantere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	contro	contro	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	realtà	realtà	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Rispetto alla media dei paesi Ocse, che si ferma al 35,9%, il Fisco italiano è arrivato ad essere del 13,1% più pesante.
+1	Rispetto	rispetto	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	media	media	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	Ocse	Ocse	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	35,9	35,9	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Fisco	fisco	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+20	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	ad	a	ADP	E	_	28	mark	_	_
+24	essere	essere	AUX	V	VerbForm=Inf	28	cop	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	13,1	13,1	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	22	xcomp	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	pesante	pesante	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 14
+# text = Negli anni la forbice si è andata allargando di un punto percentuale:
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forbice	forbice	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	allargando	allargando	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	percentuale	percentuale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 15
+# text = nel 2010 era, infatti, del 12,1%.
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2010	2010	NUM	N	NumType=Card	0	root	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	infatti	infatti	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	12,1	12,1	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	SYM	_	3	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = I dati contenuti nelle ultime tabelle pubblicate dall'Organizzazione per la cooperazione e lo sviluppo economico ed elaborati dall' Adnkronos , mostrano che negli ultimi cinque anni il Belpaese ha conservato il quinto posto su una classifica di 34 paesi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
+3	contenuti	contenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	7	amod	_	_
+7	tabelle	tabella	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	pubblicate	pubblicare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	economico	economico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	ed	e	CCONJ	CC	_	20	cc	_	_
+20	elaborati	elaborare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+21-22	dall'	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Adnkronos	Adnkronos	PROPN	SP	_	20	obl:agent	_	_
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	che	che	SCONJ	CS	_	35	mark	_	_
+27-28	negli	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	31	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+29	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	31	amod	_	_
+30	cinque	cinque	NUM	N	NumType=Card	31	nummod	_	_
+31	anni	anno	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Belpaese	Belpaese	PROPN	SP	_	35	nsubj	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	conservato	conservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	38	amod	_	_
+38	posto	posto	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+39	su	su	ADP	E	_	41	case	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	34	34	NUM	N	NumType=Card	44	nummod	_	_
+44	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 17
+# text = A peggiorare la situazione c'è la differenza di salario , che in Italia risulta inferiore di 3.074 dollari rispetto alla media dei paesi Ocse:
+1	A	a	ADP	E	_	2	mark	_	_
+2	peggiorare	peggiorare	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	salario	salario	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Italia	Italia	PROPN	SP	_	15	obl	_	_
+15	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+16	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	3.074	3.074	NUM	N	NumType=Card	19	nummod	_	_
+19	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	rispetto	rispetto	ADV	B	_	23	case	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	media	media	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	Ocse	Ocse	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 18
+# text = 27.808 dollari contro 30.882 dollari.
+1	27.808	27.808	NUM	N	NumType=Card	2	nummod	_	_
+2	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	30.882	30.882	NUM	N	NumType=Card	5	nummod	_	_
+5	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = E guardando indietro di cinque anni si scopre che i lavoratori italiani hanno perso costantemente terreno, rispetto all'andamento generale.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	guardando	guardare	VERB	V	VerbForm=Ger	8	advcl	_	_
+3	indietro	indietro	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+12	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+15	costantemente	costantemente	ADV	B	_	16	advmod	_	_
+16	terreno	terreno	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	rispetto	rispetto	ADV	B	_	21	case	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	18	fixed	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	andamento	andamento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+22	generale	generale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Basta pensare che il reddito percepito nel paese è aumentato di 2.536 dollari lordi, contro i 3.762 dollari della media Ocse.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	percepito	percepire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	2.536	2.536	NUM	N	NumType=Card	14	nummod	_	_
+14	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	lordi	lordo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	contro	contro	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	3.762	3.762	NUM	N	NumType=Card	20	nummod	_	_
+20	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	media	media	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	Ocse	Ocse	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Anche il confronto con le nazioni che superano l'Italia, in fatto di tassazione sul lavoro, una volta visti i salari in termini assoluti mostrano una realtà in cui i dipendenti dello stivale percepiscono quasi sempre meno.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	superano	superare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	volta	volta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+22	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	salari	salare	NOUN	S	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	termini	termine	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	assoluti	assoluto	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	realtà	realtà	NOUN	S	Gender=Fem	28	obj	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	cui	cui	PRON	PR	PronType=Rel	38	obl	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	dipendenti	dipendente	NOUN	S	Number=Plur	38	nsubj	_	_
+35-36	dello	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	stivale	stivale	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	percepiscono	percepire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+39	quasi	quasi	ADV	B	_	40	advmod	_	_
+40	sempre	sempre	ADV	B	_	41	advmod	_	_
+41	meno	meno	ADV	B	_	38	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 22
+# text = Infatti il Belgio, dove la tassazione arriva al 55,3%, il reddito netto arriva a 33.132 dollari.
+1	Infatti	infatti	ADV	B	_	17	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Belgio	Belgio	PROPN	SP	_	17	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dove	dove	ADV	B	_	8	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	55,3	55,3	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+16	netto	netto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	33.132	33.132	NUM	N	NumType=Card	20	nummod	_	_
+20	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 23
+# text = In Austria, dove il cuneo fiscale tocca il 49,5%, il reddito è pari a 34.869 dollari.
+1	In	in	ADP	E	_	2	case	_	_
+2	Austria	Austria	PROPN	SP	_	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dove	dove	ADV	B	_	8	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cuneo	cuneo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	fiscale	fiscale	ADJ	A	Number=Sing	6	amod	_	_
+8	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	49,5	49,5	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	SYM	_	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	pari	pari	ADJ	A	_	0	root	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	34.869	34.869	NUM	N	NumType=Card	19	nummod	_	_
+19	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 24
+# text = Mentre in Germania, dove il prelievo è del 49,4%, il salario è di 36.194 dollari.
+1	Mentre	mentre	SCONJ	CS	_	19	mark	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Germania	Germania	PROPN	SP	_	19	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dove	dove	ADV	B	_	12	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prelievo	prelievo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	49,4	49,4	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	19	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	salario	salario	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	36.194	36.194	NUM	N	NumType=Card	19	nummod	_	_
+19	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 25
+# text = Unica eccezione è l'Ungheria, dove viene applicata una tassazione del 49% che lascia nella busta paga solo 15.922 dollari.
+1	Unica	unico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Ungheria	Ungheria	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dove	dove	ADV	B	_	9	advmod	_	_
+8	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	applicata	applicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	49	49	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	11	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	busta	busta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	paga	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+22	solo	solo	ADV	B	_	21	advmod	_	_
+23	15.922	15.922	NUM	N	NumType=Card	24	nummod	_	_
+24	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

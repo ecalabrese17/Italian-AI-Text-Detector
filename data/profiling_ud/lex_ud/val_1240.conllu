@@ -1,0 +1,586 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Finora questo biogas era stato utilizzato come combustibile per produrre energia elettrica e calore.
+1	Finora	finora	ADV	B	_	6	advmod	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	biogas	biogas	NOUN	S	Gender=Masc	6	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	combustibile	combustibile	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	produrre	produrre	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	energia	energia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	calore	calore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Un uso che rientra nelle buone pratiche suggerite dall’Unione europea.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	uso	uso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	rientra	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	buone	buono	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	suggerite	suggerire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Unione	Unione	PROPN	SP	_	9	obl:agent	_	_
+13	europea	Europea	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma ora si è fatto un passo in avanti:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	ora	ora	ADV	B	_	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passo	passo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	avanti	avanti	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = depurando il gas che proviene dalla fermentazione dei rifiuti si ricava un metano equivalente a quello di origine fossile.
+1	depurando	depurare	VERB	V	VerbForm=Ger	13	advcl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gas	gas	NOUN	S	Gender=Masc	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	proviene	provenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fermentazione	fermentazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	ricava	ricavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	metano	metano	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	equivalente	equivalente	ADJ	A	Number=Sing	15	amod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	origine	origine	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	fossile	fossile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Un vantaggio strategico da vari punti di vista.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	strategico	strategico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	punti	punto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Il primo è che il biometano si può ottenere anche da biomasse agricole e agroindustriali attraverso un processo di upgrading con digestione anaerobica:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	biometano	biometano	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ottenere	ottenere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	biomasse	biomassa	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	agroindustriali	agroindustriale	ADJ	A	Number=Plur	13	conj	_	_
+16	attraverso	attraverso	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	upgrading	upgrading	NOUN	S	Gender=Masc	18	nmod	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	digestione	digestione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	anaerobica	anaerobico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = è una fonte energetica programmabile che, integrata con solare ed eolico, dà stabilità alla produzione di energia rinnovabile.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	programmabile	programmabile	ADJ	A	Number=Sing	3	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	integrata	integrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	solare	solare	ADJ	A	Number=Sing	8	obl	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	eolico	eolico	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+15	stabilità	stabilità	NOUN	S	Gender=Fem	14	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	energia	energia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	rinnovabile	rinnovabile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Il secondo è che il biometano ha emissioni zero ed è chimicamente indistinguibile dal combustibile fossile, il che significa che può sfruttare la rete gas esistente senza necessità di investimenti infrastrutturali.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	biometano	biometano	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+9	zero	zero	NUM	N	_	7	obj	_	_
+10	ed	e	CCONJ	CC	_	13	cc	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	chimicamente	chimico	ADV	B	_	13	advmod	_	_
+13	indistinguibile	indistinguibile	ADJ	A	Number=Sing	7	conj	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	combustibile	combustibile	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	fossile	fossile	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+22	che	che	SCONJ	CS	_	24	mark	_	_
+23	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	sfruttare	sfruttare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	rete	rete	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	gas	gas	NOUN	S	Gender=Masc	26	compound	_	_
+28	esistente	esistere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	24	advcl	_	_
+29	senza	senza	ADP	E	_	30	case	_	_
+30	necessità	necessità	NOUN	S	Gender=Fem	28	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	infrastrutturali	infrastrutturale	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Il terzo è che le dimensioni di crescita sono consistenti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	consistenti	consistere	ADJ	A	Number=Plur	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = L’Italia ha già 1.500 impianti di digestione anaerobica in esercizio:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	già	già	ADV	B	_	3	advmod	_	_
+5	1.500	1.500	NUM	N	NumType=Card	6	nummod	_	_
+6	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	digestione	digestione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	anaerobica	anaerobico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = siamo il terzo produttore mondiale di biogas da matrici agricole, con 2,5 miliardi di metri cubi annui.
+1	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	mondiale	mondiale	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	biogas	biogas	NOUN	S	Gender=Fem	4	nmod	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	matrici	matrice	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	2,5	2,5	NUM	N	NumType=Card	14	nummod	_	_
+14	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	metri	metro	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+17	cubi	cubo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	annui	annuo	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Secondo le analisi contenute nel manifesto di sostegno al biometano firmato da Snam, Cib (Consorzio italiano biogas) e Confagricoltura, entro il 2030 la produzione di biometano potrebbe crescere fino a 8 miliardi di metri cubi l’anno.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	analisi	analisi	NOUN	S	Gender=Fem	34	obl	_	_
+4	contenute	contenere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	biometano	biometano	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Snam	Snam	PROPN	SP	_	13	obl:agent	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Cib	Cib	PROPN	SP	_	15	conj	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	Consorzio	consorzio	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+20	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	biogas	biogas	X	X	_	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	19	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Confagricoltura	Confagricoltura	PROPN	SP	_	15	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	entro	entro	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	2030	2030	NUM	N	NumType=Card	34	nummod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	biometano	biometare	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	crescere	crescere	VERB	V	VerbForm=Inf	0	root	_	_
+35	fino	fino	ADV	B	_	38	case	_	_
+36	a	a	ADP	E	_	35	fixed	_	_
+37	8	8	NUM	N	NumType=Card	38	nummod	_	_
+38	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	metri	metro	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
+41	cubi	cubo	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+42	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	anno	anno	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 13
+# text = “E’ una previsione credibile:
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	previsione	previsione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	credibile	credibile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 14
+# text = nei prossimi anni il biometano può arrivare a rappresentare fino al 10% dei consumi in Italia, più o meno lo stesso ammontare della produzione nazionale oggi”, precisa Marco Alverà , ceo di Snam.
+1-2	nei	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	biometano	biometano	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	rappresentare	rappresentare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	fino	fino	ADV	B	_	15	case	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	10	10	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	10	obl	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	consumi	consumo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Italia	Italia	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	10	punct	_	_
+22	più	più	ADV	B	_	27	advmod	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	meno	meno	ADV	B	_	22	conj	_	_
+25	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	ammontare	ammontare	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	nazionale	nazionale	ADJ	A	Number=Sing	30	amod	_	_
+32	oggi	oggi	ADV	B	_	30	advmod	_	SpaceAfter=No
+33	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+36	Marco	Marco	PROPN	SP	_	35	nsubj	_	_
+37	Alverà	alverà	PROPN	SP	_	36	flat:name	_	_
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	ceo	ceo	NOUN	S	Gender=Masc|Number=Sing	36	appos	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	Snam	Snam	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = “Intendiamo utilizzarlo anche sulla rete stradale:
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Intendiamo	intendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	utilizzarlo	_	_	_	_	_	_	_	_
+3	utilizzar	utilizzare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rete	rete	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	stradale	stradale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = nei prossimi 5 anni investiremo 150 milioni di euro per realizzare 300 impianti di rifornimento”.
+1-2	nei	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	5	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+4	5	5	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+6	investiremo	investire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	150	150	NUM	N	NumType=Card	8	nummod	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	euro	euro	NOUN	S	Gender=Masc	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	realizzare	realizzare	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	300	300	NUM	N	NumType=Card	14	nummod	_	_
+14	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	rifornimento	rifornimento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = “La produzione di biometano sarà essenziale per raggiungere gli obiettivi nazionali sul fronte dei trasporti”, aggiunge Raimondo Orsini , direttore della Fondazione per lo sviluppo sostenibile.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	biometano	biometano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	essenziale	essenziale	ADJ	A	Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	raggiungere	raggiungere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	nazionali	nazionale	ADJ	A	Number=Plur	11	amod	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fronte	fronte	NOUN	S	Number=Sing	9	obl	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+22	Raimondo	Raimondo	PROPN	SP	_	21	nsubj	_	_
+23	Orsini	Orsini	PROPN	SP	_	22	flat:name	_	_
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Fondazione	fondazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	sostenibile	sostenibile	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = “Entro il 2030 il 19% dell’energia usata per spostarsi dovrà essere rinnovabile.
+1	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	Entro	entro	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2030	2030	NUM	N	NumType=Card	17	nummod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	19	19	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	17	nsubj	_	_
+8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	energia	energia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	spostarsi	_	_	_	_	_	_	_	_
+13	spostar	spostare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	obj	_	_
+15	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	_
+16	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+17	rinnovabile	rinnovabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 19
+# text = E, visto che i biocarburanti sostenibili sono pochi, un elemento fondamentale sarà il mix tra gas naturale liquefatto e biometano:
+1	E	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	biocarburanti	biocarburante	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	sostenibili	sostenibile	ADJ	A	Number=Plur	6	amod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+13	fondamentale	fondamentale	ADJ	A	Number=Sing	12	amod	_	_
+14	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mix	mix	NOUN	S	Gender=Masc	0	root	_	_
+17	tra	tra	ADP	E	_	18	case	_	_
+18	gas	gas	NOUN	S	Gender=Masc	16	nmod	_	_
+19	naturale	naturale	ADJ	A	Number=Sing	18	amod	_	_
+20	liquefatto	liquefatto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	biometano	biometano	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 20
+# text = servirà a muovere autobus e camion abbattendo inquinamento ed emissioni serra”.
+1	servirà	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	muovere	muovere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	autobus	autobus	NOUN	S	Gender=Masc	3	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	camion	camion	NOUN	S	Gender=Masc	4	conj	_	_
+7	abbattendo	abbattire	VERB	V	VerbForm=Ger	3	advcl	_	_
+8	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	serra	serra	NOUN	S	Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Si comincia in Lombardia.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Lombardia	Lombardia	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = La produzione annua a regime nell’impianto di Montello, che recupera l'umido organico prodotto da 6 milioni di abitanti, sarà di 90 mila tonnellate di fertilizzante organico e di 32 milioni di metri cubi di biometano:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	annua	annuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	regime	regime	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Montello	Montello	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	recupera	recuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	umido	umido	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	organico	organico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	6	6	NUM	N	NumType=Card	20	nummod	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	17	obl:agent	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	abitanti	abitante	NOUN	S	Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	cop	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	90	90	NUM	N	NumType=Card	28	nummod	_	_
+27	mila	mila	NUM	N	NumType=Card	26	flat	_	_
+28	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	fertilizzante	fertilizzante	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	organico	organico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	32	32	NUM	N	NumType=Card	35	nummod	_	_
+35	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	metri	metro	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+38	cubi	cubo	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	biometano	biometare	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 23
+# text = quanto basta a far percorre 640 milioni di chilometri a un’auto.
+1	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+2	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	far	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	percorre	percorrere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	640	640	NUM	N	NumType=Card	7	nummod	_	_
+7	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	auto	auto	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = E’ il primo impianto in Italia “carbon negative” perché recupera dai processi di lavorazione anche 38 mila tonnellate annue di anidride carbonica destinata a usi industriali e alimentari.
+1	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	8	nmod	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	carbon	carbon	NOUN	S	Gender=Fem	4	parataxis	_	_
+9	negative	negativo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	recupera	recuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	processi	processo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lavorazione	lavorazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	38	38	NUM	N	NumType=Card	21	nummod	_	_
+20	mila	mila	NUM	N	NumType=Card	19	flat	_	_
+21	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+22	annue	annuo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	anidride	anidride	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	carbonica	carbonico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	usi	uso	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+29	industriali	industriale	ADJ	A	Number=Plur	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	alimentari	alimentare	ADJ	A	Number=Plur	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

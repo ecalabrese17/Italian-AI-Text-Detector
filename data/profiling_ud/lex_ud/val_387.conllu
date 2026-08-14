@@ -1,0 +1,378 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un’onda di proteste, di rabbia, di insoddisfazione che ha scosso le fondamenta del sistema.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	onda	onda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	insoddisfazione	insoddisfazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scosso	scuotere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	fondamenta	fondamento	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma, permettetemi di dirlo con un’amarezza profonda, è stato anche un fallimento.
+1	Ma	ma	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3-4	permettetemi	_	_	_	_	_	_	_	_
+3	permettete	permettere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	dirlo	_	_	_	_	_	_	_	_
+6	dir	dire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Un fallimento morale, politico, soprattutto di immaginario collettivo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	morale	morale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	politico	politico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	soprattutto	soprattutto	ADV	B	_	9	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	immaginario	immaginario	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	collettivo	collettivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Perché, in questo turbinio di promesse, di slogan e di singoli interessi, è sparito l’unico argomento che avrebbe dovuto – e avrebbe potuto – unire, confrontare e, forse, spingere verso un futuro diverso:
+1	Perché	perché	ADV	B	_	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	turbinio	turbinio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	slogan	slogan	NOUN	S	Gender=Masc	7	conj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	sparito	sparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	unico	unico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	dovuto	dovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	–	–	PUNCT	FB	_	23	punct	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	potuto	potere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj	_	_
+28	–	–	PUNCT	FB	_	29	punct	_	_
+29	unire	unire	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	confrontare	confrontare	VERB	V	VerbForm=Inf	29	conj	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	forse	forse	ADV	B	_	36	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	spingere	spingere	VERB	V	VerbForm=Inf	23	conj	_	_
+37	verso	verso	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+40	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 5
+# text = l’Europa.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Europa	Europa	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non ho mai avuto un rapporto idilliaco con l’Unione Europea.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	idilliaco	idilliaco	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Unione	Unione	PROPN	SP	_	4	obl	_	_
+11	Europea	Europea	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Lo sguardo critico, la denuncia delle sue contraddizioni e delle sue derive neologistiche sono sempre stati parte integrante del mio lavoro.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	critico	critico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	contraddizioni	contraddizione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	derive	deriva	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+16	neologistiche	neologistico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	sempre	sempre	ADV	B	_	20	advmod	_	_
+19	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	cop	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+21	integrante	integrante	ADJ	A	Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 8
+# text = Ma l'assenza impietosa di una discussione significativa su questo tema, sia nei dibattiti televisivi che nelle piattaforme dei partiti, è stata assordante.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	impietosa	impietoso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	sia	sia	CCONJ	CC	_	16	cc	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	dibattiti	dibattito	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+17	televisivi	televisivo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+19-20	nelle	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	piattaforme	piattaforma	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	cop	_	_
+28	assordante	assordare	ADJ	A	Number=Sing	16	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Abbiamo assistito a una campagna elettorale dominata da questioni contingenti, da promesse di taglio dei tassi, da promesse di “fare il bagno di nuovo nel Po”, da intimidazioni sulle migrazioni, da retoriche nazionaliste di ogni genere.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	assistito	assistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	elettorale	elettorale	ADJ	A	Number=Sing	5	amod	_	_
+7	dominata	dominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	7	obl:agent	_	_
+10	contingenti	contingente	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	tassi	tasso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	fare	fare	VERB	V	VerbForm=Inf	21	acl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	26	nmod	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Po	Po	PROPN	SP	_	24	obl	_	SpaceAfter=No
+32	”	”	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	intimidazioni	intimidazione	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+36-37	sulle	_	_	_	_	_	_	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	migrazioni	migrazione	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	42	punct	_	_
+40	da	da	ADP	E	_	42	case	_	_
+41	retoriche	retorica	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	42	det	_	_
+42	nazionaliste	nazionalista	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	45	det	_	_
+45	genere	genere	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = E, inevitabilmente, da un’evidente tendenza a demonizzare, a sminuire, a ignorare il ruolo cruciale dell’Europa nella nostra vita.
+1	E	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	inevitabilmente	inevitabilmente	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	evidente	evidente	ADJ	A	Number=Sing	8	amod	_	_
+8	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	demonizzare	demonizzare	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	sminuire	sminuire	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	ignorare	ignorare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	cruciale	cruciale	ADJ	A	Number=Sing	18	amod	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Europa	Europa	PROPN	SP	_	18	nmod	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	vita	vita	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Ho ascoltato i leader politici, ho letto i loro programmi.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	leader	leader	NOUN	S	_	2	obj	_	_
+5	politici	politico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = E ho sentito, non una visione di un’Europa più forte, più giusta, più vicina ai cittadini, ma piuttosto una serie di strategie per sfruttare, per aggirare, per dipingere l'Europa come un nemico da combattere.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	visione	visione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Europa	Europa	PROPN	SP	_	7	nmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	forte	forte	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	ma	ma	CCONJ	CC	_	26	cc	_	_
+24	piuttosto	piuttosto	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	serie	serie	NOUN	S	Gender=Fem	3	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30	sfruttare	sfruttare	VERB	V	VerbForm=Inf	28	acl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	per	per	ADP	E	_	33	mark	_	_
+33	aggirare	aggirare	VERB	V	VerbForm=Inf	30	advcl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	per	per	ADP	E	_	36	mark	_	_
+36	dipingere	dipingere	VERB	V	VerbForm=Inf	33	advcl	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	Europa	Europa	PROPN	SP	_	36	obj	_	_
+39	come	come	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+42	da	da	ADP	E	_	43	mark	_	_
+43	combattere	combattere	VERB	V	VerbForm=Inf	41	acl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Un fantasma da ridicolizzare.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	ridicolizzare	ridicolizzare	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = La “burocrazia europea”, la “governo fantoccio”, la “magagna di Bruxelles” hanno fatto da mantra, sostitutivi di un
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+4	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	fantoccio	fantoccio	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	magagna	magagna	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Bruxelles	Bruxelles	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	15	punct	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	mantra	mantra	NOUN	S	Gender=Masc	26	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	sostitutivi	sostitutivo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	obl	_	SpacesAfter=\n
+

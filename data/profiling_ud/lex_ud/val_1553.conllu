@@ -1,0 +1,309 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E’ quasi Oscar:
+1	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	Oscar	Oscar	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ai Bafta2015 premiati Moore e Redmayne.
+1-2	ai	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Bafta2015	Bafta2015	PROPN	SP	_	0	root	_	_
+4	premiati	premiare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	Moore	Moore	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Redmayne	Redmayne	PROPN	SP	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Un duetto di classismo e talento, che celebra finalmente la capacità di interpretazione e l’efficacia narrativa.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	duetto	duetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	classismo	classismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	talento	talento	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	celebra	celebrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	finalmente	finalmente	ADV	B	_	9	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	capacità	capacità	NOUN	S	Gender=Fem	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+18	narrativa	narrativo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La premiazione di Julianne Moore, peraltro, è da considerare un balsamo per un’industria che sembra aver dimenticato il valore dell’esperienza, della maturità e della profondità emotiva.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	premiazione	premiazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Julianne	Julianne	PROPN	SP	_	2	nmod	_	_
+5	Moore	Moore	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	peraltro	peraltro	ADV	B	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	considerare	considerare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	balsamo	balsamo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	industria	industria	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	aver	avere	AUX	VA	VerbForm=Inf	20	aux	_	_
+20	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	valore	valore	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	maturità	maturità	NOUN	S	Gender=Fem	25	nmod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	profondità	profondità	NOUN	S	Gender=Fem	29	conj	_	_
+34	emotiva	emotivo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Moore, un’attrice che ha saputo cavarsela da sola, con la forza della sua arte, senza bisogno di clamori o di retorica identitaria.
+1	Moore	Moore	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8-10	cavarsela	_	_	_	_	_	_	_	_
+8	cavar	cavare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	se	se	SCONJ	CS	_	11	case	_	_
+10	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	da	da	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	sola	solo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	forza	forza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	arte	arte	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	senza	senza	ADP	E	_	23	case	_	_
+23	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	clamori	clamore	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	retorica	retorica	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+29	identitaria	identitario	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Peter Redmayne, con la sua interpretazione di Stephen Hawking, non ha solo vinto il premio, ma ha dimostrato di avere un’intelligenza e una sensibilità che trascendono la semplice imitazione del ruolo.
+1	Peter	Peter	PROPN	SP	_	15	nsubj	_	_
+2	Redmayne	Redmayne	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Stephen	Stephen	PROPN	SP	_	7	nmod	_	_
+10	Hawking	Hawking	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	solo	solo	ADV	B	_	15	advmod	_	_
+15	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	premio	premio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	avere	avere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sensibilità	sensibilità	NOUN	S	Gender=Fem	25	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	trascendono	trascendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	semplice	semplice	ADJ	A	Number=Sing	33	amod	_	_
+33	imitazione	imitazione	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Ha capito l’uomo, la sua sofferenza, la sua resilienza.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un’interpretazione che non si perde nell’autocompiacimento del “vittimismo”, come spesso accade nel nuovo cinema anglosassone, ma che guarda al mondo con una visione lucida e, oserei dire, una certa dignità.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7-8	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	autocompiacimento	autocompiacimento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	vittimismo	vittimismo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	spesso	spesso	ADV	B	_	18	advmod	_	_
+18	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	cinema	cinema	NOUN	S	Gender=Masc	18	obl	_	_
+23	anglosassone	anglosassone	SYM	SYM	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	visione	visione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+34	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	oserei	oseere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	dire	dire	VERB	V	VerbForm=Inf	33	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	certa	certo	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	dignità	dignità	NOUN	S	Gender=Fem	38	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 9
+# text = È quasi ironico, a questo punto, dover sottolineare come la maggior parte dei premi assegnati in quel paese sembrino piombati in una spirale di celebrativismo luddista e di attivismo sociale opportunista.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	ironico	ironico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	punto	punto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	dover	dovere	AUX	VM	VerbForm=Inf	10	aux	_	_
+10	sottolineare	sottolineare	VERB	V	VerbForm=Inf	22	csubj	_	_
+11	come	come	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	14	amod	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	premi	premio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	sembrino	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+23	piombati	piombare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	xcomp	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	spirale	spirale	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	celebrativismo	celebrativismo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	luddista	luddista	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	attivismo	attivismo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+33	sociale	sociale	ADJ	A	Number=Sing	32	amod	_	_
+34	opportunista	opportunista	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Si premiano dietrofronti, si esaltano modelli di comportamento discutibili e si censura il successo basato sul talento puro.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	premiano	premiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dietrofronti	dietrofronto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	esaltano	esaltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	discutibili	discutibile	ADJ	A	Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	censura	censurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	successo	successo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	basato	basato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	talento	talento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	puro	puro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Questa vittoria, invece, è un’ombra di speranza.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Un promemoria
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	promemoria	promemoria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

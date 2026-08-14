@@ -1,0 +1,277 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "La vita", ha detto, "non è un bene da disporre a piacimento.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bene	bene	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15	disporre	disporre	VERB	V	VerbForm=Inf	13	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	piacimento	piacimento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = E chi la uccide, non solo commette un atto gravissimo, ma si apre a una pericolosa distorsione del valore civile e morale".
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	nsubj	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	uccide	uccidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	commette	commettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	atto	atto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	pericolosa	pericoloso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	distorsione	distorsione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	valore	valore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	civile	civile	ADJ	A	Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	morale	morale	ADJ	A	Number=Sing	23	conj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Il Papa ha in particolare ricordato come molte società, a volte sotto l’effetto di una cultura di sconfinamento e di fine della responsabilità, abbiano visto l’uomo ridotto a un oggetto di consumo, di frustrazione o di aggressione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Papa	Papa	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	particolare	particolare	ADJ	A	Number=Sing	6	amod	_	_
+6	ricordato	ricordare	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	società	società	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	volte	volte	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+13	sotto	sotto	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sconfinamento	sconfinamento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	fine	fine	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	responsabilità	responsabilità	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	3	punct	_	_
+28	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	frustrazione	frustrazione	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	_
+41	o	o	CCONJ	CC	_	43	cc	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	aggressione	aggressione	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E in tali contesti, ha sottolineato, spesso si nascondono le scelte di omicidio piuttosto che di semplice contrasto.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	tali	tale	DET	DD	Number=Plur|PronType=Dem	4	det	_	_
+4	contesti	contesto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	spesso	spesso	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	nascondono	nascondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	piuttosto	piuttosto	ADV	B	_	13	advmod	_	_
+17	che	che	ADP	E	_	16	fixed	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	semplice	semplice	ADJ	A	Number=Sing	20	amod	_	_
+20	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = "Non è sufficiente dire che una vita è vissuta male.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	vissuta	vivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+11	male	male	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Bisogna chiedersi chi ha deciso che sia inutile, e perché", ha aggiunto.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	chiedersi	_	_	_	_	_	_	_	_
+2	chieder	chiedere	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	inutile	inutile	ADJ	A	Number=Sing	6	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	perché	perché	ADV	B	_	16	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = In un clima dove il rifiuto della vita è diventato una posizione politica, sociale, addirittura ideologica, il Papa ha riaffermato la necessità di una convinzione profonda:
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	clima	clima	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+4	dove	dove	ADV	B	_	11	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rifiuto	rifiuto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	11	xcomp	_	_
+14	politica	politico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	sociale	sociale	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	addirittura	addirittura	ADV	B	_	19	advmod	_	_
+19	ideologica	ideologico	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Papa	Papa	PROPN	SP	_	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	riaffermato	riaffermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	necessità	necessità	NOUN	S	Gender=Fem	24	obj	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 8
+# text = che ogni persona, dal primo giorno di nascita fino alla morte naturale, ha diritto alla protezione, alla pace, e alla rispettata dignità.
+1	che	che	SCONJ	CS	_	17	mark	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	fino	fino	ADV	B	_	14	case	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	morte	morte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+15	naturale	naturale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	pace	pace	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	31	punct	_	_
+27	e	e	CCONJ	CC	_	31	cc	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	rispettata	rispettato	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	dignità	dignità	NOUN	S	Gender=Fem	17	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = "Noi non dobbiamo credere che alcune vite siano più pertinenti di altre.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	vite	vita	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	pertinenti	pertinente	ADJ	A	Number=Plur	5	advcl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Questa idea è antica, ma è nella perdita della libertà morale", ha s
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	antica	antico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	ma	ma	CCONJ	CC	_	10	cc	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	libertà	libertà	NOUN	S	Gender=Fem	10	nmod	_	_
+14	morale	morale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+18	s	s	NOUN	S	Gender=Masc	17	obj	_	SpacesAfter=\n
+

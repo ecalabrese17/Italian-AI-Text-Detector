@@ -1,0 +1,749 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ha avuto un impatto immediato:
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	immediato	immediato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Trump finora non aveva mai annunciato una disponibilità a riflettere su scelte a favore della stabilità climatica.
+1	Trump	Trump	NOUN	S	Number=Sing	6	nsubj	_	_
+2	finora	finora	ADV	B	_	1	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	disponibilità	disponibilità	NOUN	S	Gender=Fem	6	obj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	riflettere	riflettere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	su	su	ADP	E	_	12	case	_	_
+12	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	favore	favore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	stabilità	stabilità	NOUN	S	Gender=Fem	14	nmod	_	_
+18	climatica	climatico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Eppure glielo avevano chiesto in tanti:
+1	Eppure	eppure	ADV	B	_	5	advmod	_	_
+2-3	glielo	_	_	_	_	_	_	_	_
+2	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	iobj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = governi, grandi aziende energetiche compresa la Exxon, la comunità scientifica.
+1	governi	governo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	grandi	grande	ADJ	A	Number=Plur	4	amod	_	_
+4	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	energetiche	energetico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	compresa	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Exxon	Exxon	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	comunità	comunità	NOUN	S	Gender=Fem	8	nmod	_	_
+12	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Niente.
+1	Niente	niente	DET	DI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ora invece le parole pacate del pontefice potrebbero rivelarsi decisive".
+1	Ora	ora	ADV	B	_	10	advmod	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+5	pacate	pacato	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pontefice	pontefice	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	rivelarsi	_	_	_	_	_	_	_	_
+10	rivelar	rivelare	VERB	V	VerbForm=Inf	0	root	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	decisive	decisivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Jeffrey Sachs, il direttore dell'Earth Institute della Columbia University, indicato come l'ispiratore economico dell'enciclica "Laudato si'", è appena arrivato a Roma per partecipare al Forum della pubblica amministrazione che ha aderito al Festival dello sviluppo sostenibile organizzato dall'Asvis.
+1	Jeffrey	Jeffrey	PROPN	SP	_	31	nsubj	_	_
+2	Sachs	Sachs	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Earth	Earth	PROPN	SP	_	5	nmod	_	_
+9	Institute	Institute	PROPN	SP	_	8	flat:name	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Columbia	Columbia	PROPN	SP	_	8	nmod	_	_
+13	University	University	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	indicato	indicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ispiratore	ispiratore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	economico	economico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	enciclica	enciclica	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Laudato	Laudare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	appena	appena	ADV	B	_	31	advmod	_	_
+31	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	Roma	Roma	PROPN	SP	_	31	obl	_	_
+34	per	per	ADP	E	_	35	mark	_	_
+35	partecipare	partecipare	VERB	V	VerbForm=Inf	31	advcl	_	_
+36-37	al	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Forum	Forum	PROPN	SP	_	35	obl	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	aderito	aderire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+46-47	al	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	Festival	Festival	PROPN	SP	_	45	obl	_	_
+49-50	dello	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+52	sostenibile	sostenibile	ADJ	A	Number=Sing	51	amod	_	_
+53	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+54-55	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+54	da	da	ADP	E	_	56	case	_	_
+55	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	56	det	_	_
+56	Asvis	Asvis	PROPN	SP	_	53	obl:agent	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 8
+# text = Deve fare il punto sui 17 obiettivi di sostenibilità che ha contribuito a mettere a fuoco per conto delle Nazioni Unite, ma l'incontro tra il presidente degli Stati Uniti e il Papa ha improvvisamente cambiato lo scenario.
+1	Deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	17	17	NUM	N	NumType=Card	8	nummod	_	_
+8	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	mettere	mettere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	conto	conto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	Nazioni	nazione	PROPN	SP	_	19	nmod	_	_
+23	Unite	unito	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+28	tra	tra	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Stati	Stati	PROPN	SP	_	30	nmod	_	_
+34	Uniti	Uniti	PROPN	SP	_	33	flat:name	_	_
+35	e	e	CCONJ	CC	_	40	cc	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Papa	Papa	PROPN	SP	_	40	nsubj	_	_
+38	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	improvvisamente	improvviso	ADV	B	_	40	advmod	_	_
+40	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+41	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Lei è ottimista sulle possibilità di una svolta della Casa Bianca sulla questione climatica, fino a ieri però tutti i segnali erano andati in un'altra direzione.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ottimista	ottimista	ADJ	A	Number=Sing	0	root	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	possibilità	possibilità	NOUN	S	Gender=Fem	3	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	Bianca	Bianca	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	questione	questione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+17	climatica	climatico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	fino	fino	ADV	B	_	21	case	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	ieri	ieri	ADV	B	_	27	advmod	_	_
+22	però	però	ADV	B	_	27	advmod	_	_
+23	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	25	det:predet	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+26	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+30	altra	altro	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = "È vero.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Trump ha vinto le elezioni promettendo uno scontro frontale sull'ambiente per soddisfare la pancia del suo elettorato e gli interessi delle lobby del petrolio e del carbone.
+1	Trump	Trump	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	promettendo	promettere	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	frontale	frontale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+10	su	su	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	soddisfare	soddisfare	VERB	V	VerbForm=Inf	6	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pancia	pancia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	elettorato	elettorato	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	lobby	lobby	NOUN	S	Gender=Fem	23	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Una posizione estremamente aggressiva.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	estremamente	estremamente	ADV	B	_	4	advmod	_	_
+4	aggressiva	aggressivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma forse ha cominciato a rendersi conto che è difficile che il mercato lo segua.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	forse	forse	ADV	B	_	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	rendersi	_	_	_	_	_	_	_	_
+6	render	rendere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	conto	conto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	difficile	difficile	ADJ	A	Number=Sing	4	ccomp	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	segua	seguire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Per realizzare gli annunci della sua campagna elettorale bisognerebbe mobilitare ingenti risorse finanziarie su infrastrutture che hanno bisogno di decenni per ripagarsi e fare profitti:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	realizzare	realizzare	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	annunci	annunco	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	elettorale	elettorale	ADJ	A	Number=Sing	8	amod	_	_
+10	bisognerebbe	bisognerebbe	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	mobilitare	mobilitare	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	ingenti	ingente	ADJ	A	Number=Plur	13	amod	_	_
+13	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+14	finanziarie	finanziario	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	su	su	ADP	E	_	16	case	_	_
+16	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	ripagarsi	_	_	_	_	_	_	_	_
+23	ripagar	ripagare	VERB	V	VerbForm=Inf	21	acl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	23	conj	_	_
+27	profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 15
+# text = non è l'orizzonte di tempo della presidenza Trump".
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Trump	Trump	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Eppure è stato dato il via libera al Keystone, il contestatissimo oleodotto bloccato da Obama che passa attraverso le terre dei nativi americani.
+1	Eppure	eppure	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	libera	libero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Keystone	Keystone	PROPN	SP	_	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	contestatissimo	contestate	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	oleodotto	oleodotto	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+15	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	Obama	Obama	PROPN	SP	_	15	obl:agent	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	attraverso	attraverso	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	terre	terra	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	americani	americano	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = "Non credo che quell'oleodotto si farà:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	quell'	quello	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+6	oleodotto	oleodotto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = ci sono troppe incertezze.
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	incertezze	incertezza	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Molte imprese hanno fatto i conti e hanno visto che le politiche di Trump rischiano di rallentare il motore dell'economia sacrificando settori strategici come le fonti rinnovabili, la mobilità elettrica, l'innovazione digitale.
+1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	conti	conto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Trump	Trump	PROPN	SP	_	12	nmod	_	_
+15	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	rallentare	rallentare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	motore	motore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	economia	economia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	sacrificando	sacrificare	VERB	V	VerbForm=Ger	17	advcl	_	_
+24	settori	settore	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	strategici	strategico	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+29	rinnovabili	rinnovabile	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	mobilità	mobilità	NOUN	S	Gender=Fem	28	conj	_	_
+33	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+37	digitale	digitale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = E non è nemmeno certo che il presidente riesca a finire il mandato".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+5	certo	certo	ADV	B	_	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	riesca	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	finire	finire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mandato	mandato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Lo slogan America first potrebbe diventare un boomerang?
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	slogan	slogan	NOUN	S	Gender=Masc	6	nsubj	_	_
+3	America	America	PROPN	SP	_	2	nmod	_	_
+4	first	first	NOUN	S	_	3	flat:name	_	_
+5	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	diventare	diventare	VERB	V	VerbForm=Inf	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	boomerang	boomerang	NOUN	S	Gender=Masc	6	xcomp	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = "Ogni volta che Trump ipotizza l'uscita dall'accordo di Parigi la Cina si fa avanti dicendo di essere pronta a rilanciare impegnandosi sulla difesa del clima.
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+4	che	che	SCONJ	CS	_	17	mark	_	_
+5	Trump	Trump	PROPN	SP	_	17	nsubj	_	_
+6	ipotizza	ipotizzare	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uscita	uscire	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Parigi	Parigi	PROPN	SP	_	11	nmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Cina	Cina	PROPN	SP	_	5	nmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	avanti	avanti	ADV	B	_	17	advmod	_	_
+19	dicendo	dire	VERB	V	VerbForm=Ger	17	ccomp	_	_
+20	di	di	ADP	E	_	22	mark	_	_
+21	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+22	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	19	xcomp	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	rilanciare	rilanciare	VERB	V	VerbForm=Inf	22	advcl	_	_
+25-26	impegnandosi	_	_	_	_	_	_	_	_
+25	impegnando	impegnare	VERB	V	VerbForm=Ger	24	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	clima	clima	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 23
+# text = È chiaro che se Washington si defila il timone di settori industriali chiave passa in mano a Pechino:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	Washington	Washington	PROPN	SP	_	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	defila	defilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	timone	timone	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	settori	settore	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	industriali	industriale	ADJ	A	Number=Plur	11	amod	_	_
+13	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	11	compound	_	_
+14	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Pechino	Pechino	PROPN	SP	_	14	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = esattamente il contrario di quello a cui Trump dichiara di puntare".
+1	esattamente	esattamente	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	Trump	Trump	PROPN	SP	_	9	nsubj	_	_
+9	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	puntare	puntare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Ignorare la questione climatica potrebbe avere altri riflessi geopolitici?
+1	Ignorare	ignorare	VERB	V	VerbForm=Inf	6	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	climatica	climatico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+7	altri	altro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	riflessi	riflesso	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	geopolitici	geopolitico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = "Sì, ad esempio in Medio Oriente.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Medio	medio	PROPN	SP	_	5	nmod	_	_
+8	Oriente	Oriente	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = La prima causa della crisi della regione è legata alla pesante interferenza occidentale che è durata decenni e ha impedito la possibilità di uno sviluppo equo e sostenibile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	causa	causa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	crisi	crisi	NOUN	S	Gender=Fem	3	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	regione	regione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	pesante	pesante	ADJ	A	Number=Sing	15	amod	_	_
+15	interferenza	interferenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	occidentale	occidentale	ADJ	A	Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+20	decenni	decennio	X	X	_	19	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	impedito	impedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	possibilità	possibilità	NOUN	S	Gender=Fem	23	obj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	equo	equo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	sostenibile	sostenibile	ADJ	A	Number=Sing	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 28
+# text = Ma tra il 2006 e il 2009 in Siria c'è stata una siccità di eccezionale durezza che ha contribuito a destabilizzare il Paese.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2006	2006	NUM	N	NumType=Card	12	nummod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2009	2009	NUM	N	NumType=Card	4	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Siria	Siria	PROPN	SP	_	7	obl	_	_
+10	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	siccità	siccità	NOUN	S	Gender=Fem	12	nsubj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	eccezionale	eccezionale	ADJ	A	Number=Sing	17	amod	_	_
+17	durezza	durezza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	destabilizzare	destabilizzare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 29
+# text = E il problema si avverte in tutta la fascia che va dal Senegal all'Afghanistan:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	avverte	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fascia	fascia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Senegal	Senegal	PROPN	SP	_	11	obl	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Afghanistan	Afghanistan	PROPN	SP	_	11	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 30
+# text = sono 10 mila chilometri di terre a forte rischio aridità che hanno problemi di sicurezza alimentare, scarsità di acqua, carenza di energia.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	10	10	NUM	N	NumType=Card	4	nummod	_	_
+3	mila	mila	NUM	N	NumType=Card	2	flat	_	_
+4	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	terre	terra	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	forte	forte	ADJ	A	Number=Sing	9	amod	_	_
+9	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+10	aridità	aridità	NOUN	S	Gender=Fem	0	root	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	alimentare	alimentare	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	scarsità	scarsità	NOUN	S	Gender=Fem	15	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	energia	energia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 31
+# text = Questa zona, se non si allenterà la morsa del cambiamento climatico, diventerà una bomba ad orologeria anche sul fronte della migrazione". lang: en_US
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	zona	zona	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	allenterà	allentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	morsa	morsa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	orologeria	orologeria	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	fronte	fronte	NOUN	S	Number=Sing	15	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	migrazione	migrazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	26	punct	_	_
+29	lang	lang	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	29	punct	_	_
+31	en_US	en_US	PROPN	SP	_	15	xcomp	_	SpacesAfter=\n
+

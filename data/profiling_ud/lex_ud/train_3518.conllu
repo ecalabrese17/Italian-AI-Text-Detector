@@ -1,0 +1,420 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ed era uno dei lavori estivi preferiti da liceali e studenti di college:
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	estivi	estivo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	preferiti	preferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	liceali	liceale	NOUN	S	Gender=Masc|Number=Plur	8	obl:agent	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	college	college	NOUN	S	Gender=Masc	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = anche perché, nelle piscine dei sobborghi, avevano magari la speranza di incontrare qualche sorridente coetanea in bikini.
+1	anche	anche	ADV	B	_	11	advmod	_	_
+2	perché	perché	SCONJ	CS	_	11	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	11	punct	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	piscine	piscina	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	sobborghi	sobborgo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	magari	magari	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	incontrare	incontrare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	sorridente	sorridente	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	coetanea	coetaneo	ADJ	A	Number=Sing	18	amod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	bikini	bikino	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Ma adesso, non solo fare il bagnino ha perso “glamour”, non è più sexy come una volta, ma la “professione” sta finendo in mano ai senior:
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	adesso	adesso	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	10	nsubj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bagnino	bagnino	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	glamour	glamour	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	sexy	sexy	ADJ	A	_	10	conj	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	volta	volta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	29	punct	_	_
+23	ma	ma	CCONJ	CC	_	29	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	“	“	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	professione	professione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	26	punct	_	_
+28	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	finendo	finire	VERB	V	VerbForm=Ger	10	conj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	mano	mano	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	senior	senior	NOUN	S	Gender=Masc	31	nmod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = agli ultra-cinquantacinquenni e ai pensionati.
+1-2	agli	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	5	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	ultra	ultro	ADJ	A	_	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	cinquantacinquenni	cinquantacinquenne	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pensionati	pensionato	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Leslie Botts, una insegnante in pensione che è stata scelta dal Washington Post come simbolo del fenomeno, ha 70 anni.
+1	Leslie	Leslie	PROPN	SP	_	22	nsubj	_	_
+2	Botts	Botts	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	insegnante	insegnante	NOUN	S	Number=Sing	1	appos	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	scelta	scegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Washington	Washington	PROPN	SP	_	11	obl:agent	_	_
+15	Post	post	PROPN	SP	_	14	flat:name	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	70	70	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 6
+# text = “Volevo uscire di casa, fare qualcosa assieme ad altri, mantenermi in forma e guadagnare qualche soldo per integrare la pensione”, spiega la Botts, che, dopo aver preso il certificato, lavora adesso come “lifeguard” in una piscina comunale di Austin, nel Texas.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	_
+8	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+9	assieme	assieme	ADV	B	_	11	case	_	_
+10	ad	a	ADP	E	_	9	fixed	_	_
+11	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	mantenermi	mantenermo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	forma	forma	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	guadagnare	guadagnare	VERB	V	VerbForm=Inf	3	conj	_	_
+18	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	integrare	integrare	VERB	V	VerbForm=Inf	17	advcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Botts	Botts	PROPN	SP	_	26	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	38	nsubj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	dopo	dopo	SCONJ	CS	_	34	mark	_	_
+33	aver	avere	AUX	VA	VerbForm=Inf	34	aux	_	_
+34	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	advcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	certificato	certificato	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	34	punct	_	_
+38	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+39	adesso	adesso	ADV	B	_	38	advmod	_	_
+40	come	come	SCONJ	CS	_	42	mark	_	_
+41	“	“	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+42	lifeguard	lifeguard	NOUN	S	_	38	ccomp	_	SpaceAfter=No
+43	”	”	PUNCT	FB	_	42	punct	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	piscina	piscina	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+47	comunale	comunale	ADJ	A	Number=Sing	46	amod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	Austin	Austin	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	46	punct	_	_
+51-52	nel	_	_	_	_	_	_	_	_
+51	in	in	ADP	E	_	53	case	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	Texas	Texas	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Stipendio: 14 dollari lordi all’ora.
+1	Stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	14	14	NUM	N	NumType=Card	4	nummod	_	_
+4	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	lordi	lordo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = E le motivazioni della bagnina settantenne sono condivise da tutti i suoi colleghi over-55, cui fa parte persino un 86enne.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	motivazioni	motivazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bagnina	bagnina	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	settantenne	settantenne	ADJ	A	_	6	amod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	condivise	condividere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	da	da	ADP	E	_	14	case	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+15	over	over	X	SW	Foreign=Yes	14	compound	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	55	55	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	cui	cui	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	persino	persino	ADV	B	_	20	advmod	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	86enne	86enne	NOUN	S	Number=Sing	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Dietro al cambiamento generazionale “all’inverso” dei bagnini americani, che in tutto sono 150mila, ci sono anche alcune trasformazioni nel mercato del lavoro.
+1	Dietro	dietro	ADV	B	_	23	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+5	generazionale	generazionale	ADJ	A	Number=Sing	4	amod	_	_
+6	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7-8	all’	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	inverso	inverso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bagnini	bagnino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+14	americani	americano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obl	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	150mila	150mila	ADJ	A	Gender=Fem|Number=Sing	13	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	4	punct	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+23	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	anche	anche	ADV	B	_	26	advmod	_	_
+25	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	trasformazioni	trasformazione	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+27-28	nel	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 10
+# text = Innanzitutto, meno giovani di una volta puntano a un’attività remunerata durante l’estate, e quindi meno di loro cercano un lavoro su spiagge o piscine.
+1	Innanzitutto	innanzitutto	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	meno	meno	ADV	B	_	4	advmod	_	_
+4	giovani	giovane	ADJ	A	Number=Plur	8	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	puntano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	attività	attività	NOUN	S	Gender=Fem	8	obl	_	_
+12	remunerata	remunerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	durante	durante	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	estate	estate	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18	quindi	quindi	ADV	B	_	19	advmod	_	_
+19	meno	meno	ADV	B	_	22	advmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	obl	_	_
+22	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	su	su	ADP	E	_	26	case	_	_
+26	spiagge	spiaggia	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	o	o	CCONJ	CC	_	28	cc	_	_
+28	piscine	piscina	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Negli Stati Uniti c’è anche una situazione molto vicina alla piena occupazione:
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Stati	Stati	PROPN	SP	_	6	obl	_	_
+4	Uniti	Uniti	PROPN	SP	_	3	flat:name	_	_
+5	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 12
+# text = nello stato del South Dakota, ad esempio, il tasso di disoccupazione è di appena il 3,3 per cento.
+1-2	nello	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	stato	stato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	South	South	PROPN	SP	_	3	nmod	_	_
+7	Dakota	Dakota	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	ad	a	ADP	E	_	10	case	_	_
+10	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	appena	appena	ADV	B	_	20	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	3,3	3,3	NUM	N	NumType=Card	3	nummod	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	cento	cento	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = E’ dunque difficile trovare manodopera, anche perché si è rallentato il vecchio canale dei giovani stranieri che arrivavano per lavori stagionali.
+1	E’	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	dunque	dunque	ADV	B	_	3	advmod	_	_
+3	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	manodopera	manodopera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rallentato	rallentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	canale	canala	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	giovani	giovane	NOUN	S	Number=Plur	14	nmod	_	_
+18	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	arrivavano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+23	stagionali	stagionale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Ad approfittarne?
+1	Ad	a	ADP	E	_	2	mark	_	_
+2-3	approfittarne	_	_	_	_	_	_	_	SpaceAfter=No
+2	approfittar	approfittare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = I bagni-senior: che, a dispetto dei capelli bianchi (o tinti), sono atletici, affidabili e godono di ottima fama.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bagni-senior	bagni-senior	NOUN	S	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	18	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	tinti	tinto	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	atletici	atletico	ADJ	A	Gender=Masc|Number=Plur	2	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	affidabili	affidabile	ADJ	A	Number=Plur	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	godono	godere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	ottima	ottimo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	fama	fama	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

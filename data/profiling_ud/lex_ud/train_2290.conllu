@@ -1,0 +1,337 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un’altra sanzione, lo ammette ufficialmente la stessa Commissione, ma una sanzione “che si tratta”.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	sanzione	sanzione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ufficialmente	ufficialmente	ADV	B	_	10	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sanzione	sanzione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+15	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = L’ammissione, arrivata in un comunicato stampa dal tono quasi apologetico, non nasconde il fatto che l'azione di Bruxelles è stata anticipata da diverse fonti e che la multa, pur elevata, rappresenta in realtà una revisione al ribasso di una prima stima che avrebbe potuto superare i 10 miliardi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	7	compound	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tono	tono	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	quasi	quasi	ADV	B	_	13	advmod	_	_
+13	apologetico	apologetico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	che	che	SCONJ	CS	_	26	mark	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	azione	azione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Bruxelles	Bruxelles	PROPN	SP	_	21	nmod	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	anticipata	anticipare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+29	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	26	obl:agent	_	_
+30	e	e	CCONJ	CC	_	38	cc	_	_
+31	che	che	SCONJ	CS	_	38	mark	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	multa	multa	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	pur	pure	ADV	B	_	36	advmod	_	_
+36	elevata	elevato	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	33	punct	_	_
+38	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+43-44	al	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	ribasso	ribasso	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+46	di	di	ADP	E	_	49	case	_	_
+47	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	49	amod	_	_
+49	stima	stima	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+50	che	che	PRON	PR	PronType=Rel	53	nsubj	_	_
+51	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+52	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	aux	_	_
+53	superare	superare	VERB	V	VerbForm=Inf	49	acl:relcl	_	_
+54	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+55	10	10	NUM	N	NumType=Card	56	nummod	_	_
+56	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	53	obj	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = La contestazione ai danni del colosso di Mountain View riguarda soprattutto il periodo compreso tra il 2008 e il 2011.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contestazione	contestazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	danni	danno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	colosso	colosso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Mountain	Mountain	PROPN	SP	_	8	nmod	_	_
+11	View	View	PROPN	SP	_	10	flat:name	_	_
+12	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	soprattutto	soprattutto	ADV	B	_	12	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	compreso	compreso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2008	2008	NUM	N	NumType=Card	15	nummod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	2011	2011	NUM	N	NumType=Card	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = In questi anni, Google avrebbe forzato i produttori di smartphone a favorire la sua ricerca integrata, ostacolando la possibilità per questi di installare concorrenti come la ricerca di Bing o altre alternative.
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Google	Google	PROPN	SP	_	7	nsubj	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	forzato	forzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	produttori	produttore	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	favorire	favorire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17	integrata	integrato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	ostacolando	ostacolare	VERB	V	VerbForm=Ger	7	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	possibilità	possibilità	NOUN	S	Gender=Fem	19	obj	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	21	nmod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	installare	installare	VERB	V	VerbForm=Inf	21	acl	_	_
+26	concorrenti	concorrente	NOUN	S	Number=Plur	25	obj	_	_
+27	come	come	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Bing	Bing	PROPN	SP	_	29	nmod	_	_
+32	o	o	CCONJ	CC	_	34	cc	_	_
+33	altre	altro	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	_
+34	alternative	alternativa	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Un’azione, secondo la Commissione, che ha saputo distorcere la concorrenza e danneggiare i consumatori, offrendo loro un servizio di ricerca meno fornito e meno adatto alle loro esigenze.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azione	azione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	distorcere	distorcere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	danneggiare	danneggiare	VERB	V	VerbForm=Inf	10	conj	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	offrendo	offrire	VERB	V	VerbForm=Ger	10	advcl	_	_
+20	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	iobj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	meno	meno	ADV	B	_	26	advmod	_	_
+26	fornito	fornito	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	meno	meno	ADV	B	_	29	advmod	_	_
+29	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ciò che rende questa nuova multa “che si tratta” non è tanto l'ammontare (che, come abbiamo detto, è stata ridimensionata), ma la strategia comunicativa di Google.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	multa	multa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	10	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	tanto	tanto	ADV	B	_	16	advmod	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	ammontare	ammontare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+17	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+18	che	che	PRON	PR	PronType=Rel	26	nsubj:pass	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	come	come	SCONJ	CS	_	22	mark	_	_
+21	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	ridimensionata	ridimensionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	ma	ma	CCONJ	CC	_	31	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+32	comunicativa	comunicativo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Google	Google	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Il gigante tecnologico si era preparato a una battaglia legale accesa, con dichiarazioni aggressive e la minaccia di ricorrere a vie legali contro la decisione europea.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gigante	gigante	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	tecnologico	tecnologico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	legale	legale	ADJ	A	Number=Sing	9	amod	_	_
+11	accesa	acceso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+15	aggressive	aggressivo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	ricorrere	ricorrere	VERB	V	VerbForm=Inf	18	acl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	vie	via	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+23	legali	legale	ADJ	A	Number=Plur	22	amod	_	_
+24	contro	contro	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+27	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Ma ora, con la Commissione che ammette di aver rivisto la sua valutazione, Google si limita a un'ammissione di “errore” e a un’intenzione di “collaborare pienamente”.
+1	Ma	ma	CCONJ	CC	_	18	cc	_	_
+2	ora	ora	ADV	B	_	18	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	aver	avere	AUX	VA	VerbForm=Inf	11	aux	_	_
+11	rivisto	rivedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	Google	Google	PROPN	SP	_	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	limita	limitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	errore	errore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	24	punct	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+30	di	di	ADP	E	_	32	mark	_	_
+31	“	“	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	collaborare	collaborare	VERB	V	VerbForm=Inf	29	acl	_	_
+33	pienamente	pienamente	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	”	”	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 9
+# text = Un cambio di marcia radicale, che se da un lato potrebbe evitare un impatto mediatico ancora maggiore, dall'altro alimenta un’ombra di sospetto.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	radicale	radicale	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+8	se	se	SCONJ	CS	_	13	mark	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lato	lato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+12	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	evitare	evitare	VERB	V	VerbForm=Inf	23	advcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	mediatico	mediatico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	15	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20-21	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+20	da	da	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+23	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+24	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = È facile immaginare le
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+3	immaginare	immaginare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	SpacesAfter=\n
+

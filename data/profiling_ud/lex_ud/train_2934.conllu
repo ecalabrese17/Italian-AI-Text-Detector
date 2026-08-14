@@ -1,0 +1,312 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'affondo a Fedez Il 7 aprile esce l'album Fenomeno di Fabri Fibra.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	affondo	affondo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Fedez	Fedez	PROPN	SP	_	2	nmod	_	_
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	7	7	NUM	N	NumType=Card	2	nmod	_	_
+7	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	album	album	NOUN	S	Gender=Masc	8	obj	_	_
+11	Fenomeno	fenomeno	ADV	BN	PronType=Neg	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Fabri	Fabri	PROPN	SP	_	10	nmod	_	_
+14	Fibra	fibra	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Nel mirino del rapper marchigiano c'è anche Fedez . " Fedez prende soldi dai vecchi della tv, ma in ogni circo serve una scimmia che balla ".
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rapper	rapper	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	marchigiano	marchigiano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	Fedez	Fedez	PROPN	SP	_	9	nsubj	_	_
+12	.	.	PUNCT	FS	_	9	punct	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	_
+14	Fedez	Fedez	PROPN	SP	_	15	nsubj	_	_
+15	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+16	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17-18	dai	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tv	televisione	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	ma	ma	CCONJ	CC	_	28	cc	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	circo	circo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+28	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	scimmia	scimmia	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	balla	ballare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Ma non se la prende solo con lui:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = il rapper marchigiano non risparmia nessuno, nemmeno la madre e il fratello Nesli, anche lui cantante.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rapper	rapper	NOUN	S	Gender=Masc	5	nsubj	_	_
+3	marchigiano	marchigiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	risparmia	risparmio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	nemmeno	nemmeno	ADV	BN	PronType=Neg	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+14	Nesli	Nesli	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+18	cantante	cantante	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = " Tipica situazione italiana:
+1	"	"	PUNCT	FB	_	3	punct	_	_
+2	Tipica	tipico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = la famiglia schiaccia i ragazzi, i genitori cercano la propria realizzazione attraverso i figli e così si creano danni enormi e molte di quelle notizie che finiscono nei tg.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	schiaccia	schiacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	realizzazione	realizzazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	attraverso	attraverso	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	così	così	ADV	B	_	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:pass	_	_
+19	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+20	danni	danno	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	enormi	enorme	ADJ	A	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	20	conj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	26	det	_	_
+26	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29-30	nei	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	tg	tg	NOUN	S	Gender=Masc	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Guarda quel ragazzo che si è suicidato dopo che la madre lo ha denunciato perché si faceva le canne.
+1	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	suicidato	suicidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	dopo	dopo	ADV	B	_	14	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+15	perché	perché	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	canne	canne	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Io ho sempre vissuto male il fatto che in famiglia dovessimo salvare la facciata quando c'era la prima guerra mondiale in casa ", ammette sulle pagine del Corriere della Sera.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	male	male	ADV	B	_	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+11	dovessimo	dovessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	salvare	salvare	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	facciata	facciata	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	quando	quando	SCONJ	CS	_	17	mark	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+21	mondiale	mondiale	ADJ	A	Number=Sing	20	amod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+27-28	sulle	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Corriere	Corriere	PROPN	SP	_	29	nmod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Sera	Sera	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ma le critiche non si fermano qui:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	fermano	fermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	qui	qui	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = c'è anche spazio per un graffio alla nuova generazione di rapper : " I rapper di oggi non hanno contenuto perché hanno accettato la sconfitta della società e parlano solo di moda.
+1	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	graffio	graffio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rapper	rapper	NOUN	S	Gender=Masc	11	nmod	_	_
+14	:	:	PUNCT	FC	_	2	punct	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	_
+16	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	rapper	rapper	NOUN	S	Number=Sing	22	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	oggi	oggi	ADV	B	_	17	advmod	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	contenuto	contenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+23	perché	perché	SCONJ	CS	_	25	mark	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sconfitta	sconfitta	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	società	società	NOUN	S	Gender=Fem	27	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+33	solo	solo	ADV	B	_	35	advmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	moda.	moda.	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+
+# sent_id = 11
+# text = ..A differenza dei vari Michele Bravi che non hanno idea di cosa fare ma si vedono bene a farlo e allora fanno quello che gli dicono i vecchi, i rapper (e i cantautori indie) sono self made man che cercano di spodestare chi c'è ".
+1	..A	..A	ADP	E	_	2	case	_	_
+2	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	vari	vario	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	Michele	Michele	PROPN	SP	_	2	nmod	_	_
+7	Bravi	bravo	PROPN	SP	_	6	flat:name	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11	idea	idea	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	obl	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	11	acl:relcl	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	bene	bene	ADV	B	_	17	advmod	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	farlo	_	_	_	_	_	_	_	_
+20	far	fare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	allora	allora	ADV	B	_	24	advmod	_	_
+24	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+25	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+28	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	rapper	rapper	NOUN	S	_	30	conj	_	_
+34	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	cantautori	cantautore	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	_
+38	indie	indio	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	37	punct	_	_
+40	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+41	self	self	ADP	E	_	43	case	_	_
+42	made	made	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+43	man	mano	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+45	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+46	di	di	ADP	E	_	47	mark	_	_
+47	spodestare	spodestare	VERB	V	VerbForm=Inf	45	xcomp	_	_
+48	chi	chi	PRON	PR	Number=Sing|PronType=Rel	47	obj	_	_
+49	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	50	expl	_	SpaceAfter=No
+50	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	acl:relcl	_	_
+51	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	43	punct	_	SpacesAfter=\n
+

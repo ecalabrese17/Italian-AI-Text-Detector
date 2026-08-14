@@ -1,0 +1,358 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il paroliere ha inventato un gioco, chiamato "Intervista sui binari":
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	paroliere	paroliere	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Intervista	intervista	ADJ	A	Number=Sing	8	xcomp	_	_
+11-12	sui	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	binari	binario	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = una conversazione intima con uno dei concorrenti del reality.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	concorrenti	concorrente	NOUN	S	Number=Plur	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	reality	reality	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L'ultima a finire sulla graticola è stata Aida Yespica , la quale ha parlato della sua passione per i viaggi, di una notte di passione con un uomo conosciuto da poco, ma anche della sua attrazione per gli uomini napoletani, soprattutto quando le regalano cannoli alla panna.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	nsubj	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	finire	finire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	graticola	graticola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	Aida	Aido	PROPN	SP	_	0	root	_	_
+11	Yespica	Yespica	PROPN	SP	_	10	flat:name	_	_
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	passione	passione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	notte	notte	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	passione	passione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+33	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	poco	poco	ADV	B	_	33	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	42	punct	_	_
+37	ma	ma	CCONJ	CC	_	42	cc	_	_
+38	anche	anche	ADV	B	_	42	advmod	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	attrazione	attrazione	NOUN	S	Gender=Fem|Number=Sing	49	conj	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	42	nmod	_	_
+46	napoletani	napoletano	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	42	punct	_	_
+48	soprattutto	soprattutto	ADV	B	_	49	advmod	_	_
+49	quando	quando	SCONJ	CS	_	16	conj	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	regalano	regalano	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	_
+52	cannoli	cannole	ADJ	A	Number=Plur	51	amod	_	_
+53-54	alla	_	_	_	_	_	_	_	_
+53	a	a	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	panna	panno	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	51	punct	_	_
+
+# sent_id = 4
+# text = L'intervista - tra il significato letterale e quello metaforico - si è quindi concentrata su una domanda:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	significato	significato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	letterale	letterale	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	_
+10	metaforico	metaforico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	-	-	PUNCT	FB	_	6	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	quindi	quindi	ADV	B	_	15	advmod	_	_
+15	concentrata	concentrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 5
+# text = Malgioglio ha chiesto a Yespica se sarebbe disposta a un viaggio con Belen Rodriguez e quali curiosità vorrebbe la soubrette le togliesse.
+1	Malgioglio	Malgioglio	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Yespica	Yespica	PROPN	SP	_	3	obl	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	disposta	disposto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Belen	Belen	PROPN	SP	_	18	obl	_	_
+14	Rodriguez	Rodriguez	PROPN	SP	_	13	flat:name	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	quali	quale	DET	DQ	Number=Plur|PronType=Int	17	det	_	_
+17	curiosità	curiosità	NOUN	S	Gender=Fem	18	nsubj	_	_
+18	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	soubrette	soubretta	NOUN	S	Gender=Fem	18	obj	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	togliesse	togliessa	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La risposta è stata:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = " Le direi: perché ti sei rifatta così tanto?
+1	"	"	PUNCT	FB	_	3	punct	_	_
+2	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	iobj	_	_
+3	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	perché	perché	SCONJ	CS	_	8	mark	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	expl	_	_
+7	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rifatta	rifare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	così	così	ADV	B	_	8	advmod	_	_
+10	tanto	tanto	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Yespica ha tuttavia confessato di essersi rivolta lei stessa alla chirurgia plastica , mostrando a Malgioglio il suo seno mozzafiato.
+1	Yespica	Yespica	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	tuttavia	tuttavia	ADV	B	_	4	advmod	_	_
+4	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	8	mark	_	_
+6-7	essersi	_	_	_	_	_	_	_	_
+6	esser	essere	AUX	VA	VerbForm=Inf	8	aux	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	rivolta	rivolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+9	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chirurgia	chirurgia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14	plastica	plastica	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	mostrando	mostrare	VERB	V	VerbForm=Ger	4	advcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Malgioglio	Malgioglio	PROPN	SP	_	16	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	seno	seno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+22	mozzafiato	mozzafiato	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Se c'è una certezza sul GF Vip 2, è che in quest'edizione Cristiano Malgioglio risulta il mattatore indiscusso.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	GF	GF	PROPN	SP	_	5	nmod	_	_
+9	Vip	vip	PROPN	SP	_	8	flat:name	_	_
+10	2	2	NUM	N	NumType=Card	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	SpaceAfter=No
+16	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+17	Cristiano	cristiano	PROPN	SP	_	19	nsubj	_	_
+18	Malgioglio	Malgioglio	PROPN	SP	_	17	flat:name	_	_
+19	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mattatore	mattatore	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+22	indiscusso	indiscusso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = Proprio ieri ha scherzato con metafore, mentre mangiava una banana: " Questo farà scalpore per i social, anch'io mangio le banane ", ha detto a Daniele Bossari.
+1	Proprio	proprio	ADV	B	_	2	advmod	_	_
+2	ieri	ieri	ADV	B	_	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scherzato	scherzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	metafore	metafora	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	mentre	mentre	SCONJ	CS	_	9	mark	_	_
+9	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	banana	banana	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	_
+14	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	parataxis	_	_
+16	scalpore	scalpore	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	social	social	NOUN	S	Gender=Masc	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	anch'	anche	ADV	B	_	23	advmod	_	SpaceAfter=No
+22	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	mangio	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	banane	banana	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	4	punct	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Daniele	Daniele	PROPN	SP	_	29	obl	_	_
+32	Bossari	Bossari	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E ha ragione: gli occhi degli utenti social sono tutti per lui.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	utenti	utente	NOUN	S	Number=Plur	6	nmod	_	_
+10	social	social	ADJ	A	Number=Sing	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	parataxis	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Grande attesa quindi per le prossime "Interviste":
+1	Grande	Grande	ADJ	A	Number=Sing	2	amod	_	_
+2	attesa	attendere	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	quindi	quindi	ADV	B	_	6	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	prossime	prossimo	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Interviste	intervista	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = Malgioglio ha creato uno spettacolo nello spettacolo, a partire dall'idea alla base dei talk show televisivi.
+1	Malgioglio	Malgioglio	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	nello	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	partire	partire	VERB	V	VerbForm=Inf	3	advcl	_	_
+12-13	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	idea	idea	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	base	base	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	talk	talk	NOUN	S	_	17	nmod	_	_
+21	show	show	NOUN	S	Gender=Masc	20	compound	_	_
+22	televisivi	televisivo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Le domande del paroliere sono però a carattere allusivo e satirico.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	paroliere	paroliere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	però	però	ADV	B	_	9	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	allusivo	allusivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	satirico	satirico	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = Aida Yespica e Belen Rodriguez, le foto sexy
+1	Aida	Aido	PROPN	SP	_	0	root	_	_
+2	Yespica	Yespica	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Belen	Belen	PROPN	SP	_	1	conj	_	_
+5	Rodriguez	Rodriguez	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	foto	foto	NOUN	S	Gender=Fem	1	nmod	_	_
+9	sexy	sexy	ADJ	A	_	8	amod	_	SpacesAfter=\n
+

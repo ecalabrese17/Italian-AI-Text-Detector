@@ -1,0 +1,475 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quanto ha inciso la crisi economica sui reati commessi nel nostro Paese?
+1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	inciso	incidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crisi	crisi	NOUN	S	Gender=Fem	3	nsubj	_	_
+6	economica	economico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	reati	reato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = "Questo prolungato periodo di depressione economica ha abbassato le difese immunitarie spontanee delle nostre città:
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+3	prolungato	prolungato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+4	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	economica	economico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	abbassato	abbassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	difese	difesa	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	immunitarie	immunitario	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	spontanee	spontaneo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	città	città	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = viene infatti a mancare il controllo sociale.
+1	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	infatti	infatti	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	mancare	mancare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	sociale	sociale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = E così ovunque manchi un controllo di polizia dedicato si è oggi più esposti.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	ovunque	ovunque	ADV	B	_	4	advmod	_	_
+4	manchi	mancare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	oggi	oggi	ADV	B	_	14	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	esposti	esposto	ADJ	A	Gender=Masc|Number=Plur	9	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Un esempio?
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Diminuiscono le rapine in banca, aumentano nelle farmacie.
+1	Diminuiscono	diminuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	rapine	rapina	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	banca	banca	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	aumentano	aumentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	farmacie	farmacia	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = E crescono i furti in casa.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	furti	furto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Non solo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = C'è un'altra grave emergenza in corso:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+5	grave	grave	ADJ	A	Number=Sing	6	amod	_	_
+6	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = la conquista da parte della criminalità organizzata di molte imprese in crisi nei distretti industriali del centro-nord".
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conquista	conquista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	criminalità	criminalità	NOUN	S	Gender=Fem	4	nmod	_	_
+8	organizzata	organizzato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	crisi	crisi	NOUN	S	Gender=Fem	11	nmod	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	distretti	distretto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	industriali	industriale	ADJ	A	Number=Plur	16	amod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centro-nord	centro-nord	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ha ragione allora il capo della polizia Alessandro Pansa:
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	allora	allora	ADV	B	_	1	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	capo	capo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	Alessandro	Alessandro	PROPN	SP	_	5	nmod	_	_
+10	Pansa	Pansa	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = con quindici mila poliziotti in meno, la sicurezza oggi è a rischio?
+1	con	con	ADP	E	_	4	case	_	_
+2	quindici	quindici	NUM	N	NumType=Card	4	nummod	_	_
+3	mila	mila	NUM	N	NumType=Card	2	flat	_	_
+4	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	meno	meno	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	oggi	oggi	ADV	B	_	9	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = "Certo i tagli lineari non aiutano.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	7	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	lineari	lineario	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Ma la questione è un'altra:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 15
+# text = noi andiamo avanti senza una visione strategica della sicurezza e così non possiamo compensare con una maggiore qualità, le quantità che vengono a mancare.
+1	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	avanti	avanti	ADV	B	_	2	advmod	_	_
+4	senza	senza	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	visione	visione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	così	così	ADV	B	_	15	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	compensare	compensare	VERB	V	VerbForm=Inf	2	conj	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	19	amod	_	_
+19	qualità	qualità	NOUN	S	Gender=Fem	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	quantità	quantità	NOUN	S	Gender=Fem	15	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	mancare	mancare	VERB	V	VerbForm=Inf	24	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Invece la crisi economica potrebbe essere colta come un'occasione per ripensare l'intera organizzazione di una polizia moderna.
+1	Invece	invece	ADV	B	_	7	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	crisi	crisi	NOUN	S	Gender=Fem	7	nsubj:pass	_	_
+4	economica	economico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	colta	cogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	ripensare	ripensare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	intera	intero	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Andrebbe anche introdotto un modello di valutazione dei risultati e il criterio dovrebbe essere quello di soddisfare la domanda legittima di sicurezzache proviene della società".
+1	Andrebbe	Andere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	modello	modello	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	soddisfare	soddisfare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	legittima	legittimo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	sicurezzache	sicurezzaca	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	proviene	provenire	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	società	società	NOUN	S	Gender=Fem	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = In concreto come si migliora l'efficienza dell'intero comparto sicurezza?
+1	In	in	ADP	E	_	2	case	_	_
+2	concreto	concreto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	migliora	migliorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	efficienza	efficienza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	intero	intero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	comparto	comparto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	sicurezza	sicurezzo	NOUN	S	Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = "Bisogna riorganizzare le priorità e migliorare il coordinamento tra le forze dell'ordine.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	riorganizzare	riorganizzare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	priorità	priorità	NOUN	S	Gender=Fem	3	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	migliorare	migliorare	VERB	V	VerbForm=Inf	3	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coordinamento	coordinamento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	tra	tra	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	forze	forza	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Nelle fasi di crisi, poi, ogni organizzazione deve posizionare la sua offerta dove c'è la domanda.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	fasi	fase	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	crisi	crisi	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	poi	poi	ADV	B	_	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	posizionare	posizionare	VERB	V	VerbForm=Inf	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	dove	dove	ADV	B	_	18	advmod	_	_
+17	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 21
+# text = Invece le burocrazie non riescono a decentrare.
+1	Invece	invece	ADV	B	_	5	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	burocrazie	burocrazia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	decentrare	decentrare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = La sicurezza pubblica dovrebbe dunque fare una scelta chiara in questi anni difficili, offrendo la migliore qualità dei suoi servizi in periferia:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	dunque	dunque	ADV	B	_	6	advmod	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	difficili	difficile	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	offrendo	offrire	VERB	V	VerbForm=Ger	6	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+18	qualità	qualità	NOUN	S	Gender=Fem	15	obj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	periferia	periferia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 23
+# text = laddove la gente sta peggio".
+1	laddove	laddove	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	peggio	peggio	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Questo significa anche più agenti in servizio su strada e meno in ufficio?
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	meno	meno	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = "Sì, più uomini in strada, ma non a fare immagine:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 26
+# text = a Roma ne abbiamo già 45mila, mentre gli assistenti sociali sono solo 60.
+1	a	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	4	obl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	già	già	ADV	B	_	4	advmod	_	_
+6	45mila	45milare	NUM	N	NumType=Card	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	assistenti	assistente	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+11	sociali	sociale	ADJ	A	Number=Plur	10	amod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	solo	solo	ADV	B	_	14	advmod	_	_
+14	60	60	NUM	N	NumType=Card	4	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Servono semmai agenti con priorità chiare e con un migliore rapporto col territorio".
+1	Servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	semmai	semmai	ADV	B	_	1	advmod	_	_
+3	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	priorità	priorità	NOUN	S	Gender=Fem	3	nmod	_	_
+6	chiare	chiaro	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	11	amod	_	_
+11	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12-13	col	_	_	_	_	_	_	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

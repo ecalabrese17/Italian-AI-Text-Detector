@@ -1,0 +1,553 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stavolta - è la quinta ad alto impatto - l'operazione è stata chiamata “Legality for road Safety” e ha messo sotto torchio la rete autostradale di ben 10 provincie in 5 regioni coinvolgendo, al nord, Lombardia ed Emilia Romagna, e, al centro-sud della penisola, Toscana Lazio e Umbria nonché Puglia.
+1	Stavolta	stavolta	ADV	B	_	5	advmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	alto	alto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	-	-	PUNCT	FF	_	14	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Legality	Legality	PROPN	SP	_	14	nsubj:pass	_	_
+17	for	for	ADP	E	_	18	case	_	_
+18	road	road	NOUN	S	Gender=Fem	16	nmod	_	_
+19	Safety	Safety	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	14	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+24	sotto	sotto	ADP	E	_	25	case	_	_
+25	torchio	torchio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	rete	rete	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+28	autostradale	autostradale	ADJ	A	Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	ben	bene	ADV	B	_	32	advmod	_	_
+31	10	10	NUM	N	NumType=Card	32	nummod	_	_
+32	provincie	provincia	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	5	5	NUM	N	NumType=Card	35	nummod	_	_
+35	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+36	coinvolgendo	coinvolgere	VERB	V	VerbForm=Ger	23	advcl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	14	punct	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	nord	nord	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	14	punct	_	_
+42	Lombardia	Lombardia	PROPN	SP	_	14	conj	_	_
+43	ed	e	CCONJ	CC	_	44	cc	_	_
+44	Emilia	Emilia	PROPN	SP	_	42	conj	_	_
+45	Romagna	Romagna	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	14	punct	_	_
+47	e	e	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	14	punct	_	_
+49-50	al	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	centro-sud	centro-sud	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+52-53	della	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	51	nmod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	56	punct	_	_
+56	Toscana	Toscana	PROPN	SP	_	54	conj	_	_
+57	Lazio	Lazio	PROPN	SP	_	56	flat:name	_	_
+58	e	e	CCONJ	CC	_	59	cc	_	_
+59	Umbria	Umbria	PROPN	SP	_	51	conj	_	_
+60	nonché	nonché	CCONJ	CC	_	61	cc	_	_
+61	Puglia	Puglia	PROPN	SP	_	59	conj	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Tutto di notte per verificare le condizioni psico-fisiche dei conducenti.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	verificare	verificare	VERB	V	VerbForm=Inf	1	acl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	psico	psico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	fisiche	fisica	ADJ	A	Gender=Fem|Number=Plur	8	conj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	conducenti	conducente	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E, per la prima volta è scesa in campo anche una futuribile tecnologia - sull’A1, alle porte della Capitale - un laboratorio mobile per l’accertamento dello stato di alterazione per gli stupefacenti che ha consentito, direttamente su strada, l’effettuazione di analisi sui liquidi biologici con tecnologia a diretta valenza medico legale e strumentazione in Gascromatografia.
+1	E	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	campo	campo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	futuribile	futuribile	ADJ	A	Number=Sing	14	amod	_	_
+14	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+15	-	-	PUNCT	FB	_	18	punct	_	_
+16-17	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+16	su	su	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	A1	A1	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20-21	alle	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	porte	porta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Capitale	Capitale	PROPN	SP	_	22	nmod	_	_
+26	-	-	PUNCT	FB	_	28	punct	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+29	mobile	mobile	ADJ	A	Number=Sing	28	amod	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	accertamento	accertamento	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+33-34	dello	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	stato	stato	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	alterazione	alterazione	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	stupefacenti	stupefacente	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+41	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	direttamente	direttamente	ADV	B	_	43	advmod	_	_
+46	su	su	ADP	E	_	47	case	_	_
+47	strada	strada	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	50	punct	_	_
+49	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	effettuazione	effettuazione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	analisi	analisi	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	_
+53-54	sui	_	_	_	_	_	_	_	_
+53	su	su	ADP	E	_	55	case	_	_
+54	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
+55	liquidi	liquido	NOUN	S	Gender=Masc|Number=Plur	52	nmod	_	_
+56	biologici	biologico	ADJ	A	Gender=Masc|Number=Plur	55	amod	_	_
+57	con	con	ADP	E	_	58	case	_	_
+58	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	55	nmod	_	_
+59	a	a	ADP	E	_	60	case	_	_
+60	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	58	nmod	_	_
+61	valenza	valenza	ADP	E	_	62	case	_	_
+62	medico	medico	NOUN	S	Gender=Masc|Number=Sing	60	nmod	_	_
+63	legale	legale	ADJ	A	Gender=Masc|Number=Sing	62	amod	_	_
+64	e	e	CCONJ	CC	_	65	cc	_	_
+65	strumentazione	strumentazione	NOUN	S	Gender=Fem|Number=Sing	62	conj	_	_
+66	in	in	ADP	E	_	67	case	_	_
+67	Gascromatografia	Gascromatografia	PROPN	SP	_	65	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Per attuarlo - in collaborazione con Anas e Società Autostrade - è stato relizzato un colossale posto di blocco con deviazione totale dei veicoli controllati in una stazione di servizio.
+1	Per	per	ADP	E	_	2	case	_	_
+2	attuarlo	attuarlo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Anas	Anas	PROPN	SP	_	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Società	società	NOUN	S	Gender=Fem	7	conj	_	_
+10	Autostrade	Autostrade	PROPN	SP	_	9	flat:name	_	_
+11	-	-	PUNCT	FF	_	5	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	relizzato	relizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	colossale	colossale	ADJ	A	Number=Sing	17	amod	_	_
+17	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	deviazione	deviazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	totale	totale	ADJ	A	Number=Sing	21	amod	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+26	controllati	controllare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Roba da film americano.
+1	Roba	robare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+4	americano	americano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = "Alto impatto":
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Alto	alto	ADJ	A	Number=Sing	3	amod	_	_
+3	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = continuano i controlli a tappeto della stradale.
+1	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stradale	stradale	ADJ	A	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Le forze in campo infatti sono state da record:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	forze	forza	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	campo	campo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	infatti	infatti	ADV	B	_	7	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	record	record	NOUN	S	Gender=Masc	7	obl:agent	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 9
+# text = in una sola nottata in azione 135 equipaggi della Polizia Stradale e delle Questure nonché 11 Medici della Polizia di Stato con l’impiego di unità cinofile addestrate a fiutare la presenza di sostanze stupefacenti.
+1	in	in	ADP	E	_	4	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	nottata	nottata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	azione	azione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	135	135	NUM	N	NumType=Card	8	nummod	_	_
+8	equipaggi	equipaggio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Stradale	stradale	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Questure	Questure	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+17	nonché	nonché	CCONJ	CC	_	19	cc	_	_
+18	11	11	NUM	N	NumType=Card	19	nummod	_	_
+19	Medici	medico	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	unità	unità	NOUN	S	Gender=Fem	27	nmod	_	_
+30	cinofile	cinofilo	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	addestrate	addestrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	fiutare	fiutare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	_
+38	stupefacenti	stupefacente	ADJ	A	Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Il risultato, manco a dirlo, una strage di patenti:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	manco	manco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	dir	dire	VERB	V	VerbForm=Inf	10	ccomp	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	strage	strage	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	patenti	patento	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = nell’operazione sono stati controllati complessivamente 1.632 soggetti e 1.257.
+1-2	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+1	in	in	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	controllati	controllare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	complessivamente	complessivamente	ADV	B	_	6	advmod	_	_
+8	1.632	1.632	NUM	N	NumType=Card	9	nummod	_	_
+9	soggetti	soggetto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	1.257	1.257	NUM	N	NumType=Card	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Le violazioni amministrative e penali al Codice della Strada e leggi complementari sono state complessivamente 306.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+3	amministrative	amministrativo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	penali	penale	ADJ	A	Number=Plur	3	conj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Codice	Codice	PROPN	SP	_	2	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Strada	strada	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+14	complementari	complementare	ADJ	A	Number=Plur	13	amod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	cop	_	_
+17	complessivamente	complessivamente	ADV	B	_	18	advmod	_	_
+18	306	306	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 13
+# text = Tra i comportamenti più pericolosi rilevati:
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	pericolosi	pericoloso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+6	rilevati	rilevato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = 90 violazioni dell’art. 186 C.d.S. (guida in stato di alterazione a seguito di assunzione di sostanze alcooliche);
+1	90	90	NUM	N	NumType=Card	2	nummod	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	186	186	NUM	N	NumType=Card	5	nummod	_	_
+7	C.d.S.	C.d.S.	PROPN	SP	_	5	nmod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	guida	guida	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	stato	stato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	alterazione	alterazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	assunzione	assunzione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	alcooliche	alcoolico	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = 11 violazioni dell’art. 187 C.d.S. (guida in stato di alterazione a seguito di assunzione di sostanze stupefacenti);
+1	11	11	NUM	N	NumType=Card	2	nummod	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	187	187	NUM	N	NumType=Card	5	nummod	_	_
+7	C.d.S.	C.d.S.	PROPN	SP	_	5	nmod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	guida	guida	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	stato	stato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	alterazione	alterazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	assunzione	assunzione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	stupefacenti	stupefacente	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = 4 violazioni dell’art. 193 C.d.S. (guida di veicolo privo di copertura assicurativa);
+1	4	4	NUM	N	NumType=Card	2	nummod	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	193	193	NUM	N	NumType=Card	5	nummod	_	_
+7	C.d.S.	C.d.S.	PROPN	SP	_	5	nmod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	guida	guida	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	privo	privo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	copertura	copertura	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	assicurativa	assicurativo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = 17 violazioni dell’art. 80/14° C.d.S. (veicolo privo della revisione).
+1	17	17	NUM	N	NumType=Card	2	nummod	_	_
+2	violazioni	violazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	80	80	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	14°	14°	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	C.d.S.	C.d.S.	PROPN	SP	_	5	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+12	privo	privo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Sono state ritirate 19 carte di circolazione, 97 patenti di guida, nonché sequestrati 15 veicoli.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	ritirate	ritirare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	19	19	NUM	N	NumType=Card	5	nummod	_	_
+5	carte	carta	NOUN	S	Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	97	97	NUM	N	NumType=Card	10	nummod	_	_
+10	patenti	patento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	guida	guida	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	nonché	nonché	CCONJ	CC	_	15	cc	_	_
+15	sequestrati	sequestrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+16	15	15	NUM	N	NumType=Card	17	nummod	_	_
+17	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Al termine delle operazioni sono state deferite all’A.G. 53 persone.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	deferite	deferire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	all’	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	A.G.	A.G.	PROPN	SP	_	9	obl	_	_
+13	53	53	NUM	N	NumType=Card	14	nummod	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Appuntamento alla prossima puntata:
+1	Appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	puntata	puntata	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 21
+# text = è già in cantiere - per garantire la massima sicurezza delle persone che si metteranno in viaggio in questo periodo estivo - una nuova operazione ad alto impatto.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cantiere	cantiere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	-	-	PUNCT	FB	_	4	punct	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	garantire	garantire	VERB	V	VerbForm=Inf	4	acl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	metteranno	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+22	estivo	estivo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	-	-	PUNCT	FF	_	4	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+27	ad	a	ADP	E	_	29	case	_	_
+28	alto	alto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Località, modalità operative e oggetto dei controlli, ovviamente top secret.
+1	Località	località	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	modalità	modalità	NOUN	S	Gender=Fem	1	conj	_	_
+4	operative	operativo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ovviamente	ovviamente	ADV	B	_	13	advmod	_	_
+12	top	top	ADJ	A	_	13	amod	_	_
+13	secret	secret	NOUN	S	_	3	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

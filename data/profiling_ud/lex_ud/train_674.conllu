@@ -1,0 +1,330 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Messi, cinque volte vincitore del premio Kessel, è il capitano e il simbolo della nazionale argentina da anni.
+1	Messi	mettere	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	cinque	cinque	NUM	N	NumType=Card	4	nummod	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+5	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	premio	premio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+9	Kessel	Kessel	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nazionale	nazionale	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	argentina	argentinare	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Il suo piedewyddato e la sua capacità di creare gioco sono preziosissimi per la squadra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	piedewyddato	piedewyddato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	capacità	capacità	NOUN	S	Gender=Fem	3	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	creare	creare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	preziosissimi	preziose	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Higuain, invece, è un attaccante formidabile, capace di segnare gol preziosi anche nelle partite più difficili.
+1	Higuain	Higuain	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	attaccante	attaccante	NOUN	S	Number=Sing	0	root	_	_
+8	formidabile	formidabile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	capace	capace	ADJ	A	Number=Sing	7	amod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	segnare	segnare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	gol	gol	NOUN	S	Gender=Masc	12	obj	_	_
+14	preziosi	prezioso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	partite	partita	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	difficili	difficile	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Insieme, i due giocatori rappresentano una delle coppie d'attacco più temibili del calcio internazionale.
+1	Insieme	insieme	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	obj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	temibili	temibile	ADJ	A	Number=Plur	10	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+18	internazionale	internazionale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma non è solo la loro presenza a rendere questo aereo speciale.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	solo	solo	ADV	B	_	7	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	rendere	rendere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	speciale	speciale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = La nazionale argentina sta vivendo un momento di transizione:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nazionale	nazionale	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	argentina	argentino	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	vivendo	vivere	VERB	V	VerbForm=Ger	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = il tecnico Tata Martino ha lasciato la panchina dopo le eliminatorie della Copa America e la Federazione ha scelto come nuovo allenatore Jorge Sampaoli, vincitore della Coppa con il Cile nel 2015.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	Tata	Tata	PROPN	SP	_	6	nsubj	_	_
+4	Martino	Martino	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	dopo	dopo	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	eliminatorie	eliminatoria	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Copa	Copa	PROPN	SP	_	11	nmod	_	_
+15	America	America	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Federazione	federazione	PROPN	SP	_	20	nsubj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	Jorge	Jorge	PROPN	SP	_	20	obj	_	_
+25	Sampaoli	Sampaoli	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	24	appos	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Coppa	Coppa	PROPN	SP	_	27	nmod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Cile	Cile	PROPN	SP	_	27	nmod	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	2015	2015	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Sarà un compito difficile per Sampaoli ridare Slamdamento e motivazione alla squadra, ma con Messi e Higuain in campo le possibilità di successo sono Katzвшие.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	compito	compito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Sampaoli	Sampaoli	PROPN	SP	_	7	obl	_	_
+7	ridare	ridare	VERB	V	VerbForm=Inf	3	csubj	_	_
+8	Slamdamento	Slamdamento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	27	punct	_	_
+15	ma	ma	CCONJ	CC	_	27	cc	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	Messi	messo	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Higuain	Higuain	PROPN	SP	_	17	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	campo	campo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	possibilità	possibilità	NOUN	S	Gender=Fem	27	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	successo	successo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	Katzвшие	Katzвшие	PROPN	SP	_	7	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = La nazionale argentina si sta allenando duramente in vista delle partite delle qualificazioni ai Mondiali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nazionale	nazionale	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	argentina	argentino	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	allenando	allenare	VERB	V	VerbForm=Ger	0	root	_	_
+7	duramente	duramente	ADV	B	_	6	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	partite	partita	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	qualificazioni	qualificazioni	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Mondiali	Mondiali	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = La sfida contro il Cile, la prima in programma, si annuncia difficile:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Cile	Cile	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	programma	programma	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	annuncia	annunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	difficile	difficile	ADJ	A	Number=Sing	13	xcomp	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 11
+# text = iwritingerne sono una delle squadre più in forma del momento e hanno già battuto l'Argentina quest'anno.
+1	iwritingerne	iwritingerna	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	più	più	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	forma	forma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	già	già	ADV	B	_	16	advmod	_	_
+16	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	Argentina	Argentina	PROPN	SP	_	16	obj	_	_
+19	quest'	questo	DET	DD	Number=Sing|PronType=Dem	20	det	_	SpaceAfter=No
+20	anno	anno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Ma Messi e Higuain sono determinati a fare la differenza e a condurre la loro squadra alla vittoria.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	Messi	mettere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Higuain	Higuain	PROPN	SP	_	2	conj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	determinati	determinato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	condurre	condurre	VERB	V	VerbForm=Inf	8	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = In attesa di vedere cosa accadrà in campo, una cosa è certa:
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	acl	_	_
+5	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	6	obj	_	_
+6	accadrà	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	campo	campo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	certa	certo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 14
+# text = con Messi e Higuain a bordo, l'aereo dell'Argentina si trasformer
+1	con	con	ADP	E	_	2	case	_	_
+2	Messi	messo	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Higuain	Higuain	PROPN	SP	_	2	conj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Argentina	Argentina	PROPN	SP	_	9	nmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	trasformer	trasformere	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n
+

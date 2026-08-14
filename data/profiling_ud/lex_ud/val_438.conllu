@@ -1,0 +1,726 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Da 150 a 300 giovani bosniaci si sono arruolati volontari con lo Stato islamico o altri gruppi estremisti in Siria ed Irak.
+1	Da	da	ADP	E	_	2	case	_	_
+2	150	150	NUM	N	NumType=Card	9	obl	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	300	300	NUM	N	NumType=Card	5	nummod	_	_
+5	giovani	giovane	NOUN	S	Number=Plur	9	obl	_	_
+6	bosniaci	bosniaco	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arruolati	arruolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	islamico	islamico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	o	o	CCONJ	CC	_	17	cc	_	_
+16	altri	altro	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+18	estremisti	estremista	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Siria	Siria	PROPN	SP	_	17	nmod	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	Irak	Irak	PROPN	SP	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Cosa ne pensa?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = «Qualcuno (il Papa nda ) sostiene che siamo di fronte a una terza guerra mondiale a pezzi combattuta in diverse aree dall'Ucraina all'Irak.
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Papa	Papa	PROPN	SP	_	2	appos	_	_
+6	nda	ndo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+7	)	)	PUNCT	FB	_	5	punct	_	_
+8	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fronte	fronte	NOUN	S	Number=Sing	8	ccomp	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	mondiale	mondiale	ADJ	A	Number=Sing	16	amod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	combattuta	combattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	aree	area	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+24-25	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Ucraina	Ucraina	PROPN	SP	_	23	nmod	_	_
+27-28	all'	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	Irak	Irak	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Sicuramente questo disordine attrae determinati gruppi e individui.
+1	Sicuramente	sicuramente	ADV	B	_	4	advmod	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	disordine	disordine	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	attrae	attrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	determinati	determinato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Per il numero contenuto di combattenti bosniaci musulmani la motivazione può essere religiosa, ma è pure sociale ed economica.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	numero	numero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	contenuto	contenuto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	combattenti	combattente	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	bosniaci	bosniaco	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	musulmani	musulmano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+13	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	pure	pure	ADV	B	_	18	advmod	_	_
+18	sociale	sociale	ADJ	A	Number=Sing	13	conj	_	_
+19	ed	e	CCONJ	CC	_	20	cc	_	_
+20	economica	economico	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = È un fenomeno che desta preoccupazione in Bosnia, ma i musulmani non sono gli unici a partire.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	desta	destare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Bosnia	Bosnia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	_	_
+10	ma	ma	CCONJ	CC	_	16	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	musulmani	musulmano	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	unici	unico	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	partire	partire	VERB	V	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Anche un certo numero di cristiani ortodossi bosniaci sono andati a combattere in Ucraina».
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	certo	certo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	numero	numero	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	ortodossi	ortodosso	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	bosniaci	bosniaco	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	combattere	combattere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Ucraina	Ucraina	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = I volontari della guerra santa, però, vogliono il Califfato...
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	santa	santo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	però	però	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Califfato..	Califfato..	PROPN	SP	_	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = «Alcuni giovani vorrebbero riportare in vita i tempi del Califfato, ma è uno sbaglio doloroso e sanguinoso.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	giovani	giovane	NOUN	S	Number=Plur	4	nsubj	_	_
+4	vorrebbero	vorere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	riportare	riportare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Califfato	Califfato	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sbaglio	sbaglio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+18	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sanguinoso	sanguinoso	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Sono tentativi destinati a fallire.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tentativi	tentativo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fallire	fallire	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il passato non risuscita».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	risuscita	risuscitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Come fermare il flusso di partenze per la Siria?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	fermare	fermare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	flusso	flusso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	partenze	partenze	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Siria	Siria	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = «Ho proposto di privarli della cittadinanza, ma non ci sono leggi adeguate.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	privarli	_	_	_	_	_	_	_	_
+5	privar	privarre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+16	adeguate	adeguato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Tuttavia continuo a credere che chiunque prenda le armi in terra straniera non debba più essere cittadino bosniaco».
+1	Tuttavia	tuttavia	ADV	B	_	2	advmod	_	_
+2	continuo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	credere	credere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	che	che	SCONJ	CS	_	17	mark	_	_
+6	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	17	nsubj	_	_
+7	prenda	prendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	armi	arma	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+14	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	più	più	ADV	B	_	17	advmod	_	_
+16	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+17	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+18	bosniaco	bosniaco	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Alcuni imam antifondamentalisti, come Selvedin Beganovic, sono stati assaliti e minacciati di morte.
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	imam	imam	NOUN	S	_	11	nsubj:pass	_	_
+3	antifondamentalisti	antifondamentalista	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	Selvedin	Selvedin	PROPN	SP	_	2	nmod	_	_
+7	Beganovic	Beganovic	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	assaliti	assalire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	minacciati	minacciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	morte	morto	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = Aggressioni salafite?
+1	Aggressioni	aggressione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	salafite	salafito	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = «Dobbiamo ancora stabilire con certezza cosa sia accaduto all'imam Beganovic aggredito diverse volte.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	stabilire	stabilire	VERB	V	VerbForm=Inf	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	nsubj	_	_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	imam	imam	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	Beganovic	Beganovic	PROPN	SP	_	12	nmod	_	_
+14	aggredito	aggredire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Lui stesso non ha riconosciuto gli aggressori e la polizia non li ha ancora identificati.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riconosciuto	riconoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	aggressori	aggressore	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+8	e	e	CCONJ	CC	_	15	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	identificati	identificare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = In ogni caso anche un solo attacco agli imam, capitato pure a Sarajevo, è inaccettabile e va perseguito».
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	solo	solo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+8-9	agli	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	imam	imam	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+13	pure	pure	ADV	B	_	15	advmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Sarajevo	Sarajevo	PROPN	SP	_	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	inaccettabile	inaccettabile	ADJ	A	Number=Sing	0	root	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	perseguito	perseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = Un religioso islamico è stato assalito nella capitale?
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	religioso	religioso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	islamico	islamico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	assalito	assalire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = «È successo a Breka, un sobborgo.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Breka	Breka	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sobborgo	sobborgo	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Gli assalitori erano legati a dei gruppi criminali coinvolti nel narcotraffico, che sono diventati salafiti».
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	assalitori	assalitore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	criminali	criminale	ADJ	A	Number=Plur	8	amod	_	_
+10	coinvolti	coinvolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	narcotraffico	narcotraffico	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+18	salafiti	salafito	NOUN	S	Gender=Masc|Number=Plur	17	xcomp	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Gornja Maoca è una delle enclave estremiste, dove sono spuntate la bandiere nere.
+1	Gornja	Gornja	PROPN	SP	_	4	nsubj	_	_
+2	Maoca	Maoca	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	enclave	enclave	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	estremiste	estremista	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	dove	dove	ADV	B	_	12	advmod	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	spuntate	spuntare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+15	nere	nero	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Come è possibile?
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = «Lo Stato non fa abbastanza per rafforzare la sua presenza nell'area.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	abbastanza	abbastanza	ADV	B	_	5	advmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	rafforzare	rafforzare	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12-13	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	area	area	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Gornja Maoca è il principale esempio di comunità chiusa, ma non dobbiamo ingigantirlo trattandosi di poche decine di persone».
+1	Gornja	Gornja	PROPN	SP	_	6	nsubj	_	_
+2	Maoca	Maoca	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	principale	principale	ADJ	A	Number=Sing	6	amod	_	_
+6	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	comunità	comunità	NOUN	S	Gender=Fem	6	nmod	_	_
+9	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	ingigantirlo	_	_	_	_	_	_	_	_
+14	ingigantir	ingigantire	VERB	V	VerbForm=Inf	6	conj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16-17	trattandosi	_	_	_	_	_	_	_	_
+16	trattando	trattare	VERB	V	VerbForm=Ger	14	advcl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	decine	decina	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	persone	persona	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = Però da Gornja Maoca è partito uno dei leader del gruppo filo Al Qaida che combatte in Siria.
+1	Però	però	ADV	B	_	6	advmod	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Gornja	Gornja	PROPN	SP	_	6	obl	_	_
+4	Maoca	Maoca	PROPN	SP	_	3	flat:name	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	leader	leader	NOUN	S	_	7	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	filo	filo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	Al	_	_	_	_	_	_	_	_
+15	A	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Qaida	Qaida	PROPN	SP	_	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Siria	Siria	PROPN	SP	_	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = Le bandiere nere non la impressionano?
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	nere	nero	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	impressionano	impressionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 29
+# text = «Siamo tutti preoccupati da questo fenomeno.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj:pass	_	_
+4	preoccupati	preoccupato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Le bandiere dell'Isis sono una provocazione, ma i musulmani bosniaci non hanno affinità con queste tendenze estremiste.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Isis	Isis	PROPN	SP	_	2	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	provocazione	provocazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	musulmani	musulmano	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+13	bosniaci	bosniaco	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	affinità	affinite	NOUN	S	Gender=Fem	15	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	tendenze	tendenza	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	estremiste	estremista	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 31
+# text = Chiunque sia affiliato all'Isis va processato».
+1	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	3	nsubj	_	_
+2	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	affiliato	affiliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Isis	Isis	PROPN	SP	_	3	obl	_	_
+7	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	processato	processare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 32
+# text = Il Papa verrà a Sarajevo il 6 giugno.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Papa	Papa	PROPN	SP	_	3	nsubj	_	_
+3	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Sarajevo	Sarajevo	PROPN	SP	_	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	6	6	NUM	N	NumType=Card	3	obl	_	_
+8	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = Cosa pensa della visita?
+1	Cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	pensa	pensare	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	visita	visita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 34
+# text = «È il benvenuto.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	benvenuto	benvenuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = È venuto a Sarajevo come amico della Bosnia-Erzegovina».
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Sarajevo	Sarajevo	PROPN	SP	_	2	obl	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Bosnia-	bosnia-	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	Erzegovina	Erzegovina	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Come giudica la primavera araba?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	giudica	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	araba	arabo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = «È scoppiata nelle nazioni governate dal nazionalismo arabo di stampo socialista.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scoppiata	scoppiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	governate	governare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	nazionalismo	nazionalismo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	arabo	arabo	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	socialista	socialista	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = Questi Paesi sono stati distrutti dalla primavera araba, che ha favorito la nascita di gruppi mostruosi che puntano a riempire il vuoto lasciato dal collasso del sistema precedente.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	Paesi	Paesi	PROPN	SP	_	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	distrutti	distruggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	araba	arabo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	favorito	favorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	mostruosi	mostruoso	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	puntano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	riempire	riempire	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	collasso	collasso	NOUN	S	Gender=Masc|Number=Sing	25	obl:agent	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	precedente	precedente	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 39
+# text = Le grandi nazioni occidentali, che hanno favorito la primavera araba, sono ancora pigramente sedute a guardare senza fare nulla per prevenire la catastrofe.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+3	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+4	occidentali	occidentale	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	favorito	favorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	araba	arabo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+14	ancora	ancora	ADV	B	_	16	advmod	_	_
+15	pigramente	pigramente	ADV	B	_	16	advmod	_	_
+16	sedute	sedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	guardare	guardare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	senza	senza	ADP	E	_	20	mark	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	prevenire	prevenire	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	catastrofe	catastrofe	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 40
+# text = Eppure sta accadendo di fronte a noi».
+1	Eppure	eppure	ADV	B	_	3	advmod	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	accadendo	accadere	VERB	V	VerbForm=Ger	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fronte	fronte	NOUN	S	Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

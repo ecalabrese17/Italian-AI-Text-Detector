@@ -1,0 +1,348 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non uno sbalzo temporaneo legato a un raccolto particolarmente abbondante, ma una discesa profonda e persistente che solleva interrogativi inquietanti, etici e di sicurezza alimentare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sbalzo	sbalzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	temporaneo	temporaneo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	raccolto	raccolto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	particolarmente	particolarmente	ADV	B	_	10	advmod	_	_
+10	abbondante	abbondante	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+15	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	persistente	persistente	ADJ	A	Number=Sing	15	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	interrogativi	interrogativo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	inquietanti	inquietante	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	etici	etico	ADJ	A	Gender=Masc|Number=Plur	21	conj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+27	alimentare	alimentare	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Siamo tornati ai "rimedi" del passato?
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	rimedi	rimedio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La domanda, esorta a capire, non è solo di curiosità, ma di genuina preoccupazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	esorta	esortare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	capire	capire	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	solo	solo	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	curiosità	curiosità	NOUN	S	Gender=Fem	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	genuina	genuino	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il pesce azzurro, in particolare sgombro, sardine, aringa, è sempre stato un pilastro della dieta mediterranea, un’icona della nostra salute.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+7	sgombro	sgombro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	sardine	sardine	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	aringa	aringa	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	sempre	sempre	ADV	B	_	17	advmod	_	_
+15	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pilastro	pilastro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	mediterranea	mediterraneo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	icona	icona	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	salute	salute	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 5
+# text = E ora, contrariamente alla logica del mercato, è diventato un lusso per pochi.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	ora	ora	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	contrariamente	contrariamente	ADV	B	_	7	advmod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	logica	logica	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	13	xcomp	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = I prezzi, in alcune zone del paese, sono talmente bassi che si temono pratiche illegali, controlli insufficienti e, soprattutto, la compromissione della qualità delle materie prime.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	zone	zona	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	talmente	talmente	ADV	B	_	13	advmod	_	_
+13	bassi	bare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+16	temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+18	illegali	illegale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+21	insufficienti	insufficiente	ADJ	A	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	soprattutto	soprattutto	ADV	B	_	27	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	compromissione	compromissione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	qualità	qualità	NOUN	S	Gender=Fem	27	nmod	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	materie	materia	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	prime	primo	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = Anche l’olio d’oliva, virtuosamente declinato come arbuste del Mediterraneo, si trova a pagare il prezzo della scarsità.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	olio	olio	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	oliva	oliva	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	virtuosamente	virtuosamente	ADV	B	_	8	advmod	_	_
+8	declinato	declinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	arbuste	arbuste	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Mediterraneo	Mediterraneo	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	pagare	pagare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scarsità	scarsità	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Il raccolto è stato deludente, le previsioni disastrose e il mercato, pur con qualche ripresa, non è tornato ai livelli di un paio d'anni fa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	raccolto	raccolto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	deludente	deludente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	5	appos	_	_
+9	disastrose	disastroso	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	pur	pure	ADV	B	_	17	advmod	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	paio	paio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	fa	fa	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = E le noci, un altro simbolo di una nutrizione sana e sostenibile, vedono i loro prezzi risalire, trainati da una domanda esasperata e da una produzione non sufficiente a soddisfare le esigenze del mercato.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	noci	noce	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nutrizione	nutrizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	sana	sano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	sostenibile	sostenibile	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19	risalire	risalire	VERB	V	VerbForm=Inf	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	trainati	trainare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	_
+25	esasperata	esasperato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	sufficiente	sufficiente	ADJ	A	Number=Sing	24	amod	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	soddisfare	soddisfare	VERB	V	VerbForm=Inf	31	advcl	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 10
+# text = Ma dove si nascondono, dunque, questi nutrienti cruciali?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	dove	dove	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	nascondono	nascondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	dunque	dunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	nutrienti	nutriente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+10	cruciali	cruciale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = La risposta, nella maggior parte dei casi, è pesante e desolante:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	casi	caso	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	pesante	pesare	ADJ	A	Number=Sing	0	root	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	desolante	desolare	ADJ	A	Number=Sing	13	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 12
+# text = l’industria alimentare.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	industria	industria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	alimentare	alimentare	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Le grandi aziende, avvantaggiandosi della diminuzione dei prezzi delle materie prime, hanno iniziato a massimizzare la loro produzione
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+3	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	avvantaggiandosi	_	_	_	_	_	_	_	_
+5	avvantaggiando	avvantaggiare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	materie	materia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	prime	primo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	massimizzare	massimizzare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpacesAfter=\n
+

@@ -1,0 +1,339 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma a quanto pare c'è di più:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+4	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ogni diva ha il suo segreto di bellezza.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	diva	diva	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Per Susan Sarandon è il sesso . " Ci si deve prendere cura di se stessi - ha raccontato Sarandon in una recente intervista - Per restare giovani e in salute, si ha bisogno di espellere le cose tossiche - e la gente tossica!
+1	Per	per	ADP	E	_	2	case	_	_
+2	Susan	Susan	PROPN	SP	_	6	obl	_	_
+3	Sarandon	Sarandon	PROPN	SP	_	2	flat:name	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	FS	_	6	punct	_	_
+8	"	"	PUNCT	FB	_	12	punct	_	_
+9	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+11	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	6	csubj	_	_
+13	cura	cura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	se	se	NOUN	S	Gender=Masc	13	nmod	_	_
+16	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	-	-	PUNCT	FF	_	19	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	_	_
+20	Sarandon	Sarandon	PROPN	SP	_	19	obj	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	recente	recente	ADJ	A	Number=Sing	24	amod	_	_
+24	intervista	intervista	NOUN	S	Number=Sing	19	obl	_	_
+25	-	-	PUNCT	FF	_	19	punct	_	_
+26	Per	per	ADP	E	_	27	mark	_	_
+27	restare	restare	VERB	V	VerbForm=Inf	12	advcl	_	_
+28	giovani	giovane	ADJ	A	Number=Plur	27	obj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	salute	salute	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl:impers	_	_
+34	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+35	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	espellere	espellere	VERB	V	VerbForm=Inf	35	acl	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	37	obj	_	_
+40	tossiche	tossico	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41	-	-	PUNCT	FF	_	12	punct	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	gente	gente	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+45	tossica	tossico	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
+46	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Oh, e ridere e fare sesso.
+1	Oh	oh	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	ridere	ridere	VERB	V	VerbForm=Inf	1	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	1	conj	_	_
+7	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sei abbastanza fortunato se lo trovi ".
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	abbastanza	abbastanza	ADV	B	_	3	advmod	_	_
+3	fortunato	fortunato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	trovi	trovo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Diane Keaton invece accredita il successo del suo aspetto ai propri abiti.
+1	Diane	Diane	PROPN	SP	_	4	nsubj	_	_
+2	Keaton	Keaton	PROPN	SP	_	1	flat:name	_	_
+3	invece	invece	ADV	B	_	4	advmod	_	_
+4	accredita	accreditare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	successo	successo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = In passato è stata affetta da cancro della pelle e ora ci va con i piedi di piombo, per cui i suoi vestiti la coprono in modo che la sua pelle non ne risenta.
+1	In	in	ADP	E	_	2	case	_	_
+2	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	affetta	affettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	ora	ora	ADV	B	_	14	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	coprono	coprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	modo	modo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	che	che	SCONJ	CS	_	36	mark	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	36	iobj	_	_
+36	risenta	risentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Gli outfit di Keaton sono passati inoltre alla storia del cinema per la loro estetica:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	outfit	outfit	NOUN	S	Gender=Masc	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Keaton	Keaton	PROPN	SP	_	2	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	inoltre	inoltre	ADV	B	_	6	advmod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cinema	cinema	NOUN	S	Gender=Masc	10	nmod	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	estetica	estetico	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = dopo l'uscita di " Io e Annie ", in cui indossava pezzi del proprio guardaroba, moltissime donne in tutto il mondo iniziarono a copiare il suo stile, a partire dalle cravatte.
+1	dopo	dopo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	_
+6	Io	io	PROPN	SP	_	3	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Annie	Annie	PROPN	SP	_	6	conj	_	_
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+13	indossava	indossare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+14	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	guardaroba	guardaroba	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	moltissime	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	donne	donna	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	25	det:predet	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	iniziarono	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	copiare	copiare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	stile	stile	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	26	punct	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	partire	partire	VERB	V	VerbForm=Inf	26	advcl	_	_
+35-36	dalle	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	cravatte	cravatta	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 10
+# text = E se Cher afferma che la sua sensualità risieda in buoni geni e tanta ginnastica, Goldie Hawn nella meditazione, per Helen Mirren la bellezza è questione di essere alla moda e riposarsi.
+1	E	e	CCONJ	CC	_	29	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	Cher	Cher	PROPN	SP	_	4	nsubj	_	_
+4	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sensualità	sensualità	NOUN	S	Gender=Fem	9	nsubj	_	_
+9	risieda	risiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	geni	geno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	ginnastica	ginnastica	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	Goldie	Goldie	PROPN	SP	_	29	appos	_	_
+18	Hawn	Hawn	PROPN	SP	_	17	flat:name	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	meditazione	meditazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Helen	Helen	PROPN	SP	_	29	obl	_	_
+25	Mirren	Mirren	PROPN	SP	_	24	flat:name	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+30	di	di	ADP	E	_	34	mark	_	_
+31	essere	essere	AUX	V	VerbForm=Inf	34	cop	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	moda	moda	NOUN	S	Gender=Fem|Number=Sing	29	acl	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36-37	riposarsi	_	_	_	_	_	_	_	SpaceAfter=No
+36	riposar	riposare	VERB	V	VerbForm=Inf	34	conj	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+38	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 11
+# text = Trasformatasi, per usare le sue parole, in " contadina salentina ", l'attrice britannica de "Il cuoco, il ladro, sua moglie e l'amante" trascorre del tempo tra gli ulivi del Tacco d'Italia, dove ha un locale in società, Farmacia Balboa.
+1-2	Trasformatasi	_	_	_	_	_	_	_	SpaceAfter=No
+1	Trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	usare	usare	VERB	V	VerbForm=Inf	1	advcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	contadina	contadino	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+13	salentina	salentino	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+18	britannica	britannico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	de	di	ADP	E	_	22	case	_	_
+20	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cuoco	cuoco	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	amante	amante	NOUN	S	Number=Sing	17	conj	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	33	punct	_	_
+33	trascorre	trascorrere	VERB	V	VerbForm=Inf	31	acl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	tra	tra	ADP	E	_	39	case	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	ulivi	ulivo	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Tacco	Tacco	PROPN	SP	_	39	nmod	_	_
+43	d'	di	ADP	E	_	44	case	_	SpaceAfter=No
+44	Italia	Italia	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	39	punct	_	_
+46	dove	dove	ADV	B	_	47	advmod	_	_
+47	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+48	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	locale	locale	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+50	in	in	ADP	E	_	51	case	_	_
+51	società	società	NOUN	S	Gender=Fem	49	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	51	punct	_	_
+53	Farmacia	farmacia	PROPN	SP	_	51	nmod	_	_
+54	Balboa	Balboa	PROPN	SP	_	53	flat:name	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = VIP sexy a 70 anni, foto
+1	VIP	vip	NOUN	S	_	7	nmod	_	_
+2	sexy	sexy	ADJ	A	_	1	amod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	70	70	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	foto	foto	NOUN	S	Gender=Fem	0	root	_	SpacesAfter=\n
+

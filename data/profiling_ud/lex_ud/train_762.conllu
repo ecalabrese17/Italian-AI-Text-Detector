@@ -1,0 +1,578 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A mapparlo è ora il centro studi Idos : tra febbraio e giugno 2014 ha censito ben 2.114 associazioni.
+1	A	a	ADP	E	_	2	case	_	_
+2-3	mapparlo	_	_	_	_	_	_	_	_
+2	mappar	mappar	NOUN	S	_	3	obl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	ora	ora	ADV	B	_	3	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	centro	centro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+8	studi	studio	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	_
+9	Idos	Idos	PROPN	SP	_	8	nmod	_	_
+10	:	:	PUNCT	FC	_	8	punct	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	2014	2014	NUM	N	NumType=Card	14	flat	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	censito	censire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+18	ben	bene	ADV	B	_	20	advmod	_	_
+19	2.114	2.114	NUM	N	NumType=Card	20	nummod	_	_
+20	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Le più numerose?
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	numerose	numeroso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Quelle dei senegalesi.
+1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	senegalesi	senegalese	NOUN	S	Number=Plur	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Record a Nord.
+1	Record	record	NOUN	S	Gender=Masc	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Nord	Nord	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Con 772 associazioni di migranti, il Nord Ovest ospita la quota di gran lunga più consistente (36,5%), precedendo il Nord Est con 558, il Centro con 471, il Sud con 199 e infine le Isole con 67.
+1	Con	con	ADP	E	_	3	case	_	_
+2	772	772	NUM	N	NumType=Card	3	nummod	_	_
+3	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Nord	Nord	PROPN	SP	_	10	nsubj	_	_
+9	Ovest	Ovest	PROPN	SP	_	8	flat:name	_	_
+10	ospita	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quota	quota	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	gran	grande	ADJ	A	Number=Sing	17	amod	_	_
+15	lunga	lunga	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	consistente	consistente	ADJ	A	Number=Sing	12	nmod	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	36,5	36,5	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	17	obl	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	precedendo	precedendere	VERB	V	VerbForm=Ger	10	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Nord	Nord	PROPN	SP	_	23	obj	_	_
+26	Est	Est	PROPN	SP	_	25	flat:name	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	558	558	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+32	con	con	ADP	E	_	33	case	_	_
+33	471	471	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Sud	Sud	PROPN	SP	_	31	nmod	_	_
+37	con	con	ADP	E	_	38	case	_	_
+38	199	199	NUM	N	NumType=Card	36	nummod	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40	infine	infine	ADV	B	_	42	advmod	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	Isole	Isole	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+43	con	con	ADP	E	_	44	case	_	_
+44	67	67	NUM	N	NumType=Card	42	nummod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = La Lombardia ne conta addirittura 496 (il 23,5% del totale), seguita dal Lazio con 261, dall'Emilia Romagna con 228 e dal Piemonte con 212, che rappresentano le regioni che contano al più di 200 associazioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lombardia	Lombardia	PROPN	SP	_	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	addirittura	addirittura	ADV	B	_	6	advmod	_	_
+6	496	496	NUM	N	NumType=Card	10	nummod	_	_
+7	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	23,5	23,5	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	4	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	totale	totale	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Lazio	Lazio	PROPN	SP	_	16	obl:agent	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	261	261	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23-24	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+23	da	da	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Emilia	Emilia	PROPN	SP	_	16	obl	_	_
+26	Romagna	Romagna	PROPN	SP	_	25	flat:name	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	228	228	NUM	N	NumType=Card	32	nummod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Piemonte	Piemonte	PROPN	SP	_	16	conj	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	212	212	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	37	obj	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	contano	contare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42-43	al	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	47	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+44	più	più	ADV	B	_	47	advmod	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	200	200	NUM	N	NumType=Card	47	nummod	_	_
+47	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	41	obl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Senegalesi al top.
+1	Senegalesi	Senegalendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	top	top	NOUN	S	Gender=Masc	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Per quanto riguarda le principali cittadinanze di riferimento delle associazioni, la situazione è la seguente:
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	principali	principale	ADJ	A	Number=Plur	6	amod	_	_
+6	cittadinanze	cittadinanza	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	seguente	seguente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 9
+# text = senegalesi si concentrano per oltre un terzo in Lombardia (36,5%);
+1	senegalesi	senegalese	NOUN	S	Number=Plur	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	concentrano	concentrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	oltre	oltre	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Lombardia	Lombardia	PROPN	SP	_	7	obl	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	36,5	36,5	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	7	obl	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = marocchini per oltre un quarto in Lombardia, per poco meno di un quinto in Emilia Romagna; peruviani per oltre i due quinti in Lombardia, per circa un quinto nel Lazio;
+1	marocchini	marocchino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	oltre	oltre	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Lombardia	Lombardia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	poco	poco	ADV	B	_	11	advmod	_	_
+11	meno	meno	ADV	B	_	14	advmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Emilia	Emilia	PROPN	SP	_	14	obl	_	_
+17	Romagna	Romagna	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	1	punct	_	_
+19	peruviani	peruviano	ADV	B	_	24	advmod	_	_
+20	per	per	ADP	E	_	24	case	_	_
+21	oltre	oltre	ADV	B	_	24	advmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	quinti	quinto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	Lombardia	Lombardia	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	1	punct	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	circa	circa	ADV	B	_	31	advmod	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Lazio	Lazio	PROPN	SP	_	31	obl	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = albanesi per poco meno di un quinto in Piemonte, per circa il 15% sia in Lombardia che in Trentino Alto Adige e per oltre un decimo in Emilia Romagna; ecuadoriani per la metà in Lombardia, per circa un quarto in Liguria, moldavi per più di un terzo in Veneto, per circa un settimo nel Lazio;
+1	albanesi	albanese	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	meno	meno	ADV	B	_	1	advmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Piemonte	Piemonte	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	per	per	ADP	E	_	15	case	_	_
+12	circa	circa	ADV	B	_	15	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	15	15	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	7	obl	_	_
+16	sia	essere	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Lombardia	Lombardia	PROPN	SP	_	7	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	cc	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Trentino	Trentino	PROPN	SP	_	18	acl:relcl	_	_
+22	Alto	Alto	PROPN	SP	_	21	nmod	_	_
+23	Adige	Adige	PROPN	SP	_	22	flat:name	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	per	per	ADP	E	_	28	case	_	_
+26	oltre	oltre	ADV	B	_	28	advmod	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	decimo	decimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	conj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	Emilia	Emilia	PROPN	SP	_	28	obl	_	_
+31	Romagna	Romagna	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	33	punct	_	_
+33	ecuadoriani	ecuadoriano	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	metà	metà	NOUN	S	Gender=Fem	33	nmod	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	Lombardia	Lombardia	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	21	punct	_	_
+40	per	per	ADP	E	_	43	case	_	_
+41	circa	circa	ADV	B	_	43	advmod	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	52	obl	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	Liguria	Liguria	PROPN	SP	_	43	obl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	43	punct	_	_
+47	moldavi	moldavo	ADV	B	_	49	advmod	_	_
+48	per	per	ADP	E	_	49	case	_	_
+49	più	più	ADV	B	_	52	advmod	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+53	in	in	ADP	E	_	54	case	_	_
+54	Veneto	Veneto	PROPN	SP	_	52	obl	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	21	punct	_	_
+56	per	per	ADP	E	_	59	case	_	_
+57	circa	circa	ADV	B	_	59	advmod	_	_
+58	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	settimo	settimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+60-61	nel	_	_	_	_	_	_	_	_
+60	in	in	ADP	E	_	62	case	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	Lazio	Lazio	PROPN	SP	_	59	obl	_	SpaceAfter=No
+63	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = ucraini per circa un terzo nel Lazio e per quasi un quarto in Campania; filippini per i due quinti in Lombardia, per circa un sesto nel Lazio;
+1	ucraini	ucraino	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	circa	circa	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	obl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Lazio	Lazio	PROPN	SP	_	5	obl	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	quasi	quasi	ADV	B	_	13	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Campania	Campania	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+17	filippini	filippino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	quinti	quinto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Lombardia	Lombardia	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	per	per	ADP	E	_	28	case	_	_
+26	circa	circa	ADV	B	_	28	advmod	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sesto	sesto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Lazio	Lazio	PROPN	SP	_	28	obl	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 13
+# text = cinesi per un quarto in Toscana, per un quinto in Lombardia, per una quota di poco inferiore in Piemonte e per un sesto nel Lazio;
+1	cinesi	cinese	NOUN	S	Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Toscana	Toscana	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Lombardia	Lombardia	PROPN	SP	_	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	quota	quota	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	poco	poco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	_
+19	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	16	amod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Piemonte	Piemonte	PROPN	SP	_	19	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sesto	sesto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	conj	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Lazio	Lazio	PROPN	SP	_	25	obl	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = bangladesi per poco meno di un terzo nel Lazio, per oltre un quarto in Veneto.
+1	bangladesi	bangladendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	meno	meno	ADV	B	_	7	advmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	obl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Lazio	Lazio	PROPN	SP	_	1	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	oltre	oltre	ADV	B	_	15	advmod	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Veneto	Veneto	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Mediazione e seconde generazioni.
+1	Mediazione	mediazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	seconde	secondere	ADP	E	_	4	case	_	_
+4	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Cosa fanno le associazioni?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Tra gli ambiti d'intervento spicca quello della mediazione interculturale, in cui è impegnata la maggioranza assoluta (51,2%).
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ambiti	ambito	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	spicca	spicco	ADP	E	_	7	case	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mediazione	mediazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	interculturale	interculturale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	impegnata	impegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+19	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	51,2	51,2	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	3	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Seguono le azioni a favore delle seconde generazioni.
+1	Seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	favore	favore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	seconde	secondo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = I servizi di accoglienza dei migranti rappresentano il terzo più diffuso ambito operativo delle associazioni, precedendo le attività di apprendimento dell'italiano e delle lingue madri dei migranti, e quelle di supporto al disbrigo delle pratiche amministrative e (per lo più le procedure di rinnovo dei permessi di soggiorno e di acquisizione della cittadinanza italiana).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	_
+8	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	diffuso	diffuso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+14	operativo	operativo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	precedendo	precedendere	VERB	V	VerbForm=Ger	8	advcl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	attività	attività	NOUN	S	Gender=Fem	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	apprendimento	apprendimento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+31	madri	madre	ADJ	A	Number=Plur	30	amod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	disbrigo	disbrigo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43-44	delle	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	42	nmod	_	_
+46	amministrative	amministrativo	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	_
+47	e	e	CCONJ	CC	_	53	cc	_	_
+48	(	(	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+49	per	per	ADP	E	_	51	case	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	più	più	ADV	B	_	53	advmod	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	procedure	procedura	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+54	di	di	ADP	E	_	55	case	_	_
+55	rinnovo	rinnovo	NOUN	S	Gender=Masc|Number=Sing	53	nmod	_	_
+56-57	dei	_	_	_	_	_	_	_	_
+56	di	di	ADP	E	_	58	case	_	_
+57	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	permessi	permesso	NOUN	S	Gender=Masc|Number=Plur	55	nmod	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+61	e	e	CCONJ	CC	_	63	cc	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	acquisizione	acquisizione	NOUN	S	Gender=Fem|Number=Sing	58	conj	_	_
+64-65	della	_	_	_	_	_	_	_	_
+64	di	di	ADP	E	_	66	case	_	_
+65	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	63	nmod	_	_
+67	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	66	amod	_	SpaceAfter=No
+68	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Un servizio come quello della tutela legale risulta invece offerto da una quota relativamente contenuta di associazioni di migranti (poco più di un quinto:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	legale	legale	ADJ	A	Number=Sing	7	amod	_	_
+9	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	invece	invece	ADV	B	_	9	advmod	_	_
+11	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	quota	quota	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	relativamente	relativamente	ADV	B	_	16	advmod	_	_
+16	contenuta	contenuto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	di	di	ADP	E	_	26	case	_	_
+20	migranti	migrante	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	poco	poco	ADV	B	_	23	advmod	_	_
+23	più	più	ADV	B	_	26	advmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	quinto	quinto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 21
+# text = il 21,9%).
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	21,9	21,9	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

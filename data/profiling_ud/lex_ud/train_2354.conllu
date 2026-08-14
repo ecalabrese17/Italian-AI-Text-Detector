@@ -1,0 +1,281 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "铸rore inaccettabile", ha definitions la Maggioni, che ha deciso di revocare l'invito dopo che è stato sollevato un polverone sulla questione.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	铸rore	铸rore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	inaccettabile	inaccettabile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	definitions	definitions	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Maggioni	Maggioni	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	revocare	revocare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	invito	invito	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	dopo	dopo	ADV	B	_	22	mark	_	_
+19	che	che	SCONJ	CS	_	18	fixed	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	polverone	polverone	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	questione	questione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il Movimento 5 Stelle aveva annunciato la sua partecipazione alla serata di gala della Rai con grande enfasi, കാണying che si trattava di un riconoscimento importante per la sua azione politica.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Movimento	Movimento	PROPN	SP	_	6	nsubj	_	_
+3	5	5	NUM	N	NumType=Card	2	flat:name	_	_
+4	Stelle	Stelle	PROPN	SP	_	2	flat:name	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serata	serata	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	gala	gala	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Rai	Rai	PROPN	SP	_	14	nmod	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	enfasi	enfasi	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	കാണying	കാണying	NOUN	S	Gender=Masc	20	appos	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	importante	importante	ADJ	A	Number=Sing	28	amod	_	_
+30	per	per	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	azione	azione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+34	politica	politico	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma l'invito aveva scatenato le critiche dei partiti di opposizione, che avevano accusato la Rai di favoritismo e di lesione della parità di trattamento tra i partiti.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	invito	invito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Rai	Rai	PROPN	SP	_	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	favoritismo	favoritismo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	lesione	lesione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	parità	parità	NOUN	S	Gender=Fem	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	tra	tra	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La Maggioni ha 발생steva di non aver saputo nulla dell'invito esteso a Parliamoci Sabato e ha confermato che l'azienda radiotelevisiva avrebbe fatto di tutto per evitare ogni sospetto di partigianeria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Maggioni	Maggioni	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	발생steva	발생stere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	8	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+9	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	invito	invito	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	esteso	esteso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Parliamoci	Parliamoco	PROPN	SP	_	13	obl	_	_
+16	Sabato	sabato	PROPN	SP	_	15	flat:name	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+20	che	che	SCONJ	CS	_	25	mark	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+23	radiotelevisiva	radiotelevisivo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	ccomp	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	evitare	evitare	VERB	V	VerbForm=Inf	25	advcl	_	_
+30	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	31	det	_	_
+31	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	partigianeria	partigianeria	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = "La Rai - ha sottolineato la direttore generale - è un'azienda pubblica e deve operare con la massima trasparenza e imparzialità".
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Rai	Rai	PROPN	SP	_	13	nsubj	_	_
+4	-	-	PUNCT	FF	_	6	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10	-	-	PUNCT	FB	_	6	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	operare	operare	VERB	V	VerbForm=Inf	13	conj	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	imparzialità	imparzialità	NOUN	S	Gender=Fem	21	conj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Ma non è la prima volta che il Movimento 5 Stelle si trova al centro di accuse di favoritismo e di conflitto di interessi.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	13	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Movimento	Movimento	PROPN	SP	_	13	nsubj	_	_
+10	5	5	NUM	N	NumType=Card	11	nummod	_	_
+11	Stelle	Stelle	PROPN	SP	_	9	flat:name	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	centro	centro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	favoritismo	favoritismo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Il Rousseau, la piattaforma informatica utilizzata dal Movimento per le consultazioni interne, è infatti controllata da Casaleggio Associati, la società di Gianroberto Casaleggio, fondatore del Movimento.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Rousseau	Rousseau	PROPN	SP	_	18	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+6	informatica	informatico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	utilizzata	utilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Movimento	movimento	PROPN	SP	_	7	obl:agent	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	consultazioni	consultazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+14	interne	interno	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	infatti	infatti	ADV	B	_	18	advmod	_	_
+18	controllata	controllare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Casaleggio	Casaleggio	PROPN	SP	_	18	obl:agent	_	_
+21	Associati	associato	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	società	società	NOUN	S	Gender=Fem	20	appos	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Gianroberto	Gianroberto	PROPN	SP	_	24	nmod	_	_
+27	Casaleggio	Casaleggio	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	26	appos	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Movimento	Movimento	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 8
+# text = E il minore Bersani ha sollevatomás di recente un polverone sulla questione, definendola "una vergogna per la democrazia".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	minore	minore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	Bersani	Bersani	PROPN	SP	_	5	nsubj	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sollevatomás	sollevatomás	NOUN	S	Gender=Fem	5	obj	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	recente	recente	ADJ	A	Number=Sing	10	amod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	polverone	polverone	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	questione	questione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15-16	definendola	_	_	_	_	_	_	_	_
+15	definendo	definire	VERB	V	VerbForm=Ger	5	advcl	_	_
+16	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Insomma, la vicenda
+1	Insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,475 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono due occhi giovani e stanchi, ancora pieni di tensione quelli che sbucano, poco dopo le 11 e 30, da un'aula di informatica deserta.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	giovani	giovane	ADJ	A	Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	stanchi	stanco	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	sbucano	sbucare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	poco	poco	ADV	B	_	19	advmod	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	11	11	NUM	N	NumType=Card	14	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	30	30	NUM	N	NumType=Card	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	aula	aula	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	informatica	informatica	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	deserta	deserto	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Idea Basile, 27 anni, era l'unica davanti ai pc dello scientifico Banfi di Vimercate, durante uno degli scritti d'italiano più surreali del concorsone della scuola.
+1	Idea	idea	PROPN	SP	_	9	nsubj	_	_
+2	Basile	Basile	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	27	27	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	unica	unico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+10	davanti	davanti	ADV	B	_	13	case	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	pc	pc	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	Banfi	Banfi	PROPN	SP	_	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Vimercate	Vimercate	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	9	punct	_	_
+21	durante	durante	ADP	E	_	22	case	_	_
+22	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	scritti	scritto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+27	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	più	più	ADV	B	_	29	advmod	_	_
+29	surreali	surreale	ADJ	A	Number=Plur	25	amod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	concorsone	concorsone	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Non erano nemmeno le otto quando si è presentata davanti ai cancelli di questo grande istituto a pochi chilometri da Monza, una delle dodici sedi messe a disposizione d'urgenza dall'Ufficio scolastico della Lombardia per accogliere chi, come Idea, ha presentato ricorso contro la mancata ammissione alle prove.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	otto	otto	NUM	N	NumType=Card	0	root	_	_
+6	quando	quando	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	davanti	davanti	ADV	B	_	13	case	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cancelli	cancello	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	grande	grande	ADJ	A	Number=Sing	17	amod	_	_
+17	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	Monza	Monza	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	appos	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	dodici	dodici	NUM	N	NumType=Card	28	nummod	_	_
+28	sedi	sede	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+29	messe	mettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32	d'	di	ADP	E	_	33	case	_	SpaceAfter=No
+33	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34-35	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+34	da	da	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	Ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	29	obl:agent	_	_
+37	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Lombardia	Lombardia	PROPN	SP	_	36	nmod	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	accogliere	accogliere	VERB	V	VerbForm=Inf	29	advcl	_	_
+43	chi	chi	PRON	PR	Number=Sing|PronType=Rel	42	obj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	come	come	ADP	E	_	46	case	_	_
+46	Idea	idea	PROPN	SP	_	49	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	acl:relcl	_	_
+50	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	_
+51	contro	contro	ADP	E	_	54	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+53	mancata	mancato	ADJ	A	Gender=Fem|Number=Sing	54	amod	_	_
+54	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	50	nmod	_	_
+55-56	alle	_	_	_	_	_	_	_	_
+55	a	a	ADP	E	_	57	case	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	prove	prova	NOUN	S	Gender=Fem|Number=Plur	49	obl	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Cosa le hanno detto quando è arrivata?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = "Il comitato di vigilanza era preparato alle domande da fare:
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vigilanza	vigilanza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 6
+# text = questa scuola è stata aperta per noi, per gli esclusi.
+1	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	esclusi	escluso	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Mi hanno subito chiesto copia del provvedimento cautelare del tribunale amministrativo:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	subito	subito	ADV	B	_	4	advmod	_	_
+4	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	copia	copia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	cautelare	cautelare	ADJ	A	Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	amministrativo	amministrativo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = fortuna che l'avevo ricevuto la settimana scorsa, giusto in tempo".
+1	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Da quanto sapeva che avrebbe potuto sostenere lo scritto?
+1	Da	da	ADP	E	_	3	mark	_	_
+2	quanto	quanto	ADV	B	_	1	fixed	_	_
+3	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	sostenere	sostenere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scritto	scritto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = "Da venerdì, quando la direzione scolastica, dopo l'ultima decisione del Consiglio di Stato, ha scelto in tutta fretta di aprire nuove sedi per il nostro esame".
+1	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	3	case	_	_
+3	venerdì	venerdì	NOUN	S	Gender=Masc	21	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quando	quando	SCONJ	CS	_	21	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+8	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	dopo	dopo	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Consiglio	consiglio	PROPN	SP	_	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Stato	stato	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	aprire	aprire	VERB	V	VerbForm=Inf	21	xcomp	_	_
+27	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+28	sedi	sede	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	per	per	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	esame	esame	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 11
+# text = Qui però vi siete presentate solo in due.
+1	Qui	qui	ADV	B	_	5	advmod	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	vi	vi	ADV	B	_	5	advmod	_	_
+4	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	presentate	presentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	due	due	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = E solo lei è stata ammessa.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	ammessa	ammettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Dove sono gli altri?
+1	Dove	dove	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = "Non tutti sono insegnanti di lettere.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	insegnanti	insegnare	ADJ	A	Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = E non tutti hanno avuto la fortuna di avere un pronunciamento in tempo.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pronunciamento	pronunciamento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = La collega che è arrivata con me per esempio:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	collega	collega	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = è stata rimbalzata per quello, non aveva ancora nulla in mano".
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	rimbalzata	rimbalzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	_
+10	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Lei perché ha fatto ricorso?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+5	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = "Avevo sbagliato a compilare la domanda di iscrizione.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	compilare	compilare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Me ne sono accorta subito ma mi hanno esclusa senza colpo ferire da un concorso che mi può cambiare la vita".
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	accorta	accortare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	subito	subito	ADV	B	_	9	advmod	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	esclusa	escludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+12	ferire	ferire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	cambiare	cambiare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = È molto giovane, Idea.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Idea	idea	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Da quanto insegna?
+1	Da	da	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	3	obl	_	_
+3	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = "Da un anno, a Pavia.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Pavia	Pavia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Mi sono trasferita in Lombardia dalla Puglia per trovare lavoro.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trasferita	trasferire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Lombardia	Lombardia	PROPN	SP	_	3	obl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Puglia	Puglia	PROPN	SP	_	3	obl:agent	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	trovare	trovare	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = E in questo concorso ci sono tante mie speranze.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+8	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = Proprio perché sono giovane".
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	giovane	giovane	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

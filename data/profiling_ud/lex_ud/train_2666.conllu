@@ -1,0 +1,286 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il nome del bambino non è più importante di quello dei numeri sulle statistiche:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	statistiche	statistica	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = 182 casi di morte neonatale in Italia, 23 mila bambini che vivono in abitazioni senza vista, senza servizi igienici, senza un solo medico di famiglia.
+1	182	182	NUM	N	NumType=Card	2	nummod	_	_
+2	casi	caso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	morte	morte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	neonatale	neonatale	ADJ	A	Number=Sing	4	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	23	23	NUM	N	NumType=Card	11	nummod	_	_
+10	mila	mila	NUM	N	NumType=Card	9	flat	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	senza	senza	ADP	E	_	17	case	_	_
+17	vista	vista	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+21	igienici	igienico	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	senza	senza	ADP	E	_	26	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	solo	solo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma ciò che conta, ciò che strappa un respiro al cuore di chi legge questo articolo, è l'ordine di un giorno semplice, in cui un bambino, sceso dal letto con un sorriso bruciato dal tempo, viene invitato a fare qualcosa di fondamentale:
+1	Ma	ma	CCONJ	CC	_	22	cc	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	strappa	strappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	chi	chi	PRON	PR	PronType=Rel	13	nmod	_	_
+16	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	semplice	semplice	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	46	obl	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	46	nsubj:pass	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	sceso	scendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	letto	letto	NOUN	S	Gender=Masc|Number=Sing	33	obl:agent	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+40	bruciato	bruciare	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41-42	dal	_	_	_	_	_	_	_	_
+41	da	da	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	31	punct	_	_
+45	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:pass	_	_
+46	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+47	a	a	ADP	E	_	48	mark	_	_
+48	fare	fare	VERB	V	VerbForm=Inf	46	xcomp	_	_
+49	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	48	obj	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	fondamentale	fondamentale	ADJ	A	Number=Sing	49	nmod	_	SpaceAfter=No
+52	:	:	PUNCT	FC	_	22	punct	_	_
+
+# sent_id = 4
+# text = vivere.
+1	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Una settimana fa, in una città del Trentino, un'insegnante ha raccontato a un gruppo di volontari che, nel corso di un'attività di formazione per le scuole primarie, un bambino di sei anni aveva disegnato un fumo che usciva da una finestra, e lui aveva scritto:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	15	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Trentino	Trentino	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	insegnante	insegnante	NOUN	S	Number=Sing	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	42	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	corso	corso	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	attività	attività	NOUN	S	Gender=Fem	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+34	primarie	primario	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	25	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	42	nsubj	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	sei	sei	NUM	N	NumType=Card	40	nummod	_	_
+40	anni	anno	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+41	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+45	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+46	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	acl:relcl	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	54	punct	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	54	nsubj	_	_
+53	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	aux	_	_
+54	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	SpaceAfter=No
+55	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 6
+# text = «È quello che vedo quando penso alla mamma che non c’è più».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+5	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	più	più	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il disegno è rimasto in una cartella, ma non è stato dimenticato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cartella	cartella	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	ma	ma	CCONJ	CC	_	13	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = È stato portato avanti in un'attivazione scolastica sul tema dei diritti umani, dei bisogni primari e della dignità del bambino.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	avanti	avanti	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	attivazione	attivazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	umani	umano	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	bisogni	bisogno	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+20	primari	primario	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	dignità	dignità	NOUN	S	Gender=Fem	14	conj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Anche se il fumo non è mai stato una metafora del circolo vizioso delle povertà strutturali e dei tagli alle
+1	Anche	anche	ADV	B	_	10	advmod	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	mai	mai	ADV	B	_	10	advmod	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	metafora	metafora	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	circolo	circolo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	vizioso	vizioso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	povertà	povertà	NOUN	S	Gender=Fem	13	nmod	_	_
+18	strutturali	strutturale	ADJ	A	Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+23-24	alle	_	_	_	_	_	_	_	SpacesAfter=\n
+23	a	a	ADP	E	_	24	case	_	_
+24	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+

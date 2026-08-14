@@ -1,0 +1,428 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I flussi di raccolta sono stati positivi per 548 milioni di euro.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	flussi	flusso	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+7	positivi	positivo	ADV	B	_	10	advmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	548	548	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	euro	euro	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Il patrimonio è cresciuto dell'1,4% rispetto al semestre precedente passando da 20,2 a poco meno di 20,5 miliardi di euro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cresciuto	crescere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	1,4	1,4	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	4	obl	_	_
+9	rispetto	rispetto	ADV	B	_	12	case	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	semestre	semestra	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+13	precedente	precedente	ADJ	A	Number=Sing	12	amod	_	_
+14	passando	passare	VERB	V	VerbForm=Ger	4	advcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	20,2	20,2	NUM	N	NumType=Card	14	nummod	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	poco	poco	ADV	B	_	19	advmod	_	_
+19	meno	meno	PRON	PI	PronType=Ind	14	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	20,5	20,5	NUM	N	NumType=Card	22	nummod	_	_
+22	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = In un anno la crescita è stata pari all'1,9%.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	pari	pari	ADJ	A	_	0	root	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	12	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	1,9	1,9	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il numero di fondi censiti è arrivato a quota 143 unità.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	censiti	censito	ADJ	A	Number=Plur	4	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	quota	quota	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	143	143	NUM	N	NumType=Card	9	nummod	_	_
+11	unità	unità	NOUN	S	Gender=Fem	9	compound	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Di questi 119 sono riservati ad investitori istituzionali e detengono un patrimonio di 14,6 miliardi di euro, mentre i fondi retail sono 24 e assommano asset per oltre 5,8 miliardi.
+1	Di	di	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	119	119	NUM	N	NumType=Card	5	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	riservati	riservare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	investitori	investitore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	istituzionali	istituzionale	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	detengono	detenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	14,6	14,6	NUM	N	NumType=Card	15	nummod	_	_
+15	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	euro	euro	NOUN	S	Gender=Masc	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	mentre	mentre	SCONJ	CS	_	24	mark	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+22	retail	retaile	NOUN	S	Gender=Masc	21	compound	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	24	24	NUM	N	NumType=Card	10	advcl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	assommano	assommare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+27	asset	asset	NOUN	S	_	26	obj	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	oltre	oltre	ADV	B	_	30	advmod	_	_
+30	5,8	5,8	NUM	N	NumType=Card	31	nummod	_	_
+31	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Le attività, cresciute del 6,4% su base annua e del 2,1% in sei mesi, si attestano a quota 35,4 miliardi di euro.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	attività	attività	NOUN	S	Gender=Fem	22	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	6,4	6,4	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	10	obl	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	base	base	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	annua	annuo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	2,1	2,1	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	10	conj	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	sei	sei	NUM	N	NumType=Card	19	nummod	_	_
+19	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	attestano	attestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	quota	quota	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+25	35,4	35,4	NUM	N	NumType=Card	26	nummod	_	_
+26	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	euro	euro	NOUN	S	Gender=Masc	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 7
+# text = Al termine del semestre l'81% dei fondi ha fatto ricorso alla leva.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	semestre	semestra	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	81	81	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	SYM	_	14	nsubj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	leva	leva	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 8
+# text = Rispetto allo scorso semestre il grado di utilizzo delle operazioni di finanziamento è rimasto invariato per i fondi riservati che si sono indebitati per il 77% delle loro possibilità.
+1	Rispetto	rispetto	ADV	B	_	4	case	_	_
+2-3	allo	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	scorso	scorso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	semestre	semestra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	grado	grado	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	finanziamento	finanziamento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	invariato	invariare	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	riservati	riservato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	indebitati	indebitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+26	per	per	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	77	77	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	25	obl	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	possibilità	possibilità	NOUN	S	Gender=Fem	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 9
+# text = Per i fondi retail il livello di indebitamento è in lieve crescita e pari al 60% della quota ammissibile (alla fine del 2008 era il 58%).
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+4	retail	retaile	NOUN	S	Gender=Masc	3	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	livello	livello	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	indebitamento	indebitamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	lieve	lieve	ADJ	A	Number=Sing	12	amod	_	_
+12	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	pari	pari	ADJ	A	_	12	conj	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	60	60	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	quota	quota	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	ammissibile	ammissibile	ADJ	A	Number=Sing	21	amod	_	_
+23	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fine	fine	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	2008	2008	NUM	N	NumType=Card	26	nmod	_	_
+30	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	58	58	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+33	%	%	SYM	SYM	_	21	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 10
+# text = Per quanto riguarda l'asset allocation per destinazione d'uso si osserva che gli investimenti dei immobiliare avvengono in prevalenza nel settore Uffici:
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	asset	asset	NOUN	S	_	3	obj	_	_
+6	allocation	allocation	NOUN	S	_	5	compound	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	destinazione	destinazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	uso	uso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	osserva	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	immobiliare	immobiliare	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	avvengono	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	prevalenza	prevalenza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	settore	settore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	Uffici	uffico	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 11
+# text = il 58,8% per i retail e il 49,6% per i riservati.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	58,8	58,8	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	retail	retail	NOUN	S	Gender=Masc	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	49,6	49,6	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	6	conj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	riservati	riservato	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = La seconda destinazione d'uso scelta da entrambe le categorie è quella Commerciale:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	destinazione	destinazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	uso	uso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	scelta	scegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	categorie	categoria	NOUN	S	Gender=Fem|Number=Plur	6	obl:agent	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+13	Commerciale	commerciale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 13
+# text = 22,7% degli investimenti complessivi dei retail e il 16,2% per quelli riservati.
+1	22,7	22,7	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	%	%	SYM	SYM	_	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	complessivi	complessivo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	retail	retail	NOUN	S	Gender=Masc	5	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	16,2	16,2	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	2	conj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	13	nmod	_	_
+16	riservati	riservato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Al terzo posto per gli investimenti dei fondi retail il settore della logistica perde appeal e lascia il posto a quello turistico/ricreativo, con impegni per il 5,6%.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	retail	retaile	NOUN	S	Gender=Masc	10	compound	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	settore	settore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	logistica	logistica	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	perde	perde	ADJ	A	Number=Sing	16	amod	_	_
+18	appeal	appeal	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	posto	posto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	nmod	_	_
+25	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	/	/	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+27	ricreativo	ricreativo	ADJ	A	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+31	per	per	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	5,6	5,6	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+34	%	%	SYM	SYM	_	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = Per i riservati al terzo posto si trova la destinazione d'uso denominata Altro (rappresentata principalmente da caserme, centraline telefoniche e terreni) nella quale investono l'11,5% degli impieghi.
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	riservati	riservato	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	destinazione	destinazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	uso	uso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	denominata	denominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15	Altro	altro	PROPN	SP	_	14	nsubj:pass	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	rappresentata	rappresentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+18	principalmente	principalmente	ADV	B	_	17	advmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	caserme	caserma	NOUN	S	Gender=Fem|Number=Plur	17	obl:agent	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	centraline	centralina	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+23	telefoniche	telefonico	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	terreni	terreno	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	17	punct	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	quale	quale	PRON	PR	Number=Sing|PronType=Rel	30	obl	_	_
+30	investono	investire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+32	11,5	11,5	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+33	%	%	SYM	SYM	_	30	obj	_	_
+34-35	degli	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	impieghi	impiego	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

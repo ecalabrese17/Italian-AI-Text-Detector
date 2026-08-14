@@ -1,0 +1,1234 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Carter è stato il trentanovesimo presidente degli Stati Uniti.
+1	Carter	Carter	PROPN	SP	_	6	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	trentanovesimo	trentanovesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Stati	Stati	PROPN	SP	_	6	nmod	_	_
+10	Uniti	Uniti	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Democratico, sempre allegro, ricco sfondato e buono come il pane, ottimo giocatore di golf, alla pari di Barack Obama sapeva tenere sermoni di altissimo livello.
+1	Democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	allegro	allegro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7	sfondato	sfondato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pane	pane	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	golf	golf	NOUN	S	Gender=Masc	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pari	pari	ADJ	A	_	25	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Barack	Barack	PROPN	SP	_	21	nmod	_	_
+24	Obama	Obama	PROPN	SP	_	23	flat:name	_	_
+25	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+26	tenere	tenere	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	sermoni	sermone	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	30	amod	_	_
+30	livello	livello	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Per il Partito democratico fu prima il candidato di una storica vittoria, e poi quello di un'altrettanto storica disfatta.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	prima	prima	ADV	B	_	8	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	storica	storico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	poi	poi	ADV	B	_	16	advmod	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	conj	_	_
+17	di	di	ADP	E	_	21	case	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+19	altrettanto	altrettanto	ADV	B	_	21	advmod	_	_
+20	storica	storico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	disfatta	disfatta	ADJ	A	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Andiamo con ordine.
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Batté il repubblicano Gerald Ford alle elezioni del 1976.
+1	Batté	Batté	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Gerald	Gerald	PROPN	SP	_	3	nmod	_	_
+5	Ford	Ford	PROPN	SP	_	4	flat:name	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	1976	1976	NUM	N	NumType=Card	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Su Ford pesava il fardello di Richard Nixon.
+1	Su	su	ADP	E	_	2	case	_	_
+2	Ford	Ford	PROPN	SP	_	3	obl	_	_
+3	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fardello	fardello	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Richard	Richard	PROPN	SP	_	5	nmod	_	_
+8	Nixon	Nixon	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Infatti Ford era diventato presidente nel 1974, in quanto vice di Nixon, costretto alle dimissioni per lo scandalo Watergate.
+1	Infatti	infatti	ADV	B	_	4	advmod	_	_
+2	Ford	Ford	PROPN	SP	_	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	1974	1974	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	quanto	quanto	ADV	B	_	10	fixed	_	_
+12	vice	vice	ADJ	A	_	4	advcl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Nixon	Nixon	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	Watergate	Watergate	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = La ferita del Vietnam, la durissima crisi industriale, la recessione, la disoccupazione a livelli stratosferici, il discredito caduto sui repubblicani, misero il vento alle ali di Carter.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vietnam	Vietnam	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	durissima	duro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	9	amod	_	_
+9	crisi	crisi	NOUN	S	Gender=Fem	2	conj	_	_
+10	industriale	industriale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	recessione	recessione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	stratosferici	stratosferico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	discredito	discredito	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+23	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	sui	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	repubblicani	repubblicano	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	misero	midere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	vento	vento	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	alle	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	ali	ala	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Carter	Carter	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 9
+# text = Vinse a valanga, come ha fatto Obama contro il povero John McCain.
+1	Vinse	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	valanga	valanga	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+8	Obama	Obama	PROPN	SP	_	7	obj	_	_
+9	contro	contro	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	povero	povero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	John	John	PROPN	SP	_	7	obl	_	_
+13	McCain	McCain	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = In campagna elettorale il sorriso smaltato di Carter promise di tutto.
+1	In	in	ADP	E	_	2	case	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+3	elettorale	elettorale	ADJ	A	Number=Sing	2	amod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	smaltato	smaltato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Carter	Carter	PROPN	SP	_	6	obl	_	_
+9	promise	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Non solo l'America, ma anche il mondo sarebbero stati riformati.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	America	America	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	ma	ma	CCONJ	CC	_	12	cc	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+10	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	riformati	riformata	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Persino l'aria, giurò, sarebbe diventata più respirabile.
+1	Persino	persino	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aria	aria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	giurò	giurare	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	respirabile	respirabile	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Invece non cambiò un bel niente.
+1	Invece	invece	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	cambiò	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	bel	bello	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	niente	niente	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = La sua presidenza si rivelò grandiosa nelle aspettative, alle quali seguirono grandiose delusioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	rivelò	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	grandiosa	grandioso	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	quali	quale	PRON	PR	Number=Plur|PronType=Rel	14	obl	_	_
+14	seguirono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+15	grandiose	grandioso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	delusioni	delusione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Il presidente della rivincita democratica non ne azzeccò una, e finì umiliato nel tentativo di mostrare i muscoli, quando l'operazione militare per liberare gli ostaggi dell'ambasciata americana a Teheran, tenuti prigionieri dal nuovo governo dell'Iran, retto dall'Ayatollah Khomeini, fallì miseramente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	azzeccò	azzeccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	umiliato	umiliare	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	mostrare	mostrare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	muscoli	muscolo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	9	punct	_	_
+23	quando	quando	SCONJ	CS	_	54	mark	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	54	nsubj	_	_
+26	militare	militare	ADJ	A	Number=Sing	25	amod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	liberare	liberare	VERB	V	VerbForm=Inf	25	acl	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	ostaggi	ostaggio	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+31-32	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	ambasciata	ambasciata	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	americana	americano	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	Teheran	Teheran	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	33	punct	_	_
+38	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	_
+39	prigionieri	prigioniero	NOUN	S	Gender=Masc|Number=Plur	38	nsubj:pass	_	_
+40-41	dal	_	_	_	_	_	_	_	_
+40	da	da	ADP	E	_	43	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+43	governo	governo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+44-45	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+44	di	di	ADP	E	_	46	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	Iran	Iran	PROPN	SP	_	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	38	punct	_	_
+48	retto	reggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+49-50	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+49	da	da	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	Ayatollah	ayatollah	PROPN	SP	_	48	obl:agent	_	_
+52	Khomeini	Khomeini	PROPN	SP	_	51	flat:name	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	38	punct	_	_
+54	fallì	fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+55	miseramente	miseramente	ADV	B	_	54	advmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = Il blitz aveva un nome grintoso:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	blitz	blitz	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	grintoso	grintoso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 17
+# text = "Artiglio dell'aquila".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Artiglio	Artiglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	aquila	aquila	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Si rivelò una scorribanda di polli.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	rivelò	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scorribanda	scorribanda	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	polli	pollo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = I democratici, annusata la catastrofe imminente, provarono a scalzare Carter nella successiva consultazione presidenziale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	democratici	democratico	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	annusata	annusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	catastrofe	catastrofe	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	imminente	imminente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	provarono	provare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	scalzare	scalzare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	Carter	Carter	PROPN	SP	_	11	obj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	consultazione	consultazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	presidenziale	presidenziale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Ma il presidente uscente superò sul filo di lana Ted Kennedy alle primarie.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	uscente	uscente	ADJ	A	Number=Sing	3	amod	_	_
+5	superò	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	filo	filo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lana	lana	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	Ted	Ted	PROPN	SP	_	8	nmod	_	_
+12	Kennedy	Kennedy	PROPN	SP	_	11	flat:name	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	primarie	primaria	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Quindi andò allo scontro con il repubblicano Ronald Reagan nel 1980.
+1	Quindi	quindi	ADV	B	_	2	advmod	_	_
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	allo	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	Ronald	Ronald	PROPN	SP	_	8	nmod	_	_
+10	Reagan	Reagan	PROPN	SP	_	9	flat:name	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	1980	1980	NUM	N	NumType=Card	2	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Una valanga seppellì le aspirazioni di Carter.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	valanga	valanga	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	seppellì	seppellire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	aspirazioni	aspirazioni	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Carter	Carter	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Un massacro elettorale di proporzioni bibliche.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	massacro	massacro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	elettorale	elettorale	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	proporzioni	proporzione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	bibliche	biblico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Il nuovo inquilino della Casa Bianca non ha mai fatto mistero di ammirare Carter.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	inquilino	inquilino	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	Bianca	Bianca	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	mai	mai	ADV	B	_	11	advmod	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	ammirare	ammirare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	Carter	Carter	PROPN	SP	_	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 25
+# text = I due hanno, tranne lievi differenze, la stessa visione del mondo.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tranne	tranne	ADP	E	_	7	case	_	_
+6	lievi	lieve	ADJ	A	Number=Plur	7	amod	_	_
+7	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	visione	visione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Anche in fatto di religione il battista Carter e il protestante Obama sono orientati sulla stessa linea d'onda.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	religione	religione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	battista	battista	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+8	Carter	Carter	PROPN	SP	_	7	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	protestante	protestante	NOUN	S	Number=Sing	7	conj	_	_
+12	Obama	Obama	PROPN	SP	_	11	nmod	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	orientati	orientare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	linea	linea	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	onda	onda	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 27
+# text = Ma Carter, come dicevamo, è accompagnato da un fantasma.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	Carter	Carter	PROPN	SP	_	8	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	dicevamo	dicere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 28
+# text = Il fantasma della débâcle politica.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	débâcle	débâcle	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	politica	politico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = E Obama, esauritasi rapidamente la luna di miele della grande rivoluzione democratica, da un po' di tempo ha sonni tormentati.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Obama	Obama	PROPN	SP	_	23	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	esauritasi	_	_	_	_	_	_	_	_
+4	esaurita	esaurire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	rapidamente	rapidamente	ADV	B	_	4	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	luna	luna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	miele	miele	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	po'	poco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	sonni	sonno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+24	tormentati	tormentato	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 30
+# text = I sondaggi di gradimento al suo operato da mesi indicano il basso.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sondaggi	sondaggio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gradimento	gradimento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	operato	operato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	basso	basso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 31
+# text = Tutti si dichiarano delusi dall'azione di Obama, durante il primo anno di presidenza.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	dichiarano	dichiarare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	delusi	deluso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	azione	azione	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Obama	Obama	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	durante	durante	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = Uomini e donne, giovani e vecchi, tradizionalisti e progressisti, bianchi e neri, occupati e disoccupati, democratici repubblicani e senza partito.
+1	Uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	giovani	giovane	ADJ	A	Number=Plur	1	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	tradizionalisti	tradizionalista	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	progressisti	progressista	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	neri	nero	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	occupati	occupato	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	disoccupati	disoccupato	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	democratici	democratico	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	repubblicani	repubblicano	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	senza	senza	ADP	E	_	25	case	_	_
+25	partito	partito	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 33
+# text = Obama aveva promesso una drastica inversione di tendenza sul piano climatico.
+1	Obama	Obama	PROPN	SP	_	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	drastica	drastico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	inversione	inversione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+12	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Disattesa.
+1	Disattesa	Disattesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = Aveva promesso la fine della guerra e l'impiego delle risorse economiche in investimenti sociali.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	sociali	sociale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Disattese entrambe.
+1	Disattese	Disattesa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+2	entrambe	entrambe	DET	T	Gender=Fem|Number=Plur|PronType=Tot	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = Aveva promesso un nuovo dialogo con l'Islam.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Islam	Islam	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = Disattesa anche questa promessa, con i toni minacciosi di guerra (più o meno dello stesso tono del guerrafondaio Bush) contro il terrorismo internazionale.
+1	Disattesa	Disattendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	toni	tono	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+9	minacciosi	minaccioso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+13	più	più	ADV	B	_	19	advmod	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	meno	meno	ADV	B	_	13	conj	_	_
+16-17	dello	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	tono	tono	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	guerrafondaio	guerrafondaio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	Bush	Bush	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	19	punct	_	_
+25	contro	contro	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+28	internazionale	internazionale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = Aveva promesso la riforma del sistema finanziario, e non ha riformato niente.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	finanziario	finanziario	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	riformato	riformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+14	niente	niente	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = L'unica promessa in via di arrivo, ma molto molto annacquata, è la riforma sanitaria.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	via	via	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	molto	molto	ADV	B	_	12	advmod	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	annacquata	annacquato	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	sanitaria	sanitario	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 41
+# text = Ed è ancora da capire come sarà strutturata.
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ancora	ancora	ADV	B	_	5	advmod	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+6	come	come	SCONJ	CS	_	8	mark	_	_
+7	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	strutturata	strutturare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 42
+# text = Insomma, l'uomo del secolo, del millennio, si sta rivelando un politico capace di suscitare grandi entusiasmi a chiacchiere, ma in realtà assai debole nella pratica governativa.
+1	Insomma	insomma	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	millennio	millennio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	rivelando	rivelare	VERB	V	VerbForm=Ger	0	root	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	politico	politico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	capace	capace	ADJ	A	Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	suscitare	suscitare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	grandi	grande	ADJ	A	Number=Plur	22	amod	_	_
+22	entusiasmi	entusiasmo	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	chiacchiere	chiacchiere	VERB	V	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	30	punct	_	_
+26	ma	ma	CCONJ	CC	_	30	cc	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+29	assai	assai	ADV	B	_	30	advmod	_	_
+30	debole	debole	ADJ	A	Number=Sing	24	conj	_	_
+31-32	nella	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	governativa	governativo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 43
+# text = Gli hanno assegnato il Nobel della pace, più sulla fiducia che non in base a fatti concreti.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	assegnato	assegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Nobel	Nobel	PROPN	SP	_	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pace	pace	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	più	più	ADV	B	_	13	advmod	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	base	base	NOUN	S	Gender=Fem|Number=Sing	13	acl:relcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 44
+# text = Si è recato a Stoccolma per tenere un nobile discorso, giustificando però il diritto alla guerra, inalienabile e unilaterale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	recato	recare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Stoccolma	Stoccolma	PROPN	SP	_	3	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	tenere	tenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nobile	nobile	ADJ	A	Number=Sing	10	amod	_	_
+10	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	giustificando	giustificare	VERB	V	VerbForm=Ger	3	advcl	_	_
+13	però	però	ADV	B	_	12	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	inalienabile	inalienabile	ADJ	A	Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	unilaterale	unilaterale	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 45
+# text = Sicuramente gli sarebbe andato a pennello il premio dell'anno all'uomo "delle grandi promesse e delle vaghe risposte".
+1	Sicuramente	sicuramente	ADV	B	_	4	advmod	_	_
+2	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	pennello	pennello	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	premio	premio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	grandi	grande	ADJ	A	Number=Plur	19	amod	_	_
+19	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	vaghe	vaga	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	risposte	risposte	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 46
+# text = I repubblicani dal pensiero più affilato, come Robert Kagan, lo accusano di essere diventato l'amministratore unico del declino americano, e il campione del disimpegno nella lotta per la libertà, deciso a non ostacolare le sgomitate planetarie di Cina e Russia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	repubblicani	repubblicano	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	affilato	affilato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	Robert	Robert	PROPN	SP	_	14	obl	_	_
+11	Kagan	Kagan	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	accusano	accusare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux	_	_
+17	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	17	xcomp	_	_
+20	unico	unico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	declino	declino	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	americano	americano	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	campione	campione	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	disimpegno	disimpegno	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32-33	nella	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	libertà	libertà	NOUN	S	Gender=Fem	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	28	punct	_	_
+39	deciso	deciso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+40	a	a	ADP	E	_	42	mark	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	ostacolare	ostacolare	VERB	V	VerbForm=Inf	39	xcomp	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	sgomitate	sgomitato	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+45	planetarie	planetario	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	Cina	Cina	PROPN	SP	_	44	nmod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	Russia	Russia	PROPN	SP	_	47	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 47
+# text = È presto, a un solo anno di governo, per capire come passerà alla storia la presidenza Obama.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	solo	solo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	capire	capire	VERB	V	VerbForm=Inf	2	advcl	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	passerà	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+20	Obama	Obama	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 48
+# text = Il predicatore Barack Obama, un anno fa, affrontava i gradini di una qualsiasi tribuna, prima di parlare al microfono, rapido, deciso, sorridente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	predicatore	predicatore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Barack	Barack	PROPN	SP	_	2	nmod	_	_
+4	Obama	Obama	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	affrontava	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	gradini	gradine	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	qualsiasi	qualsiasi	ADJ	A	Number=Sing	16	amod	_	_
+16	tribuna	tribuna	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	prima	prima	ADV	B	_	20	mark	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	parlare	parlare	VERB	V	VerbForm=Inf	10	advcl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	microfono	microfono	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	deciso	deciso	ADJ	A	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	sorridente	sorridente	ADJ	A	Number=Sing	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 49
+# text = Poi partiva il sermone, condito da buon senso ed eccellenti intenzioni.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	partiva	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sermone	sermone	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	condito	condire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	buon	buono	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	senso	senso	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	eccellenti	eccellente	ADJ	A	Number=Plur	12	amod	_	_
+12	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 50
+# text = Basta con la guerra, costruiamo ponti e asili, aiutiamo i deboli.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	costruiamo	costruire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	ponti	ponte	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	asili	asilo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	aiutiamo	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	deboli	debolo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 51
+# text = Magari ci inzeppava qualche ricordo degli insegnamenti della madre, o della nonna, che gli hanno trasmesso i valori dell'amore, educazione e, soprattutto, speranza.
+1	Magari	magari	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	inzeppava	inzeppare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	insegnamenti	insegnamento	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	o	o	CCONJ	CC	_	16	cc	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+20	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	trasmesso	trasmettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	valori	valore	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	soprattutto	soprattutto	ADV	B	_	33	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 52
+# text = Sul limbo dorato della speranza, Obama non lo batte nessuno.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	limbo	limbo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	dorato	dorato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	Obama	Obama	PROPN	SP	_	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 53
+# text = Adesso che la stagione dei sermoni domenicali è finita, la musica sembra essere tutt'altra.
+1	Adesso	adesso	ADV	B	_	10	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sermoni	sermone	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	domenicali	domenicale	ADJ	A	Number=Plur	7	amod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	musica	musica	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+16	tutt'	tutto	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 54
+# text = Il fantasma di Jimmy Carter è lì a ricordarglielo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Jimmy	Jimmy	PROPN	SP	_	2	nmod	_	_
+5	Carter	Carter	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	lì	lì	ADV	B	_	10	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9-10	ricordarglielo	_	_	_	_	_	_	_	SpaceAfter=No
+9	ricordarglie	ricordargliere	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	obl	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 55
+# text = Più tempo passerà alla Casa Bianca, più sarà difficile per Obama non seguire il destino del suo illustre e incapace predecessore.
+1	Più	più	DET	DI	PronType=Ind	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passerà	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	Bianca	Bianca	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	più	più	ADV	B	_	11	advmod	_	_
+10	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+11	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	Obama	Obama	PROPN	SP	_	11	obl	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	seguire	seguire	VERB	V	VerbForm=Inf	11	csubj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	destino	destino	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	24	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+21	illustre	illustre	ADJ	A	Number=Sing	24	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	incapace	incapace	ADJ	A	Number=Sing	21	conj	_	_
+24	predecessore	predecessore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 56
+# text = Bill Clinton ci mise poco a sbarazzarsi del fantasma:
+1	Bill	Bill	PROPN	SP	_	4	nsubj	_	_
+2	Clinton	Clinton	PROPN	SP	_	1	flat:name	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	poco	poco	ADV	B	_	4	advmod	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	sbarazzarsi	_	_	_	_	_	_	_	_
+7	sbarazzar	sbarazzare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 57
+# text = fece il contrario di quello che aveva promesso.
+1	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 58
+# text = E governò otto anni.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	governò	governare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	otto	otto	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

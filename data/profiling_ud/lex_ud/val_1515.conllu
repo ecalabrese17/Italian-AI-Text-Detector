@@ -1,0 +1,921 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il primo segnale di pericolo è l’aumento della frequenza di eventi estremi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	frequenza	frequenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	estremi	estremio	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = In Italia, la Sardegna ha stato colpita da una violenta ondata di calore nel 2023, con conseguenti “mal di coltivazione” che ha spazzato via una merce di uva.
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Sardegna	Sardegna	PROPN	SP	_	8	nsubj:pass	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	calore	calore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2023	2023	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	conseguenti	conseguente	NOUN	S	Number=Plur	8	obl	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	mal	male	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	22	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	spazzato	spazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+29	via	via	ADV	B	_	28	advmod	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	merce	merce	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	uva	uva	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Analogamente, la valle del Po ha registrato gelate tardive che hanno ridotto drasticamente i rendimenti cereali di oltre il 20% in un solo annuo, lasciando i piccoli agricoltori a confrontarsi con prezzi dell’affitto e delle materie prime in incremento.
+1	Analogamente	Analogamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	valle	valle	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Po	Po	PROPN	SP	_	4	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	registrato	registrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	gelate	gelata	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	tardive	tardivo	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	drasticamente	drastico	ADV	B	_	14	advmod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	rendimenti	rendimento	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18	cereali	cereali	ADJ	A	Number=Plur	17	amod	_	_
+19	di	di	ADP	E	_	23	case	_	_
+20	oltre	oltre	ADV	B	_	23	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	20	20	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	17	nmod	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	solo	solo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	annuo	annuo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	9	punct	_	_
+29	lasciando	lasciare	VERB	V	VerbForm=Ger	9	advcl	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+32	agricoltori	agricoltore	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34-35	confrontarsi	_	_	_	_	_	_	_	_
+34	confrontar	confrontarre	VERB	V	VerbForm=Inf	29	advcl	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36	con	con	ADP	E	_	37	case	_	_
+37	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+38-39	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42-43	delle	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	materie	materia	NOUN	S	Gender=Fem|Number=Plur	40	conj	_	_
+45	prime	primo	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Tali fluttuazioni di prezzo non sono solo un problema di bilancio:
+1	Tali	tale	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	fluttuazioni	fluttuazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = sono una minaccia diretta all’avanzata di un’amministrazione alimentare sicura e sostenibile.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	diretta	diretto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	avanzata	avanzata	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	alimentare	alimentare	ADJ	A	Number=Sing	10	amod	_	_
+12	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	sostenibile	sostenibile	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il meccanismo chimico è altrettanto chiaro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	meccanismo	meccanismo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	chimico	chimico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	altrettanto	altrettanto	ADV	B	_	6	advmod	_	_
+6	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Una maggiore concentrazione di CO₂ influisce sulla fotosintesi, ma non in modo uniforme.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+3	concentrazione	concentrazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	CO₂	CO₂	PROPN	SP	_	3	nmod	_	_
+6	influisce	influire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fotosintesi	fotosintesi	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	uniforme	uniformo	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Mentre alcune piante possono infatti incrementare la produzione di biomassa grazie al cosiddetto “effetto ricircolo”, altre subiscono un indebolimento della loro capacità di filtrare i nutrienti dal suolo.
+1	Mentre	mentre	SCONJ	CS	_	6	mark	_	_
+2	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	infatti	infatti	ADV	B	_	6	advmod	_	_
+6	incrementare	incrementare	VERB	V	VerbForm=Inf	21	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	biomassa	biomasso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	grazie	grazie	NOUN	S	_	16	case	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	cosiddetto	cosiddetto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+17	ricircolo	ricircolo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	21	nsubj	_	_
+21	subiscono	subisrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	indebolimento	indebolimento	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	capacità	capacità	NOUN	S	Gender=Fem	23	nmod	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	filtrare	filtrare	VERB	V	VerbForm=Inf	27	acl	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	nutrienti	nutriente	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32-33	dal	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 9
+# text = I vegetali con un alto contenuto di carbonio, come ortaggi a foglia verde (spinaci, cavoli, bietole), mostrano un calo significativo nei livelli di micronutrienti (come iodio e ferro) quando la loro crescita è accelerata da un pizzico di CO₂ in eccesso.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vegetali	vegetale	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	alto	alto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	carbonio	carbonio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	ortaggi	ortaggio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	foglia	foglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	verde	verde	ADJ	A	Number=Sing	13	amod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	spinaci	spinace	NOUN	S	Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	cavoli	cavole	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	bietole	bietole	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	calo	calo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	significativo	significativo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	nei	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	micronutrienti	micronutriento	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+32	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+33	come	come	ADP	E	_	34	case	_	_
+34	iodio	iodio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	34	punct	_	_
+38	quando	quando	SCONJ	CS	_	43	mark	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	loro	loro	DET	AP	Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	43	nsubj:pass	_	_
+42	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux:pass	_	_
+43	accelerata	accelerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	pizzico	pizzico	NOUN	S	Gender=Masc|Number=Sing	43	obl:agent	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	CO₂	CO₂	PROPN	SP	_	46	nmod	_	_
+49	in	in	ADP	E	_	50	case	_	_
+50	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 10
+# text = Il risultato è un cibo meno nutriente, ma più “ricco” di liquidi a causa dell’alta intensità d’acqua.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	meno	meno	ADV	B	_	7	advmod	_	_
+7	nutriente	nutriente	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	12	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	liquidi	liquide	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	causa	causa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	21	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	alta	alto	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	intensità	intensità	NOUN	S	Gender=Fem	17	nmod	_	_
+22	d’	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Una scoperta che ha avuto ripercussioni particolari nella regione Umbria, dove i produttori di formaggi stagionati hanno visto roottare il profilo lattigin inquesto periodo, provocando l’abbandono di tradizionali tasche di produzione locale.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	ripercussioni	ripercussione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	particolari	particolare	ADJ	A	Number=Plur	6	amod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	regione	regione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	Umbria	Umbria	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	dove	dove	ADV	B	_	20	advmod	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	produttori	produttore	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	formaggi	formaggio	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	stagionati	stagionato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+21	roottare	roottare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	lattigin	lattigino	ADP	E	_	26	case	_	_
+25	inquesto	inquesto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	20	punct	_	_
+28	provocando	provocare	VERB	V	VerbForm=Ger	20	advcl	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	tradizionali	tradizionale	ADJ	A	Number=Plur	33	amod	_	_
+33	tasche	tasca	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	locale	locale	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Un aspetto spesso trascurato è l’influenza sulla biodiversità dei pollinatori.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	spesso	spesso	ADV	B	_	4	advmod	_	_
+4	trascurato	trascurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	biodiversità	biodiversità	NOUN	S	Gender=Fem	7	nmod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	pollinatori	pollinatore	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = L’uso eccessivo di CO₂ ha redefinito la distribuzione delle specie di insetti impollinatori, mettendo in pericolo le coltivazioni di frutta a semi, combattendo condizioni favorevoli alla fotosintesi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uso	uso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	CO₂	CO₂	PROPN	SP	_	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	redefinito	redefinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	specie	specie	NOUN	S	Gender=Fem	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	impollinatori	impollinatore	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	mettendo	mettere	VERB	V	VerbForm=Ger	7	advcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	coltivazioni	coltivazione	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	semi	seme	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	17	punct	_	_
+27	combattendo	combattere	VERB	V	VerbForm=Ger	17	advcl	_	_
+28	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+29	favorevoli	favorevole	ADJ	A	Number=Plur	28	amod	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	fotosintesi	fotosintesi	NOUN	S	Gender=Fem	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = L’inquinamento di CO₂, in combinazione con lo sfruttamento intensivo di nutrienti di origine artificiali in agricoltura industriale, ha ridotto il numero di specie di abbozzamento resid', obbligandosi a passare ad approvazioni di fioritura nominali.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	CO₂	CO₂	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	combinazione	combinazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	intensivo	intensivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	nutrienti	nutriente	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	origine	origine	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	artificiali	artificiale	ADJ	A	Number=Plur	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	industriale	industriale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	numero	numero	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	specie	specie	NOUN	S	Gender=Fem	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	abbozzamento	abbozzamento	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	resid'	resid'	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31-32	obbligandosi	_	_	_	_	_	_	_	_
+31	obbligando	obbligare	VERB	V	VerbForm=Ger	22	advcl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	passare	passare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+35	ad	a	ADP	E	_	36	case	_	_
+36	approvazioni	approvazione	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	fioritura	fioritura	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	nominali	nominale	ADJ	A	Number=Plur	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 15
+# text = Questi dati sono stati riportati da un recente studio europeo pubblicato sul “Journal of Plant Ecology”.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	riportati	riportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	recente	recente	ADJ	A	Number=Sing	9	amod	_	_
+9	studio	studio	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+10	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Journal	Journal	PROPN	SP	_	11	obl	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	Plant	Plant	PROPN	SP	_	15	nmod	_	_
+18	Ecology	Ecology	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Oltre al lato biologico, l’aspetto economico è cruciale.
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lato	lato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+5	biologico	biologico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	economico	economico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	cruciale	cruciale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = Le politiche di carbon pricing, come la recentissima introdotta “Quota di Scarico Applicata a Prodotti Agricoli”, si pongono a ridurre l’uso di fertilizzanti a base di urea, emergendo un movimento contro la “intensificazione carbonizzata”.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	carbon	carbon	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	pricing	pricing	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	recentissima	recente	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	10	amod	_	_
+10	introdotta	introdotta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Quota	quota	PROPN	SP	_	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Scarico	scarico	PROPN	SP	_	12	nmod	_	_
+15	Applicata	applicare	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Prodotti	prodotti	PROPN	SP	_	15	obl	_	_
+18	Agricoli	agricoli	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	pongono	porre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	ridurre	ridurre	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	uso	uso	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	fertilizzanti	fertilizzante	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	base	base	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	urea	urea	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	22	punct	_	_
+34	emergendo	emergere	VERB	V	VerbForm=Ger	22	advcl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	contro	contro	ADP	E	_	40	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	“	“	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+40	intensificazione	intensificazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+41	carbonizzata	carbonizzato	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	”	”	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 18
+# text = I risultati sono misurabili:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	misurabili	misurabili	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 19
+# text = produttori che hanno adottato metodi di lavorazione low-carbon hanno ridotto l’uso di fertilizzanti di oltre il 15% in fame, ma l’incremento di energia sistemica per l’irrigazione ha offerto ventrà di arricchimento impari e non sempre tutte le spese mezzo.
+1	produttori	produttore	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	adottato	adottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	metodi	metodo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lavorazione	lavorazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	low	low	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+10	carbon	carbon	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	uso	uso	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fertilizzanti	fertilizzante	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	di	di	ADP	E	_	21	case	_	_
+18	oltre	oltre	ADV	B	_	21	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	15	15	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	16	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	fame	fame	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	35	punct	_	_
+25	ma	ma	CCONJ	CC	_	35	cc	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	energia	energia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	sistemica	sistemico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	l’	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	irrigazione	irrigazione	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+36	ventrà	ventre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	advcl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	arricchimento	arricchimento	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+39	impari	impari	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+40	e	e	CCONJ	CC	_	45	cc	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	sempre	sempre	ADV	B	_	45	advmod	_	_
+43	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	45	det:predet	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	36	conj	_	_
+46	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = Attualmente, il Parlamento Europeo sta negoziando l’ampliamento del Green Deal al settore agricolo, con la dichiarazione di “Pacchetto Agricolo Climatico Sostenibile” (PACS).
+1	Attualmente	attualmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Parlamento	Parlamento	PROPN	SP	_	7	nsubj	_	_
+5	Europeo	Europeo	PROPN	SP	_	4	flat:name	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	negoziando	negoziare	VERB	V	VerbForm=Ger	0	root	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ampliamento	ampliamento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Green	Green	PROPN	SP	_	9	nmod	_	_
+13	Deal	Deal	PROPN	SP	_	12	flat:name	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	settore	settore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+17	agricolo	agricolo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Pacchetto	pacchetto	PROPN	SP	_	21	nmod	_	_
+25	Agricolo	agricolo	PROPN	SP	_	24	nmod	_	_
+26	Climatico	climatico	PROPN	SP	_	25	flat:name	_	_
+27	Sostenibile	sostenibile	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	24	punct	_	_
+29	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	PACS	PACS	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = L’iniziativa mira a promuovere certificazioni di agricoltura biologica, sistemi di coltivazione a rotazione e teritori di riduzione.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	mira	mirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	promuovere	promuovere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	certificazioni	certificazione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	teritori	teritore	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Tuttavia, la sua efficacia dipende dalla modellazione della moltitudine di agenzie che gestiscono i confini agrari:
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	modellazione	modellazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	moltitudine	moltitudine	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	agenzie	agenzia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	gestiscono	gestire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	confini	confine	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	agrari	agrario	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 23
+# text = per proteggere la protezione delle fonti più importanti di sottilel contingente, la Soviettoni d’accensione dell’innovare si concedono 7.9 V feed.
+1	per	per	ADP	E	_	2	mark	_	_
+2	proteggere	proteggere	VERB	V	VerbForm=Inf	22	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	importanti	importante	ADJ	A	Number=Plur	7	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	sottilel	sottili	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	contingente	contingente	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Soviettoni	Soviettoni	PROPN	SP	_	22	nsubj	_	_
+16	d’	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	accensione	accensione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	innovare	innovare	VERB	V	VerbForm=Inf	22	obl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	concedono	concedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	7.9	7.9	NUM	N	NumType=Card	25	nummod	_	_
+24	V	V	ADJ	NO	Number=Sing|NumType=Ord	25	amod	_	_
+25	feed	feed	NOUN	S	_	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 24
+# text = Nel frattempo, la cittadinanza sempre più consapevole solleva una domanda:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	consapevole	consapevole	ADJ	A	Number=Sing	6	amod	_	_
+10	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 25
+# text = se l’inquinamento da CO₂ può colpire il cibo, possono anche colpire le sottoprocessi di produzione, l’agricoltura biologica e la politica governativa di alimentazione pubblica?
+1	se	se	SCONJ	CS	_	7	mark	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	CO₂	CO₂	PROPN	SP	_	3	nmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	colpire	colpire	VERB	V	VerbForm=Inf	13	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	colpire	colpire	VERB	V	VerbForm=Inf	0	root	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	sottoprocessi	sottoprocesso	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+21	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	politica	politica	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+25	governativa	governativo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 26
+# text = Al momento, gli agricoltori, i consumatori e i deputati sono coinvolti non solo in una sola cosa:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	agricoltori	agricoltore	NOUN	S	Gender=Masc|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	coinvolti	coinvolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	solo	solo	ADV	B	_	20	advmod	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sola	solo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 27
+# text = proteggere la salute che monta su una coltura di minima CO₂, ma salvaguardare la boscialità del futuro.
+1	proteggere	proteggere	VERB	V	VerbForm=Inf	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	salute	salute	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	monta	montare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	coltura	coltura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	CO₂	CO₂	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ma	ma	CCONJ	CC	_	14	cc	_	_
+14	salvaguardare	salvaguardare	VERB	V	VerbForm=Inf	1	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	boscialità	boscialità	NOUN	S	Gender=Fem	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Oltre ad ordinare la produzione di cibo di qualità, il mestiere dell’ecologia ci insegna a chiedere nuove modalità di tatto.
+1	Oltre	oltre	ADV	B	_	3	mark	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	ordinare	ordinare	VERB	V	VerbForm=Inf	17	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	qualità	qualità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+13-14	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ecologia	ecologia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	chiedere	chiedere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	modalità	modalità	NOUN	S	Gender=Fem	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	tatto	tatto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 29
+# text = L’aspettativa di parlare un contest di p. fruit economies, fino a ridurre dei ordini, rispecchierà inevitabilmente la capillarità e la vittoria di coloro che hanno la necessità di chiudere la curva di CO₂ che minaccia l’alimento che abbiamo oggi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aspettativa	aspettativa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	contest	contest	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	p.	p.	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	fruit	fruit	CCONJ	CC	_	10	cc	_	_
+10	economies	economies	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	fino	fino	ADV	B	_	14	mark	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	ridurre	ridurre	VERB	V	VerbForm=Inf	4	advcl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ordini	ordine	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	rispecchierà	rispecchiere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+20	inevitabilmente	inevitabilmente	ADV	B	_	19	advmod	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	capillarità	capillarità	NOUN	S	Gender=Fem	19	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	necessità	necessità	NOUN	S	Gender=Fem	29	obj	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	chiudere	chiudere	VERB	V	VerbForm=Inf	31	acl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	curva	curva	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	CO₂	CO₂	PROPN	SP	_	35	nmod	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	minaccia	minacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	alimento	alimento	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	che	che	PRON	PR	PronType=Rel	43	obj	_	_
+43	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+44	oggi	oggi	ADV	B	_	43	advmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 30
+# text = L’attenzione è alta, l’effettuazione aumenta:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	alta	alto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	effettuazione	effettuazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	aumenta	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 31
+# text = l’inquinamento da anidride carbonica può colpire il cibo, e se affrontato con responsabilità, può anche rinforzare il futuro della nostra alimentazione.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	anidride	anidride	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	carbonica	carbonico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	colpire	colpire	VERB	V	VerbForm=Inf	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	se	se	SCONJ	CS	_	13	mark	_	_
+13	affrontato	affrontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	responsabilità	responsabilità	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	rinforzare	rinforzare	VERB	V	VerbForm=Inf	7	conj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

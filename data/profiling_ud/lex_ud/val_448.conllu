@@ -1,0 +1,493 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il capofila Padova, quindi i veneziani Ca' Foscari e Iuav, l'Università di Verona e, ancora, nel Trentino Alto Adige, Trento e Bolzano, e, in Friuli Venezia Giulia, Udine, Trieste e la Scuola internazionale superiore di studi avanzati (ancora a Trieste).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	capofila	capofila	NOUN	S	Gender=Masc	0	root	_	_
+3	Padova	Padova	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quindi	quindi	ADV	B	_	7	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	veneziani	veneziano	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+8	Ca'	Ca'	PROPN	SP	_	7	nmod	_	_
+9	Foscari	Foscaro	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Iuav	Iuav	PROPN	SP	_	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Università	Università	NOUN	S	Gender=Fem	2	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Verona	Verona	PROPN	SP	_	14	nmod	_	_
+17	e	e	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	ancora	ancora	ADV	B	_	23	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Trentino	Trentino	PROPN	SP	_	2	conj	_	_
+24	Alto	Alto	PROPN	SP	_	23	nmod	_	_
+25	Adige	Adige	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	Trento	Trento	PROPN	SP	_	2	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Bolzano	Bolzano	PROPN	SP	_	2	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	34	punct	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	Friuli	Friuli	PROPN	SP	_	2	conj	_	_
+35	Venezia	Venezia	PROPN	SP	_	34	nmod	_	_
+36	Giulia	Giulia	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	Udine	Udine	PROPN	SP	_	2	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	Trieste	Trieste	PROPN	SP	_	2	conj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Scuola	Scuola	PROPN	SP	_	2	conj	_	_
+44	internazionale	internazionale	ADJ	A	Number=Sing	43	amod	_	_
+45	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	43	amod	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	studi	studio	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+48	avanzati	avanzato	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+49	(	(	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+50	ancora	ancora	ADV	B	_	52	advmod	_	_
+51	a	a	ADP	E	_	52	case	_	_
+52	Trieste	Trieste	PROPN	SP	_	47	nmod	_	SpaceAfter=No
+53	)	)	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L'Università di Padova, per dimensioni, può essere considerata la capofila del progetto mentre Ca' Foscari offrirà il primo insediamento nel Parco scientifico e tecnologico Vega di Porto Marghera, a Venezia:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Università	università	NOUN	S	Gender=Fem	11	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Padova	Padova	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	capofila	capofila	NOUN	S	Gender=Fem|Number=Sing	11	xcomp	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	mentre	mentre	SCONJ	CS	_	20	mark	_	_
+18	Ca'	Cao	PROPN	SP	_	20	nsubj	_	_
+19	Foscari	Foscaro	PROPN	SP	_	18	flat:name	_	_
+20	offrirà	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	insediamento	insediamento	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Parco	parco	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	tecnologico	tecnologico	ADJ	A	Gender=Masc|Number=Sing	27	conj	_	_
+30	Vega	Vega	PROPN	SP	_	26	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Porto	Porto	PROPN	SP	_	30	nmod	_	_
+33	Marghera	Marghera	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	20	punct	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	Venezia	Venezia	PROPN	SP	_	20	obl	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = diventerà un incubatore per lo sviluppo digitale integrato, la creazione di big data analitici, l'innovazione per i beni culturali e ambientali.
+1	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	incubatore	incubatore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	digitale	digitale	ADJ	A	Number=Sing	6	amod	_	_
+8	integrato	integrato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	big	big	NOUN	S	Gender=Fem	11	nmod	_	_
+14	data	data	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	analitici	analitico	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	beni	bene	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	culturali	culturale	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	ambientali	ambientale	ADJ	A	Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Successivamente, altri poli infrastrutturali si svilupperanno a Padova e a Verona.
+1	Successivamente	successivamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	poli	poli	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	infrastrutturali	infrastrutturale	ADJ	A	Number=Plur	4	amod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	svilupperanno	sviluppare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Padova	Padova	PROPN	SP	_	7	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Verona	Verona	PROPN	SP	_	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Il progetto nazionale si sta allargando, dicevamo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	nazionale	nazionale	ADJ	A	Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	allargando	allargare	VERB	V	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dicevamo	dicere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Solo con il Nord-Est si raggiungono nove tra università e scuole speciali, ma faranno via via parte di Industria 4.0 - che già nel 2017 prevede investimenti per dieci miliardi - i Politecnici di Milano e Torino, la Scuola speciale Sant'Anna di Pisa, l'Università Federico II di Napoli e il Politecnico di Bari.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Nord-Est	nord-est	PROPN	SP	_	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	raggiungono	raggiungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	nove	nove	NUM	N	NumType=Card	6	nummod	_	_
+8	tra	tra	ADP	E	_	9	case	_	_
+9	università	università	NOUN	S	Gender=Fem	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	speciali	speciale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+16	via	via	ADV	B	_	15	advmod	_	_
+17	via	via	ADP	E	_	18	case	_	_
+18	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Industria	Industria	PROPN	SP	_	18	nmod	_	_
+21	4.0	4.0	NUM	N	NumType=Card	20	flat:name	_	_
+22	-	-	PUNCT	FB	_	20	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+24	già	già	ADV	B	_	28	advmod	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	2017	2017	NUM	N	NumType=Card	28	obl	_	_
+28	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+29	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	dieci	dieci	NUM	N	NumType=Card	32	nummod	_	_
+32	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	-	-	PUNCT	FB	_	35	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	Politecnici	Politecnice	PROPN	SP	_	6	nsubj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Milano	Milano	PROPN	SP	_	35	nmod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	Torino	Torino	PROPN	SP	_	35	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	35	punct	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Scuola	scuola	PROPN	SP	_	35	nmod	_	_
+43	speciale	speciale	ADJ	A	Number=Sing	42	amod	_	_
+44	Sant'	Sant'	ADJ	A	Number=Sing	42	amod	_	SpaceAfter=No
+45	Anna	Anna	PROPN	SP	_	42	flat:name	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	Pisa	Pisa	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	35	punct	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	Università	università	NOUN	S	Gender=Fem	35	conj	_	_
+51	Federico	Federico	PROPN	SP	_	50	nmod	_	_
+52	II	secondo	ADJ	NO	Number=Sing|NumType=Ord	51	amod	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	Napoli	Napoli	PROPN	SP	_	50	nmod	_	_
+55	e	e	CCONJ	CC	_	57	cc	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	Politecnico	Politecnico	PROPN	SP	_	35	conj	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	Bari	Bari	PROPN	SP	_	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = E' probabile che in altre aree - Milano, la Toscana e la Puglia, per esempio - avvengano nuove aggregazioni.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	probabile	probabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	19	mark	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	altre	altro	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	aree	area	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	Milano	Milano	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Toscana	Toscana	PROPN	SP	_	8	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Puglia	Puglia	PROPN	SP	_	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	avvengano	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+20	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	aggregazioni	aggregazione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Non siamo più la terra dei campanili", ha detto il rettore di Padova, Rosario Rizzuto, riferendosi all'alleanza nel Nord-Est:
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	campanili	campanile	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Padova	Padova	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	Rosario	rosario	PROPN	SP	_	15	appos	_	_
+20	Rizzuto	Rizzuto	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22-23	riferendosi	_	_	_	_	_	_	_	_
+22	riferendo	riferire	VERB	V	VerbForm=Ger	13	advcl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27-28	nel	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Nord-Est	nord-est	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = "La competenza va cercata dove c'è, noi offriamo le nostre specificità in Ingegneria e, in generale, nella ricerca di base.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	competenza	competenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cercata	cercare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	dove	dove	ADV	B	_	8	advmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+11	offriamo	offrire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	specificità	specificità	NOUN	S	Gender=Fem	11	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Ingegneria	ingegneria	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	generale	generale	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	base	base	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Questo spirito di collaborazione e competizione fra i centri di competenze è elemento fondamentale".
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	competizione	competizione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	centri	centro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	fondamentale	fondamentale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 11
+# text = Michele Bugliesi, rettore di Ca' Foscari:
+1	Michele	michele	PROPN	SP	_	0	root	_	_
+2	Bugliesi	Bugliese	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Ca'	Ca'	PROPN	SP	_	4	nmod	_	_
+7	Foscari	Foscaro	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Nel Parco scientifico di Porto Marghera possiamo metterci subito al lavoro per declinare operativamente obiettivi e strategie, la collaborazione tra atenei e imprese è un passo concreto per il rilancio del sistema imprenditoriale del Veneto".
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2-3	Nel	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Parco	parco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Porto	Porto	PROPN	SP	_	4	nmod	_	_
+8	Marghera	Marghera	PROPN	SP	_	7	flat:name	_	_
+9	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	metterci	_	_	_	_	_	_	_	_
+10	metter	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	subito	subito	ADV	B	_	10	advmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	declinare	declinare	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	operativamente	operativo	ADV	B	_	17	advmod	_	_
+19	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+25	tra	tra	ADP	E	_	26	case	_	_
+26	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	passo	passo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+32	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	rilancio	rilancio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	imprenditoriale	imprenditoriale	ADJ	A	Number=Sing	38	amod	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Veneto	Veneto	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Alberto Ferlenga, che guida l'Università Iuav di Venezia:
+1	Alberto	Alberto	PROPN	SP	_	0	root	_	_
+2	Ferlenga	ferlenga	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	guida	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Università	università	NOUN	S	Gender=Fem	5	obj	_	_
+8	Iuav	Iuav	PROPN	SP	_	7	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Venezia	Venezia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = "Porteremo le nostre specificità, Design e Moda".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Porteremo	Portere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	specificità	specificità	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Design	Design	PROPN	SP	_	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Moda	moda	PROPN	SP	_	5	conj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Nicola Sartor, rettore dell'Università di Verona:
+1	Nicola	Nicola	PROPN	SP	_	0	root	_	_
+2	Sartor	Sartor	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Università	Università	NOUN	S	Gender=Fem	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Verona	Verona	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 16
+# text = "Siamo stati inseriti in un programma nazionale che ci vedeva inizialmente esclusi.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	inseriti	inserire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	programma	programma	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	nazionale	nazionale	ADJ	A	Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+11	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12	inizialmente	inizialmente	ADV	B	_	13	advmod	_	_
+13	esclusi	escluso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = La presenza diffusa di piccole e medie imprese è terreno fertile per l'innovazione e la ricerca, Verona ha eccellenti competenze nell'informatica e nelle biotecnologie agroalimentari".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	medie	medio	ADJ	A	Gender=Fem|Number=Plur	5	conj	_	_
+8	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	fertile	fertile	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	Verona	Verona	PROPN	SP	_	20	nsubj	_	_
+20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+21	eccellenti	eccellere	ADJ	A	Number=Plur	22	amod	_	_
+22	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	informatica	informatica	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27-28	nelle	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	biotecnologie	biotecnologia	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+30	agroalimentari	agroalimentario	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

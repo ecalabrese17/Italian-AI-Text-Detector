@@ -1,0 +1,244 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Non è un passaggio di moda, non è una semplice operazione di comunicazione.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	moda	moda	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	semplice	semplice	ADJ	A	Number=Sing	13	amod	_	_
+13	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = È un dovere civico, un impegno che si rinnova ogni anno con le radici della nostra storia italiana".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	civico	civico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	rinnova	rinnovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	radici	radice	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	storia	storia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il comunicato, anticipato in due diverse parrande sensazionalistiche sulle social network, ha generato un vivo interessamento sia nel mondo degli attivisti che tra i supporters che sperano in un rinnovamento del clima politico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anticipato	anticipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	due	due	NUM	N	NumType=Card	8	nummod	_	_
+7	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	parrande	parranda	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	sensazionalistiche	sensazionalistico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	social	social	ADJ	A	Number=Sing	13	amod	_	_
+13	network	network	NOUN	S	Gender=Masc	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	generato	generare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	interessamento	interessamento	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	sia	sia	CCONJ	CC	_	23	cc	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+24-25	degli	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	30	cc	_	_
+28	tra	tra	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	supporters	supporter	NOUN	S	Number=Plur	26	acl:relcl	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	sperano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	rinnovamento	rinnovamento	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	clima	clima	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	politico	politico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = "Il 25 aprile non è solo una festa del regime funzionalista", ha proseguito il leader delle forze conservative, "è un riconoscimento della forza dell’ordine, della stabilità e del senso di responsabilità che ha fatto crescere questo Paese".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	25	25	NUM	N	NumType=Card	9	obl	_	_
+4	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	festa	festa	NOUN	S	Gender=Fem|Number=Sing	28	parataxis	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	regime	regime	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	funzionalista	funzionalista	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	proseguito	proseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	leader	leader	NOUN	S	_	17	obj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	forze	forza	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	conservative	conservativo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	forza	forza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32-33	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	28	punct	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	stabilità	stabilità	NOUN	S	Gender=Fem	28	nmod	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	senso	senso	NOUN	S	Gender=Masc|Number=Sing	38	conj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	responsabilità	responsabilità	NOUN	S	Gender=Fem	42	nmod	_	_
+45	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	acl:relcl	_	_
+48	crescere	crescere	VERB	V	VerbForm=Inf	47	ccomp	_	_
+49	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+50	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 5
+# text = Il discorso di Berlusconi ha toccato anche il tema della nascita del nuovo governo da realizzare in vista della prossima legislatura.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Berlusconi	Berlusconi	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	da	da	ADP	E	_	18	mark	_	_
+18	realizzare	realizzare	VERB	V	VerbForm=Inf	6	acl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	vista	vista	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	legislatura	legislatura	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = "Abbiamo bisogno di una politica che metta al centro i valori tradizionali, la famiglia, l'identità nazionale, l'Europa come forza di stabilità e non come vaso di protezione di interessi stranieri", ha aggiunto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	41	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	politica	politica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	metta	mettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	centro	centro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	valori	valore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+14	tradizionali	tradizionale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	identità	identità	NOUN	S	Gender=Fem	3	conj	_	_
+21	nazionale	nazionale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	Europa	Europa	PROPN	SP	_	3	conj	_	_
+25	come	come	ADP	E	_	26	case	_	_
+26	forza	forza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	stabilità	stabilità	NOUN	S	Gender=Fem	26	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	come	come	ADP	E	_	32	case	_	_
+32	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	3	punct	_	_
+40	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	41	punct	_	_
+
+# sent_id = 7
+# text = "Il 25 aprile è il momento giusto per
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	25	25	NUM	N	NumType=Card	7	obl	_	_
+4	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+8	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	0	root	_	SpacesAfter=\n
+

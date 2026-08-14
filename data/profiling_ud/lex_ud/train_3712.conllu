@@ -1,0 +1,540 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ad oggi, nell'inchiesta sul denaro che il presidente del Consiglio Silvio Berlusconi ha dato a Gianpaolo Tarantini, il direttore dell' Avanti!
+1	Ad	a	ADP	E	_	2	case	_	_
+2	oggi	oggi	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	che	che	SCONJ	CS	_	19	obj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Consiglio	Consiglio	PROPN	SP	_	12	nmod	_	_
+16	Silvio	Silvio	PROPN	SP	_	12	nmod	_	_
+17	Berlusconi	Berlusconi	PROPN	SP	_	16	flat:name	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Gianpaolo	Gianpaolo	PROPN	SP	_	19	obl	_	_
+22	Tarantini	Tarantini	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+26-27	dell'	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	Avanti	Avanti	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+29	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Valter Lavitola è formalmente l'unica persona indagata dalla procura di Bari.
+1	Valter	Valter	PROPN	SP	_	7	nsubj	_	_
+2	Lavitola	Lavitola	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	formalmente	formalmente	ADV	B	_	7	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	unica	unico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	indagata	indagare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	procura	procura	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Bari	Bari	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = L'accusa è induzione a rendere false dichiarazioni all’autorità giudiziaria barese.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	induzione	induzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	rendere	rendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	false	falso	ADJ	A	Gender=Fem|Number=Plur	6	xcomp	_	_
+8	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	all’	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	autorità	autorità	NOUN	S	Gender=Fem	6	obl	_	_
+12	giudiziaria	giudiziario	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	barese	barese	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Nel frattempo, i pm di Bari, Roma, Napoli e Lecce terranno una riunione per fare il punto sulle indagini che ciascun ufficio ha effettuato sui rapporti tra il premier, Tarantini e lo stesso Lavitola.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	pm	pm	NOUN	S	Gender=Masc	15	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Bari	Bari	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	Roma	Roma	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Napoli	Napoli	PROPN	SP	_	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Lecce	Lecce	PROPN	SP	_	10	conj	_	_
+15	terranno	terrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	punto	punto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	sulle	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+26	ciascun	ciascuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	effettuato	effettuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+30-31	sui	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+33	tra	tra	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	premier	premier	NOUN	S	_	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	Tarantini	Tarantini	PROPN	SP	_	35	conj	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+41	Lavitola	Lavitola	PROPN	SP	_	35	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = E' stato il procuratore aggiunto di Bari Pasquale Drago che questa mattina ha detto ai giornalisti che solo Lavitola è indagato nell'inchiesta di cui è il titolare.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	aggiunto	aggiunto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Bari	Bari	PROPN	SP	_	4	nmod	_	_
+8	Pasquale	Pasquale	PROPN	SP	_	7	flat:name	_	_
+9	Drago	Drago	PROPN	SP	_	7	flat:name	_	_
+10	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj:pass	_	_
+19	solo	solo	ADV	B	_	20	advmod	_	_
+20	Lavitola	Lavitola	PROPN	SP	_	22	nsubj:pass	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	titolare	titolare	NOUN	S	Number=Sing	25	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Io non rispondo a domande su atti di indagine specie se sono io il magistrato istruttore - ha precisato il procuratore aggiunto - non ho compiuto alcun atto istruttorio".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	rispondo	rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	atti	atto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	specie	specie	ADV	B	_	14	advmod	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	magistrato	magistrato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+17	istruttore	istruttore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	precisato	precisare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	parataxis	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+23	aggiunto	aggiunto	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	-	-	PUNCT	FF	_	20	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+28	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
+29	atto	atto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	istruttorio	istruttorio	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Drago ha, infatti, confermato la linea di stretto riserbo su tutti gli atti dell' inchiesta .
+1	Drago	Drago	PROPN	SP	_	6	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	infatti	infatti	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	linea	linea	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	riserbo	riserbo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	su	su	ADP	E	_	15	case	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	atti	atto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+16-17	dell'	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Non solo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il procuratore aggiunto ha anche fatto intuire il timore che questa sovraesposizione mediatica possa nuocere alle indagini.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	aggiunto	aggiunto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	intuire	intuire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	timore	timore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	sovraesposizione	sovraesposizione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	nuocere	nuocere	VERB	V	VerbForm=Inf	9	advcl	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Entro metà ottobre sarà, quindi, presa una decisione sulle misure restrittive in scadenza, in particolare l'ordinanza nei confronti di Lavitola sul quale pende un provvedimento di arresto che perderà efficacia se non sarà rinnovato entro il 16 ottobre.
+1	Entro	entro	ADP	E	_	2	case	_	_
+2	metà	metà	NOUN	S	Gender=Fem	8	obl	_	_
+3	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	quindi	quindi	ADV	B	_	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+11-12	sulle	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	misure	misura	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	restrittive	restrittivo	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	scadenza	scadenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ordinanza	ordinanza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Lavitola	Lavitola	PROPN	SP	_	24	nmod	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	quale	quale	PRON	PR	Number=Sing|PronType=Rel	30	obl	_	_
+30	pende	pendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	perderà	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	acl:relcl	_	_
+37	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+38	se	se	SCONJ	CS	_	41	mark	_	_
+39	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+40	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	aux:pass	_	_
+41	rinnovato	rinnovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+42	entro	entro	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	16	16	NUM	N	NumType=Card	41	obl	_	_
+45	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	44	flat	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Finora Drago non ha compiuto alcun atto istruttorio (non ha neppure acquisito l’intervista televisiva del direttore dell' Avanti!
+1	Finora	finora	ADV	B	_	5	advmod	_	_
+2	Drago	Drago	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	atto	atto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	istruttorio	istruttorio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	neppure	neppure	ADV	BN	PronType=Neg	13	advmod	_	_
+13	acquisito	acquisire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	dell'	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Avanti	Avanti	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = intervistato da Enrico Mentana a La7 ) né ha delegato le indagini ad alcuna forza di polizia.
+1	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Enrico	Enrico	PROPN	SP	_	1	obl:agent	_	_
+4	Mentana	Mentana	PROPN	SP	_	3	flat:name	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	La7	La7	PROPN	SP	_	3	nmod	_	_
+7	)	)	PUNCT	FB	_	1	punct	_	_
+8	né	né	CCONJ	CC	_	10	cc	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	delegato	delegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	forza	forza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = E intanto piovono nuove accuse su Valter Lavitola.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	intanto	intanto	ADV	B	_	3	advmod	_	_
+3	piovono	piovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	Valter	Valter	PROPN	SP	_	5	nmod	_	_
+8	Lavitola	Lavitola	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Non solo a Bari, ma l'ex direttore dell'Avanti!
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Bari	Bari	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ex	ex	ADJ	A	_	9	amod	_	_
+9	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Avanti	Avanti	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = è indagato anche dalla procura di Napoli per associazione per delinquere.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	procura	procura	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Napoli	Napoli	PROPN	SP	_	6	nmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	delinquere	delinquere	VERB	V	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Lo si evince dal decreto con cui, nei giorni scorsi, la Procura ha disposto la perquisizione della sede dell’Avanti!
+1	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	evince	evincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	18	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+13	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Procura	Procura	PROPN	SP	_	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	perquisizione	perquisizione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sede	sede	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Avanti	Avanti	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = a Roma.
+1	a	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = A quanto si è appreso, i pm Francesco Curcio, Vincenzo Piscitelli e Henry John Woodcock ravvisano "molte opacità" nei rapporti tra il quotidiano e i fornitori di servizi e ritengono meritevoli di approfondimento i rapporti economici che intercorrono tra loro, dal momento che i pagamenti del giornale per i servizi ricevuti risulterebbero molto elevati:
+1	A	a	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pm	pm	NOUN	S	Gender=Masc	18	nsubj	_	_
+9	Francesco	Francesco	PROPN	SP	_	8	nmod	_	_
+10	Curcio	Curcio	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	Vincenzo	Vincenzo	PROPN	SP	_	8	nmod	_	_
+13	Piscitelli	Piscitelli	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Henry	Henry	PROPN	SP	_	12	conj	_	_
+16	John	John	PROPN	SP	_	15	flat:name	_	_
+17	Woodcock	Woodcock	PROPN	SP	_	15	flat:name	_	_
+18	ravvisano	ravvisare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	opacità	opacità	NOUN	S	Gender=Fem	18	obj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	_
+23-24	nei	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+26	tra	tra	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	fornitori	fornitore	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+36	meritevoli	meritevole	ADJ	A	Number=Plur	35	xcomp	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	approfondimento	approfondimento	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+41	economici	economico	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	_
+42	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+43	intercorrono	intercorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+44	tra	tra	ADP	E	_	45	case	_	_
+45	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	43	obl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	40	punct	_	_
+47-48	dal	_	_	_	_	_	_	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	momento	momento	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+50	che	che	SCONJ	CS	_	60	mark	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	pagamenti	pagamento	NOUN	S	Gender=Masc|Number=Plur	60	nsubj	_	_
+53-54	del	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	52	nmod	_	_
+56	per	per	ADP	E	_	58	case	_	_
+57	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	55	nmod	_	_
+59	ricevuti	ricevuto	ADJ	A	Gender=Masc|Number=Plur	58	amod	_	_
+60	risulterebbero	risultare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	acl	_	_
+61	molto	molto	ADV	B	_	62	advmod	_	_
+62	elevati	elevato	ADJ	A	Gender=Masc|Number=Plur	60	xcomp	_	SpaceAfter=No
+63	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 19
+# text = da qui la necessità di esaminare documenti relativi alla contabilità.
+1	da	da	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	necessità	necessità	NOUN	S	Gender=Fem	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	esaminare	esaminare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	relativi	relativo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	contabilità	contabilità	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Quello dell’associazione per delinquere è dunque un nuovo filone di inchiesta che si apre a Napoli.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+2-3	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	delinquere	delinquere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	dunque	dunque	ADV	B	_	11	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	filone	filone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Napoli	Napoli	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

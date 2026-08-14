@@ -1,0 +1,403 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo rileva una ricerca della Medical University of South Carolina, pubblicata su Nicotine & Tobacco Research.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	rileva	rilevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Medical	Medical	PROPN	SP	_	4	nmod	_	_
+8	University	University	PROPN	SP	_	7	flat:name	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	South	South	PROPN	SP	_	7	nmod	_	_
+11	Carolina	Carolina	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	pubblicata	pubblicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+14	su	su	ADP	E	_	15	case	_	_
+15	Nicotine	Nicotine	PROPN	SP	_	13	obl	_	_
+16	&	&	SYM	SYM	_	15	flat:name	_	_
+17	Tobacco	Tobacco	PROPN	SP	_	15	flat:name	_	_
+18	Research	Research	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = I risultati sono particolarmente importanti anche considerando che secondo il National Institute of Drug Abuse americano le donne hanno il 31% in meno di probabilità di smettere di fumare, in parte perché la terapia sostitutiva della nicotina è ritenuta più efficace nei fumatori di sesso maschile.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	particolarmente	particolarmente	ADV	B	_	5	advmod	_	_
+5	importanti	importante	ADJ	A	Number=Plur	0	root	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	considerando	considerare	VERB	V	VerbForm=Ger	19	advcl	_	_
+8	che	che	SCONJ	CS	_	16	mark	_	_
+9	secondo	secondo	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	National	National	PROPN	SP	_	16	obl	_	_
+12	Institute	Institute	PROPN	SP	_	16	nsubj	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	Drug	Drug	PROPN	SP	_	12	nmod	_	_
+15	Abuse	Abuse	PROPN	SP	_	14	flat:name	_	_
+16	americano	americare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	donne	donna	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+19	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	31	31	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	19	obj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	meno	meno	ADV	B	_	19	advmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	probabilità	probabilità	NOUN	S	Gender=Fem	24	obl	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	smettere	smettere	VERB	V	VerbForm=Inf	19	advcl	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	fumare	fumare	VERB	V	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	28	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	parte	parte	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+34	perché	perché	SCONJ	CS	_	42	mark	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	42	nsubj:pass	_	_
+37	sostitutiva	sostitutivo	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	nicotina	nicotina	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+41	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux:pass	_	_
+42	ritenuta	ritenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	efficace	efficace	ADJ	A	Number=Sing	42	xcomp	_	_
+45-46	nei	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	fumatori	fumatore	NOUN	S	Gender=Masc|Number=Plur	42	obl	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+50	maschile	maschile	ADJ	A	Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = I ricercatori hanno condotto uno studio su 177 persone che fumavano, da cui è emerso che le donne hanno sperimentato più desiderio di una sigaretta rispetto agli uomini dopo essere state sottoposte a situazioni che possono indurre stress, come immagini di notizie di violenza o di guerra mostrate tramite lo smartphone.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	177	177	NUM	N	NumType=Card	9	nummod	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	fumavano	fumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	emerso	emergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+17	che	che	SCONJ	CS	_	21	mark	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+20	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	sperimentato	sperimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	rispetto	rispetto	ADV	B	_	30	case	_	_
+28-29	agli	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+31	dopo	dopo	SCONJ	CS	_	34	mark	_	_
+32	essere	essere	AUX	VA	VerbForm=Inf	34	aux	_	_
+33	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	34	aux:pass	_	_
+34	sottoposte	sottoporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	advcl	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	indurre	indurre	VERB	V	VerbForm=Inf	36	acl:relcl	_	_
+40	stress	stress	NOUN	S	Gender=Masc	39	obj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	39	punct	_	_
+42	come	come	ADP	E	_	43	case	_	_
+43	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	39	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	43	nmod	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48	o	o	CCONJ	CC	_	50	cc	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	47	conj	_	_
+51	mostrate	mostrato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	50	acl	_	_
+52	tramite	tramite	ADP	E	_	54	case	_	_
+53	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non sono state invece rilevate differenze di genere quando sono state mostrate ai partecipanti immagini relative al fumo.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+4	invece	invece	ADV	B	_	5	advmod	_	_
+5	rilevate	rilevare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	genere	genere	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	quando	quando	SCONJ	CS	_	12	mark	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	mostrate	mostrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	partecipanti	partecipante	NOUN	S	Number=Plur	12	obl	_	_
+16	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	15	compound	_	_
+17	relative	relativo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = "Sappiamo che non tutti i trattamenti esistenti sono ugualmente efficaci per uomini e donne - evidenzia Rachel L.Tomko, prima autrice dello studio -.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+8	esistenti	esistente	ADJ	A	Number=Plur	7	amod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	ugualmente	ugualmente	ADV	B	_	11	advmod	_	_
+11	efficaci	efficace	ADJ	A	Number=Plur	2	ccomp	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	-	-	PUNCT	FB	_	17	punct	_	_
+17	evidenzia	evidenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+18	Rachel	Rachel	PROPN	SP	_	17	nsubj	_	_
+19	L.Tomko	L.Tomko	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	prima	prima	ADV	B	_	22	advmod	_	_
+22	autrice	autore	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23-24	dello	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	studio	studio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	-	-	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ciò potrebbe essere dovuto al fatto che trovano aspetti diversi del fumo gratificanti e rilassanti, e ci sono diverse cose che fanno continuare a fumare.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	dovuto	dovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	gratificanti	gratificante	ADJ	A	Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	rilassanti	rilassante	ADJ	A	Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+22	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	continuare	continuare	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	fumare	fumare	VERB	V	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = I nostri risultati suggeriscono che lo stress può essere qualcosa che fa mantenere questa abitudine più alle donne".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	suggeriscono	suggerire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stress	stress	NOUN	S	Gender=Masc	10	nsubj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	ccomp	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	mantenere	mantenere	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	più	più	ADV	B	_	19	advmod	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = LEGGI:
+1	LEGGI	legge	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = Svezia, divieto di fumo all'aperto da luglio 2019 "La ricerca - aggiunge l'autore senior Kevin M. Gray - ci aiuta a capire cosa spinge verso il fumo e ciò che realmente può creare ostacoli al trattamento che non pensavamo esistessero.
+1	Svezia	Svezia	PROPN	SP	_	16	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	aperto	aperto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	2019	2019	NUM	N	NumType=Card	10	nummod	_	_
+12	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+15	-	-	PUNCT	FB	_	14	punct	_	_
+16	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	autore	autore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	senior	senior	ADJ	A	Number=Sing	18	amod	_	_
+20	Kevin	Kevin	PROPN	SP	_	18	nmod	_	_
+21	M.	M.	PROPN	SP	_	20	flat:name	_	_
+22	Gray	Gray	PROPN	SP	_	20	flat:name	_	_
+23	-	-	PUNCT	FF	_	25	punct	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	obj	_	_
+25	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	capire	capire	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	29	obj	_	_
+29	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+30	verso	verso	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	25	conj	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	realmente	realmente	ADV	B	_	38	advmod	_	_
+37	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	creare	creare	VERB	V	VerbForm=Inf	34	acl:relcl	_	_
+39	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+44	non	non	ADV	BN	PronType=Neg	46	advmod	_	_
+45	pensavamo	pensare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	46	aux	_	_
+46	esistessero	esistere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 10
+# text = Se fumare riguardasse solo la nicotina, tutti reagirebbero bene alla terapia sostitutiva, ma il discorso è più complesso di così:
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	fumare	fumare	VERB	V	VerbForm=Inf	0	root	_	_
+3	riguardasse	riguardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+4	solo	solo	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nicotina	nicotina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+9	reagirebbero	reagire	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	bene	bene	ADV	B	_	9	advmod	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	sostitutiva	sostitutivo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	ma	ma	CCONJ	CC	_	21	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	così	così	ADV	B	_	21	advmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = più in profondità andremo, maggiormente saremo in grado di creare i giusti tipi di trattamento per ciascun individuo".
+1	più	più	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	profondità	profondità	NOUN	S	Gender=Fem	7	obl	_	_
+4	andremo	andare	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	maggiormente	maggiormente	ADV	B	_	7	advmod	_	_
+7	saremo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	grado	grado	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	creare	creare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	giusti	giusto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	ciascun	ciascuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = LEGGI - Niente fumo e guerra ai chili di troppo?
+1	LEGGI	legge	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Niente	niente	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	troppo	troppo	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = LEGGI - Cancro al polmone, via al primo studio per prevenirlo?
+1	LEGGI	legge	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Cancro	cancro	PROPN	SP	_	1	flat:name	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	polmone	polmone	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	via	via	ADV	B	_	12	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	studio	studio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	prevenirlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	prevenir	prevenire	VERB	V	VerbForm=Inf	12	acl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

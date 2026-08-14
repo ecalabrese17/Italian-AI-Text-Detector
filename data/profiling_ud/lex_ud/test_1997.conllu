@@ -1,0 +1,467 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le direttive di Maurizio Costanzo, capoprogetto del programma, sono chiare:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	direttive	direttiva	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Maurizio	Maurizio	PROPN	SP	_	2	nmod	_	_
+5	Costanzo	Costanzo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	capoprogetto	capoprogetto	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	programma	programma	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	chiare	chiare	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = abbracciare il pubblico, dare calore, raccontare.
+1	abbracciare	abbracciare	VERB	V	VerbForm=Inf	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	dare	dare	VERB	V	VerbForm=Inf	1	conj	_	_
+6	calore	calore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	raccontare	raccontare	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = «Arriviamo nelle case degli italiani al momento del dolce e vogliamo offrire un dessert con tanti sapori, di qualità ed elegante».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Arriviamo	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nelle	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	case	casa	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dolce	dolce	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	offrire	offrire	VERB	V	VerbForm=Inf	2	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dessert	dessert	NOUN	S	Gender=Masc	17	obj	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	sapori	sapore	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	qualità	qualità	NOUN	S	Gender=Fem	22	nmod	_	_
+26	ed	e	CCONJ	CC	_	27	cc	_	_
+27	elegante	elegante	ADJ	A	Number=Sing	25	conj	_	SpaceAfter=No
+28	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Dopo l'avventura di Estate in diretta il giornalista palermitano deve averci preso gusto con la leggerezza.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Estate	estate	PROPN	SP	_	3	nmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giornalista	giornalista	NOUN	S	Number=Sing	14	nsubj	_	_
+10	palermitano	palermitano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12-13	averci	_	_	_	_	_	_	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	leggerezza	leggerezza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = «Avevo voglia di misurarmi con l'intrattenimento, operare una piccola trasformazione rispetto alla visione classica che si ha di me», dice.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	misurarmi	arma|misurarme	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	intrattenimento	intrattenimento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	operare	operare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	rispetto	rispetto	ADV	B	_	17	case	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	visione	visione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	classica	classico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	2	punct	_	_
+26	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Più divertimento, meno sguardi accigliati.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	divertimento	divertimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	meno	meno	ADV	B	_	5	advmod	_	_
+5	sguardi	sguardo	ADV	B	_	6	advmod	_	_
+6	accigliati	accigliato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Anche se nel programma ci sarà comunque un suo spazio riservato al commento e al racconto dei fatti di cronaca, non per forza nera.
+1	Anche	anche	ADV	B	_	7	mark	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programma	programma	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	comunque	comunque	ADV	B	_	7	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	commento	commento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	7	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	forza	forza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+29	nera	nero	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Le storie saranno raccontate al punto di vista degli spettatori, si cerca l'immedesimazione.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	storie	storia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	raccontate	raccontare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vista	vista	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+15	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	immedesimazione	immedesimazione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = «Si partirà da testimonianze, poi integrate con il commento di ospiti e del pubblico».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	poi	poi	ADV	B	_	8	advmod	_	_
+8	integrate	integrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	commento	commento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ospiti	ospite	NOUN	S	Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Che si preannuncia quindi molto attivo, chiamato a intervenire per fare domande, spiegare come la pensa.
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	preannuncia	preannunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quindi	quindi	ADV	B	_	6	advmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	intervenire	intervenire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	spiegare	spiegare	VERB	V	VerbForm=Inf	12	conj	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	pensa	pensa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = «È arrivato il momento di coinvolgere le persone, noi lavoriamo per loro», precisa Paola Perego, «anche perché l'opinione della signora in studio molto probabilmente è la stessa di chi guarda da casa».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	Paola	Paola	PROPN	SP	_	17	nsubj	_	_
+19	Perego	Perego	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+22	anche	anche	ADV	B	_	35	advmod	_	_
+23	perché	perché	SCONJ	CS	_	35	mark	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	signora	signore	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	studio	studio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	molto	molto	ADV	B	_	32	advmod	_	_
+32	probabilmente	probabilmente	ADV	B	_	35	advmod	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	ccomp	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	chi	chi	PRON	PR	PronType=Rel	35	nmod	_	_
+38	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+39	da	da	ADP	E	_	40	case	_	_
+40	casa	casa	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Il target è ben definito:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	target	target	NOUN	S	Gender=Masc	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 13
+# text = nessun effetto pirotecnico o tentativo di ammiccare ai giovani, che poi sono anche i primi ad alzarsi dal tavolo da pranzo.
+1	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pirotecnico	pirotecnico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	tentativo	tentativo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	ammiccare	ammiccare	VERB	V	VerbForm=Inf	2	acl	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	giovani	giovane	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+13	poi	poi	ADV	B	_	17	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	10	amod	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19-20	alzarsi	_	_	_	_	_	_	_	_
+19	alzar	alzare	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Domenica
+1	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 15
+# text = In è pensato per chi a quella tavola ci rimane a chiacchierare dopo aver mangiato, «e magari si trova proprio a discutere di quello di cui stiamo parlando noi in tivù».
+1	In	in	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	chiacchierare	chiacchierare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+13	dopo	dopo	SCONJ	CS	_	15	mark	_	_
+14	aver	avere	AUX	VA	VerbForm=Inf	15	aux	_	_
+15	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	«	«	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	magari	magari	ADV	B	_	21	advmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	proprio	proprio	ADV	B	_	21	advmod	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	discutere	discutere	VERB	V	VerbForm=Inf	21	advcl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+29	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	parlando	parlare	VERB	V	VerbForm=Ger	26	acl:relcl	_	_
+31	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	tivù	tivù	NOUN	S	Gender=Fem	30	obl	_	SpaceAfter=No
+34	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = La formula, alla fin fine, è sempre la stessa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	formula	formula	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fin	fine	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	fine	fine	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	sempre	sempre	ADV	B	_	12	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 17
+# text = un po' di attualità, il momento dell'intrattenimento, l'ospite, ma «cambia il modo in cui ne parleremo», sottolinea Perego.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	attualità	attualità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	intrattenimento	intrattenimento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ospite	ospite	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	23	iobj	_	_
+23	parleremo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+27	Perego	Perego	PROPN	SP	_	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = Costanzo preme per sobrietà e garbo.
+1	Costanzo	Costanzo	PROPN	SP	_	2	nsubj	_	_
+2	preme	premere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	sobrietà	sobrietà	NOUN	S	Gender=Fem	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	garbo	garbo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = E familiarità, conclude Sottile:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	familiarità	familiarità	NOUN	S	Gender=Fem	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Sottile	sottile	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 20
+# text = «Con Paola siamo amici e ci frequentiamo anche fuori.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	3	case	_	_
+3	Paola	Paola	PROPN	SP	_	5	obl	_	_
+4	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	amici	amico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+8	frequentiamo	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	fuori	fuori	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Cercheremo di portare quel calore anche all'interno dello studio».
+1	Cercheremo	cercheremo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	calore	calore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	interno	interno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10-11	dello	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	studio	studio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

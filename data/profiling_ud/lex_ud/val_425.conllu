@@ -1,0 +1,2012 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Probably, Todorov is "Mihail Todorov", Romanian?
+1	Probably	Probably	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	Todorov	Todorov	PROPN	SP	_	4	nsubj	_	_
+4	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Mihail	Mihail	PROPN	SP	_	4	obj	_	_
+7	Todorov	Todorov	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Romanian	Romanian	PROPN	SP	_	1	conj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Or "Boris Todorov"?
+1	Or	or	ADV	B	_	3	advmod	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Boris	Boris	PROPN	SP	_	0	root	_	_
+4	Todorov	Todorov	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Actually, this refers to "Todorov" possibly "Victor Todorov".
+1	Actually	Actually	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	this	this	X	SW	Foreign=Yes	1	appos	_	_
+4	refers	refers	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	to	to	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	possibly	possibly	NOUN	S	_	7	nmod	_	_
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	Victor	Victor	PROPN	SP	_	7	flat:name	_	_
+12	Todorov	Todorov	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Could also be "Todorov" the Waterhouse?
+1	Could	Could	NOUN	S	Gender=Masc	0	root	_	_
+2	also	also	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	be	ba	PROPN	SP	_	1	nmod	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	Waterhouse	Waterhouse	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Let's think:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	think	think	NOUN	S	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = "Siamo feriti ma difendiamo la democrazia" maybe about war or instability.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	maybe	mayba	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	about	about	ADJ	A	_	9	amod	_	_
+11	war	ware	AUX	VM	VerbForm=Inf	12	cop	_	_
+12	or	or	X	SW	Foreign=Yes	3	parataxis	_	_
+13	instability	instability	X	SW	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Could be referencing "Todorov" as the leader of the 2008 revolts?
+1	Could	Could	PROPN	SP	_	0	root	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	referencing	referencing	NOUN	S	Gender=Masc	1	nmod	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	as	a	NOUN	S	Gender=Masc	5	nmod	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	leader	leader	NOUN	S	_	7	nmod	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	2008	2008	NUM	N	NumType=Card	9	nummod	_	_
+13	revolts	revolts	NOUN	S	Number=Plur	9	compound	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Wait.
+1	Wait	Wait	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Might be about "Todorov" in "Bangladesh"?
+1	Might	Might	PROPN	SP	_	0	root	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	about	about	SYM	X	_	1	flat:name	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Bangladesh	Bangladesh	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Or "Todorov" about 'transformation of Moldova'?
+1	Or	or	ADV	B	_	3	advmod	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Todorov	Todorov	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	about	about	NOUN	S	Gender=Masc	3	nmod	_	_
+6	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	transformation	transformation	NOUN	S	Gender=Masc	5	compound	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	Moldova	Moldova	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Actually, there is "Todorov" who might be a signatory of some peace admonishing??
+1	Actually	Actually	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	there	there	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	is	is	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	who	wavere	NOUN	S	Gender=Masc|Number=Sing	6	flat:name	_	_
+9	might	might	CCONJ	CC	_	10	cc	_	_
+10	be	ba	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	a	a	X	X	_	10	compound	_	_
+12	signatory	signatory	X	SW	Foreign=Yes	11	flat:foreign	_	_
+13	of	of	X	SW	Foreign=Yes	11	flat:foreign	_	_
+14	some	some	X	SW	Foreign=Yes	11	flat:foreign	_	_
+15	peace	peace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	admonishing	admonishing	SYM	X	_	15	obj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = There's a "Todorov" in Serbia?
+1	There	There	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	5	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Serbia	Serbia	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Actually, "Todorov" is maybe a political figure in a conflict zone, or "President Todorov"?
+1	Actually	Actually	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Todorov	Todorov	PROPN	SP	_	1	appos	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	maybe	mayba	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	political	political	DET	DQ	Number=Sing|PronType=Int	10	det	_	_
+10	figure	figura	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	conflict	conflict	ADJ	A	_	14	amod	_	_
+14	zone	zona	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	or	or	ADV	B	_	18	advmod	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	President	President	PROPN	SP	_	14	nmod	_	_
+19	Todorov	Todorov	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Let's look: "Kilic?".
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	look	look	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Kilic	Kilic	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Let's consider:
+1	Let	Let	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	mark	_	_
+3	consider	considere	VERB	V	VerbForm=Inf	1	acl	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 16
+# text = In recent news, "Todorov" might refer to Vladimir Todorov, "Pio Todorov", or "Todorov" of "Alexander Todorov" known as "Simeon Todorov," a Bulgarian official?
+1	In	in	ADP	E	_	2	case	_	_
+2	recent	recent	NOUN	S	Gender=Masc	37	obl	_	_
+3	news	news	NOUN	S	Gender=Masc	2	compound	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	might	might	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	refer	refere	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	to	to	X	SW	Foreign=Yes	6	flat:foreign	_	_
+11	Vladimir	Vladimir	X	SW	Foreign=Yes	6	flat:foreign	_	_
+12	Todorov	Todorov	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Pio	Pio	PROPN	SP	_	6	conj	_	_
+16	Todorov	Todorov	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	or	or	ADV	B	_	21	advmod	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Todorov	Todorov	PROPN	SP	_	6	conj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	25	punct	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Alexander	Alexander	PROPN	SP	_	21	nmod	_	_
+26	Todorov	Todorov	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	28	punct	_	_
+28	known	knowno	X	SW	Foreign=Yes	25	nmod	_	_
+29	as	a	X	SW	Foreign=Yes	28	flat:foreign	_	_
+30	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+31	Simeon	Simeon	PROPN	SP	_	28	nmod	_	_
+32	Todorov	Todorov	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	36	punct	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	Bulgarian	Bulgarian	PROPN	SP	_	37	obl	_	_
+37	official	official	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+38	?	?	PUNCT	FS	_	37	punct	_	_
+
+# sent_id = 17
+# text = Might be referencing "Boris Todorov".
+1	Might	Might	NOUN	S	_	0	root	_	_
+2	be	ba	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+3	referencing	referencing	NOUN	S	_	2	compound	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Boris	Boris	PROPN	SP	_	1	nmod	_	_
+6	Todorov	Todorov	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Hmm.
+1	Hmm	Hmm	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Alternatively, "Todorov" could be a fictional character, but likely real.
+1	Alternatively	Alternatively	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	could	could	ADJ	A	_	7	amod	_	_
+7	be	ba	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	fictional	fictional	DET	DQ	Number=Sing|PronType=Int	10	det	_	_
+10	character	character	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	but	but	X	SW	Foreign=Yes	14	nsubj	_	_
+13	likely	likely	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	real	real	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Let's think of current events:
+1	Let	le	X	SW	Foreign=Yes	0	root	_	SpaceAfter=No
+2	's	's	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	think	think	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	current	current	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	events	events	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 21
+# text = there is a "Bulgarian President Todorov"?
+1	there	there	ADV	B	_	2	advmod	_	_
+2	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Bulgarian	Bulgarian	PROPN	SP	_	2	obl	_	_
+6	President	President	PROPN	SP	_	5	flat:name	_	_
+7	Todorov	Todorov	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Actually, Bulgaria's president is Rumen Radev.
+1	Actually	Actually	PROPN	SP	_	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Bulgaria	Bulgaria	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+4	's	's	PART	PART	_	5	case	_	_
+5	president	president	NOUN	S	_	3	flat:name	_	_
+6	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Rumen	Rumen	PROPN	SP	_	6	obj	_	_
+8	Radev.	Radev.	PROPN	SP	_	7	flat:name	_	_
+
+# sent_id = 23
+# text = Consulting memory: exist a Bulgarian politician known as "Nikol Todorov."
+1	Consulting	Consulting	NOUN	S	Gender=Masc	7	nmod	_	_
+2	memory	memory	NOUN	S	Gender=Masc	1	compound	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4	exist	exist	CCONJ	CC	_	7	cc	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Bulgarian	Bulgarian	PROPN	SP	_	7	nmod	_	_
+7	politician	politician	NOUN	S	_	0	root	_	_
+8	known	knowno	ADP	E	_	9	case	_	_
+9	as	a	NOUN	S	Gender=Masc	7	nmod	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Nikol	Nikol	PROPN	SP	_	9	nmod	_	_
+12	Todorov.	Todorov.	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	_
+
+# sent_id = 24
+# text = Not.
+1	Not	Not	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Let's search memory:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	search	search	NOUN	S	_	1	nmod	_	_
+4	memory	memory	NOUN	S	_	3	compound	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = "Miguel Todorov" known as "the Eastern European humanitarian"?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Miguel	Miguel	PROPN	SP	_	0	root	_	_
+3	Todorov	Todorov	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	6	punct	_	_
+5	known	knowno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	as	a	NOUN	S	Gender=Masc	2	nmod	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	Eastern	Eastern	PROPN	SP	_	6	nmod	_	_
+10	European	European	PROPN	SP	_	9	flat:name	_	_
+11	humanitarian	humanitarian	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = There's "Todorov and Savić"?
+1	There	There	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	4	case	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Todorov	Todorov	PROPN	SP	_	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	Savić	Savić	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Not.
+1	Not	Not	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Wait, the phrase "Siamo feriti ma difendiamo la democrazia" suggests a statement from a political figure who is wounded but still defending democracy.
+1	Wait	Wait	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	phrase	phrase	NOUN	S	Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	parataxis	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	13	punct	_	_
+13	suggests	suggests	X	SW	Foreign=Yes	11	compound	_	_
+14	a	a	X	X	_	13	flat:foreign	_	_
+15	statement	statement	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	from	from	X	SW	Foreign=Yes	13	flat:foreign	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	political	political	DET	DQ	Number=Sing|PronType=Int	19	det	_	_
+19	figure	figura	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+20	who	wavere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	cop	_	_
+21	is	is	X	SW	Foreign=Yes	25	nmod	_	_
+22	wounded	wounde	X	SW	Foreign=Yes	21	flat:foreign	_	_
+23	but	but	X	SW	Foreign=Yes	21	flat:foreign	_	_
+24	still	still	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	defending	defending	NOUN	S	Gender=Masc	9	conj	_	_
+26	democracy	democracy	PROPN	SW	Foreign=Yes	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Perhaps a dissident in a conflict zone like Gaza?
+1	Perhaps	Perhaps	NOUN	S	_	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	dissident	dissident	NOUN	S	_	1	nmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	a	a	X	X	_	1	nmod	_	_
+6	conflict	conflict	X	SW	Foreign=Yes	5	flat:foreign	_	_
+7	zone	zone	X	SW	Foreign=Yes	5	flat:foreign	_	_
+8	like	like	X	SW	Foreign=Yes	5	flat:foreign	_	_
+9	Gaza	Gaza	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Could refer to "Sheryl Todorov"?
+1	Could	Could	X	SW	Foreign=Yes	0	root	_	_
+2	refer	refere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Sheryl	Sheryl	PROPN	SP	_	1	flat:foreign	_	_
+6	Todorov	Todorov	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Actually, "Nira Todorov" might be a leader in Syria?
+1	Actually	Actually	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Nira	Nira	PROPN	SP	_	7	nmod	_	_
+5	Todorov	Todorov	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	_
+7	might	might	NOUN	S	_	1	nmod	_	_
+8	be	ba	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	leader	leader	NOUN	S	_	8	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Syria	Syria	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 33
+# text = Let's examine:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	examine	examine	NOUN	S	Gender=Fem	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 34
+# text = Might be about "Zelensky" but Zelensky says "we are wounded but we defend democracy.
+1	Might	Might	PROPN	SP	_	11	nsubj	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	about	about	SYM	X	_	1	flat:name	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Zelensky	Zelensky	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	7	punct	_	_
+7	but	but	X	SW	Foreign=Yes	5	nmod	_	_
+8	Zelensky	Zelensky	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	says	says	X	SW	Foreign=Yes	7	flat:foreign	_	_
+10	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	are	are	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	wounded	wounded	ADJ	A	_	14	amod	_	_
+14	but	but	NOUN	S	_	15	nsubj	_	_
+15	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	defend	defend	ADJ	A	_	17	amod	_	_
+17	democracy	democracy	NOUN	S	_	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 35
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 36
+# text = But the piece says "Todorov" so maybe it's a translation:
+1	But	But	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	piece	piece	ADJ	A	Number=Sing	4	amod	_	_
+4	says	says	NOUN	S	Gender=Masc	1	obj	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	maybe	mayba	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+10	it	it	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	's	's	PART	PART	_	9	case	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	translation	translation	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 37
+# text = "Todorov" might be "Mikhail Todorov" a Ukrainian MP?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Todorov	Todorov	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	5	punct	_	_
+4	might	might	ADJ	A	_	5	amod	_	_
+5	be	ba	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Mikhail	Mikhail	PROPN	SP	_	5	nmod	_	_
+8	Todorov	Todorov	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Ukrainian	Ukrainian	PROPN	SP	_	2	nmod	_	_
+12	MP	MP	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = He was wounded in the war.
+1	He	a	X	SW	Foreign=Yes	0	root	_	_
+2	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	wounded	wounde	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	war	war	NOUN	S	_	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = Indeed, there's a Ukrainian national hero "Right who"?
+1	Indeed	Indeed	X	X	_	3	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	there	there	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	's	's	PART	PART	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	Ukrainian	Ukrainian	PROPN	SP	_	3	obl	_	_
+7	national	national	DET	DQ	Number=Sing|PronType=Int	8	det	_	_
+8	hero	hero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Right	Right	PROPN	SP	_	8	nmod	_	_
+11	who	who	ADJ	A	Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 40
+# text = Actually, there is a Ukrainian soldier "Zolot Rev" but "Todorov" might be a Ukrainian fighter name.
+1	Actually	Actually	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	there	there	X	SW	Foreign=Yes	1	appos	_	_
+4	is	is	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Ukrainian	Ukrainian	PROPN	SP	_	3	nmod	_	_
+7	soldier	soldier	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Zolot	Zolot	PROPN	SP	_	6	nmod	_	_
+10	Rev	Rev	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	_
+12	but	but	NOUN	S	Gender=Masc	9	nmod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Todorov	Todorov	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	_
+16	might	might	NOUN	S	_	14	flat:name	_	_
+17	be	ba	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Ukrainian	Ukrainian	PROPN	SP	_	17	obl	_	_
+20	fighter	fighter	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	name	name	X	SW	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 41
+# text = Let's see:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	see	sea	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 42
+# text = If they were wounded, they might still defend democracy.
+1	If	If	X	SW	Foreign=Yes	0	root	_	_
+2	they	they	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	were	were	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	wounded	wounded	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	they	they	X	SW	Foreign=Yes	9	nmod	_	_
+7	might	might	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	still	still	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	defend	defend	NOUN	S	_	1	appos	_	_
+10	democracy	democracy	NOUN	S	_	9	compound	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 43
+# text = Look for "Siamo feriti ma difendiamo la democrazia" In Italian news:
+1	Look	look	NOUN	S	_	0	root	_	_
+2	for	for	NOUN	S	_	1	compound	_	_
+3	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	parataxis	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	12	punct	_	_
+11	In	in	ADP	E	_	12	case	_	_
+12	Italian	Italian	PROPN	SP	_	9	nmod	_	_
+13	news	news	PROPN	SW	Foreign=Yes	12	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 44
+# text = I recall an article about "Emil Todorov" - could be a politician in Croatia?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	recall	recall	NOUN	S	Gender=Masc	0	root	_	_
+3	an	an	ADV	B	_	4	advmod	_	_
+4	article	article	ADJ	A	Number=Sing	5	amod	_	_
+5	about	about	NOUN	S	Gender=Masc	2	compound	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Emil	Emil	PROPN	SP	_	2	nmod	_	_
+8	Todorov	Todorov	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10	-	-	PUNCT	FF	_	7	punct	_	_
+11	could	could	ADJ	A	_	12	amod	_	_
+12	be	ba	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	politician	politician	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Croatia	Croatia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 45
+# text = There was a "Ivan Todorov" maybe?
+1	There	There	X	SW	Foreign=Yes	0	root	_	_
+2	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Ivan	Ivan	PROPN	SP	_	1	nmod	_	_
+6	Todorov	Todorov	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	_
+8	maybe	mayba	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 46
+# text = Wait, there is a "Todorov" in the Cameroonian war?
+1	Wait	Wait	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	there	there	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	is	is	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	Cameroonian	Cameroonian	PROPN	SP	_	1	nmod	_	_
+12	war	ware	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 47
+# text = but not. Better approach:
+1	but	but	NOUN	S	Gender=Masc	0	root	_	_
+2	not	not	NOUN	S	Gender=Masc	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+4	Better	Better	PROPN	SP	_	1	nmod	_	_
+5	approach	approach	NOUN	S	Gender=Masc	4	compound	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 48
+# text = The assistant should produce an article that doesn't produce false claims?
+1	The	the	X	SW	Foreign=Yes	4	nsubj	_	_
+2	assistant	assistant	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	should	should	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	an	an	ADV	B	_	6	advmod	_	_
+6	article	article	X	SW	Foreign=Yes	4	obj	_	_
+7	that	thare	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	doesn	doesno	X	SW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	't	't	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	false	falso	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	claims	claims	NOUN	S	Gender=Fem	10	obj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 49
+# text = Should be plausible.
+1	Should	Should	PROPN	SP	_	0	root	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	plausible	plausible	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 50
+# text = It's safe to imagine a character "Todorov" is a senior official in "Bulgaria" or "Macedonia" who is wounded in a clash.
+1	It	It	X	SW	Foreign=Yes	11	nsubj	_	SpaceAfter=No
+2	's	's	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	safe	safe	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	imagine	imagine	NOUN	S	_	1	flat:foreign	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	character	character	NOUN	S	_	1	nmod	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Todorov	Todorov	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	senior	senior	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	official	official	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Bulgaria	Bulgaria	PROPN	SP	_	13	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	21	punct	_	_
+19	or	or	ADV	B	_	21	advmod	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Macedonia	Macedonia	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	17	punct	_	_
+23	who	wavere	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	_
+24	is	is	X	SW	Foreign=Yes	23	compound	_	_
+25	wounded	wounde	X	SW	Foreign=Yes	24	flat:foreign	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	clash	clash	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 51
+# text = Or it's about "Todorov" a prominent figure of the "Prosel"?
+1	Or	or	X	SW	Foreign=Yes	0	root	_	_
+2	it	it	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	's	's	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	about	about	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	prominent	prominent	NOUN	S	_	10	nmod	_	_
+10	figure	figure	NOUN	S	_	6	appos	_	_
+11	of	of	ADP	E	_	14	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Prosel	Prosel	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 52
+# text = Actually, "Mikail Todorov" is a known figure in the "Eastern European crisis." Let's think:
+1	Actually	Actually	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Mikail	Mikail	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Todorov	Todorov	PROPN	SP	_	1	appos	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	known	knowno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	figure	figura	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Eastern	Eastern	PROPN	SP	_	10	nmod	_	_
+15	European	European	PROPN	SP	_	14	flat:name	_	_
+16	crisis.	crisis.	NOUN	S	Gender=Masc	15	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	18	punct	_	_
+18	Let	Let	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	's	's	PART	PART	_	18	case	_	_
+20	think	think	NOUN	S	Gender=Masc	18	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 53
+# text = In the last months, the UN has been saying "Siamo feriti ma difendiamo la democrazia" – but the phrase might ring from "Todorov" in "Serbian armed conflict?" It's unclear.
+1	In	in	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	last	last	X	SW	Foreign=Yes	13	obl	_	_
+4	months	months	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	the	the	X	SW	Foreign=Yes	3	appos	_	_
+7	UN	Un	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	has	has	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	been	been	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	saying	saying	X	SW	Foreign=Yes	6	flat:foreign	_	_
+11	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	13	punct	_	_
+19	–	–	PUNCT	FB	_	13	punct	_	_
+20	but	but	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+22	phrase	phrase	ADJ	A	Number=Sing	23	amod	_	_
+23	might	might	NOUN	S	_	20	obj	_	_
+24	ring	ring	NOUN	S	_	23	nmod	_	_
+25	from	from	NOUN	S	_	24	compound	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Todorov	Todorov	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	Serbian	Serbian	PROPN	SP	_	20	obl	_	_
+32	armed	arme	NOUN	S	_	31	nmod	_	_
+33	conflict	conflict	NOUN	S	_	32	compound	_	SpaceAfter=No
+34	?	?	PUNCT	FS	_	20	punct	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	36	punct	_	_
+36	It	It	ADJ	A	_	20	xcomp	_	SpaceAfter=No
+37	's	's	PART	PART	_	38	mark	_	_
+38	unclear	uncleare	VERB	V	VerbForm=Inf	36	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 54
+# text = We can consider "Todorov" as a Swiss activist who's wounded in a demonstration?
+1	We	We	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	can	can	NOUN	S	_	1	nmod	_	_
+3	consider	considere	NOUN	S	_	2	compound	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	as	a	NOUN	S	Gender=Masc	5	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Swiss	Swiss	PROPN	SP	_	10	nmod	_	_
+10	activist	activist	NOUN	S	Gender=Masc	13	nmod	_	_
+11	who	who	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+12	's	's	PART	PART	_	11	case	_	_
+13	wounded	wounde	NOUN	S	Gender=Masc	7	compound	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	demonstration	demonstration	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 55
+# text = Actually, "Todorov" could be a name of a small community in "Russia".
+1	Actually	Actually	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	could	could	NOUN	S	Gender=Fem	4	appos	_	_
+7	be	ba	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	name	name	X	SW	Foreign=Yes	6	nmod	_	_
+10	of	of	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	small	small	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	community	community	NOUN	S	Gender=Masc	6	nmod	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Russia	Russia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 56
+# text = Another idea:
+1	Another	Anothere	ADP	E	_	2	case	_	_
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 57
+# text = This may refer to "Todorov" as a political figure with the surname "Todorov" that is an analyst after a coup attempt, like "Andree Todorov" in a country?
+1	This	This	X	SW	Foreign=Yes	0	root	_	_
+2	may	may	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	refer	refere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	1	flat:foreign	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	as	a	NOUN	S	Gender=Masc	6	appos	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	political	political	DET	DQ	Number=Sing|PronType=Int	11	det	_	_
+11	figure	figura	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	with	with	X	SW	Foreign=Yes	11	compound	_	_
+13	the	the	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	surname	surname	X	SW	Foreign=Yes	12	flat:foreign	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Todorov	Todorov	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	18	punct	_	_
+18	that	that	X	SW	Foreign=Yes	16	nmod	_	_
+19	is	is	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	an	an	ADJ	A	Number=Sing	18	amod	_	_
+21	analyst	analyst	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	after	aftere	X	SW	Foreign=Yes	18	flat:foreign	_	_
+23	a	a	X	X	_	18	flat:foreign	_	_
+24	coup	coup	X	SW	Foreign=Yes	18	flat:foreign	_	_
+25	attempt	attempt	X	SW	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	18	punct	_	_
+27	like	like	X	SW	Foreign=Yes	18	flat:foreign	_	_
+28	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	Andree	Andree	PROPN	SP	_	18	flat:foreign	_	_
+30	Todorov	Todorov	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	16	punct	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	country	country	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+35	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 58
+# text = Could be about "Taliban?" There is a "Mansour Todorov"?
+1	Could	Could	PROPN	SP	_	0	root	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	about	about	SYM	X	_	1	flat:name	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Taliban	Taliban	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	8	punct	_	_
+8	There	There	X	SW	Foreign=Yes	10	nmod	_	_
+9	is	is	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Mansour	Mansour	PROPN	SP	_	1	nmod	_	_
+13	Todorov	Todorov	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 59
+# text = Better:
+1	Better	Better	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 60
+# text = Could refer to "György Todorov" from "Hungary"?
+1	Could	Could	X	SW	Foreign=Yes	0	root	_	_
+2	refer	refere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	György	György	PROPN	SP	_	1	flat:foreign	_	_
+6	Todorov	Todorov	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	_
+8	from	from	NOUN	S	_	10	case	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Hungary	Hungary	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 61
+# text = Or "Damir Todorov" from "Kosovo"?
+1	Or	or	ADV	B	_	3	advmod	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Damir	Damir	PROPN	SP	_	0	root	_	_
+4	Todorov	Todorov	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6	from	from	NOUN	S	_	3	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Kosovo	Kosovo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 62
+# text = Honestly, it's ambiguous.
+1	Honestly	Honestly	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	it	it	X	SW	Foreign=Yes	1	appos	_	SpaceAfter=No
+4	's	's	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	ambiguous	ambiguous	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 63
+# text = But maybe it's referencing "Todorov" the Bulgarian protagonist of "Midnight in Vasiliev?" Wait.
+1	But	But	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	maybe	mayba	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	it	it	ADJ	A	_	2	amod	_	SpaceAfter=No
+4	's	's	PART	PART	_	5	case	_	_
+5	referencing	referencing	NOUN	S	Gender=Masc	2	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	Bulgarian	Bulgarian	PROPN	SP	_	7	nmod	_	_
+11	protagonist	protagonist	NOUN	S	_	10	nmod	_	_
+12	of	of	NOUN	S	_	11	compound	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Midnight	Midnight	NOUN	S	_	19	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Vasiliev	Vasiliev	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	_
+19	Wait	Wait	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 64
+# text = The left context of "La Repubblica" maybe covering the conflict in "Macedonia"?
+1	The	the	X	SW	Foreign=Yes	0	root	_	_
+2	left	left	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	context	context	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Repubblica	repubblica	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	maybe	mayba	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	covering	covering	NOUN	S	_	7	appos	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	conflict	conflict	NOUN	S	Gender=Masc	10	nmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Macedonia	Macedonia	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 65
+# text = However, being a leftist newspaper, they'd likely support democratic fights.
+1	However	However	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	being	being	X	SW	Foreign=Yes	1	appos	_	_
+4	a	a	X	X	_	3	flat:foreign	_	_
+5	leftist	leftist	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	newspaper	newspaper	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	they	they	X	SW	Foreign=Yes	1	appos	_	SpaceAfter=No
+9	'd	'd	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	likely	likely	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	support	support	X	SW	Foreign=Yes	8	flat:foreign	_	_
+12	democratic	democratic	X	SW	Foreign=Yes	8	flat:foreign	_	_
+13	fights	fights	X	SW	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 66
+# text = So "Todorov" maybe refers to someone from "Bulgaria" who resisted a coup.
+1	So	sapere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	5	punct	_	_
+5	maybe	mayba	NOUN	S	Gender=Fem|Number=Plur	3	appos	_	_
+6	refers	refer	X	SW	Foreign=Yes	5	compound	_	_
+7	to	to	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	someone	someone	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	from	from	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Bulgaria	Bulgaria	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	_
+13	who	who	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	resisted	resiste	CCONJ	CC	_	16	cc	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	coup	coup	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 67
+# text = But "we are wounded but we defend democracy" – likely a statement by a Ukrainian soldier or a refugee.
+1	But	But	NOUN	S	_	3	nsubj	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	are	are	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	wounded	wounde	ADJ	A	_	6	amod	_	_
+6	but	but	NOUN	S	_	4	obj	_	_
+7	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	defend	defend	ADJ	A	_	9	amod	_	_
+9	democracy	democracy	NOUN	S	_	7	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	–	–	PUNCT	FB	_	9	punct	_	_
+12	likely	likely	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	statement	statement	NOUN	S	Gender=Masc	9	conj	_	_
+15	by	by	CCONJ	CC	_	17	cc	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Ukrainian	Ukrainian	PROPN	SP	_	9	conj	_	_
+18	soldier	soldiere	ADP	E	_	19	case	_	_
+19	or	or	ADV	B	_	7	advmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	refugee	refugea	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 68
+# text = Hold on, we might recall "Todorov" is a Ukrainian official, "Nez. Michael Todorov" maybe a known figure in Ukrainian war.
+1	Hold	Hold	X	SW	Foreign=Yes	10	nsubj	_	_
+2	on	on	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	we	we	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+5	might	might	NOUN	S	_	8	nmod	_	_
+6	recall	recall	NOUN	S	_	5	compound	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Todorov	Todorov	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	1	punct	_	_
+10	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Ukrainian	Ukrainian	PROPN	SP	_	10	obl	_	_
+13	official	official	ADJ	A	_	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Nez	Nez	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	18	punct	_	_
+18	Michael	Michael	PROPN	SP	_	10	obj	_	_
+19	Todorov	Todorov	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	21	punct	_	_
+21	maybe	mayba	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	known	knowno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
+24	figure	figura	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	Ukrainian	Ukrainian	PROPN	SP	_	27	obl	_	_
+27	war	ware	VERB	V	VerbForm=Inf	24	acl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 69
+# text = He was wounded in January 2023 when his vehicle was hit by a rocket.
+1	He	a	X	SW	Foreign=Yes	0	root	_	_
+2	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	wounded	wounde	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	in	in	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	January	January	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	2023	2023	NUM	N	NumType=Card	1	flat:foreign	_	_
+7	when	when	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	his	his	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	vehicle	vehicle	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	hit	hit	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	by	by	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	rocket	rocket	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 70
+# text = He made a statement "Siamo feriti ma difendiamo la democrazia".
+1	He	He	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	made	made	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	statement	statement	NOUN	S	Gender=Masc	2	nmod	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	feriti	ferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 71
+# text = But I'm not sure.
+1	But	But	PROPN	SP	_	0	root	_	_
+2	I'm	I'm	PROPN	SP	_	1	flat:name	_	_
+3	not	not	CCONJ	CC	_	4	cc	_	_
+4	sure	suro	ADV	BN	PronType=Neg	1	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 72
+# text = Wait, there is a popular Soviet Armenian statesman:
+1	Wait	Wait	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	there	there	VERB	V	VerbForm=Inf	0	root	_	_
+4	is	is	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	popular	popular	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	Soviet	Soviet	PROPN	SP	_	6	obj	_	_
+8	Armenian	Armenian	PROPN	SP	_	7	flat:name	_	_
+9	statesman	statesman	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 73
+# text = "Vachagan Todorov" but no.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Vachagan	Vachagan	PROPN	SP	_	0	root	_	_
+3	Todorov	Todorov	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	but	but	CCONJ	CC	_	6	cc	_	_
+6	no	no	ADV	BN	PronType=Neg	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 74
+# text = Time to check: "Todorov" appears in news about "Bulgarian national hero Hristo Todorov" maybe.
+1	Time	Time	NOUN	S	Number=Sing	6	nmod	_	_
+2	to	to	ADP	E	_	3	case	_	_
+3	check	check	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Todorov	Todorov	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	appears	appears	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	in	in	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	news	news	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	about	about	X	SW	Foreign=Yes	9	flat:foreign	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Bulgarian	Bulgarian	PROPN	SP	_	6	flat:name	_	_
+14	national	national	DET	DQ	Number=Sing|PronType=Int	15	det	_	_
+15	hero	hero	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+16	Hristo	Hristo	PROPN	SP	_	15	nmod	_	_
+17	Todorov	Todorov	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	_
+19	maybe	mayba	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 75
+# text = There was a "Todorov" in "Romania" been wounded in a battle with the Hungarian community.
+1	There	There	X	SW	Foreign=Yes	0	root	_	_
+2	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Romania	Romania	PROPN	SP	_	11	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	11	punct	_	_
+11	been	been	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	wounded	wounde	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	in	in	X	SW	Foreign=Yes	1	flat:foreign	_	_
+14	a	a	X	X	_	1	flat:foreign	_	_
+15	battle	battle	X	SW	Foreign=Yes	1	flat:foreign	_	_
+16	with	with	X	SW	Foreign=Yes	1	flat:foreign	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	Hungarian	Hungarian	PROPN	SP	_	1	nmod	_	_
+19	community	community	PROPN	SW	Foreign=Yes	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 76
+# text = But may be incorrect.
+1	But	But	PROPN	SP	_	0	root	_	_
+2	may	may	PROPN	SW	Foreign=Yes	1	flat:name	_	_
+3	be	ba	PROPN	SP	_	1	flat:name	_	_
+4	incorrect	incorrect	SYM	X	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 77
+# text = Alternatively, include a well-known figure:
+1	Alternatively	Alternatively	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	include	includere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	well-known	well-knowno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	figure	figura	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 78
+# text = "Nik Todorov" in the context of Bulgaria.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Nik	Nik	PROPN	SP	_	0	root	_	_
+3	Todorov	Todorov	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	context	context	NOUN	S	Number=Sing	2	nmod	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	Bulgaria	Bulgaria	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 79
+# text = In 2025, Bulgaria has had a "TKT" crisis?
+1	In	in	ADP	E	_	2	case	_	_
+2	2025	2025	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Bulgaria	Bulgaria	PROPN	SP	_	0	root	_	_
+5	has	has	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	had	had	X	SW	Foreign=Yes	5	flat:foreign	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	TKT	TKT	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	crisis	crisis	NOUN	S	Gender=Fem	9	flat:name	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 80
+# text = The political crisis might involve "Todorov" as the mayor of Sofia, who was wounded in a protest.
+1	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	political	political	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	crisis	crisis	X	SW	Foreign=Yes	2	compound	_	_
+4	might	might	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	involve	involvo	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	as	a	X	SW	Foreign=Yes	7	nmod	_	_
+10	the	the	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	mayor	mayor	X	SW	Foreign=Yes	9	flat:foreign	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	Sofia	Sofia	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	who	who	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16	was	was	X	SW	Foreign=Yes	15	compound	_	_
+17	wounded	wounded	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	in	in	X	SW	Foreign=Yes	16	flat:foreign	_	_
+19	a	a	X	X	_	16	flat:foreign	_	_
+20	protest	protest	X	SW	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 81
+# text = Thus the article may discuss his statement "We are wounded but we defend democracy" after a violent crackdown by security forces on a protest, expressing resilience.
+1	Thus	Thus	X	SW	Foreign=Yes	0	root	_	_
+2	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	article	article	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	may	may	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	discuss	discuss	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	his	his	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	statement	statement	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	We	we	PROPN	SP	_	10	nsubj	_	_
+10	are	are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+11	wounded	wounded	ADJ	A	_	12	amod	_	_
+12	but	but	NOUN	S	_	13	nsubj	_	_
+13	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+14	defend	defend	ADJ	A	_	15	amod	_	_
+15	democracy	democracy	NOUN	S	_	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	17	punct	_	_
+17	after	aftere	VERB	V	VerbForm=Inf	25	acl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	violent	violent	X	SW	Foreign=Yes	17	obl	_	_
+20	crackdown	crackdown	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	by	by	X	SW	Foreign=Yes	19	flat:foreign	_	_
+22	security	security	X	SW	Foreign=Yes	19	flat:foreign	_	_
+23	forces	forces	X	SW	Foreign=Yes	19	flat:foreign	_	_
+24	on	on	X	SW	Foreign=Yes	19	flat:foreign	_	_
+25	a	a	X	X	_	10	obj	_	_
+26	protest	protest	X	SW	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	expressing	expressing	X	SW	Foreign=Yes	25	flat:foreign	_	_
+29	resilience	resilience	X	SW	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 82
+# text = The piece would analyze his role, the context of media, the threat to democracy, comparing to other leftist movements, critique of the government.
+1	The	The	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	piece	piece	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+3	would	would	ADJ	A	_	2	amod	_	_
+4	analyze	analyzo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	his	his	NOUN	S	Gender=Fem	2	appos	_	_
+6	role	role	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	context	context	NOUN	S	Gender=Masc	5	conj	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	media	medio	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	the	the	X	SW	Foreign=Yes	9	appos	_	_
+14	threat	threat	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	to	to	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	democracy	democracy	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	comparing	comparing	X	SW	Foreign=Yes	5	conj	_	_
+19	to	to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	other	othere	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	leftist	leftist	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	movements	movements	X	SW	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	critique	critique	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	government	government	NOUN	S	Gender=Masc	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 83
+# text = Alternatively, maybe "Todorov" refers to the current "Prime Minister" of "Bulgaria" at that time, but no.
+1	Alternatively	Alternatively	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	maybe	mayba	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	7	punct	_	_
+7	refers	refer	X	SW	Foreign=Yes	5	flat:foreign	_	_
+8	to	to	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	the	the	X	SW	Foreign=Yes	7	flat:foreign	_	_
+10	current	current	X	SW	Foreign=Yes	5	flat:foreign	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Prime	primo	PROPN	SP	_	5	flat:name	_	_
+13	Minister	Minister	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Bulgaria	Bulgaria	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	12	punct	_	_
+19	at	at	NOUN	S	Gender=Masc	12	nmod	_	_
+20	that	that	NOUN	S	Gender=Masc	19	compound	_	_
+21	time	timo	NOUN	S	Number=Sing	20	compound	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	but	but	CCONJ	CC	_	24	cc	_	_
+24	no	no	ADV	BN	PronType=Neg	12	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 84
+# text = Let's think:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	think	think	NOUN	S	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 85
+# text = There's a known politician:
+1	There	There	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	5	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	known	knowno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	politician	politician	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 86
+# text = "Andi Todorov" is the current President of "St. Lucia"?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Andi	Andi	PROPN	SP	_	0	root	_	_
+3	Todorov	Todorov	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	5	punct	_	_
+5	is	is	X	SW	Foreign=Yes	2	nmod	_	_
+6	the	the	X	SW	Foreign=Yes	5	flat:foreign	_	_
+7	current	current	X	SW	Foreign=Yes	5	flat:foreign	_	_
+8	President	President	X	SW	Foreign=Yes	5	flat:foreign	_	_
+9	of	of	X	SW	Foreign=Yes	5	flat:foreign	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	St.	St.	PROPN	SP	_	2	nmod	_	_
+12	Lucia	Lucia	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 87
+# text = No.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 88
+# text = We can perhaps craft an article that is plausible;
+1	We	We	ADV	B	_	3	advmod	_	_
+2	can	can	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	perhaps	perhaps	NOUN	S	Gender=Fem	0	root	_	_
+4	craft	craft	NOUN	S	Gender=Masc	3	compound	_	_
+5	an	an	ADJ	A	Number=Sing	4	amod	_	_
+6	article	article	X	SW	Foreign=Yes	4	compound	_	_
+7	that	that	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	is	is	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	plausible	plausible	X	SW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 89
+# text = we don't need to verify every fact.
+1	we	we	ADV	B	_	2	advmod	_	_
+2	don	don	X	SW	Foreign=Yes	0	root	_	SpaceAfter=No
+3	't	't	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	need	need	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	to	to	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	verify	verify	X	SW	Foreign=Yes	2	flat:foreign	_	_
+7	every	every	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	fact	fact	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 90
+# text = Just should not produce defamation.
+1	Just	Just	X	SW	Foreign=Yes	4	nsubj	_	_
+2	should	should	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	not	not	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	defamation	defamation	ADV	BN	PronType=Neg	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 91
+# text = It's safe to present that "Todorov" is a fictional name of a leader of a resistance or a low-level figure.
+1	It	It	X	SW	Foreign=Yes	10	obl	_	SpaceAfter=No
+2	's	's	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	safe	safe	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	present	present	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	that	that	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Todorov	Todorov	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	is	is	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	fictional	fictional	DET	DQ	Number=Sing|PronType=Int	13	det	_	_
+13	name	name	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	leader	leader	NOUN	S	_	13	nmod	_	_
+17	of	of	ADP	E	_	19	case	_	_
+18	a	a	X	X	_	17	fixed	_	_
+19	resistance	resistance	X	SW	Foreign=Yes	13	nmod	_	_
+20	or	or	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	low-level	low-levi	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
+23	figure	figura	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 92
+# text = But we can't knowingly invent defamation.
+1	But	But	ADV	B	_	2	advmod	_	_
+2	we	we	ADJ	A	Number=Sing	3	amod	_	_
+3	can	can	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+4	't	't	X	SW	Foreign=Yes	3	compound	_	_
+5	knowingly	knowingly	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	invent	invent	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	defamation	defamation	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 93
+# text = Provide general context.
+1	Provide	provide	ADP	E	_	3	case	_	_
+2	general	general	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	context	context	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 94
+# text = We need to adopt a tone that resonates with La Repubblica's progressive slant, referencing leftist values, solidarity, democracy, freedom of expression.
+1	We	We	ADV	B	_	2	advmod	_	_
+2	need	need	X	SW	Foreign=Yes	0	root	_	_
+3	to	to	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	adopt	adopt	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	tone	tone	X	SW	Foreign=Yes	2	nmod	_	_
+7	that	that	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	resonates	resonates	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	with	with	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	La	il	X	SW	Foreign=Yes	6	flat:foreign	_	_
+11	Repubblica	repubblica	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+12	's	's	PART	PART	_	11	case	_	_
+13	progressive	progressivo	X	SW	Foreign=Yes	11	flat:foreign	_	_
+14	slant	slant	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	referencing	referencing	X	SW	Foreign=Yes	2	flat:foreign	_	_
+17	leftist	leftist	X	SW	Foreign=Yes	2	flat:foreign	_	_
+18	values	values	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	solidarity	solidarity	PROPN	SW	Foreign=Yes	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	democracy	democracy	PROPN	SW	Foreign=Yes	2	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	freedom	freedom	X	SW	Foreign=Yes	2	appos	_	_
+25	of	of	X	SW	Foreign=Yes	24	flat:foreign	_	_
+26	expression	expression	X	SW	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 95
+# text = Let's create an article:
+1	Let	Let	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	create	creare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	fixed	_	_
+4	an	an	ADV	B	_	5	advmod	_	_
+5	article	article	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 96
+# text = Use a European perspective: "Todorov" could be a close friend from the "Transnistrian" region.
+1	Use	uso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	European	European	PROPN	SP	_	1	obl	_	_
+4	perspective	perspectivo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	could	could	NOUN	S	Gender=Fem	7	nmod	_	_
+10	be	ba	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	close	closo	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	friend	friend	CCONJ	CC	_	14	cc	_	_
+14	from	from	NOUN	S	Gender=Masc	12	conj	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Transnistrian	Transnistrian	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	_
+19	region	regione	NOUN	S	Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 97
+# text = Alright. Better:
+1	Alright.	Alright.	PROPN	SP	_	0	root	_	_
+2	Better	Better	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 98
+# text = Might be about "Todorov" as an opposition figure in "Moldova" or "Bulgaria" who was injured.
+1	Might	Might	PROPN	SP	_	0	root	_	_
+2	be	ba	PROPN	SP	_	1	flat:name	_	_
+3	about	about	SYM	X	_	1	flat:name	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Todorov	Todorov	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	as	a	NOUN	S	Gender=Masc	8	nmod	_	_
+8	an	an	ADJ	A	Number=Sing	1	amod	_	_
+9	opposition	opposition	ADP	E	_	10	case	_	_
+10	figure	figura	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Moldova	Moldova	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15	or	or	ADV	B	_	17	advmod	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Bulgaria	Bulgaria	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	_
+19	who	who	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+20	was	was	X	SW	Foreign=Yes	19	compound	_	_
+21	injured	injured	X	SW	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 99
+# text = Let's do:
+1	Let	Let	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	3	case	_	_
+3	do	do	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 100
+# text = "The damage inflicted during the crackdown on peaceful protests in Tiranë, Albania: a wounded opposition leader, Ilir Todorov, declares that even wounded, they will and must defend democracy.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	The	The	X	SW	Foreign=Yes	0	root	_	_
+3	damage	damage	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	inflicted	inflicted	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	during	during	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	the	the	X	SW	Foreign=Yes	2	flat:foreign	_	_
+7	crackdown	crackdown	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	on	on	X	SW	Foreign=Yes	2	flat:foreign	_	_
+9	peaceful	peaceful	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	protests	protests	NOUN	S	Gender=Masc	2	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Tiranë	Tiranë	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	Albania	Albania	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+16	a	a	X	X	_	2	flat:foreign	_	_
+17	wounded	wounded	X	SW	Foreign=Yes	2	flat:foreign	_	_
+18	opposition	opposition	X	SW	Foreign=Yes	2	flat:foreign	_	_
+19	leader	leader	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	Ilir	Ilir	PROPN	SP	_	2	appos	_	_
+22	Todorov	Todorov	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	declares	declares	X	SW	Foreign=Yes	2	flat:foreign	_	_
+25	that	that	X	SW	Foreign=Yes	2	flat:foreign	_	_
+26	even	even	X	SW	Foreign=Yes	2	flat:foreign	_	_
+27	wounded	wounded	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	2	punct	_	_
+29	they	they	NOUN	S	Gender=Masc	2	appos	_	_
+30	will	will	ADJ	A	Number=Sing	29	amod	_	_
+31	and	and	X	SW	Foreign=Yes	29	compound	_	_
+32	must	must	X	SW	Foreign=Yes	31	flat:foreign	_	_
+33	defend	defend	X	SW	Foreign=Yes	31	flat:foreign	_	_
+34	democracy	democracy	X	SW	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 101
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 102
+# text = That might be plausible:
+1	That	That	ADV	B	_	2	advmod	_	_
+2	might	might	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	be	ba	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	plausible	plausible	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 103
+# text = Albania had protests in 2025.
+1	Albania	Albania	PROPN	SP	_	0	root	_	_
+2	had	had	X	SW	Foreign=Yes	1	nmod	_	_
+3	protests	protests	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	in	in	ADP	E	_	2	case	_	_
+5	2025	2025	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 104
+# text = The opposition leader's name could be "Ilir Todorov".
+1	The	The	X	SW	Foreign=Yes	0	root	_	_
+2	opposition	opposition	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	leader	leader	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+4	's	's	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	name	name	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	could	could	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	be	ba	NOUN	S	Gender=Fem|Number=Plur	1	flat:foreign	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Ilir	Ilir	PROPN	SP	_	1	appos	_	_
+10	Todorov	Todorov	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 105
+# text = He was shot at, remains wounded.
+1	He	a	X	SW	Foreign=Yes	0	root	_	_
+2	was	was	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	shot	shot	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	at	at	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	remains	remains	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	wounded	wounded	X	SW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 106
+# text = He says "Siamo feriti ma difendiamo la democrazia."
+1	He	a	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	says	says	NOUN	S	Gender=Masc	0	root	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 107
+# text = We'll craft.
+1-2	We'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Wi	Wi	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ll	ll	NOUN	S	Gender=Masc	0	root	_	_
+4	craft	craft	NOUN	S	Gender=Masc	3	compound	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 108
+# text = Better to maintain the story:
+1	Better	Better	X	SW	Foreign=Yes	0	root	_	_
+2	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	maintain	maintain	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	story	Story	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 109
+# text = "After a violent crackdown on opposition protests in Sofia (Bulgaria), opposition figure Todorov was injured but remains committed to democratic values."
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	After	Aftere	X	SW	Foreign=Yes	0	root	_	_
+3	a	a	X	X	_	2	flat:foreign	_	_
+4	violent	violent	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	crackdown	crackdown	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	on	on	X	SW	Foreign=Yes	2	flat:foreign	_	_
+7	opposition	opposition	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	protests	protests	X	SW	Foreign=Yes	2	flat:foreign	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Sofia	Sofia	PROPN	SP	_	2	nmod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Bulgaria	Bulgaria	PROPN	SP	_	2	appos	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	opposition	opposition	ADP	E	_	16	case	_	_
+16	figure	figura	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+17	Todorov	Todorov	PROPN	SP	_	16	nmod	_	_
+18	was	was	X	SW	Foreign=Yes	17	flat:foreign	_	_
+19	injured	injured	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	but	but	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	remains	remains	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	committed	committed	X	SW	Foreign=Yes	18	flat:foreign	_	_
+23	to	to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+24	democratic	democratic	X	SW	Foreign=Yes	18	flat:foreign	_	_
+25	values.	values.	NOUN	S	_	18	flat:foreign	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 110
+# text = That would fit leftist viewpoint.
+1	That	That	X	SW	Foreign=Yes	0	root	_	_
+2	would	would	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	fit	fit	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	leftist	leftist	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	viewpoint	viewpoint	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 111
+# text = But the title says: "Todorov: “Siamo feriti ma difendiamo la democrazia”" which translates to "Todorov:
+1	But	But	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	title	title	ADJ	A	Number=Sing	4	amod	_	_
+4	says	says	NOUN	S	Gender=Fem	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Todorov	Todorov	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+9	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	feriti	ferito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	parataxis	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	difendiamo	difendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	”	”	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	18	punct	_	_
+18	which	which	X	SW	Foreign=Yes	15	nmod	_	_
+19	translates	translates	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	to	to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	Todorov	Todorov	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 112
+# text = 'We are wounded but we defend democracy'".
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	We	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	are	are	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	wounded	wounded	ADJ	A	_	5	amod	_	_
+5	but	but	NOUN	S	_	6	nsubj	_	_
+6	we	we	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	defend	defend	ADJ	A	_	8	amod	_	_
+8	democracy	democracy	NOUN	S	_	6	obj	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 113
+# text = So the name is likely used as a general statement by someone.
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	name	name	X	SW	Foreign=Yes	1	xcomp	_	_
+4	is	is	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	likely	likely	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	used	used	X	SW	Foreign=Yes	3	flat:foreign	_	_
+7	as	as	X	SW	Foreign=Yes	3	flat:foreign	_	_
+8	a	a	X	X	_	3	flat:foreign	_	_
+9	general	general	X	A	Number=Sing	3	flat:foreign	_	_
+10	statement	statement	X	SW	Foreign=Yes	3	flat:foreign	_	_
+11	by	by	X	SW	Foreign=Yes	3	flat:foreign	_	_
+12	someone	someone	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 114
+# text = It could refer to a war in Nepali, but likely Eastern European.
+1	It	It	X	SW	Foreign=Yes	0	root	_	_
+2	could	could	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	refer	refere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	war	ware	VERB	V	VerbForm=Inf	1	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Nepali	Nepali	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	but	but	NOUN	S	Gender=Masc	8	conj	_	_
+11	likely	likely	NOUN	S	Gender=Masc	10	compound	_	_
+12	Eastern	Eastern	PROPN	SP	_	11	nmod	_	_
+13	European	European	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 115
+# text = Let's craft:
+1	Let	le	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	craft	craft	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 116
+# text = "In a desperate plea following a brutal crackdown by the Bulgarian security forces on peaceful assemblies in Sofia, veteran opposition leader Todorov was wounded during a confrontation but pledged that the opposition would continue to fight for democratic governance."
+1	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	5	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	desperate	desperare	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	plea	pleo	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+6	following	following	NOUN	S	_	10	nmod	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	brutal	brutal	ADJ	A	_	9	amod	_	_
+9	crackdown	crackdown	NOUN	S	_	6	nmod	_	_
+10	by	by	NOUN	S	_	5	nmod	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	Bulgarian	Bulgarian	PROPN	SP	_	10	nmod	_	_
+13	security	security	X	SW	Foreign=Yes	12	compound	_	_
+14	forces	forces	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	on	on	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	peaceful	peaceful	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	assemblies	assembly	NOUN	S	Gender=Masc	10	nmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Sofia	Sofia	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	veteran	veteran	NOUN	S	Gender=Masc	17	appos	_	_
+22	opposition	opposition	ADP	E	_	23	case	_	_
+23	leader	leader	NOUN	S	_	24	nmod	_	_
+24	Todorov	Todorov	PROPN	SP	_	21	nmod	_	_
+25	was	was	X	SW	Foreign=Yes	24	flat:foreign	_	_
+26	wounded	wounded	X	SW	Foreign=Yes	25	flat:foreign	_	_
+27	during	during	X	SW	Foreign=Yes	25	flat:foreign	_	_
+28	a	a	X	X	_	25	flat:foreign	_	_
+29	confrontation	confrontation	X	SW	Foreign=Yes	25	flat:foreign	_	_
+30	but	but	X	SW	Foreign=Yes	25	flat:foreign	_	_
+31	pledged	pledged	X	SW	Foreign=Yes	25	flat:foreign	_	_
+32	that	that	X	SW	Foreign=Yes	25	flat:foreign	_	_
+33	the	the	X	SW	Foreign=Yes	25	flat:foreign	_	_
+34	opposition	opposition	X	SW	Foreign=Yes	25	flat:foreign	_	_
+35	would	would	X	SW	Foreign=Yes	25	flat:foreign	_	_
+36	continue	continuo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+37	to	to	X	SW	Foreign=Yes	36	obj	_	_
+38	fight	fight	X	SW	Foreign=Yes	37	flat:foreign	_	_
+39	for	for	ADP	E	_	40	case	_	_
+40	democratic	democratic	X	SW	Foreign=Yes	37	nmod	_	_
+41	governance	governance	X	SW	Foreign=Yes	40	flat:foreign	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	36	punct	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	36	punct	_	_
+
+# sent_id = 117
+# text = We can include some commentary on what this indicates about the state of democracy in the country, referencing left vs right politics.
+1	We	We	ADV	B	_	3	advmod	_	_
+2	can	can	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	include	includere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	some	some	X	SW	Foreign=Yes	3	obj	_	_
+5	commentary	commentary	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	on	on	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	what	what	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	this	this	X	SW	Foreign=Yes	4	flat:foreign	_	_
+9	indicates	indicates	X	SW	Foreign=Yes	4	flat:foreign	_	_
+10	about	about	X	SW	Foreign=Yes	4	flat:foreign	_	_
+11	the	the	X	SW	Foreign=Yes	4	flat:foreign	_	_
+12	state	sate	X	SW	Foreign=Yes|Number=Sing	4	flat:foreign	_	_
+13	of	of	X	SW	Foreign=Yes	4	flat:foreign	_	_
+14	democracy	democracy	X	SW	Foreign=Yes	4	flat:foreign	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	country	country	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	referencing	referencing	X	SW	Foreign=Yes	4	flat:foreign	_	_
+20	left	left	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	vs	vs	X	SW	Foreign=Yes	19	flat:foreign	_	_
+22	right	right	X	SW	Foreign=Yes	19	flat:foreign	_	_
+23	politics	politics	X	SW	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 118
+# text = Provide context:
+1	Provide	provide	ADP	E	_	2	case	_	_
+2	context	context	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 119
+# text = The crackdown followed allegations of election irregularities and accusations of authoritarian drift by the ruling coalition government.
+1	The	the	X	SW	Foreign=Yes	0	root	_	_
+2	crackdown	crackdown	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	followed	followed	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	allegations	allegations	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	election	election	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	irregularities	irregularities	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	and	and	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	accusations	accusations	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	authoritarian	authoritarian	NOUN	S	Gender=Masc	1	flat:foreign	_	_
+12	drift	drift	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	by	by	X	SW	Foreign=Yes	1	flat:foreign	_	_
+14	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+15	ruling	ruling	X	SW	Foreign=Yes	1	flat:foreign	_	_
+16	coalition	coalition	X	SW	Foreign=Yes	1	flat:foreign	_	_
+17	government	government	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 120
+# text = Todorov has been a longstanding voice for transparent governance.
+1	Todorov	Todorov	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	_
+2	has	has	X	SW	Foreign=Yes	6	nsubj	_	_
+3	been	been	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	longstanding	longstanding	NOUN	S	Gender=Fem	6	obl	_	_
+6	voice	voice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	for	for	ADP	E	_	8	case	_	_
+8	transparent	transparent	NOUN	S	Gender=Masc	6	obl	_	_
+9	governance	governance	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 121
+# text = He portrays his commitment as a testament to leftist values of solidarity.
+1	He	he	X	SW	Foreign=Yes	0	root	_	_
+2	portrays	portrays	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	his	his	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	commitment	commitment	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	as	as	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	a	a	X	X	_	1	flat:foreign	_	_
+7	testament	testament	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	leftist	leftist	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	values	values	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	solidarity	solidarity	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 122
+# text = Also mention:
+1	Also	Also	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	mention	mention	NOUN	S	_	1	compound	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 123
+# text = The European Parliament recently condemned the crackdown;
+1	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	European	European	PROPN	SP	_	0	root	_	_
+3	Parliament	Parliament	PROPN	SP	_	2	flat:name	_	_
+4	recently	recently	X	SW	Foreign=Yes	2	nmod	_	_
+5	condemned	condemne	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	the	the	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	crackdown	crackdown	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 124
+# text = the United Nations recognized the risk.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	United	United	PROPN	SP	_	0	root	_	_
+3	Nations	Nations	PROPN	SP	_	2	flat:name	_	_
+4	recognized	recognize	CCONJ	CC	_	6	cc	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	risk	risk	NOUN	S	Gender=Masc	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 125
+# text = Wrap up:
+1	Wrap	Wrap	NOUN	S	_	0	root	_	_
+2	up	up	NOUN	S	_	1	compound	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 126
+# text = In the final paragraphs, reflect on the significance for Italy and for the EU:
+1	In	in	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	final	final	ADJ	A	_	4	amod	_	_
+4	paragraphs	paragraphs	NOUN	S	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	reflect	reflect	X	SW	Foreign=Yes	4	appos	_	_
+7	on	on	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	the	the	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	significance	significance	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	for	for	ADP	E	_	11	case	_	_
+11	Italy	Italy	PROPN	SP	_	6	nmod	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	for	for	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	EU	EU	PROPN	SP	_	11	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 127
+# text = the need to maintain solidarity, perhaps call for diplomatic pressure.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	need	need	X	SW	Foreign=Yes	0	root	_	_
+3	to	to	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	maintain	maintain	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	solidarity	solidarity	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	perhaps	perhaps	NOUN	S	Gender=Masc	2	appos	_	_
+8	call	call	NOUN	S	Gender=Masc	7	compound	_	_
+9	for	for	ADP	E	_	10	case	_	_
+10	diplomatic	diplomatic	NOUN	S	_	7	nmod	_	_
+11	pressure	pressuro	NOUN	S	_	10	compound	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 128
+# text = Let's incorporate leftist rhetorical aspects:
+1	Let	Let	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	's	's	PART	PART	_	6	case	_	_
+3	incorporate	incorporare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+4	leftist	leftist	ADV	B	_	3	advmod	_	_
+5	rhetorical	rhetorical	DET	DQ	Number=Sing|PronType=Int	6	det	_	_
+6	aspects	aspects	NOUN	S	Gender=Fem	1	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 129
+# text = "La Repubblica
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Repubblica	Repubblica	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

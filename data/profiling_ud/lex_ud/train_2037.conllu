@@ -1,0 +1,588 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era uno con la testa a posto.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Qualcuno potrebbe avergli fatto qualcosa, ma certo non può essere entrato in camera per sequestrarlo".
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	avergli	_	_	_	_	_	_	_	_
+3	aver	avere	VERB	V	VerbForm=Inf	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	ma	ma	CCONJ	CC	_	13	cc	_	_
+9	certo	certo	ADV	B	_	13	advmod	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	entrato	entrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	camera	camera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	sequestrarlo	_	_	_	_	_	_	_	SpaceAfter=No
+17	sequestrar	sequestrare	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La morte di Domenico Maurantonio , lo studente padovano deceduto in gita all'Expo di Milano, cadendo dal quinto piano di un albergo, è ancora avvolta dal mistero.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	morte	morte	NOUN	S	Gender=Fem|Number=Sing	30	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Domenico	Domenico	PROPN	SP	_	2	nmod	_	_
+5	Maurantonio	Maurantonio	PROPN	SP	_	4	flat:name	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	studente	studente	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	padovano	padore	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	deceduto	decedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	gita	gita	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Expo	expo	PROPN	SP	_	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Milano	Milano	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	cadendo	cadere	VERB	V	VerbForm=Ger	10	advcl	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	piano	piano	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	10	punct	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+29	ancora	ancora	ADV	B	_	30	advmod	_	_
+30	avvolta	avvolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 4
+# text = Tanti i punti oscuri che le indagini stanno cercando di chiarire.
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	3	det	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	punti	punto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	oscuri	oscuro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cercando	cercare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	chiarire	chiarire	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Uno dei più importanti è il rumore.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	importanti	importante	ADJ	A	Number=Plur	1	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Nessuno degli ospiti dell'hotel ha sentito Domenico gridare mentre precipitava.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+2-3	degli	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ospiti	ospite	NOUN	S	Number=Plur	1	nmod	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	hotel	hotel	NOUN	S	Gender=Masc	4	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Domenico	Domenico	PROPN	SP	_	9	obj	_	_
+11	gridare	gridare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+13	precipitava	precipitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = E le "prove cinetiche" disposte dalla Procura hanno appurato che il giovane è caduto "a piombo", e cioè che il volo è stato radente il muro dell’albergo.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	prove	prova	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+5	cinetiche	cinetico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	_
+7	disposte	disporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Procura	Procura	PROPN	SP	_	7	obl:agent	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	appurato	appurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giovane	giovane	NOUN	S	Number=Sing	17	nsubj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	a	a	ADP	E	_	20	case	_	_
+20	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	cioè	cioè	ADV	B	_	30	advmod	_	_
+25	che	che	SCONJ	CS	_	30	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	volo	volo	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	cop	_	_
+30	radente	radente	ADJ	A	Number=Sing	17	conj	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	muro	muro	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+33-34	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Con il sopralluogo, i consulenti dei magistrati hanno analizzato la traiettoria di caduta del corpo, grazie ad alcune simulazioni effettuate con l’uso di un manichino.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sopralluogo	sopralluogo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	consulenti	consulente	NOUN	S	Number=Plur	11	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	analizzato	analizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	traiettoria	traiettoria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	_	_
+20	grazie	grazie	NOUN	S	_	23	case	_	_
+21	ad	a	ADP	E	_	20	fixed	_	_
+22	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	simulazioni	simulazione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+24	effettuate	effettuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	uso	uso	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	manichino	manichino	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Altro elemento chiave:
+1	Altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = l'altezza della finesta.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	finesta	finesta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Più di un metro da terra.
+1	Più	più	ADV	B	_	4	advmod	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	metro	metro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Questo dettaglio sembrerebbe escludere la caduta accidentale, infatti, Domenico, deve essere salito su quel balcone.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sembrerebbe	sembrare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	escludere	escludere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	accidentale	accidentale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	infatti	infatti	ADV	B	_	15	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	Domenico	Domenico	PROPN	SP	_	15	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = "Al quinto piano si aggirava un uomo.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Al	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	piano	piano	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	aggirava	aggirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Le ragazze che hanno dormito nella camera 531, vicina alla finestra dalla quale Domenico sarebbe caduto, quando erano salite la prima volta in camera, verso le 23,30, avevano avuto difficoltà ad aprire la porta.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	36	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dormito	dormire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	camera	camera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	531	531	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	obl	_	_
+18	Domenico	Domenico	PROPN	SP	_	20	nsubj	_	_
+19	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	quando	quando	SCONJ	CS	_	24	mark	_	_
+23	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+24	salite	salire	ADJ	A	Gender=Fem|Number=Plur	20	advcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
+27	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	camera	camera	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	2	punct	_	_
+31	verso	verso	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	23,30	23,30	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	difficoltà	difficoltà	NOUN	S	Gender=Fem	36	obj	_	_
+38	ad	a	ADP	E	_	39	mark	_	_
+39	aprire	aprire	VERB	V	VerbForm=Inf	36	xcomp	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	porta	porta	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 15
+# text = Quell'uomo è arrivato alle loro spalle, ha preso la tessera e le ha aiutate.
+1	Quell'	quello	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tessera	tessera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	aiutate	aiutare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Lo hanno rivisto quando sono scese verso le 2,30:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	rivisto	rivedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	scese	scendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	2,30	2,30	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 17
+# text = era ancora vicino alla finestra.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	vicino	vicino	ADV	B	_	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Era sui 50 anni, senza capelli, con la barba.
+1	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	50	50	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	barba	barba	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Non ha mai detto una parola".
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parola	parola	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Così al settimana Panorama hanno raccontato i compagni della classe di Domenico.
+1	Così	così	ADV	B	_	7	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	Panorama	panorama	PROPN	SP	_	4	nmod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	classe	classe	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Domenico	Domenico	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = Ad infittire il mistero della morte del giovani c'è anche il livido sul braccio e tracce di Dna sotto le unghie che lascerebbero pensare ad un contatto con un altra persona.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2	infittire	infittire	VERB	V	VerbForm=Inf	12	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giovani	giovane	NOUN	S	Number=Plur	7	nmod	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	livido	livido	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Dna	Dna	PROPN	SP	_	20	nmod	_	_
+23	sotto	sotto	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	unghie	unghia	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	lascerebbero	lasceere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	pensare	pensare	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+29	ad	a	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	con	con	ADP	E	_	35	case	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	altra	altro	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	persona	persona	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 22
+# text = Altra domanda: quanto aveva bevuto Domenico prima di morire?
+1	Altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	quanto	quanto	PRON	PR	PronType=Rel	6	obj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	bevuto	bere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+7	Domenico	Domenico	PROPN	SP	_	2	appos	_	_
+8	prima	prima	ADV	B	_	10	mark	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	morire	morire	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Secondo le analisi, al momento della caduta aveva un tasso alcolemico inferiore a un grammo per litro di sangue, un livello non oltre il limite consentito.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	analisi	analisi	NOUN	S	Gender=Fem	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	alcolemico	alcolemico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	grammo	grare	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	litro	litro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	13	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	livello	livello	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	oltre	oltre	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	limite	limite	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30	consentito	consentito	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 24
+# text = Tuttavia, nello stomaco di Domenico Maurantonio è stato trovato dell’alcol che doveva ancora essere assorbito dal sangue, quindi era stato ingerito poco prima della morte.
+1	Tuttavia	tuttavia	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nello	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Domenico	Domenico	PROPN	SP	_	5	nmod	_	_
+8	Maurantonio	Maurantonio	PROPN	SP	_	7	flat:name	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+16	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+17	ancora	ancora	ADV	B	_	19	advmod	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
+19	assorbito	assorbire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	11	punct	_	_
+24	quindi	quindi	ADV	B	_	27	advmod	_	_
+25	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+26	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	ingerito	ingerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	poco	poco	ADV	B	_	32	advmod	_	_
+29	prima	prima	ADV	B	_	32	case	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	29	fixed	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	morte	morte	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 25
+# text = Alcol che, se assorbito, avrebbe portato il tasso oltre i 3,5 grammi per litro:
+1	Alcol	alcol	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	assorbito	assorbire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	oltre	oltre	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	3,5	3,5	NUM	N	NumType=Card	14	nummod	_	_
+14	grammi	grammo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	litro	litro	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = una dose da coma etilico.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dose	dosa	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	coma	coma	NOUN	S	Gender=Masc	2	nmod	_	_
+5	etilico	etilico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Dai risultati dei primi test, lo studente non avrebbe ingerito droghe.
+1-2	Dai	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	test	test	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	studente	studente	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ingerito	ingerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	droghe	droga	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

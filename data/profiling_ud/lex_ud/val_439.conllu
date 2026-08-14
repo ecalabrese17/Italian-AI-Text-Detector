@@ -1,0 +1,353 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E, diciamoci, la situazione non è rosea.
+1	E	e	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	diciamoci	diciamoce	ADV	B	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	rosea	roseo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Pausini, l'artefice di un pop commerciale che ha diluizione l'anima della canzone italiana, conferma la sua presenza.
+1	Pausini	Pausini	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	artefice	artefice	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pop	pop	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	commerciale	commerciale	ADJ	A	Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	diluizione	diluizione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	anima	anima	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = Elton John, un’icona approdata a Sanremo per un’occasione che andrebbe ben oltre la mera sponsorizzazione, e poi una manciata di volti noti, apparentemente disposti a far parte di questo circo mediatico.
+1	Elton	Elton	PROPN	SP	_	0	root	_	_
+2	John	John	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	icona	icona	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+6	approdata	approdare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Sanremo	Sanremo	PROPN	SP	_	6	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	andrebbe	andre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	ben	bene	ADV	B	_	13	advmod	_	_
+15	oltre	oltre	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	mera	mero	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	sponsorizzazione	sponsorizzazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	poi	poi	ADV	B	_	23	advmod	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	manciata	manciata	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	volti	volto	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	noti	noto	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	1	punct	_	_
+28	apparentemente	apparentemente	ADV	B	_	29	advmod	_	_
+29	disposti	disposto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	far	fare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
+35	circo	circo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	mediatico	mediatico	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Conti, nel suo delirio, si convince di poter rivalutare la musica italiana, ma in realtà sta semplicemente alimentando un’ennesima, sterile polemica.
+1	Conti	Conti	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	convince	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	poter	potere	AUX	VM	VerbForm=Inf	12	aux	_	_
+12	rivalutare	rivalutare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	musica	musica	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	ma	ma	CCONJ	CC	_	22	cc	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	realtà	realtà	NOUN	S	Gender=Fem	22	obl	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	semplicemente	semplicemente	ADV	B	_	22	advmod	_	_
+22	alimentando	alimentare	VERB	V	VerbForm=Ger	12	conj	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ennesima	ennesimo	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	sterile	sterile	ADJ	A	Number=Sing	27	amod	_	_
+27	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Un’occasione per smorzare la voce dei veri artisti, quelli che credono nella tradizione, quelli che non si vendono all’immagine e al marketing, quelli che hanno qualcosa di vero da dire.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	smorzare	smorzare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	veri	vero	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	vendono	vendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24-25	all’	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	marketing	marketing	NOUN	S	Gender=Masc	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	2	punct	_	_
+32	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	34	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	vero	vero	ADJ	A	Gender=Masc|Number=Sing	35	nmod	_	_
+38	da	da	ADP	E	_	39	mark	_	_
+39	dire	dire	VERB	V	VerbForm=Inf	37	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La "gara" è una parodia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	gara	gara	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parodia	parodia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Un concorso dove il gusto, la creatività e la profondità sono sacrificati sull’altare della popolarità.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	dove	dove	ADV	B	_	13	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	creatività	creatività	NOUN	S	Gender=Fem	5	appos	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	profondità	profondità	NOUN	S	Gender=Fem	8	conj	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	sacrificati	sacrificare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+14-15	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+14	su	su	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	altare	altare	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	popolarità	popolarità	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un omaggio, non alla canzone, ma al clickbait.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	clickbait	clickbait	NOUN	S	Gender=Masc	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Un’inutile dimostrazione di che cosa non vogliamo più vedere:
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	inutile	inutile	ADJ	A	Number=Sing	3	amod	_	_
+3	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 10
+# text = un’ecatomorfosi della serietà, un’offesa alla memoria di De Gregori, di Battisti, di Cohen, di tutti coloro che hanno reso la musica italiana un patrimonio.
+1	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ecatomorfosi	ecatomorfoso	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	serietà	serietà	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	offesa	offesa	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	De	De	PROPN	SP	_	11	nmod	_	_
+14	Gregori	Gregori	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Battisti	Battisti	PROPN	SP	_	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Cohen	Cohen	PROPN	SP	_	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	8	punct	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	8	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	musica	musica	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E non si può non notare le contestazioni.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	notare	notare	VERB	V	VerbForm=Inf	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	contestazioni	contestazioni	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = L’accusa di elitarismo, di cricca, di favoritismi, è già alzata da figure autorevoli e da un pubblico sempre più disilluso.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	elitarismo	elitarismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cricca	cricca	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	favoritismi	favoritismo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+13	già	già	ADV	B	_	14	advmod	_	_
+14	alzata	alzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	figure	figura	NOUN	S	Gender=Fem|Number=Plur	14	obl:agent	_	_
+17	autorevoli	autorevole	ADJ	A	Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+22	sempre	sempre	ADV	B	_	23	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	disilluso	disilluso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 13
+# text = La verità è che Sanremo, in ogni sua forma, è un’istituzione contaminata, un terreno fertile per le ambizioni personali e per gli interessi economici.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	14	mark	_	_
+5	Sanremo	Sanremo	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	istituzione	istituzione	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+15	contaminata	contaminare	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+19	fertile	fertile	ADJ	A	Number=Sing	18	amod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	ambizioni	ambizioni	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+23	personali	personale	ADJ	A	Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+28	economici	economico	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Non è una critica all’evento in sé,
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	critica	critico	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	evento	evento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+

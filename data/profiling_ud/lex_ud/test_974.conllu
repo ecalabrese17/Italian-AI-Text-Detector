@@ -1,0 +1,339 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma stavolta, l’impressione è diversa.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	stavolta	stavolta	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Non è la solita sensazione di un lavoro incompiuto, di obiettivi sfuggiti tra le maglie di un’agenda troppo ambiziosa.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	solita	solito	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	incompiuto	incompiuto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+13	sfuggiti	sfuggire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	tra	tra	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	maglie	maglia	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	agenda	agenda	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	troppo	troppo	ADV	B	_	21	advmod	_	_
+21	ambiziosa	ambizioso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = È una scossa sorda, un presentimento che forse, con questo format, siamo arrivati al capolinea.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scossa	scossa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	sorda	sordo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presentimento	presentimento	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+8	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+9	forse	forse	ADV	B	_	16	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	format	format	NOUN	S	Gender=Masc	16	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	capolinea	capolinea	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Perché l'ombra lunga della guerra in Ucraina, certo, era presente, dominante, condizionante.
+1	Perché	perché	ADV	B	_	14	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Ucraina	Ucraina	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	certo	certo	ADV	B	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	presente	presente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	dominante	dominante	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	condizionante	condizionante	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Ma non è stata la sola a gettare un velo di malinconia sul vertice pugliese.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	gettare	gettare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	velo	velo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vertice	vertice	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+16	pugliese	pugliese	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = È la crescente frattura transatlantica, poi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	crescente	crescente	ADJ	A	Number=Sing	4	amod	_	_
+4	frattura	frattura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	transatlantica	transatlantico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = L’America di Biden che guarda sempre più al proprio interno, assorbita da una campagna elettorale ossessiva e da una polarizzazione che la paralizza.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	America	America	PROPN	SP	_	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Biden	Biden	PROPN	SP	_	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	più	più	ADV	B	_	6	advmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	interno	interno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	assorbita	assorbire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	_
+18	elettorale	elettorale	ADJ	A	Number=Sing	17	amod	_	_
+19	ossessiva	ossessivo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	polarizzazione	polarizzazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	paralizza	paralizza	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un’America meno garante dell’ordine internazionale liberale, più incline ad un isolazionismo che lascia l’Europa con la sensazione di ritrovarsi, ancora una volta, ad affrontare le tempeste da sola.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	America	America	PROPN	SP	_	0	root	_	_
+3	meno	meno	ADV	B	_	4	advmod	_	_
+4	garante	garante	ADJ	A	Number=Sing	2	amod	_	_
+5-6	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	internazionale	internazionale	ADJ	A	Number=Sing	7	amod	_	_
+9	liberale	liberale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	incline	incline	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	isolazionismo	isolazionismo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Europa	Europa	PROPN	SP	_	17	obj	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	ritrovarsi	_	_	_	_	_	_	_	SpaceAfter=No
+24	ritrovar	ritrovare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	ancora	ancora	ADV	B	_	29	advmod	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	24	punct	_	_
+31	ad	a	ADP	E	_	32	mark	_	_
+32	affrontare	affrontare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	sola	solo	ADJ	A	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E l’Europa, d’altro canto?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Europa	Europa	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	d’	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	canto	canto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Si è aggrappata con forza a Volodymyr Zelenskyy, dimostrando una solidarietà encomiabile.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	aggrappata	aggrappare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	forza	forza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Volodymyr	Volodymyr	PROPN	SP	_	3	obl	_	_
+8	Zelenskyy	Zelenskyy	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	dimostrando	dimostrare	VERB	V	VerbForm=Ger	3	advcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	solidarietà	solidarietà	NOUN	S	Gender=Fem	10	obj	_	_
+13	encomiabile	encomiabile	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ma ha mostrato anche, e con spietata chiarezza, la propria incapacità di tradurre quella solidarietà in azioni concrete, in una vera e propria strategia di difesa comune.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	spietata	spietato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	incapacità	incapacità	NOUN	S	Gender=Fem	3	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	tradurre	tradurre	VERB	V	VerbForm=Inf	13	acl	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	solidarietà	solidarietà	NOUN	S	Gender=Fem	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	concrete	concreto	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	in	in	ADP	E	_	27	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+24	vera	vero	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	_
+27	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	comune	comune	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = L’accordo sulla riutilizzazione degli asset russi congelati, pur importante, è arrivato in ritardo e con troppi dubbi sulla sua effettiva implementazione.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	riutilizzazione	riutilizzazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	asset	asset	NOUN	S	_	5	nmod	_	_
+9	russi	russo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	congelati	congelare	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	pur	pure	ADV	B	_	13	advmod	_	_
+13	importante	importante	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	27	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+26	effettiva	effettivo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	implementazione	implementazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Poi c’è la questione del cambiamento climatico, il vero nodo gordiano.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vero	vero	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	nodo	nodo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+14	gordiano	gordiano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Le parole sono state tante, gli impegni vaghi, le azioni insufficienti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	cop	_	_
+5	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det:predet	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+9	vaghi	vago	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+13	insufficienti	insufficiente	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = Il divario tra le promesse e la realtà è diventato incolmabile, e la
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	divario	divario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	realtà	realtà	NOUN	S	Gender=Fem	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	incolmabile	incolmabile	ADJ	A	Number=Sing	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	conj	_	SpacesAfter=\n
+

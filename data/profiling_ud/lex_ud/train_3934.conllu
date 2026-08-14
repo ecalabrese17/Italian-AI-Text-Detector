@@ -1,0 +1,519 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutto nasce da un fuorionda - intercettato dalla testata Borderline 24 - che ha come protagonista Giovanni Giannini , assessore regionale ai Lavori pubblici e ai trasporti della Puglia.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fuorionda	fuorionda	NOUN	S	Gender=Masc	2	obl	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	intercettato	intercettato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	testata	testata	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	Borderline	Borderline	PROPN	SP	_	10	nmod	_	_
+12	24	24	NUM	N	NumType=Card	11	nummod	_	_
+13	-	-	PUNCT	FB	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	protagonista	protagonista	NOUN	S	Number=Sing	15	obl	_	_
+18	Giovanni	Giovanni	PROPN	SP	_	17	nmod	_	_
+19	Giannini	Giannini	PROPN	SP	_	18	flat:name	_	_
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	regionale	regionale	ADJ	A	Number=Sing	21	amod	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+26	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	ai	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Puglia	Puglia	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Si sente Giannini che parla con il sindaco di Bari Antonio Decaro e con un imprenditore e dice di Barbara Lezzi , ministra per il Sud dei Cinquestelle:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Giannini	Giannini	PROPN	SP	_	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Bari	Bari	PROPN	SP	_	8	nmod	_	_
+11	Antonio	Antonio	PROPN	SP	_	5	obj	_	_
+12	Decaro	Decaro	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	imprenditore	imprenditore	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Barbara	Barbara	PROPN	SP	_	18	obl	_	_
+21	Lezzi	Lezzi	PROPN	SP	_	20	flat:name	_	_
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	20	appos	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Sud	Sud	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Cinquestelle	Cinquestelle	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = "Ma là era roba da prenderla a schiaffoni".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	là	là	ADV	B	_	5	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	roba	robare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7-8	prenderla	_	_	_	_	_	_	_	_
+7	prender	prendere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	schiaffoni	schiaffone	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Faceva riferimento allo scontro andato in scena il 23 luglio - nella sede della Regione - tra Lezzi e il governatore Emiliano sul gasdotto pugliese.
+1	Faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	allo	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	23	23	NUM	N	NumType=Card	6	obl	_	_
+11	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	_
+12	-	-	PUNCT	FB	_	15	punct	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sede	sede	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Regione	regione	PROPN	SP	_	15	nmod	_	_
+19	-	-	PUNCT	FB	_	15	punct	_	_
+20	tra	tra	ADP	E	_	21	case	_	_
+21	Lezzi	Lezzi	PROPN	SP	_	1	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	governatore	governatore	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+25	Emiliano	Emiliano	PROPN	SP	_	24	nmod	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	gasdotto	gasdotto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29	pugliese	pugliese	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = A far infuriare la ministra era stata la scelta di Emiliano di chiedere aiuto su Facebook al pentastellato Alessandro Di Battista per spostare l'approdo del gasdotto Tap dalla spiaggia di Melendugno (Lecce).
+1	A	a	ADP	E	_	2	mark	_	_
+2	far	fare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+3	infuriare	infuriare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Emiliano	Emiliano	PROPN	SP	_	9	nmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	chiedere	chiedere	VERB	V	VerbForm=Inf	9	acl	_	_
+14	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	su	su	ADP	E	_	16	case	_	_
+16	Facebook	Facebook	PROPN	SP	_	13	nmod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pentastellato	pentastellato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20	Alessandro	Alessandro	PROPN	SP	_	19	nmod	_	_
+21	Di	Di	PROPN	SP	_	20	flat:name	_	_
+22	Battista	Battista	PROPN	SP	_	20	flat:name	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	spostare	spostare	VERB	V	VerbForm=Inf	13	advcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	approdo	approdo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	gasdotto	gasdotto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	Tap	Tap	PROPN	SP	_	29	nmod	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Melendugno	Melendugno	PROPN	SP	_	29	nmod	_	_
+36	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	Lecce	Lecce	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Una richiesta che Lezzi definì una "bella sceneggiata".
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	Lezzi	Lezzi	PROPN	SP	_	5	nsubj	_	_
+5	definì	definire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	bella	bello	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	sceneggiata	sceneggiata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Emiliano, a quel punto, le diede della "maleducata".
+1	Emiliano	Emiliano	ADJ	A	Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	8	obj	_	_
+8	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	maleducata	maleducata	ADJ	A	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Scontro tra la ministra Lezzi e il governatore Emiliano:
+1	Scontro	scontro	ADP	E	_	4	case	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	Lezzi	Lezzi	PROPN	SP	_	4	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governatore	governatore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	Emiliano	Emiliano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = in conferenza stampa volano gli insulti.
+1	in	in	ADP	E	_	2	case	_	_
+2	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+4	volano	volare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ora il Movimento 5 Stelle pubblica su Fb lo spezzone video incriminato e attacca:
+1	Ora	ora	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Movimento	Movimento	PROPN	SP	_	6	nsubj	_	_
+4	5	5	NUM	N	NumType=Card	3	flat:name	_	_
+5	Stelle	Stelle	PROPN	SP	_	3	flat:name	_	_
+6	pubblica	pubblicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	Fb	Fb	PROPN	SP	_	6	obl	_	_
+9	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+10	spezzone	spezzone	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+11	video	video	NOUN	S	Gender=Masc	10	obj	_	_
+12	incriminato	incriminare	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = "Sì, avete capito bene!
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Affermazione di una gravità inaudita!".
+1	Affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gravità	gravità	NOUN	S	Gender=Fem	1	nmod	_	_
+5	inaudita	inaudita	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = "E aggiunge:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	3	cc	_	_
+3	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = "Imbarazzante è stata anche la 'non' reazione del sindaco del Pd di Bari, Antonio Decaro, rimasto in silenzio ascoltando queste vergognose minacce!
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Imbarazzante	Imbarazzante	PRON	PQ	Gender=Fem|Number=Plur|PronType=Int	9	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+5	anche	anche	ADV	B	_	9	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	non'	nono	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pd	pd	PROPN	SP	_	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Bari	Bari	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	Antonio	Antonio	PROPN	SP	_	9	appos	_	_
+20	Decaro	Decaro	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+25	ascoltando	ascoltare	VERB	V	VerbForm=Ger	22	advcl	_	_
+26	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
+27	vergognose	vergognoso	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+28	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+29	!	!	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Siamo vicini alla nostra Barbara Lezzi...
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vicini	vicino	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Barbara	Barbara	PROPN	SP	_	2	obl	_	_
+7	Lezzi...	Lezzi...	PROPN	SP	_	0	root	_	_
+
+# sent_id = 16
+# text = ma sappiamo che sa difendersi benissimo anche da sola".
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	sa	sapere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	difendersi	_	_	_	_	_	_	_	_
+5	difender	difendere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	benissimo	bene	ADV	B	Degree=Abs	5	advmod	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Interviene anche il presidente della Camera, Roberto Fico:
+1	Interviene	intervenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Camera	Camera	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	Roberto	Roberto	PROPN	SP	_	4	appos	_	_
+10	Fico	Fico	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 18
+# text = "Inqualificabili le parole usate nei confronti di Barbara Lezzi, ancor di più perchè provengono da un esponente delle istituzioni.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Inqualificabili	Inqualificabile	ADJ	A	Number=Plur	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	usate	usare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Barbara	Barbara	PROPN	SP	_	8	nmod	_	_
+11	Lezzi	Lezzi	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	ancor	ancora	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	17	advmod	_	_
+16	perchè	perché	SCONJ	CS	_	17	mark	_	_
+17	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	esponente	esponente	NOUN	S	Number=Sing	17	obl	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Al ministro va tutta la mia solidarietà".
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	solidarietà	solidarietà	NOUN	S	Gender=Fem	4	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Inqualificabili le parole usate nei confronti di @BarbaraLezzi , ancor di più perché provengono da un esponente delle istituzioni.
+1	Inqualificabili	Inqualificabile	ADJ	A	Number=Plur	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+4	usate	usare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	@BarbaraLezzi	@BarbaraLezzi	PROPN	SP	_	7	nmod	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	ancor	ancora	ADV	B	_	15	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	più	più	ADV	B	_	11	advmod	_	_
+14	perché	perché	SCONJ	CS	_	15	mark	_	_
+15	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	esponente	esponente	NOUN	S	Number=Sing	15	obl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Al ministro va tutta la mia solidarietà.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	solidarietà	solidarietà	NOUN	S	Gender=Fem	4	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = — Roberto Fico (@Roberto_Fico) September 1, 2018 I 5 Stelle, su twitter, si rivolgono al segretario dem Maurizio Martina :
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Roberto	Roberto	PROPN	SP	_	19	nsubj	_	_
+3	Fico	Fico	PROPN	SP	_	2	flat:name	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	@Roberto_Fico	@Roberto_Fico	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	September	September	PROPN	SP	_	2	flat:name	_	_
+8	1	1	NUM	N	NumType=Card	2	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	2018	2018	NUM	N	NumType=Card	13	nummod	_	_
+11	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	5	5	NUM	N	NumType=Card	10	flat	_	_
+13	Stelle	Stelle	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	su	su	ADP	E	_	16	case	_	_
+16	twitter	twitter	NOUN	S	Gender=Masc	19	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	rivolgono	rivolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	dem	dem	NOUN	S	Gender=Masc	22	compound	_	_
+24	Maurizio	Maurizio	PROPN	SP	_	22	nmod	_	_
+25	Martina	Martina	PROPN	SP	_	24	flat:name	_	_
+26	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 23
+# text = "Caro Maurizio Martina, in occasione della manifestazione che state organizzando a Roma contro l'odio parlerete anche delle gravissime minacce che il vostro assessore Giannini, esponente Pd in Puglia, ha rivolto alla ministra Barbara Lezzi?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Maurizio	Maurizio	PROPN	SP	_	2	nmod	_	_
+4	Martina	Martina	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj:pass	_	_
+12	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	organizzando	organizzare	VERB	V	VerbForm=Ger	10	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Roma	Roma	PROPN	SP	_	13	obl	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	odio	odio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	parlerete	parlereto	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+20	anche	anche	ADV	B	_	24	advmod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	gravissime	grave	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	24	amod	_	_
+24	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	37	obj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+29	Giannini	Giannini	PROPN	SP	_	28	appos	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	esponente	esponente	NOUN	S	Number=Sing	29	appos	_	_
+32	Pd	Pd	PROPN	SP	_	31	nmod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	Puglia	Puglia	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	28	punct	_	_
+36	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+41	Barbara	Barbara	PROPN	SP	_	40	nmod	_	_
+42	Lezzi	Lezzi	PROPN	SP	_	41	flat:name	_	SpaceAfter=No
+43	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,410 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parole che hanno subito scatenato la reazione di alcuni tifosi che hanno ricordato come in passato lo stesso Buffon aveva fatto festa per alcune socnfitte dell'Inter.
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	subito	subito	ADV	B	_	5	advmod	_	_
+5	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	come	come	ADV	B	_	21	advmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	passato	passato	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	Buffon	Buffon	PROPN	SP	_	21	nsubj	_	_
+20	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+22	festa	festa	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	socnfitte	socnfitta	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	Inter	Inter	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma a riaccendere le polemiche è un tweet di Maurizio Pistocchi che cinguetta:
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	riaccendere	riaccendere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tweet	tweet	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Maurizio	Maurizio	PROPN	SP	_	8	nmod	_	_
+11	Pistocchi	Pistocchi	PROPN	SP	_	10	flat:name	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	cinguetta	cinguettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = "Grande portiere Buffon.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Grande	grande	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Buffon	Buffon	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Su tutto il resto,meglio stendere un velo.
+1	Su	su	ADP	E	_	4	case	_	_
+2	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	resto,meglio	resto,meglio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	stendere	stendere	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	velo	velo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Pietoso".
+1	Pietoso	pietoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il tutto accompagnato da una foto in cui il portiere bianconero mostra lo striscione "5 maggio godo ancora".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	foto	foto	NOUN	S	Gender=Fem	3	obl:agent	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	bianconero	bianconero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	striscione	striscione	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	5	5	NUM	N	NumType=Card	17	nummod	_	_
+17	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+18	godo	godo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+19	ancora	ancora	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Le parole di pistocchi però non sono state gradite dai suoi follower.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	pistocchi	pistocco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	però	però	ADV	B	_	9	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	gradite	gradire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	dai	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	follower	follower	NOUN	S	Gender=Masc	9	obl:agent	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Uno in particolare ha dato il via ad un vero e proprio duello a colpi di tweet col giornalista:
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	ad	a	ADP	E	_	13	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	_
+13	duello	duello	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	tweet	tweet	NOUN	S	_	15	nmod	_	_
+18-19	col	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	giornalista	giornalista	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = "Leggo sul suo profilo praticamente solo post contro la Juve.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Leggo	Leggo	PROPN	SP	_	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	praticamente	praticamente	ADV	B	_	12	advmod	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	post	post	ADV	B	_	12	advmod	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Juve	Juve	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Complimenti per l'obiettività", scrive un utente.
+1	Complimenti	complimento	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	obiettività	obiettività	NOUN	S	Gender=Fem	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	utente	utente	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Pronta la risposta di Pistocchi:
+1	Pronta	prontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Pistocchi	Pistocchi	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Con gli analfabeti funzionali non perdo più tempo.Li lascio al loro destino".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	analfabeti	analfabeta	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+5	funzionali	funzionale	ADJ	A	Number=Plur	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	perdo	perdare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	tempo.Li	tempo.li	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	lascio	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	destino	destino	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Apriti cielo.
+1	Apriti	Aprito	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	cielo	cielo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = L'utente ribatte:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	utente	utente	ADJ	A	Number=Sing	3	amod	_	_
+3	ribatte	ribatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = "Guardi che 'imbecille', 'idiota', 'mentecatto' li conosco come termini, tento il confronto ma mi accorgo che non ha argomenti.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Guardi	guardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	imbecille	imbecillo	ADJ	A	Number=Sing	2	ccomp	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	idiota	idioto	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	'	'	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	mentecatto	mentecatto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	13	punct	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+16	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	termini	termine	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	tento	tento	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	expl	_	_
+25	accorgo	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	che	che	SCONJ	CS	_	28	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+29	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Ubi maior...".
+1	Ubi	Ubo	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	maior...	maior.	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Pistocchi replica:
+1	Pistocchi	Pistocco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	replica	replico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 18
+# text = "Mai usato questi termini.Non mi appartengono nè per cultura nè per educazione.Al confronto sono sempre disponibile,ma non con i bugiardi".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mai	mai	ADV	B	_	3	advmod	_	_
+3	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	termini.Non	termini.Non	PROPN	SP	_	3	obj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	appartengono	appartenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	nè	né	CCONJ	CC	_	10	cc	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+11	nè	né	CCONJ	CC	_	14	cc	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	educazione.Al	educazione.Al	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	disponibile,ma	disponibile,mare	ADV	B	_	21	advmod	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	bugiardi	bugiardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 19
+# text = Poi però interviene un altro utente che supera ogni limite e insulta direttamente Pistocchi:
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	però	però	ADV	B	_	3	advmod	_	_
+3	interviene	intervenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	utente	utente	NOUN	S	Number=Sing	3	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	limite	limite	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	insulta	insultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	direttamente	direttamente	ADV	B	_	12	advmod	_	_
+14	Pistocchi	Pistocchi	PROPN	SP	_	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = "Sei un uomo di m***, un giornalaio del c***...facile parlare bene quando ti fa vincere un mondiale, figlio di t***".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	m***	m***	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giornalaio	giornalaio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	c***...facile	c***...facile	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	parlare	parlare	VERB	V	VerbForm=Inf	4	parataxis	_	_
+14	bene	bene	ADV	B	_	13	advmod	_	_
+15	quando	quando	SCONJ	CS	_	17	mark	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	iobj	_	_
+17	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	vincere	vincere	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mondiale	mondiale	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	t***	t***	PUNCT	FF	_	22	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = A questo punto la discussone degenera e Pistocchi passa al contrattacco con signorilità:
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	discussone	discussone	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	degenera	degenero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Pistocchi	Pistocchi	PROPN	SP	_	5	conj	_	_
+9	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contrattacco	contrattacco	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	signorilità	signorilità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 22
+# text = "Screen-shot fatto.Ne parliamo in Tribunale".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Screen	Screen	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	-	-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	shot	shot	SYM	X	_	6	nsubj	_	_
+5	fatto.Ne	fatto.ne	PROPN	SP	_	4	flat:name	_	_
+6	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = (Clicca qui per leggere il botta e risposta) Grande portiere, https://t.co/zLyuntQL1R tutto il resto,meglio stendere un velo.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Clicca	cliccare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	leggere	leggere	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	botta	botta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	2	punct	_	_
+11	Grande	grande	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	https://t.co/zLyuntQL1R	https://t.co/zLyuntQL1R	PROPN	SP	_	17	nmod	_	_
+15	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	resto,meglio	resto,meglio	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+18	stendere	stendere	VERB	V	VerbForm=Inf	17	acl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	velo	velo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Pietoso.
+1	Pietoso	pietoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = pic.twitter.com/h3W7RuoAry — Maurizio Pistocchi (@pisto_gol) 11 giugno 2017
+1	pic.twitter.com/h3W7RuoAry	pic.twitter.com/h3W7RuoAry	PROPN	SP	_	0	root	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Maurizio	Maurizio	PROPN	SP	_	1	nmod	_	_
+4	Pistocchi	Pistocchi	PROPN	SP	_	3	flat:name	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	@pisto_gol	@pisto_goal	NOUN	S	_	3	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	11	11	NUM	N	NumType=Card	1	nmod	_	_
+9	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	_
+10	2017	2017	NUM	N	NumType=Card	8	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,216 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In poche ore, l’Italia è stata strappata dalla sfera del clima a quella del disagio umano.
+1	In	in	ADP	E	_	3	case	_	_
+2	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Italia	Italia	PROPN	SP	_	9	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	strappata	strappare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	clima	clima	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	umano	umano	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = A Milano, Bologna e Roma, i cantiere delle strade sono stati ridotti a un’immensa e silente battaglia di cedimenti.
+1	A	a	ADP	E	_	2	case	_	_
+2	Milano	Milano	PROPN	SP	_	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Bologna	Bologna	PROPN	SP	_	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Roma	Roma	PROPN	SP	_	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cantiere	cantiere	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	strade	strada	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	ridotti	ridurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	a	a	ADP	E	_	21	case	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+18	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	silente	silente	ADJ	A	Number=Sing	18	conj	_	_
+21	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	cedimenti	cedimento	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Le grandinate, vere e proprie bombe di neve e pioggia, hanno colpito direttamente i colli urbani, colpendo macellai, residenze e aziende.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	grandinate	grandinato	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vere	vere	VERB	V	VerbForm=Inf	2	conj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	bombe	bomba	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	neve	neve	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	direttamente	direttamente	ADV	B	_	14	advmod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	colli	colle	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18	urbani	urbano	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	colpendo	colpire	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	macellai	macellai	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	residenze	residenza	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = A Verona, un’immensa zona residenziale è stata incenerita dal ristagno di fango e acque che hanno invaso appartamenti.
+1	A	a	ADP	E	_	2	case	_	_
+2	Verona	Verona	PROPN	SP	_	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	zona	zona	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+7	residenziale	residenziale	ADJ	A	Number=Sing	6	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	incenerita	incenerire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ristagno	ristagno	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fango	fango	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	acque	acqua	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	invaso	invadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	appartamenti	appartamento	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Sempre a nord, le scuole sono state chiuse in modo generale, mentre le autostrade sono state bloccate in punti strategici.
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	nord	nord	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	chiuse	chiudere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	generale	generale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	mentre	mentre	SCONJ	CS	_	19	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	autostrade	autostrada	NOUN	S	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	bloccate	bloccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	punti	punto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	strategici	strategico	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Il sistema di emergenza, in parte già provato dagli eventi recenti, ha risposto in modo disorganizzato, con ritardi nella distribuzione di provvisioni e mancanza di mobilitazione dei volontari di zone rurali.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+8	già	già	ADV	B	_	9	advmod	_	_
+9	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+10-11	dagli	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+13	recenti	recente	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	modo	modo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	disorganizzato	disorganizzato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	ritardi	ritardo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	provvisioni	provvisione	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	mobilitazione	mobilitazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	zone	zona	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+37	rurali	rurale	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Mentre qui il cielo si è aperto con furore, al sud, una situazione diversa sta svolgendosi.
+1	Mentre	mentre	SCONJ	CS	_	7	mark	_	_
+2	qui	qui	ADV	B	_	7	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	furore	furore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sud	sud	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	svolgendosi	_	_	_	_	_	_	_	SpaceAfter=No
+19	svolgendo	svolgere	VERB	V	VerbForm=Ger	0	root	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 8
+# text = A Napoli e Catania
+1	A	a	ADP	E	_	2	case	_	_
+2	Napoli	Napoli	PROPN	SP	_	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Catania	Catania	PROPN	SP	_	2	conj	_	SpacesAfter=\n
+

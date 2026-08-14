@@ -1,0 +1,629 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "L'Occidente dovrà dire da che parte sta, prima o poi.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Occidente	occidente	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	prima	prima	ADV	B	_	9	advmod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	poi	poi	ADV	B	_	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = È evidente che negli ultimi tempi i diritti umani, nelle discussioni internazionali, hanno perso sempre più peso a favore di stabilità economica e sicurezza.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	18	mark	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+10	umani	umano	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12-13	nelle	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	discussioni	discussione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+15	internazionali	internazionale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	csubj	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	peso	peso	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	favore	favore	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	stabilità	stabilità	NOUN	S	Gender=Fem	23	nmod	_	_
+26	economica	economico	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Per esempio, il presidente americano Trump ha commesso un errore a puntare esclusivamente su questi due temi.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	americano	americano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	Trump	Trump	PROPN	SP	_	5	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	errore	errore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	puntare	puntare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	esclusivamente	esclusivamente	ADV	B	_	13	advmod	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	temi	tema	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = I nostri valori devono essere chiari, sempre".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	valori	valore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	chiari	chiaro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma anche molti altri paesi europei, la Germania innanzitutto, hanno legami sempre più stretti con Pechino, come abbiamo visto al G20.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+4	altri	altro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+6	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Germania	Germania	PROPN	SP	_	5	nmod	_	_
+10	innanzitutto	innanzitutto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	legami	legamare	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	stretti	stretto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	Pechino	Pechino	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	come	come	SCONJ	CS	_	22	mark	_	_
+21	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	G20	G20	PROPN	SP	_	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = L'Occidente ha un approccio troppo morbido con i cinesi?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Occidente	occidente	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	morbido	morbido	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cinesi	cinese	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "Sì.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ma è anche vero che, in questi casi, la linea dura spesso non porta molti risultati concreti.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	16	advcl	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	casi	caso	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	linea	linea	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	dura	duro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+14	spesso	spesso	ADV	B	_	13	advmod	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 9
+# text = Il dialogo tra paesi, anche se principalmente su temi come economia e sicurezza, può aiutare a far filtrare il rispetto dei diritti umani, soprattutto grazie agli scambi e alla circolazione di lavoratori.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	tra	tra	ADP	E	_	4	case	_	_
+4	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	anche	anche	ADV	B	_	17	mark	_	_
+7	se	se	SCONJ	CS	_	6	fixed	_	_
+8	principalmente	principalmente	ADV	B	_	10	advmod	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	temi	tema	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	economia	economia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	far	fare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	filtrare	filtrare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	umani	umano	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	soprattutto	soprattutto	ADV	B	_	32	advmod	_	_
+29	grazie	grazie	NOUN	S	_	32	case	_	_
+30-31	agli	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	scambi	scambio	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 10
+# text = Alla lunga questa sensibilità arriverà anche a Pechino.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	5	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	sensibilità	sensibilità	NOUN	S	Gender=Fem	6	obl	_	_
+6	arriverà	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Pechino	Pechino	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Ma sono in primo luogo i cinesi a doversi attivare.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cinesi	cinese	NOUN	S	Number=Plur	5	nsubj	_	_
+8	a	a	ADP	E	_	11	mark	_	_
+9-10	doversi	_	_	_	_	_	_	_	_
+9	dover	dovere	AUX	VM	VerbForm=Inf	11	aux	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	attivare	attivare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Dall'esterno, al di là delle belle frasi, non si può fare molto".
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	là	là	ADV	B	_	12	advmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	belle	bello	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+18	molto	molto	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 13
+# text = Prima del suo arresto nel 2008, Liu Xiaobo era sotto sorveglianza ma era un uomo libero, poteva comunicare con il mondo esterno.
+1	Prima	prima	ADV	B	_	5	case	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2008	2008	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	Liu	Liu	PROPN	SP	_	14	nsubj	_	_
+11	Xiaobo	Xiaobo	PROPN	SP	_	10	flat:name	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	sotto	sotto	ADP	E	_	14	case	_	_
+14	sorveglianza	sorveglianza	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+19	libero	libero	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	comunicare	comunicare	VERB	V	VerbForm=Inf	0	root	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	esterno	esterno	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 14
+# text = I diritti umani in Cina, prima con Hu Jintao e poi con Xi Jinping, vengono calpestati sempre di più?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	18	nsubj:pass	_	_
+3	umani	umano	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Cina	Cina	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	prima	prima	ADV	B	_	9	advmod	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	Hu	Hu	PROPN	SP	_	2	nmod	_	_
+10	Jintao	Jintao	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	poi	poi	ADV	B	_	14	advmod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Xi	Xi	PROPN	SP	_	9	conj	_	_
+15	Jinping	Jinping	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	calpestati	calpestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	più	più	ADV	B	_	18	advmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = "Non c'è dubbio che Xi ha puntato molto sulla sicurezza interna, rafforzato gli apparati di polizia, creato una Commissione nazionale sulla sicurezza e stretto severamente le maglie della censura a scapito delle libertà individuali.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	Xi	Xi	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	puntato	puntare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	molto	molto	ADV	B	_	9	advmod	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	interna	interno	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	rafforzato	rafforzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	apparati	apparato	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	nazionale	nazionale	ADJ	A	Number=Sing	24	amod	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	stretto	strettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+31	severamente	severo	ADV	B	_	30	advmod	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	maglie	maglia	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	censura	censura	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	scapito	scapito	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	libertà	libertà	NOUN	S	Gender=Fem	38	nmod	_	_
+42	individuali	individuale	ADJ	A	Number=Plur	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Il controllo sulla società cinese è sempre più severo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	società	società	NOUN	S	Gender=Fem	2	nmod	_	_
+6	cinese	cinese	ADJ	A	Number=Sing	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	sempre	sempre	ADV	B	_	10	advmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	severo	severo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = Ma è anche vero che su aspettative di vita e sociali dei ceti medio-bassi, Pechino ha fatto molti progressi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	21	mark	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sociali	sociale	ADJ	A	Number=Plur	9	conj	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ceti	ceto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+15	medio	medio	ADJ	A	_	14	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	Pechino	Pechino	PROPN	SP	_	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+22	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Anche questi sono diritti umani".
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	3	ccomp	_	_
+5	umani	umano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Crede che la morte di Liu Xiaobo posso incendiare nuove proteste in Cina, come nell'89?
+1	Crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Liu	Liu	PROPN	SP	_	4	nmod	_	_
+7	Xiaobo	Xiaobo	PROPN	SP	_	6	flat:name	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	incendiare	incendiare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+10	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Cina	Cina	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	nell'89	nell'89	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = "No. Piazza Tiananmen avvenne anche a causa dell'economia fragile e dell'inflazione, che avevano spinto alla rivolta i colletti blu, oltre agli attivisti per la democrazia.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
+3	.	.	PUNCT	FF	_	2	punct	_	_
+4	Piazza	Piazzo	PROPN	SP	_	6	nsubj	_	_
+5	Tiananmen	Tiananmen	PROPN	SP	_	4	flat:name	_	_
+6	avvenne	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	causa	causa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	economia	economia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	fragile	fragile	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	inflazione	inflazione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	colletti	colletto	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+27	blu	blu	ADJ	A	_	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	6	punct	_	_
+29	oltre	oltre	ADV	B	_	32	case	_	_
+30-31	agli	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Oggi la situazione è molto diversa".
+1	Oggi	oggi	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Il Dipartimento di Stato americano ha condannato la morte di Liu e ha chiesto la liberazione della moglie Xia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	americano	americano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	morte	morte	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Liu	Liu	PROPN	SP	_	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	Xia	Xia	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = I rapporti Stati Uniti-Cina cambieranno?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	Stati	Stati	PROPN	SP	_	2	nmod	_	_
+4	Uniti-Cina	Uniti-Cina	PROPN	SP	_	3	flat:name	_	_
+5	cambieranno	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = E come?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	come	come	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = "L'incontro di aprile tra Xi e Trump è stato positivo, il caso Corea del Nord ha riavvicinato i due paesi.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	Xi	Xi	PROPN	SP	_	3	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Trump	Trump	PROPN	SP	_	7	conj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+12	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	caso	caso	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+16	Corea	Corea	PROPN	SP	_	15	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Nord	Nord	PROPN	SP	_	16	nmod	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	riavvicinato	riavvicinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 26
+# text = Ma entrambi rialzeranno presto i toni.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+3	rialzeranno	rialzere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	presto	presto	ADV	B	_	3	advmod	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	toni	tono	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Perché a Xi scade il mandato l'anno prossimo, mentre Trump ha i suoi gravi problemi interni.
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Xi	Xi	PROPN	SP	_	4	obl	_	_
+4	scade	scadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mandato	mandato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+12	Trump	Trump	PROPN	SP	_	13	nsubj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	gravi	grave	ADJ	A	Number=Plur	17	amod	_	_
+17	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+18	interni	interno	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Entrambi dovranno sfoggiare una certa durezza, e dunque le relazioni tra Pechino e Washington saranno sempre più tese.
+1	Entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	sfoggiare	sfoggiare	VERB	V	VerbForm=Inf	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	certa	certo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	durezza	durezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	19	punct	_	_
+8	e	e	CCONJ	CC	_	19	cc	_	_
+9	dunque	dunque	ADV	B	_	19	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	relazioni	relazione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+12	tra	tra	ADP	E	_	13	case	_	_
+13	Pechino	Pechino	PROPN	SP	_	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Washington	Washington	PROPN	SP	_	13	conj	_	_
+16	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	tese	tese	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Chissà con quali conseguenze".
+1	Chissà	chissà	INTJ	I	_	4	discourse	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	quali	quale	DET	DQ	Number=Plur|PronType=Int	4	det	_	_
+4	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

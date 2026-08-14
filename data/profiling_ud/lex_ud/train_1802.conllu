@@ -1,0 +1,581 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel corso della sua intervista Tria ha dichiarato:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	Tria	Tria	PROPN	SP	_	7	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = “L’euro è una forza unificatrice.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	euro	euro	NOUN	S	Gender=Masc	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	forza	forza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	unificatrice	unificatore	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Permette al nostro paese di competere su scala europea senza il rischio di svalutazioni incontrollate.
+1	Permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	paese	paese	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	competere	competere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	scala	scala	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	senza	senza	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	svalutazioni	svalutazione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	incontrollate	incontrollato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 5
+# text = Ha aggiunto che, per mantenere la solida posizione dell’euro, è necessario rafforzare le politiche fiscali prudenti e promuovere l’innovazione tecnologica.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	15	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	15	punct	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	mantenere	mantenere	VERB	V	VerbForm=Inf	15	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	solida	solido	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	euro	euro	NOUN	S	Gender=Masc	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	_
+16	rafforzare	rafforzare	VERB	V	VerbForm=Inf	15	csubj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	fiscali	fiscale	ADJ	A	Number=Plur	18	amod	_	_
+20	prudenti	prudente	ADJ	A	Number=Plur	18	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	promuovere	promuovere	VERB	V	VerbForm=Inf	16	conj	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	tecnologica	tecnologico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = “La responsabilità disciplinare è la chiave di volta per un’economia che cresca in modo sostenibile,” ha affermato.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	responsabilità	responsabilità	NOUN	S	Gender=Fem	7	nsubj	_	_
+4	disciplinare	disciplinare	ADJ	A	Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	economia	economia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	cresca	cruscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	sostenibile	sostenibile	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	21	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Un punto focale dell’intervista è stato il riconoscimento di Giovanni Tria per il ruolo di Savona, una città costiera che, secondo l’ex parlamentare, sta emergendo come polo di economia marittima e di sviluppo sostenibile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	focale	focale	ADJ	A	Number=Sing	2	amod	_	_
+4-5	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Giovanni	Giovanni	PROPN	SP	_	10	nmod	_	_
+13	Tria	Tria	PROPN	SP	_	12	flat:name	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Savona	Savona	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	città	città	NOUN	S	Gender=Fem	12	appos	_	_
+22	costiera	costiero	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	31	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	secondo	secondo	ADP	E	_	28	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+27	ex	ex	ADJ	A	_	28	amod	_	_
+28	parlamentare	parlamentare	NOUN	S	Number=Sing	31	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	emergendo	emergere	VERB	V	VerbForm=Ger	21	acl:relcl	_	_
+32	come	come	ADP	E	_	33	case	_	_
+33	polo	polo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	economia	economia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	marittima	marittimo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	_
+40	sostenibile	sostenibile	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = “Savona è un esempio brillante di come le potenzialità di una città portuale possono essere trasformate in vantaggi competitivi sul mercato globale,” ha sottolineato Tria.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Savona	Savona	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+6	brillante	brillante	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	come	come	ADP	E	_	7	fixed	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	potenzialità	potenzialità	NOUN	S	Gender=Fem	5	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	città	città	NOUN	S	Gender=Fem	10	nmod	_	_
+14	portuale	portuale	ADJ	A	Number=Sing	13	amod	_	_
+15	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	trasformate	trasformare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	competitivi	competitivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	globale	globale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	28	punct	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	_
+29	Tria	Tria	PROPN	SP	_	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = Ha elogiato i recenti investimenti nell’infrastruttura portuale e nelle tecnologie verdi, descrivendo la città come “una tradizione mare che guardi al futuro con visione innovativa.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	elogiato	elogiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	recenti	recente	ADJ	A	Number=Plur	5	amod	_	_
+5	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6-7	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	infrastruttura	infrastruttura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	portuale	portuale	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+14	verdi	verde	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	descrivendo	descrivere	VERB	V	VerbForm=Ger	2	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	città	città	NOUN	S	Gender=Fem	16	obj	_	_
+19	come	come	ADP	E	_	22	case	_	_
+20	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+23	mare	mare	NOUN	S	Gender=Masc|Number=Sing	22	compound	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	guardi	guardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	visione	visione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+31	innovativa	innovativo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 11
+# text = In particolare il governo ha annunciato un piano quadro dedicato alle piccole e medie imprese che operano nel settore marittimo, mirato a fornire agevolazioni fiscali per la ristrutturazione di flotte e la digitalizzazione dei processi.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	quadro	quadro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	16	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+13	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	medie	medio	ADJ	A	Gender=Fem|Number=Plur	13	conj	_	_
+16	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	operano	operare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	settore	settore	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	marittimo	marittimo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	mirato	mirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	fornire	fornire	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	agevolazioni	agevolazioni	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+28	fiscali	fiscale	ADJ	A	Number=Plur	27	amod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	ristrutturazione	ristrutturazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	flotte	flotta	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	digitalizzazione	digitalizzazione	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	processi	processo	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Tria ha richiesto una sinergia tra settore pubblico e privato per intensificare la crescita di venture capital dedicati a tecnologie marine, in modo da consolidare Savona come hub di ricerca e sviluppo.
+1	Tria	Tria	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sinergia	sinergia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	settore	settore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	privato	privato	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	intensificare	intensificare	VERB	V	VerbForm=Inf	3	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	venture	venture	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	capital	capital	ADJ	A	_	16	amod	_	_
+18	dedicati	dedicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+21	marine	marino	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	modo	modo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+25	da	da	ADP	E	_	26	mark	_	_
+26	consolidare	consolidare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	Savona	Savona	PROPN	SP	_	26	obj	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	hub	hub	NOUN	S	Gender=Masc	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Il commento di Tria è stato accolto positivamente dai sindaci locali e dalle associazioni di settore.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	commento	commento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Tria	Tria	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	positivamente	positivamente	ADV	B	_	7	advmod	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+12	locali	locale	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	settore	settore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Il sindaco di Savona, candidato con una piattaforma di crescita sostenibile, ha espresso gratitudine per l’apprezzamento del governo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Savona	Savona	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	candidato	candidare	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	sostenibile	sostenibile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	gratitudine	gratitudine	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	apprezzamento	apprezzamento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	governo	governo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = “Il nostro impegno costante per l’eccellenza – ha detto – è stato riconosciuto dal nostro capo ministro, e questo significa ulteriori opportunità per i nostri cittadini e le nostre imprese,” ha aggiunto il sindaco.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+5	costante	costante	ADJ	A	Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	eccellenza	eccellenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	–	–	PUNCT	FF	_	11	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+12	–	–	PUNCT	FB	_	11	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	riconosciuto	riconoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	capo	capo	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	_
+20	ministro	ministro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	_
+24	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+25	ulteriori	ulteriore	ADJ	A	Number=Plur	26	amod	_	_
+26	opportunità	opportunità	NOUN	S	Gender=Fem	24	obj	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+36	”	”	PUNCT	FB	_	38	punct	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	38	nsubj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 16
+# text = Sul fronte dei rapporti politici, la testimonianza di Tria è vista come un passo forte verso una ristrutturazione economica che si focalizzi su mantenere la competitività europea mentre promuove gli investimenti infrastrutturali.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	14	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	politici	politico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Tria	Tria	PROPN	SP	_	10	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	passo	passo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	forte	forte	ADJ	A	Number=Sing	17	amod	_	_
+19	verso	verso	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ristrutturazione	ristrutturazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	economica	economico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	focalizzi	focalizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	su	su	ADP	E	_	27	mark	_	_
+27	mantenere	mantenere	VERB	V	VerbForm=Inf	25	advcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	competitività	competitività	NOUN	S	Gender=Fem	27	obj	_	_
+30	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	mentre	mentre	SCONJ	CS	_	32	mark	_	_
+32	promuove	promuovere	SCONJ	CS	_	27	advcl	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+35	infrastrutturali	infrastrutturale	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = Il suo apprezzamento per Savona e altri centri industriali evidenzia una strategia mirata a rafforzare la collocazione geografica dei potenziali punti di forza del paese, portando lo sviluppo a beneficio delle province con una forte tradizione marittima e industriale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	apprezzamento	apprezzamento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	Savona	Savona	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	altri	altro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	centri	centro	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9	industriali	industriale	ADJ	A	Number=Plur	8	amod	_	_
+10	evidenzia	evidenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	mirata	mirare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	rafforzare	rafforzare	VERB	V	VerbForm=Inf	12	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	collocazione	collocazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	geografica	geografico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	potenziali	potenziale	ADJ	A	Number=Plur	22	amod	_	_
+22	punti	punto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	forza	forza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	paese	paese	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	10	punct	_	_
+29	portando	portare	VERB	V	VerbForm=Ger	10	advcl	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	beneficio	beneficio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	province	provincia	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	con	con	ADP	E	_	40	case	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	forte	forte	ADJ	A	Number=Sing	40	amod	_	_
+40	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+41	marittima	marittimo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	industriale	industriale	ADJ	A	Number=Sing	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = L’intervista significa che l’euro, in una prospettiva economically keen con un occhio verso la crescita tecnologica, può offrire un’infrastruttura monetaria solida per alimentare il futuro prospero.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	22	mark	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	euro	euro	NOUN	S	Gender=Masc	22	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	prospettiva	prospettiva	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+11	economically	economically	CCONJ	CC	_	12	cc	_	_
+12	keen	keen	NOUN	S	Gender=Masc	10	conj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	verso	verso	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	tecnologica	tecnologico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	offrire	offrire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	infrastruttura	infrastruttura	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	monetaria	monetario	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	solida	solido	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	alimentare	alimentare	VERB	V	VerbForm=Inf	22	advcl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	prospero	prospero	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Per Giovanni Tria, e per chi condivide la sua visione, l’euro non è solo una valuta, ma un alleato fondamentale nella costruzione di un’Italia forte, innovativa e competitiva nel nuovo mondo globale.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Giovanni	Giovanni	PROPN	SP	_	19	obl	_	_
+3	Tria	Tria	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	conj	_	_
+8	condivide	condividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	euro	euro	NOUN	S	Gender=Masc	2	nmod	_	_
+15	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	solo	solo	ADV	B	_	19	advmod	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	valuta	valuta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	alleato	alleato	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+24	fondamentale	fondamentale	ADJ	A	Number=Sing	23	amod	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	un’	uno	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	Italia	Italia	PROPN	SP	_	27	nmod	_	_
+31	forte	forte	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	innovativa	innovativo	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	competitiva	competitivo	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	39	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+39	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+40	globale	globale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

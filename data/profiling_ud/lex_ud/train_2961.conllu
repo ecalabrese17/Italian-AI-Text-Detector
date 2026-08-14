@@ -1,0 +1,369 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessun senso di colpa, anzi.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	anzi	anzi	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Federico Moccia, autore di quell'Ho voglia di teche nel 2007 fece apparire i primi "lucchetti dell'amore" a Ponte Milvio, difende il fenomeno, ormai diffuso in mezzo mondo:
+1	Federico	Federico	PROPN	SP	_	28	nsubj	_	_
+2	Moccia	Moccia	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	autore	autore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quell'	quello	DET	DD	Number=Sing|PronType=Dem	7	det	_	SpaceAfter=No
+7	Ho	Ho	PROPN	SP	_	4	nmod	_	_
+8	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	teche	teca	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2007	2007	NUM	N	NumType=Card	14	obl	_	_
+14	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+15	apparire	apparire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+17	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	19	amod	_	_
+18	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	amore	amore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	19	punct	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Ponte	Ponte	PROPN	SP	_	19	nmod	_	_
+26	Milvio	Milvio	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	1	punct	_	_
+28	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	ormai	ormai	ADV	B	_	33	advmod	_	_
+33	diffuso	diffuso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	28	punct	_	_
+
+# sent_id = 3
+# text = "Sono i politici che sbagliano:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	politici	politico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	sbagliano	sbagliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = bisogna saper incanalare, gestire".
+1	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	saper	sapere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	incanalare	incanalare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	gestire	gestire	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Lei l'ha visto il ponte di cui è crollata la spalletta?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	crollata	crollare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	spalletta	spalletta	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Certo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Fu lì che girammo Scusa ma ti voglio sposare , ed è dopo quel film che sono apparsi i lucchetti.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+2	lì	lì	ADV	B	_	4	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	girammo	girare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Scusa	scusa	PROPN	SP	_	4	obj	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+8	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sposare	sposare	VERB	V	VerbForm=Inf	4	conj	_	_
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ed	e	CCONJ	CC	_	15	cc	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	dopo	dopo	ADV	B	_	15	advmod	_	_
+14	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	film	film	NOUN	S	Gender=Masc	4	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18-19	apparsi	_	_	_	_	_	_	_	_
+18	appar	apparre	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ma la struttura è fragile, legno e una griglia leggera.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fragile	fragile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	legno	legno	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	griglia	griglia	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Sarebbe più adatto concentrarli al Pont de l'Archeveché, che è in pietra e ferro, ed è anche pieno di botteghe che li vendono.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	concentrarli	_	_	_	_	_	_	_	_
+4	concentrar	concentrarre	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Pont	Pont	PROPN	SP	_	4	obl	_	_
+9	de	de	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Archeveché	archeveché	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ed	e	CCONJ	CC	_	23	cc	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	anche	anche	ADV	B	_	23	advmod	_	_
+23	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	botteghe	bottega	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+28	vendono	vendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = In realtà, io trovo che sono diventati una forma d'arte.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	ccomp	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	8	xcomp	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	arte	arte	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Colorati, infiocchettati, sono un'attrazione, come in molti posti del mondo.
+1	Colorati	colorati	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	infiocchettati	infiocchettato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	attrazione	attrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	come	come	ADV	B	_	12	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	posti	posto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Sono stato persino invitato a mettere lucchetti da vari sindaci".
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+3	persino	persino	ADV	B	_	4	advmod	_	_
+4	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Per esempio?
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = "Murcia, in Spagna, dove io e il sindaco abbiamo messo il lucchetto su uno dei loro ponti storici.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Murcia	Murcia	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Spagna	Spagna	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	dove	dove	ADV	B	_	13	advmod	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lucchetto	lucchetto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ponti	ponte	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	storici	storico	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Città del Messico, dove devo ancora andare".
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Messico	Messico	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	dove	dove	ADV	B	_	9	advmod	_	_
+7	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	1	acl:relcl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Ha visto "No love locks", il sito che li vuol far sparire?
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	No	no	X	SW	Foreign=Yes	2	xcomp	_	_
+5	love	love	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	locks	locks	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sito	sito	NOUN	S	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+13	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	far	fare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+15	sparire	sparire	VERB	V	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = "Bellissimo simbolo.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	_
+3	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Ma i lucchetti sono decine di migliaia".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	decine	decina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Lei è anche sindaco di Rosello, provincia di Chieti.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Rosello	Rosello	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Chieti	Chieto	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Piena di lucchetti?
+1	Piena	piena	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = "No, non ci sono molti giovani.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	giovani	giovane	NOUN	S	Number=Plur	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Ma lì voglio piantare un albero dell'amore, inteso come amore ecologico.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	lì	lì	ADV	B	_	4	advmod	_	_
+3	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piantare	piantare	VERB	V	VerbForm=Inf	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	albero	albero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	ecologico	ecologico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Bisogna anche saper cambiare".
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	saper	sapere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	cambiare	cambiare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

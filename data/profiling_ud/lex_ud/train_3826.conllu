@@ -1,0 +1,953 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eppure la sensibilità ambientale è aumentata, il car sharing cresce, si vede più gente in bici.
+1	Eppure	eppure	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sensibilità	sensibilità	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	ambientale	ambientale	ADJ	A	Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aumentata	aumentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	car	car	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	sharing	sharing	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	gente	gente	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	bici	bico	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Perché lo smog non diminuisce?
+1	Perché	perché	ADV	B	_	5	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	smog	smog	NOUN	S	Gender=Masc	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	diminuisce	diminuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = "Perché i comportamenti virtuosi dei singoli si moltiplicano sia nel campo dei trasporti che in quello dell'edilizia, che sono i due nodi da sciogliere ", risponde Gianni Silvestrini, il direttore scientifico del Kyoto Club che nel 2000, come direttore generale del ministero dell'Ambiente, lanciò il car sharing.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Perché	perché	SCONJ	CS	_	10	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	virtuosi	virtuoso	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	singoli	singolo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	moltiplicano	moltiplicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	sia	sia	CCONJ	CC	_	14	cc	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	cc	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	edilizia	edilizia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	due	due	NUM	N	NumType=Card	29	nummod	_	_
+29	nodi	nodo	NOUN	S	Gender=Masc|Number=Plur	23	acl:relcl	_	_
+30	da	da	ADP	E	_	31	mark	_	_
+31	sciogliere	sciogliere	VERB	V	VerbForm=Inf	29	acl	_	_
+32	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	10	punct	_	_
+34	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+35	Gianni	Gianni	PROPN	SP	_	34	nsubj	_	_
+36	Silvestrini	Silvestrini	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	35	appos	_	_
+40	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Kyoto	Kyoto	PROPN	SP	_	39	nmod	_	_
+44	Club	Club	PROPN	SP	_	43	flat:name	_	_
+45	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+46-47	nel	_	_	_	_	_	_	_	_
+46	in	in	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	2000	2000	NUM	N	NumType=Card	51	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	48	punct	_	_
+50	come	come	ADP	E	_	51	case	_	_
+51	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	39	acl:relcl	_	_
+52	generale	generale	ADJ	A	Number=Sing	51	amod	_	_
+53-54	del	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	_
+56-57	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+56	di	di	ADP	E	_	58	case	_	_
+57	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	58	det	_	_
+58	Ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	51	punct	_	_
+60	lanciò	lanciare	SCONJ	CS	_	62	case	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	car	car	NOUN	S	Gender=Masc	51	nmod	_	_
+63	sharing	sharing	NOUN	S	Gender=Masc	62	compound	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	62	punct	_	_
+
+# sent_id = 4
+# text = "Ma il sistema italiano è appesantito dalla burocrazia e spesso reagisce in ritardo.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	7	cc	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	appesantito	appesantire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	spesso	spesso	ADV	B	_	13	advmod	_	_
+13	reagisce	reagire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Prendiamo ad esempio l'auto elettrica.
+1	Prendiamo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ad	a	ADP	E	_	3	case	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	auto	auto	NOUN	S	Gender=Fem	1	obj	_	_
+6	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Nel 2016 in Europa ha coperto l'1,6 per cento delle vendite e in Norvegia è arrivata a un picco di oltre il 30 per cento.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2016	2016	NUM	N	NumType=Card	7	nummod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Europa	Europa	PROPN	SP	_	7	obl	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	coperto	coprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	1,6	1,6	NUM	N	NumType=Card	7	obj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	cento	cento	NUM	N	NumType=Card	9	nummod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	vendite	vendita	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Norvegia	Norvegia	PROPN	SP	_	19	obl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	picco	picco	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	oltre	oltre	ADV	B	_	26	advmod	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	30	30	NUM	N	NumType=Card	22	nummod	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	cento	cento	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = In Italia siamo fermi all'1 per mille e i 50 milioni di euro stanziati nel 2012 per le stazioni di ricarica non sono stati spesi.
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	4	obl	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fermi	fermare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	1	1	NUM	N	NumType=Card	4	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	mille	mille	NUM	N	NumType=Card	7	nummod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	50	50	NUM	N	NumType=Card	13	nummod	_	_
+13	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	euro	euro	NOUN	S	Gender=Masc	13	nmod	_	_
+16	stanziati	stanziare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2012	2012	NUM	N	NumType=Card	16	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	stazioni	stazione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	ricarica	ricarica	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	aux:pass	_	_
+28	spesi	spendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = In queste condizioni le aziende frenano, gli investimenti per l'innovazione si spengono".
+1	In	in	ADP	E	_	3	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+6	frenano	frenano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	spengono	spengere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Cosa servirebbe?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	servirebbe	servire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Indicazioni chiare per orientare le case automobilistiche che sono disponibili al cambiamento, ma scelgono i paesi più adatti per cominciare.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Indicazioni	indicazioni	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	chiare	chiare	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	orientare	orientare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	case	casa	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	automobilistiche	automobilistico	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	disponibili	disponibile	ADJ	A	Number=Plur	7	acl:relcl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	scelgono	scegliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	adatti	adatto	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	cominciare	cominciare	VERB	V	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = In Germania il Parlamento dei Land ha approvato una mozione rivolta al governo nazionale e all'Unione europea per chiedere che dal 2030 si usino solo veicoli elettrici.
+1	In	in	ADP	E	_	2	case	_	_
+2	Germania	Germania	PROPN	SP	_	9	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Parlamento	Parlamento	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Land	Land	PROPN	SP	_	4	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	approvato	approvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mozione	mozione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	rivolta	rivolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	nazionale	nazionale	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Unione	Unione	PROPN	SP	_	15	conj	_	_
+21	europea	europea	PROPN	SP	_	20	flat:name	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	chiedere	chiedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+24	che	che	SCONJ	CS	_	29	mark	_	_
+25-26	dal	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	2030	2030	NUM	N	NumType=Card	29	obl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:pass	_	_
+29	usino	usino	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+30	solo	solo	ADV	B	_	31	advmod	_	_
+31	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	29	nsubj:pass	_	_
+32	elettrici	elettrico	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = E i sindaci di Parigi, Madrid, Atene e Città del Messico hanno deciso di proibire i diesel nel centro città dal 2025.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Parigi	Parigi	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	Madrid	Madrid	PROPN	SP	_	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Atene	Atene	PROPN	SP	_	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Città	Città	PROPN	SP	_	7	conj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Messico	Messico	PROPN	SP	_	11	nmod	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	proibire	proibire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	diesel	diesel	NOUN	S	Gender=Masc	18	obj	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	centro	centro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+24	città	città	NOUN	S	Gender=Fem	23	compound	_	_
+25-26	dal	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	2025	2025	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = Tutti segnali che vanno nella stessa direzione.
+1	Tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Abbinando l'aumento dei veicoli elettrici al car sharing, che ha superato i 7 milioni di utenti su scala globale, e alle auto che si guidano da sole, si otterrà una rivoluzione della mobilità che decongestionerà gli spazi urbani:
+1	Abbinando	Abbinare	VERB	V	VerbForm=Ger	36	advcl	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	elettrici	elettrico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	car	car	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+11	sharing	sharing	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	7	7	NUM	N	NumType=Card	18	nummod	_	_
+18	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	utenti	utente	NOUN	S	Number=Plur	18	nmod	_	_
+21	su	su	ADP	E	_	22	case	_	_
+22	scala	scala	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	globale	globale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	alle	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	auto	auto	NOUN	S	Gender=Fem	1	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+31	guidano	guidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	sole	solo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	1	punct	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+36	otterrà	otterre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	mobilità	mobilità	NOUN	S	Gender=Fem	38	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+43	decongestionerà	decongestionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	acl:relcl	_	_
+44	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	spazi	spazio	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	_
+46	urbani	urbano	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	:	:	PUNCT	FC	_	36	punct	_	_
+
+# sent_id = 15
+# text = si potrà dimezzare il numero delle macchine e liberare tra il 10 e il 15 per cento delle superfici stradali grazie alla drastica riduzione delle esigenze di parcheggio.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	dimezzare	dimezzare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	numero	numero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	liberare	liberare	VERB	V	VerbForm=Inf	3	conj	_	_
+11	tra	tra	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	10	10	NUM	N	NumType=Card	10	nummod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	15	15	NUM	N	NumType=Card	13	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	cento	cento	NUM	N	NumType=Card	16	nummod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	superfici	superficie	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+22	stradali	stradale	ADJ	A	Number=Plur	21	amod	_	_
+23	grazie	grazie	NOUN	S	_	27	case	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	drastica	drastico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	parcheggio	parcheggio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Oggi un'auto sta ferma in media per 23 ore, con il nuovo sistema ci saranno meno veicoli che si muoveranno in continuazione".
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	auto	auto	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	media	medio	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	23	23	NUM	N	NumType=Card	10	nummod	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+18	meno	meno	ADV	B	_	19	advmod	_	_
+19	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	muoveranno	muovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	continuazione	continuazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = E per gli altri tipi di spostamento cosa succederà?
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	altri	altro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	spostamento	spostamento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	nsubj	_	_
+9	succederà	succedare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = "L'uso delle bici sta aumentando in tutto il mondo.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uso	uso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	bici	bico	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	aumentando	aumentare	VERB	V	VerbForm=Ger	0	root	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	12	det:predet	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = In Cina, dopo una drastica riduzione, stanno crescendo di nuovo e quelle elettriche sono arrivate a 200 milioni.
+1	In	in	ADP	E	_	2	case	_	_
+2	Cina	Cina	PROPN	SP	_	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	drastica	drastico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	crescendo	crescere	VERB	V	VerbForm=Ger	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	10	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	17	nsubj	_	_
+15	elettriche	elettrico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	200	200	NUM	N	NumType=Card	20	nummod	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 20
+# text = In Olanda più di uno spostamento su tre avviene in bicicletta, a Copenaghen si muove più gente sulle due ruote che in auto.
+1	In	in	ADP	E	_	2	case	_	_
+2	Olanda	Olanda	PROPN	SP	_	9	obl	_	_
+3	più	più	ADV	B	_	9	advmod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spostamento	spostamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+9	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Copenaghen	Copenaghen	PROPN	SP	_	16	obl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	più	più	ADV	B	_	16	advmod	_	_
+18	gente	gente	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+19-20	sulle	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	25	cc	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	auto	auto	NOUN	S	Gender=Fem	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = E da uno studio della Commissione europea risulta che il 73 per cento degli intervistati chiede di dare alle bici un trattamento preferenziale rispetto alle auto".
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	studio	studio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	europea	europea	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	18	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	73	73	NUM	N	NumType=Card	18	nsubj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cento	cento	NUM	N	NumType=Card	12	nummod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	intervistati	intervistato	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+18	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	dare	dare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	bici	bico	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+26	preferenziale	preferenziale	ADJ	A	Number=Sing	25	amod	_	_
+27	rispetto	rispetto	ADV	B	_	30	case	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	auto	auto	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = La rivoluzione dei trasporti basterà a sconfiggere lo smog?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	sconfiggere	sconfiggere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	smog	smog	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = "È una parte della soluzione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = L'altra questione fondamentale sono gli edifici che in Europa sono responsabili dell'emissione di una quantità di polveri due o tre volte superiore rispetto ai trasporti.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	fondamentale	fondamentale	ADJ	A	Number=Sing	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Europa	Europa	PROPN	SP	_	12	obl	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	responsabili	responsabile	ADJ	A	Number=Plur	7	acl:relcl	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	emissione	emissione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quantità	quantità	NOUN	S	Gender=Fem	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	polveri	polvere	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	due	due	NUM	N	NumType=Card	20	nummod	_	_
+22	o	o	CCONJ	CC	_	25	cc	_	_
+23	tre	tre	NUM	N	NumType=Card	24	nummod	_	_
+24	volte	volta	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+25	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	21	conj	_	_
+26	rispetto	rispetto	ADV	B	_	29	case	_	_
+27-28	ai	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Su questo fronte in Italia non siamo messi bene:
+1	Su	su	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	8	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Italia	Italia	PROPN	SP	_	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 26
+# text = il 56 per cento delle case è in classe energetica G, la peggiore, mentre solo il 2 per cento è in A".
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	56	56	NUM	N	NumType=Card	10	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	case	casa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	classe	classe	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	G	g	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	peggiore	peggiore	NOUN	S	Number=Sing	10	appos	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	mentre	mentre	SCONJ	CS	_	25	mark	_	_
+18	solo	solo	ADV	B	_	20	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2	2	NUM	N	NumType=Card	25	nsubj	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	cento	cento	NUM	N	NumType=Card	20	nummod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	A	a	PROPN	SP	_	10	advcl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 27
+# text = In questo caso però l'intervento pubblico c'è stato:
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	però	però	ADV	B	_	10	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 28
+# text = è l'ecobonus per le ristrutturazioni edilizie mirate al risparmio energetico.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ecobonus	ecobonus	NOUN	S	_	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ristrutturazioni	ristrutturazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	edilizie	edilizio	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	mirate	mirare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	risparmio	risparmio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	energetico	energetico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = "Un buon primo passo, ma non basta.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Cambiando gli infissi o la caldaia il miglioramento è ridotto.
+1	Cambiando	cambiare	VERB	V	VerbForm=Ger	10	advcl	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	infissi	infissi	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	caldaia	caldaia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 31
+# text = Mentre se si interviene sull'intero edificio si può abbattere il fabbisogno di energia del 50-70 per cento.
+1	Mentre	mentre	SCONJ	CS	_	11	mark	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	interviene	intervenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	intero	intero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	edificio	edificio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	abbattere	abbattere	VERB	V	VerbForm=Inf	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fabbisogno	fabbisogno	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	energia	energia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	50	50	NUM	N	NumType=Card	13	nmod	_	SpaceAfter=No
+19	-70	-70	NUM	N	NumType=Card	18	flat	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	cento	cento	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 32
+# text = Da questo punto di vista un importante segnale è arrivato dalla Legge di stabilità 2016 che, per gli interventi sull'involucro dell'edificio, ha fatto salire lo sgravio fino al 75 per cento della spesa".
+1	Da	da	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vista	vista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	importante	importante	ADJ	A	Number=Sing	8	amod	_	_
+8	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Legge	Legge	PROPN	SP	_	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	stabilità	stabilità	NOUN	S	Gender=Fem	13	nmod	_	_
+16	2016	2016	NUM	N	NumType=Card	15	nummod	_	_
+17	che	che	PRON	PR	PronType=Rel	30	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+22-23	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+22	su	su	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	involucro	involucro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	edificio	edificio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+31	salire	salire	VERB	V	VerbForm=Inf	30	ccomp	_	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	sgravio	sgravio	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	fino	fino	ADV	B	_	37	case	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	34	fixed	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	75	75	NUM	N	NumType=Card	31	nummod	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	cento	cento	NUM	N	NumType=Card	37	nummod	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 33
+# text = Ma se non si riesce a convincere il condominio cosa si può fare?
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	convincere	convincere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	condominio	condominio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	13	obj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 34
+# text = "La convinzione verrà guardando l'evoluzione del mercato che sta puntando verso interventi che riguardano interi edifici e quartieri.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	guardando	guardare	VERB	V	VerbForm=Ger	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	puntando	puntare	VERB	V	VerbForm=Ger	10	acl:relcl	_	_
+14	verso	verso	ADP	E	_	15	case	_	_
+15	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	riguardano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	interi	intere	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	edifici	edifico	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	quartieri	quartiero	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 35
+# text = I grandi benefici dipendono dalle tecnologie digitali e dai nuovi sistemi che consentono di arrivare in cantiere con interi blocchi già pronti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+3	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	dipendono	dipendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	dalle	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	digitali	digitale	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10-11	dai	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	consentono	consentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	arrivare	arrivare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cantiere	cantiere	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	interi	intero	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	blocchi	blocco	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+23	già	già	ADV	B	_	24	advmod	_	_
+24	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 36
+# text = Sarà così possibile dimezzare i costi e portare a 10-15 giorni i tempi di intervento.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+4	dimezzare	dimezzare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	costi	costo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	portare	portare	VERB	V	VerbForm=Inf	4	conj	_	_
+9	a	a	ADP	E	_	13	case	_	_
+10	10	10	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	15	15	NUM	N	NumType=Card	10	compound	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = In Olanda un'associazione, Energiesprong, punta a riqualificare in questo modo 111 mila appartamenti entro il 2020".
+1	In	in	ADP	E	_	2	case	_	_
+2	Olanda	Olanda	PROPN	SP	_	8	obl	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Energiesprong	Energiesprong	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	riqualificare	riqualificare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	111	111	NUM	N	NumType=Card	16	nummod	_	_
+15	mila	mila	NUM	N	NumType=Card	14	flat	_	_
+16	appartamenti	appartamento	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+17	entro	entro	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2020	2020	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

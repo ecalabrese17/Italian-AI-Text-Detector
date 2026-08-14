@@ -1,0 +1,689 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giuseppe Montalbano è segretario nazionale dell'Adi, l'Associazione dottorandi e dottori di ricerca italiani.
+1	Giuseppe	Giuseppe	PROPN	SP	_	4	nsubj	_	_
+2	Montalbano	Montalbano	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	nazionale	nazionale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Adi	Adi	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+12	dottorandi	dottorande	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	dottori	dottore	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non è sorpreso dalle rivelazioni dell'inchiesta sui concorsi truccati all'università, partita dalla denuncia di un ricercatore di diritto tributario.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	rivelazioni	rivelazione	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	sui	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	truccati	truccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	università	università	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	18	obl:agent	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ricercatore	ricercatore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	tributario	tributario	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ha letto il racconto del ricercatore di Firenze ?
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ricercatore	ricercatore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Firenze	Firenze	PROPN	SP	_	7	nmod	_	_
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Una storia come quella non è affatto nuova, non è la prima volta che ci vengono segnalati casi di questo genere.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	affatto	affatto	ADV	B	_	9	advmod	_	_
+9	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	5	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+18	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	segnalati	segnalare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+20	casi	caso	NOUN	S	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	genere	genere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Attenzione: non tutti i docenti sono baroni.
+1	Attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	docenti	docente	NOUN	S	Number=Plur	8	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	baroni	barone	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Delle nicchie in cui prevale trasparenza e merito ci sono.
+1-2	Delle	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	nicchie	nicchia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	prevale	prevalere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	merito	merito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = È vero, però, che in molti settori avere un professore che ha seguito un candidato per anni e vuole investire su di lui costituisce un canale di accesso preferenziale".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	settori	settore	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	2	csubj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	professore	professore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	investire	investire	VERB	V	VerbForm=Inf	10	conj	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+26	costituisce	costituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	canale	canale	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	preferenziale	preferenziale	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Quant'è diffuso il sistema?
+1	Quant'	quanto	PRON	PI	Number=Sing|PronType=Ind	3	nsubj	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = "Parecchio.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Parecchio	parecchio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = È un problema con radici strutturali che affondano nella ricattabilità dei ricercatori precari, il prodotto di un sistema che come Adi denunciamo da sempre.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	radici	radice	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	strutturali	strutturale	ADJ	A	Number=Plur	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	affondano	affondare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ricattabilità	ricattabilità	NOUN	S	Gender=Fem	8	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	precari	precario	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	come	come	ADP	E	_	24	case	_	_
+24	Adi	Adi	PROPN	SP	_	25	obl	_	_
+25	denunciamo	denunciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	sempre	sempre	ADV	B	_	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = La ricattabilità è stata introdotta con la riforma Gelmini, portata avanti con la promessa di sgominare i baroni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ricattabilità	ricattabilità	NOUN	S	Gender=Fem	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	introdotta	introdurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	Gelmini	Gelmini	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+12	avanti	avanti	ADV	B	_	11	advmod	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	sgominare	sgominare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	baroni	barone	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Non solo i baroni sono rimasti al loro posto, ma, introducendo una serie di figure contrattuali precarie, tagliando le risorse e dando più potere a chi tiene i cordoni della borsa e controlla l'accesso ai bandi - per di più limitati con il blocco del turn over - alla fine la riforma ha rafforzato quelle stesse baronie che a parole intendeva combattere".
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	6	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	baroni	barone	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	posto	posto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	63	punct	_	_
+12	ma	ma	CCONJ	CC	_	63	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	63	punct	_	_
+14	introducendo	introdurre	VERB	V	VerbForm=Ger	63	advcl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	serie	serie	NOUN	S	Gender=Fem	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	figure	figura	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	contrattuali	contrattuale	ADJ	A	Number=Plur	18	amod	_	_
+20	precarie	precario	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	tagliando	tagliare	VERB	V	VerbForm=Ger	14	conj	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	dando	dare	VERB	V	VerbForm=Ger	14	conj	_	_
+27	più	più	ADV	B	_	26	advmod	_	_
+28	potere	potere	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	chi	chi	PRON	PR	Number=Sing|PronType=Rel	26	obl	_	_
+31	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	cordoni	cordone	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41-42	ai	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	bandi	bando	NOUN	S	Gender=Masc|Number=Plur	40	nmod	_	_
+44	-	-	PUNCT	FF	_	14	punct	_	_
+45	per	per	ADP	E	_	48	case	_	_
+46	di	di	ADP	E	_	45	fixed	_	_
+47	più	più	ADV	B	_	48	advmod	_	_
+48	limitati	limitare	ADJ	A	Gender=Masc|Number=Plur	63	obl	_	_
+49	con	con	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+52-53	del	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	turn	turn	NOUN	S	_	51	nmod	_	_
+55	over	over	NOUN	S	_	54	nmod	_	_
+56	-	-	PUNCT	FB	_	48	punct	_	_
+57-58	alla	_	_	_	_	_	_	_	_
+57	a	a	ADP	E	_	59	case	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	fine	fine	NOUN	S	Gender=Fem|Number=Sing	63	obl	_	_
+60	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	63	nsubj	_	_
+62	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	aux	_	_
+63	rafforzato	rafforzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+64	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	63	obj	_	_
+65	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	64	amod	_	_
+66	baronie	baronia	NOUN	S	Gender=Fem|Number=Plur	64	nmod	_	_
+67	che	che	PRON	PR	PronType=Rel	70	nsubj	_	_
+68	a	a	ADP	E	_	69	case	_	_
+69	parole	parola	NOUN	S	Gender=Fem|Number=Plur	70	obl	_	_
+70	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	66	acl:relcl	_	_
+71	combattere	combattere	VERB	V	VerbForm=Inf	70	xcomp	_	SpaceAfter=No
+72	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+73	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Va cambiato il metodo di selezione?
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	selezione	selezione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = "Un sistema così complesso, fatto di tanti indicatori e passaggi, è insufficiente rispetto alle necessarie garanzie di trasparenza.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	indicatori	indicatore	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	passaggi	passaggio	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	insufficiente	insufficiente	ADJ	A	Number=Sing	0	root	_	_
+16	rispetto	rispetto	ADV	B	_	20	case	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	garanzie	garanzia	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Va riformato coinvolgendo tutta la comunità accademica, a partire proprio dai segmenti meno tutelati come i ricercatori precari.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riformato	riformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	coinvolgendo	coinvolgere	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	comunità	comunità	NOUN	S	Gender=Fem	3	obj	_	_
+7	accademica	accademico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	partire	partire	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	proprio	proprio	ADV	B	_	14	advmod	_	_
+12-13	dai	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	segmenti	segmento	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	meno	meno	ADV	B	_	16	advmod	_	_
+16	tutelati	tutelato	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+20	precari	precario	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Alla base, però, c'è sempre il sottofinanziamento che fa da cornice a tutto il resto.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	base	base	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sottofinanziamento	sottofinanziamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	cornice	cornice	NOUN	S	Gender=Masc	13	obl	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	resto	resto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = È giusto intervenire sui meccanismi di reclutamento e sulla trasparenza dei concorsi, ma bisogna prima affrontare il nodo del finanziamento e dello sblocco del reclutamento.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	intervenire	intervenire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	meccanismi	meccanismo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	reclutamento	reclutamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	ma	ma	CCONJ	CC	_	18	cc	_	_
+18	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	prima	prima	ADV	B	_	20	advmod	_	_
+20	affrontare	affrontare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	nodo	nodo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	finanziamento	finanziamento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27-28	dello	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sblocco	sblocco	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	reclutamento	reclutamento	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Perché se i posti sono sempre meno e le opportunità per i giovani ricercatori si restringono, cresce la loro ricattabilità".
+1	Perché	perché	ADV	B	_	18	advmod	_	_
+2	se	se	SCONJ	CS	_	7	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	posti	posto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	meno	meno	ADV	B	_	18	advmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	opportunità	opportunità	NOUN	S	Gender=Fem	16	nsubj	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	giovani	giovane	ADJ	A	Number=Plur	14	amod	_	_
+14	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	restringono	restringere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ricattabilità	ricattabilità	NOUN	S	Gender=Fem	18	nsubj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 19
+# text = Allora aumentano i ricorsi?
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	aumentano	aumentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ricorsi	ricorso	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = "Per fortuna tanti colleghi, con parecchio coraggio, hanno la volontà di contestare decisioni di tipo arbitrario, spesso mettendo a repentaglio la loro stessa carriera.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	coraggio	coraggio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volontà	volontà	NOUN	S	Gender=Fem	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	contestare	contestare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	arbitrario	arbitrario	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	spesso	spesso	ADV	B	_	22	advmod	_	_
+22	mettendo	mettere	VERB	V	VerbForm=Ger	15	advcl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	repentaglio	repentaglio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 21
+# text = Si sta diffondendo una certa capacità di rispondere ai torti subiti, innanzitutto attraverso il ricorso.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	diffondendo	diffondere	VERB	V	VerbForm=Ger	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	certa	certo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	capacità	capacità	NOUN	S	Gender=Fem	3	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	rispondere	rispondere	VERB	V	VerbForm=Inf	6	acl	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	torti	torto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	subiti	subito	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	innanzitutto	innanzitutto	ADV	B	_	8	advmod	_	_
+15	attraverso	attraverso	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Di certo sono meno quelli disposti a denunciare alle autorità".
+1	Di	di	ADP	E	_	2	case	_	_
+2	certo	certo	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	meno	meno	ADV	B	_	5	advmod	_	_
+5	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+6	disposti	disporre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	denunciare	denunciare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	autorità	autorità	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Il problema resta la prova.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prova	prova	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = "Quella spetta alle autorità.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	spetta	spettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	autorità	autorità	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Consiglierei di prendere tutte le precauzioni possibili e raccogliere la la documentazione, anche attraverso strumenti come le registrazioni o altre modalità per dimostrare cos'è avvenuto.
+1	Consiglierei	Consigliereo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	prendere	prendere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	precauzioni	precauzione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	possibili	possibile	ADJ	A	Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	raccogliere	raccogliere	VERB	V	VerbForm=Inf	3	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	documentazione	documentazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	attraverso	attraverso	ADP	E	_	16	case	_	_
+16	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	registrazioni	registrazione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	o	o	CCONJ	CC	_	22	cc	_	_
+21	altre	altro	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+22	modalità	modalità	NOUN	S	Gender=Fem	19	conj	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	dimostrare	dimostrare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	27	obj	_	SpaceAfter=No
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = Sarebbe la prova migliore, certo, ma quando si fa un concorso dotarsi di microfoni non è la prima preoccupazione di un candidato.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	prova	prova	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	certo	certo	ADV	B	_	22	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ma	ma	CCONJ	CC	_	22	cc	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	dotarsi	_	_	_	_	_	_	_	_
+14	dotar	dotare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Riceviamo molte segnalazioni in forma confidenziale o anonima.
+1	Riceviamo	Ricevare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	segnalazioni	segnalazione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	forma	forma	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	confidenziale	confidenziale	ADJ	A	Number=Sing	5	amod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	anonima	anonimo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Ma una cosa è una denuncia, un'altra una lettera di sfogo di chi magari decide di abbandonare il mondo dell'università.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+9	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	chi	chi	PRON	PR	PronType=Rel	13	nmod	_	_
+16	magari	magari	ADV	B	_	17	advmod	_	_
+17	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	abbandonare	abbandonare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	università	università	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 29
+# text = Il problema è che sfogarsi cercando di restare diventa impossibile".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5-6	sfogarsi	_	_	_	_	_	_	_	_
+5	sfogar	sfogare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	obj	_	_
+7	cercando	cercare	VERB	V	VerbForm=Ger	10	advcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	restare	restare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	impossibile	impossibile	ADJ	A	Number=Sing	10	xcomp	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

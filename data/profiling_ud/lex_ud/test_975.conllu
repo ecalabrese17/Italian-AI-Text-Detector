@@ -1,0 +1,450 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono vittima di un preciso complotto, che mi fa paura" .
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11	paura	paura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	2	punct	_	_
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il direttore del Tg4 Emilio Fede smentisce la notizia pubblicata questa mattina da alcuni quotidiani secondo cui si sarebbe presentato alla filiale di un istituto di credito di Lugano con una valigetta contenente 2,5 milioni di euro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Tg4	Tg4	PROPN	SP	_	2	nmod	_	_
+6	Emilio	Emilio	PROPN	SP	_	5	flat:name	_	_
+7	Fede	Fede	PROPN	SP	_	5	flat:name	_	_
+8	smentisce	smentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	pubblicata	pubblicare	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	quotidiani	quotidiano	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+17	secondo	secondo	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	filiale	filiale	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	credito	credito	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Lugano	Lugano	PROPN	SP	_	27	nmod	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	valigetta	valigetta	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+35	contenente	contenere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	34	acl	_	_
+36	2,5	2,5	NUM	N	NumType=Card	37	nummod	_	_
+37	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	euro	euro	NOUN	S	Gender=Masc	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Contanti che la banca non avrebbero accettato.
+1	Contanti	contare	NOUN	S	Number=Plur	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	banca	banca	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	accettato	accettato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = L’Agenzia delle Entrate e le Fiamme Gialle hanno avviato una serie di verifiche.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Agenzia	Agenzia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Entrate	Entrate	PROPN	SP	_	2	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Fiamme	fiamme	PROPN	SP	_	2	conj	_	_
+9	Gialle	Gialle	PROPN	SP	_	8	flat:name	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	serie	serie	NOUN	S	Gender=Fem	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	verifiche	verifica	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = La notizia pubblicata oggi parla di una segnalazione arrivata in Italia alla fine dello scorso gennaio:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	pubblicata	pubblicato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	oggi	oggi	ADV	B	_	5	advmod	_	_
+5	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	segnalazione	segnalazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Italia	Italia	PROPN	SP	_	9	obl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = a chiedere l’intervento delle autorità di controllo sarebbe stato un dipendente della banca elvetica.
+1	a	a	ADP	E	_	2	mark	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	autorità	autorità	NOUN	S	Gender=Fem	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dipendente	dipendente	NOUN	S	Number=Sing	0	root	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	banca	banca	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	elvetica	elvetica	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = È probabile che l’istituto non abbia voluto accettare i soldi a causa del clamore suscitato dalle vicende che, nei mesi scorsi, hanno coinvolto Fede.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	probabile	probabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+9	accettare	accettare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	clamore	clamore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	vicende	vicenda	NOUN	S	Gender=Fem|Number=Plur	17	obl:agent	_	_
+21	che	che	PRON	PR	PronType=Rel	29	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23-24	nei	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+26	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+30	Fede	fede	PROPN	SP	_	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Adesso gli investigatori della Guardia di Finanza indagheranno sul denaro comparso in Svizzera.
+1	Adesso	adesso	ADV	B	_	9	advmod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Finanza	finanza	PROPN	SP	_	6	nmod	_	_
+9	indagheranno	indaghare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	comparso	comparso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Svizzera	Svizzera	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = In realtà è lo stesso Fede a spiegare con chiarezza l'esistenza di "un preciso disegno" per screditarlo attraverso una notizia che "non sta in piedi e fa acqua da tutte le parti" . Parlando al telefono con l' Ansa il direttore del Tg4 fa notare che se avesse davvero fatto una cosa del genere sarebbe stato uno sprovveduto.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	Fede	Fede	PROPN	SP	_	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	spiegare	spiegare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	20	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	screditarlo	_	_	_	_	_	_	_	_
+20	screditar	screditare	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	attraverso	attraverso	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+26	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+33	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+34	da	da	ADP	E	_	37	case	_	_
+35	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	37	det:predet	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	parti	parte	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	37	punct	_	_
+39	.	.	PUNCT	FS	_	28	punct	_	_
+40	Parlando	parlare	VERB	V	VerbForm=Ger	52	advcl	_	_
+41-42	al	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+44	con	con	ADP	E	_	46	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	Ansa	Ansa	PROPN	SP	_	40	obl	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	52	nsubj	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Tg4	Tg4	PROPN	SP	_	48	nmod	_	_
+52	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+53	notare	notare	VERB	V	VerbForm=Inf	52	ccomp	_	_
+54	che	che	SCONJ	CS	_	66	mark	_	_
+55	se	se	SCONJ	CS	_	58	mark	_	_
+56	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	58	aux	_	_
+57	davvero	davvero	ADV	B	_	58	advmod	_	_
+58	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	advcl	_	_
+59	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	58	obj	_	_
+61-62	del	_	_	_	_	_	_	_	_
+61	di	di	ADP	E	_	63	case	_	_
+62	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	genere	genere	NOUN	S	Gender=Masc|Number=Sing	60	nmod	_	_
+64	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	aux	_	_
+65	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	cop	_	_
+66	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	53	ccomp	_	_
+67	sprovveduto	sprovveduto	ADJ	A	Gender=Masc|Number=Sing	66	amod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = "Tra l’altro in un momento in cui sono già indagato, mi e quindi sotto la lente di ingrandimento - chiede Fede - non trovo di meglio da far che recarmi in Svizzera con una cifra considerevole di soldi?
+1	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+2	Tra	tra	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	obl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	expl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	quindi	quindi	ADV	B	_	19	advmod	_	_
+17	sotto	sotto	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lente	lente	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ingrandimento	ingrandimento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	-	-	PUNCT	FB	_	23	punct	_	_
+23	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+24	Fede	fede	PROPN	SP	_	23	nsubj	_	_
+25	-	-	PUNCT	FF	_	23	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	meglio	meglio	ADV	B	_	27	advmod	_	_
+30	da	da	ADP	E	_	31	mark	_	_
+31	far	fare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+32	che	che	SCONJ	CS	_	33	mark	_	_
+33-34	recarmi	_	_	_	_	_	_	_	_
+33	recar	recare	VERB	V	VerbForm=Inf	31	ccomp	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	Svizzera	Svizzera	PROPN	SP	_	33	obl	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+40	considerevole	considerevole	ADJ	A	Number=Sing	39	amod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+43	?	?	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 11
+# text = Attraverso la frontiera con 2,5 milioni entro in una banca di Lugano che mi respinge e torno indietro con la valigetta piena di contanti riattraverso la frontiera...
+1	Attraverso	attraverso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	2,5	2,5	NUM	N	NumType=Card	6	nummod	_	_
+6	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7	entro	entro	ADV	B	_	10	advmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	banca	banca	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Lugano	Lugano	PROPN	SP	_	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	respinge	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	torno	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+18	indietro	indietro	ADV	B	_	17	advmod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	valigetta	valigetta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	riattraverso	riattravergere	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	frontiera..	frontiera..	NOUN	S	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = eddai non sta in piedi, se proprio volevo andare a depositare soldi all’estero facevo prima a recarmi a Montecarlo senza attraversare i controlli.
+1	eddai	eddai	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	se	se	SCONJ	CS	_	10	mark	_	_
+8	proprio	proprio	ADV	B	_	10	advmod	_	_
+9	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	depositare	depositare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	estero	estero	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+18	prima	prima	ADV	B	_	17	advmod	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-21	recarmi	_	_	_	_	_	_	_	_
+20	recar	recare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Montecarlo	Montecarlo	PROPN	SP	_	20	obl	_	_
+24	senza	senza	ADP	E	_	25	mark	_	_
+25	attraversare	attraversare	VERB	V	VerbForm=Inf	20	advcl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Invece che faccio vado in Svizzera dove sono indagato" . Secondo Fede, infatti, la notizia diffusa oggi non è vera.
+1	Invece	invece	ADV	B	_	23	advmod	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Svizzera	Svizzera	PROPN	SP	_	4	obl	_	_
+7	dove	dove	ADV	B	_	9	advmod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	4	punct	_	_
+11	.	.	PUNCT	FS	_	4	punct	_	_
+12	Secondo	secondo	ADP	E	_	13	case	_	_
+13	Fede	fede	PROPN	SP	_	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	infatti	infatti	ADV	B	_	4	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+19	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	oggi	oggi	ADV	B	_	23	advmod	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	vera	vero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 14
+# text = "Quello che mi chiedo io è - conclude il giornalista - cosa c’è dietro questo piano, chi vuole farmi perdere credibilità e soprattutto perchè.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	-	-	PUNCT	FF	_	9	punct	_	_
+9	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giornalista	giornalista	NOUN	S	Number=Sing	9	nsubj	_	_
+12	-	-	PUNCT	FF	_	15	punct	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	15	obl	_	_
+14	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	dietro	dietro	ADV	B	_	15	advmod	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	piano	piano	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	chi	chi	PRON	PR	PronType=Rel	15	nsubj	_	_
+21	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	farmi	arma|farme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	perdere	perdere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	credibilità	credibilità	NOUN	S	Gender=Fem	23	obl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	soprattutto	soprattutto	ADV	B	_	27	advmod	_	_
+27	perchè	perché	SCONJ	CS	_	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 15
+# text = .." .
+1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	1	punct	_	_
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

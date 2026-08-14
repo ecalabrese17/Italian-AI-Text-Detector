@@ -1,0 +1,239 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Kermit, Miss Piggy, Fozzie e compagnia saranno infatti protagoniste di una serie di film e serie tv realizzati completamente in computer grafica.
+1	Kermit	Kermit	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Miss	Miss	PROPN	SP	_	1	conj	_	_
+4	Piggy	Piggy	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Fozzie	Fozzie	PROPN	SP	_	1	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+9	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+10	infatti	infatti	ADV	B	_	11	advmod	_	_
+11	protagoniste	protagonista	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	serie	serie	NOUN	S	Gender=Fem	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	film	film	NOUN	S	Gender=Masc	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	serie	serie	NOUN	S	Gender=Fem	16	conj	_	_
+19	tv	tv	NOUN	S	Gender=Fem	18	compound	_	_
+20	realizzati	realizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+21	completamente	completamente	ADV	B	_	20	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	computer	computer	NOUN	S	Gender=Masc	20	obl	_	_
+24	grafica	grafico	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = La decisione di passare al digitale è stata motivata dalla volontà di raggiungere un pubblico più giovane e di offrire nuove possibilità di storytelling e dicharacter design.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	passare	passare	VERB	V	VerbForm=Inf	2	acl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	digitale	digitale	ADJ	A	Number=Sing	4	obl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	motivata	motivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volontà	volontà	NOUN	S	Gender=Fem	10	obl:agent	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	raggiungere	raggiungere	VERB	V	VerbForm=Inf	13	acl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	giovane	giovane	ADJ	A	Number=Sing	17	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	offrire	offrire	VERB	V	VerbForm=Inf	19	conj	_	_
+23	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	possibilità	possibilità	NOUN	S	Gender=Fem	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	storytelling	storytelling	NOUN	S	Gender=Masc	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	dicharacter	dicharactere	ADP	E	_	29	case	_	_
+29	design	design	NOUN	S	Gender=Masc	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = I fan dei Muppet, però, sono dubbiosi e temono che la trasformazione dei loro amati personaggi in creature digitali possa snaturarne lo spirito originale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	fan	fan	NOUN	S	_	10	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Muppet	Muppet	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	però	però	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	dubbiosi	dubbioso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	che	che	SCONJ	CS	_	25	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	20	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	amati	amare	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	digitali	digitale	ADJ	A	Number=Plur	22	amod	_	_
+24	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25-26	snaturarne	_	_	_	_	_	_	_	_
+25	snaturar	snaturare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+26	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	originale	originale	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = La Disney assicura che la sostanza dei Muppet non cambierà e che la loro personalità e il loro umorismo saranno mantenuti intatti, ma è difficile non avere dubbi sulla possibilità di replicare con il digitale la magia e la poesia dei pupazzi originali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Disney	Disney	PROPN	SP	_	3	nsubj	_	_
+3	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Muppet	Muppet	PROPN	SP	_	6	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	cambierà	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+12	e	e	CCONJ	CC	_	22	cc	_	_
+13	che	che	SCONJ	CS	_	22	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	personalità	personalità	NOUN	S	Gender=Fem	22	nsubj:pass	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	umorismo	umorismo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+21	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
+22	mantenuti	mantenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+23	intatti	intatto	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	difficile	difficile	ADJ	A	Number=Sing	3	conj	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	avere	avere	VERB	V	VerbForm=Inf	27	csubj	_	_
+30	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31-32	sulla	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	possibilità	possibilità	NOUN	S	Gender=Fem	29	obl	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	replicare	replicare	VERB	V	VerbForm=Inf	33	acl	_	_
+36	con	con	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	digitale	digitale	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	magia	magia	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	40	conj	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	pupazzi	pupazzo	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+47	originali	originale	ADJ	A	Number=Plur	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = I Muppet hanno fatto la storia della televisione e del cinema, con la loro trasmissione omonima che è stata trasmessa in oltre 100 paesi e ha vinto numerosi premi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Muppet	Muppet	PROPN	SP	_	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cinema	cinema	NOUN	S	Gender=Masc	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+19	omonima	omonimo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj:pass	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	trasmessa	trasmettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	oltre	oltre	ADV	B	_	26	advmod	_	_
+26	100	100	NUM	N	NumType=Card	27	nummod	_	_
+27	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+31	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
+32	premi	premio	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = La loro capacità di divertire e di emozionare bambini e adulti allo stesso tempo ha reso i Muppet un fenomeno culturale senza pari.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	capacità	capacità	NOUN	S	Gender=Fem	17	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	divertire	divertire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	emozionare	emozionare	VERB	V	VerbForm=Inf	5	conj	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12-13	allo	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Muppet	Muppet	PROPN	SP	_	17	obj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	17	xcomp	_	_
+22	culturale	culturale	ADJ	A	Number=Sing	21	amod	_	_
+23	senza	senza	ADP	E	_	24	case	_	_
+24	pari	pari	ADJ	A	_	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 7
+# text = Sarà possibile replicare questo successo con i Muppet digitali?
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+3	replicare	replicare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	successo	successo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Muppet	Muppet	PROPN	SP	_	3	obl	_	_
+9	digitali	digitale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Solo
+1	Solo	solo	ADV	B	_	0	root	_	SpacesAfter=\n
+

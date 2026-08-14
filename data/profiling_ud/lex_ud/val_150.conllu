@@ -1,0 +1,328 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il riferimento è chiaro:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = la «botta di efflux» voluta dal governo gialloverde per l'editoria, che ha previsto un bonus per gli abbonamenti cartacei e la redistribuzione dei giornali nelle scuole, ma non ha previsto alcun sostegno per la stampa digitale.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	botta	botta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	efflux	efflux	NOUN	S	_	3	nmod	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	3	punct	_	_
+7	voluta	volere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	gialloverde	gialloverde	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	editoria	editoria	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	bonus	bonus	NOUN	S	Gender=Masc	18	obj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	abbonamenti	abbonamento	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	cartacei	cartaceo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	redistribuzione	redistribuzione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31-32	nelle	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	38	punct	_	_
+35	ma	ma	CCONJ	CC	_	38	cc	_	_
+36	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+39	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	40	det	_	_
+40	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	per	per	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	digitale	digitale	ADJ	A	Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Un trend che, secondo Patuanelli, non può più essere ignorato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trend	trend	NOUN	S	Gender=Masc	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	6	case	_	_
+6	Patuanelli	Patuanelli	PROPN	SP	_	12	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	ignorato	ignorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Le eyebrows a sostegno delle testate in difficoltà ci possono stare - ha aggiunto - ma dobbiamo muoverci su un percorso che tenga conto dell'evoluzione del settore e che puntando sulla transizione digitale".
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	eyebrows	eyebrows	NOUN	S	_	13	nsubj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	testate	testata	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	difficoltà	difficoltà	NOUN	S	Gender=Fem	8	nmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+14	-	-	PUNCT	FF	_	16	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
+17	-	-	PUNCT	FB	_	16	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20-21	muoverci	_	_	_	_	_	_	_	_
+20	muover	muovere	VERB	V	VerbForm=Inf	13	conj	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	expl	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	conto	conto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	settore	settore	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	puntando	puntare	VERB	V	VerbForm=Ger	13	conj	_	_
+37-38	sulla	_	_	_	_	_	_	_	_
+37	su	su	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+40	digitale	digitale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = L'auspicio del M5S è, infatti, quello di un sostegno agli abbonamenti digitali delle testate in difficoltà.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	auspicio	auspicio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	M5S	M5S	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	agli	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	abbonamenti	abbonamento	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	digitali	digitale	ADJ	A	Number=Plur	16	amod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	testate	testata	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	difficoltà	difficoltà	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Una misura che, secondo il Ministro, potrebbe essere inserita in una legge ad hoc sull'editoria, da discutere in Parlamento nelle prossime settimane.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	misura	misura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ministro	Ministro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	inserita	inserire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	ad	ad	X	SW	Foreign=Yes	14	compound	_	_
+16	hoc	hoc	X	SW	Foreign=Yes	15	flat:foreign	_	_
+17-18	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+17	su	su	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	editoria	editoria	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	discutere	discutere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	Parlamento	parlamento	PROPN	SP	_	22	obl	_	_
+25-26	nelle	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+28	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma il Movimento 5 Stelle non è l'unico a enfatizzare l'importanza della transizione digitale nel settore editoriale.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Movimento	Movimento	PROPN	SP	_	9	nsubj	_	_
+4	5	5	NUM	N	NumType=Card	3	flat:name	_	_
+5	Stelle	Stelle	PROPN	SP	_	3	flat:name	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	unico	unico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	enfatizzare	enfatizzare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	digitale	digitale	ADJ	A	Number=Sing	16	amod	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	settore	settore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	editoriale	editoriale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Anche il Pd ha sottolineato, durante la presentazione del proprio programma, l'esigenza di un sostegno alas abbonamenti online.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Pd	pd	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	durante	durante	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	programma	programma	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	esigenza	esigenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	alas	ala	X	X	_	19	nmod	_	_
+21	abbonamenti	abbonamento	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+22	online	online	NOUN	S	Gender=Masc|Number=Sing	21	compound	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = "La digitalizzazione è una sfida per tutto il settore dell'editoria - ha detto il responsabile per le Comunicazioni dei democratici, Debora Serracchiani - e va affrontata con uniries abnormal e illuminata".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	digitalizzazione	digitalizzazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	settore	settore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	editoria	editoria	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	-	-	PUNCT	FF	_	6	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	responsabile	responsabile	NOUN	S	Number=Sing	16	nsubj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	Comunicazioni	Comunicazioni	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	democratici	democratico	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	18	punct	_	_
+26	Debora	Debora	PROPN	SP	_	18	appos	_	_
+27	Serracchiani	Serracchiani	PROPN	SP	_	26	flat:name	_	_
+28	-	-	PUNCT	FF	_	16	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	affrontata	affrontare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	uniries	uniry	DET	RD	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+34	abnormal	abnormale	NOUN	S	Gender=Masc	31	obl	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	illuminata	illuminare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	conj	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = L'opposizione, dunque, si dimostra unita sulla necessità di appena il settore editoriale verso la transizione digitale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dunque	dunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	unita	unire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	necessità	necessità	NOUN	S	Gender=Fem	8	obl	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	appena	appena	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	settore	settore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	editoriale	editoriale	ADJ	A	Number=Sing	15	amod	_	_
+17	verso	verso	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+20	digitale	digitale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = E, di fronte a questa unione, il governo potrebbe essere costretto
+1	E	e	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fronte	fronte	NOUN	S	Number=Sing	13	obl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	unione	unione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=\n
+

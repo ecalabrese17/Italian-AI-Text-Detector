@@ -1,0 +1,387 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il ricavato servirebbe per recuperare i soldi spesi per curare le patologie che il consumo di carne, in particolar modo quella rossa, provoca.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricavato	ricavato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	servirebbe	servire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	recuperare	recuperare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	spesi	spendere	ADJ	A	Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	curare	curare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	22	fixed	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	carne	carne	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	particolar	particolare	ADJ	A	Number=Sing	21	amod	_	_
+21	modo	modo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+22	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	12	acl:relcl	_	_
+23	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	provoca	provocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Inoltre porterebbe molti carnivori attenti al portafoglio a mangiarne di meno.
+1	Inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	porterebbe	portare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	carnivori	carnivoro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	portafoglio	portafoglio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	mangiarne	_	_	_	_	_	_	_	_
+10	mangiar	mangiare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	meno	meno	ADV	B	_	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sono tante le malattie causate da un’alimentazione ricca di carne rossa, da quelle cardiache al diabete e al cancro.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det:predet	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	causate	causare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	carne	carne	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	cardiache	cardiaco	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	diabete	diabete	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cancro	cancro	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E le spese che uno Stato deve affrontare per curarle è molto elevato.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	affrontare	affrontare	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	curarle	_	_	_	_	_	_	_	_
+10	curar	curare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Da qui l’idea di tassare il problema alla fonte.
+1	Da	da	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	tassare	tassare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lo studio infatti sostiene che i costi per far fronte alle malattie provocate da questo alimento si aggirerebbero intorno ai 285 miliardi di dollari all’anno, a livello mondiale.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	infatti	infatti	ADV	B	_	4	advmod	_	_
+4	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	19	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	costi	costo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	fronte	fronte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	provocate	provocare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	alimento	alimento	NOUN	S	Gender=Masc|Number=Sing	14	obl:agent	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	aggirerebbero	aggirare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+20	intorno	intorno	ADV	B	_	24	case	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	285	285	NUM	N	NumType=Card	24	nummod	_	_
+24	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27-28	all’	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	19	punct	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	livello	livello	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+33	mondiale	mondiale	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Se si arrivasse quindi a mettere una tassa del 20% sulla carne non lavorata, come per esempio le bistecche, e del 110% su quella lavorata, come i salumi, si riuscirebbe a compensare la spesa.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	arrivasse	arrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	advcl	_	_
+4	quindi	quindi	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	20	20	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	8	nmod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	carne	carne	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	lavorata	lavorare	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	bistecche	bistecca	NOUN	S	Gender=Fem|Number=Plur	15	appos	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	110	110	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	23	conj	_	_
+30	su	su	ADP	E	_	31	case	_	_
+31	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	29	nmod	_	_
+32	lavorata	lavorata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	come	come	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	salumi	salume	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	3	punct	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+39	riuscirebbe	riuscire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+40	a	a	ADP	E	_	41	mark	_	_
+41	compensare	compensare	VERB	V	VerbForm=Inf	39	xcomp	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	39	punct	_	_
+
+# sent_id = 8
+# text = Il risparmio sarebbe di 41 miliardi di dollari all’anno in cure mediche, dato che se ne raccoglierebbero circa 170.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risparmio	risparmio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	41	41	NUM	N	NumType=Card	6	nummod	_	_
+6	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9-10	all’	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	cure	cura	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+14	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+20	raccoglierebbero	raccogliere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	circa	circa	ADV	B	_	22	advmod	_	_
+22	170	170	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Secondo i calcoli degli studiosi ben il 70% dei costi sanitari dovuti al consumo di carne rossa verrebbe recuperato.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	calcoli	calcolo	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	studiosi	studioso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	ben	bene	ADV	B	_	10	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	70	70	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	23	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	costi	costo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	sanitari	sanitario	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	dovuti	dovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	carne	carne	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	verrebbe	verere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	recuperato	recuperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 10
+# text = Anche i decessi calerebbero notevolmente, circa 222mila casi in meno in 12 mesi.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	decessi	decesso	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	calerebbero	calare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	notevolmente	notevolmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	222mila	222mila	NUM	N	NumType=Card	9	nummod	_	_
+9	casi	caso	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	meno	meno	ADV	B	_	4	advmod	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	12	12	NUM	N	NumType=Card	14	nummod	_	_
+14	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = La carne verrebbe consumata solo 2 volte alla settimana, contro la media mondiale dei paesi maggiormente ricchi che vede un consumo quotidiano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carne	carne	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	verrebbe	verere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	consumata	consumare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	2	2	NUM	N	NumType=Card	7	nummod	_	_
+7	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	media	media	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+15	mondiale	mondiale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+19	maggiormente	maggiormente	ADV	B	_	20	advmod	_	_
+20	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Che calerebbe quindi del 16%.
+1	Che	che	PRON	PR	PronType=Rel	2	nsubj	_	_
+2	calerebbe	calare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quindi	quindi	ADV	B	_	2	advmod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	16	16	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Nel 2015 l’Oms ha sostenuto la teoria che la carne rossa lavorata sia cancerogena, mentre quella non lavorata sia potenzialmente cancerogena.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2015	2015	NUM	N	NumType=Card	7	nummod	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Oms	Oms	PROPN	SP	_	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	carne	carne	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	lavorata	lavorare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+15	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	cancerogena	cancerogenare	ADJ	A	Gender=Fem|Number=Sing	9	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	mentre	mentre	SCONJ	CS	_	19	mark	_	_
+19	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	16	conj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	lavorata	lavorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	sia	essere	CCONJ	CC	_	24	cc	_	_
+23	potenzialmente	potenzialmente	ADV	B	_	24	advmod	_	_
+24	cancerogena	cancerogenare	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = E' già stato presentato da sette paesi un progetto che porti gli Stati membri dell'Onu ad adottare politiche fiscali e regolatorie nei confronti di cibi ritenuti insalubri.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	sette	sette	NUM	N	NumType=Card	7	nummod	_	_
+7	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	porti	portare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Stati	stato	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	membri	membro	NOUN	S	Gender=Masc|Number=Plur	13	compound	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Onu	Onu	PROPN	SP	_	13	nmod	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19	adottare	adottare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+20	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+21	fiscali	fiscale	ADJ	A	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	regolatorie	regolatorio	ADJ	A	Gender=Fem|Number=Plur	21	conj	_	_
+24-25	nei	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	ritenuti	ritenere	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+30	insalubri	insalubre	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

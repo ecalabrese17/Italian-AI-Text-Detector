@@ -1,0 +1,429 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi è capitato più volte di trovarmi in situazioni di tensione e, al contrario mi sono chiesto:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	trovarmi	arma|trovarme	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ma quando sparano?
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	sparano	sparare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = I militari italiani sono prudenti, attenti e rispondono al fuoco se attaccati".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	militari	militare	NOUN	S	Number=Plur	5	nsubj	_	_
+3	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	prudenti	prudente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	attenti	attenti	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	rispondono	rispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	se	se	SCONJ	CS	_	14	mark	_	_
+14	attaccati	attaccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = A dirlo, in una intervista al Tempo, è il giornalista Toni Capuozzo che ha scritto il libro Il segreto dei marò, edito da Mursia.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+2	dir	dire	VERB	V	VerbForm=Inf	14	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giornalista	giornalista	NOUN	S	Number=Sing	0	root	_	_
+15	Toni	toni	PROPN	SP	_	14	nmod	_	_
+16	Capuozzo	Capuozzo	PROPN	SP	_	15	flat:name	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	libro	libro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	marò	marare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	edito	edire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	Mursia	Mursia	PROPN	SP	_	28	obl:agent	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Secondo Capuozzo, "non è un caso che gli indiani non siano arrivati a istruire un processo, perché non c'è alcuna prova della loro colpevolezza, ci sono al contrario molte prove della loro innocenza".
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Capuozzo	Capuozzo	PROPN	SP	_	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	indiani	indiano	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	istruire	istruire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	perché	perché	SCONJ	CS	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	SpaceAfter=No
+23	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+24	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	prova	prova	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	loro	loro	DET	AP	Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	colpevolezza	colpevolezza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	23	punct	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	32	expl	_	_
+32	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	37	det	_	_
+37	prove	prova	NOUN	S	Gender=Fem|Number=Plur	32	nsubj	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	41	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	loro	loro	DET	AP	Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 6
+# text = Sulle indagini, il giornalista afferma che sono state effettuate con "molta faciloneria, una grande approssimazione e con un teorema:
+1-2	Sulle	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giornalista	giornalista	NOUN	S	Number=Sing	7	nsubj	_	_
+7	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	effettuate	effettuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	ccomp	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	faciloneria	faciloneria	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	grande	grande	ADJ	A	Number=Sing	19	amod	_	_
+19	approssimazione	approssimazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	teorema	teorema	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = sono stati gli italiani, sono colpevoli.
+1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	colpevoli	colpevole	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Tutto ha avuto subito un forte connotato politico:
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	forte	forte	ADJ	A	Number=Sing	7	amod	_	_
+7	connotato	connotato	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	politico	politico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = erano giorni in in cui il Partito del Congresso si giocava la maggioranza, in Kerala c'era l'elezione supplettiva per un deputato che era deceduto.
+1	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	giorni	giornare	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	giocava	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Kerala	Kerala	PROPN	SP	_	12	obl	_	_
+18	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
+19	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	supplettiva	supplettivo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	deceduto	decedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 10
+# text = L'incidente ai due pescatori rappresentava un'occasione formidabile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	pescatori	pescatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	formidabile	formidabile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Era già decisa la colpevolezza, bisognava solo acconciare un teorema.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	decisa	decidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	colpevolezza	colpevolezza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	acconciare	acconciare	VERB	V	VerbForm=Inf	7	csubj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	teorema	teorema	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = È stato fatto in modo facilone e maldestro".
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	facilone	facilone	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	maldestro	maldestro	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Infine, da Capuozzo arriva una dura accusa anche l' Italia :
+1	Infine	infine	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Capuozzo	Capuozzo	PROPN	SP	_	5	obl	_	_
+5	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	dura	duro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	accusa	accusare	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Italia	Italia	PROPN	SP	_	8	nmod	_	_
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = "Siamo disastrosi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	disastrosi	disastroso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Convinti, all'inizio, che la cosa possa finire a tarallucci e vino, ci sfugge completamente la strumentalizzazione politica".
+1	Convinti	convinto	ADJ	A	Gender=Masc|Number=Plur	18	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	finire	finire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	tarallucci	taralluccio	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	vino	vino	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+18	sfugge	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	completamente	completamente	ADV	B	_	18	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	strumentalizzazione	strumentalizzazione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	politica	politico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 16
+# text = Nel suo libro, Capuozzo ricorda che chi ha avuto a che fare sul caro marò tra le sfere militari italiane ha fatto una rapida carriera:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	libro	libro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Capuozzo	Capuozzo	PROPN	SP	_	7	nsubj	_	_
+7	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	25	mark	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	25	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+12	a	a	ADP	E	_	14	mark	_	_
+13	che	che	SCONJ	CS	_	12	fixed	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caro	caro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	marò	marare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	obj	_	_
+19	tra	tra	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	sfere	sfera	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	militari	militare	ADJ	A	Number=Plur	21	amod	_	_
+23	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 17
+# text = "È vero che alcuni posti nella Marina militare sono dei trampolini di lancio.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	14	mark	_	_
+5	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	posti	posto	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Marina	marina	PROPN	SP	_	6	nmod	_	_
+10	militare	militare	ADJ	A	Number=Sing	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	trampolini	trampolino	NOUN	S	Gender=Masc|Number=Plur	3	csubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Chi guida la Squadra Navale è chiaro che poi avrà un incarico più importante, tutte persone che avevano carriere brillanti annunciate.
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	guida	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Squadra	Squadra	PROPN	SP	_	2	obj	_	_
+5	Navale	Navale	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	ccomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	importante	importante	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+20	carriere	carriere	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+21	brillanti	brillante	ADJ	A	Number=Plur	20	amod	_	_
+22	annunciate	annunciato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Il sospetto è che queste carriere siano un omaggio ad un atteggiamento che ha accettato la supremazia della politica e dell'economia".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	carriere	carriera	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	3	ccomp	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	supremazia	supremazia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	politica	politica	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	economia	economia	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

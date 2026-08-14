@@ -1,0 +1,688 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Lo studio iniziato nel 1990 ha coinvolto donne svedesi di età compresa tra i 25 e i 64 anni - spiega Girolomoni, Direttore della Dermatologia di Verona e presidente della Società Italiana di Dermatologia - ed ha dimostrato in modo chiaro che evitare il sole fa male.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	studio	studio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1990	1990	NUM	N	NumType=Card	4	obl	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	svedesi	svedese	ADJ	A	Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	età	età	NOUN	S	Gender=Fem	10	nmod	_	_
+14	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	25	25	NUM	N	NumType=Card	21	nummod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	64	64	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+22	-	-	PUNCT	FB	_	3	punct	_	_
+23	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+24	Girolomoni	Girolomoni	PROPN	SP	_	23	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	Direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	24	appos	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Dermatologia	Dermatologia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Verona	Verona	PROPN	SP	_	29	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Società	società	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	Italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Dermatologia	Dermatologia	PROPN	SP	_	36	nmod	_	_
+40	-	-	PUNCT	FF	_	23	punct	_	_
+41	ed	e	CCONJ	CC	_	43	cc	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	modo	modo	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+46	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+47	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+48	evitare	evitare	VERB	V	VerbForm=Inf	51	csubj	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	sole	sole	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	_
+51	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	_
+52	male	male	ADV	B	_	51	advmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Le donne che si espongono al sole infatti hanno un rischio minore di eventi cardiovascolari (infarto, ictus) e sopravvivono più a lungo, 0.6-2.1 anni in più per la precisione.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	espongono	esporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sole	sole	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	infatti	infatti	ADV	B	_	10	advmod	_	_
+10	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	minore	minore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	cardiovascolari	cardiovascolare	ADJ	A	Number=Plur	15	amod	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	infarto	infarto	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	ictus	ictus	X	X	_	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	sopravvivono	sopravvivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	più	più	ADV	B	_	26	advmod	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	23	punct	_	_
+28	0.6-2.1	0.6-2.l	NUM	N	NumType=Card	29	nummod	_	_
+29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	più	più	ADV	B	_	23	advmod	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Non e' finita qui.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	4	punct	_	_
+4	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	qui	qui	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Esporsi al sole compensa gli effetti dannosi del fumo di sigaretta.
+1-2	Esporsi	_	_	_	_	_	_	_	_
+1	Espor	esporre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	advcl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	compensa	compenso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	dannosi	dannoso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = I benefici sono da mettere in rapporto col fatto che la pelle esposta al sole produce maggiori quantità di vitamina D".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	mettere	mettere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	col	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	che	che	SCONJ	CS	_	18	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	esposta	esporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sole	sole	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+19	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	20	amod	_	_
+20	quantità	quantità	NOUN	S	Gender=Fem	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	D	D	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma gli esperti ricordano che questo effetto 'positivo' si può ottenere solo se la tintarella viene presa con cautela.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	ricordano	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+8	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	9	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ottenere	ottenere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+14	solo	solo	ADV	B	_	19	advmod	_	_
+15	se	se	SCONJ	CS	_	19	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tintarella	tintarella	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+18	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = La vitamina D. Secondo la ricerca la vitamina D non è l'unica sostanza benefica prodotta dalla pelle dopo esposizione al sole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	D	D	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+5	Secondo	secondo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	D	D	PROPN	SP	_	9	nmod	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	unica	unico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	benefica	benefica	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	dopo	dopo	ADP	E	_	22	case	_	_
+22	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sole	sole	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = Le cellule della pelle producono beta endorfine che sono responsabili del senso di piacere e appagamento e forse pure della dipendenza che diverse persone provano nell'esporsi al sole o ai raggi ultravioletti artificiali.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cellule	cellula	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	producono	produrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	beta	beto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	endorfine	endorfine	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	responsabili	responsabile	NOUN	S	Number=Plur	8	acl:relcl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	senso	senso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	appagamento	appagamento	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19	e	e	CCONJ	CC	_	24	cc	_	_
+20	forse	forse	ADV	B	_	24	advmod	_	_
+21	pure	pure	ADV	B	_	24	advmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+25	che	che	SCONJ	CS	_	28	mark	_	_
+26	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+27	persone	persona	NOUN	S	Gender=Fem|Number=Plur	28	nsubj	_	_
+28	provano	provare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+29-30	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	in	in	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31-32	esporsi	_	_	_	_	_	_	_	_
+31	espor	espor	VERB	V	VerbForm=Inf	28	obl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	sole	sole	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+36	o	o	CCONJ	CC	_	39	cc	_	_
+37-38	ai	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	raggi	raggio	NOUN	S	Gender=Masc|Number=Plur	35	conj	_	_
+40	ultravioletti	ultravioletto	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
+41	artificiali	artificiale	ADJ	A	Number=Plur	39	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = La pelle stimolata dal sole rilascia inoltre ossido nitrico che è in grado di abbassare la pressione arteriosa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	stimolata	stimolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	rilascia	rilasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	inoltre	inoltre	ADV	B	_	9	advmod	_	_
+9	ossido	ossido	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	nitrico	nitrico	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	grado	grado	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	abbassare	abbassare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	arteriosa	arterioso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = In effetti, le persone con ipertensione moderata che si espongono ai raggi ultravioletti migliorano la loro ipertensione.
+1	In	in	ADP	E	_	2	case	_	_
+2	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	ipertensione	ipertensione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	moderata	moderato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	espongono	esporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	raggi	raggio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	ultravioletti	ultravioletto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	migliorano	migliorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ipertensione	ipertensione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Ma c'e un altro lato della medaglia:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	lato	lato	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = se l'esposizione al sole è eccessiva, favorisce l'invecchiamento cutaneo e lo sviluppo di tumori della cute come epiteliomi o melanomi.
+1	se	se	SCONJ	CS	_	8	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	eccessiva	eccessivo	ADJ	A	Gender=Fem|Number=Sing	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	favorisce	favorire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	invecchiamento	invecchiamento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	cutaneo	cutaneo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	tumori	tumore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cute	cuta	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	epiteliomi	epiteliomo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	melanomi	melanome	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = E quindi può fare ammalare.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	quindi	quindi	ADV	B	_	4	advmod	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	ammalare	ammalare	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Quindi come comportarsi?
+1	Quindi	quindi	ADV	B	_	3	advmod	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3-4	comportarsi	_	_	_	_	_	_	_	SpaceAfter=No
+3	comportar	comportare	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = "Tutto dipende dalle caratteristiche della propria pelle - spiega Girolomoni - gli individui di carnagione scura che non si scottano al sole possono esporsi tranquillamente senza problemi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	-	-	PUNCT	FB	_	12	punct	_	_
+12	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
+13	Girolomoni	Girolomoni	PROPN	SP	_	28	obl	_	_
+14	-	-	PUNCT	FF	_	13	punct	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	scottano	scottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sole	sole	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28-29	esporsi	_	_	_	_	_	_	_	_
+28	espor	esporre	VERB	V	VerbForm=Inf	3	conj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	tranquillamente	tranquillamente	ADV	B	_	28	advmod	_	_
+31	senza	senza	ADP	E	_	32	case	_	_
+32	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Gli individui di carnagione chiara che si scottano facilmente devono fare più attenzione, esponendosi con cautela".
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	scottano	scottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	facilmente	facilmente	ADV	B	_	8	advmod	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15-16	esponendosi	_	_	_	_	_	_	_	_
+15	esponendo	esporre	VERB	V	VerbForm=Ger	11	advcl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = I suggerimenti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	suggerimenti	suggerimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Gli esperti suggeriscono dunque di evitare le ore le ore di massima irradiazione, tra le 11 e le 14, ed esporsi al sole in modo graduale, dando la possibilità alla pelle di difendersi attraverso l'abbronzatura, ed usare creme protettive adeguate.Soprattutto nei bambini è fondamentale evitare le ustioni solari, che costituiscono il principale fattore di rischio per il melanoma.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	suggeriscono	suggerire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dunque	dunque	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	evitare	evitare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	massima	massima	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	irradiazione	irradiazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	11	11	NUM	N	NumType=Card	3	nummod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	14	14	NUM	N	NumType=Card	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ed	e	CCONJ	CC	_	23	cc	_	_
+23-24	esporsi	_	_	_	_	_	_	_	_
+23	espor	esporre	VERB	V	VerbForm=Inf	3	conj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	sole	sole	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	modo	modo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+30	graduale	graduale	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	dando	dare	VERB	V	VerbForm=Ger	3	advcl	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	possibilità	possibilità	NOUN	S	Gender=Fem	32	obj	_	_
+35-36	alla	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	di	di	ADP	E	_	39	mark	_	_
+39-40	difendersi	_	_	_	_	_	_	_	_
+39	difender	difendere	VERB	V	VerbForm=Inf	34	acl	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41	attraverso	attraverso	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	abbronzatura	abbronzatura	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	46	punct	_	_
+45	ed	e	CCONJ	CC	_	46	cc	_	_
+46	usare	usare	VERB	V	VerbForm=Inf	3	conj	_	_
+47	creme	crema	NOUN	S	Gender=Fem|Number=Plur	46	obj	_	_
+48	protettive	protettivo	ADJ	A	Gender=Fem|Number=Plur	47	amod	_	_
+49	adeguate.Soprattutto	adeguate.Soprattutto	ADV	B	_	54	advmod	_	_
+50-51	nei	_	_	_	_	_	_	_	_
+50	in	in	ADP	E	_	52	case	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	54	obl	_	_
+53	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+54	fondamentale	fondamentale	ADJ	A	Number=Sing	46	ccomp	_	_
+55	evitare	evitare	VERB	V	VerbForm=Inf	54	csubj	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	ustioni	ustione	NOUN	S	Gender=Fem|Number=Plur	55	obj	_	_
+58	solari	solare	ADJ	A	Number=Plur	57	amod	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	57	punct	_	_
+60	che	che	PRON	PR	PronType=Rel	61	nsubj	_	_
+61	costituiscono	costituire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	acl:relcl	_	_
+62	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+63	principale	principale	ADJ	A	Number=Sing	64	amod	_	_
+64	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	61	obj	_	_
+65	di	di	ADP	E	_	66	case	_	_
+66	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	_
+67	per	per	ADP	E	_	69	case	_	_
+68	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	melanoma	melanoma	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Il melanoma insorge a distanza di decenni dalle ustioni solari.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	melanoma	melanoma	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	insorge	insorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8-9	dalle	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ustioni	ustione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+11	solari	solare	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Inoltre è importante usare creme solari con fattore di protezione superiore a 30, meglio se 50, rinnovando l'applicazione dopo 2 ore o anche prima se si fanno bagni.
+1	Inoltre	inoltre	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4	usare	usare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	creme	crema	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	solari	solare	ADJ	A	Number=Plur	5	amod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	30	30	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	meglio	meglio	ADV	B	_	30	advmod	_	_
+16	se	se	SCONJ	CS	_	30	mark	_	_
+17	50	50	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	rinnovando	rinnovare	VERB	V	VerbForm=Ger	30	advcl	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	dopo	dopo	ADP	E	_	24	case	_	_
+23	2	2	NUM	N	NumType=Card	24	nummod	_	_
+24	ore	ora	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+25	o	o	CCONJ	CC	_	30	cc	_	_
+26	anche	anche	ADV	B	_	30	advmod	_	_
+27	prima	prima	ADV	B	_	30	mark	_	_
+28	se	se	SCONJ	CS	_	27	fixed	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl:pass	_	_
+30	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+31	bagni	bagno	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Usarle in quantità adeguata.
+1-2	Usarle	_	_	_	_	_	_	_	_
+1	Usar	usare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	quantità	quantità	NOUN	S	Gender=Fem	1	obl	_	_
+5	adeguata	adeguato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Anche le creme a cosiddetta protezione totale, in realtà proteggono solo parzialmente.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	creme	crema	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	cosiddetta	cosiddetto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	totale	totale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	realtà	realtà	NOUN	S	Gender=Fem	11	obl	_	_
+11	proteggono	proteggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	parzialmente	parzialmente	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 23
+# text = Va sempre ricordato che le creme solari non servono per stare più a lungo al sole, ma per starci in modo più corretto.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	creme	crema	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	solari	solare	ADJ	A	Number=Plur	6	amod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	stare	stare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	più	più	ADV	B	_	14	advmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sole	sole	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	starci	_	_	_	_	_	_	_	_
+21	star	stare	VERB	V	VerbForm=Inf	11	conj	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	21	obj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	modo	modo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Anche le magliette colorate possono costituire un ottimo filtro solare.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	magliette	maglietta	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	colorate	colorato	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	costituire	costituire	VERB	V	VerbForm=Inf	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	filtro	filtro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	solare	solare	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Va infine consideraot con il proprio medico l'assunzione regolare di vitamina D, soprattutto nei mesi autunnali e invernali.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	infine	infine	ADV	B	_	3	advmod	_	_
+3	consideraot	consideraot	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	medico	medico	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	assunzione	assunzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+10	regolare	regolare	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	D	D	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	soprattutto	soprattutto	ADV	B	_	18	advmod	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+19	autunnali	autunnale	ADJ	A	Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	invernali	invernale	ADJ	A	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Al sole, ma in sicurezza
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

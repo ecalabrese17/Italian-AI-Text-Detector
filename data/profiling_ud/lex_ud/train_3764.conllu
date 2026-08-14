@@ -1,0 +1,371 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ed è proprio di direttore del Festival che si rivolgono:
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	proprio	proprio	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Festival	Festival	NOUN	S	Gender=Masc	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	rivolgono	rivolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = "Tu hai fatto lo spettacolo un pò di tempo fa - dicono Pio e Amedeo - E come ti chiamavi?
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pò	pò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	fa	fare	ADV	B	_	10	advmod	_	_
+12	-	-	PUNCT	FB	_	13	punct	_	_
+13	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	Pio	Pio	PROPN	SP	_	13	nsubj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Amedeo	Amedeo	PROPN	SP	_	14	conj	_	_
+17	-	-	PUNCT	FF	_	13	punct	_	_
+18	E	e	CCONJ	CC	_	21	cc	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	ti	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	expl	_	_
+21	chiamavi	chiamavo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Colonnello?
+1	Colonnello	colonnello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Maresciallo?
+1	Maresciallo	Maresciallo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = No, eri capitano coraggioso, come quello là.
+1	No	no	INTJ	I	Polarity=Neg	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	eri	ero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+5	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+9	là	là	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = E nello spot di Sanremo eri vestito da vigile, con la divisa.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2-3	nello	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spot	spot	NOUN	S	Gender=Masc	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Sanremo	Sanremo	PROPN	SP	_	4	nmod	_	_
+7	eri	ero	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	vigile	vigile	ADJ	A	Number=Sing	8	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Sono tutti segnali.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nmod	_	_
+3	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Strizzi l'occhio.
+1	Strizzi	Strizzi	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ma lui non è rancoroso".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	rancoroso	rancoroso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Il riferimento, ovviamente, è a Matteo Salvini .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ovviamente	ovviamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Matteo	Matteo	PROPN	SP	_	0	root	_	_
+9	Salvini	Salvini	PROPN	SP	_	8	flat:name	_	_
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Il ministro dell'Interno non viene mai citato ma è a loro che pensano i due comici quando dicono si riferiscono a chi "ora dice le cose più brutte, ma tra 2-3 anni ti ama".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Interno	Interno	PROPN	SP	_	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	citato	citare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	comici	comico	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19	quando	quando	SCONJ	CS	_	20	mark	_	_
+20	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	riferiscono	riferire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	chi	chi	PRON	PR	Number=Sing|PronType=Rel	22	obl	_	_
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	ora	ora	ADV	B	_	24	advmod	_	_
+27	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	39	punct	_	_
+33	ma	ma	CCONJ	CC	_	39	cc	_	_
+34	tra	tra	ADP	E	_	37	case	_	_
+35	2	2	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+36	-3	-3	NUM	N	NumType=Card	37	nummod	_	_
+37	anni	anno	NOUN	S	Gender=Masc|Number=Plur	39	obl	_	_
+38	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	39	iobj	_	_
+39	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = "Con noi meridionali ha fatto la stessa cosa - cotinuano - Ora ci vuole bene".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+4	meridionali	meridionale	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	-	-	PUNCT	FF	_	11	punct	_	_
+11	cotinuano	cotinuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+12	-	-	PUNCT	FF	_	11	punct	_	_
+13	Ora	ora	ADV	B	_	15	advmod	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+15	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	bene	bene	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Infine, Pio e Amedeo invitano Baglio a dire una frase:
+1	Infine	infine	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Pio	Pio	PROPN	SP	_	6	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Amedeo	Amedeo	PROPN	SP	_	3	conj	_	_
+6	invitano	invitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Baglio	Baglio	PROPN	SP	_	6	obj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	frase	frase	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 14
+# text = "Dilla tutta che Sanremo l'anno prossimo lo facciamo al 100%.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Dilla	Dilla	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	tutta	tutto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	Sanremo	Sanre	PROPN	SP	_	10	nsubj	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+8	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	100	100	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	SYM	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Prima?".
+1	Prima	prima	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = E Claudio:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Claudio	Claudio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = "Gli italiani".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Immediata è arrivata la risposta, simpatica, di Matteo Salvini .
+1	Immediata	immediata	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	simpatica	simpatica	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Matteo	Matteo	PROPN	SP	_	5	nmod	_	_
+11	Salvini	Salvini	PROPN	SP	_	10	flat:name	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Sui social il ministro dell'Interno ha pubblicato una fotografia per commentare le parole dei due comici.
+1-2	Sui	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	social	social	NOUN	S	Gender=Masc	5	nmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Interno	Interno	PROPN	SP	_	5	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	commentare	commentare	VERB	V	VerbForm=Inf	10	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	parole	parola	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	comici	comico	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 20
+# text = "Evviva Sanremo - scrive il leader della Lega - Visto che parlano sempre di me, mi potevano almeno invitare per una cantatina".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Evviva	Evviva	PROPN	SP	_	0	root	_	_
+3	Sanremo	Sanremo	PROPN	SP	_	2	flat:name	_	_
+4	-	-	PUNCT	FF	_	5	punct	_	_
+5	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	leader	leader	NOUN	S	Gender=Masc	5	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lega	lega	PROPN	SP	_	7	nmod	_	_
+11	-	-	PUNCT	FB	_	7	punct	_	_
+12	Visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+15	sempre	sempre	ADV	B	_	14	advmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+20	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+21	almeno	almeno	ADV	B	_	22	advmod	_	_
+22	invitare	invitare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	cantatina	cantatina	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Visualizza questo post su Instagram Evviva #Sanremo...
+1	Visualizza	Visualizzare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	post	post	NOUN	S	_	1	obj	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	Instagram	Instagram	PROPN	SP	_	3	nmod	_	_
+6	Evviva	Evviva	PROPN	SP	_	5	flat:name	_	_
+7	#	#	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+8	Sanremo..	Sanremo..	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Visto che parlano sempre di me, mi potevano almeno invitare per una cantatina!
+1	Visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+9	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	almeno	almeno	ADV	B	_	11	advmod	_	_
+11	invitare	invitare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cantatina	cantatina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Un post condiviso da Matteo Salvini (@matteosalviniofficial) in data:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	post	post	NOUN	S	_	0	root	_	_
+3	condiviso	condividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Matteo	Matteo	PROPN	SP	_	3	obl:agent	_	_
+6	Salvini	Salvini	PROPN	SP	_	5	flat:name	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	@matteosalviniofficial	@matteosalviniofficial	NOUN	S	_	5	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	data	data	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = Feb 6, 2019 at 3:29 PST
+1	Feb	Feb	PROPN	SP	_	0	root	_	_
+2	6	6	NUM	N	NumType=Card	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	2019	2019	NUM	N	NumType=Card	5	nummod	_	_
+5	at	at	NOUN	S	Gender=Masc	1	nmod	_	_
+6	3:29	3:29	NUM	N	NumType=Card	5	nummod	_	_
+7	PST	PST	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+

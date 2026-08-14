@@ -1,0 +1,357 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, avete letto bene.La Volkswagen Golf R è furiosa.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene.La	bene.La	PROPN	SP	_	4	obj	_	_
+6	Volkswagen	Volkswagen	PROPN	SP	_	5	flat:name	_	_
+7	Golf	golf	PROPN	SP	_	5	flat:name	_	_
+8	R	R	PROPN	SP	_	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	furiosa	furioso	ADJ	A	Gender=Fem|Number=Sing	4	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Basta accendere il motore e mettersi in marcia per rendersene conto.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	accendere	accendere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	motore	motore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6-7	mettersi	_	_	_	_	_	_	_	_
+6	metter	mettere	VERB	V	VerbForm=Inf	2	conj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-13	rendersene	_	_	_	_	_	_	_	_
+11	render	rendere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	iobj	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+14	conto	conto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il ruggito profondo del suo motore a benzina da 320 CV è un chiaro segnale che questa auto non è affatto timida.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ruggito	ruggito	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	motore	motore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	320	320	NUM	N	NumType=Card	12	nummod	_	_
+12	CV	CV	PROPN	SP	_	9	nmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+17	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	auto	auto	NOUN	S	Gender=Fem	23	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	affatto	affatto	ADV	B	_	23	advmod	_	_
+23	timida	timido	ADJ	A	Gender=Fem|Number=Sing	16	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = E quando si schiaccia l'acceleratore, la Golf R si lancia in avanti come un missile, con una velocità e una coppia impressionanti che ti inchiodano al sedile.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	schiaccia	schiacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	acceleratore	acceleratore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Golf	Golf	PROPN	SP	_	12	nsubj	_	_
+10	R	R	PROPN	SP	_	9	flat:name	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	lancia	lanciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	avanti	avanti	NOUN	S	Gender=Masc	12	obl	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	missile	missile	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	velocità	velocità	NOUN	S	Gender=Fem	12	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+25	impressionanti	impressionanti	ADJ	A	Number=Plur	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	28	obj	_	_
+28	inchiodano	inchiodare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sedile	sedile	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Ma non è solo questione di potenza.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = La Golf R è anche una vera e propria bestia nell'angolo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Golf	golf	PROPN	SP	_	10	nsubj	_	_
+3	R	R	PROPN	SP	_	2	flat:name	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+5	anche	anche	ADV	B	_	10	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	vera	vero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+10	bestia	bestia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11-12	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	in	in	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = La sua trazione integrale garantisce una presa Excellent-soulmate su qualsiasi tipo di strada, mentre la sospensione sportiva ed il differenziale autobloccante limited-slip rendono l'esperienza di guida un piacere estremo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	trazione	trazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	integrale	integrale	ADJ	A	Number=Sing	3	amod	_	_
+5	garantisce	garantiscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	presa	presa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	Excellent	Excellent	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+10	soulmate	soulmare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	strada	strada	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	mentre	mentre	SCONJ	CS	_	26	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sospensione	sospensione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+20	sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	ed	e	CCONJ	CC	_	25	cc	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	differenziale	differenziale	ADJ	A	Number=Sing	25	amod	_	_
+24	autobloccante	autobloccante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	25	det	_	_
+25	limited-slip	limited-slip	NOUN	S	Gender=Fem	19	conj	_	_
+26	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	guida	guida	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+33	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = E con la modalità "Race", il conduire si trasforma in un'esperienza ancora più adrenalinica, grazie a un setting ancora più spinto e una risposta ancora più immediata del sterzo e dell'acceleratore.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	modalità	modalità	NOUN	S	Gender=Fem	12	obl	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Race	Race	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	conduire	conduire	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	adrenalinica	adrenalinico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	grazie	grazie	NOUN	S	_	23	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	setting	setting	NOUN	S	Gender=Masc	12	obl	_	_
+24	ancora	ancora	ADV	B	_	25	advmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	spinto	spinto	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+30	ancora	ancora	ADV	B	_	31	advmod	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	immediata	immediato	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	sterzo	sterzo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+37	di	di	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	acceleratore	acceleratore	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Insomma, la Volkswagen Golf R è un'auto che ti fa venir voglia di urlare di gola.
+1	Insomma	insomma	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Volkswagen	Volkswagen	PROPN	SP	_	9	nsubj	_	_
+5	Golf	golf	PROPN	SP	_	4	flat:name	_	_
+6	R	R	PROPN	SP	_	4	flat:name	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	auto	auto	NOUN	S	Gender=Fem	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	venir	venire	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	urlare	urlare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	gola	gola	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Di mollare tutto e mettersi in viaggio verso l'ignoto, solo per godersi le curve e le discese.
+1	Di	di	ADP	E	_	2	mark	_	_
+2	mollare	mollare	VERB	V	VerbForm=Inf	0	root	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5-6	mettersi	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	2	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ignoto	ignoto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	godersi	_	_	_	_	_	_	_	_
+15	goder	godere	VERB	V	VerbForm=Inf	5	advcl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	curve	curva	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	discese	discesa	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E' un'auto che ti fa sentire vivo, che ti fa provare un'adrenalina che non sapevi di avere dentro.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	auto	auto	NOUN	S	Gender=Fem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	sentire	sentire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+13	provare	provare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	adrenalina	adrenalina	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	sapevi	sapere	ADJ	A	Gender=Masc|Number=Plur	15	acl:relcl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	avere	avere	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	dentro	dentro	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E allora, because, perché definirla solo un'auto?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	because	becauso	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	perché	perché	SCONJ	CS	_	7	mark	_	_
+7-8	definirla	_	_	_	_	_	_	_	_
+7	definir	definire	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	auto	auto	NOUN	S	Gender=Fem	7	nsubj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = La Volkswagen Golf R è molto di più.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Volkswagen	Volkswagen	PROPN	SP	_	8	nsubj	_	_
+3	Golf	golf	PROPN	SP	_	2	flat:name	_	_
+4	R	R	PROPN	SP	_	2	flat:name	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	molto	molto	ADV	B	_	8	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = E' un concentrato di emozioni che ti fa sentire libero, potente e invincibile.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	concentrato	concentrato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	sentire	sentire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	libero	libero	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	potente	potente	ADJ	A	Number=Sing	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	invincibile	invincibile	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = E' un'auto che non ha bisogno di scuse, che non si nasconde dietro ad un'immagine diုံ며 개itualità o di com
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	auto	auto	NOUN	S	Gender=Fem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	scuse	scusa	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15	dietro	dietro	ADV	B	_	14	advmod	_	_
+16	ad	a	ADP	E	_	18	case	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	diုံ며	diုံ며	PROPN	SP	_	18	nmod	_	_
+20	개itualità	개itualità	NOUN	S	Gender=Fem	19	nmod	_	_
+21	o	o	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	com	com	NOUN	S	Gender=Masc	20	conj	_	SpacesAfter=\n
+

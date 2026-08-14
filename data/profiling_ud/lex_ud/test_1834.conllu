@@ -1,0 +1,376 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La donna con cui l'attore avrebbe una relazione è Meital Dohan , attrice e cantante di origini israeliane.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	attore	attore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	Meital	Meital	PROPN	SP	_	0	root	_	_
+12	Dohan	Dohan	PROPN	SP	_	11	flat:name	_	_
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	cantante	cantante	NOUN	S	Number=Sing	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	origini	origine	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	israeliane	israeliano	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Dohan ha 39 anni - esattamente la metà di Pacino che ne ha 78 - e i due sono stati avvistati in vari locali di Los Angeles intenti a cenare romanticamente insieme.
+1	Dohan	Dohan	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	39	39	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	-	-	PUNCT	FF	_	8	punct	_	_
+6	esattamente	esattamente	ADV	B	_	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	metà	metà	NOUN	S	Gender=Fem	2	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Pacino	Pacino	PROPN	SP	_	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	78	78	NUM	N	NumType=Card	13	obj	_	_
+15	-	-	PUNCT	FF	_	2	punct	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	due	due	NUM	N	NumType=Card	21	nsubj:pass	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	avvistati	avvistare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	vari	vario	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	locali	locale	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Los	Los	PROPN	SP	_	24	nmod	_	_
+27	Angeles	Angeles	PROPN	SP	_	26	flat:name	_	_
+28	intenti	intente	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	24	acl	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	cenare	cenare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	romanticamente	romantico	ADV	B	_	30	advmod	_	_
+32	insieme	insieme	ADV	B	_	30	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = HollywoodLife spiega che inizialmente la coppia ha mantenuto un profilo basso - forse anche per la differenza d'età - ma ultimamente le loro apparizioni si sono fatte sempre più frequenti e i due sembrano essere molto felici insieme.
+1	HollywoodLife	HollywoodLife	PROPN	SP	_	2	nsubj	_	_
+2	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	inizialmente	inizialmente	ADV	B	_	8	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	mantenuto	mantenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	basso	basso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	-	-	PUNCT	FF	_	17	punct	_	_
+13	forse	forse	ADV	B	_	17	advmod	_	_
+14	anche	anche	ADV	B	_	17	advmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	età	età	NOUN	S	Gender=Fem	17	nmod	_	_
+20	-	-	PUNCT	FF	_	17	punct	_	_
+21	ma	ma	CCONJ	CC	_	28	cc	_	_
+22	ultimamente	ultimamente	ADV	B	_	28	advmod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	apparizioni	apparizione	NOUN	S	Gender=Fem|Number=Plur	28	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+29	sempre	sempre	ADV	B	_	30	advmod	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	frequenti	frequente	ADJ	A	Number=Plur	28	xcomp	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	due	due	NUM	N	NumType=Card	35	nsubj	_	_
+35	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+36	essere	essere	AUX	V	VerbForm=Inf	38	cop	_	_
+37	molto	molto	ADV	B	_	38	advmod	_	_
+38	felici	felice	ADJ	A	Gender=Masc|Number=Plur	35	xcomp	_	_
+39	insieme	insieme	ADV	B	_	35	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Al grande pubblico però forse il nome di Meital Dohan potrebbe dire poco.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	però	però	ADV	B	_	13	advmod	_	_
+6	forse	forse	ADV	B	_	13	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nome	nome	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Meital	Meital	PROPN	SP	_	8	nmod	_	_
+11	Dohan	Dohan	PROPN	SP	_	10	flat:name	_	_
+12	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+14	poco	poco	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = La donna ha iniziato a lavorare come attrice di teatro in Israele - è nata e cresciuta in un piccolo villaggio appena fuori la città di Ra'anana - per voi volare e stabilirsi negli Stati Uniti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	lavorare	lavorare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Israele	Israele	PROPN	SP	_	6	nmod	_	_
+13	-	-	PUNCT	FF	_	15	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	appena	appena	ADV	B	_	25	advmod	_	_
+23	fuori	fuori	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	città	città	NOUN	S	Gender=Fem	15	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Ra'	Ra'	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	anana	anano	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	-	-	PUNCT	FB	_	15	punct	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	32	obl	_	_
+32	volare	volare	VERB	V	VerbForm=Inf	15	conj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34-35	stabilirsi	_	_	_	_	_	_	_	_
+34	stabilir	stabilire	VERB	V	VerbForm=Inf	15	conj	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36-37	negli	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	Stati	Stati	PROPN	SP	_	34	obl	_	_
+39	Uniti	Uniti	PROPN	SP	_	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lì è nota, tra le altre cose, per aver interpretato la serie di Jenji Kohan " Weeds ", dapprima nel 2006 e poi con un ritorno del suo personaggio - Yael Hoffman - nel 2012.
+1	Lì	lì	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	nota	noto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tra	tra	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	altre	altro	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	per	per	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	interpretato	interpretare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	serie	serie	NOUN	S	Gender=Fem	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Jenji	Jenji	PROPN	SP	_	14	nmod	_	_
+17	Kohan	Kohan	PROPN	SP	_	16	flat:name	_	_
+18	"	"	PUNCT	FB	_	19	punct	_	_
+19	Weeds	Weeds	PROPN	SP	_	16	nmod	_	_
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	dapprima	dapprima	ADV	B	_	25	advmod	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	2006	2006	NUM	N	NumType=Card	16	nmod	_	_
+26	e	e	CCONJ	CC	_	30	cc	_	_
+27	poi	poi	ADV	B	_	30	advmod	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	-	-	PUNCT	FF	_	30	punct	_	_
+36	Yael	Yael	PROPN	SP	_	30	nmod	_	_
+37	Hoffman	Hoffman	PROPN	SP	_	36	flat:name	_	_
+38	-	-	PUNCT	FB	_	3	punct	_	_
+39-40	nel	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	2012	2012	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Tra le sue attività c'è però anche la musica .
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	attività	attività	NOUN	S	Gender=Fem	6	obl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	però	però	ADV	B	_	6	advmod	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	musica	musica	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Nel 2011 in particolare Dohan ha rilasciato un singolo dal titolo "Yummy" in cui si mostra completamente nuda con l'eccezione di stivali e guantoni da boxe.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2011	2011	NUM	N	NumType=Card	8	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+6	Dohan	Dohan	PROPN	SP	_	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	singolo	singolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Yummy	Yummy	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+21	completamente	completamente	ADV	B	_	20	advmod	_	_
+22	nuda	nudo	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	stivali	stivale	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	guantoni	guantone	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	boxe	boxe	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = " Sono un'artista che passa da un ruolo all'altro.
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	artista	artista	NOUN	S	Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = È così che vedo me stessa " ha dichiarato in passato.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	"	"	PUNCT	FB	_	4	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	passato	passato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Tra i suoi ruoli va annoverato anche quello di Nataly nella versione israeliana di "Ugly Betty" nei primi anni 2000.
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	ruoli	ruolo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	annoverato	annoverato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Nataly	Nataly	PROPN	SP	_	8	nmod	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	versione	versione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+14	israeliana	israeliano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Ugly	Ugly	PROPN	SP	_	13	nmod	_	_
+18	Betty	Betty	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	17	punct	_	_
+20-21	nei	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	23	amod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+24	2000	2000	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Pacino ha precedentemente avuto una lunga relazione con un'attrice argentina di 42 anni, Lucila Solá , mamma di Camila Morrone cui è stata attribuita una relazione con Leonardo DiCaprio.
+1	Pacino	Pacino	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	precedentemente	precedentemente	ADV	B	_	4	advmod	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	argentina	argentina	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	42	42	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	Lucila	Lucila	PROPN	SP	_	10	nmod	_	_
+17	Solá	Solá	PROPN	SP	_	16	flat:name	_	_
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Camila	Camila	PROPN	SP	_	19	nmod	_	_
+22	Morrone	Morrone	PROPN	SP	_	21	flat:name	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	iobj	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	attribuita	attribuire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	Leonardo	Leonardo	PROPN	SP	_	28	nmod	_	_
+31	DiCaprio	DiCaprio	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Meital Dohan, le foto dell'attrice
+1	Meital	Meitale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	Dohan	Dohan	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	foto	foto	NOUN	S	Gender=Fem	2	appos	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\n
+

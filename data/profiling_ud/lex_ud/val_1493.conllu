@@ -1,0 +1,384 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un normale, seppur buonissimo gelato al cioccolato può essere arricchito da una sensazione piccante di peperoncino o un retrogusto di miele.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	normale	normale	ADJ	A	Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	seppur	seppure	ADV	B	_	5	advmod	_	_
+5	buonissimo	buono	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+6	gelato	gelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cioccolato	cioccolato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	arricchito	arricchire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	piccante	piccante	ADJ	A	Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	retrogusto	retrogusto	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	miele	miele	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Uno al caffè cambia totalmente gusto con una piccola aggiunta di zenzero.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	caffè	caffè	NOUN	S	Gender=Masc	5	obl	_	_
+5	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	totalmente	totalmente	ADV	B	_	5	advmod	_	_
+7	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	aggiunta	aggiunta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	zenzero	zenzero	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E se al nord la frutta continua a battere la crema, in tutta Italia l’essenziale è riscoprire i sapori territoriali, particolari di una certa regione.
+1	E	e	CCONJ	CC	_	20	cc	_	_
+2	se	se	SCONJ	CS	_	8	mark	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nord	nord	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	battere	battere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	crema	crema	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det	_	_
+16	Italia	Italia	PROPN	SP	_	8	obl	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	essenziale	essenziale	NOUN	S	Number=Sing	20	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	riscoprire	riscoprire	VERB	V	VerbForm=Inf	0	root	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sapori	sapore	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	territoriali	territoriale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	particolari	particolaro	ADJ	A	Number=Plur	23	conj	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	certa	certo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	regione	regione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 4
+# text = Il limone di Sorrento riesce quindi ad affiancare le arance siciliane nelle preferenze.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	limone	limone	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Sorrento	Sorrento	PROPN	SP	_	2	nmod	_	_
+5	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quindi	quindi	ADV	B	_	5	advmod	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	affiancare	affiancare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	arance	arancia	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	siciliane	siciliano	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12-13	nelle	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = E che dire del gelato all’olio essenziale di lavanda?
+1	E	e	CCONJ	CC	_	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	all’	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	olio	olio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	essenziale	essenziale	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lavanda	lavanda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ottimo da solo ma anche con un delicato accostamento di mirtilli.
+1	Ottimo	ottimare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	solo	solo	ADV	B	_	1	advmod	_	_
+4	ma	ma	CCONJ	CC	_	9	cc	_	_
+5	anche	anche	ADV	B	_	9	advmod	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	accostamento	accostamento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	mirtilli	mirtille	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Va ricordato che l’uso degli oli essenziali in cucina è permesso a patto che siano naturali, certificati e puri al 100%.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uso	uso	NOUN	S	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	oli	olio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	essenziali	essenziale	ADJ	A	Number=Plur	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	patto	patto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	naturali	naturale	ADJ	A	Number=Plur	13	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	certificati	certificato	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	puri	puro	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	100	100	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = È stata condotta un’analisi sui dati delle ordinazioni sull’app di delivery Glovo che ha rilevato come i prodotti locali siano i più ricercati e vadano incontro alle esigenze dei consumatori.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	analisi	analisi	NOUN	S	Gender=Fem	3	nsubj:pass	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dati	dato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ordinazioni	ordinazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12-13	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+12	su	su	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	app	app	NOUN	S	Gender=Masc	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	delivery	delivery	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	Glovo	Glovo	PROPN	SP	_	16	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	rilevato	rilevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+24	locali	locale	ADJ	A	Number=Plur	23	amod	_	_
+25	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	ricercati	ricercato	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	vadano	andare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+31	incontro	incontro	ADV	B	_	30	advmod	_	_
+32-33	alle	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Per provare poi un aperitivo alternativo basta affidarsi ai gelati uniti all’alcool, si va dai sorbetti a base di distillato, ottimi anche per concludere una cena, alle creme al gin.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	provare	provare	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	aperitivo	aperitivo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	alternativo	alternativo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	affidarsi	_	_	_	_	_	_	_	_
+8	affidar	affidare	VERB	V	VerbForm=Inf	7	csubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10-11	ai	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	gelati	gelato	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	uniti	unire	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	alcool	alcool	NOUN	S	Gender=Masc	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+19	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sorbetti	sorbetto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	base	base	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	distillato	distillato	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	ottimi	ottimo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+29	anche	anche	ADV	B	_	31	advmod	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	concludere	concludere	VERB	V	VerbForm=Inf	28	advcl	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	cena	cena	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	37	punct	_	_
+35-36	alle	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	creme	crema	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	gin	gin	NOUN	S	Gender=Masc	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = E se si è in compagnia si può anche pensare di assaggiare diversi gusti durante l’happy hour, abbinati al drink preferito.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	assaggiare	assaggiare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	durante	durante	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	happy	happy	NOUN	S	Gender=Masc	12	obl	_	_
+18	hour	hour	NOUN	S	Gender=Masc	17	compound	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	abbinati	abbinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	drink	drink	NOUN	S	Gender=Masc	20	obl	_	_
+24	preferito	preferito	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Per creare un ottimo contrasto tra un gelato salato, e un cocktail a base di birra.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	creare	creare	VERB	V	VerbForm=Inf	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	tra	tra	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	gelato	gelato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	salato	salato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cocktail	cocktail	NOUN	S	Gender=Masc	9	conj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	base	base	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	birra	birra	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Anche le erbe aromatiche possono dare il loro contributo regalando sapore e profumo al gelato altrimenti troppo semplice.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	erbe	erba	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	aromatiche	aromatico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	regalando	regalare	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+17	altrimenti	altrimenti	ADV	B	_	19	advmod	_	_
+18	troppo	troppo	ADV	B	_	19	advmod	_	_
+19	semplice	semplice	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = E allora via libera a timo, rosmarino, menta, finocchietto selvatico in abbinamento a creme delicate.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	_
+3	via	via	ADV	B	_	4	advmod	_	_
+4	libera	libero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	timo	timo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	rosmarino	rosmarino	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	menta	mentare	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	finocchietto	finocchietto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+13	selvatico	selvatico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	abbinamento	abbinamento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	creme	crema	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	delicate	delicato	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = In tutta Italia resta come scelta preferita la vaschetta da 500 grammi, ottima da gustare in compagnia di amici e parenti.
+1	In	in	ADP	E	_	3	case	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
+3	Italia	Italia	PROPN	SP	_	4	obl	_	_
+4	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	preferita	preferito	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vaschetta	vaschetta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	500	500	NUM	N	NumType=Card	12	nummod	_	_
+12	grammi	grammo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	ottima	ottimo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	gustare	gustare	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	amici	amico	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	parenti	parente	NOUN	S	Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

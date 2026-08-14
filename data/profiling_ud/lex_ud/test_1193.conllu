@@ -1,0 +1,416 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = info".
+1	info	info	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Una piattaforma online disponibile nelle due lingue ufficiali del paese:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	piattaforma	piattaforma	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	online	online	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	disponibile	disponibile	ADJ	A	Number=Sing	3	amod	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	ufficiali	ufficiale	ADJ	A	Number=Plur	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = l'ucraino e il russo.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ucraino	ucraino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	russo	russo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma la campagna lanciata dall'organizzazione che ha immaginato e progettato questo progetto si poggia su un ambizioso obiettivo:
+1	Ma	ma	CCONJ	CC	_	16	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+4	lanciata	lanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	progettato	progettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	poggia	poggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	su	su	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	ambizioso	ambizioso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 5
+# text = "Vogliamo la pace".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pace	pace	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = **
+1	**	**	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 7
+# text = Quella del neo "social di pace" - se così possiamo definirlo - è una vera e propria dichiarazione d'intenti.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	22	nsubj	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	6	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	neo	neo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	social	social	ADJ	A	Number=Sing	1	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pace	pace	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	6	punct	_	_
+10	-	-	PUNCT	FF	_	6	punct	_	_
+11	se	se	SCONJ	CS	_	14	mark	_	_
+12	così	così	ADV	B	_	14	advmod	_	_
+13	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	definirlo	_	_	_	_	_	_	_	_
+14	definir	definire	VERB	V	VerbForm=Inf	1	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	-	-	PUNCT	FF	_	1	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+19	vera	vero	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	intenti	intento	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 8
+# text = "Con WeUa.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	3	case	_	_
+3	WeUa	WeUa	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = info vogliamo lanciare un movimento pacifista che possa fare sentire la propria voce", ha spiegato ai microfoni della stampa locale la giovane co-fondatrice del progetto Alisa Yakovenko.
+1	info	info	ADV	B	_	3	advmod	_	_
+2	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lanciare	lanciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	pacifista	pacifista	ADJ	A	Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+10	sentire	sentire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	voce	voce	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	locale	locale	ADJ	A	Number=Sing	23	amod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	giovane	giovane	ADJ	A	Number=Sing	27	amod	_	_
+27	co	co	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+28	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+29	fondatrice	fondatore	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	Alisa	Alisa	PROPN	SP	_	32	nmod	_	_
+34	Yakovenko	Yakovenko	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = "Pensiamo che il male e la guerra non siano l'unica opzione:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	male	male	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	unica	unico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = ci sono tanti modi per difenderci, non solo con le armi".
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	modi	modo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	difenderci	_	_	_	_	_	_	_	SpaceAfter=No
+6	difender	difendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	solo	solo	ADV	B	_	13	advmod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	armi	arma	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = L'iniziativa sta raccogliendo tantissimi consensi in tutte le grandi città del paese:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	raccogliendo	raccogliere	VERB	V	VerbForm=Ger	0	root	_	_
+5	tantissimi	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	consensi	consensare	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	in	in	ADP	E	_	11	case	_	_
+8	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
+11	città	città	NOUN	S	Gender=Fem	4	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	paese	paese	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 13
+# text = a Kharkiv, stando alle prime stime, il 100% dei consensi favorevoli a fronte del 50% registrato a Kiev.
+1	a	a	ADP	E	_	2	case	_	_
+2	Kharkiv	Kharkiv	PROPN	SP	_	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	stando	stare	VERB	V	VerbForm=Ger	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	8	amod	_	_
+8	stime	stima	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	100	100	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	4	obj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	consensi	consenso	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	favorevoli	favorevole	ADJ	A	Number=Plur	15	amod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fronte	fronte	NOUN	S	Number=Sing	12	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	50	50	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	18	nmod	_	_
+23	registrato	registrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Kiev	Kiev	PROPN	SP	_	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = L'obiettivo successivo, ora, è quello di conquistare tutta l'Ucraina entro i prossimi 30 giorni:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ora	ora	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	conquistare	conquistare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Ucraina	Ucraina	PROPN	SP	_	10	obj	_	_
+14	entro	entro	ADP	E	_	18	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+16	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+17	30	30	NUM	N	NumType=Card	18	nummod	_	_
+18	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 15
+# text = intanto si è registrato l'adesione di tutti i partiti politici (ad eccezione di quello di Petra Symashko) e delle principali organizzazioni ucraine.
+1	intanto	intanto	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	registrato	registrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	adesione	adesione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	politici	politico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	ad	a	ADP	E	_	14	case	_	_
+14	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Petra	Petra	PROPN	SP	_	16	nmod	_	_
+19	Symashko	Symashko	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	14	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	principali	principale	ADJ	A	Number=Plur	25	amod	_	_
+25	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+26	ucraine	ucraino	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Al momento solo sul sito web del social network non compare nessuna pubblicità, ma presto, sotto il motto pacifista, partirà una campagna di raccolta fondi.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	solo	solo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sito	sito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	web	web	NOUN	S	Gender=Masc	7	compound	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	social	social	ADJ	A	Number=Sing	12	amod	_	_
+12	network	network	NOUN	S	Gender=Masc	7	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	compare	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	pubblicità	pubblicità	NOUN	S	Gender=Fem	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	26	punct	_	_
+18	ma	ma	CCONJ	CC	_	26	cc	_	_
+19	presto	presto	ADV	B	_	26	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	sotto	sotto	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	motto	motto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+24	pacifista	pacifista	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	conj	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	fondi	fondo	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = L'idea è quella di raccogliere il massimo jackpot possibile:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	raccogliere	raccogliere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	jackpot	jackpot	NOUN	S	_	6	obj	_	_
+10	possibile	possibile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 18
+# text = l'equivalente di 5 euro.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	equivalente	equivalente	ADJ	A	Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	5	5	NUM	N	NumType=Card	5	nummod	_	_
+5	euro	euro	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Chiunque donerà, dunque, verrà ricompensato con la possibilità di ottenere un messaggio audio di Yulia Tymoshenko, ex primo ministro ucraino e principale filo-europeista del paese.
+1	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+2	donerà	donare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	dunque	dunque	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+7	ricompensato	ricompensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	possibilità	possibilità	NOUN	S	Gender=Fem	7	obl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	ottenere	ottenere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	audio	audio	ADJ	A	_	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Yulia	Yulia	PROPN	SP	_	14	nmod	_	_
+18	Tymoshenko	Tymoshenko	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	ex	ex	ADJ	A	_	22	amod	_	_
+21	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
+22	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+23	ucraino	ucraino	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	principale	principale	ADJ	A	Number=Sing	28	amod	_	_
+26	filo	filo	ADJ	A	_	28	amod	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	europeista	europeista	NOUN	S	Number=Sing	22	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	paese	paese	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = "Non è un gesto per me, ma una necessità dovuta", ha spiegato la diretta interessata durante un'intervista rilasciata a
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	necessità	necessità	NOUN	S	Gender=Fem	5	conj	_	_
+12	dovuta	dovuto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	interessata	interessato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	durante	durante	ADP	E	_	22	case	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	rilasciata	rilasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24	a	a	ADP	E	_	23	case	_	SpacesAfter=\n
+

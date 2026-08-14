@@ -1,0 +1,885 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = TRAFFICO IN TEMPO REALE Sempre acqua a portata di mano .
+1	TRAFFICO	traffico	PROPN	SP	_	5	nsubj	_	_
+2	IN	in	PROPN	SP	_	1	flat:name	_	_
+3	TEMPO	tempo	PROPN	SP	_	1	nmod	_	_
+4	REALE	reale	PROPN	SP	_	3	flat:name	_	_
+5	Sempre	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	portata	portata	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Per tutti quelli che decidono di mettersi in viaggio, il consiglio di CCISS Viaggiare informati , oltre a quello di rispettare i limiti di velocità e le distanze di sicurezza, è di tenere sempre in auto una bottiglia d'acqua nel caso in cui la formazione di code o rallentamenti dovuti al traffico o ad incidenti, costringa ad effettuare soste forzate sotto il sole.
+1	Per	per	ADP	E	_	3	case	_	_
+2	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	34	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	decidono	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	mettersi	_	_	_	_	_	_	_	_
+7	metter	mettere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	CCISS	CCISS	PROPN	SP	_	13	nmod	_	_
+16	Viaggiare	viaggiare	PROPN	SP	_	15	flat:name	_	_
+17	informati	informare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	oltre	oltre	ADV	B	_	21	case	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	rispettare	rispettare	VERB	V	VerbForm=Inf	21	acl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	velocità	velocità	NOUN	S	Gender=Fem	25	nmod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	3	punct	_	_
+34	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	tenere	tenere	VERB	V	VerbForm=Inf	34	ccomp	_	_
+37	sempre	sempre	ADV	B	_	36	advmod	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	auto	auto	NOUN	S	Gender=Fem	36	obl	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	bottiglia	bottiglia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+42	d'	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44-45	nel	_	_	_	_	_	_	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	caso	caso	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	cui	cui	PRON	PR	PronType=Rel	63	obl	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	48	obj	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	code	coda	NOUN	S	Gender=Fem|Number=Plur	50	nmod	_	_
+53	o	o	CCONJ	CC	_	54	cc	_	_
+54	rallentamenti	rallentamento	NOUN	S	Gender=Masc|Number=Plur	52	conj	_	_
+55	dovuti	dovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	50	acl	_	_
+56-57	al	_	_	_	_	_	_	_	_
+56	a	a	ADP	E	_	58	case	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	55	obl	_	_
+59	o	o	CCONJ	CC	_	61	cc	_	_
+60	ad	a	ADP	E	_	61	case	_	_
+61	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	58	conj	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	48	punct	_	_
+63	costringa	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+64	ad	a	ADP	E	_	65	mark	_	_
+65	effettuare	effettuare	VERB	V	VerbForm=Inf	63	xcomp	_	_
+66	soste	sosta	ADJ	A	Gender=Fem|Number=Plur	67	amod	_	_
+67	forzate	forzato	NOUN	S	Gender=Fem|Number=Plur	65	obj	_	_
+68	sotto	sotto	ADP	E	_	70	case	_	_
+69	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	sole	sole	NOUN	S	Gender=Masc|Number=Sing	65	obl	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 3
+# text = Attenzione anche se si viaggia con gli animali:
+1	Attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	anche	anche	ADV	B	_	5	mark	_	_
+3	se	se	SCONJ	CS	_	2	fixed	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	viaggia	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	animali	animale	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = è importante farli bere spesso e cercare di rinfrescarli, magari umidificando un po' la testa.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+3-4	farli	_	_	_	_	_	_	_	_
+3	far	fare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	bere	bere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	spesso	spesso	ADV	B	_	5	advmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	cercare	cercare	VERB	V	VerbForm=Inf	5	conj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	rinfrescarli	_	_	_	_	_	_	_	SpaceAfter=No
+10	rinfrescar	rinfrescare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	magari	magari	ADV	B	_	14	advmod	_	_
+14	umidificando	umidificare	VERB	V	VerbForm=Ger	2	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	po'	poco	ADV	B	_	18	advmod	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	testa	testa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Bollino rosso.
+1	Bollino	Bollino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Uno dei tratti in cui la circolazione risulta più intensa l'autostrada A22 del Brennero in Trentino Alto Adige e sulle statali della Val Venosta e Val Pusteria, dove si registrano anche code.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	9	xcomp	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+14	A22	A22	PROPN	SP	_	13	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Brennero	Brennero	PROPN	SP	_	13	nmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Trentino	Trentino	PROPN	SP	_	17	nmod	_	_
+20	Alto	Alto	PROPN	SP	_	19	flat:name	_	_
+21	Adige	Adige	PROPN	SP	_	19	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	sulle	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	statali	statale	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Val	valle	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	Venosta	Venosto	PROPN	SP	_	28	nmod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	Val	val	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	_
+32	Pusteria	Pusteria	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	dove	dove	ADV	B	_	36	advmod	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+36	registrano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+37	anche	anche	ADV	B	_	36	advmod	_	_
+38	code	coda	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Il bollino rosso, segnalato per la mattinata in entrambe le direzioni, resta dello stesso colore anche al pomeriggio in direzione Sud e giallo (traffico sostenuto) verso Nord.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bollino	bollino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	segnalato	segnalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	direzioni	direzione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	resta	resta	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	colore	colore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	anche	anche	ADV	B	_	22	advmod	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+25	Sud	Sud	PROPN	SP	_	24	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	25	conj	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	sostenuto	sostenuto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	29	punct	_	_
+32	verso	verso	ADP	E	_	33	case	_	_
+33	Nord	Nord	PROPN	SP	_	27	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = La situazione dovrebbe essere più tranquilla in serata, quando il bollino giallo è previsto anche versp Sud.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	serata	serata	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	quando	quando	SCONJ	CS	_	15	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bollino	bollino	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	versp	versp	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+18	Sud	sud	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = I rallentamenti maggiori sono stati registrati tra Verona e Ala Avio verso Nord e tra Bolzano Nord e Egna in direzione Sud.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	rallentamenti	rallentamente	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+3	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	registrati	registrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	Verona	Verona	PROPN	SP	_	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Ala	Ala	PROPN	SP	_	8	conj	_	_
+11	Avio	Avio	PROPN	SP	_	10	flat:name	_	_
+12	verso	verso	ADP	E	_	13	case	_	_
+13	Nord	Nord	PROPN	SP	_	6	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	tra	tra	ADP	E	_	16	case	_	_
+16	Bolzano	Bolzano	PROPN	SP	_	13	conj	_	_
+17	Nord	Nord	PROPN	SP	_	16	flat:name	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Egna	Egna	PROPN	SP	_	16	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+22	Sud	Sud	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Sulle statali che portano alle località di vacanze in Alto Adige i rallentamenti si registrano in direzione Resia, tra Merano e Rablà per la Val Venosta e in direzione Bressanone, tra Brunico e l'entrata autostradale, per la Val Pusteria, anche con code.
+1-2	Sulle	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	statali	statale	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	località	località	NOUN	S	Gender=Fem	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Alto	Alto	PROPN	SP	_	8	nmod	_	_
+13	Adige	Adige	PROPN	SP	_	12	flat:name	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	rallentamenti	rallentamento	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	registrano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	Resia	Resia	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	Merano	Merano	PROPN	SP	_	17	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	Rablà	Rablà	PROPN	SP	_	23	conj	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Val	valle	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+29	Venosta	Venosto	PROPN	SP	_	28	nmod	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+33	Bressanone	Bressanone	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	tra	tra	ADP	E	_	36	case	_	_
+36	Brunico	Brunico	PROPN	SP	_	32	nmod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	_
+40	autostradale	autostradale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	17	punct	_	_
+42	per	per	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Val	valle	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+45	Pusteria	Pusteria	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	17	punct	_	_
+47	anche	anche	ADV	B	_	49	advmod	_	_
+48	con	con	ADP	E	_	49	case	_	_
+49	code	coda	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 11
+# text = PREVISIONI METEO Code verso il mare .
+1	PREVISIONI	previsioni	PROPN	SP	_	3	nsubj	_	_
+2	METEO	meteo	PROPN	SP	_	1	flat:name	_	_
+3	Code	code	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	verso	verso	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mare	mare	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Anche sulla A14 Adriatica, verso Rimini, sono state segnalate code in mattinata, ma non sono mancati rallentamenti anche in direzione di Bologna.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	A14	A14	PROPN	SP	_	12	obl	_	_
+5	Adriatica	Adriatica	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	verso	verso	ADP	E	_	8	case	_	_
+8	Rimini	Rimini	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	segnalate	segnalato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	code	coda	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	mancati	mancare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	conj	_	_
+21	rallentamenti	rallentamento	NOUN	S	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+22	anche	anche	ADV	B	_	24	advmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Bologna	Bologna	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Il mare è la meta prefereita anche in Toscana, dove sulla A11 Firenze-Pisa Nord si sono verificate code in uscita dall'autostrada a Pisa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	meta	meta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	prefereita	prefereire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Toscana	Toscana	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dove	dove	ADV	B	_	19	advmod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	A11	A11	PROPN	SP	_	19	obl	_	_
+15	Firenze-Pisa	Firenze-Pisa	PROPN	SP	_	14	nmod	_	_
+16	Nord	Nord	PROPN	SP	_	15	flat:name	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	verificate	verificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+20	code	coda	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+23	da	da	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Pisa	Pisa	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = In Abruzzo è l'uscita Atri-Pineto della A14 Adriatica a registrare i maggiori disagi, mentre nel Lazio sulla 148 Pontina code a tratti si sono registrate all'altezza del Raccordo verso Pomezia.
+1	In	in	ADP	E	_	2	case	_	_
+2	Abruzzo	Abruzzo	PROPN	SP	_	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	Atri-Pineto	Atri-Pineto	PROPN	SP	_	5	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	A14	A14	PROPN	SP	_	5	nmod	_	_
+10	Adriatica	Adriatica	PROPN	SP	_	9	flat:name	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	registrare	registrare	VERB	V	VerbForm=Inf	5	acl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	15	amod	_	_
+15	disagi	disagio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	mentre	mentre	SCONJ	CS	_	30	mark	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Lazio	Lazio	PROPN	SP	_	30	obl	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	148	148	NUM	N	NumType=Card	24	nummod	_	_
+24	Pontina	Pontina	PROPN	SP	_	30	obl	_	_
+25	code	codere	NOUN	S	Gender=Masc	24	nmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	tratti	trarre	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+29	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	registrate	registrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+31-32	all'	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Raccordo	Raccordo	PROPN	SP	_	33	nmod	_	_
+37	verso	verso	ADP	E	_	38	case	_	_
+38	Pomezia	Pomezia	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Rallentamenti per traffico sostenuto anche verso Sabaudia e Terracina.
+1	Rallentamenti	Rallentamento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	verso	verso	ADP	E	_	7	case	_	_
+7	Sabaudia	Sabaudia	PROPN	SP	_	4	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Terracina	Terracina	PROPN	SP	_	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Sulla A3 Napoli-Salerno le code hanno interessato diversi tratti e sono stati segnalati anche incendi.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	A3	A3	PROPN	SP	_	9	obl	_	_
+4	Napoli	Napoli	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	-Salerno	-Salerno	PROPN	SP	_	3	flat:name	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	code	coda	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	segnalati	segnalare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	incendi	incendio	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = In Sicilia la circolazione è intensa, ma non sono state segnalate particolari difficoltà.
+1	In	in	ADP	E	_	2	case	_	_
+2	Sicilia	Sicilia	PROPN	SP	_	6	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	segnalate	segnalare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+13	particolari	particolare	ADJ	A	Number=Plur	14	amod	_	_
+14	difficoltà	difficoltà	NOUN	S	Gender=Fem	12	nsubj:pass	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Per agevolare gli spostamenti, come ogni domenica, è vietata la cirolazione ai mezzi pesanti superiori alle sette tonnellate sulla rete autostradale.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	agevolare	agevolare	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	spostamenti	spostamento	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	vietata	vietare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cirolazione	cirolazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	pesanti	pesante	ADJ	A	Number=Plur	16	amod	_	_
+18	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	16	amod	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	sette	sette	NUM	N	NumType=Card	22	nummod	_	_
+22	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	rete	rete	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	autostradale	autostradale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 19
+# text = Pericolo roghi .
+1	Pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	roghi	rogo	NOUN	S	Gender=Masc|Number=Plur	1	compound	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Con l'aumento delle temperature, che hanno toccato anche i 40 gradi, cresce il rischio incendi, soprattutto sulla Sardegna.
+1	Con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	40	40	NUM	N	NumType=Card	14	nummod	_	_
+14	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	incendi	incendio	NOUN	S	Gender=Masc|Number=Plur	18	compound	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	soprattutto	soprattutto	ADV	B	_	24	advmod	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Sardegna	Sardegna	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 21
+# text = Un quadro climatico che si riproporrà anche per i primi giorni della prossima settimana.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	riproporrà	riproporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = "L'attore principale di questi giorni è la temperatura - ha evidenziato il maresciallo dell'Aeronautica militare Alessandro Gallo - che raggiungerà massime importanti sul settore ovest, sud-ovest, dal Sulcis alla Marmilla con valori che potrebbero raggiungere i 40 gradi".
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	attore	attore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	principale	principale	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	temperatura	temperatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	-	-	PUNCT	FB	_	10	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	evidenziato	evidenziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	maresciallo	maresciallo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Aeronautica	Aeronautica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	militare	militare	ADJ	A	Number=Sing	18	amod	_	_
+20	Alessandro	Alessandro	PROPN	SP	_	18	nmod	_	_
+21	Gallo	Gallo	PROPN	SP	_	20	flat:name	_	_
+22	-	-	PUNCT	FB	_	18	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	raggiungerà	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	acl:relcl	_	_
+25	massime	massima	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	importanti	importante	ADJ	A	Number=Plur	25	amod	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	settore	settore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30	ovest	ovest	NOUN	S	Gender=Masc|Number=Sing	29	compound	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	sud-ovest	sud-ovest	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	13	punct	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Sulcis	Sulcis	PROPN	SP	_	13	obl:agent	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Marmilla	Marmilla	PROPN	SP	_	36	nmod	_	_
+40	con	con	ADP	E	_	41	case	_	_
+41	valori	valore	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	raggiungere	raggiungere	VERB	V	VerbForm=Inf	39	acl:relcl	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+46	40	40	NUM	N	NumType=Card	47	nummod	_	_
+47	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	44	obj	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 23
+# text = Clima rovente, quindi, ma non solo domenica:
+1	Clima	clima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	rovente	rovente	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	quindi	quindi	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 24
+# text = "Alti valori interesseranno i settori centrali dell'Isola e non subiranno variazioni importanti nemmeno martedì - ha aggiunto l'esperto - un lieve calo delle massime potrebbe avvenire sulle coste e sui settori occidentali, mentre temperature fra i 36 e i 40 gradi potrebbero essere registrate sull'alto Campidano e nel Parteolla".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Alti	alto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	valori	valore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	interesseranno	interesserare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	settori	settore	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	centrali	centrale	ADJ	A	Number=Plur	6	amod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Isola	Isola	PROPN	SP	_	6	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	subiranno	subirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+14	variazioni	variazione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	importanti	importante	ADJ	A	Number=Plur	14	amod	_	_
+16	nemmeno	nemmeno	ADV	BN	PronType=Neg	17	advmod	_	_
+17	martedì	martedì	NOUN	S	Gender=Masc	13	nsubj	_	_
+18	-	-	PUNCT	FF	_	4	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	esperto	esperto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+23	-	-	PUNCT	FB	_	31	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	lieve	lieve	ADJ	A	Number=Sing	26	amod	_	_
+26	calo	calo	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+27-28	delle	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	massime	massima	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+30	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	avvenire	avvenire	VERB	V	VerbForm=Inf	22	acl	_	_
+32-33	sulle	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	coste	costa	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36-37	sui	_	_	_	_	_	_	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	settori	settore	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	_
+39	occidentali	occidentale	ADJ	A	Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	31	punct	_	_
+41	mentre	mentre	SCONJ	CS	_	52	mark	_	_
+42	temperature	temperatura	CCONJ	CC	_	49	cc	_	_
+43	fra	fra	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	36	36	NUM	N	NumType=Card	49	nummod	_	_
+46	e	e	CCONJ	CC	_	49	cc	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	40	40	NUM	N	NumType=Card	49	nummod	_	_
+49	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	52	nsubj:pass	_	_
+50	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
+51	essere	essere	AUX	VA	VerbForm=Inf	52	aux:pass	_	_
+52	registrate	registrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	advcl	_	_
+53-54	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+53	su	su	ADP	E	_	56	case	_	_
+54	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	56	det	_	_
+55	alto	alto	ADJ	A	Gender=Masc|Number=Sing	56	amod	_	_
+56	Campidano	campidano	PROPN	SP	_	52	obl	_	_
+57	e	e	CCONJ	CC	_	60	cc	_	_
+58-59	nel	_	_	_	_	_	_	_	_
+58	in	in	ADP	E	_	60	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	Parteolla	Parteolla	PROPN	SP	_	56	conj	_	SpaceAfter=No
+61	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = Nessuna variazione nemmeno sul fronte dei venti che rimarranno a regime di brezza lungo le coste con rinforzi da nord-est.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	variazione	variazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	6	advmod	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fronte	fronte	NOUN	S	Number=Sing	2	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	venti	vento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	rimarranno	rimarre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	regime	regime	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	brezza	brezza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	lungo	lungo	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	coste	costa	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	rinforzi	rinforzo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	nord-est	nord-est	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Saranno deboli da maestrale nella giornata del 12.
+1	Saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	deboli	debole	ADJ	A	Number=Plur	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	maestrale	maestrale	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	12	12	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Il quadro climatico complessivo influisce sull'emergenza incendi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	climatico	climatico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	influisce	influire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+6	su	su	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	incendi	incendio	NOUN	S	Gender=Masc|Number=Plur	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Secondo quanto riportato dal Bollettino diffuso dalla Protezione Civile regionale il pericolo è "medio o alto".
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+3	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bollettino	Bollettino	PROPN	SP	_	3	obl:agent	_	_
+7	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Protezione	Protezione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	Civile	civile	ADJ	A	Number=Sing	10	amod	_	_
+12	regionale	regionale	ADJ	A	Number=Sing	10	amod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	medio	medio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	alto	alto	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 29
+# text = In particolare "attenzione rinforzata nella zona fra Teulada e Carbonia e nel Medio Campidano, da Siliqua verso Mandas.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	rinforzata	rinforzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	zona	zona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	fra	fra	ADP	E	_	10	case	_	_
+10	Teulada	Teulada	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Carbonia	Carbonia	PROPN	SP	_	10	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Medio	Medio	PROPN	SP	_	8	conj	_	_
+17	Campidano	Campidare	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Siliqua	Siliqua	PROPN	SP	_	5	obl:agent	_	_
+21	verso	verso	ADP	E	_	22	case	_	_
+22	Mandas	Mandas	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Criticità alta (arancione) nell'area dell'interno da Thiesi a Bosa, Ozieri e Berchidda, Abbasanta e Macomer.
+1	Criticità	Criticità	NOUN	S	Gender=Fem	0	root	_	_
+2	alta	alto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	arancione	arancione	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	_
+6-7	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	area	area	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	interno	interno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Thiesi	Thiesi	PROPN	SP	_	8	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Bosa	Bosa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Ozieri	Ozieri	PROPN	SP	_	15	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Berchidda	Berchidda	PROPN	SP	_	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Abbasanta	Abbasanta	PROPN	SP	_	1	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	Macomer	Macomer	PROPN	SP	_	1	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Criticità media (gialla) invece nel resto dell'Isola.
+1	Criticità	Criticità	NOUN	S	Gender=Fem	0	root	_	_
+2	media	medio	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	gialla	giallo	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	_
+6	invece	invece	ADV	B	_	9	advmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	resto	resto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Isola	isola	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

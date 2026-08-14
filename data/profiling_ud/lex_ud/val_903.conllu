@@ -1,0 +1,720 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "I primi europei sono arrivati dall'Africa 70-60mila anni fa.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Africa	Africa	PROPN	SP	_	6	obl	_	_
+10	70-60mila	70-60mila	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+12	fa	fa	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Avevano occhi e carnagione scura.
+1	Avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+5	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Poi, con il nostro clima, si sono trasformati.
+1	Poi	poi	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	clima	clima	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	trasformati	trasformare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Gli occhi azzurri sono uno dei frutti di questa evoluzione.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Insieme alla pelle chiara favoriscono infatti l'assimilazione della vitamina D a latitudini meno assolate", spiega David Caramelli , antropologo dell' Università di Firenze , uno degli autori di un enorme studio pubblicato su Nature sulla storia, le migrazioni e l'evoluzione degli antichi europei.
+1	Insieme	insieme	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	favoriscono	favorire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	infatti	infatti	ADV	B	_	6	advmod	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	assimilazione	assimilazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	D	D	PROPN	SP	_	12	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	latitudini	latitudine	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+16	meno	meno	ADV	B	_	17	advmod	_	_
+17	assolate	assolato	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+21	David	David	PROPN	SP	_	20	nsubj	_	_
+22	Caramelli	Caramelli	PROPN	SP	_	21	flat:name	_	_
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	antropologo	antropologo	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+25-26	dell'	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	Università	università	NOUN	S	Gender=Fem	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Firenze	Firenze	PROPN	SP	_	27	nmod	_	_
+30	,	,	PUNCT	FF	_	20	punct	_	_
+31	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obj	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	autori	autore	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	enorme	enorme	ADJ	A	Number=Sing	38	amod	_	_
+38	studio	studio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+39	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+40	su	su	ADP	E	_	41	case	_	_
+41	Nature	Nature	PROPN	SP	_	39	obl	_	_
+42-43	sulla	_	_	_	_	_	_	_	_
+42	su	su	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	storia	storia	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	41	punct	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	migrazioni	migrazione	NOUN	S	Gender=Fem|Number=Plur	39	obj	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	47	conj	_	_
+51-52	degli	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	54	case	_	_
+52	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+53	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	54	amod	_	_
+54	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Lo studio comprende l'analisi quasi completa del Dna di 51 uomini primitivi, vissuti fra 45mila e 7mila anni fa(poco dopo l'introduzione dell'agricoltura).
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studio	studio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	comprende	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	analisi	analisi	NOUN	S	Gender=Fem	3	obj	_	_
+6	quasi	quasi	ADV	B	_	7	advmod	_	_
+7	completa	completo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Dna	Dna	PROPN	SP	_	5	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	51	51	NUM	N	NumType=Card	13	nummod	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	primitivi	primitivo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	vissuti	vivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+17	fra	fra	ADP	E	_	21	case	_	_
+18	45mila	45mila	NUM	N	NumType=Card	21	nummod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	7mila	7mila	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+22	fa(	fa(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+23	poco	poco	ADV	B	_	26	advmod	_	_
+24	dopo	dopo	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	introduzione	introduzione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+27-28	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = In questo lasso di tempo, un po' come avviene oggi, gli europei più antichi si sono mescolati con ondate successive di uomini provenienti dal Medio Oriente, spinti verso il nostro continente da un clima che si andava riscaldando e inaridendo in coincidenza con la fine dell'ultima era glaciale (intorno ai 25-19mila anni fa).
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	lasso	lasso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	po'	poco	ADV	B	_	10	advmod	_	_
+9	come	come	SCONJ	CS	_	10	mark	_	_
+10	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	oggi	oggi	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	mescolati	mescolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	ondate	ondata	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	successive	successivo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	24	acl	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Medio	Medio	PROPN	SP	_	25	obl	_	_
+29	Oriente	Oriente	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	10	punct	_	_
+31	spinti	spinto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+32	verso	verso	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	continente	continente	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	clima	clima	NOUN	S	Gender=Masc|Number=Sing	31	obl:agent	_	_
+39	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+41	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	riscaldando	riscaldare	VERB	V	VerbForm=Ger	38	acl:relcl	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	inaridendo	inaridere	VERB	V	VerbForm=Ger	42	conj	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	_
+47	con	con	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	fine	fine	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+50-51	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+50	di	di	ADP	E	_	53	case	_	_
+51	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+52	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	53	amod	_	_
+53	era	essere	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+54	glaciale	glaciale	ADJ	A	Number=Sing	53	amod	_	_
+55	(	(	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+56	intorno	intorno	ADV	B	_	60	case	_	_
+57-58	ai	_	_	_	_	_	_	_	_
+57	a	a	ADP	E	_	56	fixed	_	_
+58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
+59	25-19mila	25-19mila	NUM	N	NumType=Card	60	nummod	_	_
+60	anni	anno	NOUN	S	Gender=Masc|Number=Plur	53	nmod	_	_
+61	fa	fa	ADV	B	_	60	advmod	_	SpaceAfter=No
+62	)	)	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = È la prima volta che un'analisi genetica su campioni così antichi prende in esame resti umani provenienti da tutto il continente (dalla Spagna alla Georgia, fino alla Siberia), e per un periodo di tempo così esteso.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	analisi	analisi	NOUN	S	Gender=Fem	13	nsubj	_	_
+8	genetica	genetico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+13	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	esame	esame	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	resti	resto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+17	umani	umano	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	16	acl	_	_
+19	da	da	ADP	E	_	22	case	_	_
+20	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	22	det:predet	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	continente	continente	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Spagna	Spagna	PROPN	SP	_	4	obl	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Georgia	Georgia	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	fino	fino	ADP	E	_	34	case	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	31	fixed	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Siberia	Siberia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	40	punct	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+43	così	così	ADV	B	_	44	advmod	_	_
+44	esteso	esteso	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = "È un po' come se avessimo preso il nostro telefonino e avessimo fatto una panoramica, anziché una singola foto", spiega Caramelli.
+1	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	ADV	B	_	5	advmod	_	_
+5	come	come	ADV	B	_	24	advmod	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	avessimo	avessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	telefonino	telefonino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	avessimo	avessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	panoramica	panoramico	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	anziché	anziché	ADV	B	_	21	advmod	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	singola	singolo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	foto	foto	NOUN	S	Gender=Fem	16	appos	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	8	punct	_	_
+24	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	Caramelli	Caramelli	PROPN	SP	_	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 10
+# text = Occhi chiari e zigomi prominenti come i primitivi, ma fronte piatta e spaziosa come i moderni:
+1	Occhi	occhio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	chiari	chiaro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	zigomi	zigomo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	prominenti	prominere	ADJ	A	Number=Plur	4	amod	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	primitivi	primitivo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	fronte	fronte	NOUN	S	Number=Sing	2	conj	_	_
+12	piatta	piatto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	spaziosa	spazioso	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	moderni	moderno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = così ha disegnato gli antichi europei su Nature Stefano Ricci, antropologo dell'Università di Siena e illustratore anatomico allo stesso tempo.
+1	così	così	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	europei	europeo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	Nature	Nature	PROPN	SP	_	6	nmod	_	_
+9	Stefano	Stefano	PROPN	SP	_	8	flat:name	_	_
+10	Ricci	Ricci	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	antropologo	antropologo	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Università	università	NOUN	S	Gender=Fem	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Siena	Siena	PROPN	SP	_	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	illustratore	illustratore	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+20	anatomico	anatomico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	allo	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Quando sono arrivati dall'Africa - spiega - i nostri antenati erano molto alti e scuri di carnagione.
+1	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	4	mark	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Africa	Africa	PROPN	SP	_	4	obl	_	_
+8	-	-	PUNCT	FB	_	9	punct	_	_
+9	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	-	-	PUNCT	FB	_	9	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	antenati	antenato	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	alti	alto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	scuri	scuro	ADJ	A	Degree=Cmp|Number=Plur	16	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = In Europa non si sono solo schiariti, ma anche ridotti di statura".
+1	In	in	ADP	E	_	2	case	_	_
+2	Europa	Europa	PROPN	SP	_	7	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	schiariti	schiarire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	ridotti	ridurre	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	statura	statura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = I sei campioni italiani provengono da Grotta Paglicci e Ostuni (Puglia), Villabruna (Veneto) e Grotta Continenza (Abruzzo).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	sei	sei	NUM	N	NumType=Card	3	nummod	_	_
+3	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Grotta	grotta	PROPN	SP	_	5	obl	_	_
+8	Paglicci	Paglicci	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Ostuni	Ostuni	PROPN	SP	_	7	conj	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Puglia	Puglia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Villabruna	Villabruna	PROPN	SP	_	7	conj	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Veneto	Veneto	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Grotta	grotto	PROPN	SP	_	7	conj	_	_
+21	Continenza	Continenza	PROPN	SP	_	20	flat:name	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Abruzzo	Abruzzo	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = "Gli studi precedenti - spiega Svante Pääbo, uno degli autori della ricerca, professore di genetica dell'evoluzione all'Istituto Max Planck di Lipsia - comprendevano l'analisi del genoma di uno o due esemplari del Paleolitico superiore e ci davano una visione statica degli ultimi 30mila anni di storia europea.
+1	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	studi	studio	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+4	precedenti	precedente	ADJ	A	Number=Plur	3	amod	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+7	Svante	Svante	PROPN	SP	_	6	nsubj	_	_
+8	Pääbo	Pääbo	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	appos	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	autori	autore	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	professore	professore	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	genetica	genetica	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Istituto	Istituto	PROPN	SP	_	23	nmod	_	_
+27	Max	Max	PROPN	SP	_	26	flat:name	_	_
+28	Planck	Planck	PROPN	SP	_	26	flat:name	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Lipsia	Lipsia	PROPN	SP	_	26	nmod	_	_
+31	-	-	PUNCT	FB	_	6	punct	_	_
+32	comprendevano	comprendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	analisi	analisi	NOUN	S	Gender=Fem	32	obj	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	genoma	genoma	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	37	nmod	_	_
+40	o	o	CCONJ	CC	_	42	cc	_	_
+41	due	due	NUM	N	NumType=Card	42	nummod	_	_
+42	esemplari	esemplare	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Paleolitico	Paleolitico	PROPN	SP	_	42	nmod	_	_
+46	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	45	amod	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	49	expl	_	_
+49	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	32	conj	_	_
+50	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	visione	visione	NOUN	S	Gender=Fem|Number=Sing	49	nsubj	_	_
+52	statica	statico	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	_
+53-54	degli	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	57	case	_	_
+54	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
+55	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	57	amod	_	_
+56	30mila	30mila	NUM	N	NumType=Card	57	nummod	_	_
+57	anni	anno	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	storia	storia	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	_
+60	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 16
+# text = Ora possiamo capire come le popolazioni si sono spostate e mescolate".
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+4	come	come	SCONJ	CS	_	9	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	popolazioni	popolazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	spostate	spostare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	mescolate	mescolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Il "film" dei nostri antenati contiene anche un protagonista che ha finito per diventare sempre più marginale:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	film	film	NOUN	S	Gender=Masc	9	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	antenati	antenato	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+9	contiene	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	protagonista	protagonista	NOUN	S	Number=Sing	9	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	diventare	diventare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	marginale	marginale	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 18
+# text = l'uomo di Neanderthal.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Neanderthal	Neanderthal	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Si sa con certezza che questo nostro antenato estintosi intorno ai 40mila anni fa si è accoppiato in più occasioni con i Sapiens.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	che	che	SCONJ	CS	_	18	mark	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	antenato	antenato	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+9	estintosi	estintoso	ADJ	A	Number=Plur	8	amod	_	_
+10	intorno	intorno	ADV	B	_	14	case	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	40mila	40mila	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+15	fa	fa	ADV	B	_	14	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	accoppiato	accoppiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	occasioni	occasione	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Sapiens	Sapiens	PROPN	SP	_	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Eppure piano piano ha visto scomparire le tracce del suo Dna dal patrimonio genetico degli uomini moderni.
+1	Eppure	eppure	CCONJ	CC	_	5	cc	_	_
+2	piano	piano	ADV	B	_	5	advmod	_	_
+3	piano	piano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	scomparire	scomparire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Dna	Dna	PROPN	SP	_	8	nmod	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+16	genetico	genetico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	moderni	moderno	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Se nell'epoca presa in esame da Nature la percentuale del genoma dei Neanderthal era intorno al 4-6%, oggi è scesa al 2%.
+1	Se	se	SCONJ	CS	_	25	mark	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+5	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	Nature	Nature	PROPN	SP	_	5	obl:agent	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	genoma	genoma	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Neanderthal	Neanderthal	PROPN	SP	_	14	nmod	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+19	intorno	intorno	ADV	B	_	25	case	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+22	4	4	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+24	6	6	NUM	N	NumType=Card	22	compound	_	SpaceAfter=No
+25	%	%	SYM	SYM	_	29	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	oggi	oggi	ADV	B	_	29	advmod	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	2	2	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+33	%	%	SYM	SYM	_	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 22
+# text = Frutto di una selezione naturale che - per cause ancora poco chiare - ha progressivamente penalizzato i loro geni.
+1	Frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	selezione	selezione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	naturale	naturale	ADJ	A	Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cause	causa	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+10	ancora	ancora	ADV	B	_	12	advmod	_	_
+11	poco	poco	ADV	B	_	12	advmod	_	_
+12	chiare	chiaro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+13	-	-	PUNCT	FF	_	9	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	progressivamente	progressivamente	ADV	B	_	16	advmod	_	_
+16	penalizzato	penalizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	geni	geno	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = "Non sappiamo molto dei loro occhi", spiega Caramelli, che nel 2007 ha ricostruito il volto dei Neanderthal.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	molto	molto	ADV	B	_	3	advmod	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	Caramelli	Caramelli	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2007	2007	NUM	N	NumType=Card	19	nummod	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	ricostruito	ricostruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	volto	volto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Neanderthal	Neanderthal	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = "Ma anche fra loro c'erano individui con pelle chiara e capelli rossicci".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	7	cc	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	fra	fra	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	individui	individuire	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+14	rossicci	rossiccio	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

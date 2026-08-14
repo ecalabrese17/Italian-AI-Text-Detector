@@ -1,0 +1,602 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E polemiche durissime.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	polemiche	polemica	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	durissime	duro	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = L'India è di nuovo sconvolta e travolta da una notizia sulla violenza sulle donne.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	India	India	PROPN	SP	_	6	nsubj:pass	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	_
+6	sconvolta	sconvolta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	travolta	travolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma stavolta non è un nuovo caso:
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	stavolta	stavolta	ADV	B	_	7	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = è una ferita riaperta senza ottenere una risposta chiara, che anzi getta ombre sulla parzialità del Cbi (il Central bureau of intestigation, l'Fbi indiano).
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	riaperta	riaprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	ottenere	ottenere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	cc	_	_
+12	anzi	anzi	ADV	B	_	13	advmod	_	_
+13	getta	getto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	8	acl:relcl	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	parzialità	parzialità	NOUN	S	Gender=Fem	14	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Cbi	Cbi	PROPN	SP	_	17	nmod	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Central	Central	PROPN	SP	_	14	appos	_	_
+24	bureau	bureau	ADJ	A	_	23	amod	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	intestigation	intestigation	NOUN	S	_	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	Fbi	Fbi	PROPN	SP	_	23	conj	_	_
+30	indiano	indiano	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Il caso di oggi ha le sue radici nel maggio scorso:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oggi	oggi	ADV	B	_	2	advmod	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	radici	radice	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = due cugine, di 14 e 15 anni, furono trovate impiccate a un albero nel distretto di Badaun.
+1	due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	cugine	cugine	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	14	14	NUM	N	NumType=Card	8	nummod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	15	15	NUM	N	NumType=Card	5	conj	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	trovate	trovare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	impiccate	impiccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	xcomp	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	albero	albero	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	distretto	distretto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Badaun	Badaun	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = L'accusa fu immediata:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	immediata	immediare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = la polizia locale trovò che le due ragazze - appartenenti alla casta dei dalit, quella degli intoccabili - erano state uccise dopo aver subito uno stupro di gruppo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	locale	locale	ADJ	A	Number=Sing	2	amod	_	_
+4	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	25	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	25	nsubj:pass	_	_
+9	-	-	PUNCT	FB	_	8	punct	_	_
+10	appartenenti	appartenere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	8	acl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	casta	casta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	dalit	dalit	NOUN	S	Gender=Masc	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	appos	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	intoccabili	intoccabile	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	-	-	PUNCT	FB	_	8	punct	_	_
+23	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+25	uccise	uccidere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+26	dopo	dopo	SCONJ	CS	_	28	mark	_	_
+27	aver	avere	AUX	VA	VerbForm=Inf	28	aux	_	_
+28	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+29	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	stupro	stupro	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ma ora, dopo cinque mesi di indagini e "40 relazioni scientifiche", come sottolinea il Cbi, la verità sostenuta dai federali è diversa:
+1	Ma	ma	CCONJ	CC	_	28	cc	_	_
+2	ora	ora	ADV	B	_	28	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	40	40	NUM	N	NumType=Card	12	nummod	_	_
+12	relazioni	relazione	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	_
+13	scientifiche	scientifico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	come	come	ADV	B	_	17	advmod	_	_
+17	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Cbi	Cbi	PROPN	SP	_	28	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	verità	verità	NOUN	S	Gender=Fem	28	nsubj	_	_
+23	sostenuta	sostenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	dai	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	federali	federale	NOUN	S	Gender=Masc|Number=Plur	23	obl:agent	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	28	punct	_	_
+
+# sent_id = 10
+# text = le due ragazze si sarebbero suicidate per non dover affrontare il giudizio della famiglia per un'amicizia, forse troppo intima, con un ragazzo del loro villaggio.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	suicidate	suicidare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	dover	dovere	AUX	VM	VerbForm=Inf	10	aux	_	_
+10	affrontare	affrontare	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	forse	forse	ADV	B	_	22	advmod	_	_
+21	troppo	troppo	ADV	B	_	22	advmod	_	_
+22	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = LEGGI La piaga degli stupri in India Nessun omicidio, nessuno stupro di gruppo.
+1	LEGGI	legge	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	stupri	stuprio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	India	India	PROPN	SP	_	10	nmod	_	_
+9	Nessun	nessuno	PROPN	SP	_	8	flat:name	_	_
+10	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	nessuno	nessuno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stupro	stupro	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Quei corpi appesi senza vita a un albero si sarebbero issati da soli, forse salendo sui rami, e poi lasciandosi cadere.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+3	appesi	appendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	albero	albero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	issati	issare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	soli	solo	ADJ	A	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	forse	forse	ADV	B	_	16	advmod	_	_
+16	salendo	salire	VERB	V	VerbForm=Ger	11	advcl	_	_
+17-18	sui	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	poi	poi	ADV	B	_	23	advmod	_	_
+23-24	lasciandosi	_	_	_	_	_	_	_	_
+23	lasciando	lasciare	VERB	V	VerbForm=Ger	16	conj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	obj	_	_
+25	cadere	cadere	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Una spiegazione che - se vera - sarebbe solo minimamente migliore dell'alternativa:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+4	-	-	PUNCT	FF	_	6	punct	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	vera	vero	ADJ	A	Gender=Fem|Number=Sing	11	advcl	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	minimamente	minimo	ADV	B	_	11	advmod	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	acl:relcl	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = nel Badaun ci si può suicidare per la vergogna, per il timore di aver gettato fango (quale fango?) sull'immagine della propria famiglia.
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Badaun	Badaun	PROPN	SP	_	7	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	suicidare	suicidare	VERB	V	VerbForm=Inf	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	timore	timore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	aver	avere	AUX	VA	VerbForm=Inf	17	aux	_	_
+17	gettato	gettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+18	fango	fanire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+19	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	quale	quale	DET	DQ	Number=Sing|PronType=Int	21	det	_	_
+21	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	21	punct	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	21	punct	_	_
+24-25	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+24	su	su	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Ecco come sono stati trovati, appesi a un albero, i corpi delle due ragazze indiane La conclusione degli inquirenti non convince però molti, a cominciare dalle organizzazioni per i diritti delle donne, che chiedono di continuare l'inchiesta.
+1	Ecco	ecco	ADV	B	_	5	advmod	_	_
+2	come	come	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	appesi	appendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	albero	albero	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	corpi	corpe	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	indiane	indiano	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	convince	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	però	però	ADV	B	_	25	advmod	_	_
+27	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	cominciare	cominciare	VERB	V	VerbForm=Inf	25	advcl	_	_
+31-32	dalle	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	donne	donna	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+43	di	di	ADP	E	_	44	mark	_	_
+44	continuare	continuare	VERB	V	VerbForm=Inf	42	xcomp	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 16
+# text = "Sembra umanamente impossibile che le due ragazze si siano impiccate, o forse il Cbi non sta dicendo tutto", accusa in una nota il partito Aam Admi:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	umanamente	umano	ADV	B	_	2	advmod	_	_
+4	impossibile	impossibile	ADJ	A	Number=Sing	2	xcomp	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	impiccate	impiccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	o	o	CCONJ	CC	_	19	cc	_	_
+14	forse	forse	ADV	B	_	19	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Cbi	Cbi	PROPN	SP	_	19	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dicendo	dire	VERB	V	VerbForm=Ger	11	conj	_	_
+20	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obj	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	nota	nota	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	partito	partito	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+29	Aam	Aam	PROPN	SP	_	28	nmod	_	_
+30	Admi	Admi	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = "Sembra una copertura per nascondere la vergogna di quello che succede nella regione".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	copertura	copertura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	nascondere	nascondere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	regione	regione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Le due adolescenti erano scomparse da casa un martedì sera di fine maggio a Katra Shahadatganj, un villaggio rurale dello Stato dell'Uttar Pradesh.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	adolescenti	adolescenti	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	scomparse	scomparire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	martedì	martedì	NOUN	S	Gender=Masc	5	obl	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Katra	Katra	PROPN	SP	_	5	obl	_	_
+16	Shahadatganj	Shahadatganj	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	rurale	rurale	ADJ	A	Number=Sing	19	amod	_	_
+21-22	dello	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Uttar	Uttar	PROPN	SP	_	23	nmod	_	_
+27	Pradesh	Pradesh	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = La mattina successiva i loro corpi erano stati trovati appesi a un albero di mango, provocando l'ira degli abitanti del villaggio contro la polizia che la sera prima non aveva dato seguito alla denuncia dei familiari.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	successiva	successivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	parataxis	_	_
+10	appesi	appendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	albero	albero	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	mango	manire	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	provocando	provocare	VERB	V	VerbForm=Ger	9	advcl	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ira	ira	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	abitanti	abitante	NOUN	S	Number=Plur	19	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	contro	contro	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+29	che	che	SCONJ	CS	_	35	mark	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	sera	sera	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+32	prima	prima	ADV	B	_	35	advmod	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+36	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	familiari	familiare	NOUN	S	Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Per la vicenda erano stati arrestati tre uomini, liberati su cauzione lo scorso settembre.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	liberati	liberare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+11	su	su	ADP	E	_	12	case	_	_
+12	cauzione	cauzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Anche due poliziotti erano finiti in manette, con l'accusa di aver cercato di coprire il reale svolgimento di quello che era successo.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	finiti	finire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	manette	manette	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	coprire	coprire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	reale	reale	ADJ	A	Number=Sing	19	amod	_	_
+19	svolgimento	svolgimento	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = India, la rivolta delle donne contro gli stupri "di casta"
+1	India	India	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	contro	contro	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	stupri	stuprio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	di	di	ADP	E	_	13	case	_	_
+13	casta	casta	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,679 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma per la prima volta ad ammetterlo è il diretto destinatario di questi fondi:
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7-8	ammetterlo	_	_	_	_	_	_	_	_
+7	ammetter	ammettere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	destinatario	destinatario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 2
+# text = il presidente dell'Ucoii, Izzedin Elzir.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Ucoii	Ucoio	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Izzedin	Izzedin	PROPN	SP	_	2	appos	_	_
+8	Elzir	Elzir	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = In un'intervista alla Stampa il 3 maggio, Elzir sostiene:
+1	In	in	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Stampa	stampa	PROPN	SP	_	3	nmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	3	3	NUM	N	NumType=Card	3	nmod	_	_
+9	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	Elzir	Elzir	PROPN	SP	_	12	nsubj	_	_
+12	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = «In questi ultimi tre anni grazie al direttivo dell'Ucoii è stato fatto un lavoro di raccolta fondi molto valido con il Qatar che ci ha consentito di procurarci 25 milioni di euro.
+1	«	«	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	6	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+4	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+7	grazie	grazie	NOUN	S	_	10	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	direttivo	direttivo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Ucoii	Ucoio	PROPN	SP	_	10	nmod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	raccolta	raccolgere	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	20	compound	_	_
+22	molto	molto	ADV	B	_	23	advmod	_	_
+23	valido	valido	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Qatar	Qatar	PROPN	SP	_	23	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	30	iobj	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	procurarci	_	_	_	_	_	_	_	_
+32	procurar	procurare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+33	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	32	expl	_	_
+34	25	25	NUM	N	NumType=Card	35	nummod	_	_
+35	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	euro	euro	NOUN	S	Gender=Masc	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = Sono soldi del Qatar Charity, non del Qatar Foundation che invece fa investimenti per lo Stato del Qatar come quelli in Sardegna.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Qatar	Qatar	PROPN	SP	_	2	nmod	_	_
+6	Charity	Charity	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Qatar	Qatar	PROPN	SP	_	5	nmod	_	_
+12	Foundation	Foundation	PROPN	SP	_	11	flat:name	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	invece	invece	ADV	B	_	15	advmod	_	_
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Qatar	Qatar	PROPN	SP	_	19	nmod	_	_
+23	come	come	ADP	E	_	24	case	_	_
+24	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	22	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	Sardegna	Sardegna	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Io ho rapporti con persone che vogliono donare, la Qatar Charity garantisce trasparenza, tracciabilità tra chi dona e chi riceve».
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	rapporti	rapporto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	donare	donare	VERB	V	VerbForm=Inf	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Qatar	Qatar	PROPN	SP	_	13	nsubj	_	_
+12	Charity	Charity	PROPN	SP	_	11	flat:name	_	_
+13	garantisce	garantire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	tracciabilità	tracciabilità	NOUN	S	Gender=Fem	14	nsubj	_	_
+17	tra	tra	ADP	E	_	18	case	_	_
+18	chi	chi	PRON	PR	PronType=Rel	16	nmod	_	_
+19	dona	donare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	chi	chi	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il presidente dell'Ucoii, all'osservazione che i 25 milioni di euro provengono dal fondo di un governo straniero, risponde senza imbarazzo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Ucoii	Ucoio	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	25	25	NUM	N	NumType=Card	13	nummod	_	_
+13	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	euro	euro	NOUN	S	Gender=Masc	13	nmod	_	_
+16	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	governo	governo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	senza	senza	ADP	E	_	27	case	_	_
+27	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 8
+# text = «È il popolo, non lo Stato che ci finanzia.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+11	finanzia	finanziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Il rapporto tra Stati islamici e islam è grande».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	tra	tra	ADP	E	_	4	case	_	_
+4	Stati	stare	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	islamici	islamico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	islam	islam	NOUN	S	Gender=Masc	4	conj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	grande	grande	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Precisa:
+1	Precisa	precisa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = «Io accetto le donazioni da chiunque, da qualunque parte del mondo provengano l'importante è che siano donazioni trasparenti e senza condizioni».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	accetto	accettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	donazioni	donazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	provengano	provengare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	importante	importante	ADJ	A	Number=Sing	15	xcomp	_	_
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	donazioni	donazione	NOUN	S	Gender=Fem|Number=Plur	18	ccomp	_	_
+22	trasparenti	trasparente	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	senza	senza	ADP	E	_	25	case	_	_
+25	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E confessa:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	confessa	confessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = «Sì.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Abbiamo un grande problema di finanziamenti, abbiamo un grande bisogno di soldi.
+1	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	finanziamenti	finanziamento	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = In gran parte andiamo avanti con l'autotassazione dei fedeli in Italia.
+1	In	in	ADP	E	_	3	case	_	_
+2	gran	gran	ADJ	A	Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	autotassazione	autotassazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	fedeli	fedele	NOUN	S	Number=Plur	8	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Italia	Italia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Si tolgono il cibo di bocca per finanziare la moschea».
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tolgono	tolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	finanziare	finanziare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Forse ci sarà chi si toglie il cibo di bocca per finanziare la moschea, ma di sicuro c'è chi è stato denunciato per appropriazione indebita di 5 milioni di euro, tra quelli donati dal Qatar, anziché destinarli alla costruzione della moschea.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	finanziare	finanziare	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+19	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	SpaceAfter=No
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	chi	chi	PRON	PR	Number=Sing|PronType=Rel	20	nsubj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	appropriazione	appropriazione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	indebita	indebito	ADJ	A	Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	5	5	NUM	N	NumType=Card	30	nummod	_	_
+30	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	euro	euro	NOUN	S	Gender=Masc	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	24	punct	_	_
+34	tra	tra	ADP	E	_	35	case	_	_
+35	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	24	obl	_	_
+36	donati	donare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	acl	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Qatar	Qatar	PROPN	SP	_	36	obl:agent	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	anziché	anziché	CCONJ	CC	_	42	cc	_	_
+42-43	destinarli	_	_	_	_	_	_	_	_
+42	destinar	destinare	VERB	V	VerbForm=Inf	24	conj	_	_
+43	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	obj	_	_
+44-45	alla	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = È successo a Bergamo dove il tesoriere dell'Ucoii, Ibrahim Mohamed, ha denunciato Imad El Joulani, presidente (ora estromesso) della moschea di via Cenisio a Bergamo, di aver stornato i 5 milioni di euro sul conto di una società legata a un'associazione da lui fondata e denominata «Comunità islamica».
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Bergamo	Bergamo	PROPN	SP	_	2	obl	_	_
+5	dove	dove	ADV	B	_	16	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tesoriere	tesoriere	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Ucoii	Ucoio	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	Ibrahim	Ibrahim	PROPN	SP	_	7	appos	_	_
+13	Mohamed	Mohamed	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+17	Imad	Imad	PROPN	SP	_	16	obj	_	_
+18	El	El	PROPN	SP	_	17	flat:name	_	_
+19	Joulani	Joulani	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+22	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	ora	ora	ADV	B	_	24	advmod	_	_
+24	estromesso	estromesso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	via	via	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	Cenisio	Cenisio	PROPN	SP	_	30	nmod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	Bergamo	Bergamo	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	di	di	ADP	E	_	37	mark	_	_
+36	aver	avere	AUX	VA	VerbForm=Inf	37	aux	_	_
+37	stornato	stornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	5	5	NUM	N	NumType=Card	40	nummod	_	_
+40	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	euro	euro	NOUN	S	Gender=Masc	40	nmod	_	_
+43-44	sul	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	conto	conto	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	società	società	NOUN	S	Gender=Fem	45	nmod	_	_
+49	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
+50	a	a	ADP	E	_	52	case	_	_
+51	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
+52	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	_
+53	da	da	ADP	E	_	54	case	_	_
+54	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	obl:agent	_	_
+55	fondata	fondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	52	acl	_	_
+56	e	e	CCONJ	CC	_	57	cc	_	_
+57	denominata	denominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	55	conj	_	_
+58	«	«	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+59	Comunità	comunità	NOUN	S	Gender=Fem	57	xcomp	_	_
+60	islamica	islamico	ADJ	A	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
+61	»	»	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Elzir ha confermato che questi soldi sono stati dati dall'Ucoii:
+1	Elzir	Elzir	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10-11	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Ucoii	Ucoio	PROPN	SP	_	9	obl:agent	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = «Ci siamo costituiti parte civile perché anche noi cerchiamo risposte da dare alla nostra comunità su quei soldi.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	costituiti	costituire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	civile	civile	ADJ	A	Number=Sing	5	amod	_	_
+7	perché	perché	SCONJ	CS	_	10	mark	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	cerchiamo	cercare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	risposte	risposta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	xcomp	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	dare	dare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	comunità	comunità	NOUN	S	Gender=Fem	13	obl	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = I cinque milioni sono arrivati a Bergamo tramite noi come Ucoii.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Bergamo	Bergamo	PROPN	SP	_	5	obl	_	_
+8	tramite	tramite	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	Ucoii	Ucoio	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Nel mio mandato ho cercato di trovare donatori di paesi arabi per far cercare di uscire i nostri fedeli da luoghi brutti e metterli in luoghi belli».
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	mandato	mandato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	trovare	trovare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	donatori	donatore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	arabi	arabo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	far	fare	VERB	V	VerbForm=Inf	8	advcl	_	_
+15	cercare	cercare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	uscire	uscire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	fedeli	fedele	NOUN	S	Number=Plur	17	obj	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+23	brutti	brutto	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25-26	metterli	_	_	_	_	_	_	_	_
+25	metter	mettere	VERB	V	VerbForm=Inf	6	conj	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	belli	bello	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Il senatore Giacomo Stucchi, presidente del Comitato Parlamentare per la Sicurezza della Repubblica, ha rivolto un'interpellanza al governo perché faccia chiarezza sull'origine dei soldi delle moschee:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+3	Giacomo	Giacomo	PROPN	SP	_	2	nmod	_	_
+4	Stucchi	Stucchi	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Parlamentare	parlamentare	PROPN	SP	_	9	nmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Sicurezza	sicurezza	PROPN	SP	_	2	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Repubblica	repubblica	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	interpellanza	interpellanza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	governo	governo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	perché	perché	SCONJ	CS	_	26	mark	_	_
+26	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+27	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+28-29	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+28	su	su	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	origine	origine	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	moschee	moschea	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 24
+# text = «Siamo preoccupati della vicinanza della Qatar Charity a esponenti dell'islam più radicale.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	preoccupati	preoccupato	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vicinanza	vicinanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Qatar	Qatar	PROPN	SP	_	6	nmod	_	_
+10	Charity	Charity	PROPN	SP	_	9	flat:name	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	islam	islam	NOUN	S	Gender=Masc	12	nmod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	radicale	radicale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Ricordiamo che la Fondazione è stata riconosciuta dal governo americano come uno dei soggetti finanziatori di Al Qaeda e nel 1997 lo stesso Bin Laden ricevette del denaro da parte di questa Ong».
+1	Ricordiamo	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fondazione	fondazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	riconosciuta	riconoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	americano	americano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	obl	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	finanziatori	finanziatore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19-20	Al	_	_	_	_	_	_	_	_
+19	A	a	PROPN	SP	_	17	nmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Qaeda	Qaeda	PROPN	SP	_	19	flat:name	_	_
+22	e	e	CCONJ	CC	_	30	cc	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	1997	1997	NUM	N	NumType=Card	30	obl	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	Bin	Bin	PROPN	SP	_	30	nsubj	_	_
+29	Laden	Laden	PROPN	SP	_	28	flat:name	_	_
+30	ricevette	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	parte	parte	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
+38	Ong	Ong	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+39	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = Che cosa si aspetta a porre fine alla collusione tra terrorismo islamico, finanziamenti stranieri e le moschee in Italia?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	porre	porre	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	collusione	collusione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	islamico	islamico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	finanziamenti	finanziamento	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+16	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	moschee	moschea	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Italia	Italia	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

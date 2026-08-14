@@ -1,0 +1,868 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In particolare i licei scientifici speciali.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	licei	liceo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	scientifici	scientifico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	speciali	speciale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il 55,3 per cento dei 480mila quattordicenni ha scelto per il prossimo settembre, appunto, un liceo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	55,3	55,3	NUM	N	NumType=Card	10	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	480mila	480mila	NUM	N	NumType=Card	8	nummod	_	_
+8	quattordicenni	quattordicenne	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	appunto	appunto	ADV	B	_	10	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 3
+# text = lo 0,7 per cento in più dell'anno precedente.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	0,7	0,7	NUM	N	NumType=Card	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	più	più	ADV	B	_	9	advmod	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+10	precedente	precedente	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = In particolare, si confermano l’indirizzo preferito dalle ragazze (oltre il sessanta per cento degli iscritti).
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	confermano	confermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	preferito	preferire	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	dalle	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	oltre	oltre	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sessanta	sessanta	NUM	N	NumType=Card	5	obl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	cento	cento	NUM	N	NumType=Card	15	nummod	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = È dal 2014-2015 che i licei vengono scelti da almeno uno studente su due.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2014	2014	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	2015	2015	NUM	N	NumType=Card	4	compound	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	licei	liceo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+10	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	scelti	scegliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	almeno	almeno	ADV	B	_	15	advmod	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	studente	studente	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	due	due	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = CRESCE LO SCIENTIFICO SPECIALE Gli iscritti al Classico sono il 6,7 per cento:
+1	CRESCE	crescere	PROPN	SP	_	12	nsubj	_	_
+2	LO	il	PROPN	SP	_	1	flat:name	_	_
+3	SCIENTIFICO	scientifico	PROPN	SP	_	1	nmod	_	_
+4	SPECIALE	speciale	PROPN	SP	_	3	flat:name	_	_
+5	Gli	gli	PROPN	SP	_	3	flat:name	_	_
+6	iscritti	iscrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Classico	classico	PROPN	SP	_	6	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	6,7	6,7	NUM	N	NumType=Card	0	root	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cento	cento	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 7
+# text = +0,1 per cento rispetto all’anno scorso (oltre il 70 per cento degli iscritti sono donne).
+1	+0,1	+0,1	NUM	N	NumType=Card	19	nummod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	cento	cento	NUM	N	NumType=Card	4	nummod	_	_
+4	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	oltre	oltre	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	70	70	NUM	N	NumType=Card	19	nummod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cento	cento	NUM	N	NumType=Card	12	nummod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 8
+# text = Lo Scientifico (tra indirizzo tradizionale, opzione Scienze Applicate e sezione sportiva) si conferma in testa alle preferenze:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Scientifico	scientifico	PROPN	SP	_	16	nsubj	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	tra	tra	ADP	E	_	5	case	_	_
+5	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+6	tradizionale	tradizionale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	Scienze	Scienze	PROPN	SP	_	8	nmod	_	_
+10	Applicate	applicate	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+13	sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	5	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	testa	testa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 9
+# text = lo sceglie il 25,6 per cento degli studenti.
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	25,6	25,6	NUM	N	NumType=Card	2	nsubj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	cento	cento	NUM	N	NumType=Card	4	nummod	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Mezzo punto in più.
+1	Mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	più	più	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Resta stabile (15,6 per cento delle iscrizioni totali) l’indirizzo tradizionale.
+1	Resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stabile	stabile	ADJ	A	Number=Sing	1	xcomp	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	15,6	15,6	NUM	N	NumType=Card	1	obl	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	cento	cento	NUM	N	NumType=Card	4	nummod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	iscrizioni	iscrizione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	totali	totale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	4	punct	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+14	tradizionale	tradizionale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Cresce la percentuale di chi sceglie l’opzione Scienze applicate (è l’8,2 per cento, +0,4) e l’opzione Sportivo (1,8 per cento, +0,2).
+1	Cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	chi	chi	PRON	PR	PronType=Rel	3	nmod	_	_
+6	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	Scienze	Scienze	PROPN	SP	_	8	nmod	_	_
+10	applicate	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	8,2	8,2	NUM	N	NumType=Card	10	nummod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	cento	cento	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	+0,4	+0,4	NUM	N	NumType=Card	14	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+23	Sportivo	sportivo	PROPN	SP	_	22	nmod	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	1,8	1,8	NUM	N	NumType=Card	22	nummod	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	cento	cento	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	+0,2	+0,2	NUM	N	NumType=Card	25	conj	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Anche il Liceo delle Scienze umane sale:
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Liceo	liceo	PROPN	SP	_	8	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Scienze	scienza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	umane	umano	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	sale	sale	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 14
+# text = lo sceglie l’8,2 per cento, rispetto al 7,9.
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	8,2	8,2	NUM	N	NumType=Card	2	xcomp	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	cento	cento	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	rispetto	rispetto	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	7,9	7,9	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = In lieve aumento le preferenze per il Liceo linguistico (dal 9,2 per cento al 9,3).
+1	In	in	ADP	E	_	3	case	_	_
+2	lieve	lieve	ADJ	A	Number=Sing	3	amod	_	_
+3	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Liceo	liceo	PROPN	SP	_	5	nmod	_	_
+9	linguistico	linguistico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	9,2	9,2	NUM	N	NumType=Card	5	nummod	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cento	cento	NUM	N	NumType=Card	13	nummod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	9,3	9,3	NUM	N	NumType=Card	13	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Lieve calo per l’ Artistico (dal 4,2 per cento dell’anno scorso al 4,1 di oggi) e l' Europeo-Internazionale (dallo 0,7 per cento dell’anno scorso allo 0,5).
+1	Lieve	lieve	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	calo	calo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Artistico	artistico	PROPN	SP	_	2	nmod	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	4,2	4,2	NUM	N	NumType=Card	2	nmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	cento	cento	NUM	N	NumType=Card	9	nummod	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+15	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	4,1	4,1	NUM	N	NumType=Card	1	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	oggi	oggi	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	1	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	Europeo	europeo	PROPN	SP	_	1	conj	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	24	punct	_	SpaceAfter=No
+26	Internazionale	internazionale	PROPN	SP	_	24	flat:name	_	_
+27	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+28-29	dallo	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	0,7	0,7	NUM	N	NumType=Card	1	obl	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	cento	cento	NUM	N	NumType=Card	30	nummod	_	_
+33-34	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	anno	anno	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+36	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	allo	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	0,5	0,5	NUM	N	NumType=Card	1	obl	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Liceo musicale ancora a quota 0,8 per cento, il Coreutico sempre allo 0,1 (il 91,8 per cento sono donne).
+1	Liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+2	musicale	musicale	ADJ	A	Number=Sing	1	amod	_	_
+3	ancora	ancora	ADV	B	_	5	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	quota	quota	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	0,8	0,8	NUM	N	NumType=Card	5	nummod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cento	cento	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Coreutico	Coreutico	PROPN	SP	_	22	nsubj	_	_
+12	sempre	sempre	ADV	B	_	15	advmod	_	_
+13-14	allo	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	0,1	0,1	NUM	N	NumType=Card	11	nummod	_	_
+16	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	91,8	91,8	NUM	N	NumType=Card	22	nsubj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	cento	cento	NUM	N	NumType=Card	18	nummod	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 18
+# text = LA RIFORMA DEI PROFESSIONALI NON BASTA Un terzo dei ragazzi italiani (il 30,7 per cento) ha scelto un Istituto tecnico : più 0,4 per cento.
+1	LA	il	PROPN	SP	_	21	obj	_	_
+2	RIFORMA	riforma	PROPN	SP	_	1	flat:name	_	_
+3-4	DEI	_	_	_	_	_	_	_	_
+3	DI	Di	ADP	E	_	5	case	_	_
+4	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	PROFESSIONALI	professionali	PROPN	SP	_	21	obl	_	_
+6	NON	non	PROPN	SP	_	21	nsubj	_	_
+7	BASTA	bastare	PROPN	SP	_	6	flat:name	_	_
+8	Un	uno	PROPN	SP	_	6	flat:name	_	_
+9	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+13	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	30,7	30,7	NUM	N	NumType=Card	12	nmod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	cento	cento	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	16	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	:	:	PUNCT	FC	_	23	punct	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	0,4	0,4	NUM	N	NumType=Card	23	nummod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	cento	cento	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 19
+# text = Il settore Economico è all’11,4 per cento (+0,2 per cento), il Tecnologico , con i suoi diversi indirizzi, attrae il 19,3 per cento (era il 19 lo scorso anno).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	settore	settore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Economico	economico	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	11,4	11,4	NUM	N	NumType=Card	25	nummod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cento	cento	NUM	N	NumType=Card	7	nummod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	+0,2	+0,2	NUM	N	NumType=Card	7	nummod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	cento	cento	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Tecnologico	tecnologico	PROPN	SP	_	25	nsubj	_	_
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	con	con	ADP	E	_	23	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+22	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	attrae	attrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	19,3	19,3	NUM	N	NumType=Card	25	obj	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	cento	cento	NUM	N	NumType=Card	27	nummod	_	_
+30	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+31	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	19	19	NUM	N	NumType=Card	25	advcl	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	anno	anno	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 20
+# text = Ancora un calo (consistente quest'anno) per gli Istituti professionali , scelti dal 14 per cento dei ragazzi rispetto al 15,1 dello scorso anno.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calo	calo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	consistente	consistente	ADJ	A	Number=Sing	3	amod	_	_
+6	quest'	questo	DET	DD	Number=Sing|PronType=Dem	7	det	_	SpaceAfter=No
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	3	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+12	professionali	professionale	ADJ	A	Number=Plur	11	amod	_	_
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	scelti	scegliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	14	14	NUM	N	NumType=Card	14	nummod	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	cento	cento	NUM	N	NumType=Card	17	nummod	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+23	rispetto	rispetto	ADV	B	_	26	case	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	15,1	15,1	NUM	N	NumType=Card	14	obl	_	_
+27-28	dello	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Per ora le famiglie non hanno creduto alla riforma del settore realizzata da questo governo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	7	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	settore	settore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	realizzata	realizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = La procedura di iscrizione online ha riguardato 1.455.850 studenti dalla primaria alla secondaria di secondo grado.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procedura	procedura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	online	online	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	riguardato	riguardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	1.455.850	1.455.850	NUM	N	NumType=Card	9	nummod	_	_
+9	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	primaria	primaria	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	secondaria	secondario	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+18	grado	grado	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = Per l’infanzia la domanda, anche quest’anno, era cartacea.
+1	Per	per	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	quest’	questo	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	cartacea	cartacea	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 24
+# text = Il 71,8 per cento delle famiglie ha fatto richiesta senza chiedere aiuto alle scuole.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	71,8	71,8	NUM	N	NumType=Card	9	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12	chiedere	chiedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 25
+# text = Dice la ministra Valeria Fedeli: “Quest’anno abbiamo lavorato per la qualificazione del sistema di istruzione.
+1	Dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	Valeria	Valeria	PROPN	SP	_	3	nmod	_	_
+5	Fedeli	fedeli	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+7	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	Quest’	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	qualificazione	qualificazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 26
+# text = Penso alla riforma dei professionali, che stiamo attuando con convinzione e che già da settembre vedrà l’avvio di nuovi indirizzi e un rilancio effettivo dei laboratori.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	professionali	professionale	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	attuando	attuare	VERB	V	VerbForm=Ger	4	acl:relcl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	già	già	ADV	B	_	18	advmod	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+19	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	avvio	avvio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	rilancio	rilancio	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+28	effettivo	effettivo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Inizieremo a vedere i primi effetti sulle iscrizioni dell’anno successivo e siamo convinti che l’eliminazione della sovrapposizione con alcuni indirizzi tecnici e la maggiore aderenza dei percorsi offerti con la tradizione del Made In Italy e le peculiarità dei territori potrà fare dei professionali luoghi di innovazione”.
+1	Inizieremo	Iniziere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+6	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	iscrizioni	iscrizione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	convinti	convinguere	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+17	che	che	SCONJ	CS	_	50	mark	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	eliminazione	eliminazione	NOUN	S	Gender=Fem|Number=Sing	50	nsubj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sovrapposizione	sovrapposizione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	tecnici	tecnico	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	30	amod	_	_
+30	aderenza	aderenza	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	percorsi	percorso	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	offerti	offrire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Made	made	PROPN	SP	_	37	nmod	_	_
+41	In	in	PROPN	SP	_	40	flat:name	_	_
+42	Italy	Italy	PROPN	SP	_	40	flat:name	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	peculiarità	peculiarità	NOUN	S	Gender=Fem	40	conj	_	_
+46-47	dei	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	territori	territorio	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	_
+49	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	50	aux	_	_
+50	fare	fare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+51-52	dei	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	54	case	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+53	professionali	professionale	ADJ	A	Number=Plur	54	amod	_	_
+54	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+57	”	”	PUNCT	FB	_	54	punct	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = LAZIO LEADER NEI LICEI Anche quest’anno il Lazio si conferma la regione con la maggiore percentuale di iscritti ai licei, con il 68,1 per cento.
+1	LAZIO	Lazio	PROPN	SP	_	12	obl	_	_
+2	LEADER	leader	PROPN	SP	_	1	flat:name	_	_
+3-4	NEI	_	_	_	_	_	_	_	_
+3	IN	in	PROPN	SP	_	1	flat:name	_	_
+4	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	LICEI	licei	PROPN	SP	_	12	nsubj	_	_
+6	Anche	anche	ADV	B	_	8	advmod	_	_
+7	quest’	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Lazio	Lazio	PROPN	SP	_	12	nsubj:pass	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+12	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	regione	regione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+18	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	licei	liceo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	68,1	68,1	NUM	N	NumType=Card	18	nummod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	cento	cento	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 29
+# text = Seguono Abruzzo (60,8), Campania (59,8), Umbria (59,5), Sicilia (59).
+1	Seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Abruzzo	Abruzzo	PROPN	SP	_	1	nsubj	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	60,8	60,8	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Campania	Campania	PROPN	SP	_	2	conj	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	59,8	59,8	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Umbria	Umbria	PROPN	SP	_	2	conj	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	59,5	59,5	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Sicilia	Sicilia	PROPN	SP	_	2	conj	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	59	59	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Il Veneto è ancora la regione con meno ragazzi che scelgono gli indirizzi liceali (46 per cento) e la prima nella scelta dei Tecnici (39,2).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Veneto	Veneto	PROPN	SP	_	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	regione	regione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	meno	meno	ADV	B	_	9	advmod	_	_
+9	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	scelgono	scegliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	liceali	liceale	ADJ	A	Number=Plur	13	amod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	46	46	NUM	N	NumType=Card	6	nummod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	cento	cento	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	16	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	prima	prima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	conj	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Tecnici	tecnico	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	39,2	39,2	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = Nei Tecnici seguono Friuli Venezia Giulia (37,7 per cento) ed Emilia Romagna (36,2).
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Tecnici	tecnico	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Friuli	Friuli	PROPN	SP	_	4	nsubj	_	_
+6	Venezia	Venezia	PROPN	SP	_	5	flat:name	_	_
+7	Giulia	Giulia	PROPN	SP	_	5	flat:name	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	37,7	37,7	NUM	N	NumType=Card	5	nummod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	cento	cento	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	9	punct	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	Emilia	Emilia	PROPN	SP	_	5	conj	_	_
+15	Romagna	Romagna	PROPN	SP	_	14	flat:name	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	36,2	36,2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 32
+# text = La regione con la più alta aliquota di iscritti negli Istituti professionali è la Basilicata (16,8 per cento), seguita da Emilia Romagna (16,6), Campania e Puglia (15,9).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	regione	regione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	con	con	ADP	E	_	7	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	aliquota	aliquota	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	professionali	professionale	ADJ	A	Number=Plur	12	amod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Basilicata	Basilicata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	16,8	16,8	NUM	N	NumType=Card	16	nummod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	cento	cento	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	Emilia	Emilia	PROPN	SP	_	23	obl:agent	_	_
+26	Romagna	Romagna	PROPN	SP	_	25	flat:name	_	_
+27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	16,6	16,6	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	Campania	Campania	PROPN	SP	_	25	conj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	Puglia	Puglia	PROPN	SP	_	31	conj	_	_
+34	(	(	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	15,9	15,9	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,322 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Hollande:
+1	Hollande	Hollande	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = "È terrorismo" "
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = L'allarme di terrorismo scatta a Parigi, dove attorno alle 14.00 una coppia di poliziotti è stata assassinata a colpi di fucile e pistola in pieno centro.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	scatta	scattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Parigi	Parigi	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dove	dove	ADV	B	_	20	advmod	_	_
+10	attorno	attorno	ADV	B	_	13	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	14.00	14.00	NUM	N	NumType=Card	20	obl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	assassinata	assassinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	fucile	fucile	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	centro	centro	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il cadavere della donna, 33 anni, è stato trovato poco dopo, ucciso con diversi colpi di pistola, mentre a poche centinaia di metri il suo compagno, 27 anni, bendato e legato stretto e imbavagliato, giaceva morente sanguinante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cadavere	cadavere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	33	33	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	poco	poco	ADV	B	_	14	advmod	_	_
+14	dopo	dopo	ADV	B	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	mentre	mentre	SCONJ	CS	_	43	mark	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	metri	metro	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	27	27	NUM	N	NumType=Card	34	nummod	_	_
+34	anni	anno	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	31	punct	_	_
+36	bendato	bendare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	_
+39	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	38	xcomp	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	imbavagliato	imbavagliare	ADJ	A	Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	31	punct	_	_
+43	giaceva	giacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+44	morente	morente	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	_
+45	sanguinante	sanguinare	ADJ	A	Number=Sing	43	xcomp	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = La scena del delitto, in un bar vicino al carcere di Fleury-Mérogis, è quella di una vera e propria esecuzione, con l'assalitore che sparava a bruciapelo contro la coppia di agenti quasi al riparo dalla folla.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scena	scena	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bar	bar	NOUN	S	Gender=Masc	2	nmod	_	_
+10	vicino	vicino	ADV	B	_	13	case	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Fleury-Mérogis	Fleury-Mérogis	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+19	di	di	ADP	E	_	24	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+21	vera	vero	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	21	conj	_	_
+24	esecuzione	esecuzione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	18	punct	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	assalitore	assalitore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	sparava	sparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	bruciapelo	bruciapelo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+33	contro	contro	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+38	quasi	quasi	ADV	B	_	41	advmod	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	riparo	riparo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+42-43	dalla	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	folla	folla	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 6
+# text = "Non si tratta di un incidente isolato:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = questa è un'aggressione terroristica contro lo Stato e contro la comunità, un attacco alla Repubblica - ha affermato il presidente François Hollande - faremo di tutto per individuare e neutralizzare i mandanti dell'atto".
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aggressione	aggressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	terroristica	terroristico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	contro	contro	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	comunità	comunità	NOUN	S	Gender=Fem	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Repubblica	repubblica	PROPN	SP	_	15	nmod	_	_
+19	-	-	PUNCT	FF	_	21	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	parataxis	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+24	François	François	PROPN	SP	_	23	nmod	_	_
+25	Hollande	Hollande	PROPN	SP	_	24	flat:name	_	_
+26	-	-	PUNCT	FF	_	21	punct	_	_
+27	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	acl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	obl	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	individuare	individuare	VERB	V	VerbForm=Inf	27	advcl	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	neutralizzare	neutralizzare	VERB	V	VerbForm=Inf	31	conj	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	mandanti	mandante	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+36-37	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+36	di	di	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	atto	atto	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Le indagini seguono la pista religiosa e sull'ascesa dell'estrema destra:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pista	pista	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ascesa	ascesa	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	14	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	destra	destra	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = a fine maggio Macron aveva annunciato un piano contro il terrorismo, che sembrava incontrare un cauto ottimismo;
+1	a	a	ADP	E	_	2	case	_	_
+2	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	Macron	Macron	PROPN	SP	_	6	nsubj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	contro	contro	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+15	incontrare	incontrare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cauto	cauto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	ottimismo	ottimismo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = la successiva strage al cinema firma scenata alla prima di Star Wars sorprende il governo e solleva nuove preoccupazioni.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	successiva	successivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	strage	strage	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cinema	cinema	NOUN	S	Gender=Masc	3	nmod	_	_
+7	firma	firmo	NOUN	S	Gender=Masc	6	compound	_	_
+8	scenata	scenare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prima	primo	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Star	Star	PROPN	SP	_	11	nmod	_	_
+14	Wars	Wars	PROPN	SP	_	13	flat:name	_	_
+15	sorprende	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governo	governo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+20	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Un attacco violento e atroce, ancora non rivendicato politicamente, che dimostra una volta di più la fragilità della Francia di fronte all'estremismo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	violento	violento	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	atroce	atroce	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ancora	ancora	ADV	B	_	9	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	rivendicato	rivendicato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+10	politicamente	politicamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	più	più	ADV	B	_	15	advmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fragilità	fragilità	NOUN	S	Gender=Fem	13	obj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Francia	Francia	PROPN	SP	_	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	fronte	fronte	NOUN	S	Number=Sing	22	nmod	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	estremismo	estremismo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Cosi il quotidiano "La Repubblica".
+1	Cosi	Coso	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Repubblica	Repubblica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

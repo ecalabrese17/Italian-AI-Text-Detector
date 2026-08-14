@@ -1,0 +1,367 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I vantaggi?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Praticità, assenza di dolore, personalizzazione del trattamento, meno controindicazioni possibili.
+1	Praticità	Praticità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	personalizzazione	personalizzazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	meno	meno	ADV	B	_	13	advmod	_	_
+13	controindicazioni	controindicazione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+14	possibili	possibile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Molti pazienti hanno abbandonato l'opzione chirurgica vedendola come troppo invasiva e spesso temendo complicazioni post intervento.
+1	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	pazienti	paziente	NOUN	S	Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	abbandonato	abbandonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	chirurgica	chirurgico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	vedendola	_	_	_	_	_	_	_	_
+8	vedendo	vedere	VERB	V	VerbForm=Ger	4	advcl	_	_
+9	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	come	come	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	invasiva	invasivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	spesso	spesso	ADV	B	_	15	advmod	_	_
+15	temendo	temere	VERB	V	VerbForm=Ger	12	conj	_	_
+16	complicazioni	complicazione	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	post	post	ADJ	A	_	18	amod	_	_
+18	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La laser terapia, anzi, viene ben accolta in quanto percepita come meno dolorosa, immediata, meno invasiva, altamente performante.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	laser	laser	NOUN	S	Gender=Masc	9	nsubj:pass	_	_
+3	terapia	terapio	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	anzi	anzi	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	ben	bene	ADV	B	_	9	advmod	_	_
+9	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	12	mark	_	_
+11	quanto	quanto	ADV	B	_	10	fixed	_	_
+12	percepita	percepire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	meno	meno	ADV	B	_	15	advmod	_	_
+15	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	immediata	immediato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	meno	meno	ADV	B	_	20	advmod	_	_
+20	invasiva	invasivo	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	altamente	altamente	ADV	B	_	23	advmod	_	_
+23	performante	performante	ADJ	A	Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Curare in modo intelligente, adattando i protocolli allo specifico caso clinico, genera serenita e in molti casi previene il ricorso alla sala operatoria.
+1	Curare	curare	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	intelligente	intelligente	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	adattando	adattare	VERB	V	VerbForm=Ger	1	advcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9-10	allo	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	specifico	specifico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	clinico	clinico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	genera	genera	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+16	serenita	serenito	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	casi	caso	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+21	previene	prevenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sala	sala	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	operatoria	operatorio	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ecco qualche dato incoraggiante sull'efficacia di questa metodica.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	dato	dato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	incoraggiante	incoraggiare	ADJ	A	Number=Sing	3	amod	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	metodica	metodica	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = In uno studio recente, il 93,6% dei pazienti trattati ambulatorialmente nell'arco di sei mesi ha riscontrato miglioramenti significativi, il 63,8% è stato del tutto libero dal dolore al momento della verifica.
+1	In	in	ADP	E	_	3	case	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	studio	studio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+4	recente	recente	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	93,6	93,6	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	21	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	pazienti	paziente	NOUN	S	Number=Plur	8	nmod	_	_
+12	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	ambulatorialmente	ambulatorialmente	ADV	B	_	12	advmod	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	arco	arco	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	sei	sei	NUM	N	NumType=Card	19	nummod	_	_
+19	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	riscontrato	riscontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+22	miglioramenti	miglioramento	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+23	significativi	significativo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	63,8	63,8	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+27	%	%	SYM	SYM	_	29	nsubj	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	33	obl	_	_
+33	libero	libero	ADJ	A	Gender=Masc|Number=Sing	29	xcomp	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	momento	momento	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	verifica	verifica	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 8
+# text = Grazie al laser ad alta intensità non solo si previene il peggioramento della situazione o la degenerazione, ma si riesce anche a recuperare gradualmente le ampie capacità motorie mancate.
+1	Grazie	grazie	NOUN	S	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	laser	laser	NOUN	S	Gender=Masc	11	obl	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	intensità	intensità	NOUN	S	Gender=Fem	11	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	previene	prevenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	peggioramento	peggioramento	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	degenerazione	degenerazione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+24	anche	anche	ADV	B	_	23	advmod	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	recuperare	recuperare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+27	gradualmente	gradualmente	ADV	B	_	26	advmod	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+29	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+30	capacità	capacità	NOUN	S	Gender=Fem	26	obj	_	_
+31	motorie	motoria	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+32	mancate	mancare	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Si tratta di una terapia complementare che non vuole certo sostituire completamente il chirurgo, tantomeno essere un alibi per l'operazione.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	complementare	complementare	ADJ	A	Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	certo	certo	ADV	B	_	11	advmod	_	_
+11	sostituire	sostituire	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+12	completamente	completo	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	chirurgo	chirurgo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	tantomeno	tantomeno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	alibi	alibo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 10
+# text = Tuttavia può essere un costante supporto distributo nel tempo in caso di forme iniziali, evitare accanimenti qualora si ripresentino, migliorare la qualità di vita nel quotidiano.
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	costante	costante	ADJ	A	Number=Sing	6	amod	_	_
+6	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	distributo	distribere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	forme	forma	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	iniziali	iniziale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	evitare	evitare	VERB	V	VerbForm=Inf	6	acl	_	_
+18	accanimenti	accanimento	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	qualora	qualora	SCONJ	CS	_	21	mark	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	ripresentino	ripresentare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	migliorare	migliorare	VERB	V	VerbForm=Inf	21	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	qualità	qualità	NOUN	S	Gender=Fem	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	vita	vita	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = A patto di affidarsi a mani esperte e avanguardiste, come quelle che oggi, in quasi tutti i poliambulatori italiani, possono prontamente adoperare il laser ad alta intensità nella cura delle patologie della mano senza bisturi ma con razionalità scientifica e serenità clinica.
+1	A	a	ADP	E	_	2	case	_	_
+2	patto	patto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	affidarsi	_	_	_	_	_	_	_	_
+4	affidar	affidare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	esperte	esperto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	avanguardiste	avanguardista	ADJ	A	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	7	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+15	oggi	oggi	ADV	B	_	26	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	in	in	ADP	E	_	21	case	_	_
+18	quasi	quasi	ADV	B	_	21	advmod	_	_
+19	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	poliambulatori	poliambulatore	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+22	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	prontamente	pronto	ADV	B	_	26	advmod	_	_
+26	adoperare	adoperare	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	laser	laser	NOUN	S	Gender=Masc	26	obj	_	_
+29	ad	a	ADP	E	_	31	case	_	_
+30	alta	alto	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	intensità	intensità	NOUN	S	Gender=Fem	28	nmod	_	_
+32-33	nella	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	cura	cura	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	mano	mano	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	senza	senza	ADP	E	_	42	case	_	_
+42	bisturi	bisturo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+43	ma	ma	CCONJ	CC	_	45	cc	_	_
+44	con	con	ADP	E	_	45	case	_	_
+45	razionalità	razionalità	NOUN	S	Gender=Fem	42	conj	_	_
+46	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	serenità	serenità	NOUN	S	Gender=Fem	42	conj	_	_
+49	clinica	clinico	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Quel che conta è non rassegnarsi al peggio ma prendere in mano, con la giusta prevenzione, la cura del proprio corpo.
+1	Quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6-7	rassegnarsi	_	_	_	_	_	_	_	_
+6	rassegnar	rassegnare	VERB	V	VerbForm=Inf	0	root	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	peggio	peggio	NOUN	S	Gender=Masc	6	obl	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	6	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	cura	cura	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,349 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma ora, mentre le ultime stampe della nuova edizione di *Robinson* stanno per essere spedite, la risposta è sempre la stessa:
+1	Ma	ma	CCONJ	CC	_	24	cc	_	_
+2	ora	ora	ADV	B	_	24	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	7	amod	_	_
+7	stampe	stampa	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	*Robinson*	*robinson*	PROPN	SP	_	11	nmod	_	_
+14	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	spedite	spedire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	sempre	sempre	ADV	B	_	24	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 2
+# text = c'è qualcosa di profondamente sbagliato in questa operazione, qualcosa che va ben oltre la mera eccentricità del suo ideatore, Massimo Bottura.
+1	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	2	nsubj	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	profondamente	profondamente	ADV	B	_	6	advmod	_	_
+6	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	ben	bene	ADV	B	_	13	advmod	_	_
+15	oltre	oltre	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	mera	mero	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	eccentricità	eccentricità	NOUN	S	Gender=Fem	13	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	ideatore	ideatore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	Massimo	Massimo	PROPN	SP	_	18	nmod	_	_
+25	Bottura	Bottura	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lo special, che vedrà in edicola domani, intitolato semplicemente "Facciamo Festival", non è, come suggerisce il titolo, un festival nella classica accezione del termine.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	special	special	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	edicola	edicola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	domani	domani	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	intitolato	intitolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+11	semplicemente	semplicemente	ADV	B	_	10	advmod	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	xcomp	_	_
+14	Festival	Festival	PROPN	SP	_	13	obj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	come	come	SCONJ	CS	_	21	mark	_	_
+21	suggerisce	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	festival	festival	NOUN	S	Gender=Masc	21	obl	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	classica	classico	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	accezione	accezione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	termine	termine	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non ci saranno concerti, artisti di fama mondiale, ristoranti stellati.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	3	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	fama	fama	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	mondiale	mondiale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+12	stellati	stellato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Tecnicamente, si tratta di un evento di degustazione a 360 gradi, una sorta di laboratorio intensivo dove Bottura, con l'aiuto di un team di scienziati, musicisti e ingegneri alimentari, sembra voler dimostrare che “la cucina è più di cibo, è scienza, è cultura, è un’esperienza totale”.
+1	Tecnicamente	tecnicamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	evento	evento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	degustazione	degustazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	360	360	NUM	N	NumType=Card	12	nummod	_	_
+12	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	intensivo	intensivo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	dove	dove	ADV	B	_	36	advmod	_	_
+20	Bottura	Bottura	PROPN	SP	_	36	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	team	team	NOUN	S	Gender=Masc	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	musicisti	musicista	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	ingegneri	ingegnere	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+34	alimentari	alimentare	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	20	punct	_	_
+36	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+37	voler	volere	AUX	VM	VerbForm=Inf	38	aux	_	_
+38	dimostrare	dimostrare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+39	che	che	SCONJ	CS	_	56	mark	_	_
+40	“	“	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	46	nsubj	_	_
+43	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+44	più	più	ADV	B	_	46	advmod	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	56	nsubj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+49	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	52	nsubj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+52	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	46	parataxis	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	46	punct	_	_
+54	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+55	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	SpaceAfter=No
+56	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	38	ccomp	_	_
+57	totale	totale	ADJ	A	Number=Sing	56	amod	_	SpaceAfter=No
+58	”	”	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Il tutto, ovviamente, condito con un tocco di estro, e innegabilmente, di ‘ridicolo’.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ovviamente	ovviamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	condito	condire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	estro	estro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	innegabilmente	innegabilmente	ADV	B	_	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	‘ridicolo	‘ridicolo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+18	’	’	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = E qui sta il punto cruciale.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	qui	qui	ADV	B	_	3	advmod	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	cruciale	cruciale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Perché ‘ridicolo’ è la parola giusta.
+1	Perché	perché	ADV	B	_	6	advmod	_	_
+2	‘ridicolo	‘ridicolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	’	’	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Perché l’idea di applicare i principi della fisica quantistica, della chimica molecolare e della biologia evolutiva alla preparazione del cibo, e di presentarli come ingredienti per un’esperienza sensoriale e filosofica, sembra una parodia.
+1	Perché	perché	ADV	B	_	42	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	42	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	applicare	applicare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	principi	principio	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fisica	fisico	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	quantistica	quantistico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	chimica	chimica	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+16	molecolare	molecolare	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	biologia	biologia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+21	evolutiva	evolutivo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31-32	presentarli	_	_	_	_	_	_	_	_
+31	presentar	presentare	VERB	V	VerbForm=Inf	5	conj	_	_
+32	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
+33	come	come	ADP	E	_	34	case	_	_
+34	ingredienti	ingrediento	NOUN	S	Number=Plur	31	obl	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	sensoriale	sensoriale	ADJ	A	Number=Sing	37	amod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	filosofica	filosofico	ADJ	A	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	3	punct	_	_
+42	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	parodia	parodia	NOUN	S	Gender=Fem|Number=Sing	42	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	42	punct	_	_
+
+# sent_id = 10
+# text = Un’operazione di marketing smaccatamente provocatoria che, nel tentativo di stupire, rischia di banalizzare e, peggio ancora, di distrarre da questioni ben più serie.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	marketing	marketing	NOUN	S	Gender=Masc	2	nmod	_	_
+5	smaccatamente	smaccatamente	ADV	B	_	6	advmod	_	_
+6	provocatoria	provocatorio	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	15	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	stupire	stupire	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	banalizzare	banalizzare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	e	e	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	peggio	peggio	ADV	B	_	24	advmod	_	_
+21	ancora	ancora	ADV	B	_	24	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	distrarre	distrarre	VERB	V	VerbForm=Inf	17	conj	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	questioni	questioni	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+27	ben	bene	ADV	B	_	29	advmod	_	_
+28	più	più	ADV	B	_	29	advmod	_	_
+29	serie	serio	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Non si tratta di sminuire il lavoro dei partecipanti, che – a guardar bene – sono persone competenti e appassionate.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	sminuire	sminuire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	partecipanti	partecipante	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+13	–	–	PUNCT	FB	_	12	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	guardar	guardare	VERB	V	VerbForm=Inf	19	advcl	_	_
+16	bene	bene	ADV	B	_	15	advmod	_	_
+17	–	–	PUNCT	FB	_	15	punct	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+20	competenti	competente	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	appassionate	appassionato	ADJ	A	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 12
+# text = Il fisico Marco Patriarca, la musicista Roshelle, il
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fisico	fisico	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Marco	Marco	PROPN	SP	_	2	nmod	_	_
+4	Patriarca	patriarca	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	musicista	musicista	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+8	Roshelle	Roshelle	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	SpacesAfter=\n
+

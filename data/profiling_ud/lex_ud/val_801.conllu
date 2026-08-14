@@ -1,0 +1,358 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non a caso il suo autore rappresenta perfettamente la nuova generazione di artisti romani.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	autore	autore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	perfettamente	perfettamente	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	romani	romano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Indiretta testimonianza della sua capacità di rappresentare la realtà Rome, il suo libro più recente, "L 뭐라고elsen", è stata recentemente uscito solo in italiano, ma è già stato tradotto e pubblicato in Germania, Francia, Spagna e Gran Bretagna.
+1	Indiretta	Indiretto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	capacità	capacità	NOUN	S	Gender=Fem	2	nmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	rappresentare	rappresentare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	realtà	realtà	NOUN	S	Gender=Fem	8	obj	_	_
+11	Rome	Rome	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	recente	recente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	L	l	PROPN	SP	_	15	appos	_	_
+21	뭐라고elsen	뭐라고elsen	INTJ	I	_	20	advmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+25	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	aux	_	_
+26	recentemente	recentemente	ADV	B	_	27	advmod	_	_
+27	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	solo	solo	ADV	B	_	30	advmod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	36	punct	_	_
+32	ma	ma	CCONJ	CC	_	36	cc	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+34	già	già	ADV	B	_	36	advmod	_	_
+35	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	aux:pass	_	_
+36	tradotto	tradurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	Germania	Germania	PROPN	SP	_	38	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	42	punct	_	_
+42	Francia	Francia	PROPN	SP	_	40	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	Spagna	Spagna	PROPN	SP	_	40	conj	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	Gran	Gran	PROPN	SP	_	40	conj	_	_
+47	Bretagna	Bretagna	PROPN	SP	_	46	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = Il libro è la storia di Romanzo, un giovane artista che vive in un quartiere popolare della città eterna,Aaron Priore, un vecchio e decaduto rapper che cerca di vendere i suoi sparecchi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	libro	libro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Romanzo	romanzo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	giovane	giovane	ADJ	A	Number=Sing	11	amod	_	_
+11	artista	artista	NOUN	S	Number=Sing	5	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	popolare	popolare	ADJ	A	Number=Sing	16	amod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	città	città	NOUN	S	Gender=Fem	16	nmod	_	_
+21	eterna	eterno	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+23	Aaron	Aaron	PROPN	SP	_	5	nmod	_	_
+24	Priore	Priore	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+27	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	decaduto	decadere	ADJ	A	Gender=Masc|Number=Sing	27	conj	_	_
+30	rapper	rapper	NOUN	S	Gender=Masc	5	appos	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	vendere	vendere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	sparecchi	sparecco	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = All'interno di una romanzo epistolare scritta a mano, Zerocalcare si cimenta in una critica spietata del capitalismo contemporaneo e della disillusione dei giovani.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	interno	interno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	epistolare	epistolare	ADJ	A	Number=Sing	6	amod	_	_
+8	scritta	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Zerocalcare	Zerocalcare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	cimenta	cimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	critica	critico	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	spietata	spietato	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	capitalismo	capitalismo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22	contemporaneo	contemporaneo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	disillusione	disillusione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	giovani	giovane	NOUN	S	Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Il successo di Zerocalcare nasce dalla sua capacità di raccontare la realtà in modo sincero e diretto, senza agende politiche o ideologiche nascoste.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	successo	successo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Zerocalcare	Zerocalcare	PROPN	SP	_	2	nmod	_	_
+5	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	capacità	capacità	NOUN	S	Gender=Fem	5	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	raccontare	raccontare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	realtà	realtà	NOUN	S	Gender=Fem	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	sincero	sincero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	senza	senza	ADP	E	_	21	case	_	_
+21	agende	agenda	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+22	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	o	o	CCONJ	CC	_	25	cc	_	_
+24	ideologiche	ideologico	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	nascoste	nascoste	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Il suo stile umoristico e la sua ironia sono la sua arma vincente, ma dietro c'è una profonda analisi della società italiana contemporanea.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	stile	stile	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	umoristico	umoristico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	arma	arma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	vincente	vincente	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	dietro	dietro	ADV	B	_	18	advmod	_	_
+17	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	analisi	analisi	NOUN	S	Gender=Fem	18	nsubj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	società	società	NOUN	S	Gender=Fem	21	nmod	_	_
+25	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	contemporanea	contemporaneo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = E' difficile etichettare lo stile di Zerocalcare, che varia tra fumetti, graphic novel, libri illustrati eònia nuove forme di narrazione.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+3	etichettare	etichettare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	stile	stile	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Zerocalcare	Zerocalcare	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	varia	variare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	fumetti	fumetto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	graphic	graphic	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	novel	novel	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	libri	libro	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+18	illustrati	illustrato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	eò	eare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
+20	nia	nia	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+22	forme	forma	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Le sue opere sono sempre profondamente personali e trasudano unцен e autenticità che è difficile non notare.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	opere	opera	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	sempre	sempre	ADV	B	_	7	advmod	_	_
+6	profondamente	profondamente	ADV	B	_	7	advmod	_	_
+7	personali	personale	ADJ	A	Number=Plur	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	trasudano	trasudare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	unцен	unцен	PROPN	SP	_	9	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	autenticità	autenticità	NOUN	S	Gender=Fem	10	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	difficile	difficile	ADJ	A	Number=Sing	12	acl:relcl	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	notare	notare	VERB	V	VerbForm=Inf	15	csubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = La sua evolve a sua demolizione personaggi e dei suoi contesti, non è lassenza di riferimenti pop e di un forte senso di nostalgia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	evolve	evolva	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	demolizione	demolizione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	3	compound	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	contesti	contesto	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	lassenza	lassenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	riferimenti	riferimento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	pop	pop	NOUN	S	_	18	compound	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	forte	forte	ADJ	A	Number=Sing	24	amod	_	_
+24	senso	senso	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	nostalgia	nostalgia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = Il suo lavoro è estremamente attento al contesto socio-culturale che lo circonda, fatto di vittime e di eroi, di idealismo e di disillusioni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	estremamente	estremamente	ADV	B	_	6	advmod	_	_
+6	attento	attento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	socio	socio	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+12	culturale	culturale	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	circonda	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	fatto	fatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	idealismo	idealismo	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	disillusioni	disillusione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Zerocalcare è un autore che ha saputo creare un mondo a sé, ma sempre con i piedi per terra, sempre in contatto con la realtà che lo circond
+1	Zerocalcare	Zerocalcare	VERB	V	VerbForm=Inf	4	csubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	autore	autore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	creare	creare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	sempre	sempre	ADV	B	_	18	advmod	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	terra	terra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	sempre	sempre	ADV	B	_	24	advmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+28	che	che	SCONJ	CS	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	circond	circond	NOUN	S	Gender=Masc	24	obl	_	SpacesAfter=\n
+

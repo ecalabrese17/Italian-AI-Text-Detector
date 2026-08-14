@@ -1,0 +1,516 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A riferirlo è stato il presidente genovese dell'associazione Agedo, Giovanni Vianello.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	riferirlo	_	_	_	_	_	_	_	_
+2	riferir	riferire	VERB	V	VerbForm=Inf	7	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	genovese	genovese	ADJ	A	Number=Sing	7	amod	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	Agedo	Agedo	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	Giovanni	Giovanni	PROPN	SP	_	7	appos	_	_
+15	Vianello	Vianello	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = "Mi si è gelato il sangue - ha detto all' Ansa Vianello - mi è venuta la pelle d'oca e ho pensato subito ai lager nazisti" .
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	gelato	gelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	-	-	PUNCT	FF	_	10	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+11-12	all'	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Ansa	Ansa	PROPN	SP	_	10	obl	_	_
+14	Vianello	Vianello	PROPN	SP	_	13	flat:name	_	_
+15	-	-	PUNCT	FF	_	10	punct	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+21	d'	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	oca	oca	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+26	subito	subito	ADV	B	_	25	advmod	_	_
+27-28	ai	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	lager	lager	ADJ	A	_	30	amod	_	_
+30	nazisti	nazista	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	5	punct	_	_
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma la ricostruzione è dubbia ed è stata smentita da più persone.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	dubbia	duvere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	ed	e	CCONJ	CC	_	9	cc	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	smentita	smentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	più	più	DET	DI	PronType=Ind	12	det	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl:agent	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = In questa storia il condizionale è d'obbligo.
+1	In	in	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	condizionale	condizionale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Perché De Paoli nega di aver detto quelle parole.
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	De	De	PROPN	SP	_	4	nsubj	_	_
+3	Paoli	Paoli	PROPN	SP	_	2	flat:name	_	_
+4	nega	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Sono tradizionalista, lo ammetto - spiega a Repubblica - non potrò mai ammettere quelle cose dei figli omosessuali.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	tradizionalista	tradizionaledere	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	ammetto	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	-	-	PUNCT	FB	_	8	punct	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Repubblica	repubblica	PROPN	SP	_	8	obl	_	_
+11	-	-	PUNCT	FB	_	8	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	ammettere	ammettere	VERB	V	VerbForm=Inf	3	conj	_	_
+16	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_
+17	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	omosessuali	omosessuale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Dite che ho esagerato?
+1	Dite	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	esagerato	esagerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Dico sempre la verità.
+1	Dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	verità	verità	NOUN	S	Gender=Fem	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = È quello che pensa la gente.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = La famiglia è un papà e una mamma, un nonno e una nonna.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	papà	papà	NOUN	S	Gender=Masc	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Cosa farei se avessi un figlio omosessuale?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	farei	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+7	omosessuale	omosessuale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Se fosse una malattia lo curerei, ma invece penso sia un vizio e non ci sarebbe nulla per guarirlo" .
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	6	advcl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	curerei	curare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	invece	invece	ADV	B	_	10	advmod	_	_
+10	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vizio	vizio	NOUN	S	Gender=Masc|Number=Sing	10	ccomp	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	17	nsubj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	guarirlo	_	_	_	_	_	_	_	SpaceAfter=No
+20	guarir	guarire	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	"	"	PUNCT	FB	_	6	punct	_	_
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Il Pd, però, ha subito serrato le fila.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Pd	pd	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	subito	subito	ADV	B	_	8	advmod	_	_
+8	serrato	serrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	fila	fila	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = La senatrice Donatella Albano, componente della Commissione Antimafia, ha accusato De Paoli di rievocare "i forni crematori dei lager nazisti , lager in cui si stima siano state internate circa 50mila persone in quanto omosessuali, con tanto di divisa a righe con il triangolo rosa" . Poi, ha aggiunto:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	senatrice	senatore	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	Donatella	Donatella	PROPN	SP	_	2	nmod	_	_
+4	Albano	Albano	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	componente	componente	NOUN	S	Number=Sing	2	appos	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Antimafia	antimafia	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	De	De	PROPN	SP	_	13	obj	_	_
+15	Paoli	Paoli	PROPN	SP	_	14	flat:name	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	rievocare	rievocare	VERB	V	VerbForm=Inf	14	acl	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	forni	forno	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+21	crematori	crematore	NOUN	S	Gender=Masc|Number=Plur	20	compound	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	lager	lager	NOUN	S	Gender=Masc	21	nmod	_	_
+25	nazisti	nazista	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	lager	lagere	ADP	E	_	31	case	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	31	obl	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl:impers	_	_
+31	stima	stimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+32	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	34	aux:pass	_	_
+34	internate	internascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	ccomp	_	_
+35	circa	circa	ADV	B	_	36	advmod	_	_
+36	50mila	50mila	NUM	N	NumType=Card	37	nummod	_	_
+37	persone	persona	NOUN	S	Gender=Fem|Number=Plur	34	nsubj:pass	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	quanto	quanto	ADV	B	_	38	fixed	_	_
+40	omosessuali	omosessuale	ADJ	A	Number=Plur	34	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	34	punct	_	_
+42	con	con	ADP	E	_	43	case	_	_
+43	tanto	tanto	ADV	B	_	45	advmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+46	a	a	ADP	E	_	47	case	_	_
+47	righe	riga	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+48	con	con	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	triangolo	triangolo	NOUN	S	Gender=Masc|Number=Sing	57	obl	_	_
+51	rosa	rosa	ADJ	A	_	50	amod	_	SpaceAfter=No
+52	"	"	PUNCT	FB	_	50	punct	_	_
+53	.	.	PUNCT	FS	_	50	punct	_	_
+54	Poi	poi	ADV	B	_	57	advmod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	54	punct	_	_
+56	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	acl	_	SpaceAfter=No
+58	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 15
+# text = "Mi aspetto innanzitutto le scuse da De Paoli e una netta presa di distanza da tali affermazioni dal presidente Giovanni Toti " . Ma De Paoli non ci sta.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	innanzitutto	innanzitutto	ADV	B	_	3	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	scuse	scusa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	De	De	PROPN	SP	_	6	nmod	_	_
+9	Paoli	Paoli	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	netta	netto	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	presa	presa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	tali	tale	DET	DD	Number=Plur|PronType=Dem	18	det	_	_
+18	affermazioni	affermazione	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19-20	dal	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+22	Giovanni	Giovanni	PROPN	SP	_	21	nmod	_	_
+23	Toti	Toto	PROPN	SP	_	22	flat:name	_	_
+24	"	"	PUNCT	FB	_	3	punct	_	_
+25	.	.	PUNCT	FS	_	31	punct	_	_
+26	Ma	ma	CCONJ	CC	_	31	cc	_	_
+27	De	De	PROPN	SP	_	31	nsubj	_	_
+28	Paoli	Paoli	PROPN	SP	_	27	flat:name	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	31	expl	_	_
+31	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = "Io non chiedo scusa a nessuno, io non parlavo di loro, parlavo di cose mie, di cosa avrei fatto io, parlavo della mia posizione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	parlavo	parlavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	parlavo	parlavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+18	mie	mio	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	15	obl	_	_
+22	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	parlavo	parlavo	ADJ	A	Gender=Masc|Number=Sing	23	xcomp	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = E la commissione era finita" .
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Quindi la stoccata finale:
+1	Quindi	quindi	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stoccata	stoccata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	finale	finale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 19
+# text = "Sono viziati, viziosi, e mi fanno solo pubblicità" .
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	viziati	viziare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	viziosi	vizioso	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	solo	solo	ADV	B	_	9	advmod	_	_
+11	pubblicità	pubblicità	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	3	punct	_	_
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = "Mi risulta che nessuno l'abbia mai pronunciata - commenta Toti - non è che la vera vittima di pregiudizi resta sempre il centrodestra ?" .
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+7	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	pronunciata	pronunciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	-	-	PUNCT	FB	_	11	punct	_	_
+11	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	Toti	Toto	PROPN	SP	_	11	nsubj	_	_
+13	-	-	PUNCT	FF	_	11	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	che	che	SCONJ	CS	_	22	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	vera	vero	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	pregiudizi	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+23	sempre	sempre	ADV	B	_	22	advmod	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	centrodestra	centrodestra	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+26	?	?	PUNCT	FS	_	22	punct	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	3	punct	_	_
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Anche il presidente della commissione salute della Regione Liguria , Matteo Rosso, ha smentito che certe parole possano essere pronunciate in commissione.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	salute	salute	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+11	Liguria	Liguria	PROPN	SP	_	10	nmod	_	_
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	Matteo	Matteo	PROPN	SP	_	3	appos	_	_
+14	Rosso	Rosso	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	smentito	smentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	parole	parola	NOUN	S	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
+21	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	essere	essere	AUX	VA	VerbForm=Inf	23	aux:pass	_	_
+23	pronunciate	pronunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	ccomp	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 22
+# text = "Quanto è stato riferito non è sicuramente accaduto in commissione, non lo avrei assolutamente permesso - mette in chiaro l'esponente di Forza Italia - se avessi sentito quella frase in aula durante i lavori avrei bloccato subito tutto.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	sicuramente	sicuramente	ADV	B	_	9	advmod	_	_
+9	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+15	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	assolutamente	assolutamente	ADV	B	_	17	advmod	_	_
+17	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	-	-	PUNCT	FB	_	19	punct	_	_
+19	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	chiaro	chiaro	ADV	B	_	19	advmod	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	esponente	esponente	NOUN	S	Number=Sing	19	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Forza	Forza	PROPN	SP	_	23	nmod	_	_
+26	Italia	Italia	PROPN	SP	_	25	flat:name	_	_
+27	-	-	PUNCT	FF	_	19	punct	_	_
+28	se	se	SCONJ	CS	_	30	mark	_	_
+29	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	_
+31	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	frase	frase	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	aula	aula	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	durante	durante	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+38	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+40	subito	subito	ADV	B	_	41	advmod	_	_
+41	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = In quel momento rappresentiamo le istituzioni, le nostre convinzioni non possono interferire" .
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	rappresentiamo	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	convinzioni	convinzione	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	interferire	interferire	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

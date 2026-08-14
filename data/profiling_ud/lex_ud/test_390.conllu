@@ -1,0 +1,463 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È lei la nuova regina del red carpet.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	regina	regina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	red	red	NOUN	S	Gender=Masc	5	nmod	_	_
+9	carpet	carpet	NOUN	S	Gender=Masc	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Olivia Wilde, la splendida attrice e regista statunitense, ha conquistato il titolo che fino a poco tempo fa era stato solo di Angelina Jolie.
+1	Olivia	Olivia	ADP	E	_	2	case	_	_
+2	Wilde	Wilde	PROPN	SP	_	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	regista	regista	NOUN	S	Number=Sing	6	conj	_	_
+9	statunitense	statunitense	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+16	fino	fino	ADV	B	_	19	case	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+20	fa	fa	ADJ	A	_	19	amod	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+22	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	cop	_	_
+23	solo	solo	ADV	B	_	25	advmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Angelina	Angelina	PROPN	SP	_	14	acl:relcl	_	_
+26	Jolie	Jolie	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = La nuova spina nel fianco del mondo del cinema e dello spettacolo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	spina	spina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cinema	cinema	NOUN	S	Gender=Masc	3	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma non guardateci storto, l'abbiamo detto chiaro:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3-4	guardateci	_	_	_	_	_	_	_	_
+3	guardate	guardare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+5	storto	storire	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = la nuova "regina del red carpet" è lei, Olivia Wilde!
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	regina	regina	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	red	red	NOUN	S	Gender=Masc	4	nmod	_	_
+8	carpet	carpet	NOUN	S	Gender=Masc	7	compound	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	4	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	Olivia	Olivia	PROPN	SP	_	11	appos	_	_
+14	Wilde	Wilde	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Con quel suo fascino unico, che ti fa innamorare a prima vista, e quell'intelligenza acuta che la rendono la star perfetta.
+1	Con	con	ADP	E	_	4	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	innamorare	innamorare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	vista	vista	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	quell'	quello	DET	DD	Number=Sing|PronType=Dem	17	det	_	SpaceAfter=No
+17	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+18	acuta	acuto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	star	star	NOUN	S	Gender=Masc	21	xcomp	_	_
+24	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Sul lavoro come sul set, la giovane attrice di Woody Allen ha sfoggiato una classe senza pari.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4	come	come	ADV	B	_	7	cc	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	set	set	NOUN	S	Gender=Masc	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	giovane	giovane	ADJ	A	Number=Sing	11	amod	_	_
+11	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Woody	Woody	PROPN	SP	_	11	nmod	_	_
+14	Allen	Allen	PROPN	SP	_	13	flat:name	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	sfoggiato	sfoggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	classe	classe	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	pari	pari	ADJ	A	_	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = E pensare che fino a qualche anno fa la sua vita sembrava in salita, quando il matrimonio con l'attore italiano Francesco Carrozzini sembrava naufragare.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	12	mark	_	_
+4	fino	fino	ADV	B	_	7	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	salita	salita	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	quando	quando	SCONJ	CS	_	25	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	attore	attore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	Francesco	Francesco	PROPN	SP	_	21	nmod	_	_
+24	Carrozzini	Carrozzini	PROPN	SP	_	23	flat:name	_	_
+25	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+26	naufragare	naufragare	VERB	V	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Oggi, invece, ha cambiato vita:
+1	Oggi	oggi	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = dirige film di successo, recita ruoli di grande livello, ed è fidanzata con un uomo che, parliamoci chiaro, è una fortuna...
+1	dirige	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	film	film	NOUN	S	Gender=Masc	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	successo	successo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	recita	recitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	ruoli	ruolo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	grande	grande	ADJ	A	Number=Sing	10	amod	_	_
+10	livello	livello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ed	e	CCONJ	CC	_	14	cc	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fidanzata	fidanzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	parliamoci	parliamoce	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fortuna...	fortuna...	NOUN	S	_	20	obj	_	_
+
+# sent_id = 11
+# text = se ce l'hai, "tu sei la mano più amica".
+1	se	se	ADV	B	_	4	advmod	_	_
+2	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	l'	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+4	hai	haio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+8	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	amica	amico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E di sicuro Olivia le è grata ogni giorno, per quella fortuna che gli ha dato la vita e per ogni minimo gesto di amore che le riserva.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	Olivia	Olivia	PROPN	SP	_	7	nsubj	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	grata	grato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+23	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	riserva	riserva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Splendida nell'ultimo film "Don't Worry Darling", per la regia di Olivia Wilde:
+1	Splendida	splendidare	PROPN	SP	_	0	root	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	5	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Don	Don	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	't	't	CCONJ	CC	_	9	cc	_	_
+9	Worry	Worry	PROPN	SP	_	7	conj	_	_
+10	Darling	Darling	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	regia	regia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Olivia	Olivia	PROPN	SP	_	15	nmod	_	_
+18	Wilde	Wilde	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = in questa pellicola di straordinario successo (visto che ha incassato un miliardo di dollari) ha dato il meglio di sé, traboccante di magnetismo e fascino, attirando l'attenzione di migliaia di spettatori.
+1	in	in	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	straordinario	straordinario	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	successo	successo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	incassato	incassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	8	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	traboccante	traboccante	ADP	E	_	26	case	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	magnetismo	magnetismo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	18	punct	_	_
+30	attirando	attirare	VERB	V	VerbForm=Ger	18	advcl	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = Una tendenza che si va affermando da tempo, quella che vede le attrici prendere il posto degli attori:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	affermando	affermare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	attrici	attore	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	prendere	prendere	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	posto	posto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	attori	attore	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = se prima il potere era tutto degli uomini, ora sono le donne a farla da padrone.
+1	se	se	SCONJ	CS	_	6	mark	_	_
+2	prima	prima	ADV	B	_	6	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	potere	potere	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obl	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	ora	ora	ADV	B	_	14	advmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	farla	_	_	_	_	_	_	_	_
+16	far	fare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = Di più:
+1	Di	di	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 18
+# text = a vincere grazie una bellezza che non è solo estetica, ma cultura, talento, e soprattutto intelligenza.
+1	a	a	ADP	E	_	2	mark	_	_
+2	vincere	vincere	VERB	V	VerbForm=Inf	0	root	_	_
+3	grazie	grazie	NOUN	S	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	solo	solo	ADV	B	_	10	advmod	_	_
+10	estetica	estetico	ADJ	A	Gender=Fem|Number=Sing	5	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	talento	talento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	soprattutto	soprattutto	ADV	B	_	19	advmod	_	_
+19	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Ma per essere sexy e per essere regina del red carpet non basta essere belle.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	per	per	ADP	E	_	4	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	sexy	sexy	ADJ	A	_	14	advcl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+8	regina	reginare	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	red	red	NOUN	S	Gender=Masc	8	nmod	_	_
+12	carpet	carpet	NOUN	S	Gender=Masc	11	compound	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+16	belle	bello	ADJ	A	Gender=Fem|Number=Plur	14	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 20
+# text = Come sa molto bene chi ha già sperimentato o cercato di farlo:
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	bene	bene	ADV	B	_	2	advmod	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	sperimentato	sperimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+12	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 21
+# text = ci vuole
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

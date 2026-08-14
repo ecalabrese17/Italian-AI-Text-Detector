@@ -1,0 +1,687 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un giovane lavoratore della ditta di appalto Steel Service, che si occupa di pulizia industriale.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+3	lavoratore	lavoratore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	appalto	appalto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	Steel	Steel	PROPN	SP	_	8	nmod	_	_
+10	Service	service	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	pulizia	pulizia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	industriale	industriale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Erano le 6.45 di questa mattina e il turno era appena iniziato.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	6.45	6.45	NUM	N	NumType=Card	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	turno	turno	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	appena	appena	ADV	B	_	12	advmod	_	_
+12	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = L'incidente è avvenuto all'altoforno 4, su un nastro trasportatore.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	altoforno	altoforno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	4	4	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nastro	nastro	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	trasportatore	trasportatore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Dalle prime informazioni raccolte, il nastro che trasportava il minerale, nella parte finale, vicino al cosiddetto 'tamburo' si era bloccato.
+1-2	Dalle	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+5	raccolte	raccogliere	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	trasportava	trasportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	minerale	minerala	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	finale	finale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	vicino	vicino	ADV	B	_	24	case	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	cosiddetto	cosiddetto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+23	'	'	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	tamburo	tamburo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+25	'	'	PUNCT	FB	_	24	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 5
+# text = Dopo essere stato fermato, Giacomo, insieme ad altri colleghi aveva iniziato la manutenzione per farlo ripartire.
+1	Dopo	dopo	SCONJ	CS	_	4	mark	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Giacomo	Giacomo	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	insieme	insieme	ADV	B	_	11	case	_	_
+9	ad	a	ADP	E	_	8	fixed	_	_
+10	altri	altro	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	farlo	_	_	_	_	_	_	_	_
+17	far	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	ripartire	ripartire	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Ma il tamburo non era imbracato e appena è stato 'ripulito' dalle scorie si è avvolto su se stesso schiacciando il povero operaio che sarebbe morto stritolato dagli ingranaggi.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tamburo	tamburo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	imbracato	imbracare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	appena	appena	ADV	B	_	10	advmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+11	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	ripulito	ripulire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	12	punct	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scorie	scoria	NOUN	S	Gender=Fem|Number=Plur	12	obl:agent	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	avvolto	avvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	obl	_	_
+22	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	schiacciando	schiacciare	VERB	V	VerbForm=Ger	19	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	povero	povero	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	operaio	operaio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+30	stritolato	stritolato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	xcomp	_	_
+31-32	dagli	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	ingranaggi	ingranaggio	NOUN	S	Gender=Masc|Number=Plur	30	obl:agent	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = I colleghi presenti sul posto hanno subito chiamato i soccorsi, ma per Campo non c'è stato nulla da fare.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	presenti	presente	ADJ	A	Number=Plur	2	amod	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	subito	subito	ADV	B	_	9	advmod	_	_
+9	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	soccorsi	soccorso	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	ma	ma	CCONJ	CC	_	19	cc	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	Campo	campo	PROPN	SP	_	19	obl	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+20	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	fare	fare	VERB	V	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = "Ora deve passare un messaggio forte.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ora	ora	ADV	B	_	4	advmod	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	forte	forte	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Non ce la facciamo più" ha dichiarato a IlGiornale.it Antonio Talò, segretario della Uilm di Taranto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	8	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	IlGiornale.it	IlGiornale.it	PROPN	SP	_	8	obl	_	_
+11	Antonio	Antonio	PROPN	SP	_	8	nsubj	_	_
+12	Talò	Talò	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Uilm	Uilm	PROPN	SP	_	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Taranto	Taranto	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Le organizzazioni dei lavoratori hanno proclamato uno sciopero in fabbrica dalle 12 alle 7 di domani mattina.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	proclamato	proclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sciopero	sciopero	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	dalle	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	12	12	NUM	N	NumType=Card	7	obl	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	7	7	NUM	N	NumType=Card	7	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	domani	domani	ADV	B	_	17	advmod	_	_
+20	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = "L'incidente di questa mattina non è stata una fatalità – dichiara in una nota Francesco Rizzo della Usb – è stata una vera e propria mancanza di rispetto delle regole della sicurezza.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fatalità	fatalità	NOUN	S	Gender=Fem	0	root	_	_
+12	–	–	PUNCT	FF	_	11	punct	_	_
+13	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nota	nota	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	Francesco	Francesco	PROPN	SP	_	16	nmod	_	_
+18	Rizzo	Rizzo	PROPN	SP	_	17	flat:name	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Usb	Usb	PROPN	SP	_	16	nmod	_	_
+22	–	–	PUNCT	FB	_	11	punct	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+24	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	cop	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+26	vera	vero	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	26	conj	_	_
+29	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	11	parataxis	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	regole	regola	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 12
+# text = Infatti è accaduto sotto gli occhi dei responsabili che non hanno voluto aspettare l'arrivo dei mezzi per la messa in sicurezza del 'tamburo'.
+1	Infatti	infatti	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	sotto	sotto	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	responsabili	responsabile	NOUN	S	Number=Plur	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	aspettare	aspettare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	messa	messa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	'	'	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	tamburo	tamburo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Tutto era fermo e spento, ma si è deciso di iniziare con mezz'ora di anticipo.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	spento	spento	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	iniziare	iniziare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	mezz'	mezzo	DET	DD	Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Questo per sottolineare ancora una volta come all'Ilva di Taranto manchino ormai regole e rispetto sulla sicurezza."
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	sottolineare	sottolineare	VERB	V	VerbForm=Inf	13	advcl	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Ilva	Ilva	PROPN	SP	_	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Taranto	Taranto	PROPN	SP	_	10	nmod	_	_
+13	manchino	mancare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ormai	ormai	ADV	B	_	13	advmod	_	_
+15	regole	regola	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	rispetto	rispetto	ADV	B	_	20	case	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	13	punct	_	_
+
+# sent_id = 15
+# text = Intanto l'azienda in una nota sottolinea che "il nastro, risultato danneggiato a seguito di un taglio longitudinale, era stato fermato nella notte per consentire l'intervento di riparazione.
+1	Intanto	intanto	ADV	B	_	7	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nota	nota	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+7	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	24	mark	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	24	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+14	danneggiato	danneggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	longitudinale	longitudinale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	11	punct	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	notte	notte	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	consentire	consentire	VERB	V	VerbForm=Inf	24	advcl	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	riparazione	riparazione	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 16
+# text = Come da procedura aziendale, il nastro è stato preventivamente messo in sicurezza ed è stato privato di alimentazione elettrica.
+1	Come	come	ADP	E	_	3	case	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	procedura	procedura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	aziendale	aziendale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+10	preventivamente	preventivamente	ADV	B	_	11	advmod	_	_
+11	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	ed	e	CCONJ	CC	_	17	cc	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	privato	privare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = Nonostante l'applicazione di tutte le misure di sicurezza, durante le attività di rimozione del materiale ferroso che si era depositato sul rullo di invio, effettuate dall'operatore con un tubo aspirante, il nastro si è attivato e lo ha trascinato.
+1	Nonostante	nonostante	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	misure	misura	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	durante	durante	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	attività	attività	NOUN	S	Gender=Fem	43	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	rimozione	rimozione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	ferroso	ferroso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	depositato	depositare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24-25	sul	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	rullo	rullo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	invio	invio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	13	punct	_	_
+30	effettuate	effettuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+31-32	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+31	da	da	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	operatore	operatore	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tubo	tubo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+37	aspirante	aspirante	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	13	punct	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	43	expl	_	_
+42	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	attivato	attivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+44	e	e	CCONJ	CC	_	47	cc	_	_
+45	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
+46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	trascinato	trascinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 19
+# text = C'erano quindi tutte le misure di sicurezza?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+3	quindi	quindi	ADV	B	_	6	advmod	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	misure	misura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = C'erano le autorizzazioni necessarie perchè Giacomo Campo potesse lavorare?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	autorizzazioni	autorizzazione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	perchè	perché	SCONJ	CS	_	10	mark	_	_
+7	Giacomo	Giacomo	PROPN	SP	_	10	nsubj	_	_
+8	Campo	campo	PROPN	SP	_	7	flat:name	_	_
+9	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	lavorare	lavorare	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Di chi sono le colpe dell'accaduto?
+1	Di	di	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	colpe	colpa	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Ancora tanti i dubbi dopo il gravissimo incidente di questa mattina.
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	tanti	tanto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	dopo	dopo	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	8	amod	_	_
+8	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Una morte terribile, agghiacciante, che ancora una volta tinge Taranto di quel colore rosso che confonde sangue e polvere minerale.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	morte	morte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	terribile	terribile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	agghiacciante	agghiacciante	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	ancora	ancora	ADV	B	_	10	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+11	tinge	tingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	Taranto	Taranto	PROPN	SP	_	11	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	colore	colore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	confonde	confondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+22	minerale	minerale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Riecheggiano ancora le parole di ieri del presidente della Regione Michele Emiliano alla riunione a Bari dei presidenti degli Ordini dei medici italiani:
+1	Riecheggiano	Riecheggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ieri	ieri	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	Michele	Michele	PROPN	SP	_	1	nsubj	_	_
+14	Emiliano	Emiliano	PROPN	SP	_	13	flat:name	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Bari	Bari	PROPN	SP	_	17	nmod	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	presidenti	presidente	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Ordini	ordini	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	medici	medico	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 25
+# text = "aiutatemi a fermare questa strage".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2-3	aiutatemi	_	_	_	_	_	_	_	_
+2	aiutate	aiutare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fermare	fermare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	strage	strage	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Sì, si riferiva alle conseguenze sulla salute delle emissioni inquinanti dell'Ilva.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	riferiva	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	salute	salute	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	inquinanti	inquinante	ADJ	A	Number=Plur	13	amod	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Ilva	Ilva	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Ma la strage è anche dentro lo stabilimento, non solo fuori, è tra i lavoratori, i più esposti, i più deboli.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	strage	strage	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	dentro	dentro	ADV	B	_	8	advmod	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	solo	solo	ADV	B	_	12	advmod	_	_
+12	fuori	fuori	ADV	B	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	esposti	esposto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	deboli	debole	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 28
+# text = Oggi un'altra conferma.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

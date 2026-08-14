@@ -1,0 +1,350 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Spaletti, un bravo tecnico, lo ammettiamo, ma puro allenatore tattico non basta.
+1	Spaletti	Spaletti	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bravo	bravo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	ammettiamo	ammettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	puro	puro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	tattico	tattico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Serve carattere, disciplina, una grinta che sembra essersi smarrita, persa in un labirinto di errori individuali e di scelte poco incisive.
+1	Serve	servire	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	disciplina	disciplinare	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	grinta	grinta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10-11	essersi	_	_	_	_	_	_	_	_
+10	esser	essere	AUX	VA	VerbForm=Inf	12	aux	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	smarrita	smarrire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	persa	perdere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	labirinto	labirinto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	errori	errore	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	individuali	individuale	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	poco	poco	ADV	B	_	25	advmod	_	_
+25	incisive	incisivo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La prestazione dei giallorossi è stata anonima, soffocata, incapace di imporre il proprio gioco.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prestazione	prestazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	giallorossi	giallorosso	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	anonima	anonimo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	soffocata	soffocato	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	incapace	incapace	ADJ	A	Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	imporre	imporre	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il Bologna, per quanto non un top club, ha giocato con una determinazione e una lucidità che la Roma non ha mostrato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bologna	Bologna	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	top	top	ADJ	A	_	9	amod	_	_
+9	club	club	NOUN	S	Gender=Masc	5	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lucidità	lucidità	NOUN	S	Gender=Fem	15	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Roma	Roma	PROPN	SP	_	24	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = E a riguardo, un plauso merita il Lazio.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	plauso	plauso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Lazio	Lazio	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Una vittoria importante, ottenuta con il cuore e con la testa, contro un avversario ostico.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	importante	importante	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ottenuta	ottenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	testa	testa	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+17	ostico	ostico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Imola conferma la solidità e il senso della squadra di Sarri, che sembra aver finalmente trovato la giusta combinazione di uomini e idee.
+1	Imola	Imola	PROPN	SP	_	2	nsubj	_	_
+2	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	solidità	solidità	NOUN	S	Gender=Fem	2	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Sarri	Sarri	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+17	finalmente	finalmente	ADV	B	_	18	advmod	_	_
+18	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	combinazione	combinazione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	idee	idea	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un gioco paziente, efficace, senza fronzoli.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	paziente	paziente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	efficace	efficace	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	fronzoli	fronzolo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Un calcio che ricorda il passato glorioso della formazione biancoceleste.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	glorioso	glorioso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	biancoceleste	biancoceleste	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Anche l'Udinese, forse sottovalutata, ha dimostrato di avere qualità.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Udinese	Udinese	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	forse	forse	ADV	B	_	6	advmod	_	_
+6	sottovalutata	sottovalutato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	qualità	qualità	NOUN	S	Gender=Fem	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Una partita combattuta, dove l'orgoglio e la tenacia hanno prevalso sulla tecnica.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partita	partita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	combattuta	combattuto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	dove	dove	ADV	B	_	12	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	prevalso	prevalere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Mister Vitturici sa cosa vuole dalla sua squadra, un gioco propositivo e un pressing alto che mette in difficoltà gli avversari.
+1	Mister	Mister	PROPN	SP	_	3	nsubj	_	_
+2	Vitturici	Vitturico	PROPN	SP	_	1	flat:name	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+5	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	propositivo	propositivo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pressing	pressing	NOUN	S	Number=Sing	13	conj	_	_
+17	alto	alto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	difficoltà	difficoltà	NOUN	S	Gender=Fem	19	obl	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Il futuro, forse, potrebbe riservare a questa squadra friulana sorprese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	forse	forse	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	riservare	riservare	VERB	V	VerbForm=Inf	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	friulana	friulano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	sorprese	sorprese	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = La Serie A, a questo punto, si fa più incerta e imprevedibile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Serie	serie	PROPN	SP	_	10	nsubj	_	_
+3	A	A	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	incerta	incerto	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	imprevedibile	imprevedibile	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = La Roma peccato, tanti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Roma	Roma	PROPN	SP	_	0	root	_	_
+3	peccato	peccato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Un rammarico per i tifosi, ma soprattutto per la storia del club.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rammarico	rammarico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	club	club	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = C'è ancora tempo per cambiare rotta, ma serve un cambio di mentalità, un'iniezione di sangue.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	cambiare	cambiare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	mentalità	mentalità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	iniezione	iniezione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Altrimenti, si rischia di
+1	Altrimenti	altrimenti	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	4	ccomp	_	SpacesAfter=\n
+

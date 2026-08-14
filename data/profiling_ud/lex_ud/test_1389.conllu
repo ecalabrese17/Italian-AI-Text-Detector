@@ -1,0 +1,574 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gianni, vicentino di 56 anni, è un musicista;
+1	Gianni	Gianni	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vicentino	vicentino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	56	56	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	musicista	musicista	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = Piero è di origini romane e ha 70 anni.
+1	Piero	Piero	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	origini	origine	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	romane	romano	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	70	70	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Convivono già da parecchi anni ma il sesso non c'entra:
+1	Convivono	convivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	già	già	ADV	B	_	5	advmod	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	ma	ma	CCONJ	CC	_	11	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	SpaceAfter=No
+11	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = "non siamo una coppia, ci prendiamo cura l'uno dell'altro, siamo come fratelli" hanno spiegato in un' intervista al Giornale di Vicenza .
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+8	prendiamo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	cura	cura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	8	punct	_	_
+20	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Vicenza	Vicenza	PROPN	SP	_	27	nmod	_	_
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Allora perché unirsi civilmente?
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	perché	perché	SCONJ	CS	_	3	mark	_	_
+3-4	unirsi	_	_	_	_	_	_	_	_
+3	unir	unire	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	civilmente	civilmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = I due prossimi "sposi" sono convinti che l'unione civile consentirà loro di accedere a diritti che sarebbero loro negati altrimenti e di risolvere problemi pratici.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+2	due	due	NUM	N	NumType=Card	5	nummod	_	_
+3	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	convinti	convinto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	unione	unione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	civile	civile	ADJ	A	Number=Sing	11	amod	_	_
+13	consentirà	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
+14	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	accedere	accedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	acl:relcl	_	_
+22	negati	negare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	altrimenti	altrimenti	ADV	B	_	22	advmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	risolvere	risolvere	VERB	V	VerbForm=Inf	22	conj	_	_
+27	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+28	pratici	pratico	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Vivono in un Comune vicino a Schio, hanno scelto quest'ultimo perché qui hanno potuto sbrigare le pratiche necessarie velocemente, nonostante il sindaco sia contrario alle unioni omosessuali.
+1	Vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Comune	comune	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	vicino	vicino	ADV	B	_	7	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	Schio	Schio	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+11	quest'	questo	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	xcomp	_	_
+13	perché	perché	SCONJ	CS	_	17	mark	_	_
+14	qui	qui	ADV	B	_	17	advmod	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux	_	_
+17	sbrigare	sbrigare	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	velocemente	velocemente	ADV	B	_	17	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	nonostante	nonostante	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+26	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	17	advcl	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	unioni	unioni	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+31	omosessuali	omosessuale	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La cerimonia infatti sarà celebrata da un assessore donna.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	infatti	infatti	ADV	B	_	5	advmod	_	_
+4	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	celebrata	celebrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = "Ci sono situazioni - spiegano i due amici - in cui non avere un legame riconosciuto crea difficoltà, come le degenze in ospedale, ma anche per piccole cose, il pagamento delle bollette, del canone Rai:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	-	-	PUNCT	FF	_	6	punct	_	_
+6	spiegano	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	amici	amico	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+10	-	-	PUNCT	FB	_	9	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	avere	avere	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	legame	legame	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	riconosciuto	riconoscere	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	crea	creo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	difficoltà	difficoltà	NOUN	S	Gender=Fem	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	degenze	degenza	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	31	punct	_	_
+27	ma	ma	CCONJ	CC	_	31	cc	_	_
+28	anche	anche	ADV	B	_	31	advmod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	18	punct	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	bollette	bolletta	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	canone	canone	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+42	Rai	Rai	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 10
+# text = prima che venisse messo in bolletta lo addebitavano a entrambi".
+1	prima	prima	ADV	B	_	4	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	venisse	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	bolletta	bolletta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	addebitavano	addebitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Una scelta di pura convenienza, dunque, che però non scandalizza la "madre" della legge che ha per la prima volta in Italia introdotto le unioni tra persone dello stesso sesso, la senatrice del Pd Monica Cirinnà.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	pura	puro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	convenienza	convenienza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	dunque	dunque	ADV	B	_	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	però	però	ADV	B	_	12	advmod	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	scandalizza	scandalizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	legge	legge	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
+25	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	Italia	Italia	PROPN	SP	_	21	obl	_	_
+28	introdotto	introdurre	ADV	B	_	27	advmod	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	unioni	unione	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+31	tra	tra	ADP	E	_	32	case	_	_
+32	persone	persona	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+33-34	dello	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	senatrice	senatore	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Pd	Pd	PROPN	SP	_	39	nmod	_	_
+43	Monica	Monica	PROPN	SP	_	42	flat:name	_	_
+44	Cirinnà	Cirinnà	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 12
+# text = "Anche una donna si può sposare con un uomo che non ama, per convenienza.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sposare	sposare	VERB	V	VerbForm=Inf	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	convenienza	convenienza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = I matrimoni di comodo si sono sempre fatti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	matrimoni	matrimonio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Se stavolta a unirsi sono due uomini che non sono uniti affettivamente ma lo fanno per convenienza, penso che comunque la legge consenta la libertà ai cittadini di farlo", commenta.
+1	Se	se	SCONJ	CS	_	20	mark	_	_
+2	stavolta	stavolgere	ADV	B	_	8	advmod	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	unirsi	_	_	_	_	_	_	_	_
+4	unir	unire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	uniti	unire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	affettivamente	affettivamente	ADV	B	_	12	advmod	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	convenienza	convenienza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+21	che	che	SCONJ	CS	_	25	mark	_	_
+22	comunque	comunque	ADV	B	_	25	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	legge	legge	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	consenta	consentire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	libertà	libertà	NOUN	S	Gender=Fem	25	obj	_	_
+28-29	ai	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+32	far	fare	VERB	V	VerbForm=Inf	25	ccomp	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	20	punct	_	_
+36	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 15
+# text = Più critico Aurelio Mancuso, presidente di Equality Italia e leader storico della comunità omosessuale italiana:
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	critico	critico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Aurelio	Aurelio	PROPN	SP	_	2	nmod	_	_
+4	Mancuso	Mancuso	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Equality	Equality	PROPN	SP	_	6	nmod	_	_
+9	Italia	Italia	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	leader	leader	NOUN	S	_	6	conj	_	_
+12	storico	storico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	comunità	comunità	NOUN	S	Gender=Fem	11	nmod	_	_
+16	omosessuale	omosessuale	ADJ	A	Number=Sing	15	amod	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 16
+# text = "che due persone eterosessuali dello stesso sesso vogliano fare una unione civile e accedere così anche alla reversibilità delle pensioni, all'eredità e così via, lo trovo legittimo e legale ma dal punto di vista morale è una truffa.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	che	che	SCONJ	CS	_	11	mark	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+5	eterosessuali	eterosessuali	ADJ	A	Number=Plur	4	amod	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+10	vogliano	volere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	unione	unione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	civile	civile	ADJ	A	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	accedere	accedere	VERB	V	VerbForm=Inf	11	conj	_	_
+17	così	così	ADV	B	_	16	advmod	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	reversibilità	reversibilità	NOUN	S	Gender=Fem	28	conj	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	pensioni	pensione	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	eredità	eredità	NOUN	S	Gender=Fem	16	obj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	così	così	ADV	B	_	28	conj	_	_
+31	via	via	ADV	B	_	30	fixed	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	trovo	trovo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+35	legittimo	legittimo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	legale	legale	ADJ	A	Number=Sing	35	conj	_	_
+38	ma	ma	CCONJ	CC	_	47	cc	_	_
+39-40	dal	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	punto	punto	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	vista	vista	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44	morale	morale	ADJ	A	Number=Sing	41	amod	_	_
+45	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	truffa	truffa	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = Non è che si possa utilizzare la norma come si vuole.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+5	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	utilizzare	utilizzare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	norma	norma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	come	come	SCONJ	CS	_	11	mark	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Liberi di farlo, ma dal punto di vista morale credo siano dei furbacchioni che usano le norme a loro uso e consumo.
+1	Liberi	libero	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	far	fare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	13	punct	_	_
+6	ma	ma	CCONJ	CC	_	13	cc	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	vista	vista	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	morale	morale	ADJ	A	Number=Sing	11	amod	_	_
+13	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	furbacchioni	furbacchione	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	norme	norma	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	uso	uso	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 19
+# text = Io, che ho fatto una lunga battaglia per il riconoscimento delle coppie omosessuali, non dirò mai loro: bravi, bravi".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	omosessuali	omosessuale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	dirò	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	mai	mai	ADV	B	_	18	advmod	_	_
+20	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	20	punct	_	_
+22	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = Mancuso avverte:
+1	Mancuso	Mancuso	PROPN	SP	_	2	nsubj	_	_
+2	avverte	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 21
+# text = "forse non si rendono conto che la legge sulle unioni civili prevede diritti ma anche doveri" e conclude "attenzione a non svilire un istituto come qualcosa che passa come privilegio, la legge non è un eldorado per chi vuol fare il furbo".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	forse	forse	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	che	che	SCONJ	CS	_	14	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	legge	legge	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	unioni	unioni	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	civili	civile	ADJ	A	Number=Plur	12	amod	_	_
+14	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+15	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	anche	anche	ADV	B	_	18	advmod	_	_
+18	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	a	a	ADP	E	_	26	mark	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	svilire	svilire	VERB	V	VerbForm=Inf	21	xcomp	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	come	come	ADP	E	_	30	case	_	_
+30	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	28	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	come	come	ADP	E	_	34	case	_	_
+34	privilegio	privilegio	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	5	punct	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	legge	legge	NOUN	S	Gender=Fem|Number=Sing	41	nsubj	_	_
+38	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	eldorado	eldorado	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	chi	chi	PRON	PR	Number=Sing|PronType=Rel	41	nmod	_	_
+44	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	fare	fare	VERB	V	VerbForm=Inf	43	acl:relcl	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	furbo	furbo	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

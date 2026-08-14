@@ -1,0 +1,656 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per ora un'idea, lanciata dall'interessato.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	lanciata	lanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	interessato	interessato	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Che l'ha detta così:
+1	Che	che	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = «Potrei candidarmi al ruolo di presidente federale per il quadriennio successivo ai Giochi di Londra 2012».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	candidarmi	_	_	_	_	_	_	_	_
+3	candidar	candidare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	federale	federale	ADJ	A	Number=Sing	9	amod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quadriennio	quadriennio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+14	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Giochi	gioco	PROPN	SP	_	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Londra	Londra	PROPN	SP	_	17	nmod	_	_
+20	2012	2012	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nino Benvenuti è stato campione olimpico a Roma 1960,campione d'Europa e del mondo ed ora sta pensando di proporsi come successore di Franco Falcinelli al vertice della Federazione pugilistica italiana (Fpi).
+1	Nino	Nino	PROPN	SP	_	5	nsubj	_	_
+2	Benvenuti	benvenuto	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	campione	campione	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	olimpico	olimpico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Roma	Roma	PROPN	SP	_	10	nmod	_	_
+9	1960	1960	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,campione	,campione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	Europa	Europa	PROPN	SP	_	10	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+17	ed	e	CCONJ	CC	_	20	cc	_	_
+18	ora	ora	ADV	B	_	20	advmod	_	_
+19	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	pensando	pensare	VERB	V	VerbForm=Ger	5	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	proporsi	_	_	_	_	_	_	_	_
+22	propor	proporre	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	come	come	ADP	E	_	25	case	_	_
+25	successore	successore	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Franco	Franco	PROPN	SP	_	25	nmod	_	_
+28	Falcinelli	Falcinelli	PROPN	SP	_	27	flat:name	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	vertice	vertice	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Federazione	Federazione	PROPN	SP	_	31	nmod	_	_
+35	pugilistica	pugilistico	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+37	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	Fpi	Fpi	PROPN	SP	_	34	appos	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = «Potrei candidarmi qualora ci fossero le giuste garanzie e convergenze attorno al mio nome - ha spiegato a margine della conferenza stampa a Roma sulla presentazione della Lega Pro Box -.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	candidarmi	_	_	_	_	_	_	_	_
+3	candidar	candidare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	qualora	qualora	SCONJ	CS	_	7	mark	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	giuste	giusto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	garanzie	garanzia	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	convergenze	convergenza	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	attorno	attorno	ADV	B	_	17	case	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	nome	nome	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+18	-	-	PUNCT	FF	_	3	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	margine	margine	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	25	compound	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	Roma	Roma	PROPN	SP	_	25	nmod	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Lega	lega	PROPN	SP	_	31	nmod	_	_
+35	Pro	pro	PROPN	SP	_	34	flat:name	_	_
+36	Box	box	PROPN	SP	_	34	flat:name	_	_
+37	-	-	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il fatto di aver vinto un oro olimpico non significa però che io debba essere un predestinato assoluto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	oro	oro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	olimpico	olimpico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	però	però	ADV	B	_	10	advmod	_	_
+12	che	che	SCONJ	CS	_	18	mark	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	18	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	predestinato	predestinato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	10	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Potrei mettermi in gara per proporre la miei idee e rilanciare uno sport ricco di valori formativi per i giovani».
+1	Potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	mettermi	mettermo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	gara	gara	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	proporre	proporre	VERB	V	VerbForm=Inf	2	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	idee	idea	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	rilanciare	rilanciare	VERB	V	VerbForm=Inf	6	conj	_	_
+12	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sport	sport	NOUN	S	Gender=Masc	11	obj	_	_
+14	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	valori	valore	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17	formativi	formativo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	giovani	giovane	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Sono momenti grami per la boxe.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	grami	gramo	ADJ	A	Number=Plur	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	boxe	boxe	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = L'idea Benvenuti sarebbe un modo per rispolverare ricordi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Benvenuti	benvenuto	PROPN	SP	_	2	nmod	_	_
+4	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	rispolverare	rispolverare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = «La boxe insegna ad esempio quel rispetto per l'avversario che manca in altre discipline, come il calcio - ha quindi aggiunto l'ipotesi di candidato - Per il nostro movimento quello attuale non è un bel momento, siamo fermi al palo.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	boxe	boxe	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	discipline	disciplina	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+21	-	-	PUNCT	FF	_	4	punct	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	quindi	quindi	ADV	B	_	24	advmod	_	_
+24	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	ipotesi	ipotesi	NOUN	S	Gender=Fem	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	-	-	PUNCT	FB	_	28	punct	_	_
+30	Per	per	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+34	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	40	nsubj	_	_
+35	attuale	attuale	ADJ	A	Number=Sing	34	amod	_	_
+36	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+37	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	bel	bello	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	momento	momento	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	24	punct	_	_
+42	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	fermi	fermare	ADJ	A	Gender=Masc|Number=Plur	24	conj	_	_
+44-45	al	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	palo	palo	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ci sono state cose non fatte, non si è data la giusta immagine a questo splendida disciplina che è la più antica del mondo.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+17	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	disciplina	disciplina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	antica	antico	ADJ	A	Gender=Fem|Number=Sing	18	acl:relcl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E questa federazione ha fatto fuori quelli bravi, invece di coinvolgerli».
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	federazione	federazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	fuori	fuori	ADV	B	_	7	advmod	_	_
+7	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	obj	_	_
+8	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	invece	invece	ADV	B	_	12	mark	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12-13	coinvolgerli	_	_	_	_	_	_	_	SpaceAfter=No
+12	coinvolger	coinvolgere	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = In merito all'idea di candidarsi come futuro presidente federale, poi, Benvenuti ha precisato:
+1	In	in	ADP	E	_	2	case	_	_
+2	merito	merito	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	candidarsi	_	_	_	_	_	_	_	_
+7	candidar	candidare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	futuro	futuro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	federale	federale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	poi	poi	ADV	B	_	18	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	Benvenuti	benvenuto	PROPN	SP	_	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	precisato	precisare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 14
+# text = «Nessuno me lo ha ancora chiesto e di questa ipotesi non ho parlato nemmeno col presidente del Coni, Gianni Petrucci.
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	14	cc	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	ipotesi	ipotesi	NOUN	S	Gender=Fem	14	obl	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+15	nemmeno	nemmeno	ADV	BN	PronType=Neg	14	advmod	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Coni	Coni	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	Gianni	Gianni	PROPN	SP	_	18	appos	_	_
+24	Petrucci	Petrucci	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Nel momento in cui dovessi sciogliere questa riserva, però, sarebbe il primo a saperlo.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+6	dovessi	dovesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	sciogliere	sciogliere	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	riserva	riserva	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	però	però	ADV	B	_	15	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	saperlo	_	_	_	_	_	_	_	SpaceAfter=No
+17	saper	sapere	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 16
+# text = Il momento più opportuno sarebbe sicuramente un attimo prima della fine dei Giochi di Londra perchè ci vuole tempo per preparare e proporre un progetto e una squadra seria».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sicuramente	sicuramente	ADV	B	_	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	prima	prima	ADV	B	_	12	case	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Giochi	gioco	PROPN	SP	_	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Londra	Londra	PROPN	SP	_	15	nmod	_	_
+18	perchè	perché	SCONJ	CS	_	20	mark	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+20	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	preparare	preparare	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	proporre	proporre	VERB	V	VerbForm=Inf	23	conj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+31	seria	serio	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	»	»	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = E nelle squadra di Benvenuti potrebbe rientrare Patrizio Oliva.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Benvenuti	Benvenuto	PROPN	SP	_	4	nmod	_	_
+7	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rientrare	rientrare	VERB	V	VerbForm=Inf	0	root	_	_
+9	Patrizio	Patrizio	PROPN	SP	_	8	obj	_	_
+10	Oliva	olivo	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 18
+# text = L'idea potrebbe andare a buon fine perchè Franco Falcinelli, attuale presidente, ha dichiarato di aver deciso di farsi da parte dopo le Olimpiadi 2012.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	buon	buono	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	fine	fine	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	perchè	perché	SCONJ	CS	_	16	mark	_	_
+9	Franco	Franco	PROPN	SP	_	16	nsubj	_	_
+10	Falcinelli	Falcinelli	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	attuale	attuale	ADJ	A	Number=Sing	13	amod	_	_
+13	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+17	di	di	ADP	E	_	19	mark	_	_
+18	aver	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	xcomp	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	farsi	_	_	_	_	_	_	_	_
+21	far	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	parte	parte	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	dopo	dopo	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	Olimpiadi	Olimpiadi	PROPN	SP	_	21	obl	_	_
+28	2012	2012	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = «Alla fine dell'attuale quadriennio olimpico la mia esperienza pluriennale come presidente federale potrà considerarsi conclusa.
+1	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2-3	Alla	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Number=Sing	18	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	attuale	attuale	ADJ	A	Number=Sing	8	amod	_	_
+8	quadriennio	quadriennio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	olimpico	olimpico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+13	pluriennale	pluriennale	ADJ	A	Number=Sing	12	amod	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	federale	federale	ADJ	A	Number=Sing	15	amod	_	_
+17	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	_
+18-19	considerarsi	_	_	_	_	_	_	_	_
+18	considerar	considerare	VERB	V	VerbForm=Inf	0	root	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	conclusa	concludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = Non ho ancora comunicato la mia decisione al Consiglio federale ma, se anche dovessero chiedermi di restare, la mia risposta sarebbe negativa.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	comunicato	comunicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	federale	federale	ADJ	A	Number=Sing	10	amod	_	_
+12	ma	ma	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	26	punct	_	_
+14	se	se	SCONJ	CS	_	17	mark	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17-18	chiedermi	_	_	_	_	_	_	_	_
+17	chieder	chiedere	VERB	V	VerbForm=Inf	26	advcl	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	restare	restare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+25	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	negativa	negativo	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Dopo 12 anni di impegni istituzionali è giusto pensare anche alla famiglia».
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	12	12	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	istituzionali	istituzionale	ADJ	A	Number=Plur	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+9	pensare	pensare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = Benvenuti presidente:idea che piace al presidente del Coni Petrucci?
+1	Benvenuti	benvenuto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:idea	:ideo	ADJ	A	Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Coni	Coni	PROPN	SP	_	8	nmod	_	_
+12	Petrucci	Petrucci	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Risposta:
+1	Risposta	risposta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 24
+# text = «Non voglio entrare nel merito perchè sono sempre stato un grande sostenitore di Benvenuti, ma è chiaro che il suo è un nome affascinante.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	entrare	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	merito	merito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	perchè	perché	SCONJ	CS	_	14	mark	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+10	sempre	sempre	ADV	B	_	14	advmod	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	sostenitore	sostenitore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Benvenuti	Benvenuto	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+21	che	che	SCONJ	CS	_	26	mark	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	suo	suo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	nsubj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nome	nome	NOUN	S	Gender=Masc|Number=Sing	20	csubj	_	_
+27	affascinante	affascinante	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = La federboxe sta comunque andando bene con il presidente Falcinelli e ha fatto grandi progressi».
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	federboxe	federboxe	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	comunque	comunque	ADV	B	_	5	advmod	_	_
+5	andando	andare	VERB	V	VerbForm=Ger	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	Falcinelli	Falcinelli	PROPN	SP	_	9	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+14	grandi	grande	ADJ	A	Number=Plur	15	amod	_	_
+15	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Meneghin e Arese, rispettivamente presidenti di basket e atletica, dicono che gli ex non mollano mai.
+1	Meneghin	Meneghin	PROPN	SP	_	12	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Arese	Arese	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	rispettivamente	rispettivo	ADV	B	_	6	advmod	_	_
+6	presidenti	presidente	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	basket	basket	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	atletica	atletica	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ex	ex	ADJ	A	_	17	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	mollano	mollare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

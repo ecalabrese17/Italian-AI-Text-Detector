@@ -1,0 +1,967 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Proprio i Red Devils hanno deluso ancora, mancando nuovamente l'appuntamento con la vittoria e pareggiando sul campo del modesto Sunderland.
+1	Proprio	proprio	ADV	B	_	6	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Red	Red	PROPN	SP	_	6	nsubj	_	_
+4	Devils	Devils	PROPN	SP	_	3	flat:name	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	deluso	deluso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ancora	ancora	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	mancando	mancare	VERB	V	VerbForm=Ger	6	advcl	_	_
+10	nuovamente	nuovamente	ADV	B	_	9	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	pareggiando	pareggiare	VERB	V	VerbForm=Ger	9	conj	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	campo	campo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	modesto	modesto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	Sunderland	Sunderland	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Infine c'è da segnalare il pari dell' Arsenal in casa dell'Everton e il trio composto da Burnley, QPR e Crystal Palace, che è ancora fermo a 0 punti.
+1	Infine	infine	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	segnalare	segnalare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pari	pari	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Arsenal	Arsenal	PROPN	SP	_	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Everton	Everton	PROPN	SP	_	12	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	trio	trio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+19	composto	comporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	Burnley	Burnley	PROPN	SP	_	19	obl:agent	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	QPR	QPR	PROPN	SP	_	21	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	Crystal	Crystal	PROPN	SP	_	21	conj	_	_
+26	Palace	Palace	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	ancora	ancora	ADV	B	_	31	advmod	_	_
+31	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	25	acl:relcl	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	0	0	NUM	N	NumType=Card	34	nummod	_	_
+34	punti	punto	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Andando nello specifico, la giornata è stata aperta sabato dal pari a reti inviolate tra Aston Villa e Newcastle , con gli ospiti che così hanno messo in cascina il primo punto stagionale al cospetto dei Villans, che invece avevano vinto all'esordio.
+1	Andando	andare	VERB	V	VerbForm=Ger	10	advcl	_	_
+2-3	nello	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	specifico	specifico	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pari	pari	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	reti	rete	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	inviolate	inviolato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18	tra	tra	ADP	E	_	19	case	_	_
+19	Aston	Aston	PROPN	SP	_	17	obl	_	_
+20	Villa	villa	PROPN	SP	_	19	flat:name	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Newcastle	Newcastle	PROPN	SP	_	19	conj	_	_
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	ospiti	ospite	NOUN	S	Number=Plur	19	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	così	così	ADV	B	_	30	advmod	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	cascina	cascina	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	35	amod	_	_
+35	punto	punto	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+36	stagionale	stagionale	ADJ	A	Number=Sing	35	amod	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	cospetto	cospetto	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	Villans	Villans	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+45	invece	invece	ADV	B	_	47	advmod	_	_
+46	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	aux	_	_
+47	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+48-49	all'	_	_	_	_	_	_	_	SpaceAfter=No
+48	a	a	ADP	E	_	50	case	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	_
+50	esordio	esordio	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Partita avara di emozioni e risultato quindi inevitabile.
+1	Partita	partire	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	avara	avara	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+7	quindi	quindi	ADV	B	_	8	advmod	_	_
+8	inevitabile	inevitabile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sembrava avviato ad un incredibile pari a reti bianche anche il match che vedeva di fronte il Chelsea e la matricola Leicester.
+1	Sembrava	sembrare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ad	a	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	incredibile	incredibile	ADJ	A	Number=Sing	2	obl	_	_
+6	pari	pari	ADJ	A	_	5	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	reti	rete	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	match	match	NOUN	S	Gender=Masc	2	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fronte	fronte	NOUN	S	Number=Sing	14	obl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Chelsea	Chelsea	PROPN	SP	_	14	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	matricola	matricola	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	Leicester	Leicester	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = I "Blues" hanno sbloccato il match solo al quarto d'ora della ripresa, grazie al secondo goal in altrettanti match di Diego Costa .
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Blues	Blues	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sbloccato	sbloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	match	match	NOUN	S	Gender=Masc	6	obj	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quarto	quarto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	grazie	grazie	NOUN	S	_	23	case	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	goal	goal	NOUN	S	Gender=Masc	6	obl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	altrettanti	altrettanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	match	match	NOUN	S	Gender=Masc	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Diego	Diego	PROPN	SP	_	26	nmod	_	_
+29	Costa	Costa	PROPN	SP	_	28	flat:name	_	_
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Il 2 a 0 è stato opera di Hazard , che alla mezz'ora ha infilato Schmeichel, figlio del leggendario portiere dello United, con un gran destro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	2	2	NUM	N	NumType=Card	7	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	0	0	NUM	N	NumType=Card	2	nummod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	opera	opera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Hazard	Hazard	PROPN	SP	_	7	nmod	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mezz'	mezzo	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	infilato	infilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+18	Schmeichel	Schmeichel	PROPN	SP	_	17	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	leggendario	leggendario	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25-26	dello	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	United	United	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	7	punct	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	gran	grande	ADJ	A	Number=Sing	32	amod	_	_
+32	destro	destro	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Tra le grandi non hanno steccato gli Spurs , che si sono confermati squadra diversa da quella dell'anno scorso, almeno in questo avvio di annata, sommergendo per 4 a 0 il malcapitato QPR.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	grandi	grande	ADJ	A	Number=Plur	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	steccato	steccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Spurs	Spurs	PROPN	SP	_	6	obj	_	_
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	confermati	confermare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	obl	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	almeno	almeno	ADV	B	_	26	advmod	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	avvio	avvio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	annata	annata	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	13	punct	_	_
+30	sommergendo	sommergere	VERB	V	VerbForm=Ger	13	advcl	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	4	4	NUM	N	NumType=Card	30	nummod	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	0	0	NUM	N	NumType=Card	30	nummod	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	malcapitato	malcapitato	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+37	QPR	QPR	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Nel secondo derby londinese di fila, dopo quello dell'esordio con il West Ham, la squadra che rappresenta la comunità ebraica della City è passata avanti già al 12°, con un goal di Chadli, ottimamente innescato da Adebayor, che ha siglato il 4 a 0 finale.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	derby	derby	NOUN	S	_	30	obl	_	_
+5	londinese	londinese	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	fila	fila	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	dopo	dopo	ADP	E	_	10	case	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	30	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	esordio	esordio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	West	West	PROPN	SP	_	13	nmod	_	_
+17	Ham	Ham	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	comunità	comunità	NOUN	S	Gender=Fem	22	obj	_	_
+25	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	City	City	PROPN	SP	_	24	nmod	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31	avanti	avanti	ADV	B	_	30	advmod	_	_
+32	già	già	ADV	B	_	35	advmod	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	12°	12umero	NOUN	S	Gender=Masc	30	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	30	punct	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	goal	goal	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	Chadli	Chadli	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	39	punct	_	_
+43	ottimamente	ottimo	ADV	B	_	44	advmod	_	_
+44	innescato	innescare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+45	da	da	ADP	E	_	46	case	_	_
+46	Adebayor	Adebayor	PROPN	SP	_	44	obl:agent	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+49	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	siglato	siglare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	4	4	NUM	N	NumType=Card	50	obj	_	_
+53	a	a	ADP	E	_	55	case	_	_
+54	0	0	NUM	N	NumType=Card	55	nummod	_	_
+55	finale	finale	NOUN	S	Gender=Fem|Number=Plur	50	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 10
+# text = In mezzo ci sono stati i goal di Dier e il secondo sigillo di Chadli.
+1	In	in	ADP	E	_	2	case	_	_
+2	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	goal	goal	NOUN	S	Gender=Masc	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Dier	Dier	PROPN	SP	_	7	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	sigillo	sigillo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Chadli	Chadli	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Chi invece, tra i top club, ha steccato, è senza dubbio lo United , fermato sull' 1 a 1 dal Sunderland.
+1	Chi	chi	PRON	PQ	PronType=Int	10	nsubj	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	top	top	ADJ	A	_	7	amod	_	_
+7	club	club	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	steccato	steccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	United	United	PROPN	SP	_	14	nsubj	_	_
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19-20	sull'	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	1	1	NUM	N	NumType=Card	18	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	1	1	NUM	N	NumType=Card	18	obl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Sunderland	Sunderland	PROPN	SP	_	18	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 12
+# text = Tutto si decide nella prima mezz'ora di gara, con i Red Devils che vanno avanti con Mata poco dopo il quarto d'ora e sono raggiunti al 30° dall'ex City Rodwell.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	8	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+7	mezz'	mezzo	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	gara	gara	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Red	red	PROPN	SP	_	3	obl	_	_
+15	Devils	Devils	PROPN	SP	_	14	flat:name	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	avanti	avanti	ADV	B	_	17	advmod	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	Mata	Mata	PROPN	SP	_	17	obl	_	_
+21	poco	poco	ADV	B	_	24	advmod	_	_
+22	dopo	dopo	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	quarto	quarto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+25	d'	di	ADP	E	_	26	case	_	SpaceAfter=No
+26	ora	ora	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	raggiunti	raggiungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	30°	30umero	NOUN	S	Gender=Masc	29	obl	_	_
+33-34	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+33	da	da	ADP	E	_	36	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+35	ex	ex	ADJ	A	_	36	amod	_	_
+36	City	City	PROPN	SP	_	29	obl:agent	_	_
+37	Rodwell	Rodwell	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Non ha fatto bene nemmeno l'Arsenal, che è andato sotto 2 a 0 al Goodison Park, il tutto in 45 minuti.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	nemmeno	nemmeno	ADV	BN	PronType=Neg	3	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Arsenal	Arsenal	PROPN	SP	_	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	sotto	sotto	ADP	E	_	13	case	_	_
+13	2	2	NUM	N	NumType=Card	11	nummod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	0	0	NUM	N	NumType=Card	11	nummod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Goodison	Goodison	PROPN	SP	_	11	obl	_	_
+19	Park	Park	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	45	45	NUM	N	NumType=Card	25	nummod	_	_
+25	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Solo nel finale di match i Gunners hanno trovato la forza per pareggiare, grazie ai goal di Ramsey e, proprio allo scadere, di Giroud.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	finale	finale	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	match	match	NOUN	S	Gender=Masc	4	nmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Gunners	Gunners	PROPN	SP	_	10	nsubj	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	pareggiare	pareggiare	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	grazie	grazie	NOUN	S	_	19	case	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	goal	goal	NOUN	S	Gender=Masc	27	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Ramsey	Ramsey	PROPN	SP	_	19	nmod	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	proprio	proprio	ADV	B	_	27	advmod	_	_
+25-26	allo	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	scadere	scadere	VERB	V	VerbForm=Inf	10	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Giroud	Giroud	PROPN	SP	_	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = La vera sorpresa di queste prime due giornate è senza dubbio lo Swansea , che si ritrova in testa a punteggio pieno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vera	vero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+6	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	8	amod	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Swansea	Swansea	PROPN	SP	_	11	nsubj	_	_
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	ritrova	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	testa	testa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = Dopo aver sbancato l'Old Trafford è arrivata l'affermazione casalinga contro il Burnley.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	sbancato	sbancare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Old	Old	PROPN	SP	_	3	obj	_	_
+6	Trafford	Trafford	PROPN	SP	_	5	flat:name	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	casalinga	casalingo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Burnley	Burnley	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Ai Gallesi è bastato il goal di Dyer al 23° per fare propri i tre punti.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Gallesi	Gallesi	PROPN	SP	_	5	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	bastato	bastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	goal	goal	NOUN	S	Gender=Masc	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Dyer	Dyer	PROPN	SP	_	7	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	23°	23umero	NOUN	S	Gender=Masc	7	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	tre	tre	NUM	N	NumType=Card	18	nummod	_	_
+18	punti	punto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Nei match rimanenti, c'è stata la vittoria esterna del West Ham sul campo del Crystal Palace (su cui ha messo la firma anche l'ex laziale Zarate, autore del goal che al 34° ha sbloccato il match, terminato 1 a 3) e due pareggi, quello a reti bianche tra il Southampton, che ha messo in campo Pellè, e West Bromwich Albion e quello per 1 a 1 tra Hull City (ora a 4 punti) e Stoke City, al primo punto stagionale.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	match	match	NOUN	S	Gender=Masc	10	obl	_	_
+4	rimanenti	rimanenti	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	esterna	esterno	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	West	West	PROPN	SP	_	10	nmod	_	_
+15	Ham	Ham	PROPN	SP	_	14	flat:name	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	campo	campo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Crystal	Crystal	PROPN	SP	_	18	nmod	_	_
+22	Palace	Palace	PROPN	SP	_	21	flat:name	_	_
+23	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+24	su	su	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	firma	firma	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	anche	anche	ADV	B	_	33	advmod	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+32	ex	ex	ADJ	A	_	33	amod	_	_
+33	laziale	laziale	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+34	Zarate	Zarate	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	33	punct	_	_
+36	autore	autore	NOUN	S	Gender=Masc|Number=Sing	27	appos	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	goal	goal	NOUN	S	Gender=Masc	36	nmod	_	_
+40	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+41-42	al	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	34°	34umero	NOUN	S	Gender=Masc	45	obl	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	sbloccato	sbloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	match	match	NOUN	S	Gender=Masc	45	obj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	45	punct	_	_
+49	terminato	terminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+50	1	1	NUM	N	NumType=Card	49	nummod	_	_
+51	a	a	ADP	E	_	52	case	_	_
+52	3	3	NUM	N	NumType=Card	50	fixed	_	SpaceAfter=No
+53	)	)	PUNCT	FB	_	50	punct	_	_
+54	e	e	CCONJ	CC	_	56	cc	_	_
+55	due	due	NUM	N	NumType=Card	56	nummod	_	_
+56	pareggi	pareggio	NOUN	S	Gender=Masc|Number=Plur	49	conj	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	56	punct	_	_
+58	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	56	nmod	_	_
+59	a	a	ADP	E	_	60	case	_	_
+60	reti	rete	NOUN	S	Gender=Fem|Number=Plur	58	nmod	_	_
+61	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	60	amod	_	_
+62	tra	tra	ADP	E	_	64	case	_	_
+63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	Southampton	Southampton	PROPN	SP	_	58	nmod	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	64	punct	_	_
+66	che	che	PRON	PR	PronType=Rel	68	nsubj	_	_
+67	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	aux	_	_
+68	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	acl:relcl	_	_
+69	in	in	ADP	E	_	70	case	_	_
+70	campo	campo	NOUN	S	Gender=Masc|Number=Sing	68	obl	_	_
+71	Pellè	Pellé	PROPN	SP	_	70	nmod	_	SpaceAfter=No
+72	,	,	PUNCT	FF	_	74	punct	_	_
+73	e	e	CCONJ	CC	_	74	cc	_	_
+74	West	West	PROPN	SP	_	45	conj	_	_
+75	Bromwich	Bromwich	PROPN	SP	_	74	flat:name	_	_
+76	Albion	Albion	PROPN	SP	_	74	flat:name	_	_
+77	e	e	CCONJ	CC	_	78	cc	_	_
+78	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	45	conj	_	_
+79	per	per	ADP	E	_	80	case	_	_
+80	1	1	NUM	N	NumType=Card	78	nummod	_	_
+81	a	a	ADP	E	_	82	case	_	_
+82	1	1	NUM	N	NumType=Card	78	nummod	_	_
+83	tra	tra	ADP	E	_	84	case	_	_
+84	Hull	Hull	PROPN	SP	_	78	nmod	_	_
+85	City	City	PROPN	SP	_	84	flat:name	_	_
+86	(	(	PUNCT	FB	_	90	punct	_	SpaceAfter=No
+87	ora	ora	ADV	B	_	90	advmod	_	_
+88	a	a	ADP	E	_	90	case	_	_
+89	4	4	NUM	N	NumType=Card	90	nummod	_	_
+90	punti	punto	NOUN	S	Gender=Masc|Number=Plur	84	conj	_	SpaceAfter=No
+91	)	)	PUNCT	FB	_	90	punct	_	_
+92	e	e	CCONJ	CC	_	93	cc	_	_
+93	Stoke	Stoke	PROPN	SP	_	99	conj	_	_
+94	City	City	PROPN	SP	_	93	flat:name	_	SpaceAfter=No
+95	,	,	PUNCT	FF	_	93	punct	_	_
+96-97	al	_	_	_	_	_	_	_	_
+96	a	a	ADP	E	_	99	case	_	_
+97	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	99	det	_	_
+98	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	99	amod	_	_
+99	punto	punto	NOUN	S	Gender=Masc|Number=Sing	84	conj	_	_
+100	stagionale	stagionale	ADJ	A	Number=Sing	99	amod	_	SpaceAfter=No
+101	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 19
+# text = Risultati seconda giornata:
+1	Risultati	risultare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 20
+# text = Aston Villa-Newcastle 0-0. Chelsea -Leicester 2-0:
+1	Aston	Aston	PROPN	SP	_	0	root	_	_
+2	Villa-Newcastle	Villa-Newcastle	PROPN	SP	_	1	flat:name	_	_
+3	0	0	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	0	0	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+7	Chelsea	Chelsea	PROPN	SP	_	1	nmod	_	_
+8	-Leicester	-Leicester	PROPN	SP	_	7	flat:name	_	_
+9	2	2	NUM	N	NumType=Card	7	flat:name	_	SpaceAfter=No
+10	-0	-0	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 21
+# text = 63' Diego Costa, 77' Hazard.
+1	63'	63o	ADP	E	_	2	case	_	_
+2	Diego	Diego	PROPN	SP	_	0	root	_	_
+3	Costa	Costa	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	77'	77o	ADP	E	_	6	case	_	_
+6	Hazard	Hazard	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Crystal Palace- West Ham 1-3:
+1	Crystal	Crystale	PROPN	SP	_	0	root	_	_
+2	Palace	Palace	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	_
+4	West	West	PROPN	SP	_	1	nmod	_	_
+5	Ham	Ham	PROPN	SP	_	4	flat:name	_	_
+6	1	1	NUM	N	NumType=Card	4	flat:name	_	SpaceAfter=No
+7	-3	-3	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 23
+# text = 34' Zarate (W), 37' Downing (W), 48' Chamakh (C), 62' Cole (W).
+1	34	34	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	_
+3	Zarate	Zarate	PROPN	SP	_	0	root	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	W	W	PROPN	SP	_	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	37	37	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	8	punct	_	_
+10	Downing	Downing	PROPN	SP	_	3	conj	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	W	W	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	48'	48o	ADP	E	_	16	case	_	_
+16	Chamakh	Chamakh	PROPN	SP	_	3	conj	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	C	C	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	62'	62o	ADP	E	_	22	case	_	_
+22	Cole	Cole	PROPN	SP	_	3	conj	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	W	W	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Southampton-Wba 0-0. Swansea -Burnley 1-0: 23' Dyer.
+1	Southampton	Southampton	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Wba	Wba	PROPN	SP	_	1	flat:name	_	_
+4	0	0	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	0	0	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+8	Swansea	Swansea	PROPN	SP	_	15	nmod	_	_
+9	-Burnley	-Burnley	PROPN	SP	_	8	flat:name	_	_
+10	1	1	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	0	0	NUM	N	NumType=Card	10	compound	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	_
+14	23'	23'	NUM	N	NumType=Card	15	nummod	_	_
+15	Dyer	Dyer	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Everton-Arsenal 2-2:
+1	Everton	Everton	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Arsenal	Arsenal	PROPN	SP	_	1	flat:name	_	_
+4	2	2	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	2	2	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = 19' Coleman (E), 45' Naismith (E), 83' Ramsey (A), 90' Giroud (A).
+1	19'	19'	ADP	E	_	2	case	_	_
+2	Coleman	Coleman	PROPN	SP	_	0	root	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	E	E	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	45'	45o	ADP	E	_	8	case	_	_
+8	Naismith	Naismith	PROPN	SP	_	2	nmod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	E	E	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	83'	83o	ADP	E	_	14	case	_	_
+14	Ramsey	Ramsey	PROPN	SP	_	2	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	A	A	PROPN	SP	_	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	90'	90o	ADP	E	_	20	case	_	_
+20	Giroud	Giroud	PROPN	SP	_	2	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	A	A	PROPN	SP	_	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Hull City-Stoke City 1-1:
+1	Hull	Hull	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	City-Stoke	City-Stoke	PROPN	SP	_	0	root	_	_
+3	City	City	PROPN	SP	_	2	flat:name	_	_
+4	1	1	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	1	1	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 28
+# text = 42' Jelavic (H), 84' Shawcross (S).
+1	42	42	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	_
+3	Jelavic	Jelavic	PROPN	SP	_	0	root	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	H	h	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	84'	84o	ADP	E	_	9	case	_	_
+9	Shawcross	Shawcross	PROPN	SP	_	3	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	S	S	PROPN	SP	_	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Tottenham -Qpr 4-0: 12' e 37' Chadli, 30' Dier, 65' Adebayor.
+1	Tottenham	Tottenham	PROPN	SP	_	0	root	_	_
+2	-Qpr	-Qpr	PROPN	SP	_	1	flat:name	_	_
+3	4	4	NUM	N	NumType=Card	1	flat:name	_	SpaceAfter=No
+4	-0	-0	NUM	N	NumType=Card	3	fixed	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+6	12'	12o	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	37'	37o	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	Chadli	Chadli	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	30'	30o	ADP	E	_	12	case	_	_
+12	Dier	Dier	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	65'	65o	ADP	E	_	15	case	_	_
+15	Adebayor	Adebayor	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Sunderland-Manchester United 1-1:
+1	Sunderland-Manchester	Sunderland-Manchester	PROPN	SP	_	0	root	_	_
+2	United	United	PROPN	SP	_	1	flat:name	_	_
+3	1	1	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	1	1	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 31
+# text = 17' Mata (M), 30' Rodwell (S).
+1	17	17	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	_
+3	Mata	Mata	PROPN	SP	_	0	root	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	M	M	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	30'	30o	ADP	E	_	9	case	_	_
+9	Rodwell	Rodwell	PROPN	SP	_	3	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	S	S	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = CLASSIFICA:
+1	CLASSIFICA	classifica	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 33
+# text = Tottenham 6, Chelsea 6, Swansea 6, Arsenal 4, Hull City 4, Aston Villa 4, Manchester City* 3, Liverpool* 3, West Ham 3, Everton 2, Sunderland 2, WBA 2, Manchester United 1, Southampton 1, Stoke City 1, Leicester 1, Newcastle 1, C. Palace 0, Burnley 0, QPR 0. *una gara in meno"
+1	Tottenham	Tottenham	PROPN	SP	_	0	root	_	_
+2	6	6	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Chelsea	Chelsea	PROPN	SP	_	1	conj	_	_
+5	6	6	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Swansea	Swansea	PROPN	SP	_	1	conj	_	_
+8	6	6	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Arsenal	Arsenal	PROPN	SP	_	1	conj	_	_
+11	4	4	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Hull	Hull	PROPN	SP	_	1	conj	_	_
+14	City	City	PROPN	SP	_	13	flat:name	_	_
+15	4	4	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Aston	Aston	PROPN	SP	_	1	conj	_	_
+18	Villa	villa	PROPN	SP	_	17	flat:name	_	_
+19	4	4	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Manchester	Manchester	PROPN	SP	_	1	conj	_	_
+22	City*	City*	PROPN	SP	_	21	flat:name	_	_
+23	3	3	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	Liverpool*	Liverpool*	PROPN	SP	_	1	conj	_	_
+26	3	3	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	West	West	PROPN	SP	_	1	conj	_	_
+29	Ham	Ham	PROPN	SP	_	28	flat:name	_	_
+30	3	3	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	Everton	Everton	PROPN	SP	_	1	conj	_	_
+33	2	2	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	Sunderland	Sunderland	PROPN	SP	_	1	conj	_	_
+36	2	2	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	WBA	WBA	PROPN	SP	_	1	conj	_	_
+39	2	2	NUM	N	NumType=Card	38	nummod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	Manchester	Manchester	PROPN	SP	_	1	conj	_	_
+42	United	United	PROPN	SP	_	41	flat:name	_	_
+43	1	1	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	Southampton	Southampton	PROPN	SP	_	1	conj	_	_
+46	1	1	NUM	N	NumType=Card	45	nummod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	Stoke	Stoke	PROPN	SP	_	1	conj	_	_
+49	City	City	PROPN	SP	_	48	flat:name	_	_
+50	1	1	NUM	N	NumType=Card	48	nummod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	52	punct	_	_
+52	Leicester	Leicester	PROPN	SP	_	1	conj	_	_
+53	1	1	NUM	N	NumType=Card	52	nummod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	55	punct	_	_
+55	Newcastle	Newcastle	PROPN	SP	_	1	conj	_	_
+56	1	1	NUM	N	NumType=Card	55	nummod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	58	punct	_	_
+58	C.	C.	PROPN	SP	_	1	conj	_	_
+59	Palace	Palace	PROPN	SP	_	58	flat:name	_	_
+60	0	0	NUM	N	NumType=Card	58	nummod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	62	punct	_	_
+62	Burnley	Burnley	PROPN	SP	_	1	conj	_	_
+63	0	0	NUM	N	NumType=Card	62	nummod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	65	punct	_	_
+65	QPR	QPR	PROPN	SP	_	1	conj	_	_
+66	0	0	NUM	N	NumType=Card	65	nummod	_	SpaceAfter=No
+67	.	.	PUNCT	FF	_	1	punct	_	_
+68	*una	*uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	gara	gara	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+70	in	in	ADP	E	_	71	case	_	_
+71	meno	meno	ADV	B	_	69	advmod	_	SpaceAfter=No
+72	"	"	PUNCT	FB	_	1	punct	_	SpacesAfter=\n
+

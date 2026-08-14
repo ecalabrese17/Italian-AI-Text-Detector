@@ -1,0 +1,375 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non è solo “la Loren”, la diva assoluta, la regina del cinema mondiale.
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	solo	solo	ADV	B	_	6	advmod	_	_
+4	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Loren	Loren	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	diva	diva	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	regina	regina	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cinema	cinema	NOUN	S	Gender=Masc	14	nmod	_	_
+18	mondiale	mondiale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = È un’icona, un simbolo di resilienza, di talento puro e di una femminilità che ha attraversato decenni e conquiste, sfidando convenzioni e ridefinendo i canoni di bellezza.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	icona	icona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	talento	talento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+12	puro	puro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	femminilità	femminilità	NOUN	S	Gender=Fem	11	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	attraversato	attraversare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	conquiste	conquista	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	sfidando	sfidare	VERB	V	VerbForm=Ger	19	advcl	_	_
+25	convenzioni	convenzione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	ridefinendo	ridefinere	VERB	V	VerbForm=Ger	24	conj	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	canoni	canone	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E ora, a ottant’anni, la sua storia continua a essere raccontata, non solo con parole, ma soprattutto con le immagini, queste ferne silenziose che hanno illuminato le sue prime posizioni davanti alla cinepresa, quasi un’allucinazione di una bellezza che sarebbe poi diventata realtà.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	ora	ora	ADV	B	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	ottant’	ottanta	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	14	mark	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	14	aux:pass	_	_
+14	raccontata	raccontare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	solo	solo	ADV	B	_	19	advmod	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	ma	ma	CCONJ	CC	_	25	cc	_	_
+22	soprattutto	soprattutto	ADV	B	_	25	advmod	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
+28	ferne	ferna	NOUN	S	Gender=Fem|Number=Plur	25	appos	_	_
+29	silenziose	silenzioso	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	illuminato	illuminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+34	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	_
+35	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	36	amod	_	_
+36	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+37	davanti	davanti	ADV	B	_	40	case	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	37	fixed	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	cinepresa	cinepresa	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	36	punct	_	_
+42	quasi	quasi	ADV	B	_	44	advmod	_	_
+43	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	allucinazione	allucinazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	_
+48	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+49	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+50	poi	poi	ADV	B	_	51	advmod	_	_
+51	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	47	acl:relcl	_	_
+52	realtà	realtà	NOUN	S	Gender=Fem	51	xcomp	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Le foto del Luce, l'archivio fotografico dell'Istituto Luce, sono il punto di partenza di questo viaggio.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	S	Gender=Fem	17	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Luce	luce	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	archivio	archivio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+9	fotografico	fotografico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Istituto	Istituto	PROPN	SP	_	8	nmod	_	_
+13	Luce	luce	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 5
+# text = Un viaggio che ci riporta a Napoli, a un’adolescenza difficile, segnata dalla povertà e dalla precarietà.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Napoli	Napoli	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	adolescenza	adolescenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+12	difficile	difficile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	segnata	segnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	povertà	povertà	NOUN	S	Gender=Fem	14	obl:agent	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	precarietà	precarietà	NOUN	S	Gender=Fem	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Le immagini mostrano una ragazza minuta, occhi intensi, un sorriso timido che nasconde già la forza di una natura selvaggia.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	minuta	minuto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9	intensi	intenso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	timido	timido	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	già	già	ADV	B	_	15	advmod	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	forza	forza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	natura	natura	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	selvaggia	selvaggio	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Sofia Caracciolo, questo era il suo vero nome, è appena uscita dall’Istituto Magistrale, non inseguendo un destino che la famiglia le aveva già tracciato.
+1	Sofia	Sofia	PROPN	SP	_	13	nsubj	_	_
+2	Caracciolo	Caracciolo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	nome	nome	NOUN	S	Gender=Masc|Number=Sing	1	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	appena	appena	ADV	B	_	13	advmod	_	_
+13	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	Magistrale	Magistrale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	inseguendo	inseguire	VERB	V	VerbForm=Ger	13	advcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	destino	destino	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+26	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+27	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+28	già	già	ADV	B	_	29	advmod	_	_
+29	tracciato	tracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = La fotografia la ritrae in un’epoca di speranze e incertezze, mentre cerca un impiego, un modo per sbarcare il lunario.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ritrae	ritrae	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	speranze	speranze	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	incertezze	incertezza	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+14	cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	xcomp	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	sbarcare	sbarcare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	lunario	lunario	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Non è stata una scelta dettata dall'ambizione, almeno non all'inizio.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	dettata	dettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	almeno	almeno	ADV	B	_	15	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Era il desiderio di uscire da quell’ambiente soffocante, di trovare una via, un’opportunità.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7-8	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	qui	qui	ADV	B	_	5	advmod	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	soffocante	soffocante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	5	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	via	via	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	opportunità	opportunità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = E l'incontro con Dino Buzzati, che la spinse a partecipare a un concorso di bellezza, fu una svolta.
+1	E	e	CCONJ	CC	_	21	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	Dino	dino	PROPN	SP	_	3	nmod	_	_
+6	Buzzati	Buzzato	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	spinse	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	partecipare	partecipare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 12
+# text = Da lì, la consacrazione.
+1	Da	da	ADP	E	_	2	case	_	_
+2	lì	lì	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	consacrazione	consacrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = “Miss Europa 1950,” un titolo che le aprì le porte del mondo.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Miss	Miss	PROPN	SP	_	0	root	_	_
+3	Europa	Europa	PROPN	SP	_	2	flat:name	_	_
+4	1950	1950	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	aprì	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	porte	porta	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ma Napoli, quella città che le è sempre rimasta nel cuore
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	Napoli	Napoli	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	città	città	NOUN	S	Gender=Fem	2	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpacesAfter=\n
+

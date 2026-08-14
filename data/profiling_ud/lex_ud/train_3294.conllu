@@ -1,0 +1,373 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No, noi vediamo in Pinocchio qualcosa di più profondo, qualcosa di legato al nostro stesso concetto di realtà e di valori.
+1	No	no	INTJ	I	Polarity=Neg	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Pinocchio	Pinocchio	PROPN	SP	_	7	nmod	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	legato	legare	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	19	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	realtà	realtà	NOUN	S	Gender=Fem	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	valori	valore	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = In Toscana, siamo abituati a guardare le cose con occhio pratico, magari un po’ cinico, ma sempre con la bussola puntata sulla sostanza.
+1	In	in	ADP	E	_	2	case	_	_
+2	Toscana	Toscana	PROPN	SP	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	abituati	abituare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	guardare	guardare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	pratico	pratico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	magari	magari	ADV	B	_	17	advmod	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	po’	poco	ADV	B	_	17	advmod	_	_
+17	cinico	cinico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	ma	ma	CCONJ	CC	_	23	cc	_	_
+20	sempre	sempre	ADV	B	_	23	advmod	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	bussola	bussola	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+24	puntata	puntare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Pinocchio, in fondo, è un povero ciarlatano, un inventore di storie per ottenere ciò che vuole.
+1	Pinocchio	Pinocchio	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	povero	povero	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	ciarlatano	ciarlatano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	inventore	inventore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	storie	storia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	ottenere	ottenere	VERB	V	VerbForm=Inf	12	acl	_	_
+17	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Non è un eroe romantico, né un esempio di virtù cardinali.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	romantico	romantico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	né	né	CCONJ	CC	_	9	cc	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	virtù	virtù	NOUN	S	Gender=Fem	9	nmod	_	_
+12	cardinali	cardinale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = È semplicemente un ragazzino che cerca, forse inconsciamente, il riconoscimento, la certezza di sé, quella sensazione di essere importante.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	semplicemente	semplicemente	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ragazzino	ragazzino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	forse	forse	ADV	B	_	6	advmod	_	_
+9	inconsciamente	inconsciamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+21	di	di	ADP	E	_	23	mark	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	23	cop	_	_
+23	importante	importante	ADJ	A	Number=Sing	20	acl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E lo fa ricorrendo al fiero strumento della menzogna, una pratica, diciamolo, non del tutto estranea al mondo del potere e della politica.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ricorrendo	ricorrere	VERB	V	VerbForm=Ger	3	advcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	fiero	fiero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	menzogna	menzogna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16-17	diciamolo	_	_	_	_	_	_	_	SpaceAfter=No
+16	diciamo	dire	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	_
+23	estranea	estraneo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	potere	potere	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	politica	politica	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Non è casuale, quindi, che la sua trasformazione in legno ci parli di una meritocrazia severa.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	casuale	casuale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	quindi	quindi	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	che	che	SCONJ	CS	_	14	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	legno	legno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+14-15	parli	_	_	_	_	_	_	_	_
+14	par	parre	VERB	V	VerbForm=Inf	3	advcl	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	expl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	meritocrazia	meritocrazia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	severa	severo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = La menzogna lo porta alla perdita della sua forma umana, alla sua immobilità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	menzogna	menzogna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	umana	umano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	immobilità	immobilità	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = La realtà, in Toscana, è come un bosco possente:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Toscana	Toscana	PROPN	SP	_	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	possente	possente	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 10
+# text = non si nasconde dietro le parole, non si piega alle illusioni.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dietro	dietro	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	piega	piegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Se inganni, se dici bugie, la terra ti reclama, ti riporta alla sua essenza, silenziosa e granitica.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	inganni	inganno	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	dici	dici	NUM	N	NumType=Card	6	nummod	_	_
+6	bugie	bugia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terra	terra	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	reclama	reclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+14	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	silenziosa	silenzioso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	granitica	granitico	ADJ	A	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Il padre Geppetto, figura paterna esemplare, è l'antitesi di Pinocchio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	Geppetto	Geppetto	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	figura	figura	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+6	paterna	paterno	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	esemplare	esemplare	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	antitesi	antitesi	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Pinocchio	Pinocchio	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Non è un uomo ricco o potente, ma laborioso, onesto e radicato nella propria terra.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	potente	potente	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	laborioso	laborioso	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	onesto	onedere	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	radicato	radicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	terra	terra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Cerca solo di dare al figlio una possibilità, un futuro.
+1	Cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	dare	dare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	possibilità	possibilità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Il suo affetto, forse ingenuo, il suo desiderio di educare Pinocchio al bene, sono una testimonianza di quella fiducia nel lavoro e nella
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	forse	forse	ADV	B	_	6	advmod	_	_
+6	ingenuo	ingenuo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	educare	educare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	Pinocchio	Pinocchio	PROPN	SP	_	12	obj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bene	bene	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28-29	nella	_	_	_	_	_	_	_	SpacesAfter=\n
+28	in	in	ADP	E	_	29	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	conj	_	_
+

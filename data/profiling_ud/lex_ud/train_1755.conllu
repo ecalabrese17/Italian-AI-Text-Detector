@@ -1,0 +1,545 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutte espressioni più che azzeccate per il caso che ha avuto come teatro proprio la Grande Mela.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	2	det	_	_
+2	espressioni	espressione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	più	più	ADV	B	_	5	mark	_	_
+4	che	che	SCONJ	CS	_	3	fixed	_	_
+5	azzeccate	azzeccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	proprio	proprio	ADV	B	_	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Grande	grande	PROPN	SP	_	11	obj	_	_
+17	Mela	mela	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Alexa Gonzalez, una studentessa di 12 anni di una scuola del Queens, è stata arrestata per aver scritto sul banco di scuola con un pennarello.
+1	Alexa	Alexa	PROPN	SP	_	18	nsubj:pass	_	_
+2	Gonzalez	Gonzalez	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	studentessa	studente	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	12	12	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Queens	Queens	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	arrestata	arrestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	per	per	ADP	E	_	21	mark	_	_
+20	aver	avere	AUX	VA	VerbForm=Inf	21	aux	_	_
+21	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	banco	banco	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pennarello	pennarello	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = Nessuna frase razzista, né minacce integraliste, nemmeno parolacce.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	razzista	razzista	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	né	né	CCONJ	CC	_	6	cc	_	_
+6	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	integraliste	integralista	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	nemmeno	nemmeno	ADV	BN	PronType=Neg	10	advmod	_	_
+10	parolacce	parolaccia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Alexa aveva solo scritto:
+1	Alexa	Alexa	PROPN	SP	_	4	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = «Voglio bene ai miei amici Abby e Faith.
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	bene	bene	ADV	B	_	7	advmod	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	Abby	Abby	PROPN	SP	_	7	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Faith	Faith	PROPN	SP	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Lex 2/1/10».
+1	Lex	Lex	ADP	E	_	2	case	_	_
+2	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	1	1	NUM	N	NumType=Card	2	compound	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	10	10	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Addirittura un messaggio d'affetto.
+1	Addirittura	addirittura	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Eppure la ragazza è stata portata via in manette come una criminale.
+1	Eppure	eppure	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	via	via	ADV	B	_	6	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	manette	manette	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	criminale	criminale	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Tutto è successo mentre era in corso la lezione di spagnolo e gli alunni aspettavano che la professoressa riconsegnasse i compiti.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	mentre	mentre	SCONJ	CS	_	7	mark	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	spagnolo	spagnolo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	alunni	alunno	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	riconsegnasse	riconsegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Quando l'insegnante è passata davanti alla fila di Alexa, si è accorta che la bambina stava scrivendo sul banco.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+6	davanti	davanti	ADV	B	_	9	case	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fila	fila	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Alexa	Alexa	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	accorta	accorgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	che	che	SCONJ	CS	_	20	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	scrivendo	scrivere	VERB	V	VerbForm=Ger	15	ccomp	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	banco	banco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Punizione esemplare.
+1	Punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	esemplare	esemplare	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = È stato chiamato il preside, è arrivata la polizia.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	preside	preside	NOUN	S	Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = In un batter d'occhio Alexa è stata ammanettata.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	batter	batter	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	Alexa	Alexa	PROPN	SP	_	5	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	ammanettata	esammanetere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 14
+# text = «Non potevo crederci, mi hanno messo le manette ai polsi».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	crederci	_	_	_	_	_	_	_	SpaceAfter=No
+4	creder	credere	VERB	V	VerbForm=Inf	0	root	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	manette	manette	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	polsi	polso	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Gli agenti l'hanno trascinata fuori dalla scuola davanti agli amici e ai professori.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	agenti	agente	NOUN	S	Number=Plur	5	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trascinata	trascinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	fuori	fuori	ADV	B	_	9	case	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	davanti	davanti	ADV	B	_	13	case	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	professori	professore	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = «Non mi meritavo questo, le scritte potevano essere facilmente cancellate», ha raccontato Alexa.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	meritavo	meritare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	scritte	scritta	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+9	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+11	facilmente	facilmente	ADV	B	_	12	advmod	_	_
+12	cancellate	cancellare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+17	Alexa	Alexa	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Poi tre ore nel distretto di polizia.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	distretto	distretto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Fino a quando la madre non è venuta a riportarla a casa.
+1	Fino	fino	ADV	B	_	8	mark	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	quando	quando	SCONJ	CS	_	1	fixed	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	riportarla	_	_	_	_	_	_	_	_
+10	riportar	riportare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = Maraima Carncacho, 49 anni, una contabile, è rimasta traumatizzata quasi quanto la figlia per la reazione della scuola e dei poliziotti.
+1	Maraima	Maraima	PROPN	SP	_	11	nsubj	_	_
+2	Carncacho	Carncacho	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	49	49	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	contabile	contabila	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	traumatizzata	traumatizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+13	quasi	quasi	ADV	B	_	16	advmod	_	_
+14	quanto	quanto	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 20
+# text = «Tutta questa situazione è stata come un incubo.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = Ho visto la mia bambina in lacrime, vomitare per la paura».
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	vomitare	vomitare	VERB	V	VerbForm=Inf	2	parataxis	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	paura	paura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Alexa è stata sospesa dalla scuola, la Junior High School di Forest Hills.
+1	Alexa	Alexa	PROPN	SP	_	4	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	sospesa	sospendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Junior	junior	PROPN	SP	_	4	nsubj:pass	_	_
+11	High	High	PROPN	SP	_	10	flat:name	_	_
+12	School	School	PROPN	SP	_	10	flat:name	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Forest	Forest	PROPN	SP	_	10	nmod	_	_
+15	Hills	Hills	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Ma in classe non ci tornerebbe neanche se potesse.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	classe	classe	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	tornerebbe	tornare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	neanche	neanche	ADV	BN	PronType=Neg	6	advmod	_	_
+8	se	se	SCONJ	CS	_	9	mark	_	_
+9	potesse	potere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = La sua punizione, ammettono adesso i funzionari del comune, è stata eccessiva.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ammettono	ammettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	adesso	adesso	ADV	B	_	5	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	funzionari	funzionario	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comune	comune	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+15	eccessiva	eccessivo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = E il suo arresto un errore.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	errore	errore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = «Stiamo cercando di ricostruire i fatti», ha detto David Cantor, portavoce del dipartimento di Istruzione di New York.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	ricostruire	ricostruire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+12	David	David	PROPN	SP	_	11	nsubj	_	_
+13	Cantor	Cantor	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	portavoce	portavoce	NOUN	S	_	12	appos	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	New	New	PROPN	SP	_	18	nmod	_	_
+23	York	York	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = «Basandoci su quello che abbiamo raccolto finora, l'arresto della bambina è stato chiaramente un errore».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2-3	Basandoci	_	_	_	_	_	_	_	_
+2	Basando	basare	VERB	V	VerbForm=Ger	20	advcl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	finora	finora	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+18	chiaramente	chiaro	ADV	B	_	20	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 28
+# text = «Anche se ci viene richiesto di effettuare un arresto, il buon senso deve prevalere in ogni situazione, e bisogna valutare se una punizione del genere sia davvero necessaria», ha detto Paul Browne, un portavoce della polizia.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	6	mark	_	_
+3	se	se	SCONJ	CS	_	2	fixed	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	effettuare	effettuare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	buon	buono	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	senso	senso	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	prevalere	prevalere	VERB	V	VerbForm=Inf	0	root	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	valutare	valutare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	se	se	SCONJ	CS	_	32	mark	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	punizione	punizione	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	genere	genere	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	davvero	davvero	ADV	B	_	32	advmod	_	_
+32	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	23	ccomp	_	SpaceAfter=No
+33	»	»	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	16	punct	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	parataxis	_	_
+37	Paul	Paul	PROPN	SP	_	36	nsubj	_	_
+38	Browne	Browne	PROPN	SP	_	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	37	punct	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	portavoce	portavoce	NOUN	S	Gender=Masc|Number=Sing	37	appos	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

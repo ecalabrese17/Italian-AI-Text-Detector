@@ -1,0 +1,388 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono numeri che vanno e vengono e quindi non dovrebbero preoccupare più di tanto.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	quindi	quindi	ADV	B	_	11	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	preoccupare	preoccuparire	VERB	V	VerbForm=Inf	6	conj	_	_
+12	più	più	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	tanto	tanto	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tant’è che proprio il centro studi Promotor, guidato da Gian Primo Quagliano, si è affrettato a precisare che «sul risultato negativo del mercato europeo pesa il fatto che in molti paesi le giornate lavorate nel mese sono state una o due in meno rispetto a marzo 2017».
+1	Tant’	Tanta	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	18	mark	_	_
+4	proprio	proprio	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	centro	centro	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+7	studi	studio	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	_
+8	Promotor	Promotor	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Gian	Gian	PROPN	SP	_	10	obl:agent	_	_
+13	Primo	primo	PROPN	SP	_	12	flat:name	_	_
+14	Quagliano	Quagliano	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	affrettato	affrettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	precisare	precisare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	che	che	SCONJ	CS	_	31	mark	_	_
+22	«	«	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+26	negativo	negativo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	pesa	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+34	che	che	SCONJ	CS	_	45	mark	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	37	det	_	_
+37	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	lavorate	lavorare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	39	acl	_	_
+41-42	nel	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	mese	mese	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+44	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	state	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	ccomp	_	_
+46	una	uno	NUM	N	NumType=Card	45	nummod	_	_
+47	o	o	CCONJ	CC	_	48	cc	_	_
+48	due	due	NUM	N	NumType=Card	46	conj	_	_
+49	in	in	ADP	E	_	50	case	_	_
+50	meno	meno	ADV	B	_	48	advmod	_	_
+51	rispetto	rispetto	ADV	B	_	53	case	_	_
+52	a	a	ADP	E	_	51	fixed	_	_
+53	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+54	2017	2017	NUM	N	NumType=Card	53	nummod	_	SpaceAfter=No
+55	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Dunque, è proprio vero, allora, che sono numeri che vanno e vengono.
+1	Dunque	dunque	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	proprio	proprio	ADV	B	_	5	advmod	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	allora	allora	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	numeri	numero	ADJ	A	Gender=Masc|Number=Plur	5	acl:relcl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non proprio.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	proprio	proprio	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Quasi vero perché ancora secondo Quagliano «la demonizzazione del diesel potrebbe cominciare a indurre i moltissimi automobilisti che posseggono un modello a gasolio pronto per la sostituzione a rinviare l'acquisto della nuova auto.
+1	Quasi	quasi	ADV	B	_	2	advmod	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	perché	perché	SCONJ	CS	_	14	mark	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	secondo	secondo	ADP	E	_	6	case	_	_
+6	Quagliano	Quagliano	PROPN	SP	_	14	obl	_	_
+7	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	demonizzazione	demonizzazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	diesel	diesel	NOUN	S	Gender=Masc	9	nmod	_	_
+13	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	cominciare	cominciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	indurre	indurre	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	moltissimi	molto	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	19	amod	_	_
+19	automobilisti	automobilista	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	posseggono	possedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	modello	modello	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	gasolio	gasolio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	sostituzione	sostituzione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	rinviare	rinviare	VERB	V	VerbForm=Inf	29	acl	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+37	auto	auto	NOUN	S	Gender=Fem	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E se questa ipotesi trovasse conferma dovremmo rivedere tutte le previsioni sulle immatricolazioni in Europa per il 2018».
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ipotesi	ipotesi	NOUN	S	Gender=Fem	5	nsubj	_	_
+5	trovasse	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+6	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rivedere	rivedere	VERB	V	VerbForm=Inf	0	root	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	immatricolazioni	immatricolazione	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Europa	Europa	PROPN	SP	_	14	nmod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2018	2018	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Demonizzazione o meno i dati, parlano chiaro e indicano che l’addio al diesel è iniziato.
+1	Demonizzazione	Demonizzazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+2	o	o	CCONJ	CC	_	5	cc	_	_
+3	meno	meno	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	dati	dato	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	che	che	SCONJ	CS	_	18	mark	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	addio	addio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	diesel	diesel	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = In Germania, nel primo trimestre le immatricolazioni sono diminuite del 21% a vantaggio soprattutto delle versioni a benzina che però non sono certo riuscite a recuperare la perdita.
+1	In	in	ADP	E	_	2	case	_	_
+2	Germania	Germania	PROPN	SP	_	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	trimestre	trimestre	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	immatricolazioni	immatricolazione	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	diminuite	diminuire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	21	21	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	11	obl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18	soprattutto	soprattutto	ADV	B	_	21	advmod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	versioni	versione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+25	però	però	ADV	B	_	29	advmod	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	certo	certo	ADV	B	_	29	advmod	_	_
+29	riuscite	riuscire	ADJ	A	Gender=Fem|Number=Plur	21	acl:relcl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	recuperare	recuperare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Arrivano le prime lamentela dei concessionari: secondo uno studio del German Automobile Trust (DAT), l'87 per cento dei rivenditori sta facendo forti sconti sulle diesel di seconda mano e ben il 22 per cento dei concessionari non accetta più auto usate diesel.
+1	Arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	advcl	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	lamentela	lamentelare	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	concessionari	concessionario	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+9	secondo	secondo	ADP	E	_	11	case	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	studio	studio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	German	German	PROPN	SP	_	11	nmod	_	_
+15	Automobile	automobile	ADJ	A	Number=Sing	14	amod	_	_
+16	Trust	Trust	PROPN	SP	_	14	flat:name	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	DAT	DAT	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	87	87	NUM	N	NumType=Card	29	nsubj	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	cento	cento	NUM	N	NumType=Card	22	nummod	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	rivenditori	rivenditore	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+28	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+30	forti	forte	ADJ	A	Number=Plur	31	amod	_	_
+31	sconti	sconto	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32-33	sulle	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	diesel	diesel	NOUN	S	_	31	nmod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	37	amod	_	_
+37	mano	mano	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	e	e	CCONJ	CC	_	48	cc	_	_
+39	ben	bene	ADV	B	_	48	advmod	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	22	22	NUM	N	NumType=Card	48	nsubj	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	cento	cento	NUM	N	NumType=Card	41	nummod	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	concessionari	concessionario	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+47	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+48	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+49	più	più	ADV	B	_	50	advmod	_	_
+50	auto	auto	ADJ	A	_	52	amod	_	_
+51	usate	usare	ADJ	A	Gender=Fem|Number=Plur	52	amod	_	_
+52	diesel	diesel	NOUN	S	_	48	obj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 10
+# text = In Gran Bretagna il crollo è arrivato addirittura al 33 per cento.
+1	In	in	ADP	E	_	2	case	_	_
+2	Gran	Gran	PROPN	SP	_	7	obl	_	_
+3	Bretagna	Bretagna	PROPN	SP	_	2	flat:name	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	addirittura	addirittura	ADV	B	_	11	advmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	33	33	NUM	N	NumType=Card	7	nummod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	cento	cento	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Persino dall’Italia da sempre al vertice della percentuale di diffusione di questa motorizzazione arrivano segnali di arretramento (-9%).
+1	Persino	persino	ADV	B	_	18	advmod	_	_
+2-3	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+2	da	da	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	Italia	Italia	PROPN	SP	_	1	obl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	sempre	sempre	ADV	B	_	9	advmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vertice	vertice	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	motorizzazione	motorizzazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	arretramento	arretramento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+24	9	9	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	SYM	_	19	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Insomma, l’unica certezza è che l’imputato numero uno del crollo delle vendite sta diventando proprio il diesel.
+1	Insomma	insomma	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	unica	unico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	19	mark	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	imputato	imputato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	numero	numero	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	vendite	vendita	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	diventando	diventare	VERB	V	VerbForm=Ger	6	ccomp	_	_
+20	proprio	proprio	ADV	B	_	19	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	diesel	diesel	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Ma forse qualcuno avrebbe pure potuto prevederlo…
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	forse	forse	ADV	B	_	6	advmod	_	_
+3	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	pure	pure	ADV	B	_	6	advmod	_	_
+6	potuto	potere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	prevederlo…	prevederlo…	PUNCT	FF	_	6	punct	_	SpacesAfter=\n
+

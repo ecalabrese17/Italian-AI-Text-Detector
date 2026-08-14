@@ -1,0 +1,317 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma certo che non ho paura!
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	certo	certo	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = - dice, pure un po' scocciata -.
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	pure	pure	ADV	B	_	2	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	ADV	B	_	7	advmod	_	_
+7	scocciata	scocciato	ADJ	A	Gender=Fem|Number=Sing	2	nsubj	_	_
+8	-	-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ero lì due giorni fa e continuo a dirlo:
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	lì	lì	ADV	B	_	3	advmod	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	fa	fa	ADV	B	_	4	advmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	continuo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+9	dir	dire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = andate in Tunisia.
+1	andate	andare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Tunisia	Tunisia	PROPN	SP	_	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = So bene che questi terroristi sono tunisini:
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	terroristi	terrorista	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	tunisini	tunisino	ADJ	A	Number=Plur	1	ccomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = anche nella mia famiglia si racconta di quel figlio d'amici che è partito per la Siria, di quell'altro che sembrava tanto carino e invece... ".
+1	anche	anche	ADV	B	_	5	advmod	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	amici	amico	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Siria	Siria	PROPN	SP	_	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	quell'	quello	DET	DD	Number=Sing|PronType=Dem	22	det	_	SpaceAfter=No
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	tanto	tanto	ADV	B	_	26	advmod	_	_
+26	carino	carino	NOUN	S	Gender=Masc|Number=Sing	24	xcomp	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	invece...	invece...	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+29	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Un'opionione lucida, consapevole dei rischi che la Tunisia corre, ma pure convinta che abbandonare il Paese, che sta provando a far funzionare i meccanismi emersi dalla Primavera araba, forse l'unica di successo, non sia il modo migliore per reagire al terrorismo e alle minacce dell'Isis.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opionione	opionione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	consapevole	consapevole	ADJ	A	Number=Sing	3	conj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Tunisia	Tunisia	PROPN	SP	_	12	nsubj	_	_
+12	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	pure	pure	ADV	B	_	16	advmod	_	_
+16	convinta	convinto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	che	che	SCONJ	CS	_	18	mark	_	_
+18	abbandonare	abbandonare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	provando	provare	VERB	V	VerbForm=Ger	20	acl:relcl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	far	fare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	funzionare	funzionare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	meccanismi	meccanismo	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	emersi	emergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	araba	arabo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	2	punct	_	_
+36	forse	forse	ADV	B	_	45	advmod	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+38	unica	unico	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	successo	successo	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	38	punct	_	_
+42	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+43	sia	sia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+46	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	45	amod	_	_
+47	per	per	ADP	E	_	48	mark	_	_
+48	reagire	reagire	VERB	V	VerbForm=Inf	45	acl	_	_
+49-50	al	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+52	e	e	CCONJ	CC	_	55	cc	_	_
+53-54	alle	_	_	_	_	_	_	_	_
+53	a	a	ADP	E	_	55	case	_	_
+54	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+55	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	51	conj	_	_
+56-57	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+56	di	di	ADP	E	_	58	case	_	_
+57	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	58	det	_	_
+58	Isis	Isis	PROPN	SP	_	55	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Lo dice pure lei.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pure	pure	ADV	B	_	2	advmod	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il pericolo di una radicalizzazione esiste.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	radicalizzazione	radicalizzazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	esiste	esista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Sono circa tremila i giovani che hanno lasciato la Tunisia per imbracciare un kalashnikov in Siria, accanto ai gruppi jihadisti impegnati su uno dei molti fronti aperti dalla lunga guerra civile in atto da anni.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	circa	circa	ADV	B	_	3	advmod	_	_
+3	tremila	tremila	NUM	N	NumType=Card	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	giovani	giovane	NOUN	S	Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Tunisia	Tunisia	PROPN	SP	_	8	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	imbracciare	imbracciare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	kalashnikov	kalashnikov	NOUN	S	Gender=Masc	12	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Siria	Siria	PROPN	SP	_	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	accanto	accanto	ADV	B	_	21	case	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+22	jihadisti	jihadista	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	impegnati	impegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+24	su	su	ADP	E	_	25	case	_	_
+25	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+30	aperti	aperto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	34	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+35	civile	civile	ADJ	A	Number=Sing	34	amod	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	atto	atto	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	anni	anno	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ma l'opinione della Jnifen è che si rischi di confondere colpevoli e vittime.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Jnifen	Jnifen	PROPN	SP	_	3	nmod	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	rischi	rischiare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	confondere	confondere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	colpevoli	colpevole	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = " Quando mi dicono 'eh, però questi islamici...', ormai cambio discorso: che c'entra l'islam, con musulmani che ammazzano altri musulmani?
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	Quando	quando	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	eh	eh	INTJ	I	_	13	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	però	però	ADV	B	_	13	advmod	_	_
+9	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	13	nsubj	_	_
+10	islamici...'	islamici...o	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	ormai	ormai	ADV	B	_	13	advmod	_	_
+13	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+14	discorso	discorso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+18	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	islam	islam	NOUN	S	Gender=Masc	18	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	musulmani	musulmano	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	ammazzano	ammazzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	altri	altro	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+27	musulmani	musulmano	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Essebsi faccia leggi speciali, metta la pena di morte - aggiunge con rabbia evidente -.
+1	Essebsi	Essebsi	PROPN	SP	_	2	nsubj	_	_
+2	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	speciali	speciale	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	metta	mettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pena	pena	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	-	-	PUNCT	FF	_	6	punct	_	_
+12	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	evidente	evidente	ADJ	A	Number=Sing	14	amod	_	_
+16	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Va benissimo:
+1	Va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	benissimo	bene	ADV	B	Degree=Abs	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = questi fanatici li devi togliere dalla faccia della terra ".
+1	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	fanatici	fanatico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+4	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	togliere	togliere	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,632 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il governatore siciliano Rosario Crocetta non è per nulla sorpreso degli scarsi incassi da ticket sanitario nell'Isola.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governatore	governatore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	siciliano	siciliano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	Rosario	rosario	PROPN	SP	_	2	nmod	_	_
+5	Crocetta	Crocetta	PROPN	SP	_	4	flat:name	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+10	sorpreso	sorpreso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13-14	scarsi	_	_	_	_	_	_	_	_
+13	scar	scar	NOUN	S	Gender=Masc	9	nmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	incassi	incassare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	ticket	ticket	NOUN	S	Gender=Masc	15	obl	_	_
+18	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19-20	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	in	in	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	Isola	isola	PROPN	SP	_	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Non pensa che quello siciliano sia un dato anomalo?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+5	siciliano	siciliare	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dato	dato	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+9	anomalo	anomalo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Che ci sia chi cerca di non pagare facendo il furbo?
+1	Che	che	SCONJ	CS	_	0	root	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+5	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	pagare	pagare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	facendo	fare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	furbo	furbo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = "Noi gli evasori, chi cerca di non rispettare le regole, li stiamo stanando.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	evasori	evasore	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	chi	chi	PRON	PR	PronType=Rel	16	nsubj	_	_
+7	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	rispettare	rispettare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	regole	regola	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+15	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	stanando	stanare	VERB	V	VerbForm=Ger	2	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Basta pensare al caso dei disabili gravi:
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	disabili	disabile	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	gravi	grave	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = prima dei controlli ne risultavano 3.600 e adesso, dopo le nostre verifiche, sono scesi a 2.400.
+1	prima	prima	ADV	B	_	4	case	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	risultavano	risultare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	3.600	3.600	NUM	N	NumType=Card	17	nummod	_	_
+8	e	e	CCONJ	CC	_	17	cc	_	_
+9	adesso	adesso	ADV	B	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dopo	dopo	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	verifiche	verifica	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	2.400	2.400	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Il tema delle esenzioni facili per legge 104, per disabilità o per malattie è inoltre un fenomeno che purtroppo riguarda tutto il Mezzogiorno.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tema	tema	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	esenzioni	esenzione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	facili	facile	ADJ	A	Number=Plur	5	amod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	104	104	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	disabilità	disabilità	NOUN	S	Gender=Fem	19	obl	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	inoltre	inoltre	ADV	B	_	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	purtroppo	purtroppo	ADV	B	_	22	advmod	_	_
+22	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	25	det:predet	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Mezzogiorno	Mezzogiorno	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 8
+# text = Ma i numeri bassi del ticket sono dovuti a ben altro".
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+4	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ticket	ticket	NOUN	S	Gender=Masc	3	nmod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	dovuti	dovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	ben	bene	ADV	B	_	12	advmod	_	_
+12	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Perché allora la Sicilia s'incassa così poco?
+1	Perché	perché	ADV	B	_	6	advmod	_	_
+2	allora	allora	ADV	B	_	6	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Sicilia	Sicilia	PROPN	SP	_	6	nsubj	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+6	incassa	incassare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	poco	poco	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = "Le cause vere sono la povertà e il malcostume.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	cause	causa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	vere	vero	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	povertà	povertà	NOUN	S	Gender=Fem	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	malcostume	malcostume	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Mi spiego meglio:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	spiego	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	meglio	meglio	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = nonostante i segnali di ripresa di questi anni, è indiscutibile che la Sicilia sia ancora molto povera, con redditi bassi ed elevata disoccupazione.
+1	nonostante	nonostante	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	indiscutibile	indiscutibile	ADJ	A	Number=Sing	0	root	_	_
+12	che	che	SCONJ	CS	_	18	mark	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Sicilia	Sicilia	PROPN	SP	_	18	nsubj	_	_
+15	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	ancora	ancora	ADV	B	_	18	advmod	_	_
+17	molto	molto	ADV	B	_	18	advmod	_	_
+18	povera	povero	ADJ	A	Gender=Fem|Number=Sing	11	csubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	redditi	reddito	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	ed	e	CCONJ	CC	_	25	cc	_	_
+24	elevata	elevato	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Ma abbiamo anche un enorme afflusso di persone nei nostri pronto soccorso.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	enorme	enorme	ADJ	A	Number=Sing	6	amod	_	_
+6	afflusso	afflusso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	13	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+11	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Chi non vuole pagare il ticket, o non può permetterselo, va al pronto soccorso e si fa fare gli esami".
+1	Chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pagare	pagare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ticket	ticket	NOUN	S	Gender=Masc	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	o	o	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-13	permetterselo	_	_	_	_	_	_	_	SpaceAfter=No
+11	permetter	permettere	VERB	V	VerbForm=Inf	4	conj	_	_
+12	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	22	ccomp	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	esami	esame	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Ma al pronto soccorso i medici assegnano i codici in base alla gravità dei casi e i codici bianchi pagano.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	soccorso	soccorrere	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	medici	medico	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	assegnano	assegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	codici	codice	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	base	base	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gravità	gravità	NOUN	S	Gender=Fem	12	nmod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	casi	caso	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	codici	codice	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	pagano	pagare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = "Certo, e qui c'è un problema sociale:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	qui	qui	ADV	B	_	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	problema	problema	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	sociale	sociale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 17
+# text = molti medici di fronte ad anziani in difficoltà o a famiglie non certo benestanti assegnano dal codice giallo in su così le persone non pagano il ticket.
+1	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	medici	medico	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fronte	fronte	NOUN	S	Number=Sing	2	nmod	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	nmod	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	certo	certo	ADV	B	_	15	advmod	_	_
+14	benestanti	benestante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+15	assegnano	assegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	codice	codice	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+19	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	in	in	ADP	E	_	26	case	_	_
+21	su	su	ADP	E	_	22	case	_	_
+22	così	così	ADV	B	_	26	advmod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	persone	persona	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	pagano	pagare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ticket	ticket	NOUN	S	Gender=Masc	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 18
+# text = Per certi versi li posso pure capire:
+1	Per	per	ADP	E	_	3	case	_	_
+2	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	versi	verso	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+5	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	pure	pure	ADV	B	_	7	advmod	_	_
+7	capire	capire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 19
+# text = non possiamo perseguitare sempre chi è in difficoltà e ha problemi ad arrivare alla fine del mese".
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	perseguitare	perseguitare	VERB	V	VerbForm=Inf	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	difficoltà	difficoltà	NOUN	S	Gender=Fem	3	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	ad	a	ADP	E	_	13	mark	_	_
+13	arrivare	arrivare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mese	mese	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Ma non è comunque uno spreco per il sistema sanitario regionale non far pagare chi dovrebbe?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	comunque	comunque	ADV	B	_	6	advmod	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spreco	spreco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	regionale	regionale	ADJ	A	Number=Sing	9	amod	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	far	fare	VERB	V	VerbForm=Inf	9	acl	_	_
+14	pagare	pagare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	obj	_	_
+16	dovrebbe	dovere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = "Per questo stiamo cercando di riformare tutta la rete sanitaria territoriale:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+4	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	riformare	riformare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	rete	rete	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	sanitaria	sanitario	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	territoriale	territoriale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 22
+# text = vogliamo trasformare le guardie mediche in presidi territoriali sanitari, evitando l'afflusso anomalo nei pronto soccorso e dando una maggiore assistenza con controlli migliori.
+1	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trasformare	trasformare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	guardie	guardia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	presidi	presidio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	territoriali	territoriale	ADJ	A	Number=Plur	7	amod	_	_
+9	sanitari	sanitario	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	evitando	evitare	VERB	V	VerbForm=Ger	2	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	afflusso	afflusso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	anomalo	anomalo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	nei	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	dando	dare	VERB	V	VerbForm=Ger	11	conj	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	23	amod	_	_
+23	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Attendiamo a giorni il via libera da parte del ministero alla nostra rete ospedaliera per sbloccare le assunzioni e dare una maggiore assistenza territoriale".
+1	Attendiamo	attendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	via	via	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+6	libera	libero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	rete	rete	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	ospedaliera	ospedaliero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	sbloccare	sbloccare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	assunzioni	assunzione	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	dare	dare	VERB	V	VerbForm=Inf	16	conj	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	25	amod	_	_
+25	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+26	territoriale	territoriale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Non pensa che nell'Isola ci sia anche una elevata evasione fiscale da un lato e dall'altro troppi privati convenzionati che fanno concorrenza al sistema pubblico?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Isola	Isola	PROPN	SP	_	8	obl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	elevata	elevato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	evasione	evasione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+13	fiscale	fiscale	ADJ	A	Number=Sing	12	amod	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lato	lato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18-19	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+18	da	da	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obl	_	_
+21	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	privati	privato	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+23	convenzionati	convenzionato	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = "Non penso che i privati facciano pagare meno del pubblico.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	privati	privato	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	facciano	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	pagare	pagare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	meno	meno	ADV	B	_	8	advmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = L'evasione c'è, ma qui il problema vero, ripeto, è la povertà.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	evasione	evasione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	qui	qui	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	problema	problema	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	ripeto	ripetere	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	povertà	povertà	NOUN	S	Gender=Fem	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Secondo me andrebbe cambiato il sistema di esenzione dei ticket, puntando a far pagare di più i ricchi e meno i poveri.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	andrebbe	andere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	esenzione	esenzione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ticket	ticket	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	puntando	puntare	VERB	V	VerbForm=Ger	4	advcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	pagare	pagare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	più	più	ADV	B	_	16	advmod	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	meno	meno	ADV	B	_	24	advmod	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Ma questa è una competenza dello Stato, non della Regione:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	competenza	competenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 29
+# text = noi abbiamo abolito tutti i ticket aggiuntivi regionali, di più non possiamo fare".
+1	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	abolito	abolire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ticket	ticket	NOUN	S	Gender=Masc	14	nsubj	_	_
+7	aggiuntivi	aggiuntivo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	regionali	regionale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	6	nmod	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

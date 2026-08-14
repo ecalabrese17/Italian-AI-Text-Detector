@@ -1,0 +1,319 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quanto accaduto ieri è spia della tensione che il progetto sta creando nella zona.
+1	Quanto	quanto	ADV	B	_	2	advmod	_	_
+2	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+3	ieri	ieri	ADV	B	_	2	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	spia	spiare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	creando	creare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	zona	zona	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sull'atto di vandalismo si è espresso anche il cardinale Angelo Scola, che ha lanciato un appello inequivocabile:
+1-2	Sull'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Su	su	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	atto	atto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vandalismo	vandalismo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+12	Angelo	Angelo	PROPN	SP	_	11	nmod	_	_
+13	Scola	Scola	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	appello	appello	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	inequivocabile	inequivocabile	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = «Bisogna che tutti insieme ci decidiamo a mettere prima il bene comune, dal momento che dobbiamo vivere insieme, anche con gli immigrati che arrivano».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
+5	insieme	insieme	ADV	B	_	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+7	decidiamo	decidere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	mettere	mettere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	prima	prima	ADV	B	_	9	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bene	bene	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	comune	comune	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+19	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	vivere	vivere	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	insieme	insieme	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	anche	anche	ADV	B	_	26	advmod	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+29	»	»	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Del resto già in mattinata Scola aveva richiamato al bisogno di dialogo per «vincere le paure», aggiungendo che «quando si strumentalizza un problema reale a degli scopi che non sono quelli del bene comune si cade nell'ideologia e non si costruisce».
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	già	già	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	Scola	Scola	PROPN	SP	_	6	nmod	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	richiamato	richiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	vincere	vincere	VERB	V	VerbForm=Inf	14	acl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	paure	paura	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	17	advcl	_	_
+23	che	che	SCONJ	CS	_	44	mark	_	_
+24	«	«	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+25	quando	quando	SCONJ	CS	_	27	mark	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+27	strumentalizza	strumentalizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	problema	problema	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	reale	reale	ADJ	A	Number=Sing	29	amod	_	_
+31	a	a	ADP	E	_	34	case	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	31	fixed	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	scopi	scopio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+37	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+38	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	34	acl:relcl	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	bene	bene	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+42	comune	comune	ADJ	A	Number=Sing	41	amod	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl:impers	_	_
+44	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+45-46	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+45	in	in	ADP	E	_	47	case	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	ideologia	ideologia	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	_
+48	e	e	CCONJ	CC	_	51	cc	_	_
+49	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+50	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl:impers	_	_
+51	costruisce	costruire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	conj	_	SpaceAfter=No
+52	»	»	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Proprio al cardinale di Milano i cittadini del comitato di Greco avevano scritto nei giorni scorsi una lettera in cui sostenevano che il nascendo refettorio si trova «troppo vicino ad asili e scuole».
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Milano	Milano	PROPN	SP	_	4	nmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Greco	Greco	PROPN	SP	_	11	nmod	_	_
+14	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+24	sostenevano	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+25	che	che	SCONJ	CS	_	30	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	nascendo	nascere	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+28	refettorio	refettorio	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+31	«	«	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+32	troppo	troppo	ADV	B	_	33	advmod	_	_
+33	vicino	vicino	ADV	B	_	35	advmod	_	_
+34	ad	a	ADP	E	_	35	case	_	_
+35	asili	asilo	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+38	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Temono che la mensa per i poveri destabilizzi gli equilibri, contestano il cambio di uso di quello che era un teatro dove, dicono, fino a poco più di un anno fa ancora andavano in scena delle recite scolastiche.
+1	Temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	12	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	destabilizzi	destabilizzo	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	equilibri	equilibrio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	contestano	contestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	uso	uso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	18	acl:relcl	_	_
+23	dove	dove	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	1	punct	_	_
+25	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	fino	fino	ADV	B	_	30	case	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	poco	poco	ADV	B	_	30	advmod	_	_
+30	più	più	ADV	B	_	25	advmod	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+34	fa	fa	ADV	B	_	33	advmod	_	_
+35	ancora	ancora	ADV	B	_	36	advmod	_	_
+36	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	scena	scena	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	recite	recita	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+42	scolastiche	scolastico	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = La Caritas ambrosiana, per bocca del direttore don Roberto Davanzo, aveva replicato facendo notare che «progetti come questo portano ordine, non disordine.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Caritas	Caritas	PROPN	SP	_	15	nsubj	_	_
+3	ambrosiana	ambrosiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	don	don	PROPN	SP	_	9	nmod	_	_
+11	Roberto	Roberto	PROPN	SP	_	10	flat:name	_	_
+12	Davanzo	Davanzo	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	replicato	replicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	facendo	fare	VERB	V	VerbForm=Ger	15	advcl	_	_
+17	notare	notare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	«	«	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	progetti	progeggere	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	obl	_	_
+23	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+24	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	disordine	disordine	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = E la vicinanza tra una scuola e un'iniziativa di carità è una parte educativa importante del progetto».
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicinanza	vicinanza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	carità	carità	NOUN	S	Gender=Fem	9	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	educativa	educativo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	importante	importante	ADJ	A	Number=Sing	14	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = Punti di vista diametralmente opposti:
+1	Punti	punto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	vista	vista	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	diametralmente	diametralmente	ADV	B	_	5	advmod	_	_
+5	opposti	opposto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = dopo il gesto di ieri difficile prevedere che si ricompongano in tempi brevi.
+1	dopo	dopo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ieri	ieri	ADV	B	_	3	advmod	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	_
+7	prevedere	prevedere	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	ricompongano	ricompongare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	brevi	breve	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

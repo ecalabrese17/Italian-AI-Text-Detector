@@ -1,0 +1,1023 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quando li facciamo, i figli:
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+3	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = su cinque famiglie, tre li hanno e due no.
+1	su	su	ADP	E	_	3	case	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tre	tre	NUM	N	NumType=Card	7	nsubj	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	no	no	ADV	BN	PronType=Neg	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Di tradizionale, in compenso, è rimasto il ruolo di comando:
+1	Di	di	ADP	E	_	2	case	_	_
+2	tradizionale	tradizionala	ADJ	A	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	comando	comando	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = se cresce il numero di donne “capofamiglia”, a prendere tutte le decisioni importanti che non riguardino gli acquisti quotidiani o di elettrodomestici sono sempre gli uomini.
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	numero	numero	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	capofamiglia	capofamiglia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	29	ccomp	_	_
+13	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+16	importanti	importante	ADJ	A	Number=Plur	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	riguardino	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	acquisti	acquisto	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	quotidiani	quotidiano	NOUN	S	Gender=Masc|Number=Plur	21	compound	_	_
+23	o	o	CCONJ	CC	_	25	cc	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	elettrodomestici	elettrodomestico	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	sempre	sempre	ADV	B	_	29	advmod	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 5
+# text = Il rapporto, presentato oggi in Senato, nasce da uno studio sulle risposte di ventimila famiglie intervistate nell’ultimo anno:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	oggi	oggi	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Senato	Senato	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	studio	studio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	sulle	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	ventimila	ventimila	NUM	N	NumType=Card	18	nummod	_	_
+18	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	intervistate	intervistato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	23	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+22	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 6
+# text = ne emerge un paese con “sei milioni di donne capofamiglia” in cui scompare la segreteria telefonica e si fa largo la vasca idromassaggio, e in cui regina resta la tv:
+1	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	sei	sei	NUM	N	NumType=Card	8	nummod	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	capofamiglia	capofamiglia	NOUN	S	Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	8	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+15	scompare	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	segreteria	segreteria	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+22	largo	largo	NOUN	S	Gender=Masc|Number=Sing	21	xcomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vasca	vasco	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	idromassaggio	idromassaggio	NOUN	S	Gender=Masc|Number=Sing	24	compound	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+30	regina	reginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+31	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	tv	tv	NOUN	S	Gender=Fem	31	nsubj	_	SpaceAfter=No
+34	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = ancora oggi è più diffusa dello smartphone.
+1	ancora	ancora	ADV	B	_	5	advmod	_	_
+2	oggi	oggi	ADV	B	_	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = CRESCONO LE COABITAZIONI
+1	CRESCONO	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	LE	il	PROPN	SP	_	1	obj	_	_
+3	COABITAZIONI	COABITAZIONI	PROPN	SP	_	1	nsubj	_	_
+
+# sent_id = 9
+# text = La forma di famiglia più diffusa resta quella delle coppie con figli (38,1%), seguita da chi vive solo o convive senza relazioni di coppia (28,4%).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+7	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	obj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	38,1	38,1	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	chi	chi	PRON	PR	Number=Sing|PronType=Rel	19	obl:agent	_	_
+22	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+23	solo	solo	ADV	B	_	25	advmod	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	convive	convivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	senza	senza	ADP	E	_	27	case	_	_
+27	relazioni	relazione	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	28,4	28,4	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+32	%	%	SYM	SYM	_	25	obl	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Le coppie senza figli sono il 24,7%, quelle con un solo genitore l’8,8%.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	24,7	24,7	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	10	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	solo	solo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	genitore	genitore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	8,8	8,8	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Ma con il lavoro che sfugge, gli stipendi da fame e i mattoni alle stelle crescono a dismisura le nuove “famiglie” per necessità:
+1	Ma	ma	CCONJ	CC	_	18	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	sfugge	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	stipendi	stipendio	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	fame	fame	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	mattoni	mattone	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	dismisura	dismisura	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+22	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	24	punct	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	necessità	necessità	NOUN	S	Gender=Fem	18	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 12
+# text = quelle costituite da persone che convivono da più di sei mesi senza essere genitori e figli e senza rapporti d’amore sono 2,3 milioni, il 9,3% del totale.
+1	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	24	nsubj	_	_
+2	costituite	costituire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obl:agent	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	convivono	convivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	6	advmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+11	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	senza	senza	ADP	E	_	14	mark	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	14	cop	_	_
+14	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	6	advcl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+20	d’	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	amore	amore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	2,3	2,3	NUM	N	NumType=Card	24	nummod	_	_
+24	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	9,3	9,3	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	24	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	totale	totale	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 13
+# text = E 5,7 milioni di italiani, secondo le stime statistiche generate dal rapporto, vivono soli.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	5,7	5,7	NUM	N	NumType=Card	3	nummod	_	_
+3	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	secondo	secondo	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	stime	stima	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+10	statistiche	statistico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	generate	generare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	soli	solo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 14
+# text = LE DONNE “CAPOFAMIGLIA”… “Le donne con ruolo di capofamiglia – sostiene il rapporto - sono 6,3 milioni pari al 25,7% del totale delle famiglie”.
+1	LE	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	DONNE	donne	PROPN	SP	_	15	nsubj	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	CAPOFAMIGLIA	CAPOFAMIGLIA	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	…	…	PUNCT	FF	_	4	punct	_	_
+7	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	appos	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	capofamiglia	capofamiglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	–	–	PUNCT	FB	_	4	punct	_	_
+15	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	-	-	PUNCT	FB	_	21	punct	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	6,3	6,3	NUM	N	NumType=Card	21	nummod	_	_
+21	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	15	parataxis	_	_
+22	pari	pari	ADJ	A	_	21	amod	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	25,7	25,7	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	22	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	totale	totale	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	”	”	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Metà sono donne che vivono sole, "capofamiglia" di loro stesse;
+1	Metà	metà	NOUN	S	Gender=Fem	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	sole	solo	ADJ	A	Gender=Fem|Number=Plur	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	capofamiglia	capofamiglia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
+13	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 16
+# text = ma 1,7 milioni di donne “esercitano tale ruolo con figli, e 594mila in coppia con o senza figli”.
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	1,7	1,7	NUM	N	NumType=Card	3	nummod	_	_
+3	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	esercitano	esercitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tale	tale	DET	DD	Number=Sing|PronType=Dem	9	det	_	_
+9	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	594mila	594milare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = …MA CONTINUA A COMANDARE L’UOMO Secondo la ricerca, però, “è prevalente il potere decisionale maschile su settori vitali della vita familiare nelle coppie con o senza figli”.
+1	…MA	…MA	ADP	E	_	2	case	_	_
+2	CONTINUA	Continua	PROPN	SP	_	15	obl	_	_
+3	A	a	ADP	E	_	4	case	_	_
+4	COMANDARE	comandare	PROPN	SP	_	2	nmod	_	_
+5	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	UOMO	uomo	PROPN	SP	_	2	nmod	_	_
+7	Secondo	secondo	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	però	però	ADV	B	_	15	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	prevalente	prevalente	ADJ	A	Number=Sing	0	root	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	potere	potere	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+18	decisionale	decisionale	ADJ	A	Number=Sing	17	amod	_	_
+19	maschile	maschile	ADJ	A	Number=Sing	17	amod	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	settori	settore	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	vitali	vitale	ADJ	A	Number=Plur	21	amod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	familiare	familiare	ADJ	A	Number=Sing	25	amod	_	_
+27-28	nelle	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+30	con	con	ADP	E	_	33	case	_	_
+31	o	o	CCONJ	CC	_	33	cc	_	_
+32	senza	senza	ADP	E	_	33	case	_	_
+33	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+34	”	”	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 18
+# text = Le donne prevalgono nelle scelte solo negli “acquisti quotidiani e di elettrodomestici, il resto è tutto in mano ai maschi, che nella gran parte dei casi sono i capofamiglia”.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	prevalgono	prevalgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	solo	solo	ADV	B	_	11	advmod	_	_
+8-9	negli	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	acquisti	acquisto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	quotidiani	quotidiano	NOUN	S	Gender=Masc|Number=Plur	11	compound	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	elettrodomestici	elettrodomestico	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	resto	resto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	mano	mano	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	gran	grande	ADJ	A	Number=Sing	31	amod	_	_
+31	parte	parte	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	casi	caso	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	capofamiglia	capofamiglia	NOUN	S	Gender=Masc|Number=Plur	25	acl:relcl	_	SpaceAfter=No
+38	”	”	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = PASSIONE TV “Nelle case degli italiani - spiega il rapporto - ci sono oltre 43 milioni di tv, 5,6 milioni di pc fissi, 14 milioni di portatili e 7,4 milioni di tablet.
+1	PASSIONE	passione	PROPN	SP	_	16	nsubj	_	_
+2	TV	TV	PROPN	SP	_	1	flat:name	_	_
+3	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4-5	Nelle	_	_	_	_	_	_	_	_
+4	In	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	case	casa	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	-	-	PUNCT	FB	_	6	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14	-	-	PUNCT	FB	_	11	punct	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
+16	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	oltre	oltre	ADV	B	_	18	advmod	_	_
+18	43	43	NUM	N	NumType=Card	19	nummod	_	_
+19	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	tv	tv	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	5,6	5,6	NUM	N	NumType=Card	24	nummod	_	_
+24	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	pc	pc	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	fissi	fisso	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	14	14	NUM	N	NumType=Card	30	nummod	_	_
+30	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	portatili	portatile	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	7,4	7,4	NUM	N	NumType=Card	35	nummod	_	_
+35	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	tablet	tablet	NOUN	S	Gender=Masc	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 20
+# text = Il 97,1% delle famiglie ha almeno un apparecchio televisivo, il 22,1% un pc fisso, il 48,1% un portatile e il 26,4% un tablet”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	97,1	97,1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	7	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	almeno	almeno	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	televisivo	televisivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	22,1	22,1	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	7	conj	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pc	pc	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	fisso	fisso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	48,1	48,1	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	24	nmod	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	portatile	portatile	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	26,4	26,4	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	30	conj	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	tablet	tablet	NOUN	S	Gender=Masc	17	conj	_	SpaceAfter=No
+31	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = Il 19,3% delle famiglie ha almeno una tv connessa al web. TELEFONINO PER TUTTI (MA SENZA SEGRETERIA) Cellulari e smartphone sono presenti nel 95% delle famiglie:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	19,3	19,3	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	7	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	almeno	almeno	ADV	B	_	10	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tv	tv	NOUN	S	Gender=Fem	7	obj	_	_
+11	connessa	connesso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	web.	web.	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	TELEFONINO	telefonino	PROPN	SP	_	14	nmod	_	_
+16	PER	per	PROPN	SP	_	15	flat:name	_	_
+17	TUTTI	Tutti	PROPN	SP	_	15	flat:name	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	MA	ma	PROPN	SP	_	7	appos	_	_
+20	SENZA	Senza	PROPN	SP	_	19	flat:name	_	_
+21	SEGRETERIA	Segreteria	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	20	punct	_	_
+23	Cellulari	cellulari	PROPN	SP	_	27	nsubj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	presenti	presente	ADJ	A	Number=Plur	19	acl:relcl	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	95	95	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+31	%	%	SYM	SYM	_	27	obl	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 22
+# text = il 97,2% dei 18-34enni, l’85,8% dei 35-64enni ed il 27,8% degli anziani dispone di uno smartphone connesso al web.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	97,2	97,2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	21	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	18-34enni	18-34enne	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	85,8	85,8	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	21	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	35-64enni	35-64enne	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	ed	e	CCONJ	CC	_	17	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	27,8	27,8	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	10	conj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+21	dispone	disporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	connesso	connesso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	web	webbraio	NOUN	S	Gender=Masc	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 23
+# text = La linea telefonica fissa c’è nel 59,1% delle famiglie, il forno a microonde nel 53,0%, la lavastoviglie nel 44,9%, l’aria condizionata nel 29,7%, la macchina fotografica digitale nel 21,9%.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	linea	linea	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	59,1	59,1	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	6	obl	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	forno	forno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	microonde	microondere	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	53,0	53,0	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	lavastoviglie	lavastoviglia	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	44,9	44,9	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	25	punct	_	_
+31	l’	il	DET	RD	Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	aria	aria	NOUN	S	Gender=Fem|Number=Sing	25	appos	_	_
+33	condizionata	condizionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	29,7	29,7	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+37	%	%	SYM	SYM	_	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+41	fotografica	fotografico	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42	digitale	digitale	ADJ	A	Number=Sing	40	amod	_	_
+43-44	nel	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	21,9	21,9	NUM	N	NumType=Card	46	nummod	_	SpaceAfter=No
+46	%	%	SYM	SYM	_	40	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Il 6,5% delle famiglie ha una video camera digitale, il 4,9% la vasca idromassaggio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	6,5	6,5	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	7	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	video	video	ADJ	A	_	10	amod	_	_
+10	camera	camera	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	digitale	digitale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	4,9	4,9	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	17	obj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vasca	vasco	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+18	idromassaggio	idromassaggio	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = La segreteria telefonica non serve più: ce l’ha il 2,1% delle famiglie.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	segreteria	segreteria	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	10	punct	_	_
+8	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	2,1	2,1	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	10	nsubj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = SEMPRE CONNESSI L’82,2% delle famiglie è connesso a internet: i “disconnessi” sono 4,3 milioni di persone, il 41,4% sono anziani.
+1	SEMPRE	sempre	ADV	B	_	2	advmod	_	_
+2	CONNESSI	connesso	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+3	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	82,2	82,2	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	2	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	connesso	connesso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	internet	internet	NOUN	S	_	10	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	10	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	disconnessi	disconnesso	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	16	punct	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	4,3	4,3	NUM	N	NumType=Card	20	nummod	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	10	parataxis	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	persone	persona	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	41,4	41,4	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	28	nsubj	_	_
+27	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 27
+# text = “Il 99,3% delle famiglie guidate da un millennial hanno uno smartphone con cui connettersi”, una percentuale che scende solo all’89,7% per gli anziani.
+1	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	99,3	99,3	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	12	nsubj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	guidate	guidare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	millennial	millennial	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+17-18	connettersi	_	_	_	_	_	_	_	SpaceAfter=No
+17	connetter	connettere	VERB	V	VerbForm=Inf	14	acl:relcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	scende	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	solo	solo	ADV	B	_	29	advmod	_	_
+26-27	all’	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	29	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+28	89,7	89,7	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	24	obl	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 28
+# text = Il 49,6% delle famiglie ha una connessione a banda larga (il 41,9% al Sud e nelle isole).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	49,6	49,6	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	7	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	banda	banda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	larga	largo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	41,9	41,9	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	7	obl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Sud	Sud	PROPN	SP	_	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	isole	isola	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 29
+# text = Il dato precipita al 30,6% per le famiglie “a basso livello socioeconomico”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dato	dato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	precipita	precipitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	30,6	30,6	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	SYM	_	3	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+11	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	basso	basso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	livello	livello	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	socioeconomico	socioeconomico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = A LETTO COL WEB Se siamo tutti connessi, è soprattutto di notte che gli italiani navigano:
+1	A	a	ADP	E	_	2	case	_	_
+2	LETTO	Letto	PROPN	SP	_	14	nmod	_	_
+3-4	COL	_	_	_	_	_	_	_	_
+3	CON	con	PROPN	SP	_	2	flat:name	_	_
+4	IL	il	PROPN	SP	_	2	flat:name	_	_
+5	WEB	web	PROPN	SP	_	4	flat:name	_	_
+6	Se	se	SCONJ	CS	_	9	mark	_	_
+7	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+9	connessi	connesso	ADJ	A	Gender=Masc|Number=Plur	14	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	soprattutto	soprattutto	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	notte	notte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	navigano	navigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 31
+# text = una indagine Censis del 2018 stima in 28 milioni gli utilizzatori notturni di smartphone “che lo hanno eletto a inseparabile partner sin nel proprio letto”.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Censis	Censis	PROPN	SP	_	2	nmod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	2018	2018	NUM	N	NumType=Card	7	nummod	_	_
+7	stima	stima	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	28	28	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	utilizzatori	utilizzatore	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+13	notturni	notturno	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	inseparabile	inseparabile	ADJ	A	Number=Sing	23	amod	_	_
+23	partner	partner	NOUN	S	_	20	obl	_	_
+24	sin	sino	ADV	B	_	28	case	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	24	fixed	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	letto	letto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Succede così che 11,8 milioni indicano esplicitamente “la fruizione sempre e ovunque dello smartphone sul web” come una delle ragioni delle crisi nella coppia e nella famiglia;
+1	Succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	così	così	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	11,8	11,8	NUM	N	NumType=Card	5	nummod	_	_
+5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7	esplicitamente	esplicitamente	ADV	B	_	6	advmod	_	_
+8	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fruizione	fruizione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	sempre	sempre	ADV	B	_	13	advmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ovunque	ovunque	ADV	B	_	10	advmod	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	web	webbraio	NOUN	S	Gender=Masc	16	nmod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	10	punct	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	crisi	crisi	NOUN	S	Gender=Fem	25	nmod	_	_
+29-30	nella	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	nella	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+36	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 33
+# text = I BIMBI DIGITALI Così piccoli, così digitali:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	BIMBI	bimbo	PROPN	SP	_	0	root	_	_
+3	DIGITALI	digitale	ADJ	A	Number=Plur	2	amod	_	_
+4	Così	così	ADV	B	_	5	advmod	_	_
+5	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	digitali	digitale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 34
+# text = tra 4 e 10 anni il 17,6% dei bambini ha il cellulare, il 6,7% utilizza il pc fisso, il 24,2% il portatile, il 32,7% il tablet e il 49,2% è connesso al web.
+1	tra	tra	ADP	E	_	5	case	_	_
+2	4	4	NUM	N	NumType=Card	5	nummod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	10	10	NUM	N	NumType=Card	2	conj	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	17,6	17,6	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	12	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	6,7	6,7	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	40	obl	_	_
+19	utilizza	utilizzare	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pc	pc	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+22	fisso	fisso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	24,2	24,2	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	40	nsubj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	portatile	portatile	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	32,7	32,7	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+32	%	%	SYM	SYM	_	28	nmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	tablet	tablet	NOUN	S	Gender=Masc	32	nsubj	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	49,2	49,2	NUM	N	NumType=Card	38	nummod	_	SpaceAfter=No
+38	%	%	SYM	SYM	_	34	conj	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	connesso	connesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+41-42	al	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	web	webbraio	NOUN	S	Gender=Masc	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

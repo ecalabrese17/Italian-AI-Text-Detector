@@ -1,0 +1,332 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dispiace molto eravamo pronti.
+1	Dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molto	molto	ADV	B	_	4	advmod	_	_
+3	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	1	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Detto questo prendiamo atto.
+1	Detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+3	prendiamo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	atto	atto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ringrazio Beppe Sala, gli operatori e il mondo delle imprese, il governo che so quanto si è impegnato.
+1	Ringrazio	ringraziare	PROPN	SP	_	0	root	_	_
+2	Beppe	Beppe	PROPN	SP	_	1	flat:name	_	_
+3	Sala	Sala	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governo	governo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	impegnato	impegnato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La sconfitta per sorteggio è il paradigma di di questa Europa che non sa decidere e non sa assumersi responsabilità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sconfitta	sconfitta|sconfitto	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	sorteggio	sorteggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paradigma	paradigma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	Europa	Europa	PROPN	SP	_	7	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	sa	sapere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	decidere	decidere	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	sa	sapere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	assumersi	_	_	_	_	_	_	_	_
+19	assumer	assumere	VERB	V	VerbForm=Inf	15	conj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	responsabilità	responsabilità	NOUN	S	Gender=Fem	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = La logica della monetina è triste perché significa una unione di paesi che non si sa mettere d'accordo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	logica	logica	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	monetina	monetina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	triste	triste	ADJ	A	Number=Sing	0	root	_	_
+8	perché	perché	SCONJ	CS	_	9	mark	_	_
+9	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	unione	unione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	mettere	mettere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Non faccio dietrologie ma ricordo che erano 27 paesi uno si è astenuto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dietrologie	dietrologia	ADV	B	_	2	advmod	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	27	27	NUM	N	NumType=Card	9	nummod	_	_
+9	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	5	ccomp	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	astenuto	astenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Si è andato al pareggio per non scontentare nessuno?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	scontentare	scontentare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non lo dico.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ma l'Ue lascia decidere ad altri, non si sa assumere le responsabilità e lascia decidere fuori dall'Europa o affidandosi alla sorte.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Ue	Ue	PROPN	SP	_	4	nsubj	_	_
+4	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	decidere	decidere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	assumere	assumere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	responsabilità	responsabilità	NOUN	S	Gender=Fem	12	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	decidere	decidere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	fuori	fuori	ADV	B	_	21	case	_	_
+19-20	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+19	da	da	ADP	E	_	18	fixed	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	Europa	Europa	PROPN	SP	_	17	obl	_	_
+22	o	o	CCONJ	CC	_	23	cc	_	_
+23-24	affidandosi	_	_	_	_	_	_	_	_
+23	affidando	affidare	VERB	V	VerbForm=Ger	17	conj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Da domani io, Beppe Sala e il governo italiano magari qualche iniziativa potremmo pensare di prenderla ".
+1	Da	da	ADP	E	_	2	case	_	_
+2	domani	domani	ADV	B	_	15	advmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Beppe	Beppe	PROPN	SP	_	3	appos	_	_
+6	Sala	Sala	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	magari	magari	ADV	B	_	15	advmod	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	prenderla	_	_	_	_	_	_	_	_
+17	prender	prendere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Deluso anche il sindaco di Milano e tutto il governo che puntavano all'Agenzia per il rilancio della città e dell'intero Paese a livello internazionale.
+1	Deluso	Deludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Milano	Milano	PROPN	SP	_	4	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	puntavano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Agenzia	Agenzia	PROPN	SP	_	12	obl	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	rilancio	rilancio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	città	città	NOUN	S	Gender=Fem	18	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	intero	intero	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+26	Paese	paese	PROPN	SP	_	18	nmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	livello	livello	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+29	internazionale	internazionale	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Ho sentito il presidente del Consiglio velocemente, ovviamente anche lui è dispiaciuto", ha detto Beppe Sala , " Sicuramente c'è tanta delusione dopo il sorteggio, però, il risultato raggiunto è comunque importante.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Consiglio	consiglio	PROPN	SP	_	5	nmod	_	_
+9	velocemente	velocemente	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ovviamente	ovviamente	ADV	B	_	15	advmod	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dispiaciuto	dispiacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+20	Beppe	Beppe	PROPN	SP	_	19	nsubj	_	_
+21	Sala	Sala	PROPN	SP	_	20	flat:name	_	_
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	"	"	PUNCT	FB	_	26	punct	_	_
+24	Sicuramente	sicuramente	ADV	B	_	26	advmod	_	_
+25	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	SpaceAfter=No
+26	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+27	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
+28	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+29	dopo	dopo	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sorteggio	sorteggio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	3	punct	_	_
+33	però	però	ADV	B	_	3	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	3	punct	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+37	raggiunto	raggiunto	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	comunque	comunque	ADV	B	_	40	advmod	_	_
+40	importante	importante	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Siamo stati l'unica città non capitale ad arrivare alla votazione finale e siamo stati capaci di confrontarci con le grandi capitali europee.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	unica	unico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	città	città	NOUN	S	Gender=Fem	0	root	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	capitale	capitale	ADJ	A	Number=Sing	5	amod	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9	arrivare	arrivare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	votazione	votazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	finale	finale	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	cop	_	_
+17	capaci	capace	ADJ	A	Number=Plur	9	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	confrontarci	_	_	_	_	_	_	_	_
+19	confrontar	confrontarre	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	grandi	grande	ADJ	A	Number=Plur	24	amod	_	_
+24	capitali	capitale	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25	europee	europeo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = È veramente un pò assurdo essere esclusi perché si pesca da un bussolotto.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	veramente	vero	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pò	pò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	assurdo	assurdo	ADJ	A	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	perché	perché	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	pesca	puscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bussolotto	bussolotto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Tutto regolare ma non è normale ".
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	regolare	regolare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	normale	normale	ADJ	A	Number=Sing	2	conj	_	_
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

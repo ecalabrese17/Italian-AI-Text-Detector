@@ -1,0 +1,600 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non lo aveva fatto in modo neutro, ma da angolazioni spesso controverse che avevano innescato ogni volta reazioni vivaci.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	neutro	neutro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	angolazioni	angolazione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+12	spesso	spesso	ADV	B	_	13	advmod	_	_
+13	controverse	controverso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	innescato	innescare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	volta	volta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+20	vivaci	vivace	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mack Smith però era andato avanti, mantenendosi fedele al suo ruolo di fustigatore dei costumi italiani.
+1	Mack	Mack	PROPN	SP	_	5	nsubj	_	_
+2	Smith	Smith	PROPN	SP	_	1	flat:name	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	avanti	avanti	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8-9	mantenendosi	_	_	_	_	_	_	_	_
+8	mantenendo	mantenere	VERB	V	VerbForm=Ger	5	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	fedele	fedele	ADJ	A	Number=Sing	8	xcomp	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fustigatore	fustigatore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Il curriculum del grande storico, nato a Londra nel 1920, era in realtà invidiabile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	curriculum	curriculum	NOUN	S	Gender=Masc	18	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	storico	storico	ADJ	A	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Londra	Londra	PROPN	SP	_	8	obl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	1920	1920	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+18	invidiabile	invidiabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 4
+# text = Laurea a Cambridge con una tesi sul nostro Risorgimento, membro della British Academy , del Wolfson College di Cambridge , dell’ All Souls College di Oxford e dell’ American Academy of Arts and Sciences .
+1	Laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Cambridge	Cambridge	PROPN	SP	_	1	nmod	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tesi	tesi	NOUN	S	Gender=Fem	1	nmod	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Risorgimento	Risorgimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	membro	membro	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	British	British	PROPN	SP	_	6	nmod	_	_
+16	Academy	Academy	PROPN	SP	_	15	flat:name	_	_
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Wolfson	Wolfson	PROPN	SP	_	6	nmod	_	_
+21	College	College	PROPN	SP	_	20	flat:name	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Cambridge	Cambridge	PROPN	SP	_	20	nmod	_	_
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25-26	dell’	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	All	All	PROPN	SP	_	20	conj	_	_
+28	Souls	Souls	PROPN	SP	_	27	flat:name	_	_
+29	College	College	PROPN	SP	_	27	flat:name	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Oxford	Oxford	PROPN	SP	_	27	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	dell’	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	American	American	PROPN	SP	_	20	conj	_	_
+36	Academy	Academy	X	SW	Foreign=Yes	35	case	_	_
+37	of	of	X	SW	Foreign=Yes	36	flat:foreign	_	_
+38	Arts	Arts	X	SW	Foreign=Yes	36	flat:foreign	_	_
+39	and	and	X	SW	Foreign=Yes	36	flat:foreign	_	_
+40	Sciences	Sciences	X	SW	Foreign=Yes	35	flat:foreign	_	_
+41	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ma fu in Italia che avvenne l’incontro che segnò una svolta nella sua carriera di studioso, quello con Benedetto Croce .
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	avvenne	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	segnò	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	studioso	studioso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	Benedetto	Benedetto	PROPN	SP	_	20	nmod	_	_
+23	Croce	croce	PROPN	SP	_	22	flat:name	_	_
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Fu Croce ad introdurlo nel nostro ambiente culturale.
+1	Fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Croce	croce	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+3	ad	a	ADP	E	_	4	mark	_	_
+4-5	introdurlo	_	_	_	_	_	_	_	_
+4	introdur	introdurre	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	culturale	culturale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Nel 1959 vide la luce il libro che lo mise al centro dell’attenzione, facendone il bersaglio di molte polemiche:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1959	1959	NUM	N	NumType=Card	4	obl	_	_
+4	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	luce	luce	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	libro	libro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	centro	centro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19-20	facendone	_	_	_	_	_	_	_	_
+19	facendo	fare	VERB	V	VerbForm=Ger	11	advcl	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bersaglio	bersaglio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = la Storia d’Italia , edita da Laterza.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Storia	storia	PROPN	SP	_	0	root	_	_
+3	d’	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	Italia	Italia	PROPN	SP	_	2	nmod	_	_
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	edita	edire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Laterza	Laterza	PROPN	SP	_	6	obl:agent	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Era stato Vito Laterza a convincere Mack Smith a pubblicarla nel nostro paese.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	Vito	Vire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Laterza	Laterza	PROPN	SP	_	3	nsubj:pass	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	convincere	convincere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	Mack	Mack	PROPN	SP	_	6	obj	_	_
+8	Smith	Smith	PROPN	SP	_	7	flat:name	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	pubblicarla	_	_	_	_	_	_	_	_
+10	pubblicar	pubblicare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Il libro, che Mack Smith aveva scritto pensando a un pubblico inglese, fu subito considerato uno scandalo da molti accademici italiani.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	libro	libro	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	Mack	Mack	PROPN	SP	_	8	nsubj	_	_
+6	Smith	Smith	PROPN	SP	_	5	flat:name	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	pensando	pensare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	inglese	inglese	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+16	subito	subito	ADV	B	_	17	advmod	_	_
+17	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	accademici	accademico	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 11
+# text = Fu però un gran successo commerciale:
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	gran	gran	ADJ	A	Number=Sing	5	amod	_	_
+5	successo	successo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	commerciale	commerciale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = decine di edizioni (l’ultima nel 1997) e oltre 150 mila copie vendute.
+1	decine	decina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	edizioni	edizione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ultima	ultimo	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	1997	1997	NUM	N	NumType=Card	6	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	6	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	oltre	oltre	ADV	B	_	13	advmod	_	_
+13	150	150	NUM	N	NumType=Card	15	nummod	_	_
+14	mila	mila	NUM	N	NumType=Card	13	flat	_	_
+15	copie	copia	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+16	vendute	venduto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = A non piacere ai nostri accademici era l’impianto troppo divulgativo e il ritratto che ne usciva di Cavour , maldestro e trasformista.
+1	A	a	ADP	E	_	3	case	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	accademici	accademico	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	divulgativo	divulgativo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ritratto	ritratto	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+18	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Cavour	Cavour	PROPN	SP	_	18	obl	_	_
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	maldestro	maldestro	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	trasformista	trasformista	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Tra i detrattori ci fu Rosario Romeo che accusò il professore di Oxford di ridurre la storia d’Itala ad aneddoto e di essere un antitaliano.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	detrattori	detrattore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	Rosario	rosario	PROPN	SP	_	0	root	_	_
+7	Romeo	Romeo	PROPN	SP	_	6	flat:name	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	accusò	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	professore	professore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Oxford	Oxford	PROPN	SP	_	11	nmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	ridurre	ridurre	VERB	V	VerbForm=Inf	21	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	d’	di	ADP	E	_	19	case	_	SpaceAfter=No
+19-20	Itala	_	_	_	_	_	_	_	_
+19	Ita	Ita	PROPN	SP	_	17	nmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ad	ad	NOUN	S	Number=Sing	11	nmod	_	_
+22	aneddoto	aneddoto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	di	di	ADP	E	_	27	mark	_	_
+25	essere	essere	AUX	V	VerbForm=Inf	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	antitaliano	antitaliano	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Altre polemiche accolsero poi la sua Storia della Sicilia medievale e moderna , uscito nel 1970 sempre per Laterza.
+1	Altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	accolsero	accoldere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	poi	poi	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Storia	storia	PROPN	SP	_	3	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Sicilia	Sicilia	PROPN	SP	_	7	nmod	_	_
+11	medievale	medievale	ADJ	A	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	1970	1970	NUM	N	NumType=Card	15	nummod	_	_
+19	sempre	sempre	ADV	B	_	15	advmod	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	Laterza	Laterza	PROPN	SP	_	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Ma Giuseppe Laterza , addolorato per la perdita del grande storico, ne difende la capacità di raccontare la storia con estrema chiarezza:
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	Giuseppe	Giuseppe	PROPN	SP	_	15	nsubj	_	_
+3	Laterza	Laterza	PROPN	SP	_	2	flat:name	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	addolorato	addolorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	storico	storico	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	capacità	capacità	NOUN	S	Gender=Fem	15	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	raccontare	raccontare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	storia	storia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 17
+# text = “Mack Smith ha giustamente sempre pensato che la storia sia fatta di circostanze e che per questo debba essere anche aneddotica.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mack	Mack	PROPN	SP	_	4	nsubj	_	_
+3	Smith	Smith	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	giustamente	giusto	ADV	B	_	7	advmod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+15	e	e	CCONJ	CC	_	22	cc	_	_
+16	che	che	SCONJ	CS	_	22	mark	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	obl	_	_
+19	debba	debba	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	aneddotica	aneddotico	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Ed è proprio questo che gli fu rimproverato”.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	proprio	proprio	ADV	B	_	4	advmod	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	rimproverato	rimproverato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Tra gli altri controversi saggi di Mack Smith ci furono:
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+4-5	controversi	_	_	_	_	_	_	_	_
+4	controver	controvere	VERB	V	VerbForm=Inf	11	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	saggi	saggio	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Mack	Mack	PROPN	SP	_	4	obl	_	_
+9	Smith	Smith	PROPN	SP	_	8	flat:name	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 20
+# text = una biografia su Vittorio Emanuele II (Laterza, 1972), in cui il re appare tutt’altro che galantuomo, un libro altrettanto scomodo sui Savoia ( I Savoia re d’Italia , Rizzoli 1990) e più saggi su Mussolini ( Le guerre del duce , Laterza, 1976; Mussolini , Rizzoli 1981; A proposito di Mussolini , Laterza 2004).
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	biografia	biografia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	su	su	ADP	E	_	4	case	_	_
+4	Vittorio	Vittorio	PROPN	SP	_	2	nmod	_	_
+5	Emanuele	Emanuele	PROPN	SP	_	4	flat:name	_	_
+6	II	II	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Laterza	Laterza	PROPN	SP	_	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	1972	1972	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	re	re	NOUN	S	Gender=Masc	17	nsubj	_	_
+17	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+18	tutt’	tutto	DET	DD	Number=Sing|PronType=Dem	19	det	_	SpaceAfter=No
+19	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nmod	_	_
+20	che	che	DET	DQ	PronType=Int	21	det	_	_
+21	galantuomo	galantuomo	NOUN	S	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	libro	libro	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+25	altrettanto	altrettanto	ADV	B	_	26	advmod	_	_
+26	scomodo	scomodo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+27-28	sui	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Savoia	Savoia	PROPN	SP	_	24	nmod	_	_
+30	(	(	PUNCT	FB	_	32	punct	_	_
+31	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	Savoia	Savoia	PROPN	SP	_	29	appos	_	_
+33	re	re	NOUN	S	Gender=Masc	32	nmod	_	_
+34	d’	di	ADP	E	_	35	case	_	SpaceAfter=No
+35	Italia	Italia	PROPN	SP	_	33	nmod	_	_
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	Rizzoli	Rizzoli	PROPN	SP	_	32	nmod	_	_
+38	1990	1990	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	32	punct	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	più	più	ADV	B	_	42	advmod	_	_
+42	saggi	saggio	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+43	su	su	ADP	E	_	44	case	_	_
+44	Mussolini	Mussolini	PROPN	SP	_	42	obl	_	_
+45	(	(	PUNCT	FB	_	47	punct	_	_
+46	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	44	appos	_	_
+48-49	del	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	duce	duce	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+51	,	,	PUNCT	FF	_	47	punct	_	_
+52	Laterza	Laterza	PROPN	SP	_	47	conj	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	54	punct	_	_
+54	1976	1976	NUM	N	NumType=Card	52	nummod	_	SpaceAfter=No
+55	;	;	PUNCT	FC	_	56	punct	_	_
+56	Mussolini	Mussolini	PROPN	SP	_	47	conj	_	_
+57	,	,	PUNCT	FF	_	58	punct	_	_
+58	Rizzoli	Rizzoli	PROPN	SP	_	47	conj	_	_
+59	1981	1981	NUM	N	NumType=Card	58	nummod	_	SpaceAfter=No
+60	;	;	PUNCT	FC	_	62	punct	_	_
+61	A	a	ADP	E	_	62	case	_	_
+62	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	47	conj	_	_
+63	di	di	ADP	E	_	64	case	_	_
+64	Mussolini	Mussolini	PROPN	SP	_	62	nmod	_	_
+65	,	,	PUNCT	FF	_	62	punct	_	_
+66	Laterza	Laterza	PROPN	SP	_	62	nmod	_	_
+67	2004	2004	NUM	N	NumType=Card	66	nummod	_	SpaceAfter=No
+68	)	)	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Del Duce tratteggiò ossessioni, retorica e manie narcisiste, andando stavolta in collisione con Renzo De Felice .
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Duce	Duce	PROPN	SP	_	4	obl	_	_
+4	tratteggiò	tratteggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ossessioni	ossessione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	retorica	retorica	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	manie	mania	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+10	narcisiste	narcisista	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	andando	andare	VERB	V	VerbForm=Ger	4	advcl	_	_
+13	stavolta	stavolta	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	collisione	collisione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	Renzo	Renzo	PROPN	SP	_	15	nmod	_	_
+18	De	De	PROPN	SP	_	17	flat:name	_	_
+19	Felice	Felice	PROPN	SP	_	17	flat:name	_	_
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Ma, polemiche a parte, è vero che non ci sono tanti libri sulla storia d’Italia – escluso Montanelli – che abbiano venduto quanto quelli di Mack Smith.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	polemiche	polemiche	ADJ	A	Gender=Fem|Number=Plur	8	advcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	libri	libro	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	d’	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	Italia	Italia	PROPN	SP	_	17	nmod	_	_
+20	–	–	PUNCT	FB	_	8	punct	_	_
+21	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+22	Montanelli	Montanelli	PROPN	SP	_	21	nsubj:pass	_	_
+23	–	–	PUNCT	FB	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+27	quanto	quanto	ADP	E	_	28	case	_	_
+28	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	26	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Mack	Mack	PROPN	SP	_	28	nmod	_	_
+31	Smith	Smith	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

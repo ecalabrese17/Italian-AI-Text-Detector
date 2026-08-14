@@ -1,0 +1,266 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I dati sono sintomatici:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sintomatici	sintomatico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = il debito pubblico continua a salire a dismisura, le entrate fiscali sono in crescita solo per effetto di economie di scala e di misure sacrosante, mentre le spese pubbliche si espandono senza alcun controllo, anzi, con un'idea distorta del "benessere" come misura di successo.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	debito	debito	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	salire	salire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	dismisura	dismisura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	entrate	entrata	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+12	fiscali	fiscale	ADJ	A	Number=Plur	11	amod	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+16	solo	solo	ADV	B	_	18	advmod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	economie	economia	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	scala	scala	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	misure	misura	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+26	sacrosante	sacrosante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	25	det	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	4	punct	_	_
+28	mentre	mentre	SCONJ	CS	_	33	mark	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	33	nsubj:pass	_	_
+31	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:pass	_	_
+33	espandono	espandere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+34	senza	senza	ADP	E	_	36	case	_	_
+35	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	36	det	_	_
+36	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	33	punct	_	_
+38	anzi	anzi	ADV	B	_	42	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	con	con	ADP	E	_	42	case	_	_
+41	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	idea	idea	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+43	distorta	distorto	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+44-45	del	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	47	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+47	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	47	punct	_	_
+49	come	come	ADP	E	_	50	case	_	_
+50	misura	misura	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	successo	successo	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Il problema non è soltanto economico, è morale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+6	economico	economico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	morale	morale	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = È nell’abbandono di principi fondamentali come il lavoro conosciuto, l’imposta giusta e la sicurezza dei cittadini che si fabbrica un deficit che non si può più nascondere.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	principi	principio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	fondamentali	fondamentale	ADJ	A	Number=Plur	6	amod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	conosciuto	conosciuto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	fabbrica	fabbrico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	deficit	deficit	NOUN	S	Gender=Masc	24	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	32	obj	_	_
+28	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl:impers	_	_
+30	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	nascondere	nascondere	VERB	V	VerbForm=Inf	26	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = I giovani si pongono una domanda semplice: perché dobbiamo, dopo anni di promesse, mollare negli anni di studio, di lavoro e di sacrificio, appena si sentono esposti a un sistema che non protegge e che ogni anno li trasforma in un'altra parcela di un debito crescente?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giovani	giovane	NOUN	S	Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	pongono	porre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+9	perché	perché	SCONJ	CS	_	10	mark	_	_
+10	dobbiamo	dobbare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dopo	dopo	ADP	E	_	13	case	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	mollare	mollare	VERB	V	VerbForm=Inf	10	conj	_	_
+18-19	negli	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	studio	studio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	appena	appena	ADV	B	_	32	advmod	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+33	esposti	esporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	xcomp	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+39	protegge	proteggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+40	e	e	CCONJ	CC	_	45	cc	_	_
+41	che	che	SCONJ	CS	_	45	mark	_	_
+42	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	43	det	_	_
+43	anno	anno	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+44	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	obj	_	_
+45	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+46	in	in	ADP	E	_	49	case	_	_
+47	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
+48	altra	altro	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	_
+49	parcela	parcela	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	debito	debito	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+53	crescente	crescente	ADJ	A	Number=Sing	52	amod	_	SpaceAfter=No
+54	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = La soluzione non può essere un altro aumento del PIL inattuabile o una politica che si basa sul benvenuto non solo dei consumatori, ma anche dei beni di comodo che sono in grado di esaltare il valore della spesa senza reale valore produttivo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PIL	PIL	PROPN	SP	_	8	nmod	_	_
+12	inattuabile	inattuabile	ADJ	A	Number=Sing	11	amod	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	politica	politica	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	benvenuto	benvenuto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	solo	solo	ADV	B	_	26	advmod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	32	punct	_	_
+28	ma	ma	CCONJ	CC	_	32	cc	_	_
+29	anche	anche	ADV	B	_	32	advmod	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	beni	bene	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	grado	grado	NOUN	S	Gender=Masc|Number=Sing	32	acl:relcl	_	_
+39	di	di	ADP	E	_	40	mark	_	_
+40	esaltare	esaltare	VERB	V	VerbForm=Inf	38	acl	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	valore	valore	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+46	senza	senza	ADP	E	_	48	case	_	_
+47	reale	reale	ADJ	A	Number=Sing	48	amod	_	_
+48	valore	valore	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+49	produttivo	produttivo	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Il vero problema è che il sistema non si riforma.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	riforma	riformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Le riforme sono state bloccate o sfrattate dietro pressioni partitiche, interessi economici e una
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	bloccate	bloccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	sfrattate	sfrattare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+8	dietro	dietro	ADP	E	_	9	case	_	_
+9	pressioni	pressione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	partitiche	partitico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+13	economici	economico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	conj	_	SpacesAfter=\n
+

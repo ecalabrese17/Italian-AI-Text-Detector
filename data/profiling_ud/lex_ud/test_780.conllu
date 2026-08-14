@@ -1,0 +1,319 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pippo Civati, dissidente dem, non accetta meccanismi di finanziamento della scuola paritaria.
+1	Pippo	Pippo	PROPN	SP	_	8	nsubj	_	_
+2	Civati	Civato	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	dissidente	dissidente	NOUN	S	Number=Sing	1	appos	_	_
+5	dem	dem	NOUN	S	Gender=Masc	4	compound	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	meccanismi	meccanismo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	finanziamento	finanziamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	paritaria	paritario	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Civati, perché è contrario?
+1	Civati	Civato	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perché	perché	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = "Non conosco nel dettaglio la proposta dei 44 firmatari dell'appello a Renzi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	44	44	NUM	N	NumType=Card	12	nummod	_	_
+12	firmatari	firmatario	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	appello	appello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Renzi	Renzi	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma sono molto scettico e critico di fronte a misure di questo tipo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	scettico	scettico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	critico	critico	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	fronte	fronte	NOUN	S	Number=Sing	4	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	misure	misura	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Dopo le esperienze nelle regioni amministrate dalla destra che hanno abusato di questo strumento, di fatto è stato impoverito, se non annichilito, il diritto allo studio.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	amministrate	amministrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	destra	destra	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	abusato	abusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	impoverito	impoverire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	se	se	SCONJ	CS	_	26	mark	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	annichilito	annichilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+30-31	allo	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	studio	studio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 6
+# text = Ma non sono d'accordo anche per un altro motivo".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	anche	anche	ADV	B	_	10	advmod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Quale?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = "Difendo il concetto di laicità che sembra scomparso in un momento in cui a livello internazionale si parla di integralismi e fanatismi.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Difendo	Difere	VERB	V	VerbForm=Ger	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	laicità	laicità	NOUN	S	Gender=Fem	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	livello	livello	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+17	internazionale	internazionale	ADJ	A	Number=Sing	16	amod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+19	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	integralismi	integralismo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	fanatismi	fanatismo	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E a livello nazionale si discutono temi sensibili come matrimoni gay e fine vita, per non parlare degli sconti fatti alla Chiesa con l'Imu.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	livello	livello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	nazionale	nazionale	ADJ	A	Number=Sing	3	amod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	discutono	discutere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	temi	tema	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	sensibili	sensibile	ADJ	A	Number=Plur	7	amod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	matrimoni	matrimonio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	gay	gay	ADJ	A	_	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	fine	fine	ADJ	A	Number=Sing	11	conj	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	per	per	ADP	E	_	18	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	parlare	parlare	VERB	V	VerbForm=Inf	6	advcl	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sconti	sconto	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	Imu	Imu	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Non sono forse detrazioni, quelle?".
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	detrazioni	detrazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	4	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = I 44 deputati dicono di voler aiutare chi non se lo può permettere a esercitare il diritto di scelta sancito dalla Costituzione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	44	44	NUM	N	NumType=Card	3	nummod	_	_
+3	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	voler	volere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7	aiutare	aiutare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	obj	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	se	si	SCONJ	CS	_	13	mark	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	permettere	permettere	VERB	V	VerbForm=Inf	8	advcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	esercitare	esercitare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	sancito	sancire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = "Mi fa piacere che si parli di indigenti perché il governo finora per loro non ha fatto nulla.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7-8	parli	_	_	_	_	_	_	_	_
+7	par	parre	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	indigenti	indigente	ADJ	A	Number=Plur	7	obl	_	_
+11	perché	perché	SCONJ	CS	_	19	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governo	governo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+14	finora	finora	ADV	B	_	16	advmod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+20	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Sul tema, tuttavia, sono per misure più radicali come il reddito minimo".
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tema	tema	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tuttavia	tuttavia	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	misure	misura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	radicali	radicale	ADJ	A	Number=Plur	9	amod	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+15	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 14
+# text = Porta chiusa anche a discuterne?
+1	Porta	Porta	NOUN	S	Number=Sing	0	root	_	_
+2	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	discuterne	discuterna	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = "Sono pronto a discutere di misure del genere solo una volta che la scuola pubblica sia stata messa in sicurezza con le risorse necessarie".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	discutere	discutere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	misure	misura	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	genere	genere	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	solo	solo	ADV	B	_	13	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	che	che	SCONJ	CS	_	20	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+17	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+26	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

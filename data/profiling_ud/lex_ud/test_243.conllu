@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "E' una domanda molto difficile da rispondere.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	4	amod	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	rispondere	rispondere	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Anche perché la rampogna va fatta all'opposizione.
+1	Anche	anche	ADV	B	_	6	advmod	_	_
+2	perché	perché	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rampogna	rampogna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = L'asimmetria uscita dalle urne non risolve i problemi, e le turbolenze nella politica turca andranno avanti".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	asimmetria	asimmetria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	urne	urna	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	risolve	risolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	turbolenze	turbolenza	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	politica	politica	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	turca	turca	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	andranno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	_
+20	avanti	avanti	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = E l'Ue come deve comportarsi con Erdogan?
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Ue	Ue	PROPN	SP	_	6	nsubj	_	_
+4	come	come	ADP	E	_	6	mark	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	comportarsi	_	_	_	_	_	_	_	_
+6	comportar	comportare	VERB	V	VerbForm=Inf	0	root	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	Erdogan	Erdogan	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = "Alla luce di questo l'Ue dovrà continuare a far osservare i criteri di Copenaghen, e non cadere nella trappola della realpolitik, maneggiando le questioni politiche quotidiane ma restando invece ferma sui princìpi".
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2-3	Alla	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	luce	luce	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Ue	Ue	PROPN	SP	_	10	nsubj	_	_
+9	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	continuare	continuare	VERB	V	VerbForm=Inf	0	root	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	osservare	osservare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Copenaghen	Copenaghen	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	cadere	cadere	VERB	V	VerbForm=Inf	10	conj	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	trappola	trappola	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	realpolitik	realpolitik	NOUN	S	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	10	punct	_	_
+29	maneggiando	maneggiare	VERB	V	VerbForm=Ger	10	advcl	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+32	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+33	quotidiane	quotidiano	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+34	ma	ma	CCONJ	CC	_	35	cc	_	_
+35	restando	restare	VERB	V	VerbForm=Ger	29	conj	_	_
+36	invece	invece	ADV	B	_	35	advmod	_	_
+37	ferma	ferma	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	sui	_	_	_	_	_	_	_	_
+38	su	su	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	princìpi	principio	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = E la Turchia?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Turchia	Turchia	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "La Turchia entra in una nuova fase di instabilità, e di divisioni, che continueranno per lungo tempo.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Turchia	Turchia	PROPN	SP	_	4	nsubj	_	_
+4	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	fase	fase	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	instabilità	instabilità	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	continueranno	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = L'Europa allora non deve perdere il suo contatto con la società civile turca".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Europa	Europa	PROPN	SP	_	6	nsubj	_	_
+3	allora	allora	ADV	B	_	6	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	perdere	perdere	VERB	V	VerbForm=Inf	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	società	società	NOUN	S	Gender=Fem	6	obl	_	_
+13	civile	civile	ADJ	A	Number=Sing	12	amod	_	_
+14	turca	turca	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ma non è stato un risultato sorprendente, in fondo?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	sorprendente	sorprendente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = "Vero.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Vero	vero	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Per Erdogan è stato un grande successo per il modo con cui lo ha ottenuto.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Erdogan	Erdogan	PROPN	SP	_	7	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	successo	successo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Ma è stato anche il grande fallimento dell'opposizione, incapace di sfruttare al meglio i risultati avuti il 7 giugno scorso.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	incapace	incapace	ADJ	A	Number=Sing	7	amod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	sfruttare	sfruttare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+20	avuti	avere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	7	7	NUM	N	NumType=Card	20	obl	_	_
+23	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+24	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Quei partiti hanno perso il loro momentum, e ora ne pagano il prezzo".
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	momentum	momentum	NOUN	S	Gender=Masc	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	ora	ora	ADV	B	_	12	advmod	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+12	pagano	pagare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = A chi si riferisce?
+1	A	a	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = "Ai socialdemocratici, e soprattutto ai nazionalisti".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2-3	Ai	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	socialdemocratici	socialdemocratico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	nazionalisti	nazionalista	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Anche i curdi hanno perso.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	curdi	curdo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	perso	perso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = "Forse non tanto il loro Partito democratico del popolo, però è stata soprattutto perdente la logica del Pkk di far giocare la carta di Ocalan sullo sfondo.
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	Forse	forse	ADV	B	_	17	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+4	tanto	tanto	SCONJ	CS	_	17	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+8	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	però	però	ADV	B	_	17	advmod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+16	soprattutto	soprattutto	ADV	B	_	17	advmod	_	_
+17	perdente	perdente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	logica	logica	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Pkk	Pkk	PROPN	SP	_	19	nmod	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	far	fare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+25	giocare	giocare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	carta	carta	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Ocalan	Ocalan	PROPN	SP	_	27	nmod	_	_
+30-31	sullo	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = Sembra che il risultato infatti rifletta come gli elettori hanno visto la leadership del terrorismo.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	infatti	infatti	ADV	B	_	6	advmod	_	_
+6	rifletta	riflettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	leadership	leadership	NOUN	S	Gender=Fem	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = E Erdogan ha sfruttato questa paura molto bene".
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	Erdogan	Erdogan	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sfruttato	sfruttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

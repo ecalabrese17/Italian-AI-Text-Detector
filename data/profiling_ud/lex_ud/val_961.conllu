@@ -1,0 +1,735 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La vittima, trasportata in ospedale, non è in pericolo di vita.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	trasportata	trasportare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Secondo quanto di è appreso due persone, anche loro a bordo di uno scooter e con il volto nascosto dal casco, si sono avvicinate ad Antonini all’altezza del civico 872 di via Flaminia, esplodendo due colpi di pistola sparachiodi.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	27	obl	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	iobj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	scooter	scooter	NOUN	S	Gender=Masc	12	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	volto	volto	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+20	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	casco	casco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	5	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	avvicinate	avvicinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+28	ad	a	ADP	E	_	29	case	_	_
+29	Antonini	Antonini	PROPN	SP	_	27	obl	_	_
+30-31	all’	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	civico	civico	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	872	872	NUM	N	NumType=Card	35	nummod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	via	via	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	Flaminia	Flaminia	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	27	punct	_	_
+41	esplodendo	esplodere	VERB	V	VerbForm=Ger	27	advcl	_	_
+42	due	due	NUM	N	NumType=Card	43	nummod	_	_
+43	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+46	sparachiodi	sparachiodo	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = Il consigliere Antonini riveste, in ambito municipale, la delega allo Sport.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Antonini	Antonini	PROPN	SP	_	2	nmod	_	_
+4	riveste	rivedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	municipale	municipale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	delega	delega	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+12-13	allo	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Sport	Sport	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Eletto da indipendente nelle liste de La Destra è il vicepresidente di Casa Pound Italia e responsabile per il Lazio del movimento.
+1	Eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	indipendente	indipendente	ADJ	A	Number=Sing	1	obl	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	liste	lista	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	de	de	ADP	E	_	9	case	_	_
+8	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Destra	destra	PROPN	SP	_	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	vicepresidente	vicepresidente	NOUN	S	Number=Sing	1	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Casa	casa	PROPN	SP	_	12	nmod	_	_
+15	Pound	Pound	PROPN	SP	_	14	flat:name	_	_
+16	Italia	Italia	PROPN	SP	_	14	flat:name	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	responsabile	responsabile	ADJ	A	Number=Sing	14	conj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Lazio	Lazio	PROPN	SP	_	18	obl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sulla vicenda indaga la Digos di Roma e il commissariato Flaminio.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	indaga	indagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Digos	Digos	PROPN	SP	_	4	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Roma	Roma	PROPN	SP	_	6	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	commissariato	commissariato	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	Flaminio	Flaminio	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Il ricovero Potrebbe essere stato colpito con una sparachiodi:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricovero	ricovero	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	Potrebbe	potere	PROPN	SP	_	2	nmod	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sparachiodi	sparachiodo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = due colpi hanno trapassato la coscia sinistra di Antonini, che ha poi ugualmente raggiunto la sede del XX Municipio, distante poche centinaia di metri, dove è stato soccorso.
+1	due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trapassato	trapassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coscia	coscia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Antonini	Antonini	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	poi	poi	ADV	B	_	15	advmod	_	_
+14	ugualmente	ugualmente	ADV	B	_	15	advmod	_	_
+15	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sede	sede	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	XX	XX	PROPN	SP	_	17	nmod	_	_
+21	Municipio	municipio	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	distante	distante	ADJ	A	Number=Sing	25	amod	_	_
+24	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	17	appos	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	metri	metro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	dove	dove	ADV	B	_	32	advmod	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	soccorso	soccorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = I medici dell’ospedale Sant’Andrea hanno rilevato due fori di entrata e due di uscita.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	medici	medico	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Sant’	Santo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	Andrea	Andrea	PROPN	SP	_	6	flat:name	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rilevato	rilevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	fori	foro	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	due	due	NUM	N	NumType=Card	9	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = I due proiettili non hanno danneggiato l’osso e sono usciti dalla gamba senza richiedere l’estrazione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	proiettili	proiettile	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	danneggiato	danneggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	osso	osso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	senza	senza	ADP	E	_	16	mark	_	_
+16	richiedere	richiedere	VERB	V	VerbForm=Inf	11	advcl	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	estrazione	estrazione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Antonini sarà sottoposto ad accertamenti vascolari per verificare la presenza di eventuali danni alle arterie.
+1	Antonini	Antonini	PROPN	SP	_	3	nsubj:pass	_	_
+2	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+3	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	vascolari	vascolare	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	verificare	verificare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	eventuali	eventuale	ADJ	A	Number=Plur	13	amod	_	_
+13	danni	danno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	arterie	arteria	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Le sue condizioni non destano alcuna preoccupazione:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	destano	destare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = potrebbe essere dimesso in serata dall’ospedale Sant’Andrea e giudicato guaribile in 10 giorni.
+1	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux:pass	_	_
+3	dimesso	dimettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	serata	serata	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	Sant’	Santo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	Andrea	Andrea	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	giudicato	giudicare	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	guaribile	guaribile	ADJ	A	Number=Sing	12	amod	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	10	10	NUM	N	NumType=Card	16	nummod	_	_
+16	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Indagato Antonini è tra i 12 indagati che la notte del 4 novembre del 2008 fecero irruzione negli studi Rai di via Teulada e tentarono un blitz negli studi del programma Chi l’ha visto?
+1	Indagato	indagare	PROPN	SP	_	7	nsubj	_	_
+2	Antonini	Antonini	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	tra	tra	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	12	12	NUM	N	NumType=Card	7	nummod	_	_
+7	indagati	indagare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	che	che	SCONJ	CS	_	18	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	notte	notte	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	4	4	NUM	N	NumType=Card	10	nmod	_	_
+14	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2008	2008	NUM	N	NumType=Card	14	nmod	_	_
+18	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+19	irruzione	irruzione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+20-21	negli	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	studi	studio	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+23	Rai	Rai	PROPN	SP	_	22	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	via	via	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	Teulada	Teulada	PROPN	SP	_	25	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	tentarono	tentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	blitz	blitz	NOUN	S	Gender=Masc	28	obj	_	_
+31-32	negli	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	studi	studio	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	programma	programma	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37	Chi	chi	PRON	PR	PronType=Rel	40	nsubj	_	_
+38	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	40	obj	_	SpaceAfter=No
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl:relcl	_	SpaceAfter=No
+41	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = , "colpevole" di avere mandato in onda immagini inedite degli scontri avvenuti a piazza Navona pochi giorni prima tra studenti di destra e di sinistra.
+1	,	,	PUNCT	FF	_	3	punct	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	colpevole	colpevole	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	avere	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	onda	onda	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	inedite	inedito	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	avvenuti	avvenire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	Navona	Navona	PROPN	SP	_	14	nmod	_	_
+19	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+21	prima	prima	ADV	B	_	20	advmod	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	destra	destra	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Oltre a lui, è indagato anche il presidente del centro sociale di destra Casa Pound Italia, Gianluca Iannone.
+1	Oltre	oltre	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	centro	centro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	sociale	sociale	ADJ	A	Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	destra	destra	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	Casa	casa	PROPN	SP	_	12	nmod	_	_
+17	Pound	Pound	PROPN	SP	_	16	flat:name	_	_
+18	Italia	Italia	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	Gianluca	Gianluca	PROPN	SP	_	9	appos	_	_
+21	Iannone	Iannone	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Ai 12, che furono identificati dagli uomini della Digos, i magistrati della procura di Roma contestano il concorso in violenza e minaccia aggravate a incaricati di pubblico servizio, cioé ai registi e redattori della trasmissione di Rai3.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	12	12	NUM	N	NumType=Card	22	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+6	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	identificati	identificare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8-9	dagli	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Digos	Digos	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	procura	procura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Roma	Roma	PROPN	SP	_	19	nmod	_	_
+22	contestano	contestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+29	aggravate	aggravare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	incaricati	incaricato	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	cioé	cioé	CCONJ	CC	_	39	cc	_	_
+37-38	ai	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	registi	regista	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	redattori	redattore	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	Rai3	Rai3	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 17
+# text = Inchiesta della procura
+1	Inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	procura	procura	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = 18
+# text = La procura di Roma ha aperto un fascicolo sul ferimento del consigliere circoscrizionale del XX Municipio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fascicolo	fascicolo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ferimento	ferimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	circoscrizionale	circoscrizionale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	XX	XX	PROPN	SP	_	14	nmod	_	_
+19	Municipio	municipio	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Lesioni aggravate il reato preso in esame dagli inquirenti di piazzale Clodio.
+1	Lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	aggravate	aggravare	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	reato	reato	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	dagli	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	piazzale	piazzale	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	Clodio	Clodio	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Accertamenti sono ora in corso per verificare l’ambito in cui è maturata la gambizzazione dell’esponente politico.
+1	Accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ora	ora	ADV	B	_	5	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	verificare	verificare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	maturata	maturare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gambizzazione	gambizzazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	esponente	esponente	NOUN	S	Number=Sing	15	nmod	_	_
+19	politico	politico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = La Digos è al lavoro per individuare la pista investigativa più plausibile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Digos	Digos	PROPN	SP	_	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	individuare	individuare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pista	pista	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	investigativa	investigativo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	plausibile	plausibile	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Nessuna ipotesi viene esclusa, ma in questa prima fase le indagini si starebbero orientando su una possibile matrice interna agli ambienti di estrema destra.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	ipotesi	ipotesi	NOUN	S	Gender=Fem	4	nsubj:pass	_	_
+3	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	esclusa	escludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	15	punct	_	_
+6	ma	ma	CCONJ	CC	_	15	cc	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	fase	fase	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	starebbero	staere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	orientando	orientare	VERB	V	VerbForm=Ger	4	conj	_	_
+16	su	su	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	possibile	possibile	ADJ	A	Number=Sing	19	amod	_	_
+19	matrice	matrice	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	interna	interno	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	agli	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	estrema	estremo	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	destra	destra	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Gli accertamenti sono tuttora in corso e sono al vaglio altre possibili piste, come ad esempio un’azione di stampo politico opposto compiuta da esponenti dell’area antagonista.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	tuttora	tuttora	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vaglio	vaglio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	altre	altro	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	possibili	possibile	ADJ	A	Number=Plur	14	amod	_	_
+14	piste	pista	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	come	come	ADP	E	_	20	case	_	_
+17	ad	a	ADP	E	_	18	case	_	_
+18	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+19	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	azione	azione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	politico	politico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	opposto	opposto	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+25	compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	25	obl:agent	_	_
+28-29	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	area	area	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	antagonista	antagonista	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Alemanno:
+1	Alemanno	Alemanno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 25
+# text = "Abbassare i toni" "Non vorrei che questo gravissimo episodio ci riportasse a un clima da anni di piombo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abbassare	Abbassare	VERB	V	VerbForm=Inf	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	toni	tono	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	_
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	Non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	12	amod	_	_
+12	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+14	riportasse	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	clima	clima	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Dobbiamo dare il tempo agli inquirenti di verificare la natura di questo grave attentato ma, se fosse confermato il movente politico, sarebbe la riprova di un brutto clima di tensione generato da un livello troppo alto di polemica politica.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	verificare	verificare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	natura	natura	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	grave	grave	ADJ	A	Number=Sing	15	amod	_	_
+15	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	ma	ma	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	se	se	SCONJ	CS	_	20	mark	_	_
+19	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux:pass	_	_
+20	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	movente	movente	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	politico	politico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	riprova	riprova	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	clima	clima	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	generato	generare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	livello	livello	NOUN	S	Gender=Masc|Number=Sing	34	obl:agent	_	_
+38	troppo	troppo	ADV	B	_	39	advmod	_	_
+39	alto	alto	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+42	politica	politico	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = In ogni caso la mia piena solidarietà, umana e istituzionale, al consigliere Antonini con la speranza che gli inquirenti facciano immediatamente piena luce su questo episodio" dichiara in una nota il sindaco di Roma, Gianni Alemanno.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	solidarietà	solidarietà	NOUN	S	Gender=Fem	31	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	umana	umano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	istituzionale	istituzionale	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+16	Antonini	Antonini	PROPN	SP	_	15	nmod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+23	facciano	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24	immediatamente	immediato	ADV	B	_	23	advmod	_	_
+25	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	luce	luce	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	7	punct	_	_
+31	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	nota	nota	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Roma	Roma	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40	Gianni	Gianni	PROPN	SP	_	36	appos	_	_
+41	Alemanno	Alemanno	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

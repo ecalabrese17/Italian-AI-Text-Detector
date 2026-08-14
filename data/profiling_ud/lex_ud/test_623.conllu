@@ -1,0 +1,485 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Alcuni servizi giornalistici - che hanno associato le violenze su una ragazza italiana di 18 anni agli spari contro migranti del tutto estranei ai fatti - hanno suscitato allarme e disappunto.
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	31	nsubj	_	_
+3	giornalistici	giornalistico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	-	-	PUNCT	FB	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	associato	associare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	18	18	NUM	N	NumType=Card	16	nummod	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+17-18	agli	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	spari	sparo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+20	contro	contro	ADP	E	_	21	case	_	_
+21	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	tutto	tutto	ADV	B	_	25	advmod	_	_
+25	estranei	estranei	ADJ	A	Gender=Masc|Number=Plur	19	nmod	_	_
+26-27	ai	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	-	-	PUNCT	FB	_	2	punct	_	_
+30	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	disappunto	disappunto	NOUN	S	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 2
+# text = Ora, i due fatti (le sevizie su Pamela e gli spari di Traini ) sono certamente intrecciati tra loro.
+1	Ora	ora	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	sevizie	sevizia	NOUN	S	Gender=Fem|Number=Plur	5	appos	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	Pamela	Pamela	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	spari	sparo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Traini	Traini	PROPN	SP	_	13	nmod	_	_
+16	)	)	PUNCT	FB	_	8	punct	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	certamente	certamente	ADV	B	_	19	advmod	_	_
+19	intrecciati	intrecciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+20	tra	tra	ADP	E	_	21	case	_	_
+21	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = Ma il Garante pensa che alcuni servizi di alcuni tg, alcune parole di qualche opinionista abbiano finito quasi per giustificare le violenze contro i cittadini stranieri solo perché uno tra loro è sospettato di azioni gravissime contro una donna italiana.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Garante	Garante	PROPN	SP	_	4	nsubj	_	_
+4	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	18	mark	_	_
+6	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	tg	tg	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	opinionista	opinionista	NOUN	S	Number=Sing	13	nmod	_	_
+17	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+19	quasi	quasi	ADV	B	_	21	advmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	giustificare	giustificare	VERB	V	VerbForm=Inf	18	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	contro	contro	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	solo	solo	ADV	B	_	34	advmod	_	_
+29	perché	perché	SCONJ	CS	_	34	mark	_	_
+30	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	34	nsubj	_	_
+31	tra	tra	ADP	E	_	32	case	_	_
+32	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	34	obl	_	_
+33	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	sospettato	sospettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+37	gravissime	grave	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	36	amod	_	_
+38	contro	contro	ADP	E	_	40	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	donna	donna	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+41	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Nasce così il "forte richiamo" che il Garante indirizza a "tutte le emittenti radio-televisive" perché promuovano il "rispetto della dignità umana e la non discriminazione".
+1	Nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	così	così	ADV	B	_	1	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	forte	forte	ADJ	A	Number=Sing	6	amod	_	_
+6	richiamo	richiamo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Garante	Garante	PROPN	SP	_	11	nsubj	_	_
+11	indirizza	indirizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	a	a	ADP	E	_	16	case	_	_
+13	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	emittenti	emittente	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	radio	radio	NOUN	S	Gender=Fem	16	compound	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+19	televisive	televisivo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	22	punct	_	_
+21	perché	perché	SCONJ	CS	_	22	mark	_	_
+22	promuovano	promuore	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	dignità	dignità	NOUN	S	Gender=Fem	25	nmod	_	_
+29	umana	umano	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = La televisione è un luogo fondamentale per "prevenire forme dirette o indirette di incitamento all’odio basato su etnia, sesso, religione o nazionalita".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	prevenire	prevenire	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	forme	forma	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	dirette	diretto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	indirette	indiretto	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	incitamento	incitamento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16-17	all’	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	odio	odio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+19	basato	basato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	etnia	etnia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	religione	religione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+26	o	o	CCONJ	CC	_	27	cc	_	_
+27	nazionalita	nazionalita	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Il Garante - pur consapevole che le emittenti siano pienamente libere sul piano editoriale - "ritiene preoccupanti particolari scelte di narrazione e di diffusione di immagini su argomenti di cronaca criminale".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Garante	Garante	PROPN	SP	_	18	nsubj	_	_
+3	-	-	PUNCT	FF	_	5	punct	_	_
+4	pur	pure	ADV	B	_	5	advmod	_	_
+5	consapevole	consapevole	ADJ	A	Number=Sing	2	amod	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	emittenti	emittente	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	pienamente	pienamente	ADV	B	_	11	advmod	_	_
+11	libere	libero	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	editoriale	editoriale	ADJ	A	Number=Sing	14	amod	_	_
+16	-	-	PUNCT	FF	_	11	punct	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	ritiene	ritenere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+19	preoccupanti	preoccupante	ADJ	A	Number=Plur	18	amod	_	_
+20	particolari	particolare	ADJ	A	Number=Plur	18	amod	_	_
+21	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	su	su	ADP	E	_	30	case	_	_
+30	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	criminale	criminale	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 7
+# text = Sono scelte che, a suo parere, "ripropongono letture semplicistiche e stereotipate di fenomeni complessi quali l’immigrazione e l’integrazione, travisando la veritiera e oggettiva rappresentazione dei fatti stessi".
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scelte	scegliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	10	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	parere	parere	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	ripropongono	riproporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	letture	lettura	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+12	semplicistiche	semplicistico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	stereotipate	stereotipato	ADJ	A	Gender=Fem|Number=Plur	12	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fenomeni	fenomeno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17	complessi	complesso	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	quali	quale	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	immigrazione	immigrazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	10	punct	_	_
+25	travisando	travisare	VERB	V	VerbForm=Ger	10	advcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	veritiera	veritiero	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	oggettiva	oggettivo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	rappresentazione	rappresentazione	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Per questo, il Garante intima alle televisioni "di uniformarsi a criteri di verità, rispettando la dignità umana ed evitando contenuti che possano contribuire all’odio".
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Garante	Garante	PROPN	SP	_	6	nsubj	_	_
+6	intima	intimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	televisioni	televisione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	uniformarsi	_	_	_	_	_	_	_	_
+12	uniformar	uniformare	VERB	V	VerbForm=Inf	9	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	verità	verità	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	rispettando	rispettare	VERB	V	VerbForm=Ger	6	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	dignità	dignità	NOUN	S	Gender=Fem	19	obj	_	_
+22	umana	umano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24	evitando	evitare	VERB	V	VerbForm=Ger	19	conj	_	_
+25	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	contribuire	contribuire	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+29-30	all’	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	odio	odio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = La sensazione è che qualche telegiornale o programma abbia sbagliato in cattiva fede, con l'obiettivo di spostare voti verso questa o quella forza politica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	telegiornale	telegiornale	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	programma	programma	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+9	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	fede	fede	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	spostare	spostare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	voti	voto	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	verso	verso	ADP	E	_	22	case	_	_
+22	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	19	obl	_	_
+23	o	o	CCONJ	CC	_	25	cc	_	_
+24	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	forza	forza	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26	politica	politico	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Non a caso il Garante scrive:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Garante	Garante	PROPN	SP	_	6	nsubj	_	_
+6	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = "In questo periodo di campagna elettorale, le emittenti rischiano di incorrere nel mancato rispetto di principi costituzionali fondamentali".
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	elettorale	elettorale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	emittenti	emittente	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+11	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	incorrere	incorrere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	principi	principio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	costituzionali	costituzionale	ADJ	A	Number=Plur	19	amod	_	_
+21	fondamentali	fondamentale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 12
+# text = La missione della televisione è tutt'altra:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	missione	missione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	tutt'	tutto	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 13
+# text = ogni giorno, telegiornali e programmi dovrebbe aiutare gli italiani a individuare le forme di propaganda basate sull'odio (gli "hate speech"), contrastando "fenomeni di razzismo nelle loro espressioni mediatiche".
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	telegiornali	telegiornale	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+7	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	individuare	individuare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	forme	forma	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	basate	basato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+18-19	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	odio	odio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	hate	hato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+25	speech	speech	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	17	punct	_	_
+29	contrastando	contrastare	VERB	V	VerbForm=Ger	17	advcl	_	_
+30	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	fenomeni	fenomeno	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34-35	nelle	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+36	loro	loro	DET	AP	Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	espressioni	espressioni	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+38	mediatiche	mediatico	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = La mossa del Garante segue la delibera del 2016 (la numero 424) che - su iniziativa del commissario Antonio Nicita - promosse la "non discriminazione nei programmi di informazione, di approfondimento informativo e anche di intrattenimento".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Garante	Garante	PROPN	SP	_	2	nmod	_	_
+6	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	delibera	delibera	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2016	2016	NUM	N	NumType=Card	8	nummod	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	numero	numero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+15	424	424	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	14	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+18	-	-	PUNCT	FB	_	17	punct	_	_
+19	su	su	ADP	E	_	20	case	_	_
+20	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	commissario	commissario	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	Antonio	Antonio	PROPN	SP	_	23	nmod	_	_
+25	Nicita	Nicito	PROPN	SP	_	24	flat:name	_	_
+26	-	-	PUNCT	FF	_	20	punct	_	_
+27	promosse	promuovere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	discriminazione	discriminazione	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+32-33	nei	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	approfondimento	approfondimento	NOUN	S	Gender=Masc|Number=Sing	36	conj	_	_
+40	informativo	informativo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42	anche	anche	ADV	B	_	44	advmod	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	intrattenimento	intrattenimento	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
+45	"	"	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = @aldofontanarosa
+1	@aldofontanarosa	@aldofontanaroso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

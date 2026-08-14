@@ -1,0 +1,323 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Sono arrivato ad avere una decina di flirt in giro per il mondo e tre, quattro in Italia.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	avere	avere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	decina	decina	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	flirt	flirt	NOUN	S	Gender=Masc	7	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	giro	giro	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	tre	tre	NUM	N	NumType=Card	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	quattro	quattro	NUM	N	NumType=Card	20	nummod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Italia	Italia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Inventavo concerti inesistenti, esibizioni private, riunioni, contratti da firmare.
+1	Inventavo	Inventavo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	inesistenti	inesistente	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	esibizioni	esibizione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+6	private	privato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	riunioni	riunione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	contratti	contrarre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	firmare	firmare	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Poi prendevo la mia Jaguar e portavo le mie amanti a Venezia al Cipriani o al Danieli.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	prendevo	prendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Jaguar	Jaguar	PROPN	SP	_	2	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	portavo	portare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	amanti	amante	NOUN	S	Number=Plur	7	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Venezia	Venezia	PROPN	SP	_	7	obl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Cipriani	Cipriani	PROPN	SP	_	7	obl	_	_
+16	o	o	CCONJ	CC	_	19	cc	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Danieli	Danieli	PROPN	SP	_	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Quante sberle mi sono beccato perché confondevo i nomi delle donne!" , racconta alla rivista.
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2-3	sberle	_	_	_	_	_	_	_	_
+2	sber	sbere	NOUN	S	_	6	nsubj	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	beccato	beccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	perché	perché	SCONJ	CS	_	8	mark	_	_
+8	confondevo	confondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	6	punct	_	_
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = La sua bugia che più lo imbarazza?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	bugia	bugia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	imbarazza	imbarazzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Eccola:
+1	Eccola	Eccolo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = "Non sapevo come liberarmi di una donna e allora andai da lei e piangendo la convinsi che mi restavano poche settimane di vita, che era meglio non vedersi più" . Infine, l’artista svela qual è stata la sua panzana più rischiosa:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	liberarmi	arma|liberarme	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	allora	allora	ADV	B	_	13	advmod	_	_
+11	andai	andare	ADV	B	_	13	case	_	_
+12	da	da	ADP	E	_	11	fixed	_	_
+13	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	piangendo	piangere	VERB	V	VerbForm=Ger	3	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	convinsi	convinso	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	restavano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+21	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+22	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+27	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+28	meglio	meglio	ADV	B	_	30	advmod	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30-31	vedersi	_	_	_	_	_	_	_	_
+30	veder	vedere	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+32	più	più	ADV	B	_	30	advmod	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	32	punct	_	_
+34	.	.	PUNCT	FS	_	3	punct	_	_
+35	Infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	artista	artista	NOUN	S	Number=Sing	3	obj	_	_
+39	svela	svelare	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	qual	quale	PRON	PQ	Number=Sing|PronType=Int	45	nsubj	_	_
+41	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+42	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	cop	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	panzana	panzana	NOUN	S	Gender=Fem|Number=Sing	38	acl:relcl	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	rischiosa	rischioso	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+48	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Ho i brividi a pensarci.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	brividi	brividio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	pensarci	_	_	_	_	_	_	_	SpaceAfter=No
+6	pensar	pensare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Nel 1983 un giorno perdo a carte 75 milioni di lire e pago con tre assegni da 25 milioni.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1983	1983	NUM	N	NumType=Card	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	perdo	perdare	ADV	B	_	8	advmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	carte	carta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	75	75	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lire	lira	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	pago	pago	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	tre	tre	NUM	N	NumType=Card	17	nummod	_	_
+17	assegni	assegno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	25	25	NUM	N	NumType=Card	20	nummod	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Dopo qualche tempo la Polizia fa un blitz e scopre una bisca a Bergamo dove rintraccia i miei assegni e arresta un gruppo di truffatori.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	blitz	blitz	NOUN	S	Gender=Masc	6	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	scopre	scoprire	VERB	V	VerbForm=Inf	6	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bisca	bisca	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Bergamo	Bergamo	PROPN	SP	_	12	nmod	_	_
+15	dove	dove	ADV	B	_	16	advmod	_	_
+16	rintraccia	rintracciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	assegni	assegno	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	arresta	arrestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	truffatori	truffatore	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Senonché 7 o 8 anni dopo quella gente esce di galera, si ricorda del mio debito e mi viene a cercare.
+1	Senonché	Senonché	SCONJ	CS	_	14	mark	_	_
+2	7	7	NUM	N	NumType=Card	5	nummod	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	8	8	NUM	N	NumType=Card	2	conj	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	galera	galera	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	debito	debito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	cercare	cercare	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 12
+# text = Nel frattempo però io mi ero giocato tutto.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	però	però	ADV	B	_	8	advmod	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Mi salvai inscenando la mia disperazione e dicendo una bugia squallida:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	salvai	salvare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	inscenando	inscenare	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	dicendo	dire	VERB	V	VerbForm=Ger	3	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bugia	bugia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	squallida	squallido	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = inventai che avevo un gravissimo problema familiare, che mia madre o una delle mie figlie aveva una malattia rara e costosissima.
+1	inventai	inventai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	_
+6	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	familiare	familiare	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	che	che	SCONJ	CS	_	18	mark	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	conj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	figlie	figlia	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	rara	raro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	costosissima	costoso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Fui così credibile che rinunciarono" .
+1	Fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	credibile	credibile	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	rinunciarono	rinunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

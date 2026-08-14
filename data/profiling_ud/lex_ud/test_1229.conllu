@@ -1,0 +1,510 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Un progresso di civiltà per il nostro paese", spiega Delgènes, fondatore e direttore di Technologia, società specializzata nella prevenzione dei rischi del lavoro.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	civiltà	civiltà	NOUN	S	Gender=Fem	3	nmod	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	Delgènes	Delgènes	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Technologia	Technologia	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	società	società	NOUN	S	Gender=Fem	17	appos	_	_
+22	specializzata	specializzato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perché serve una legge sul burnout?
+1	Perché	perché	SCONJ	CS	_	2	mark	_	_
+2	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	legge	legge	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	burnout	burnout	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = "Noi preferiamo parlare di "esaurimento professionale".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	preferiamo	preferire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	esaurimento	esaurimento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	professionale	professionale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non ci sono statistiche ufficiale, né alcun piano di prevenzione nazionale.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	statistiche	statistica	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	ufficiale	ufficiale	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	né	né	CCONJ	CC	_	9	cc	_	_
+8	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	piano	piano	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	nazionale	nazionale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Siamo stati noi a Technologia i primi a pubblicare un rapporto nel quale abbiamo stimato oltre 3 milioni di persone a rischio.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Technologia	Technologia	PROPN	SP	_	7	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	pubblicare	pubblicare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	obl	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	stimato	stimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	oltre	oltre	ADP	E	_	19	case	_	_
+18	3	3	NUM	N	NumType=Card	19	nummod	_	_
+19	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = È una patologia in forte crescita anche altrove.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	forte	forte	ADJ	A	Number=Sing	6	amod	_	_
+6	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	altrove	altrove	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Paesi come la Svezia o la Danimarca hanno già varato delle leggi apposite".
+1	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Svezia	Svezia	PROPN	SP	_	1	nmod	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Danimarca	Danimarca	PROPN	SP	_	4	conj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	già	già	ADV	B	_	10	advmod	_	_
+10	varato	varare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	apposite	apposito	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Quale prevenzione?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = "È una malattia tipica dei periodi di crisi e di cambio dei modelli produttivi.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	tipica	tipico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	crisi	crisi	NOUN	S	Gender=Fem	8	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	produttivi	produttivo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = L'esaurimento professionale è dovuto a due fattori:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esaurimento	esaurimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	professionale	professionale	ADJ	A	Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	dovuto	dovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = le nuove forme di organizzazione del management, e l'aumento dell'orario di lavoro, anche a casa o in vacanza, a causa delle nuove tecnologie.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	forme	forma	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	management	management	NOUN	S	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	orario	orario	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+22	o	o	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	causa	causa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Si tratta di una malattia provocata dall'eccesso di sollecitazioni e aspettative professionali.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	provocata	provocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sollecitazioni	sollecitazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+14	professionali	professionale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Molte persone accettano queste condizioni perché sentono la precarietà che li circonda e hanno paura di perdere il posto.
+1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	accettano	accettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	perché	perché	SCONJ	CS	_	7	mark	_	_
+7	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	precarietà	precarietà	NOUN	S	Gender=Fem	7	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	circonda	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	perdere	perdere	VERB	V	VerbForm=Inf	15	acl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	posto	posto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Siamo in un mondo professionale sempre più competitivo ".
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	professionale	professionale	ADJ	A	Number=Sing	4	amod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	competitivo	competitivo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Cosa dovrebbe fare lo Stato?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = "Oggi il burnout viene considerato come una qualsiasi depressione, mentre ha cause e terapie diverse.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Oggi	oggi	ADV	B	_	6	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	burnout	burnout	NOUN	S	Gender=Masc	6	nsubj:pass	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	qualsiasi	qualsiasi	ADJ	A	Number=Sing	10	amod	_	_
+10	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	cause	causa	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	terapie	terapia	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+17	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Al livello normativo dobbiamo superare due difficoltà:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	livello	livello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	superare	superare	VERB	V	VerbForm=Inf	0	root	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	difficoltà	difficoltà	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 18
+# text = riconoscere che esistono malattie professionali di origine psicologica, catalogandone i sintomi, e prevedere un tasso di invalidità collegato ".
+1	riconoscere	riconoscere	VERB	V	VerbForm=Inf	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	professionali	professionale	ADJ	A	Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	origine	origine	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10-11	catalogandone	_	_	_	_	_	_	_	_
+10	catalogando	catalogare	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	prevedere	prevedere	VERB	V	VerbForm=Inf	1	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	invalidità	invalidità	NOUN	S	Gender=Fem	18	nmod	_	_
+21	collegato	collegato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Perché le imprese francesi sono contro la legge?
+1	Perché	perché	ADV	B	_	8	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	francesi	francese	ADJ	A	Number=Plur	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	contro	contro	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = "Ovviamente ci sarebbe un impatto economico.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Ovviamente	ovviamente	ADV	B	_	6	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+4	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	economico	economico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Ma è proprio quello che noi chiediamo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	proprio	proprio	ADV	B	_	4	advmod	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Per avviare un cambio di mentalità nell'organizzazione del lavoro servono sanzioni collegate al burnout.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	avviare	avviare	VERB	V	VerbForm=Inf	13	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	mentalità	mentalità	NOUN	S	Gender=Fem	4	nmod	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+15	collegate	collegare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	burnout	burnout	NOUN	S	Gender=Masc	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 23
+# text = Trent'anni fa c'erano ancora molti morti sul lavoro.
+1	Trent'	trenta	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	morti	morire	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = In Francia oggi gli incidenti fatali sono pochissimi, proprio perché il datore di lavoro rischia di pagare tra i 250 e 280 mila euro per ogni vittima.
+1	In	in	ADP	E	_	2	case	_	_
+2	Francia	Francia	PROPN	SP	_	8	nmod	_	_
+3	oggi	oggi	ADV	B	_	5	advmod	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	fatali	fatale	ADJ	A	Number=Plur	5	amod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	pochissimi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	proprio	proprio	ADV	B	_	16	advmod	_	_
+11	perché	perché	SCONJ	CS	_	16	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	datore	datore	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	pagare	pagare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	tra	tra	ADP	E	_	25	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+21	250	250	NUM	N	NumType=Card	25	nummod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	280	280	NUM	N	NumType=Card	21	conj	_	_
+24	mila	mila	NUM	N	NumType=Card	21	flat	_	_
+25	euro	euro	NOUN	S	Gender=Masc	18	obl	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 25
+# text = L'attuale situazione è intollerabile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	attuale	attuale	ADJ	A	Number=Sing	3	amod	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	intollerabile	intollerabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Non possiamo ignorare le persone che soffrono di esaurimento professionale, come fossero lebbrosi.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ignorare	ignorare	VERB	V	VerbForm=Inf	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	esaurimento	esaurimento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	professionale	professionale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	come	come	SCONJ	CS	_	14	mark	_	_
+13	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	lebbrosi	lebbroso	ADJ	A	Gender=Masc|Number=Plur	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Tutti gli psichiatri sono d'accordo:
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	psichiatri	psichiatro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 28
+# text = già il fatto di dare una definizione e un riconoscimento normativo potrà alleviare la loro sofferenza".
+1	già	già	ADV	B	_	13	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	dare	dare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	definizione	definizione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	alleviare	alleviare	VERB	V	VerbForm=Inf	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

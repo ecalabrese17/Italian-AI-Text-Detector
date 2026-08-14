@@ -1,0 +1,524 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rizzoli, 42 anni, ha già diretto tre incontri in questa edizione della coppa del mondo:
+1	Rizzoli	Rizzoli	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	42	42	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	coppa	coppa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = Spagna-Olanda, Argentina-Nigeria ed Argentina-Belgio.
+1	Spagna	Spagna	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Olanda	Olanda	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Argentina-Nigeria	Argentina-Nigeria	PROPN	SP	_	1	conj	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	Argentina-Belgio	Argentina-Belgio	PROPN	SP	_	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Proprio il fatto di aver diretto già due volte la nazionale albiceleste sembrava escludere la candidatura del fischietto emiliano.
+1	Proprio	proprio	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7	già	già	ADV	B	_	9	advmod	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	nazionale	nazionale	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+12	albiceleste	albicelesta	ADJ	A	Number=Sing	11	amod	_	_
+13	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	escludere	escludere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fischietto	fischietto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	emiliano	emiliano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Rizzoli sarà il terzo arbitro italiano a dirigere una finale mondiale:
+1	Rizzoli	Rizzoli	PROPN	SP	_	5	nsubj	_	_
+2	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	dirigere	dirigere	VERB	V	VerbForm=Inf	5	acl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	finale	finale	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	mondiale	mondiale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = prima di lui è toccato a Gonella nel 1978 (Argentina - Olanda, 3 a 1 per i sudamericani) e a Collina nel 2002 (Germania - Brasile 0-2).
+1	prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Gonella	Gonella	PROPN	SP	_	5	obl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	1978	1978	NUM	N	NumType=Card	5	obl	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Argentina	Argentina	PROPN	SP	_	10	nmod	_	_
+13	-	-	PUNCT	FF	_	12	punct	_	_
+14	Olanda	Olanda	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	3	3	NUM	N	NumType=Card	12	nummod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	1	1	NUM	N	NumType=Card	16	fixed	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sudamericani	sudamericano	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	12	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Collina	collina	PROPN	SP	_	10	conj	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	2002	2002	NUM	N	NumType=Card	25	nummod	_	_
+29	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	Germania	Germania	PROPN	SP	_	25	nmod	_	_
+31	-	-	PUNCT	FF	_	30	punct	_	_
+32	Brasile	Brasile	PROPN	SP	_	30	nmod	_	_
+33	0	0	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+34	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+35	2	2	NUM	N	NumType=Card	33	compound	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = "E' il massimo che si possa sognare, è meraviglioso ed è impossibile descrivere che cosa significhi per un arbitro dirigere la finale dei Mondiali".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sognare	sognare	VERB	V	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+12	ed	e	CCONJ	CC	_	14	cc	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	impossibile	impossibile	ADJ	A	Number=Sing	11	conj	_	_
+15	descrivere	descrivere	VERB	V	VerbForm=Inf	14	csubj	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	18	nsubj	_	_
+18	significhi	significare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	dirigere	dirigere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	finale	finale	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Mondiali	Mondiali	NOUN	S	Number=Plur	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = E' questo il primo commento di Nicola Rizzoli.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	commento	commento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Nicola	Nicola	PROPN	SP	_	5	nmod	_	_
+8	Rizzoli	Rizzoli	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = "Voglio dedicare questa designazione a me stesso, sono 20 anni che lavoro per questo, ho cominciato quando ne avevo solo sedici.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dedicare	dedicare	VERB	V	VerbForm=Inf	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	designazione	designazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	20	20	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14	lavoro	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	csubj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+20	quando	quando	SCONJ	CS	_	22	mark	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+23	solo	solo	ADV	B	_	24	advmod	_	_
+24	sedici	sedici	NUM	N	NumType=Card	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = E' merito non solo mio, ma di tutti coloro che mi hanno insegnato qualcosa e del nostro movimento.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	merito	meritare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	2	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	14	obj	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Domenica rappresenterò l'Italia, e voglio essere uno dei migliori in campo".
+1	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	rappresenterò	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Italia	Italia	PROPN	SP	_	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	conj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	14	amod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il presidente dell'Aia, Marcello, Nicchi, ha commentato con soddisfazione la notizia della designazione di Rizzoli per la finale:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Aia	Aia	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Marcello	Marcello	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Nicchi	Nicchi	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	designazione	designazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Rizzoli	Rizzoli	PROPN	SP	_	19	nmod	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	finale	finale	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 12
+# text = "Sono estremamente felice, emozionato, e tutto quello che si può pensare in questo momento.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	estremamente	estremamente	ADV	B	_	4	advmod	_	_
+4	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	emozionato	emozionato	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	pensare	pensare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = E' una cosa bellissima, lo avevo detto che andavamo ai Mondiali con due Nazionali, la nostra è arrivata in finale".
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	bellissima	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	andavamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Mondiali	Mondiali	NOUN	S	Number=Plur	10	obl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	Nazionali	Nazionale	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nostra	nostra	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	finale	finale	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = "E' una grande gioia per i miei 36 mila associati, per lui, per noi e per il lavoro che stiamo portando avanti.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	11	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+8	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+9	36	36	NUM	N	NumType=Card	11	nummod	_	_
+10	mila	mila	NUM	N	NumType=Card	9	flat	_	_
+11	associati	associare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	portando	portare	VERB	V	VerbForm=Ger	21	acl:relcl	_	_
+25	avanti	avanti	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Una soddisfazione - ha proseguito Nicchi - per tutti quelli che vogliono bene agli arbitri e credono in questo grande movimento.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	proseguito	proseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	Nicchi	Nicchi	PROPN	SP	_	5	obj	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14-15	agli	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+21	grande	grande	ADJ	A	Number=Sing	22	amod	_	_
+22	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Questa designazione è la dimostrazione di tanto lavoro e della nostra serietà, sono successi che non vengono da soli, ma sono frutto di tanto lavoro e grande passione.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	designazione	designazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	serietà	serietà	NOUN	S	Gender=Fem	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	successi	succedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	soli	solo	ADJ	A	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
+28	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	grande	grande	ADJ	A	Number=Sing	31	amod	_	_
+31	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = E' un un momento di orgoglio per tutta l'Italia e per i nostri arbitri che sono trasparenti, leali e capaci.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	4	nmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	trasparenti	trasparente	ADJ	A	Number=Plur	15	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	leali	leale	ADJ	A	Number=Plur	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	capaci	capace	ADJ	A	Number=Plur	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Qualcuno dovrebbe cominciare a criticarci di meno e a prendere esempio da noi e dal nostro modo di lavorare.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cominciare	cominciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	criticarci	_	_	_	_	_	_	_	_
+5	criticar	criticare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	meno	meno	ADV	B	_	5	advmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	prendere	prendere	VERB	V	VerbForm=Inf	5	conj	_	_
+12	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	lavorare	lavorare	VERB	V	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Se così sarà, probabilmente la Federazione tornerà a essere la più grande del mondo come sono sicuro sia".
+1	Se	se	SCONJ	CS	_	8	mark	_	_
+2	così	così	ADV	B	_	8	advmod	_	_
+3	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	probabilmente	probabilmente	ADV	B	_	8	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Federazione	federazione	PROPN	SP	_	8	nsubj	_	_
+8	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	13	mark	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+11	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	grande	grande	ADJ	A	Number=Sing	8	xcomp	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	come	come	SCONJ	CS	_	19	mark	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	8	ccomp	_	_
+20	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Nicchi rivela di aver già sentito Rizzoli e conclude:
+1	Nicchi	Nicchi	PROPN	SP	_	2	nsubj	_	_
+2	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+7	Rizzoli	Rizzoli	PROPN	SP	_	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 21
+# text = "Sto preparando i bagagli, lo raggiungerò e con me porterò idealmente i nostri 36.000 arbitri".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	preparando	preparare	VERB	V	VerbForm=Ger	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bagagli	bagaglio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	raggiungerò	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+12	porterò	portare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	conj	_	_
+13	idealmente	idealmente	ADV	B	_	12	advmod	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	36.000	36.000	NUM	N	NumType=Card	17	nummod	_	_
+17	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

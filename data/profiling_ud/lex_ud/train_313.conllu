@@ -1,0 +1,359 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non un omicidio passionale, non un atto di vendetta, ma una questione di logica, di giustizia oggettiva.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	passionale	passionale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	atto	atto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vendetta	vendetta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	logica	logica	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	oggettiva	oggettivo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = O almeno, questa è la sua versione.
+1	O	o	CCONJ	CC	_	8	cc	_	_
+2	almeno	almeno	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	versione	versione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Un’affermazione che, per quanto incredibile, ha scatenato un’onda di dibattito che si ripercuote sull’intera società, aprendo un varco inaspettato su un tabù che per troppo tempo ha sepolto sotto strati di silenzio e pregiudizi.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
+7	incredibile	incredibile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	onda	onda	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	ripercuote	ripercuotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18-19	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	21	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	intera	intero	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	società	società	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	aprendo	aprire	VERB	V	VerbForm=Ger	17	advcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	varco	varco	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	inaspettato	inaspettato	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	tabù	tabù	NOUN	S	Gender=Masc	25	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	33	det	_	_
+33	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	sepolto	seppellire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+36	sotto	sotto	ADP	E	_	37	case	_	_
+37	strati	strato	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	pregiudizi	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Deck, 42 anni, brillante criminologa specializzata in profilazione psicologica e analisi del comportamento criminale, è diventata famosa per la sua capacità di "vedere" i killer.
+1	Deck	Deck	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	42	42	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	brillante	brillante	ADJ	A	Number=Sing	7	amod	_	_
+7	criminologa	criminologo	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+8	specializzata	specializzato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	profilazione	profilazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	analisi	analisi	NOUN	S	Gender=Fem	10	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	criminale	criminale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	capacità	capacità	NOUN	S	Gender=Fem	20	obl	_	_
+26	di	di	ADP	E	_	28	mark	_	_
+27	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	vedere	vedere	VERB	V	VerbForm=Inf	25	acl	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	killer	killer	NOUN	S	_	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = Non con la sfera di cristallo, sottolinea, ma attraverso un metodo rigoroso basato sull'osservazione, sulla raccolta di dati e sulla costruzione di profili dettagliati.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cristallo	cristallo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	attraverso	attraverso	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+14	rigoroso	rigoroso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	basato	basato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16-17	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+16	su	su	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	dati	dato	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	dettagliati	dettagliato	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Ha aiutato a risolvere innumerevoli indagini, svelando la mente dietro i crimini più efferati.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	risolvere	risolvere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	innumerevoli	innumerevole	ADJ	A	Number=Plur	6	amod	_	_
+6	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	svelando	svelare	VERB	V	VerbForm=Ger	2	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mente	mente	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	dietro	dietro	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	efferati	efferato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E ora, dal silenzio della cella, rivendica un'esecuzione.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	ora	ora	ADV	B	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cella	cella	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	rivendica	rivendire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	esecuzione	esecuzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = "L'ho fatto per proteggere la verità," ha dichiarato all'avvocato, durante la breve udienza di ieri, con un'espressione che oscilla tra la determinazione e la stanchezza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	proteggere	proteggere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verità	verità	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	durante	durante	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	breve	breve	ADJ	A	Number=Sing	20	amod	_	_
+20	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	ieri	ieri	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	12	punct	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	oscilla	oscillare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	tra	tra	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = "L'analista di Obermeyer, Daniel, si era infiltrato nel mio lavoro.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	analista	analista	NOUN	S	Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Obermeyer	Obermeyer	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	Daniel	Daniel	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	infiltrato	infiltrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Aveva iniziato a manipolare i dati, a distorcere le mie interpretazioni, quasi a voler riscrivere la storia dei crimini che stavo analizzando.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	manipolare	manipolare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dati	dato	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	distorcere	distorcere	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	interpretazioni	interpretazione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	quasi	quasi	ADV	B	_	17	advmod	_	_
+15	a	a	ADP	E	_	17	mark	_	_
+16	voler	volere	AUX	VM	VerbForm=Inf	17	aux	_	_
+17	riscrivere	riscrivere	VERB	V	VerbForm=Inf	2	advcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	storia	storia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+24	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	analizzando	analizzare	VERB	V	VerbForm=Ger	24	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Non potevo permetterlo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	permetterlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	permetter	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Era come se stesse nascondendo una verità più grande, una verità che avrebbe potuto ledere innocenti.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+2	come	come	ADV	B	_	12	advmod	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	stesse	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	nascondendo	nascondere	VERB	V	VerbForm=Ger	12	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verità	verità	NOUN	S	Gender=Fem	5	obj	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	grande	grande	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	verità	verità	NOUN	S	Gender=Fem	0	root	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16	ledere	ledere	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+17	innocenti	innocente	ADJ	A	Number=Plur	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 13
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 14
+# text = La confessione, che Deck ha esposto in maniera dettagliata al suo avvocato, descrive una bizarreria ossessiva che si è sviluppata nel tempo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+5	Deck	Deck	PROPN	SP	_	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	dettagliata	dettagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	descrive	descrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	bizarreria	bizarreria	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	ossessiva	ossessivo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	sviluppata	sviluppare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 15
+# text = Obermeyer, un giovane analista
+1	Obermeyer	Obermeyer	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	giovane	giovane	ADJ	A	Number=Sing	5	amod	_	_
+5	analista	analista	NOUN	S	Number=Sing	1	nmod	_	SpacesAfter=\n
+

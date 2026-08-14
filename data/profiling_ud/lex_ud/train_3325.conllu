@@ -1,0 +1,336 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Secondo Campi, Giannimini sarebbe un rappresentante di un passato politico superato, un "politico vecchio" che non rappresenta più i valori e le ideals del movimento futurista.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Campi	campi	PROPN	SP	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Giannimini	Giannimini	PROPN	SP	_	7	nsubj	_	_
+5	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rappresentante	rappresentante	NOUN	S	Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	politico	politico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	superato	superato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	politico	politico	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+17	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	16	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	più	più	ADV	B	_	21	advmod	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	valori	valore	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	ideals	ideals	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	futurista	futurista	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Il critico ha infatti_assertato che "il futurismo è stato sempre caratterizzato da una forte vena antisistema e anticonservatrice, mentre Giannimini rappresenta l'opposto, cioè un sistema politico che ha fallito e che non ha più nulla da dire".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	critico	critico	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	infatti_assertato	infatti_assertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futurismo	futurismo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	caratterizzato	caratterizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	forte	forte	ADJ	A	Number=Sing	16	amod	_	_
+16	vena	vena	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+17	antisistema	antisistemo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	anticonservatrice	anticonservatore	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	mentre	mentre	SCONJ	CS	_	23	mark	_	_
+22	Giannimini	Giannimini	PROPN	SP	_	23	nsubj	_	_
+23	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	opposto	opposto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	cioè	cioè	CCONJ	CC	_	29	cc	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+30	politico	politico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	fallito	fallire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+38	più	più	ADV	B	_	37	advmod	_	_
+39	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	37	obj	_	_
+40	da	da	ADP	E	_	41	mark	_	_
+41	dire	dire	VERB	V	VerbForm=Inf	37	advcl	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = È interessante notare che questa non è la prima volta che Campi attacca duramente il mondo dell'arte.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	interessante	interessante	ADJ	A	Number=Sing	0	root	_	_
+3	notare	notare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	10	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	advcl	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	Campi	campi	PROPN	SP	_	13	nsubj	_	_
+13	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	duramente	duro	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	arte	arte	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Recently, ha criticato duramente la mostra dedicata a Pablo Picasso, definendola "senza senso e priva di qualsiasi valore artistico".
+1	Recently	Recently	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	criticato	criticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	duramente	duramente	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Pablo	Pablo	PROPN	SP	_	8	obl	_	_
+11	Picasso	Picasso	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13-14	definendola	_	_	_	_	_	_	_	_
+13	definendo	definire	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	senza	senza	ADP	E	_	17	case	_	_
+17	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	priva	privo	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	valore	valore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	artistico	artistico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = In questo caso, però, la polemica sembra essere ancora più accesa, e potrebbe avere delle ripercussioni a livello politico.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	13	cop	_	_
+11	ancora	ancora	ADV	B	_	12	advmod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	accesa	acceso	ADJ	A	Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avere	avere	VERB	V	VerbForm=Inf	9	conj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	ripercussioni	ripercussione	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	livello	livello	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	politico	politico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Giannimini, infatti, è stato un importante esponente della destra italiana e ha svolto un ruolo di primo piano nella fondazione di Forza Italia.
+1	Giannimini	Giannimini	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	importante	importante	ADJ	A	Number=Sing	9	amod	_	_
+9	esponente	esponente	NOUN	S	Number=Sing	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	destra	destra	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	svolto	svolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	piano	piano	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	fondazione	fondazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Forza	Forza	PROPN	SP	_	24	nmod	_	_
+27	Italia	Italia	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = La sua figura è stata quindi molto controversa, e molti lo acusano di essere stato troppo morbido con il mondo della cultura e dell'arte, non riuscendo a portare avanti una vera e propria revisione critica del movimento futurista.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figura	figura	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	quindi	quindi	ADV	B	_	8	advmod	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	controversa	controverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	acusano	acusare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	di	di	ADP	E	_	18	mark	_	_
+15	essere	essere	AUX	VA	VerbForm=Inf	18	aux	_	_
+16	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+17	troppo	troppo	ADV	B	_	18	advmod	_	_
+18	morbido	morbidare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	xcomp	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	arte	arte	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	18	punct	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	riuscendo	riuscire	VERB	V	VerbForm=Ger	18	advcl	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	portare	portare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	avanti	avanti	ADV	B	_	33	advmod	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+36	vera	vero	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	36	conj	_	_
+39	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+40	critica	critico	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+44	futurista	futurista	ADJ	A	Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = In ogni caso, la polemica sollevata da Campi ha attirato l'attenzione sulla questione del ruolo del movimento futurista nel contesto politico e culturale odierno.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	sollevata	sollevare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	Campi	campi	PROPN	SP	_	7	obl:agent	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	attirato	attirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	questione	questione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	futurista	futurista	ADJ	A	Number=Sing	22	amod	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+27	politico	politico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	culturale	culturale	ADJ	A	Number=Sing	27	conj	_	_
+30	odierno	odierno	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Il futurismo è stato infatti un movimento molto importante per l'Italia, ma la sua eredità è spesso stata strumentalizzata da diversi gruppi politici, che hanno cercato di utilizzarla a proprio vantaggio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	futurismo	futurismo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	infatti	infatti	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	importante	importante	ADJ	A	Number=Sing	7	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	Italia	Italia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	21	punct	_	_
+14	ma	ma	CCONJ	CC	_	21	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	eredità	eredità	NOUN	S	Gender=Fem	21	nsubj:pass	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+19	spesso	spesso	ADV	B	_	21	advmod	_	_
+20	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	strumentalizzata	strumentalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	21	obl:agent	_	_
+25	politici	politico	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31-32	utilizzarla	_	_	_	_	_	_	_	_
+31	utilizzar	utilizzare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = La questione sollevata da Campi ci
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	sollevata	sollevare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Campi	campi	PROPN	SP	_	3	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	SpacesAfter=\n
+

@@ -1,0 +1,1089 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il 28 maggio saranno passati esattamente 40 anni dalla strage di Brescia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	28	28	NUM	N	NumType=Card	5	obl	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	esattamente	esattamente	ADV	B	_	5	advmod	_	_
+7	40	40	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	strage	strage	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Brescia	Brescia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quarant'anni che hanno visto passare tre inchieste differenti, ognuna delle quali ha generato processi finora conclusi tutti con proscioglimenti e assoluzioni per mancanza di prove.
+1	Quarant'	quaranta	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	passare	passare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	inchieste	inchiesta	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	differenti	differente	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	ognuna	ognuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	nsubj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	quali	quale	PRON	PR	Number=Plur|PronType=Rel	11	nmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	generato	generare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+17	processi	processo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	finora	finora	ADV	B	_	19	advmod	_	_
+19	conclusi	concludere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obl	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	proscioglimenti	proscioglimento	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	assoluzioni	assoluzione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	prove	prova	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Anche di quella strage, nuovo atto della strategia della tensione che insanguinò l'Italia e fece da preludio agli Anni di piombo, è stato ricostruito il contesto e identificati ambienti e collusioni in cui l'attentato venne ideato e organizzato.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	strage	strage	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	atto	atto	NOUN	S	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	insanguinò	insanguinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Italia	Italia	PROPN	SP	_	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	preludio	preludio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22-23	agli	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux:pass	_	_
+30	ricostruito	ricostruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	identificati	identificare	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	35	det	_	_
+35	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	collusioni	collusione	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	cui	cui	PRON	PR	PronType=Rel	43	obl	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	43	nsubj:pass	_	_
+42	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	aux:pass	_	_
+43	ideato	ideare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 4
+# text = Ma anche per Brescia, come per Piazza Fontana, manca una parola fine che, sul piano giudiziario, indichi autori e complici della strage.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Brescia	Brescia	PROPN	SP	_	11	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADV	B	_	8	advmod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Piazza	Piazza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+9	Fontana	fontana	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parola	parola	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	fine	fine	ADJ	A	Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	22	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	piano	piano	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+20	giudiziario	giudiziario	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	indichi	indicare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+23	autori	autore	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	complici	complice	NOUN	S	Number=Plur	23	conj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	strage	strage	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Erano le 10.12 del 28 maggio 1974 quando in Piazza della Loggia a Brescia, durante una manifestazione antifascista indetta dai sindacati, la bomba nascosta in un cestino dei rifiuti esplose, provocando la morte di otto persone e il ferimento di altre 100.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	10.12	10.12	NUM	N	NumType=Card	36	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	28	28	NUM	N	NumType=Card	3	nmod	_	_
+7	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	1974	1974	NUM	N	NumType=Card	6	flat	_	_
+9	quando	quare	SCONJ	CS	_	36	mark	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Loggia	Loggia	PROPN	SP	_	11	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Brescia	Brescia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	durante	durante	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+21	antifascista	antifascista	ADJ	A	Number=Sing	20	amod	_	_
+22	indetta	indettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+23-24	dai	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	22	obl:agent	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+29	nascosta	nascondere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	cestino	cesto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33-34	dei	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	esplose	esploso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	provocando	provocare	VERB	V	VerbForm=Ger	36	advcl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	morte	morte	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	otto	otto	NUM	N	NumType=Card	43	nummod	_	_
+43	persone	persona	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	ferimento	ferimento	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	49	det	_	_
+49	100	100	NUM	N	NumType=Card	46	nummod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 6
+# text = Le indagini seguirono da subito la pista eversiva del neofascismo e cinque anni dopo si arrivò al primo processo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	seguirono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	subito	subito	ADV	B	_	3	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pista	pista	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	eversiva	eversivo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	neofascismo	neofascismo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	cinque	cinque	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+15	dopo	dopo	ADV	B	_	14	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	processo	processo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = 2 GIUGNO 1979 - I giudici della Corte d'assise di Brescia condannano all'ergastolo il neifascista Ermanno Buzzi e a dieci anni Angelino Papa, mentre assolvono gran parte delle 16 persone incriminate dal pm Francesco Trovato e dal giudice istruttore Domenico Vino, o li condannano a pene inferiori, ma solo per detenzione di esplosivi o per altri attentati.
+1	2	2	NUM	N	NumType=Card	2	nummod	_	_
+2	GIUGNO	giugno	PROPN	SP	_	14	obl	_	_
+3	1979	1979	NUM	N	NumType=Card	2	flat	_	_
+4	-	-	PUNCT	FF	_	2	punct	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Corte	corte	PROPN	SP	_	6	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	assise	assise	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Brescia	Brescia	PROPN	SP	_	11	nmod	_	_
+14	condannano	condannare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	neifascista	neifascista	NOUN	S	Number=Sing	14	obj	_	_
+20	Ermanno	Ermanno	PROPN	SP	_	19	nmod	_	_
+21	Buzzi	Buzzi	PROPN	SP	_	20	flat:name	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	dieci	dieci	NUM	N	NumType=Card	25	nummod	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+26	Angelino	Angelino	PROPN	SP	_	19	conj	_	_
+27	Papa	papa	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29	mentre	mentre	SCONJ	CS	_	30	mark	_	_
+30	assolvono	assolvere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+31	gran	gran	ADJ	A	_	32	amod	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	16	16	NUM	N	NumType=Card	36	nummod	_	_
+36	persone	persona	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+37	incriminate	incriminare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	36	acl	_	_
+38-39	dal	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	pm	pm	NOUN	S	Gender=Masc	37	obl:agent	_	_
+41	Francesco	Francesco	PROPN	SP	_	40	nmod	_	_
+42	Trovato	trovato	PROPN	SP	_	41	flat:name	_	_
+43	e	e	CCONJ	CC	_	46	cc	_	_
+44-45	dal	_	_	_	_	_	_	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+47	istruttore	istruttore	NOUN	S	Gender=Masc|Number=Sing	46	compound	_	_
+48	Domenico	Domenico	PROPN	SP	_	47	nmod	_	_
+49	Vino	vino	PROPN	SP	_	48	flat:name	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	53	punct	_	_
+51	o	o	CCONJ	CC	_	53	cc	_	_
+52	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	53	obj	_	_
+53	condannano	condannare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	pene	pena	NOUN	S	Gender=Fem|Number=Plur	53	obl	_	_
+56	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	55	amod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	61	punct	_	_
+58	ma	ma	CCONJ	CC	_	61	cc	_	_
+59	solo	solo	ADV	B	_	61	advmod	_	_
+60	per	per	ADP	E	_	61	case	_	_
+61	detenzione	detenzione	NOUN	S	Gender=Fem|Number=Sing	56	conj	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	esplosivi	esplosivio	NOUN	S	Gender=Masc|Number=Plur	61	nmod	_	_
+64	o	o	CCONJ	CC	_	67	cc	_	_
+65	per	per	ADP	E	_	67	case	_	_
+66	altri	altro	ADJ	A	Gender=Masc|Number=Plur	67	amod	_	_
+67	attentati	attentato	NOUN	S	Gender=Masc|Number=Plur	63	conj	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 8
+# text = 18 APRILE 1981 - Buzzi, personaggio in bilico tra criminalità comune e politica, viene strangolato nel supercarcere di Novara.
+1	18	18	NUM	N	NumType=Card	5	nummod	_	_
+2	APRILE	aprile	PROPN	SP	_	1	flat	_	_
+3	1981	1981	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	Buzzi	Buzzi	PROPN	SP	_	17	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	bilico	bilico	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	tra	tra	ADP	E	_	11	case	_	_
+11	criminalità	criminalità	NOUN	S	Gender=Fem	7	nmod	_	_
+12	comune	comune	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	politica	politico	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	strangolato	strangolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	supercarcere	supercarcere	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Novara	Novara	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = A ucciderlo sono Mario Tuti e Pierluigi Concutelli, esponenti di primissimo piano dell'eversione neofascista.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	ucciderlo	_	_	_	_	_	_	_	_
+2	uccider	uccider	VERB	V	VerbForm=Inf	5	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Mario	Mario	PROPN	SP	_	0	root	_	_
+6	Tuti	Tuto	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Pierluigi	Pierluigi	PROPN	SP	_	5	conj	_	_
+9	Concutelli	Concutelli	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	esponenti	esponento	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	primissimo	primo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	eversione	eversione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	neofascista	neofascista	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = I due motivarono l'omicidio con il fatto che Buzzi fosse "pederasta" e confidente dei carabinieri, ma è sempre rimasto il sospetto è che temessero fosse intenzionato a fare dichiarazioni nell'imminente processo d'appello.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nsubj	_	_
+3	motivarono	motivarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	Buzzi	Buzzi	PROPN	SP	_	13	nsubj	_	_
+11	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	pederasta	pederasto	ADJ	A	Number=Sing	8	advcl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	confidente	confidente	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	ma	ma	CCONJ	CC	_	24	cc	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	sempre	sempre	ADV	B	_	24	advmod	_	_
+24	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+28	che	che	SCONJ	CS	_	31	mark	_	_
+29	temessero	temere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+30	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	intenzionato	intenzionato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	fare	fare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+35-36	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+35	in	in	ADP	E	_	38	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+37	imminente	imminente	ADJ	A	Number=Sing	38	amod	_	_
+38	processo	processo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+39	d'	di	ADP	E	_	40	case	_	SpaceAfter=No
+40	appello	appello	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = 2 MARZO 1982 - I giudici della Corte d'assise d'appello di Brescia assolvono tutti gli imputati compreso Angelino Papa.
+1	2	2	NUM	N	NumType=Card	16	obl	_	_
+2	MARZO	marzo	PROPN	SP	_	1	flat	_	_
+3	1982	1982	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Corte	corte	PROPN	SP	_	6	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	assise	assise	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	appello	appello	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Brescia	Brescia	PROPN	SP	_	13	nmod	_	_
+16	assolvono	assolvere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+21	Angelino	Angelino	PROPN	SP	_	19	nmod	_	_
+22	Papa	Papa	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 12
+# text = 23 MARZO 1984 - Il pm Michele Besson e il giudice istruttore Gian Paolo Zorzi aprono la cosidetta 'inchiesta bis'.
+1	23	23	NUM	N	NumType=Card	16	obl	_	_
+2	MARZO	marzo	PROPN	SP	_	1	flat	_	_
+3	1984	1984	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pm	pm	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+7	Michele	Michele	PROPN	SP	_	6	nmod	_	_
+8	Besson	Besson	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	istruttore	istruttore	NOUN	S	Gender=Masc|Number=Sing	11	compound	_	_
+13	Gian	Gian	PROPN	SP	_	12	nmod	_	_
+14	Paolo	Paolo	PROPN	SP	_	13	flat:name	_	_
+15	Zorzi	Zorzi	PROPN	SP	_	13	flat:name	_	_
+16	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cosidetta	cosidetto	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	'	'	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	inchiesta	inchiestare	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	bis'	bis'	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = Imputati i neofascisti Cesare Ferri, il fotomodello Alessandro Stepanoff e Sergio Latini.
+1	Imputati	imputare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	neofascisti	neofascista	NOUN	S	Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+4	Cesare	Cesare	PROPN	SP	_	3	nmod	_	_
+5	Ferri	ferri	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fotomodello	fotomodello	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	Alessandro	Alessandro	PROPN	SP	_	8	nmod	_	_
+10	Stepanoff	Stepanoff	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Sergio	Sergio	PROPN	SP	_	9	conj	_	_
+13	Latini	latini	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = La nuova pista è aperta dopo le dichiarazioni di alcuni pentiti tra cui Angelo Izzo, neofascista della Roma-bene, protagonista del Strage del Circeo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	pista	pista	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	pentiti	pentito	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	tra	tra	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	11	nmod	_	_
+14	Angelo	Angelo	PROPN	SP	_	13	nsubj	_	_
+15	Izzo	Izzo	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	neofascista	neofascista	NOUN	S	Number=Sing	14	appos	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Roma	Roma	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	bene	bene	ADV	B	_	24	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	protagonista	protagonista	NOUN	S	Number=Sing	20	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Strage	strage	PROPN	SP	_	24	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Circeo	Circeo	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = 30 NOVEMBRE 1984 - Giudicando sul primo processo, la Cassazione annulla la sentenza di appello e dispone un nuovo processo per Nando Ferrari, Angelino e Raffaele Papa e Marco De Amici.
+1	30	30	NUM	N	NumType=Card	13	nummod	_	_
+2	NOVEMBRE	novembre	PROPN	SP	_	1	flat	_	_
+3	1984	1984	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	Giudicando	Giudicare	VERB	V	VerbForm=Ger	1	advcl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	processo	processo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Cassazione	Cassazione	PROPN	SP	_	13	nsubj	_	_
+13	annulla	annullare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	appello	appello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	dispone	disporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	processo	processo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Nando	Nando	PROPN	SP	_	19	obl	_	_
+25	Ferrari	Ferrari	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	Angelino	Angelino	PROPN	SP	_	24	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Raffaele	Raffaele	PROPN	SP	_	24	conj	_	_
+30	Papa	Papa	PROPN	SP	_	29	flat:name	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	Marco	Marco	PROPN	SP	_	29	conj	_	_
+33	De	De	PROPN	SP	_	32	flat:name	_	_
+34	Amici	Amici	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 16
+# text = 20 APRILE 1985 - La Corte d'assise d'appello di Venezia, davanti alla quale è celebrato il nuovo processo di secondo grado, assolve tutti gli imputati del primo processo bresciano.
+1	20	20	NUM	N	NumType=Card	27	obl	_	_
+2	APRILE	aprile	PROPN	SP	_	1	flat	_	_
+3	1985	1985	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Corte	corte	PROPN	SP	_	27	nsubj	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	assise	assise	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	appello	appello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Venezia	Venezia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	davanti	davanti	ADV	B	_	17	case	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quale	quale	PRON	PR	Number=Sing|PronType=Rel	19	obl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	celebrato	celebrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	processo	processo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	grado	grado	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	6	punct	_	_
+27	assolve	assolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	30	det:predet	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	34	amod	_	_
+34	processo	processo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	bresciano	bresciano	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 17
+# text = 23 MAGGIO 1987 - L'inchiesta bis, conclusa con una serie di rinvii a giudizio, approda in aula:
+1	23	23	NUM	N	NumType=Card	18	obl	_	_
+2	MAGGIO	maggio	PROPN	SP	_	1	flat	_	_
+3	1987	1987	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+7	bis	bis	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	conclusa	concludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serie	serie	NOUN	S	Gender=Fem	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rinvii	rinvio	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	approda	approdare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	aula	aula	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 18
+# text = i giudici di Brescia assolvono per insufficienza di prove Ferri, Latini e Stepanoff.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Brescia	Brescia	PROPN	SP	_	2	nmod	_	_
+5	assolvono	assolre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	insufficienza	insufficienza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	prove	prova	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	Ferri	ferri	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Latini	latini	PROPN	SP	_	5	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Stepanoff	Stepanoff	PROPN	SP	_	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Ferri e Latini sono assolti anche dall'accusa di aver ordinato l'omicidio di Ermanno Buzzi che, secondo i pentiti, fu fatto uccidere perché non parlasse.
+1	Ferri	ferri	PROPN	SP	_	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Latini	latini	PROPN	SP	_	1	conj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	assolti	assolvere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	ordinato	ordinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Ermanno	Ermanno	PROPN	SP	_	14	nmod	_	_
+17	Buzzi	Buzzi	PROPN	SP	_	16	flat:name	_	_
+18	che	che	PRON	PR	PronType=Rel	25	nsubj:pass	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	secondo	secondo	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	pentiti	pentito	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+26	uccidere	uccidere	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	perché	perché	SCONJ	CS	_	29	mark	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	parlasse	parlare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = 25 SETTEMBRE 1987 - La Cassazione conferma la sentenza di assoluzione dei giudici della Corte d'Appello di Venezia e pone fine ai processi nati dalla prima inchiesta sulla strage.
+1	25	25	NUM	N	NumType=Card	7	obl	_	_
+2	SETTEMBRE	settembre	PROPN	SP	_	1	flat	_	_
+3	1987	1987	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Cassazione	cassazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Corte	corte	PROPN	SP	_	14	nmod	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	Appello	appello	PROPN	SP	_	17	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Venezia	Venezia	PROPN	SP	_	17	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	pone	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+24	fine	fine	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	processi	processo	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+28	nati	nascere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	32	amod	_	_
+32	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	28	obl:agent	_	_
+33-34	sulla	_	_	_	_	_	_	_	_
+33	su	su	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	strage	strage	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = 10 marzo 1989 - La Corte d'assise d'appello di Brescia assolve, questa volta con formula piena, Ferri, Stepanoff e Latini.
+1	10	10	NUM	N	NumType=Card	6	nmod	_	_
+2	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	1989	1989	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Corte	corte	PROPN	SP	_	0	root	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	assise	assise	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	appello	appello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Brescia	Brescia	PROPN	SP	_	10	nmod	_	_
+13	assolve	assolvo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	formula	formula	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Ferri	ferri	PROPN	SP	_	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	Stepanoff	Stepanoff	PROPN	SP	_	18	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	Latini	latini	PROPN	SP	_	18	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = 3 NOVEMBRE 1989 - La prima sezione della Corte di Cassazione, presieduta da Corrado Carnevale, conferma e rende definitive le assoluzioni di Ferri, Stepanoff e Latini.
+1	3	3	NUM	N	NumType=Card	19	obl	_	_
+2	NOVEMBRE	novembre	PROPN	SP	_	1	flat	_	_
+3	1989	1989	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Corte	corte	PROPN	SP	_	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Cassazione	Cassazione	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	presieduta	presiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Corrado	Corrado	PROPN	SP	_	14	obl:agent	_	_
+17	Carnevale	Carnevale	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	conferma	conferma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+22	definitive	definitivo	SCONJ	CS	_	21	xcomp	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	assoluzioni	assoluzione	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Ferri	ferri	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Stepanoff	Stepanoff	PROPN	SP	_	26	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	Latini	latini	PROPN	SP	_	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 23
+# text = I primi due saranno anche risarciti per la carcerazione subita.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	due	due	NUM	N	NumType=Card	6	nsubj:pass	_	_
+4	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	risarciti	risarcitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carcerazione	carcerazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	subita	subito	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = 23 MAGGIO 1993 - Il giudice istruttore Gian Paolo Zorzi proscioglie gli ultimi imputati dell'inchiesta bis.
+1	23	23	NUM	N	NumType=Card	11	obl	_	_
+2	MAGGIO	maggio	PROPN	SP	_	1	flat	_	_
+3	1993	1993	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	istruttore	istruttore	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	_
+8	Gian	Gian	PROPN	SP	_	7	nmod	_	_
+9	Paolo	Paolo	PROPN	SP	_	8	flat:name	_	_
+10	Zorzi	Zorzi	PROPN	SP	_	8	flat:name	_	_
+11	proscioglie	prosciogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	bis	bis	NOUN	S	Gender=Masc	17	compound	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 25
+# text = Pochi mesi dopo viene aperta la nuova inchiesta, quella sfociata nel processo odierno:
+1	Pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	_
+4	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj:pass	_	_
+11	sfociata	sfociare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	processo	processo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	odierno	odierno	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 26
+# text = si chiude con il rinvio a giudizio di nomi noti della cellula veneta di Ordine nuovo e personaggi già entrati nell'inchiesta sulla strage di piazza Fontana.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	chiude	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	rinvio	rinvio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	noti	noto	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cellula	cellula	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	veneta	veneto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Ordine	Ordine	PROPN	SP	_	9	nmod	_	_
+17	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+20	già	già	ADV	B	_	21	advmod	_	_
+21	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22-23	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	in	in	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	strage	strage	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	Fontana	Fontana	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = 16 NOVEMBRE 2010 - I giudici della Corte d'assise di Brescia assolvono Delfo Zorzi, Carlo Maria Maggi, Francesco Delfino, Pino Rauti e Maurizio Tramonte.
+1	16	16	NUM	N	NumType=Card	14	obl	_	_
+2	NOVEMBRE	novembre	PROPN	SP	_	1	flat	_	_
+3	2010	2010	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Corte	corte	PROPN	SP	_	6	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	assise	assise	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Brescia	Brescia	PROPN	SP	_	11	nmod	_	_
+14	assolvono	assolvere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	Delfo	Delfo	PROPN	SP	_	14	obj	_	_
+16	Zorzi	Zorzi	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	Carlo	Carlo	PROPN	SP	_	14	appos	_	_
+19	Maria	Maria	PROPN	SP	_	18	flat:name	_	_
+20	Maggi	Maggi	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	Francesco	Francesco	PROPN	SP	_	18	flat:name	_	_
+23	Delfino	delfino	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	Pino	Pino	PROPN	SP	_	18	appos	_	_
+26	Rauti	Rauta	PROPN	SP	_	25	flat:name	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	Maurizio	Maurizio	PROPN	SP	_	25	conj	_	_
+29	Tramonte	Tramonte	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 28
+# text = Per quella che una volta era definita insufficienza di prove.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	definita	definire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	insufficienza	insufficienza	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	prove	prova	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = La Procura aveva chiesto l'ergastolo per gli ex ordinovisti veneti Delfo Zorzi e Carlo Maria Maggi, per il collaboratore dei servizi segreti Maurizio Tramonte e per il generale dei carabinieri Francesco Delfino.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procura	Procura	PROPN	SP	_	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	ex	ex	ADJ	A	_	10	amod	_	_
+10	ordinovisti	ordinovista	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	veneti	veneto	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	Delfo	Delfo	PROPN	SP	_	10	nmod	_	_
+13	Zorzi	Zorzi	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Carlo	Carlo	PROPN	SP	_	12	conj	_	_
+16	Maria	Maria	PROPN	SP	_	15	flat:name	_	_
+17	Maggi	Maggi	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	collaboratore	collaboratore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	Maurizio	Maurizio	PROPN	SP	_	24	nmod	_	_
+27	Tramonte	Tramonte	PROPN	SP	_	26	flat:name	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	generale	generale	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	Francesco	Francesco	PROPN	SP	_	34	nmod	_	_
+36	Delfino	delfino	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Per l'ex segretario dell'Msi Pino Rauti era stata chiesta l'assoluzione.
+1	Per	per	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ex	ex	ADJ	A	_	4	amod	_	_
+4	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Msi	Msi	PROPN	SP	_	4	nmod	_	_
+8	Pino	pino	PROPN	SP	_	7	flat:name	_	_
+9	Rauti	Rauto	PROPN	SP	_	7	flat:name	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	chiesta	chiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 31
+# text = Viene revocata anche l'ordinanza per la misura cautelare nei confronti di Delfo Zorzi che vive ormai da decenni in Giappone.
+1	Viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	revocata	revocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ordinanza	ordinanza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	misura	misura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	cautelare	cautelare	ADJ	A	Number=Sing	8	amod	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Delfo	Delfo	PROPN	SP	_	12	nmod	_	_
+15	Zorzi	Zorzi	PROPN	SP	_	14	flat:name	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	ormai	ormai	ADV	B	_	17	advmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	Giappone	Giappone	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = 14 APRILE 2012 - La Corte d'Assise d'Appello conferma le assoluzioni.
+1	14	14	NUM	N	NumType=Card	11	obl	_	_
+2	APRILE	aprile	PROPN	SP	_	1	flat	_	_
+3	2012	2012	NUM	N	NumType=Card	1	flat	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Corte	corte	PROPN	SP	_	11	nsubj	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	Assise	assise	PROPN	SP	_	6	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	Appello	appello	PROPN	SP	_	6	nmod	_	_
+11	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	assoluzioni	assoluzione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 33
+# text = La procura fa appello, ma dai pm arriva quasi una dichiarazione di resa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	appello	appello	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	ma	ma	CCONJ	CC	_	10	cc	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pm	pm	NOUN	S	Gender=Masc	10	obl	_	_
+10	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	quasi	quasi	ADV	B	_	10	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	resa	resa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 34
+# text = "Abbiamo fatto tutto il possibile.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	possibile	possibile	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = E' una vicenda che va affidata alla storia".
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 36
+# text = Sui quell'appello ha deciso oggi la Cazzazione.
+1-2	Sui	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	appello	appello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	oggi	oggi	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Cazzazione	Cazzazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 37
+# text = Fino a oggi, dunque, tre filoni istruttori, ma nessun colpevole.
+1	Fino	fino	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	oggi	oggi	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dunque	dunque	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	filoni	filone	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+9	istruttori	istruttore	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	colpevole	colpevola	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,352 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma è davvero un' "asso pigliatutto" come vorrebbe farci credere?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	davvero	davvero	ADV	B	_	6	advmod	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	asso	asso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	pigliatutto	pigliatutto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	_
+9	come	come	ADP	E	_	11	mark	_	_
+10	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	farci	_	_	_	_	_	_	_	_
+11	far	fare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+13	credere	credere	VERB	V	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Da tempo, Miley si è trasformata in una figurina del politicamente corretto, un'icona della libertà sessuale e della trasgressione a tutti i costi.
+1	Da	da	ADP	E	_	2	case	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Miley	Miley	PROPN	SP	_	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	figurina	figurina	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	politicamente	politicamente	ADV	B	_	14	advmod	_	_
+14	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	icona	icona	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	libertà	libertà	NOUN	S	Gender=Fem	17	nmod	_	_
+21	sessuale	sessuale	ADJ	A	Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	trasgressione	trasgressione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+26	a	a	ADP	E	_	29	case	_	_
+27	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	29	det:predet	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	costi	costo	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Le sue performance sui palcoscenici, i suoi outfit audaci, i suoi gesti scavalcati-via-sui media:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	performance	performance	NOUN	S	Gender=Fem	0	root	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	palcoscenici	palcoscenico	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	outfit	outfit	NOUN	S	Gender=Masc	3	conj	_	_
+11	audaci	audace	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+16	scavalcati	scavalcato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	-	-	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	via-sui	via-suo	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	media	medio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = tutto sembra studiato per shockare e, al tempo stesso, per vestire i panni della ribelle modernista.
+1	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	shockare	shockare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	vestire	vestire	VERB	V	VerbForm=Inf	5	conj	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	panni	panno	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	ribelle	ribelle	ADJ	A	Number=Sing	20	amod	_	_
+20	modernista	modernista	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma c'è davvero della sostanza dietro a questa immagine?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	davvero	davvero	ADV	B	_	3	advmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	dietro	dietro	ADV	B	_	11	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il nudo, in questo contesto, sembra essere solo un altro tassello di un puzzle costruito ad arte per mantenere viva l'attenzione dei media e dei fans.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nudo	nudo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+10	solo	solo	ADV	B	_	13	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	altro	altro	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	tassello	tassello	NOUN	S	Gender=Masc|Number=Sing	8	xcomp	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	puzzle	puzzle	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	arte	arte	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	mantenere	mantenere	VERB	V	VerbForm=Inf	17	advcl	_	_
+22	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	21	xcomp	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	media	media	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	fans	fan	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Non è certo la prima volta che una star usa il proprio corpo per fare notizia, ma in questo caso sembra che la недостаto sia proprio la raffinatezza del messaggio.
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	certo	certo	ADV	B	_	6	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	star	star	NOUN	S	Gender=Masc	10	nsubj	_	_
+10	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	10	advcl	_	_
+16	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	ma	ma	CCONJ	CC	_	22	cc	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+22	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+23	che	che	SCONJ	CS	_	29	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	недостаto	недостаto	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+26	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	proprio	proprio	ADV	B	_	29	advmod	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	raffinatezza	raffinatezza	NOUN	S	Gender=Fem|Number=Sing	22	ccomp	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Miley inizia con un спор о противоречивый, ma riesce solo a offrire una versione sempre più stereotipata di sé stessa:
+1	Miley	Miley	PROPN	SP	_	2	nsubj	_	_
+2	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	спор	спор	PROPN	SP	_	2	obl	_	_
+6	о	о	PROPN	SP	_	5	nmod	_	_
+7	противоречивый	противоречивый	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	solo	solo	ADV	B	_	10	advmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	offrire	offrire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	versione	versione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	stereotipata	stereotipato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	obl	_	_
+21	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = quella della ragazza che vuole essere scoperta, amata, ma anche temuta per la sua audacia.
+1	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+6	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	essere	essere	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	scoperta	scoprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	anche	anche	ADV	B	_	14	advmod	_	_
+14	temuta	temere	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+15	per	per	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	audacia	audacia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = E allora, forse, la vera domanda è questa:
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	allora	allora	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	forse	forse	ADV	B	_	10	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vera	vero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 11
+# text = Miley Cyrus è davvero un' icona di libertà o semplicemente un'altra vittoria del marketing, un prodotto della società dello spettacolo che continuerà a vendere la sua immagine finché ci sarà someone disposto ad comprarla?
+1	Miley	Miley	PROPN	SP	_	6	nsubj	_	_
+2	Cyrus	Cyrus	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	davvero	davvero	ADV	B	_	6	advmod	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	icona	icona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	libertà	libertà	NOUN	S	Gender=Fem	6	nmod	_	_
+9	o	o	CCONJ	CC	_	13	cc	_	_
+10	semplicemente	semplicemente	ADV	B	_	13	advmod	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	altra	altro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	marketing	marketing	NOUN	S	Gender=Masc	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	società	società	NOUN	S	Gender=Fem	19	nmod	_	_
+23-24	dello	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	continuerà	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	vendere	vendere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+33	finché	finché	SCONJ	CS	_	35	mark	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	advcl	_	_
+36	someone	someone	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+37	disposto	disposto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+38	ad	a	ADP	E	_	39	mark	_	_
+39-40	comprarla	_	_	_	_	_	_	_	SpaceAfter=No
+39	comprar	comprare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Il tempo e il pubblico, come sempre, daranno le loro risposte.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	sempre	sempre	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Per ora,possiamo solo constatare che la strategia sembra funzionare:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	ora,possiamo	ora,possare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	constatare	constatare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	funzionare	funzionare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = il suo nome è su tutte le bocche, il suo servizio è
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	bocche	bocca	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpacesAfter=\n
+

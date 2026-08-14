@@ -1,0 +1,381 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il nome del pontefice, del resto, è proprio "Jorge".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pontefice	pontefice	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	resto	resto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	proprio	proprio	ADV	B	_	14	advmod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Jorge	Jorge	PROPN	SP	_	0	root	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = A ricevere l'omaggio del Papa argentino saranno tremila poveri di Roma.
+1	A	a	ADP	E	_	2	mark	_	_
+2	ricevere	ricevere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Papa	Papa	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	argentino	argentino	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+10	tremila	tremila	NUM	N	NumType=Card	11	nummod	_	_
+11	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Roma	Roma	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = La comunicazione in merito è arrivata tanto dall'elemosiniere apostolico, monsignor Konrad Krajewski quanto attraverso una nota stampa della Comunità di Sant'Egidio . Continua, quindi, l'attenzione per gli utlimi, che Bergoglio intende declinare soprattutto per mezzo di gesti concreti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	merito	merito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	tanto	tanto	ADV	B	_	10	advmod	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	elemosiniere	elemosiniere	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	apostolico	apostolico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	monsignor	monsignore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	Konrad	Konrad	PROPN	SP	_	13	nmod	_	_
+15	Krajewski	Krajewski	PROPN	SP	_	14	flat:name	_	_
+16	quanto	quanto	ADV	B	_	20	advmod	_	_
+17	attraverso	attraverso	ADP	E	_	20	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nota	noto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Comunità	Comunità	PROPN	SP	_	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Sant'	Sant'	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	Egidio	Egidio	PROPN	SP	_	25	flat:name	_	_
+27	.	.	PUNCT	FS	_	6	punct	_	_
+28	Continua	Continua	PROPN	SP	_	6	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	quindi	quindi	ADV	B	_	28	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	28	punct	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	utlimi	utlima	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	28	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	40	obj	_	_
+39	Bergoglio	Bergoglio	PROPN	SP	_	40	nsubj	_	_
+40	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+41	declinare	declinare	VERB	V	VerbForm=Inf	40	xcomp	_	_
+42	soprattutto	soprattutto	ADV	B	_	44	advmod	_	_
+43	per	per	ADP	E	_	44	case	_	_
+44	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	_
+47	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = I poveri della Comunità e dei centri gestiti dalla Caritas potranno gustare i loro gelati subito dopo la celebrazione della preghiera per la pace con i senza dimora.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Comunità	comunità	NOUN	S	Gender=Fem	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	centri	centro	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+10	gestiti	gestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Caritas	Caritas	PROPN	SP	_	10	obl:agent	_	_
+14	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15	gustare	gustare	VERB	V	VerbForm=Inf	0	root	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	gelati	gelato	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19	subito	subito	ADV	B	_	22	advmod	_	_
+20	dopo	dopo	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	celebrazione	celebrazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	pace	pace	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	senza	senza	ADP	E	_	32	case	_	_
+32	dimora	dimora	ADV	B	_	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = I Clochard continuano ad essere al centro della pastorale dell'argentino, ma anche i migranti e i rom che sono soliti andare al centro Genti di Pace in via di San Gallicano saranno destinatari del regalo del Papa.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Clochard	Clochard	PROPN	SP	_	3	nsubj	_	_
+3	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	8	mark	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centro	centro	NOUN	S	Gender=Masc|Number=Sing	39	advcl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pastorale	pastorale	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	argentino	argentino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	anche	anche	ADV	B	_	19	advmod	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	migranti	migrante	NOUN	S	Number=Plur	8	conj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	rom	rom	NOUN	S	Gender=Masc	8	conj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	22	acl:relcl	_	_
+26	andare	andare	VERB	V	VerbForm=Inf	25	csubj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	centro	centro	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	Genti	gente	ADJ	A	Number=Plur	29	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Pace	Pace	PROPN	SP	_	29	nmod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	via	via	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	San	San	PROPN	SP	_	34	nmod	_	_
+37	Gallicano	Gallicano	PROPN	SP	_	36	flat:name	_	_
+38	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	39	cop	_	_
+39	destinatari	destinatario	NOUN	S	Gender=Masc|Number=Plur	3	ccomp	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Papa	Papa	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = L'elemosineria del Vaticano avrebbe scelto gusti semplici:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	elemosineria	elemosineria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vaticano	Vaticano	PROPN	SP	_	2	nmod	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	semplici	semplice	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = cioccolato e crema; fragola e limone.
+1	cioccolato	cioccolato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	crema	crema	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	5	punct	_	_
+5	fragola	fragola	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	limone	limone	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Questa non è la prima iniziativa pratica che l'argentino ha messo in campo per gli ultimi in questi cinque anni di pontificato .
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	pratica	praticare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	argentino	argentino	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	12	obl	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+20	cinque	cinque	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	pontificato	pontificato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Durante lo scorso mese di gennaio, Papa Francesco aveva offerto i biglietti per lo spettacolo del circo Medrano.
+1	Durante	durante	ADP	E	_	4	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	mese	mese	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Papa	Papa	PROPN	SP	_	11	nsubj	_	_
+9	Francesco	Francesco	PROPN	SP	_	8	flat:name	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	circo	circo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Medrano	Medrano	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Bergoglio, in passato, ha anche finanziato una lavanderia gratuita per far sì che i barboni potessero lavare e stirare e lavare i vestiti in loro possesso.
+1	Bergoglio	Bergoglio	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	passato	passato	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	finanziato	finanziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lavanderia	lavanderia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	gratuita	gratuito	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	8	advcl	_	_
+14	sì	sì	ADV	B	_	13	advmod	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	barboni	barbone	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+18	potessero	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	lavare	lavare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	stirare	stirare	VERB	V	VerbForm=Inf	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	lavare	lavare	VERB	V	VerbForm=Inf	19	conj	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	loro	loro	DET	AP	Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Iniziative senza troppi fronzoli, che hanno consolidato l'immagine di un vescovo di Roma attento alle esigenze pratiche più che alle questioni dottrinali.
+1	Iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	senza	senza	ADP	E	_	4	case	_	_
+3	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	fronzoli	fronzole	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	consolidato	consolidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vescovo	vescovo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Roma	Roma	PROPN	SP	_	13	nmod	_	_
+16	attento	attento	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	pratiche	pratico	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	più	più	ADV	B	_	19	advmod	_	_
+22	che	che	SCONJ	CS	_	21	fixed	_	_
+23-24	alle	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+26	dottrinali	dottrinale	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = La distribuzione, in realtà, è iniziata già nella giornata di ieri:la mensa di via Dandolo ha già distribuito l'omaggio di Bergoglio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	già	già	ADV	B	_	12	advmod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	ieri:la	ieri:la	DET	RD	Gender=Fem|Number=Sing	15	det	_	_
+15	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	Dandolo	_	_	_	_	_	_	_	_
+18	Dando	dando	PROPN	SP	_	17	nmod	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	già	già	ADV	B	_	22	advmod	_	_
+22	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Bergoglio	Bergoglio	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Un modo nuovo di festeggiare il Santo che incarna i valori della cavalleria.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	festeggiare	festeggiare	VERB	V	VerbForm=Inf	2	acl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Santo	santo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	incarna	incarnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	valori	valore	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cavalleria	cavalleria	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

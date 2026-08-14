@@ -1,0 +1,488 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lieve calo del M5S, che dal 25,1% scende al 24,9%.
+1	Lieve	lieve	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	calo	calo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	M5S	M5S	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	25,1	25,1	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	SYM	_	12	obl	_	_
+12	scende	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	24,9	24,9	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sul fronte del centrodestra, invece, flessione per la Lega Nord (14%, -0,3%) mentre Forza Italia rimbalza al 9,7% (+0,1%).
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	centrodestra	centrodestra	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	invece	invece	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	flessione	flessione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Lega	Lega	PROPN	SP	_	10	nmod	_	_
+14	Nord	Nord	PROPN	SP	_	13	flat:name	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	14	14	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	10	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	-0,3	-0,3	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	17	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	17	punct	_	_
+22	mentre	mentre	SCONJ	CS	_	25	mark	_	_
+23	Forza	Forza	PROPN	SP	_	25	nsubj	_	_
+24	Italia	Italia	PROPN	SP	_	23	flat:name	_	_
+25	rimbalza	rimbalzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	9,7	9,7	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	25	obl	_	_
+30	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	+0,1	+0,1	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+32	%	%	SYM	SYM	_	25	obl	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Se si votasse oggi, l’affluenza sarebbe al 66,3%.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	votasse	votare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+4	oggi	oggi	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	affluenza	affluenza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	66,3	66,3	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Cresce di un punto in una settimana la fiducia in Matteo Renzi (32%) e nel governo (29%), secondo l’Istituto.
+1	Cresce	Cresce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Matteo	Matteo	PROPN	SP	_	9	nmod	_	_
+12	Renzi	Renzi	PROPN	SP	_	11	flat:name	_	_
+13	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	32	32	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	1	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	governo	governo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	29	29	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	secondo	secondo	ADP	E	_	28	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sergio Mattarella ottiene sempre la più alta fiducia tra i politici (63%).
+1	Sergio	Sergio	PROPN	SP	_	3	nsubj	_	_
+2	Mattarella	Mattarella	PROPN	SP	_	1	flat:name	_	_
+3	ottiene	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	alta	alto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	politici	politico	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	63	63	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	SYM	_	11	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = In testa, tra le istituzioni, Papa Francesco all’86%.
+1	In	in	ADP	E	_	2	case	_	_
+2	testa	testa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	Papa	Papa	PROPN	SP	_	6	nmod	_	_
+9	Francesco	Francesco	PROPN	SP	_	8	flat:name	_	_
+10-11	all’	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	13	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	86	86	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	6	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Da notare che secondo il sondaggio il 64% degli italiani (una settimana fa era il 65%) non vede segni di ripresa, nonostante una serie di indicatori economici positivi.
+1	Da	da	ADP	E	_	2	mark	_	_
+2	notare	notare	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	23	mark	_	_
+4	secondo	secondo	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sondaggio	sondaggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	64	64	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	SYM	_	6	nmod	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+16	fa	fa	ADV	B	_	15	advmod	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	65	65	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	9	obl	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+24	segni	segno	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	nonostante	nonostante	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	serie	serie	NOUN	S	Gender=Fem	2	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	indicatori	indicatore	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	economici	economico	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	positivi	positivo	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Il 35%, invece, è più ottimista e pensa che il peggio sia passato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	35	35	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	invece	invece	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	ottimista	ottimista	ADJ	A	Number=Sing	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Questo il quadro completo delle intenzioni di voto (tra parentesi la differenza percentuale rispetto alla rilevazione precedente):
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	completo	completo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	voto	voto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	tra	tra	ADP	E	_	12	case	_	_
+12	parentesi	parentesi	NOUN	S	Gender=Fem	7	nmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	percentuale	percentuale	ADJ	A	Number=Sing	14	amod	_	_
+16	rispetto	rispetto	ADV	B	_	19	case	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	rilevazione	rilevazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20	precedente	precedente	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = - PD 35,1% (+0,1).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	PD	pd	PROPN	SP	_	0	root	_	_
+3	35,1	35,1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	+0,1	+0,1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = - M5S 24,9% (-0,2).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	M5S	M5S	PROPN	SP	_	0	root	_	_
+3	24,9	24,9	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	-0,2	-0,2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = - LEGA NORD 14,0% (-0,3).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	LEGA	Lega	PROPN	SP	_	0	root	_	_
+3	NORD	Nord	PROPN	SP	_	2	flat:name	_	_
+4	14,0	14,0	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	2	nmod	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	-0,3	-0,3	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = - FORZA ITALIA 9,7% (+0,1).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	FORZA	Forza	PROPN	SP	_	0	root	_	_
+3	ITALIA	Italia	PROPN	SP	_	2	flat:name	_	_
+4	9,7	9,7	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	2	nmod	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	+0,1	+0,1	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = - SEL 4,4% (-0,2).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	SEL	SEL	PROPN	SP	_	0	root	_	_
+3	4,4	4,4	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	-0,2	-0,2	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = - FDI 3,2% (-0,1). - AP (NCD+UDC) 3,2% (+0,4).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	FDI	FDI	PROPN	SP	_	0	root	_	_
+3	3,2	3,2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	-0,1	-0,1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+9	-	-	PUNCT	FF	_	2	punct	_	_
+10	AP	AP	PROPN	SP	_	2	nmod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	NCD+UDC	NCD+UDC	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	3,2	3,2	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	2	nmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	+0,4	+0,4	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = - PRC 1,2% (+0,2).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	PRC	PRC	PROPN	SP	_	0	root	_	_
+3	1,2	1,2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	+0,2	+0,2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = - IDV 0,5% (-0,1).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	IDV	IDV	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	_
+3	0,5	0,5	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	obl	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	-0,1	-0,1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = - VERDI 0,4% (-0,1).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	VERDI	Verdi	PROPN	SP	_	0	root	_	_
+3	0,4	0,4	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	2	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	-0,1	-0,1	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = - SCELTA CIVICA 0,3% ( = ).
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	SCELTA	scelta	PROPN	SP	_	0	root	_	_
+3	CIVICA	civica	PROPN	SP	_	2	flat:name	_	_
+4	0,3	0,3	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	2	nmod	_	_
+6	(	(	PUNCT	FB	_	5	punct	_	_
+7	=	=	PUNCT	FF	_	5	punct	_	_
+8	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Se invece si guarda a Roma, dove è molto probabile un voto nella prossima primavera, secondo l'istituto Ixè, 5 Stelle primi assoluti con la possibilità di arrivare al 40% se non oltre (soprattutto in caso di flop dell'affluenza alle urne).
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Roma	Roma	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dove	dove	ADV	B	_	11	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	probabile	probabile	ADJ	A	Number=Sing	6	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	voto	voto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	secondo	secondo	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+22	Ixè	Ixé	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	11	punct	_	_
+24	5	5	NUM	N	NumType=Card	25	nummod	_	_
+25	Stelle	Stelle	PROPN	SP	_	11	nsubj	_	_
+26	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	25	amod	_	_
+27	assoluti	assolere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	possibilità	possibilità	NOUN	S	Gender=Fem	27	obl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	arrivare	arrivare	VERB	V	VerbForm=Inf	30	acl	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	36	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	40	40	NUM	N	NumType=Card	36	nummod	_	SpaceAfter=No
+36	%	%	SYM	SYM	_	32	obl	_	_
+37	se	se	SCONJ	CS	_	43	mark	_	_
+38	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+39	oltre	oltre	ADV	B	_	43	advmod	_	_
+40	(	(	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+41	soprattutto	soprattutto	ADV	B	_	43	advmod	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	caso	caso	NOUN	S	Gender=Masc|Number=Sing	32	advcl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	flop	flop	NOUN	S	Gender=Masc	43	nmod	_	_
+46-47	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+46	di	di	ADP	E	_	48	case	_	_
+47	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	affluenza	affluenza	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+49-50	alle	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	urne	urna	NOUN	S	Gender=Fem|Number=Plur	45	nmod	_	SpaceAfter=No
+52	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = A seguire il Centrodestra poco sopra il 30%, con NoiConSalvini sul 15% e Forza Italia-Fratelli d'Italia entrambi intorno al 9%.
+1	A	a	ADP	E	_	2	mark	_	_
+2	seguire	seguire	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Centrodestra	centrodestra	PROPN	SP	_	2	obj	_	_
+5	poco	poco	ADV	B	_	9	advmod	_	_
+6	sopra	sopra	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	30	30	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	SYM	_	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	NoiConSalvini	NoiConSalvini	PROPN	SP	_	2	obl	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	15	15	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	12	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Forza	Forza	PROPN	SP	_	16	conj	_	_
+19	Italia	Italia	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+21	Fratelli	fratelli	PROPN	SP	_	18	appos	_	_
+22	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	Italia	Italia	PROPN	SP	_	21	nmod	_	_
+24	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	nmod	_	_
+25	intorno	intorno	ADV	B	_	29	case	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	9	9	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Pd in caduta libera, come era facile immaginare, con alcuni sondaggisti che si spingono a stimare perfino una discesa fino al 15%.
+1	Pd	pd	NOUN	S	Gender=Masc	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	libera	libero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	come	come	SCONJ	CS	_	8	mark	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	facile	facile	ADJ	A	Number=Sing	1	advcl	_	_
+9	immaginare	immaginare	VERB	V	VerbForm=Inf	8	csubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	sondaggisti	sondaggista	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	spingono	spingere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	stimare	stimare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	perfino	perfino	ADV	B	_	18	advmod	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	fino	fino	ADV	B	_	26	case	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	15	15	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	18	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

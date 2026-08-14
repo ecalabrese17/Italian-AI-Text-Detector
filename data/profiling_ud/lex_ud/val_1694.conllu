@@ -1,0 +1,598 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel Regno Unito cinque persone sono morte e decine di migliaia di case sono rimaste senza elettricità.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Regno	Regno	PROPN	SP	_	8	obl	_	_
+4	Unito	Unito	PROPN	SP	_	3	flat:name	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	morte	morte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	decine	decina	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	case	casa	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+17	senza	senza	ADP	E	_	18	case	_	_
+18	elettricità	elettricità	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = A causa del maltempo sono stati cancellati voli negli scali di Londra Heathrow, Bristol e Glasgow.
+1	A	a	ADP	E	_	2	case	_	_
+2	causa	causa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	maltempo	maltempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	cancellati	cancellare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	voli	volo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	scali	scalo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Londra	Londra	PROPN	SP	_	12	nmod	_	_
+15	Heathrow	Heathrow	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Bristol	Bristol	PROPN	SP	_	9	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Glasgow	Glasgow	PROPN	SP	_	9	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Inoltre un blackout ha colpito una parte dell'aeroporto di Londra Gatwich.
+1	Inoltre	inoltre	ADV	B	_	5	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	blackout	blackout	NOUN	S	Gender=Masc	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Londra	Londra	PROPN	SP	_	10	nmod	_	_
+13	Gatwich	Gatwich	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = I forti venti sono arrivati anche in Irlanda, dove almeno cinquemila linee telefoniche sono rimaste fuori servizio e sono stati interrotti i collegamenti sulla Manica.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	forti	forte	ADJ	A	Number=Plur	3	amod	_	_
+3	venti	vento	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Irlanda	Irlanda	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dove	dove	ADV	B	_	16	advmod	_	_
+11	almeno	almeno	ADV	B	_	12	advmod	_	_
+12	cinquemila	cinquemila	NUM	N	NumType=Card	13	nummod	_	_
+13	linee	linea	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+14	telefoniche	telefonico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+17	fuori	fuori	ADP	E	_	18	case	_	_
+18	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	interrotti	interrurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	collegamenti	collegamento	NOUN	S	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Manica	Manica	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Nel canale una nave norvegese ha prestato soccorso allo skipper svizzero Bernard Stamm e al suo compagno di traversata Damien Guillou.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	canale	canale	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nave	nave	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	norvegese	norvegese	ADJ	A	Number=Sing	5	amod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	prestato	prestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	skipper	skipper	NOUN	S	Gender=Masc	8	obl	_	_
+13	svizzero	svizzero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	Bernard	Bernard	PROPN	SP	_	12	nmod	_	_
+15	Stamm	Stamm	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	traversata	traversata	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	Damien	Damien	PROPN	SP	_	22	nmod	_	_
+24	Guillou	Guillou	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = I due erano in rotta verso Rotterdam e la loro barca è affondata.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	5	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	verso	verso	ADP	E	_	7	case	_	_
+7	Rotterdam	Rotterdam	PROPN	SP	_	5	nmod	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	barca	barca	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	affondata	affondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = L'agenzia per l'Ambiente britannica ha emesso oltre 300 avvisi di alluvione in Inghilterra e in Galles, con un avviso di "grave alluvione" (il livello di allerta che implica il pericolo di vita) per il sud-ovest del Paese.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	britannica	britannico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	emesso	emettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	oltre	oltre	ADV	B	_	10	advmod	_	_
+10	300	300	NUM	N	NumType=Card	11	nummod	_	_
+11	avvisi	avviso	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	alluvione	alluvione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Inghilterra	Inghilterra	PROPN	SP	_	11	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Galles	Galles	PROPN	SP	_	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	grave	grave	ADJ	A	Number=Sing	26	amod	_	_
+26	alluvione	alluvione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	_
+28	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	livello	livello	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	allerta	allerta	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	implica	implicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	vita	vita	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	30	punct	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	sud-ovest	sud-ovest	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Solo parte delle decine di migliaia di case che erano rimaste al buio sono tornate ad avere l'elettricità e nel frattempo le compagnie ferroviarie hanno sospeso i servizi per rimuovere dalle linee i detriti e gli alberi abbattuti dal vento.
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	decine	decina	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	case	casa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	buio	buio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	tornate	tornare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19	avere	avere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	elettricità	elettricità	NOUN	S	Gender=Fem	19	obj	_	_
+22	e	e	CCONJ	CC	_	30	cc	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	compagnie	compagnia	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	_
+28	ferroviarie	ferroviario	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	sospeso	sospendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	rimuovere	rimuovere	VERB	V	VerbForm=Inf	30	advcl	_	_
+35-36	dalle	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	linee	linea	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	detriti	detrito	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+43	abbattuti	abbattere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	42	acl	_	_
+44-45	dal	_	_	_	_	_	_	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	vento	vento	NOUN	S	Gender=Masc|Number=Sing	43	obl:agent	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = Maltempo in Inghilterra: 4 vittime.
+1	Maltempo	Maltempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Inghilterra	Inghilterra	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	4	4	NUM	N	NumType=Card	6	nummod	_	_
+6	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Quattro le vittime in Francia, di cui tre solo in Normandia:
+1	Quattro	quattro	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Francia	Francia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	9	nmod	_	_
+9	tre	tre	NUM	N	NumType=Card	3	acl:relcl	_	_
+10	solo	solo	ADV	B	_	12	advmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Normandia	Normandia	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = un ragazzo di 12 anni è morto dopo il crollo di un muro nel Calvados, nel sud della regione, e altre due persone hanno perso la vita a causa del crollo di un albero.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	12	12	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	muro	muro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Calvados	Calvados	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sud	sud	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	regione	regione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	30	punct	_	_
+25	e	e	CCONJ	CC	_	30	cc	_	_
+26	altre	altro	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+27	due	due	NUM	N	NumType=Card	28	nummod	_	_
+28	persone	persona	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vita	vita	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	causa	causa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	albero	albero	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Un marinaio russo, invece, è morto a 220 chilometri da Brest, città portuale della Bretagna, dopo che una forte ondata ha investito il suo peschereccio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	marinaio	marinaio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	russo	russo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	220	220	NUM	N	NumType=Card	11	nummod	_	_
+11	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Brest	Brest	PROPN	SP	_	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	città	città	NOUN	S	Gender=Fem	13	appos	_	_
+16	portuale	portuale	ADJ	A	Number=Sing	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Bretagna	Bretagna	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	8	punct	_	_
+21	dopo	dopo	ADV	B	_	27	mark	_	_
+22	che	che	SCONJ	CS	_	21	fixed	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	forte	forte	ADJ	A	Number=Sing	25	amod	_	_
+25	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	peschereccio	peschereccio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Sono circa 240mila le case rimaste senza elettricità in tutto il Paese e in Bretagna e Normandia, le regioni più colpite dalla tempesta, i venti hanno raggiunto i 130 chilometri orari.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	circa	circa	ADV	B	_	3	advmod	_	_
+3	240mila	240milare	NUM	N	NumType=Card	5	nummod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	case	casa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	elettricità	elettricità	NOUN	S	Gender=Fem	6	obl	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	12	det:predet	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Bretagna	Bretagna	PROPN	SP	_	5	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Normandia	Normandia	PROPN	SP	_	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	colpite	colpire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	22	obl:agent	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	venti	vento	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	130	130	NUM	N	NumType=Card	33	nummod	_	_
+33	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+34	orari	orario	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = L'ondata di maltempo ha colpito anche Spagna, Portogallo e Olanda.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	maltempo	maltempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	Spagna	Spagna	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Portogallo	Portogallo	PROPN	SP	_	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Olanda	Olanda	PROPN	SP	_	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = In Galizia sono rimasti quasi in 100.000 senza luce e la caduta di un albero ha fatto deragliare un treno nella provincia di Lugo, a causa del forte vento che nella notte ha raggiunto i 185 chilometri orari.
+1	In	in	ADP	E	_	2	case	_	_
+2	Galizia	Galizia	PROPN	SP	_	4	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	quasi	quasi	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	100.000	100.000	NUM	N	NumType=Card	4	obl	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	luce	luce	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	17	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	albero	albero	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18	deragliare	deragliare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	treno	treno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Lugo	Lugo	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	causa	causa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	forte	forte	ADJ	A	Number=Sing	32	amod	_	_
+32	vento	vento	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+33	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	notte	notte	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+40	185	185	NUM	N	NumType=Card	41	nummod	_	_
+41	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+42	orari	orario	ADJ	A	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Disagi anche nel trasporto aereo:
+1	Disagi	disagio	ADV	B	_	5	advmod	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	aereo	aereo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 17
+# text = voli cancellati nell'aeroporto di Bilbao, mentre un aereo partito da Barcellona e diretto a Vigo ha dovuto cambiare rotta e atterrare a Madrid.
+1	voli	volo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	cancellati	cancellare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Bilbao	Bilbao	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+12	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	Barcellona	Barcellona	PROPN	SP	_	12	obl:agent	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Vigo	Vigo	PROPN	SP	_	16	obl	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux	_	_
+21	cambiare	cambiare	VERB	V	VerbForm=Inf	1	advcl	_	_
+22	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	atterrare	atterrare	VERB	V	VerbForm=Inf	21	conj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	Madrid	Madrid	PROPN	SP	_	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = In Portogallo, nelle zone costiere dei distretti di Lisbona e Santarém, c'è stata la massima allerta per il mare mosso, con onde fino a 7,5 metri.
+1	In	in	ADP	E	_	2	case	_	_
+2	Portogallo	Portogallo	PROPN	SP	_	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	zone	zona	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+7	costiere	costiere	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	distretti	distretto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Lisbona	Lisbona	PROPN	SP	_	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Santarém	Santarém	PROPN	SP	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	allerta	allerta	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mare	mare	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	mosso	mosso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	18	punct	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	onde	onda	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+29	fino	fino	ADV	B	_	32	case	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	7,5	7,5	NUM	N	NumType=Card	32	nummod	_	_
+32	metri	metro	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 19
+# text = In Olanda i traghetti sono stati sospesi nel nord del Paese e alcuni edifici sono stati danneggiati, tra cui il Philips Stadion di Endhoven.
+1	In	in	ADP	E	_	2	case	_	_
+2	Olanda	Olanda	PROPN	SP	_	7	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	traghetti	traghetto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	sospesi	sospendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	nord	nord	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Paese	paese	PROPN	SP	_	10	nmod	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	danneggiati	danneggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	tra	tra	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Philips	Philips	PROPN	SP	_	22	nsubj	_	_
+25	Stadion	Stadion	PROPN	SP	_	24	flat:name	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Endhoven	Endhoven	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 20
+# text = Tempesta sul Nord Europa: morti in Gb, colpite anche Francia e Spagna
+1	Tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	11	parataxis	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Nord	Nord	PROPN	SP	_	1	nmod	_	_
+5	Europa	Europa	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+7	morti	morire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Gb	Gb	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	colpite	colpire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	Francia	Francia	PROPN	SP	_	11	xcomp	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Spagna	Spagna	PROPN	SP	_	13	conj	_	SpacesAfter=\n
+

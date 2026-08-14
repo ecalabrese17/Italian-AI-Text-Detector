@@ -1,0 +1,366 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella che si infila nei vestiti, nelle ossa, nel respiro.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	infila	infilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ossa	ossa	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tre anni, esattamente tre anni, da quando le truppe serbo-bosniache, sotto il comando diretto di General Stanislav Galić, hanno trasformato quella che doveva essere una zona di protezione delle Nazioni Unite, Srebrenica, in un manicomio di morte.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	esattamente	esattamente	ADV	B	_	6	advmod	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	quando	quando	SCONJ	CS	_	8	fixed	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	truppe	truppa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+12	serbo	serbo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+14	bosniache	bosniache	NOUN	S	Gender=Fem|Number=Plur	11	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	sotto	sotto	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	comando	comando	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+19	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	General	General	PROPN	SP	_	18	nmod	_	_
+22	Stanislav	Stanislav	PROPN	SP	_	21	flat:name	_	_
+23	Galić	Galić	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	26	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+29	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+30	essere	essere	AUX	V	VerbForm=Inf	32	cop	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	zona	zona	NOUN	S	Gender=Fem|Number=Sing	27	acl:relcl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	Nazioni	nazione	PROPN	SP	_	34	nmod	_	_
+38	Unite	unito	PROPN	SP	_	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	Srebrenica	Srebrenica	PROPN	SP	_	26	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	manicomio	manicomio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	morte	morte	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 3
+# text = Tre anni e ancora il freddo crampo della memoria mi stringe le spalle, e la nausea, quella viscida e persistente, mi torna ogni volta che penso a quelle strade.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	ancora	ancora	ADV	B	_	7	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	crampo	crampo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	stringe	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nausea	nausea	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	12	conj	_	_
+21	viscida	viscida	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	persistente	persistente	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+26	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	volta	volta	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	che	che	SCONJ	CS	_	30	mark	_	_
+30	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	33	det	_	_
+33	strade	strada	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Non sono un eroe.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Non lo sono mai stato.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	stato	essere	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sono solo un uomo, un testimone.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	testimone	testimone	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Un sopravvissuto camminando sui cadaveri, come ho detto nel mio vecchio diario, un diario che ora, con il permesso dei miei avvocati, posso finalmente far leggere alla gente.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sopravvissuto	sopravvissuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	camminando	camminare	VERB	V	VerbForm=Ger	2	acl	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cadaveri	cadavere	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	come	come	SCONJ	CS	_	10	mark	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	15	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	diario	Diario	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	diario	diario	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	_
+19	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+20	ora	ora	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	24	punct	_	_
+30	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	finalmente	finalmente	ADV	B	_	32	advmod	_	_
+32	far	fare	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+33	leggere	leggere	VERB	V	VerbForm=Inf	32	ccomp	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	gente	gente	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Non per la gloria, non per il riconoscimento.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Perché non mi interessano neppure.
+1	Perché	perché	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	interessano	interessare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	neppure	neppure	ADV	BN	PronType=Neg	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Mi interessa raccontare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	raccontare	raccontare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Dipingere con parole il marasma di violenza, l'odore acre di sangue e terrore, la disperazione che si diffusero come un incendio incontrollabile.
+1	Dipingere	dipingere	VERB	V	VerbForm=Inf	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	marasma	marasma	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	odore	odore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	acre	acre	VERB	V	VerbForm=Inf	10	acl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	diffusero	diffudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	incontrollabile	incontrollabile	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ricordo il giorno.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Il 19 luglio 1995.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	19	19	NUM	N	NumType=Card	0	root	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1995	1995	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = La mia casa, a pochi chilometri dal centro di Srebrenica, era piena di rifugiati, donne, bambini, anziani.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	centro	centro	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Srebrenica	Srebrenica	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	rifugiati	rifugiato	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	anziani	anziani	ADJ	A	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Una massa umana impaurita, aggrappata a una fragile speranza, quella di trovare un porto sicuro, una protezione che non sarebbe mai arrivata.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	massa	massa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	umana	umano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	impaurita	impaurire	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	aggrappata	aggrappare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	fragile	fragile	ADJ	A	Number=Sing	10	amod	_	_
+10	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	trovare	trovare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	porto	porto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	14	appos	_	_
+21	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	mai	mai	ADV	B	_	25	advmod	_	_
+25	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = L'UNPROFOR, guidato dal capitano francese Daroslav Petrič, aveva promesso non toccare i civili.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	UNPROFOR	Unprofor	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	francese	francese	ADJ	A	Number=Sing	7	amod	_	_
+9	Daroslav	Daroslav	PROPN	SP	_	7	nmod	_	_
+10	Petrič	Petrič	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	toccare	toccare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	civili	civile	NOUN	S	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 17
+# text = Una promessa rotta dall'inizio, una bugia che ha permesso a un massacro di scorrere ininterrotto, con una freddezza e una sistemat
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	rotta	rottare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bugia	bugia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	massacro	massacro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	scorrere	scorrere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+18	ininterrotto	ininterrotto	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	freddezza	freddezza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	sistemat	sistemat	NOUN	S	Gender=Masc	22	conj	_	SpacesAfter=\n
+

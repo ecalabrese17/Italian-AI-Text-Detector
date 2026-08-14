@@ -1,0 +1,337 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’occasione?
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Un’epica, e per molti inaspettata, apparizione su Instagram.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	epica	epica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	conj	_	_
+7	inaspettata	inaspettata	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Instagram	Instagram	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La Guatieri, notoriamente schietta e senza peli sulla lingua, ha pubblicato una fotografia che ha scatenato un’ondata di commenti, moltri dei quali inutilmente volgari, ma una parte, e la più significativa, convinta che l’ex Ministro della Gioventù abbia infranto tutte le regole di decoro e, cosa più grave, di rispetto per i propri seguaci.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Guatieri	Guatieri	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	notoriamente	notoriamente	ADV	B	_	5	advmod	_	_
+5	schietta	schiettare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	peli	pelo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	scatenato	scatenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	moltri	moltro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	appos	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	quali	quale	PRON	PR	Number=Plur|PronType=Rel	30	obl	_	_
+29	inutilmente	inutilmente	ADV	B	_	30	advmod	_	_
+30	volgari	volgari	ADJ	A	Gender=Masc|Number=Plur	25	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	ma	ma	CCONJ	CC	_	34	cc	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	parte	parte	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	convinta	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+42	che	che	SCONJ	CS	_	49	mark	_	_
+43	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+44	ex	ex	ADJ	A	_	45	amod	_	_
+45	Ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	49	nsubj	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	Gioventù	Gioventù	PROPN	SP	_	45	nmod	_	_
+49	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
+50	infranto	infranto	ADV	B	_	49	advmod	_	_
+51	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	53	det:predet	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	regole	regola	NOUN	S	Gender=Fem|Number=Plur	49	obj	_	_
+54	di	di	ADP	E	_	55	case	_	_
+55	decoro	decoro	NOUN	S	Gender=Masc|Number=Sing	53	nmod	_	_
+56	e	e	CCONJ	CC	_	58	cc	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	58	punct	_	_
+58	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+59	più	più	ADV	B	_	60	advmod	_	_
+60	grave	grave	ADJ	A	Number=Sing	58	amod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	58	punct	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+64	per	per	ADP	E	_	67	case	_	_
+65	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
+66	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	67	det:poss	_	_
+67	seguaci	seguace	NOUN	S	Number=Plur	63	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = L’immagine in questione, un’attenta composizione di luce e ombre che mette in risalto le curve di una donna decisamente matura, ha lasciato un senso di smarrimento in molti dei suoi follower.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	composizione	composizione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	risalto	risalto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	curve	curva	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	donna	donna	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	decisamente	decisamente	ADV	B	_	23	advmod	_	_
+23	matura	maturo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	senso	senso	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	smarrimento	smarrimento	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	26	obl	_	_
+33-34	dei	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	follower	follower	NOUN	S	Gender=Masc	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 5
+# text = L’hashtag #LadyKeita è diventato trending topic, alimentando un dibattito acceso sulla definizione di sensualità, sull’utilizzo del corpo femminile nella sfera pubblica e, soprattutto, sul ruolo del politically correct e del “senso di colpa” che sembra soffocare la libertà individuale.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	hashtag	hashtag	NOUN	S	Gender=Masc	6	obl	_	_
+3	#	#	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	LadyKeita	LadyKeita	PROPN	SP	_	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	trending	trending	X	X	_	6	xcomp	_	_
+8	topic	topic	X	X	_	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	alimentando	alimentare	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	acceso	acceso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	definizione	definizione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sensualità	sensualità	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20-21	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+20	su	su	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	femminile	femminile	ADJ	A	Number=Sing	25	amod	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+30	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	e	e	CCONJ	CC	_	37	cc	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	37	punct	_	_
+33	soprattutto	soprattutto	ADV	B	_	37	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35-36	sul	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	politically	politically	NOUN	S	Gender=Masc	37	nmod	_	_
+41	correct	correct	NOUN	S	Gender=Masc	40	compound	_	_
+42	e	e	CCONJ	CC	_	46	cc	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	“	“	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	senso	senso	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+49	”	”	PUNCT	FB	_	46	punct	_	_
+50	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+51	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+52	soffocare	soffocare	VERB	V	VerbForm=Inf	51	xcomp	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	libertà	libertà	NOUN	S	Gender=Fem	52	obj	_	_
+55	individuale	individuale	ADJ	A	Number=Sing	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Non si tratta di una questione di semplice gusti personali.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	semplice	semplice	ADJ	A	Number=Sing	9	amod	_	_
+9	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	personali	personale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = La Guatieri, da sempre fautora di un’immagine forte e indipendente, ha sempre scelto di confrontarsi con il mondo con un’eleganza e un’autostima che la rendono un punto di riferimento, anche per chi non condivide pienamente le sue posizioni politiche.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Guatieri	Guatieri	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	fautora	fautora	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	forte	forte	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	indipendente	indipendente	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	sempre	sempre	ADV	B	_	16	advmod	_	_
+16	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	confrontarsi	_	_	_	_	_	_	_	_
+18	confrontar	confrontarre	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	punto	punto	NOUN	S	Gender=Masc|Number=Sing	31	xcomp	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	31	punct	_	_
+37	anche	anche	ADV	B	_	39	advmod	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	chi	chi	PRON	PR	Number=Sing|PronType=Rel	31	obl	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	condivide	condividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42	pienamente	pienamente	ADV	B	_	41	advmod	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+44	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	41	obj	_	_
+46	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Questa nuova foto, percepita da molti come eccessivamente provocatoria e fuori luogo, sembra una mancanza di rispetto verso l’immagine che ha costruito fino ad ora.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	foto	foto	NOUN	S	Gender=Fem	15	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	percepita	percepitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl:agent	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	eccessivamente	eccessivo	ADV	B	_	10	advmod	_	_
+10	provocatoria	provocatoria	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	fuori	fuori	ADV	B	_	13	advmod	_	_
+13	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	verso	verso	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+26	fino	fino	ADV	B	_	28	case	_	_
+27	ad	a	ADP	E	_	26	fixed	_	_
+28	ora	ora	ADV	B	_	25	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = È comprensibile la reazione di chi, abituato a un suo stile più rigoroso e legato a temi di rilevanza sociale, si sente quasi tradito.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	comprensibile	comprensibile	ADJ	A	Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	abituato	abituare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	stile	stile	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	rigoroso	rigoroso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	legato	legare	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	temi	tema	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	rilevanza	rilevanza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	sociale	sociale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	tradito	tradire	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ma si ris
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	ris	ris	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

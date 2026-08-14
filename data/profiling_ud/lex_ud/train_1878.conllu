@@ -1,0 +1,814 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono le due proposte di legge che Fratelli d'Italia ha presentato a Montecitorio e per cui Giorgia Meloni si è spesa anche con un tweet.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	legge	legge	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+8	Fratelli	fratelli	PROPN	SP	_	12	nsubj	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	8	nmod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Montecitorio	Montecitorio	PROPN	SP	_	22	obl	_	_
+15	e	e	CCONJ	CC	_	22	cc	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+18	Giorgia	Giorgia	PROPN	SP	_	22	nsubj	_	_
+19	Meloni	Meloni	PROPN	SP	_	18	flat:name	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	spesa	spendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+23	anche	anche	ADV	B	_	26	advmod	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tweet	tweet	NOUN	S	Gender=Masc	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sostenendo addirittura che "il reato di tortura impedisce agli agenti di fare il proprio lavoro".
+1	Sostenendo	sostenere	VERB	V	VerbForm=Ger	0	root	_	_
+2	addirittura	addirittura	ADV	B	_	9	advmod	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	reato	reato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10-11	agli	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	agenti	agente	NOUN	S	Number=Plur	9	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Poi cancella il tweet, lo riscrive precisando che l'obiettivo è "modificare" il reato di tortura rispetto a "come è formulato oggi", ribadisce che la legge impedisce alle forze dell'ordine di fare il proprio lavoro.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	cancella	cancellare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tweet	tweet	NOUN	S	Gender=Masc	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	riscrive	riscriva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	precisando	precisare	VERB	V	VerbForm=Ger	7	advcl	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	modificare	modificare	VERB	V	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	reato	reato	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	rispetto	rispetto	ADV	B	_	25	mark	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+23	come	come	SCONJ	CS	_	25	mark	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	formulato	formulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+26	oggi	oggi	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29	ribadisce	ribadire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+30	che	che	SCONJ	CS	_	33	mark	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	legge	legge	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+33	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+34-35	alle	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	forze	forza	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+37-38	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+37	di	di	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	di	di	ADP	E	_	41	mark	_	_
+41	fare	fare	VERB	V	VerbForm=Inf	39	acl	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E aggiunge anche un video.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	video	video	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Scatenando un diluvio di reazioni sui social, dove le vengono ricordati i casi Cucchi, Uva, Aldrovrandi.
+1	Scatenando	Scatenare	VERB	V	VerbForm=Ger	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	diluvio	diluvio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	social	social	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	dove	dove	ADV	B	_	13	advmod	_	_
+11	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	iobj	_	_
+12	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13-14	ricordati	_	_	_	_	_	_	_	_
+13	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+14	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	casi	caso	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+17	Cucchi	Cucchi	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	Uva	Uva	PROPN	SP	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Aldrovrandi	Aldrovrandi	PROPN	SP	_	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Fratelli d'Italia ha presentato due proposte di legge per aumentare le pene a chi aggredisce un pubblico ufficiale e per modificare il reato di #tortura che, così com'è codificato oggi, impedisce alle forze dell'ordine di svolgere il proprio lavoro.
+1	Fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	Italia	Italia	PROPN	SP	_	1	nmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	legge	legge	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	aumentare	aumentare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pene	pena	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	13	nmod	_	_
+16	aggredisce	aggredire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	ufficiale	ufficiale	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	modificare	modificare	VERB	V	VerbForm=Inf	16	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	reato	reato	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	#tortura	#tortura	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	35	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	così	così	ADV	B	_	32	advmod	_	_
+30	com'	come	SCONJ	CS	_	32	mark	_	SpaceAfter=No
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+32	codificato	codificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+33	oggi	oggi	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+36-37	alle	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	forze	forza	NOUN	S	Gender=Fem|Number=Plur	35	obl	_	_
+39-40	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+39	di	di	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43	svolgere	svolgere	VERB	V	VerbForm=Inf	35	xcomp	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Difendiamo chi ci difende!
+1	Difendiamo	Difendare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	1	obj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+4	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = pic.twitter.com/pdzwOLGM2G — Giorgia Meloni ?
+1	pic.twitter.com/pdzwOLGM2G	pic.twitter.com/pdzwOLGM2g	PROPN	SP	_	0	root	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Giorgia	Giorgia	PROPN	SP	_	1	flat:name	_	_
+4	Meloni	Meloni	PROPN	SP	_	1	flat:name	_	_
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = (@GiorgiaMeloni) July 12, 2018 Una legge - quella sulla tortura - in realtà considerata molto timida da ong e associazioni per i diritti umani e anche da parlamentari che si erano sempre battuti per la causa, come Luigi Manconi.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	@GiorgiaMeloni	@GiorgiaMeloni	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	July	July	PROPN	SP	_	0	root	_	_
+5	12	12	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	2018	2018	NUM	N	NumType=Card	9	nummod	_	_
+8	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	legge	legge	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	-	-	PUNCT	FF	_	4	punct	_	_
+11	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	-	-	PUNCT	FB	_	11	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	realtà	realtà	NOUN	S	Gender=Fem	4	nmod	_	_
+18	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	timida	timido	ADJ	A	Gender=Fem|Number=Sing	18	xcomp	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	ong	ong	NOUN	S	Gender=Fem	18	obl:agent	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	umani	umano	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	anche	anche	ADV	B	_	32	advmod	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	parlamentari	parlamentare	NOUN	S	Number=Plur	27	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+35	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+36	sempre	sempre	ADV	B	_	37	advmod	_	_
+37	battuti	battere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	causa	causa	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	come	come	ADP	E	_	43	case	_	_
+43	Luigi	Luigi	PROPN	SP	_	40	nmod	_	_
+44	Manconi	Manconi	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Meloni lancia anche un avvertimento al governo.
+1	Meloni	Meloni	PROPN	SP	_	2	nsubj	_	_
+2	lancia	lanciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	avvertimento	avvertimento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Noi diamo la nostra disponibilità a dare una mano al governo - ha detto Meloni - sulle questioni per cui siamo stati votati, purtroppo registriamo una chiusura su alcune nostre proposte".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	disponibilità	disponibilità	NOUN	S	Gender=Fem	3	obj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	dare	dare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governo	governo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	-	-	PUNCT	FB	_	16	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+17	Meloni	Meloni	PROPN	SP	_	16	nsubj	_	_
+18	-	-	PUNCT	FF	_	16	punct	_	_
+19-20	sulle	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+24	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	votati	votare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	purtroppo	purtroppo	ADV	B	_	29	advmod	_	_
+29	registriamo	registrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	su	su	ADP	E	_	35	case	_	_
+33	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
+34	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E continua:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = "Tutti siamo contrari alla tortura, ma bisogna capire cos'è la tortura", ha detto ancora Meloni.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	contrari	contrario	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	capire	capire	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	11	xcomp	_	SpaceAfter=No
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+20	ancora	ancora	ADV	B	_	21	advmod	_	_
+21	Meloni	Meloni	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = "Se dai 12 anni a un agente per minacce psicologiche, io non sono d'accordo".
+1	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	18	mark	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	12	12	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	agente	agente	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	psicologiche	psicologiche	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = C'è poi il capitolo del rafforzamento delle pene per minacce a pubblico ufficiale.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	capitolo	capitolo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rafforzamento	rafforzamento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pene	pena	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	ufficiale	ufficiale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Il deputato Edmondo Cirielli sostiene che "siamo di fronte a un'emergenza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Edmondo	Edmondo	PROPN	SP	_	2	nmod	_	_
+4	Cirielli	Cirielli	PROPN	SP	_	3	flat:name	_	_
+5	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fronte	fronte	NOUN	S	Number=Sing	5	ccomp	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Negli ultimi anni le aggressioni ai danni delle forze dell'ordine sono aumentate in modo impressionante.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aggressioni	aggressione	NOUN	S	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	danni	danno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	forze	forza	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	aumentate	aumentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	impressionante	impressionante	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = Noi vogliamo portare da un minimo di sei a un massimo di dieci anni le pene per questo tipo di reato, che ora vanno da sei mesi a quattro anni".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	minimo	minimo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sei	sei	NUM	N	NumType=Card	6	nummod	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	dieci	dieci	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	pene	pena	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	reato	reato	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	ora	ora	ADV	B	_	25	advmod	_	_
+25	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	sei	sei	NUM	N	NumType=Card	28	nummod	_	_
+28	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	quattro	quattro	NUM	N	NumType=Card	31	nummod	_	_
+31	anni	anno	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Quanto al reato di tortura, FdI pensa di abrogare il reato così com'è e di trasformarlo in una serie di circostanze aggravanti.
+1	Quanto	quanto	ADV	B	_	9	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	reato	reato	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	FdI	FdI	PROPN	SP	_	9	nsubj	_	_
+9	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	abrogare	abrogare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	reato	reato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	così	così	ADV	B	_	22	advmod	_	_
+15	com'	come	SCONJ	CS	_	22	mark	_	SpaceAfter=No
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	trasformarlo	trasformarlo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	conj	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	serie	serie	NOUN	S	Gender=Fem	11	advcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	aggravanti	aggravante	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = "Non c'è bisogno di prevedere un automatismo - ha detto Cirielli - noi vogliamo impedire la criminalizzazione delle forze dell'ordine che c'è stata nella scorsa legislatura per motivi ideologici".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	prevedere	prevedere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	automatismo	automatismo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+13	Cirielli	Cirielli	PROPN	SP	_	12	nsubj	_	_
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	impedire	impedire	VERB	V	VerbForm=Inf	4	parataxis	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	criminalizzazione	criminalizzazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	forze	forza	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	SpaceAfter=No
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	legislatura	legislatura	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+34	per	per	ADP	E	_	35	case	_	_
+35	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+36	ideologici	ideologico	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = LE REAZIONI:
+1	LE	il	PROPN	SP	_	0	root	_	_
+2	REAZIONI	reazioni	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 22
+# text = "MODELLO EGITTO" Per il presidente Pd Matteo Orfini , la frase di Meloni è "offensiva e irricevibile.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	MODELLO	modello	PROPN	SP	_	0	root	_	_
+3	EGITTO	Egitto	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	Per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+8	Pd	Pd	PROPN	SP	_	7	nmod	_	_
+9	Matteo	Matteo	PROPN	SP	_	8	flat:name	_	_
+10	Orfini	Orfine	PROPN	SP	_	8	flat:name	_	_
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	frase	frase	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Meloni	Meloni	PROPN	SP	_	13	nmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	offensiva	offensivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	irricevibile	irricevibile	ADJ	A	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Semmai il tema è come rafforzare quella legge per renderla più efficace nell'evitare abusi".
+1	Semmai	semmai	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tema	tema	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	SCONJ	CS	_	6	mark	_	_
+6	rafforzare	rafforzare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	renderla	_	_	_	_	_	_	_	_
+10	render	rendere	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	efficace	efficace	ADJ	A	Number=Sing	10	xcomp	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	evitare	evitare	VERB	V	VerbForm=Inf	10	obl	_	_
+17	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Il reato di tortura impedisce alle forze dell'ordine di fare il loro lavoro e quindi va abolito, dice Giorgia Meloni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	reato	reato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	forze	forza	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	quindi	quindi	ADV	B	_	20	advmod	_	_
+19	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	abolito	abolire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+23	Giorgia	Giorgia	PROPN	SP	_	22	nsubj	_	_
+24	Meloni	Meloni	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Una frase offensiva e irricevibile.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	offensiva	offensivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	irricevibile	irricevibile	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Semmai il tema è come rafforzare quella legge per renderla più efficace nell'evitare abusi.
+1	Semmai	semmai	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tema	tema	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	SCONJ	CS	_	6	mark	_	_
+6	rafforzare	rafforzare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	renderla	_	_	_	_	_	_	_	_
+10	render	rendere	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	efficace	efficace	ADJ	A	Number=Sing	10	xcomp	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	evitare	evitare	VERB	V	VerbForm=Inf	10	obl	_	_
+17	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = — orfini (@orfini) July 12, 2018 E Nicola Fratoianni , di Leu:
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	orfini	orfine	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	@orfini	@orfine	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	_
+6	July	July	PROPN	SP	_	2	nmod	_	_
+7	12	12	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	2018	2018	NUM	N	NumType=Card	10	nummod	_	_
+10	E	e	PROPN	SP	_	2	nmod	_	_
+11	Nicola	Nicola	PROPN	SP	_	10	flat:name	_	_
+12	Fratoianni	Fratoianni	PROPN	SP	_	10	flat:name	_	_
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Leu	Leu	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 28
+# text = "L'onorevole Meloni scrive su Twitter che vuole abolire il reato di tortura perché impedisce alle forze dell'ordine di fare il loro mestiere:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	onorevole	onorevole	NOUN	S	Number=Sing	5	nsubj	_	_
+4	Meloni	Meloni	PROPN	SP	_	3	nmod	_	_
+5	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	Twitter	Twitter	PROPN	SP	_	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	abolire	abolire	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	reato	reato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	perché	perché	SCONJ	CS	_	16	mark	_	_
+16	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	forze	forza	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 29
+# text = è come affermare che tra i mestieri e i compiti delle forze dell'ordine ci sia la tortura.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	affermare	affermare	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	20	mark	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	mestieri	mestiere	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	forze	forza	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+18	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Roba da matti.
+1	Roba	robare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	matti	matto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = O, semplicemente, da fascisti".
+1	O	o	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	semplicemente	semplicemente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	fascisti	fascista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 32
+# text = E Maurizio Acerbo , di Rifondazione:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Maurizio	Maurizio	PROPN	SP	_	0	root	_	_
+3	Acerbo	Acerbo	PROPN	SP	_	2	flat:name	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Rifondazione	Rifondazione	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 33
+# text = "Non ci risulta che, in uno Stato di diritto, il lavoro della polizia consista nel torturare i cittadini.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	consista	consisto	ADJ	A	Number=Sing	17	amod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	torturare	torturare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Meloni e Salvini propongono per modello l'Egitto?
+1	Meloni	Melone	PROPN	SP	_	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Salvini	Salvini	PROPN	SP	_	1	conj	_	_
+4	propongono	proporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	modello	modello	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Egitto	Egitto	PROPN	SP	_	4	obj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

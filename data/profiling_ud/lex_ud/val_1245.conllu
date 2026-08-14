@@ -1,0 +1,364 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono cominciati tra le critiche i funerali delle due sorelle, vittime della strage del carabiniere.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	cominciati	cominciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	funerali	funerale	NOUN	S	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	strage	strage	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	carabiniere	carabiniere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Qualcuno tra i banchi ha criticato le parole del prelato che dopo, dopo aver ricordato le piccole, ha dedicato un pensiero anche a Luigi Capasso.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	criticato	criticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	prelato	prelato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+13	dopo	dopo	ADV	B	_	22	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	dopo	dopo	SCONJ	CS	_	17	mark	_	_
+16	aver	avere	AUX	VA	VerbForm=Inf	17	aux	_	_
+17	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Luigi	Luigi	PROPN	SP	_	22	nmod	_	_
+28	Capasso	Capasso	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = "Scusate ma la famiglia ha perdonato", ha detto il parroco rispondendo ai rimproveri.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Scusate	scusare	PROPN	SP	_	7	nsubj	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	perdonato	perdonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14	rispondendo	rispondere	VERB	V	VerbForm=Ger	11	advcl	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	rimproveri	rimprovero	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Attività chiuse per lutto cittadino Un lungo applauso ha salutato l'arrivo delle bare bianche nella chiesa parrocchiale di San Valentino a Cisterna di Latina.
+1	Attività	attività	NOUN	S	Gender=Fem	10	obl	_	_
+2	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	lutto	lutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
+5	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	salutato	salutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	bare	bara	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+20	parrocchiale	parrocchiale	ADJ	A	Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	San	San	PROPN	SP	_	19	nmod	_	_
+23	Valentino	Valentino	PROPN	SP	_	22	flat:name	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Cisterna	cisterna	PROPN	SP	_	10	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Latina	Latina	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Oltre ai palloncini bianchi e rosa anche striscioni con diversi messaggi per le piccole:
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	palloncini	palloncinio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	rosa	rosa	ADJ	A	_	5	conj	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	striscioni	striscione	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	piccole	piccola	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Cisterba non vi dimenticherà".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Cisterba	Cisterba	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
+5	dimenticherà	dimenticare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Migliaia le persone che vi partecipano, tra cui molti bambini.
+1	Migliaia	Migliarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	partecipano	partecipare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	tra	tra	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	nmod	_	_
+10	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Le attività della cittadina sono rimaste chiuse in segno di lutto per la strage delle sorelle.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	attività	attività	NOUN	S	Gender=Fem	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cittadina	cittadino	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	7	xcomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	segno	segno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	strage	strage	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = La mamma ancora in ospedale Nei giorni scorsi la mamma delle piccole, Antonietta Gargiulo, ha ripreso conoscenza e ha saputo solo ieri della sorte delle figlie , una di 13 e l'altra di otto anni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+3	ancora	ancora	ADV	B	_	5	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	Nei	_	_	_	_	_	_	_	_
+6	In	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+14	piccole	piccola	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	Antonietta	Antonietta	PROPN	SP	_	11	nmod	_	_
+17	Gargiulo	Gargiulo	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+25	solo	solo	ADV	B	_	26	advmod	_	_
+26	ieri	ieri	ADV	B	_	24	advmod	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	figlie	figlia	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+33	,	,	PUNCT	FF	_	24	punct	_	_
+34	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	24	appos	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	13	13	NUM	N	NumType=Card	34	nmod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	34	conj	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	otto	otto	NUM	N	NumType=Card	42	nummod	_	_
+42	anni	anno	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 10
+# text = Non ricordava nulla.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ricordava	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Né di essere stata ferita del marito, né dell'uccisione delle piccole.
+1	Né	né	CCONJ	CC	_	5	cc	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	ferita	ferire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	né	né	CCONJ	CC	_	13	cc	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	uccisione	uccisione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	piccole	piccola	ADJ	A	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = La donna, intubata, respira autonomamente ma non è ancora in grado di parlare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	intubata	intubare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	respira	respirare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	autonomamente	autonomamente	ADV	B	_	6	advmod	_	_
+8	ma	ma	CCONJ	CC	_	13	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	grado	grado	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	parlare	parlare	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = La supporta un gruppo di psicologi che ha iniziato un percorso.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	supporta	supporta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	psicologi	psicologo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Le sue condizioni di salute non le hanno permesso di partecipare all'ultimo saluto.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	salute	salute	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	partecipare	partecipare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	15	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+14	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = I funerali di Luigi Capasso invece sono saltati e la salma è stata benedetta solo al cimitero di Poggioreale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	funerali	funerale	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Luigi	Luigi	PROPN	SP	_	2	nmod	_	_
+5	Capasso	Capasso	PROPN	SP	_	4	flat:name	_	_
+6	invece	invece	ADV	B	_	8	advmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	saltati	saltare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	salma	salma	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	benedetta	benedettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+15	solo	solo	ADV	B	_	18	advmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Poggioreale	Poggioreale	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Strage Latina, commozione all'uscita dei due feretri dalla Chiesa
+1	Strage	strage	PROPN	SP	_	0	root	_	_
+2	Latina	Latina	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	feretri	feretro	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\n
+

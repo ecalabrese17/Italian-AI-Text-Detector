@@ -1,0 +1,683 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Almeno antropologicamente, la società degli esseri umani conta da sempre sulla cooperazione:
+1	Almeno	almeno	ADV	B	_	2	advmod	_	_
+2	antropologicamente	antropologicamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	società	società	NOUN	S	Gender=Fem	10	nsubj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	umani	umano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	sempre	sempre	ADV	B	_	10	advmod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = muoversi, insieme, per lo stesso fine.
+1-2	muoversi	_	_	_	_	_	_	_	SpaceAfter=No
+1	muover	muovere	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	fine	fine	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma perché lo facciamo?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Cos'è che ci ha permesso di sviluppare questo comportamento?
+1	Cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	sviluppare	sviluppare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = È quanto si è chiesto un team di ricercatori del California Institute of Technology (Caltech) che ha cercato di rispondere alla domanda da un punto di vista biologico, cercando di capire se esistesse qualcosa in grado di renderci una specie così cooperativa.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quanto	quanto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	team	team	NOUN	S	Gender=Masc	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	California	California	PROPN	SP	_	9	nmod	_	_
+13	Institute	Institute	PROPN	SP	_	12	flat:name	_	_
+14	of	of	ADP	E	_	15	case	_	_
+15	Technology	Technology	PROPN	SP	_	12	nmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Caltech	Caltech	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	rispondere	rispondere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	punto	punto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	vista	vista	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	biologico	biologico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	21	punct	_	_
+34	cercando	cercare	VERB	V	VerbForm=Ger	21	advcl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	capire	capire	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	se	se	SCONJ	CS	_	38	mark	_	_
+38	esistesse	esistere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	ccomp	_	_
+39	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	38	obj	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	grado	grado	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43-44	renderci	_	_	_	_	_	_	_	_
+43	render	rendere	VERB	V	VerbForm=Inf	41	acl	_	_
+44	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	43	iobj	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	specie	specie	NOUN	S	Gender=Fem	43	obj	_	_
+47	così	così	ADV	B	_	48	advmod	_	_
+48	cooperativa	cooperativo	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = L'idea di base è che la cooperazione sia un comportamento intrinsecamente gratificante e che questo ci permetta di superare i rischi (e gli sforzi) che essa richiede.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	base	base	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	intrinsecamente	intrinseco	ADV	B	_	13	advmod	_	_
+13	gratificante	gratificante	ADJ	A	Number=Sing	11	amod	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	expl	_	_
+18	permetta	permettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	superare	superare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	30	obj	_	_
+29	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = I ricercatori del Caltech, come raccontano sulle pagine di Pnas, hanno cercato di capire se questo comportamento fosse modificato da un ormone già noto in biologia per influenzare i comportamenti sociali, la vasopressina.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Caltech	Caltech	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+9-10	sulle	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Pnas	Pnas	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	capire	capire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	se	se	SCONJ	CS	_	23	mark	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+22	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	_
+23	modificato	modificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ormone	ormone	NOUN	S	Gender=Masc|Number=Sing	23	obl:agent	_	_
+27	già	già	ADV	B	_	28	advmod	_	_
+28	noto	noto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	biologia	biologia	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32	influenzare	influenzare	VERB	V	VerbForm=Inf	30	acl	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+35	sociali	sociale	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Alcuni studi condotti nei roditori mostrano infatti che questo ormone tende a favorire la monogamia e le cure parentali, per esempio nelle arvicole della prateria, ma aumenta anche l'aggressività dei maschi.
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	studi	studio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	condotti	condurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	roditori	roditore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	infatti	infatti	ADV	B	_	7	advmod	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	ormone	ormone	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	favorire	favorire	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	monogamia	monogamia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	cure	cura	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	parentali	parentale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+24-25	nelle	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	arvicole	arvicola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	prateria	prateria	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	ma	ma	CCONJ	CC	_	32	cc	_	_
+32	aumenta	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+33	anche	anche	ADV	B	_	35	advmod	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	aggressività	aggressività	NOUN	S	Gender=Fem	32	obj	_	_
+36-37	dei	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ma nella specie umana, quali sono gli effetti di questo ormone in comportamenti sociali come la cooperazione?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	specie	specie	NOUN	S	Gender=Fem	0	root	_	_
+5	umana	umano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	quali	quale	PRON	PR	Number=Plur|PronType=Rel	10	nsubj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	4	acl:relcl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	ormone	ormone	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	sociali	sociale	ADJ	A	Number=Plur	15	amod	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ecco l'ormone della collaborazione Per rispondere alla domanda il team di ricercatori del Caltech ha osservato le strategie di 59 giovani volontari maschi durante un gioco noto in matematica ed economia come "caccia al cervo", di cui parlava già il filosofo francese Jean-Jacques Rousseau.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ormone	ormone	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	Per	per	ADP	E	_	8	mark	_	_
+8	rispondere	rispondere	VERB	V	VerbForm=Inf	6	acl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	team	team	NOUN	S	Gender=Masc	8	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Caltech	Caltech	PROPN	SP	_	15	nmod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	59	59	NUM	N	NumType=Card	26	nummod	_	_
+25	giovani	giovane	ADJ	A	Number=Plur	26	amod	_	_
+26	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+27	maschi	maschio	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	durante	durante	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	noto	noto	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	ed	e	CCONJ	CC	_	35	cc	_	_
+35	economia	economia	NOUN	S	Gender=Fem|Number=Sing	33	conj	_	_
+36	come	come	ADP	E	_	38	case	_	_
+37	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	caccia	cacciare	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	cervo	cervo	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	26	punct	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	cui	cui	PRON	PR	PronType=Rel	46	obl	_	_
+46	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+47	già	già	ADV	B	_	46	advmod	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	filosofo	filosofo	NOUN	S	Gender=Masc|Number=Sing	46	nsubj	_	_
+50	francese	francese	ADJ	A	Number=Sing	49	amod	_	_
+51	Jean	Jean	PROPN	SP	_	49	nmod	_	SpaceAfter=No
+52	-Jacques	-Jacques	PROPN	SP	_	51	flat:name	_	_
+53	Rousseau	Rousseau	PROPN	SP	_	51	flat:name	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 11
+# text = Si tratta, semplificando, di un test in cui si misura la tendenza o meno a cooperare dei partecipanti, e in cui la cooperazione è l'atteggiamento più vantaggioso per tutti.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	semplificando	semplificare	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	test	test	NOUN	S	Gender=Masc	2	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+12	misura	misurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16	meno	meno	ADV	B	_	18	advmod	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	cooperare	cooperare	VERB	V	VerbForm=Inf	14	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	partecipanti	partecipante	NOUN	S	Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	vantaggioso	vantaggioso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Nel test adottato dai ricercatori, i partecipanti giocavano in coppia scegliendo ciascuno se cooperare o meno;
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	test	test	NOUN	S	Gender=Masc	11	obl	_	_
+4	adottato	adottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	partecipanti	partecipante	NOUN	S	Number=Plur	11	nsubj	_	_
+11	giocavano	giocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	scegliendo	scegliire	VERB	V	VerbForm=Ger	11	advcl	_	_
+15	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+16	se	se	SCONJ	CS	_	17	mark	_	_
+17	cooperare	cooperare	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	meno	meno	ADV	B	_	17	conj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 13
+# text = ciascuno poteva fare il proprio interesse per un piccolo guadagno ma cooperando il guadagno era maggiore, ma solo se anche l'altro partner sceglieva di fare lo stesso.
+1	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	guadagno	guadagno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	ma	ma	CCONJ	CC	_	16	cc	_	_
+12	cooperando	cooperare	VERB	V	VerbForm=Ger	16	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	guadagno	guadagno	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	25	punct	_	_
+18	ma	ma	CCONJ	CC	_	25	cc	_	_
+19	solo	solo	ADV	B	_	25	advmod	_	_
+20	se	se	SCONJ	CS	_	25	mark	_	_
+21	anche	anche	ADV	B	_	25	advmod	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+23	altro	altro	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	partner	partner	NOUN	S	_	25	nsubj	_	_
+25	sceglieva	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	fare	fare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = "Il gioco è stato immaginato per mimare situazioni in cui le persone sono desiderose di aiutare, ma solo se ognuno lo fa", ha spiegato infatti Colin Camerer, tra gli autori del paper.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	mimare	mimare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	desiderose	desideroso	ADJ	A	Gender=Fem|Number=Plur	9	acl:relcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	aiutare	aiutare	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	24	punct	_	_
+19	ma	ma	CCONJ	CC	_	24	cc	_	_
+20	solo	solo	ADV	B	_	24	advmod	_	_
+21	se	se	SCONJ	CS	_	24	mark	_	_
+22	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	6	punct	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+29	infatti	infatti	ADV	B	_	28	advmod	_	_
+30	Colin	Colin	PROPN	SP	_	28	nsubj	_	_
+31	Camerer	Camerer	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	tra	tra	ADP	E	_	35	case	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	autori	autore	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	paper	paper	NOUN	S	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = E per rendere più motivati i volontari, i premi erano delle piccole somme di denaro.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	rendere	rendere	VERB	V	VerbForm=Inf	15	advcl	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	motivati	motivare	ADJ	A	Gender=Masc|Number=Plur	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	premi	premio	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+11	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	somme	somma	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 16
+# text = Prima del gioco però i ricercatori hanno somministrato per via nasale uno spray a tutti i volontari:
+1	Prima	prima	ADV	B	_	4	case	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	somministrato	somministrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	via	via	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	nasale	nasalire	ADJ	A	Number=Sing	11	amod	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	spray	spray	NOUN	S	Gender=Masc	9	obj	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	volontari	volontario	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 17
+# text = in alcuni era presente la vasopressina in altri solo un placebo.
+1	in	in	ADP	E	_	2	case	_	_
+2	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	presente	presente	ADJ	A	Number=Sing	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	placebo	placebo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Analizzando i comportamenti dei giocatori, Camerer e colleghi si sono accorti che chi aveva ricevuto la vasopressina sembrava più propenso a scegliere atteggiamenti cooperativi rispetto a chi aveva ricevuto solo il placebo.
+1	Analizzando	analizzare	VERB	V	VerbForm=Ger	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Camerer	Camerer	PROPN	SP	_	6	conj	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	13	ccomp	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	propenso	propenso	ADJ	A	Gender=Masc|Number=Sing	20	xcomp	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	scegliere	scegliere	VERB	V	VerbForm=Inf	20	xcomp	_	_
+25	atteggiamenti	atteggiamente	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+26	cooperativi	cooperativo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	rispetto	rispetto	ADV	B	_	29	case	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	chi	chi	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+30	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+32	solo	solo	ADV	B	_	34	advmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	placebo	placebo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Questo non per un'aumentata propensione al rischio o tendenze altruistiche, assicurano i ricercatori.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	aumentata	aumentato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	propensione	propensione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	tendenze	tendenza	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	altruistiche	altruistico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	assicurano	assicurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 20
+# text = La ragione di questo comportamento andava piuttosto ricercata negli effetti prodotti dalla vasopressina a livello cerebrale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+7	piuttosto	piuttosto	ADV	B	_	8	advmod	_	_
+8	ricercata	ricercare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	negli	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	prodotti	produrre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	livello	livello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	cerebrale	cerebrale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = Gli studi di risonanza magnetica condotti durante il gioco hanno infatti mostrato che dopo la somministrazione della vasopressina l'attività cerebrale in un'area coinvolta nei circuiti della ricompensa aumentava (una zona nota come ventral pallidum).
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	studi	studio	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	risonanza	risonanza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	magnetica	magnetico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	condotti	condurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+7	durante	durante	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	infatti	infatti	ADV	B	_	12	advmod	_	_
+12	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	che	che	SCONJ	CS	_	33	mark	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	somministrazione	somministrazione	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	attività	attività	NOUN	S	Gender=Fem	33	nsubj	_	_
+22	cerebrale	cerebrale	ADJ	A	Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	area	area	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	coinvolta	coinvolgere	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27-28	nei	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	circuiti	circuito	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ricompensa	ricompensa	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	aumentava	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+34	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	zona	zona	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+37	nota	noto	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	come	come	ADP	E	_	40	case	_	_
+39	ventral	ventral	DET	DQ	Number=Sing|PronType=Int	40	det	_	_
+40	pallidum	pallidum	NOUN	S	Gender=Masc	37	obl	_	SpaceAfter=No
+41	)	)	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 22
+# text = Un'area particolarmente ricca di recettori per la vasopressina e che conferma che sì, la cooperazione per noi è qualcosa di alquanto gratificante.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	area	area	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	particolarmente	particolarmente	ADV	B	_	4	advmod	_	_
+4	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	recettori	recettore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vasopressina	vasopressina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	che	che	SCONJ	CS	_	21	mark	_	_
+14	sì	sì	INTJ	I	Polarity=Pos	21	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	12	ccomp	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	alquanto	alquanto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	gratificante	gratificante	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

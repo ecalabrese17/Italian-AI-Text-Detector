@@ -1,0 +1,570 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Voglio essere chiaro” dice il segretario di Stato americano Rex Tillerson.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	americano	americano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+12	Rex	Rex	PROPN	SP	_	8	nmod	_	_
+13	Tillerson	Tillerson	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = “La politica della pazienza strategica è finita”.
+1	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	politica	politica	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = E dunque: se Pyongyang diventa una minaccia “al livello che noi riteniamo richieda un’azione, l’opzione militare è sul tavolo”.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	dunque	dunque	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	Pyongyang	Pyongyang	PROPN	SP	_	6	nsubj	_	_
+6	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	livello	livello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	riteniamo	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl	_	_
+16	richieda	richiedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	azione	azione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+22	militare	militare	ADJ	A	Number=Sing	21	amod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24-25	sul	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Sono parole durissime che risuonano ancora più dure perché il ministro degli Esteri di Trump sta parlando dalla Corea divisa in due proprio dalla guerra iniziata settant’anni fa dal regime comunista del Nord: e ufficialmente mai finita visto che non s’è mai firmato un trattato di pace.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	durissime	duro	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	risuonano	risuonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	dure	duro	ADJ	A	Gender=Fem|Number=Plur	5	xcomp	_	_
+9	perché	perché	SCONJ	CS	_	18	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Trump	Trump	PROPN	SP	_	11	nmod	_	_
+17	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	parlando	parlare	VERB	V	VerbForm=Ger	5	advcl	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Corea	Corea	PROPN	SP	_	18	obl	_	_
+22	divisa	dividere	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	28	case	_	_
+24	due	due	NUM	N	NumType=Card	28	nummod	_	_
+25	proprio	proprio	ADV	B	_	28	advmod	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+29	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+30	settant’	settanta	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+31	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+32	fa	fa	ADV	B	_	31	advmod	_	_
+33-34	dal	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	regime	regime	NOUN	S	Gender=Masc|Number=Sing	29	obl:agent	_	_
+36	comunista	comunista	ADJ	A	Number=Sing	35	amod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Nord	Nord	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	44	punct	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42	ufficialmente	ufficialmente	ADV	B	_	44	advmod	_	_
+43	mai	mai	ADV	B	_	44	advmod	_	_
+44	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+45	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	advcl	_	_
+46	che	che	SCONJ	CS	_	51	mark	_	_
+47	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+48	s’	so	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	51	obj	_	SpaceAfter=No
+49	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+50	mai	mai	ADV	B	_	51	advmod	_	_
+51	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	ccomp	_	_
+52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	trattato	trattato	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	_
+54	di	di	ADP	E	_	55	case	_	_
+55	pace	pace	NOUN	S	Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = È un avvertimento a Kim che arriva alla vigilia dell’attesissimo incontro di sabato con il presidente cinese Xi Jinping:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	avvertimento	avvertimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Kim	Kim	PROPN	SP	_	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	14	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	attesissimo	attesissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+20	cinese	cinese	ADJ	A	Number=Sing	19	amod	_	_
+21	Xi	Xi	PROPN	SP	_	19	nmod	_	_
+22	Jinping	Jinping	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = e adesso come reagirà Pechino che proprio l’altro giorno per voce del premier Li Keqiang aveva intimato gli Usa a non puntare all’escalation?
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	adesso	adesso	ADV	B	_	4	advmod	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	reagirà	reagire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	Pechino	Pechino	PROPN	SP	_	4	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+7	proprio	proprio	ADV	B	_	10	advmod	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	voce	voce	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	premier	premier	NOUN	S	_	12	nmod	_	_
+16	Li	li	PROPN	SP	_	15	nmod	_	_
+17	Keqiang	Keqiang	PROPN	SP	_	16	flat:name	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	intimato	intimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Usa	Usa	PROPN	SP	_	19	obj	_	_
+22	a	a	ADP	E	_	24	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	puntare	puntare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+25-26	all’	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	escalation	escalation	NOUN	S	Gender=Fem	24	obl	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = “Nessuno vuole vedere il caos alle porte di casa”.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caos	caos	NOUN	S	Gender=Masc	4	obj	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	porte	porta	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ma quel caos, adesso, è alle porte davvero.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caos	caos	NOUN	S	Gender=Masc	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	adesso	adesso	ADV	B	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	porte	porta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+11	davvero	davvero	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = La minaccia americana risuona subito dopo che il segretario di Stato è in andato in visita al DMZ, la zona demilitarizzata che al 38esimo parallelo segna il confine con le due Coree.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	americana	americano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	risuona	risuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	_
+6	dopo	dopo	ADV	B	_	14	mark	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	andato	andato	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	visita	visita	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	DMZ	DMZ	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	zona	zona	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+23	demilitarizzata	demilitarizzare	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	38esimo	38esimo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+28	parallelo	parallelo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	segna	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	confine	confine	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	con	con	ADP	E	_	35	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	due	due	NUM	N	NumType=Card	35	nummod	_	_
+35	Coree	Coree	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = L’ex petroliere di Exxon ha visto dunque con i suoi occhi il Paese diviso in due:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	petroliere	petroliera	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Exxon	Exxon	PROPN	SP	_	3	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	dunque	dunque	ADV	B	_	7	advmod	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+15	diviso	dividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	due	due	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 11
+# text = e ha lanciato la sua personalissima bomba nella vicenda che tiene con il fiato sospeso il mondo intero.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	personalissima	personale	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	7	amod	_	_
+7	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	sospeso	sospendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+19	intero	intero	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Finora quella militare era un’opzione che sembrava soltanto allo studio nei meandri del Pentagono.
+1	Finora	finora	ADV	B	_	6	advmod	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	militare	militare	ADJ	A	Number=Sing	2	amod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	soltanto	soltanto	ADV	B	_	12	advmod	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	studio	studio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13-14	nei	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	meandri	meandro	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Pentagono	pentagono	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Da questo momento è una possibilità concreta.
+1	Da	da	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	possibilità	possibilità	NOUN	S	Gender=Fem	0	root	_	_
+7	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = E si spiega così l’accelerazione che gli Usa, dopo i quattro missili lanciati la settimana scorsa da Kim nel mare del Giappone, hanno impresso per la costruzione al sud di Seul di quello scudo antimissile Thaad inviso ai cinesi che temono di essere così spiati.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	3	advmod	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	accelerazione	accelerazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Usa	Usa	PROPN	SP	_	29	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dopo	dopo	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	quattro	quattro	NUM	N	NumType=Card	14	nummod	_	_
+14	missili	missile	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+15	lanciati	lanciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Kim	Kim	PROPN	SP	_	15	obl:agent	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mare	mare	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Giappone	Giappone	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	impresso	imprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	sud	sud	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Seul	Seul	PROPN	SP	_	35	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	37	nmod	_	_
+40	scudo	scudo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	antimissile	antimissile	ADJ	A	Number=Sing	39	amod	_	_
+42	Thaad	Thaad	PROPN	SP	_	39	nmod	_	_
+43	inviso	inviso	ADV	B	_	42	advmod	_	_
+44-45	ai	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	cinesi	cinese	NOUN	S	Number=Plur	42	nmod	_	_
+47	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+48	temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+49	di	di	ADP	E	_	52	mark	_	_
+50	essere	essere	AUX	V	VerbForm=Inf	52	aux	_	_
+51	così	così	ADV	B	_	52	advmod	_	_
+52	spiati	spiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	48	xcomp	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Uno scudo pensato per proteggere però soltanto le basi americane, e non certo per difendere l’inerme capitale da un lancio di Pyongyang.
+1	Uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scudo	scudo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	proteggere	proteggere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	però	però	ADV	B	_	5	advmod	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	basi	base	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+10	americane	americano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	certo	certo	ADV	B	_	16	advmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	difendere	difendere	VERB	V	VerbForm=Inf	5	conj	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	inerme	inerme	ADJ	A	Number=Sing	19	amod	_	_
+19	capitale	capitale	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Pyongyang	Pyongyang	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Non basta.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = In questi giorni sono continuate le esercitazioni congiunte di coreani e americani che per la prima volta hanno visto l’impiego degli agguerritissimi Navy Seals che uccisero Osam Bin Laden.
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	continuate	continuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	esercitazioni	esercitazione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	congiunte	congiunto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	coreani	coreano	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	americani	americano	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	volta	volta	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	degli	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	agguerritissimi	agguerrito	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	25	amod	_	_
+25	Navy	Navy	PROPN	SP	_	21	nmod	_	_
+26	Seals	Seals	PROPN	SP	_	25	flat:name	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	uccisero	uccidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+29	Osam	Osam	PROPN	SP	_	28	obj	_	_
+30	Bin	Bin	PROPN	SP	_	29	flat:name	_	_
+31	Laden	Laden	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = E nella Corea del Sud è arrivato quel Gray Eagle Unmanned Aerial System che altro non è che una flotta di superdroni capace di volare dal Sud della Corea fino alle basi del Nord.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Corea	Corea	PROPN	SP	_	9	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sud	Sud	PROPN	SP	_	4	nmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	Gray	Gray	PROPN	SP	_	9	nsubj	_	_
+12	Eagle	Eagle	PROPN	SP	_	11	flat:name	_	_
+13	Unmanned	Unmanned	PROPN	SP	_	11	flat:name	_	_
+14	Aerial	Aerial	PROPN	SP	_	11	flat:name	_	_
+15	System	System	PROPN	SP	_	11	flat:name	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	flotta	flotta	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	superdroni	superdrone	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	capace	capace	ADJ	A	Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	volare	volare	VERB	V	VerbForm=Inf	25	advcl	_	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Sud	Sud	PROPN	SP	_	27	obl	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Corea	Corea	PROPN	SP	_	30	nmod	_	_
+34	fino	fino	ADV	B	_	37	case	_	_
+35-36	alle	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	34	fixed	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	basi	base	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Nord	Nord	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 19
+# text = Il suo dispiegamento era già nei piani, sì, ma solo in quelli di guerra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	dispiegamento	dispiegamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+5	già	già	ADV	B	_	8	advmod	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	piani	piano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sì	sì	INTJ	I	Polarity=Pos	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Ma non è proprio di questo che è venuto a parlare sin qui l’uomo di Trump?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	proprio	proprio	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	sin	sino	ADV	B	_	13	advmod	_	_
+13	qui	qui	ADV	B	_	11	advmod	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Trump	Trump	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

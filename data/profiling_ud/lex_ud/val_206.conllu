@@ -1,0 +1,368 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un’occasione per fiori, cioccolatini, cene romantiche, promesse di eterno amore...
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	cioccolatini	cioccolato	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	cene	cena	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+9	romantiche	romantico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	promesse	promettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	eterno	eterno	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	amore...	amore...	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+
+# sent_id = 2
+# text = e un’occasione, troppo spesso, per un’ironia amara e un silenzio assordante sui nostri compagni di vita più vulnerabili e bisognosi di affetto:
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	spesso	spesso	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+11	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	assordante	assordante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	14	acl	_	_
+16-17	sui	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	vulnerabili	vulnerabile	ADJ	A	Number=Plur	19	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	bisognosi	bisognoso	ADJ	A	Number=Plur	23	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = gli animali.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	animali	animale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = È un’ironia che “la Repubblica” non può e non vuole tollerare, soprattutto quando la realtà che si irrompe, ogni anno, ci ricorda la profonda e spesso spietata diseguaglianza che regola il nostro rapporto con il mondo animale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+5	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Repubblica	repubblica	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	7	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	tollerare	tollerare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	soprattutto	soprattutto	ADV	B	_	19	advmod	_	_
+17	quando	quando	SCONJ	CS	_	19	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	realtà	realtà	NOUN	S	Gender=Fem	14	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	irrompe	irrompo	X	X	_	28	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	25	det	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+28	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	profonda	profonda	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	spesso	spesso	ADV	B	_	33	advmod	_	_
+33	spietata	spietare	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	diseguaglianza	diseguaglianza	NOUN	S	Gender=Fem|Number=Sing	30	compound	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	regola	regolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+40	con	con	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+43	animale	animale	ADJ	A	Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Guardiamo gli Instagram feed che esplodono di cuori, di cani e gatti vestiti con sciarpe rosse, di festeggiamenti bling-bling per i nostri pets.
+1	Guardiamo	guardare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Instagram	Instagram	PROPN	SP	_	1	obj	_	_
+4	feed	feed	NOUN	S	Gender=Masc	3	compound	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	esplodono	esplodere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	cani	cane	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	gatti	gatto	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+14	vestiti	vestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	sciarpe	sciarpa	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+17	rosse	rosso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	festeggiamenti	festeggiamento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+21	bling	bling	NOUN	S	_	20	compound	_	SpaceAfter=No
+22	-	-	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	bling	bling	NOUN	S	_	21	compound	_	_
+24	per	per	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	pets	pets	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Un universo a parte, curato al millimetro, dove la felicità del quadrupedio è misurata in like e commenti.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	universo	universo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	millimetro	millimetro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dove	dove	ADV	B	_	18	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	felicità	felicità	NOUN	S	Gender=Fem	18	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	quadrupedio	quadrupedio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	misurata	misurare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	like	like	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E mentre ci immaginiamo serate al chiaro di luna, champagne e parole dolci, una parte incalcolabile della popolazione animale, in Italia e nel mondo, vive una realtà ben diversa:
+1	E	e	CCONJ	CC	_	32	cc	_	_
+2	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	immaginiamo	immaginare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+5	serate	serata	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	chiaro	chiaro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	luna	luna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	champagne	champagna	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+15	dolci	dolce	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+19	incalcolabile	incalcolabile	ADJ	A	Number=Sing	18	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	animale	animale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	4	punct	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	Italia	Italia	PROPN	SP	_	4	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	4	punct	_	_
+32	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	realtà	realtà	NOUN	S	Gender=Fem	32	nsubj	_	_
+35	ben	bene	ADV	B	_	36	advmod	_	_
+36	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	32	punct	_	_
+
+# sent_id = 8
+# text = abbandono, maltrattamenti, sfruttamento, fame, solitudine.
+1	abbandono	abbandire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	maltrattamenti	maltrattamento	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	fame	fame	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = L’associazione "No Kill Italia" ci fornisce dati allarmanti:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+4	No	no	INTJ	I	Polarity=Neg	9	discourse	_	_
+5	Kill	Kill	PROPN	SP	_	9	nsubj	_	_
+6	Italia	Italia	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	fornisce	fornire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	dati	dato	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	allarmanti	allarmante	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 10
+# text = ogni anno, in Italia, migliaia di animali domestici vengono abbandonati, spesso durante le festività, in un gesto di egoismo che riflette una superficialità culturale che ci opprime.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Italia	Italia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	animali	animale	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	domestici	domestico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	abbandonati	abbandonare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	spesso	spesso	ADV	B	_	17	advmod	_	_
+15	durante	durante	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	festività	festività	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	egoismo	egoismo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	riflette	riflettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	superficialità	superficialità	NOUN	S	Gender=Fem	25	obj	_	_
+28	culturale	culturale	ADJ	A	Number=Sing	27	amod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	31	obj	_	_
+31	opprime	opprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = Esperienze simili si ripetono ovunque, amplificate dalle dinamiche di mercato che trasformano gli animali in merci, oggetti di consumo passeggero, simboli di status.
+1	Esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	simili	simile	ADJ	A	Number=Plur	1	amod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	ripetono	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ovunque	ovunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	amplificate	amplificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8-9	dalle	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	trasformano	trasformare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	animali	animale	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	merci	merce	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	passeggero	passeggero	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	4	punct	_	_
+25	simboli	simbolo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	status	status	NOUN	S	Gender=Masc	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Un cucciolo di pastore tedesco per un anniversario, un cagnolino di razza per dare un tocco di “lusso” alla foto profilo… E poi, quando la moda passa, se ne va anche l’animale, gettato via come un imballaggio inutile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cucciolo	cucciolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	pastore	pastore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	anniversario	anniversario	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cagnolino	cagnolino	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	razza	razza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	11	acl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	20	punct	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	foto	foto	NOUN	S	Gender=Fem	2	nmod	_	_
+25	profilo…	profilo…	PUNCT	FF	_	41	punct	_	_
+26	E	e	CCONJ	CC	_	41	cc	_	_
+27	poi	poi	ADV	B	_	41	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	quando	quando	SCONJ	CS	_	36	mark	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	moda	moda	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+32	passa	passo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl:impers	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	36	iobj	_	_
+36	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+37	anche	anche	ADV	B	_	39	advmod	_	_
+38	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	animale	animale	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	gettato	gettato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+42	via	via	ADV	B	_	41	advmod	_	_
+43	come	come	ADP	E	_	45	case	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	imballaggio	imballaggio	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+46	inutile	inutile	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma non è solo una questione di abbandono.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Pensiamo
+1	Pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

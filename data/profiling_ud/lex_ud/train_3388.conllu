@@ -1,0 +1,863 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Esattamente cinque anni dopo, Pino Capozzi, impiegato Fca agli Enti centrali di Mirafiori, ricorda una vicenda che torna d'attualità per le polemiche sulla norma che consente alle aziende il controllo a distanza dei dipendenti.
+1	Esattamente	esattamente	ADV	B	_	3	advmod	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	Pino	Pino	PROPN	SP	_	3	nmod	_	_
+7	Capozzi	Capozzi	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	impiegato	impiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+10	Fca	Fca	ADV	B	_	9	advmod	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Enti	ente	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	centrali	centrale	ADJ	A	Number=Plur	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Mirafiori	Mirafiori	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	ricorda	ricordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	attualità	attualità	NOUN	S	Gender=Fem	22	obl	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+28-29	sulla	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	norma	norma	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	dipendenti	dipendento	NOUN	S	Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = La storia di Pino si è conclusa positivamente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Pino	Pino	PROPN	SP	_	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	conclusa	concludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	positivamente	positivamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = "Ma oggi quanti si sentono sicuri utilizzando pc o telefoni aziendali?".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	6	cc	_	_
+3	oggi	oggi	ADV	B	_	6	advmod	_	_
+4	quanti	quanto	PRON	PR	Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sicuri	sicuro	ADJ	A	Gender=Masc|Number=Plur	6	xcomp	_	_
+8	utilizzando	utilizzare	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	pc	pc	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	telefoni	telefono	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	aziendali	aziendale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Capozzi, com'è stato possibile rischiare il posto di lavoro per una mail?
+1	Capozzi	Capozzo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	com'	come	SCONJ	CS	_	6	mark	_	SpaceAfter=No
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	possibile	possibile	ADJ	A	Number=Sing	1	advcl	_	_
+7	rischiare	rischiare	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	posto	posto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mail	mail	NOUN	S	_	9	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = "È successo nel giugno del 2010.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2010	2010	NUM	N	NumType=Card	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = All'epoca ero rappresentante della Fiom nella palazzina degli impiegati.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	rappresentante	rappresentante	NOUN	S	Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fiom	Fiom	PROPN	SP	_	5	nmod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	palazzina	palazzina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = C'era una dura polemica con l'azienda:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	dura	duro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = erano i giorni del referendum di Pomigliano sul piano Marchionne.
+1	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	referendum	referendum	NOUN	S	Gender=Masc	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Pomigliano	Pomigliano	PROPN	SP	_	6	nmod	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	piano	piano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+12	Marchionne	Marchionne	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ho ricevuto e ho inoltrato ai colleghi del mio ufficio un volantino dei lavoratori polacchi che costruivano la Panda prima del trasferimento del modello a Pomigliano.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	inoltrato	inoltrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	volantino	volantino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	polacchi	polacco	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	costruivano	costruire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Panda	panda	PROPN	SP	_	20	obj	_	_
+23	prima	prima	ADV	B	_	26	case	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	modello	modello	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Pomigliano	Pomigliano	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Nel testo si criticava la Fiat e si esprimeva solidarietà ai lavoratori napoletani che sarebbero stati costretti, come era scritto, a lavorare come schiavi.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	testo	testo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	criticava	criticare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fiat	Fiat	PROPN	SP	_	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	esprimeva	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	solidarietà	solidarietà	ADV	B	_	10	advmod	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	napoletani	napoletano	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+17	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	come	come	SCONJ	CS	_	23	mark	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	lavorare	lavorare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+27	come	come	ADP	E	_	28	case	_	_
+28	schiavi	schiavo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Avevo aggiunto a quel testo una mia considerazione invitando i miei colleghi a opporsi "a questo scempio che il signor Marchionne propone".
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	testo	testo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+9	invitando	invitare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	opporsi	_	_	_	_	_	_	_	_
+14	oppor	opporre	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	scempio	scempio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+20	che	che	SCONJ	CS	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	signor	signore	NOUN	S	Gender=Masc|Number=Sing	14	ccomp	_	_
+23	Marchionne	Marchionne	PROPN	SP	_	22	nmod	_	_
+24	propone	propone	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 12
+# text = Frasi colorite, tipiche di un volantino sindacale, che secondo l'azienda invece avrebbero fatto cessare il rapporto di fiducia che lega i dipendenti alla società".
+1	Frasi	frase	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	colorite	colorito	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tipiche	tipico	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	volantino	volantino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	sindacale	sindacale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+11	secondo	secondo	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+14	invece	invece	ADV	B	_	16	advmod	_	_
+15	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17	cessare	cessare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	lega	legare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	dipendenti	dipendente	NOUN	S	Number=Plur	23	obj	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	società	società	NOUN	S	Gender=Fem	25	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Come si è concluso il processo?
+1	Come	come	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	processo	processo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = "Con i legali della Fiom ho fatto ricorso e ho vinto".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	legali	legalo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fiom	Fiom	PROPN	SP	_	4	nmod	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Come si era procurata l'azienda il testo della mail?
+1	Come	come	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	procurata	procurare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	testo	testo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mail	mail	NOUN	S	_	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = "Secondo gli avvocati della Fiat sarebbe stato uno dei miei colleghi di ufficio a segnalare al capo il contenuto del messaggio".
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Secondo	secondo	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fiat	Fiat	PROPN	SP	_	4	nmod	_	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	segnalare	segnalare	VERB	V	VerbForm=Inf	10	acl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	capo	capo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = Le contestavano anche l'uso improprio del computer aziendale?
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	contestavano	contestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uso	uso	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	improprio	improprio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	computer	computer	NOUN	S	Gender=Masc	5	nmod	_	_
+10	aziendale	aziendale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = "All'inizio sì.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2-3	All'	_	_	_	_	_	_	_	SpaceAfter=No
+2	A	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	sì	sì	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = L'azienda sosteneva che non era consentito ai rappresentanti sindacali utilizzare il computer dell'ufficio per diffondere materiale di propaganda".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sosteneva	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	rappresentanti	rappresentante	NOUN	S	Number=Plur	7	obl	_	_
+11	sindacali	sindacale	ADJ	A	Number=Plur	10	amod	_	_
+12	utilizzare	utilizzare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	computer	computer	NOUN	S	Gender=Masc	12	obj	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	diffondere	diffondere	VERB	V	VerbForm=Inf	12	advcl	_	_
+20	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Perché l'accusa è caduta?
+1	Perché	perché	ADV	B	_	5	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = "Perché abbiamo dimostrato che quella di utilizzare i computer per diffondere materiale sindacale era una prassi utilizzata da tutti i sindacati.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	4	advmod	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	17	mark	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nsubj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	utilizzare	utilizzare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	computer	computer	NOUN	S	Gender=Masc	8	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	diffondere	diffondere	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14	sindacale	sindacale	ADJ	A	Number=Sing	13	amod	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	prassi	prasso	NOUN	S	Gender=Fem	4	ccomp	_	_
+18	utilizzata	utilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	22	case	_	_
+20	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	18	obl:agent	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Il Fismic, ad esempio, aveva mandato una mail direttamente da un computer dell'ufficio del personale".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fismic	Fismic	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mail	mail	NOUN	S	Number=Sing	8	obj	_	_
+11	direttamente	direttamente	ADV	B	_	10	advmod	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	computer	computer	NOUN	S	Gender=Masc	8	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	personale	personale	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 23
+# text = Lei ha vinto la causa e ancora oggi lavora in Fca.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	causa	causa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	oggi	oggi	ADV	B	_	9	advmod	_	_
+9	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Fca	Fca	PROPN	SP	_	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Che cosa pensa della norma che consente alle aziende il controllo a distanza sull'attività dei dipendenti?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	norma	norma	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+16	su	su	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	attività	attività	NOUN	S	Gender=Fem	15	nmod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	dipendenti	dipendento	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = "L'effetto della nuova norma si è già visto in questi giorni in tutti i luoghi di lavoro.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	norma	norma	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	già	già	ADV	B	_	11	advmod	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 26
+# text = Il solo annuncio ha seminato una specie di psicosi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	solo	solo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	seminato	seminato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	specie	specie	NOUN	S	Gender=Fem	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	psicosi	psicoso	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = Ne parlavo con gli amici che lavorano anche in altre aziende.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	parlavo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	altre	altro	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Ormai nessuno si fida più.
+1	Ormai	ormai	ADV	B	_	4	advmod	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	fida	fidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = L'azienda ti dà il computer portatile?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	computer	computer	NOUN	S	Gender=Masc	4	obj	_	_
+7	portatile	portatile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Non ti azzardare a portarlo a casa.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	azzardare	azzardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	portarlo	_	_	_	_	_	_	_	_
+5	portar	portare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Hai un cellulare della società?
+1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Se avevi deciso di usarlo come unico telefono è meglio riprendere anche il tuo orginario e dividere le telefonate a seconda che siano personali o di lavoro".
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	avevi	avere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	usarlo	_	_	_	_	_	_	_	_
+5	usar	usare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	unico	unico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	meglio	meglio	ADV	B	_	12	advmod	_	_
+12	riprendere	riprendere	VERB	V	VerbForm=Inf	0	root	_	_
+13	anche	anche	ADV	B	_	16	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	orginario	orginario	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	dividere	dividere	VERB	V	VerbForm=Inf	12	conj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	telefonate	telefonata	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	che	che	SCONJ	CS	_	25	mark	_	_
+24	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	personali	personale	ADJ	A	Number=Plur	20	advcl	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 33
+# text = Il suo fu il primo caso in Italia di licenziamento per volantinaggio elettronico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	suo	suo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nsubj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	licenziamento	licenziamento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	volantinaggio	volantinaggio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	elettronico	elettronico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 34
+# text = Le risultano altre vicende simili?
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	risultano	risultare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	altre	altro	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	vicende	vicenda	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	simili	simile	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 35
+# text = "Certo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Nel corso del tempo lavoratori di altre aziende si sono rivolti a me raccontando la loro storia.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rivolti	rivolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+16	raccontando	raccontare	VERB	V	VerbForm=Ger	13	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	storia	storia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 37
+# text = Persone che erano state licenziate per un commento su Facebook, addirittura per un sms".
+1	Persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj:pass	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	licenziate	licenziare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	commento	commento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	Facebook	Facebook	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	addirittura	addirittura	ADV	B	_	15	advmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sms	sm	NOUN	S	_	5	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 38
+# text = Ritiene che oggi sarebbe più facile per le aziende contestare i comportamenti che a suo tempo le costarono il temporaneo licenziamento?
+1	Ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	oggi	oggi	ADV	B	_	6	advmod	_	_
+4	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	facile	facile	ADJ	A	Number=Sing	1	ccomp	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+10	contestare	contestare	VERB	V	VerbForm=Inf	6	csubj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	costarono	costare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	temporaneo	temporaneo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	licenziamento	licenziamento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = "Penso di sì.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	sì	sì	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = All'epoca l'azienda disse che aveva ottenuto la mail da un mio collega.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mail	mail	NOUN	S	_	9	obj	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	collega	collega	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 41
+# text = Ma oggi che cosa impedirebbe di verificare direttamente il contenuto dell'indirizzo mail del pc aziendale che non è più considerato strumento di controllo a distanza?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	oggi	oggi	ADV	B	_	5	advmod	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	impedirebbe	impedire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	verificare	verificare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	direttamente	direttamente	ADV	B	_	7	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	mail	mail	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pc	pc	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	aziendale	aziendale	ADJ	A	Number=Sing	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	23	nsubj:pass	_	_
+20	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+24	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	23	xcomp	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 42
+# text = E il clima conta.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	clima	clima	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	conta	conto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 43
+# text = Perché le aziende hanno uno strumento di pressione in più".
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	più	più	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

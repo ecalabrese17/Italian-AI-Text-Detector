@@ -1,0 +1,359 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = despite the dominance of the team, which was demonstrated by the number of scoring opportunities, the nerazzurri have had to settle for a draw that may not have been expected by fans and experts.
+1	despite	despire	X	SW	Foreign=Yes	0	root	_	_
+2	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	dominance	dominance	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	of	of	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	team	team	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	which	which	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	was	was	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	demonstrated	demonstrated	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	by	by	X	SW	Foreign=Yes	8	flat:foreign	_	_
+12	the	the	X	SW	Foreign=Yes	8	flat:foreign	_	_
+13	number	number	X	SW	Foreign=Yes	8	flat:foreign	_	_
+14	of	of	X	SW	Foreign=Yes	8	flat:foreign	_	_
+15	scoring	scoring	X	SW	Foreign=Yes	8	flat:foreign	_	_
+16	opportunities	opportunity	X	SW	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	nerazzurri	nerazzurro	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+20	have	have	X	SW	Foreign=Yes	19	nmod	_	_
+21	had	had	X	SW	Foreign=Yes	20	flat:foreign	_	_
+22	to	to	X	SW	Foreign=Yes	20	flat:foreign	_	_
+23	settle	settle	X	SW	Foreign=Yes	20	flat:foreign	_	_
+24	for	for	ADP	E	_	25	case	_	_
+25	a	a	X	X	_	19	nmod	_	_
+26	draw	draw	X	SW	Foreign=Yes	25	flat:foreign	_	_
+27	that	that	X	SW	Foreign=Yes	25	flat:foreign	_	_
+28	may	may	X	SW	Foreign=Yes	25	flat:foreign	_	_
+29	not	not	X	SW	Foreign=Yes	25	flat:foreign	_	_
+30	have	have	X	SW	Foreign=Yes	25	flat:foreign	_	_
+31	been	been	X	SW	Foreign=Yes	25	flat:foreign	_	_
+32	expected	expected	X	SW	Foreign=Yes	25	flat:foreign	_	_
+33	by	by	X	SW	Foreign=Yes	25	flat:foreign	_	_
+34	fans	fans	X	SW	Foreign=Yes	25	flat:foreign	_	_
+35	and	and	X	SW	Foreign=Yes	25	flat:foreign	_	_
+36	experts	experts	X	SW	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il match, giocato allo stadio Meazza di Milano, è stato un vero e proprio testa a testa sin dalle prime battute.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	match	match	NOUN	S	Gender=Masc	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	allo	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	Meazza	Meazzo	PROPN	SP	_	7	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Milano	Milano	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+15	vero	vero	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	testa	testa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	testa	testa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	sin	sino	ADV	B	_	25	case	_	_
+22-23	dalle	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	21	fixed	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	25	amod	_	_
+25	battute	battuta	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = L'Inter, come al solito, ha mostrato una grande organizzazione in campo, ma è mancata la precisione nei reparti avanzati, con i giocatori che hanno sprecato diversi ocasiones da rete.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Inter	Inter	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADV	B	_	7	case	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	solito	solito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+13	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	campo	campo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ma	ma	CCONJ	CC	_	19	cc	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	mancata	mancato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	reparti	reparto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+25	avanzati	avanzato	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	sprecato	sprecare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+33	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
+34	ocasiones	ocasiones	NOUN	S	Gender=Masc	32	obj	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	rete	rete	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Il Twente, d'altra parte, ha dimostrato grande détermination e tenacia, approfittando di ogni possibilità per attaccare, e alla fine è riuscito a trovare il pareggio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Twente	Twente	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+5	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	détermination	détermination	NOUN	S	_	9	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	approfittando	approfittare	VERB	V	VerbForm=Ger	9	advcl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	possibilità	possibilità	NOUN	S	Gender=Fem	15	obl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	attaccare	attaccare	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	27	punct	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fine	fine	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	trovare	trovare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Il risultato è arrivato proprio negli ultimi minuti del match, quando un colpo di testa dell'attaccante del Twente ha superato l'estremo difensore nerazzurro, Szczesny.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	proprio	proprio	ADV	B	_	9	advmod	_	_
+6-7	negli	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
+9	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	match	match	NOUN	S	Gender=Masc	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	quando	quando	SCONJ	CS	_	26	mark	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	testa	testa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	attaccante	attaccante	NOUN	S	Number=Sing	16	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Twente	Twente	PROPN	SP	_	21	nmod	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+28	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	difensore	difensore	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+30	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	4	punct	_	_
+32	Szczesny	Szczesny	PROPN	SP	_	4	appos	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Una vera e propria doccia fredda per i tifosi dell'Inter, che hanno visto sfumare la possibile vittoria ai danni del belga.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	vera	vero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	_
+5	doccia	doccia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Inter	Inter	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+17	sfumare	sfumare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	possibile	possibile	ADJ	A	Number=Sing	20	amod	_	_
+20	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	danni	danno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	belga	belga	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = "È stato un match difficile – ha ammesso il tecnico dell'Inter, Antonio Conte –.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	match	match	NOUN	S	Gender=Masc	0	root	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	5	amod	_	_
+7	–	–	PUNCT	FB	_	5	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Inter	Inter	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	Antonio	Antonio	PROPN	SP	_	11	appos	_	_
+17	Conte	Conte	PROPN	SP	_	16	flat:name	_	_
+18	–	–	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Il Twente è una squadra disegVICE con grandiindividualità e non è stato facile contrastarle.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Twente	Twente	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	disegVICE	disegVICE	PROPN	SP	_	5	nmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	grandiindividualità	grandiindividualità	NOUN	S	Gender=Fem	6	nmod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+13	facile	facile	ADJ	A	Number=Sing	5	conj	_	_
+14-15	contrastarle	_	_	_	_	_	_	_	SpaceAfter=No
+14	contrastar	contrastare	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Abbiamo avuto moltepliciote probabilità per chiudere la partita ma abbiamo peccato di precisione e questo ci è costato cari".
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	moltepliciote	molteplicioto	ADJ	A	Number=Sing	4	amod	_	_
+4	probabilità	probabilità	NOUN	S	Gender=Fem	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	chiudere	chiudere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	partita	partita	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	costato	costare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+19	cari	caro	ADJ	A	Gender=Masc|Number=Plur	18	xcomp	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Insomma, una serata difficile per l'Inter, che ha dimostrato di essere ancora una squadra in costruzione e che deve migliorare in vista dei prossimi impegni in Champions League.
+1	Insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	difficile	difficile	ADJ	A	Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Inter	Inter	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+13	di	di	ADP	E	_	17	mark	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+15	ancora	ancora	ADV	B	_	17	advmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	12	ccomp	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	migliorare	migliorare	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	vista	vista	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	Champions	Champions	PROPN	SP	_	29	nmod	_	_
+32	League	League	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = I nerazzurri, però, rimangono comunque primi nel gruppo, a punteggio pieno, e potranno quindi affrontare le prossime partite con maggiore serenità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	nerazzurri	nerazzurro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	comunque	comunque	ADV	B	_	8	advmod	_	_
+8	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	xcomp	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+15	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+19	quindi	quindi	ADV	B	_	20	advmod	_	_
+20	affrontare	affrontare	VERB	V	VerbForm=Inf	6	conj	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	partite	partita	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	26	amod	_	_
+26	serenità	serenità	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

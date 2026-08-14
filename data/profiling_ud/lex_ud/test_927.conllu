@@ -1,0 +1,498 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'obiettivo?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tutelare i consumatori dai prodotti coltivati all'estero ed importati per essere spacciati come italiani.
+1	Tutelare	tutelare	VERB	V	VerbForm=Inf	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7	coltivati	coltivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	estero	estero	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	importati	importare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+13	per	per	ADP	E	_	15	mark	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	spacciati	spacciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = A sancirlo è un decreto interministeriale annunciato sulla Gazzetta Ufficiale.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	sancirlo	_	_	_	_	_	_	_	_
+2	sancir	sancire	VERB	V	VerbForm=Inf	6	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	interministeriale	interministeriale	ADJ	A	Number=Sing	6	amod	_	_
+8	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Gazzetta	gazzetta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	Ufficiale	ufficiale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = A darne notizia è la Coldiretti .
+1	A	a	ADP	E	_	3	case	_	_
+2	darne	darno	ADJ	A	Number=Sing	3	amod	_	_
+3	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Coldiretti	Coldiretti	PROPN	SP	_	0	root	_	_
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Saranno considerati, come già accennato, tutti i prodotti come conserve e salse, oltre al concentrato e ai sughi, che siano composti almeno per il cinquanta per cento dai derivati del pomodoro.
+1	Saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
+2	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	6	mark	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	accennato	accennare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	conserve	conserva	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	salse	salse	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	oltre	oltre	ADV	B	_	19	case	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	concentrato	concentrato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	sughi	sugo	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	che	che	SCONJ	CS	_	27	mark	_	_
+26	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	composti	comporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+28	almeno	almeno	ADV	B	_	31	advmod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	cinquanta	cinquanta	NUM	N	NumType=Card	27	nummod	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	cento	cento	NUM	N	NumType=Card	31	nummod	_	_
+34-35	dai	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	derivati	derivato	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Capofila dell'iniziativa il ministro delle politiche agricole, Maurizio Martina , di concerto con quello dello sviluppo economico, Carlo Calenda .
+1	Capofila	Capofila	PROPN	SP	_	0	root	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	Maurizio	Maurizio	PROPN	SP	_	6	nmod	_	_
+13	Martina	Martina	PROPN	SP	_	12	flat:name	_	_
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nmod	_	_
+19-20	dello	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	economico	economico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	Carlo	Carlo	PROPN	SP	_	6	appos	_	_
+25	Calenda	Calenda	PROPN	SP	_	24	flat:name	_	_
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Un passo determinante per tutelare un patrimonio di oltre 5 miliardi di chili di salsa di pomodoro italiana che rappresenta una componente fondamentale della dieta mediterranea come richiesto dall'ottantadue per cento dei consumatori nella consultazione on line sull'indicazione di origine obbligatoria degli alimenti.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	determinante	determinante	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	tutelare	tutelare	VERB	V	VerbForm=Inf	2	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	oltre	oltre	ADV	B	_	10	advmod	_	_
+10	5	5	NUM	N	NumType=Card	11	nummod	_	_
+11	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	salsa	salsa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	componente	componente	NOUN	S	Number=Sing	20	obj	_	_
+23	fondamentale	fondamentale	ADJ	A	Number=Sing	22	amod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+27	mediterranea	mediterraneo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	come	come	ADP	E	_	29	mark	_	_
+29	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+30-31	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+30	da	da	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	ottantadue	ottantadue	NOUN	S	Gender=Fem|Number=Sing	29	obl:agent	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	cento	cento	NUM	N	NumType=Card	32	nummod	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+38-39	nella	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	consultazione	consultazione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+41	on	on	ADV	BN	PronType=Neg	42	advmod	_	_
+42	line	line	ADJ	A	Number=Sing	40	amod	_	_
+43-44	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+43	su	su	ADP	E	_	45	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	indicazione	indicazione	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	origine	origine	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48	obbligatoria	obbligatorio	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+49-50	degli	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Finalmente - precisa la Coldiretti in una nota - sono tolte dall'anonimato tutte le coltivazioni di pomodoro diffuse lungo tutta la penisola su circa 72mila ettari da 8mila imprenditori agricoli e destinati a 120 industrie di trasformazione in cui trovano lavoro in Italia ben 10mila persone.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	Finalmente	finalmente	ADV	B	_	12	advmod	_	_
+3	-	-	PUNCT	FB	_	4	punct	_	_
+4	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Coldiretti	Coldiretti	PROPN	SP	_	4	nsubj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	nota	nota	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	-	-	PUNCT	FF	_	4	punct	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	tolte	togliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+13	da	da	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	anonimato	anonimato	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	coltivazioni	coltivazione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	diffuse	diffuso	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+22	lungo	lungo	ADP	E	_	25	case	_	_
+23	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	25	det:predet	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	su	su	ADP	E	_	29	case	_	_
+27	circa	circa	ADV	B	_	28	advmod	_	_
+28	72mila	72mila	NUM	N	NumType=Card	29	nummod	_	_
+29	ettari	ettaro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	8mila	8mila	NUM	N	NumType=Card	32	nummod	_	_
+32	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	agricoli	agricolo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	120	120	NUM	N	NumType=Card	38	nummod	_	_
+38	industrie	industria	NOUN	S	Gender=Fem|Number=Plur	35	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	cui	cui	PRON	PR	PronType=Rel	43	obl	_	_
+43	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+44	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	Italia	Italia	PROPN	SP	_	44	nmod	_	_
+47	ben	bene	ADV	B	_	43	advmod	_	_
+48	10mila	10mila	NUM	N	NumType=Card	49	nummod	_	_
+49	persone	persona	NOUN	S	Gender=Fem|Number=Plur	43	nsubj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 10
+# text = A essere tutelati, quindi, non solo i consumatori ma anche i lavoratori della filiera.
+1	A	a	ADP	E	_	3	mark	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux:pass	_	_
+3	tutelati	tutelare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quindi	quindi	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	filiera	filiera	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Dopo dieci anni (questa è una battaglia del settore portata avanti dal 2008) arriva maggior trasparenza con l'obbligo di etichettatura di origine sulle confezioni di salsa.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	settore	settore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	avanti	avanti	ADV	B	_	12	advmod	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	2008	2008	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	8	punct	_	_
+18	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	20	amod	_	_
+20	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	etichettatura	etichettatura	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	origine	origine	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	sulle	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	confezioni	confezione	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	salsa	salsa	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Saranno indicati il nome del paese di coltivazione del pomodoro e quello di trasformazione del prodotto primario.Se queste fasi avvengono nel territorio di più paesi possono essere utilizzate, a seconda della provenienza, le seguenti diciture:
+1	Saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
+2	indicati	indicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	primario.Se	primario.se	PROPN	SP	_	19	nmod	_	_
+21	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	22	det	_	_
+22	fasi	fase	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+23	avvengono	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	più	più	ADV	B	_	29	det	_	_
+29	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+30	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	essere	essere	AUX	VA	VerbForm=Inf	32	aux:pass	_	_
+32	utilizzate	utilizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	provenienza	provenienza	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	32	punct	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+41	seguenti	seguente	ADJ	A	Number=Plur	42	amod	_	_
+42	diciture	dicitura	NOUN	S	Gender=Fem|Number=Plur	32	nsubj:pass	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = Paesi UE, Paesi NON UE, Paesi UE E NON UE.
+1	Paesi	paese	PROPN	SP	_	0	root	_	_
+2	UE	UE	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Paesi	Paesi	PROPN	SP	_	1	appos	_	_
+5	NON	non	PROPN	SP	_	4	flat:name	_	_
+6	UE	UE	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Paesi	Paesi	PROPN	SP	_	4	nmod	_	_
+9	UE	UE	PROPN	SP	_	8	flat:name	_	_
+10	E	e	CCONJ	CC	_	11	cc	_	_
+11	NON	non	PROPN	SP	_	8	conj	_	_
+12	UE	UE	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Se tutte le operazioni avvengono nel nostro Paese si può utilizzare la dicitura "Origine del pomodoro:
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	avvengono	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	utilizzare	utilizzare	VERB	V	VerbForm=Inf	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	dicitura	dicitura	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Origine	origine	PROPN	SP	_	14	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 15
+# text = Italia".
+1	Italia	Italia	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Finora, secondo quanto denuncia la Coldiretti, buona parte dei prodotti proviene dagli Stati Uniti e dalla Cina, "dalle navi sbarcano in fusti da duecento chili di peso di concentrato da rilavorare e confezionare come italiano poichè nei contenitori al dettaglio è obbligatorio indicare solo il luogo di confezionamento, ma non quello di coltivazione del pomodoro.
+1	Finora	finora	ADV	B	_	28	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	secondo	secondo	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+5	denuncia	denunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Coldiretti	Coldiretti	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	buona	buono	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	proviene	provenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
+15-16	dagli	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Stati	Stati	PROPN	SP	_	14	obl	_	_
+18	Uniti	Uniti	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Cina	Cina	PROPN	SP	_	17	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	14	punct	_	_
+24	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+25-26	dalle	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	navi	nave	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+28	sbarcano	sbarcare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	fusti	fusto	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	duecento	duecento	NUM	N	NumType=Card	33	nummod	_	_
+33	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	peso	peso	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	concentrato	concentrato	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	da	da	ADP	E	_	39	mark	_	_
+39	rilavorare	rilavorare	VERB	V	VerbForm=Inf	37	acl	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	confezionare	confezionare	VERB	V	VerbForm=Inf	39	conj	_	_
+42	come	come	ADP	E	_	43	case	_	_
+43	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+44	poichè	poichè	ADV	B	_	47	advmod	_	_
+45-46	nei	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	contenitori	contenitore	NOUN	S	Gender=Masc|Number=Plur	41	obl	_	_
+48-49	al	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+51	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+52	obbligatorio	obbligatorio	ADJ	A	Gender=Masc|Number=Sing	28	xcomp	_	_
+53	indicare	indicare	VERB	V	VerbForm=Inf	52	csubj	_	_
+54	solo	solo	ADV	B	_	53	advmod	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	53	obj	_	_
+57	di	di	ADP	E	_	58	case	_	_
+58	confezionamento	confezionamento	NOUN	S	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	62	punct	_	_
+60	ma	ma	CCONJ	CC	_	62	cc	_	_
+61	non	non	ADV	BN	PronType=Neg	62	advmod	_	_
+62	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	52	conj	_	_
+63	di	di	ADP	E	_	64	case	_	_
+64	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	62	nmod	_	_
+65-66	del	_	_	_	_	_	_	_	_
+65	di	di	ADP	E	_	67	case	_	_
+66	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	pomodoro	pomodoro	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 17
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,198 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sappiamo che Pino Daniele ha cantato di Napoli, di gente che vive in strade strette, di poveri e di amori semplici.
+1	Sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Pino	Pino	PROPN	SP	_	6	nsubj	_	_
+4	Daniele	Daniele	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cantato	cantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Napoli	Napoli	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	strade	strada	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	amori	amore	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+23	semplici	semplice	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma è vero che in molti brani, soprattutto in età avanzata, ha cercato di parlarne con un tono più aperto, più universale, con un’attenzione all’altro che spesso si trasforma in simbolismo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	15	mark	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	brani	brano	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	età	età	NOUN	S	Gender=Fem	7	nmod	_	_
+12	avanzata	avanzato	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	parlarne	_	_	_	_	_	_	_	_
+17	parlar	parlare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tono	tono	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	universale	universale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	17	punct	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+31-32	all’	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+35	spesso	spesso	ADV	B	_	37	advmod	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+37	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	simbolismo	simbolismo	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il suo rapporto con l’Africa non è mai stato esplicitato in termini di viaggi o di inchieste.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Africa	Africa	PROPN	SP	_	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+9	mai	mai	ADV	B	_	11	advmod	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	esplicitato	esplicitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	termini	termine	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	o	o	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	inchieste	inchiesta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Tuttavia, nei suoi versi c’è un tono di rispetto, di ricerca del reale, di appartenenza a una [...] un’idea di trascendenza che talvolta si confonde con un affetto per culture estranee.
+1	Tuttavia	tuttavia	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nei	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	versi	verso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+7	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tono	tono	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	reale	reale	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	appartenenza	appartenenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	21	nmod	_	_
+24	[	[	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+25	...	...	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+26	]	]	PUNCT	FB	_	25	punct	_	_
+27	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	idea	idea	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	trascendenza	trascendenza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+32	talvolta	talvolta	ADV	B	_	34	advmod	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	confonde	confondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	culture	cultura	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	estranee	estraneo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = È noto che le sue canzoni abbiano trovato riconoscimento in contesti lontani, in paesi africani dove le sue note sono state riconosciute come segno di una comunità umana comune.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	noto	noto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	contesti	contesto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+16	africani	africano	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	dove	dove	ADV	B	_	23	advmod	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	note	nota	NOUN	S	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	riconosciute	riconoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+24	come	come	ADP	E	_	25	case	_	_
+25	segno	segno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	comunità	comunità	NOUN	S	Gender=Fem	25	nmod	_	_
+29	umana	umano	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	comune	comune	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non è un caso che l’Africa, per molti, sia vista come una terra di Marte,
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Africa	Africa	PROPN	SP	_	13	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Marte	Marte	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+

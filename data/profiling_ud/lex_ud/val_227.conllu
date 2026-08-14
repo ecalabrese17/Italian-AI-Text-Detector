@@ -1,0 +1,613 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tanto da essere definita "significativa".
+1	Tanto	tanto	ADV	B	_	4	advmod	_	_
+2	da	da	ADP	E	_	4	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	definita	definire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lo studio.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studio	studio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il Rotterdam Study, presentato oggi all'Easl, il congresso internazionale sul fegato in corso ad Amsterdam, ha analizzato è messo in relazione un modello alimentare nelle persone in sovrappeso, con il fegato grasso non alcolico o steatosi epatica (Nafld, non alcoholic fatty liver disease), patologia in cui il fegato viene invaso da grasso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Rotterdam	Rotterdam	PROPN	SP	_	23	nsubj	_	_
+3	Study	Study	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	oggi	oggi	ADV	B	_	5	advmod	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Easl	Easl	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+13	internazionale	internazionale	ADJ	A	Number=Sing	12	amod	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	ad	a	ADP	E	_	20	case	_	_
+20	Amsterdam	Amsterdam	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	analizzato	analizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	modello	modello	NOUN	S	Gender=Masc|Number=Sing	46	nsubj	_	_
+30	alimentare	alimentare	ADJ	A	Number=Sing	29	amod	_	_
+31-32	nelle	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	persone	persona	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	sovrappeso	sovrappeso	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	con	con	ADP	E	_	40	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	fegato	fegato	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	alcolico	alcolico	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+43	o	o	CCONJ	CC	_	44	cc	_	_
+44-45	steatosi	_	_	_	_	_	_	_	_
+44	steato	steare	ADJ	A	Gender=Masc|Number=Sing	42	conj	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	46	expl	_	_
+46	epatica	epatico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+47	(	(	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+48	Nafld	Nafld	PROPN	SP	_	46	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	48	punct	_	_
+50	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+51	alcoholic	alcoholic	ADJ	A	_	52	amod	_	_
+52	fatty	fatty	NOUN	S	_	48	nmod	_	_
+53	liver	livere	ADP	E	_	54	case	_	_
+54	disease	diseanere	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+55	)	)	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	46	punct	_	_
+57	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	46	obj	_	_
+58	in	in	ADP	E	_	59	case	_	_
+59	cui	cui	PRON	PR	PronType=Rel	63	obl	_	_
+60	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	63	nsubj:pass	_	_
+62	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	aux:pass	_	_
+63	invaso	invadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	57	acl:relcl	_	_
+64	da	da	ADP	E	_	65	case	_	_
+65	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	63	obl:agent	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 4
+# text = Avere un po' di grasso nel fegato è normale, ma quando la soglia supera il 5 per cento del peso totale dell'organo stesso, si ha la Nafld, che può portare a cirrosi e malfunzionamento del fegato, fino al tumore.
+1	Avere	avere	VERB	V	VerbForm=Inf	10	csubj	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	normale	normale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	31	punct	_	_
+12	ma	ma	CCONJ	CC	_	31	cc	_	_
+13	quando	quando	SCONJ	CS	_	16	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	5	5	NUM	N	NumType=Card	16	obj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	cento	cento	NUM	N	NumType=Card	18	nummod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	peso	peso	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+24	totale	totale	ADJ	A	Number=Sing	23	amod	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	organo	organo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	16	punct	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl:impers	_	_
+31	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Nafld	Nafld	PROPN	SP	_	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	portare	portare	VERB	V	VerbForm=Inf	33	acl:relcl	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	cirrosi	cirroso	NOUN	S	Gender=Fem|Number=Plur	37	obl	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	malfunzionamento	malfunzionamento	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	37	punct	_	_
+46	fino	fino	ADV	B	_	49	case	_	_
+47-48	al	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	46	fixed	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	tumore	tumore	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = E ad un rischio aumentato di malattie cardiovascolari, come aterosclerosi e diabete mellito.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8	cardiovascolari	cardiovascolare	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	aterosclerosi	ateroscleroso	ADJ	A	Gender=Masc|Number=Plur	4	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	diabete	diabete	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	mellito	mellito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = L'obesità è in sè un fattore di rischio tra i più importanti per la malattia.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obesità	obesità	NOUN	S	Gender=Fem	7	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	sè	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	tra	tra	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	importanti	importante	ADJ	A	Number=Plur	7	nmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = I risultati.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Veniamo ai risultati dello studio, che ha seguito 3340 persone nei Paesi Bassi.
+1	Veniamo	venire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5-6	dello	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+12	3340	3340	NUM	N	NumType=Card	13	nummod	_	_
+13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Paesi	Paesi	PROPN	SP	_	11	obl	_	_
+17	Bassi	Bassi	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Di questi 1040 erano magri, con un indice di massa corporea (Bmi, body mass index) sotto 25 e 2400 invece erano in sovrappeso, con un Bmi uguale o maggiore di 25.
+1	Di	di	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	1040	1040	NUM	N	NumType=Card	5	obl	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	magri	magro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	indice	indice	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	massa	massa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	corporea	corporeo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Bmi	Bmi	PROPN	SP	_	9	appos	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	body	body	X	SW	Foreign=Yes	14	appos	_	_
+17	mass	mass	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	index	index	X	SW	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	_
+20	sotto	sotto	ADP	E	_	21	case	_	_
+21	25	25	NUM	N	NumType=Card	9	nummod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	2400	2400	NUM	N	NumType=Card	21	conj	_	_
+24	invece	invece	ADV	B	_	27	advmod	_	_
+25	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	sovrappeso	sovrappeso	NOUN	S	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	5	punct	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Bmi	Bmi	PROPN	SP	_	5	obl	_	_
+32	uguale	uguale	ADJ	A	Number=Sing	31	amod	_	_
+33	o	o	CCONJ	CC	_	34	cc	_	_
+34	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	32	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	25	25	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Età media 71 anni e Nafld - la cui prevalenza nei paesi occidentali è stimata tra il 20 e il 30 per cento - nel 35 per cento dei partecipanti.
+1	Età	Età	NOUN	S	Gender=Fem	16	obl	_	_
+2	media	medio	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	71	71	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Nafld	Nafld	PROPN	SP	_	1	conj	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	cui	cui	DET	DR	PronType=Rel	10	det:poss	_	_
+10	prevalenza	prevalenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	occidentali	occidentale	ADJ	A	Number=Plur	13	amod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	stimata	stimare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	20	20	NUM	N	NumType=Card	16	nummod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	30	30	NUM	N	NumType=Card	19	conj	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	cento	cento	NUM	N	NumType=Card	22	nummod	_	_
+25	-	-	PUNCT	FB	_	22	punct	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	35	35	NUM	N	NumType=Card	16	obl	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	cento	cento	NUM	N	NumType=Card	28	nummod	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	partecipanti	partecipante	NOUN	S	Number=Plur	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Di tutte queste persone è stato analizzato il regime dietetico con un dettagliatissimo questionario che prevedeva frequenza e quantità di ben 389 alimenti.
+1	Di	di	ADP	E	_	4	case	_	_
+2	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	analizzato	analizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	regime	regime	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+10	dietetico	dietetico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	dettagliatissimo	dettagliato	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	questionario	questionario	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	prevedeva	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+17	frequenza	frequenza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	quantità	quantità	NOUN	S	Gender=Fem	17	conj	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	ben	bene	ADV	B	_	23	advmod	_	_
+22	389	389	NUM	N	NumType=Card	23	nummod	_	_
+23	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = I risultati hanno mostrato una correlazione maggiore tra l'apporto totale di proteine e Nafld, soprattutto quando le proteine erano di provenienza animale.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	correlazione	correlazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+8	tra	tra	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	apporto	apporto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	totale	totale	ADJ	A	Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Nafld	Nafld	PROPN	SP	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	soprattutto	soprattutto	ADV	B	_	23	advmod	_	_
+18	quando	quando	SCONJ	CS	_	23	mark	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+21	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	provenienza	provenienza	NOUN	S	Gender=Fem|Number=Sing	4	advcl	_	_
+24	animale	animale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Che fare.
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Quando la Nafld è ancora agli inizi si può trattare con la perdita di peso e modificando il proprio regime alimentare.
+1	Quando	quando	SCONJ	CS	_	11	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Nafld	Nafld	PROPN	SP	_	11	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+5	ancora	ancora	ADV	B	_	11	advmod	_	_
+6-7	agli	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	inizi	inizio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	trattare	trattare	VERB	V	VerbForm=Inf	0	root	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	peso	peso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	modificando	modificare	VERB	V	VerbForm=Ger	11	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	regime	regime	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	alimentare	alimentare	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 15
+# text = Non c'è però accordo su un elemento importante:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	però	però	ADV	B	_	3	advmod	_	_
+5	accordo	accordare	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	importante	importante	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 16
+# text = basta dimagrire per liberare il fegato da tutto questo grasso in eccesso?
+1	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dimagrire	dimagrire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	liberare	liberare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Nuove evidenze dimostrano come sia la composizione della dieta a giocare un ruolo importante, più che il numero di calorie totali.
+1	Nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	evidenze	evidenza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	SCONJ	CS	_	7	mark	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	composizione	composizione	NOUN	S	Gender=Fem|Number=Sing	3	advcl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	giocare	giocare	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	importante	importante	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	più	più	ADV	B	_	3	advmod	_	_
+18	che	che	SCONJ	CS	_	20	fixed	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	numero	numero	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	calorie	caloria	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	totali	totale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = E non a caso la malattia è più presente in Occidente, dove la dieta ormai è troppo ricca di proteine animali e di cibi raffinati e processati.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	presente	presente	ADJ	A	Number=Sing	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Occidente	occidente	PROPN	SP	_	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	19	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+16	ormai	ormai	ADV	B	_	19	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	troppo	troppo	ADV	B	_	19	advmod	_	_
+19	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	11	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	animali	animale	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+26	raffinati	raffinato	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	processati	processato	ADJ	A	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 19
+# text = Detto questo - precisa Louise Alferink, dell'Erasmus Medical Centre, prima autrice dello studio, "è evidente che uno stile di vita complessivamente sano sia la base da cui partire, ma mancano ancora raccomandazioni dietetiche specifiche.
+1	Detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	precisa	precisare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5	Louise	Louise	PROPN	SP	_	2	nmod	_	_
+6	Alferink	Alferink	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Erasmus	Erasmus	PROPN	SP	_	5	nmod	_	_
+11	Medical	Medical	PROPN	SP	_	10	flat:name	_	_
+12	Centre	Centre	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	prima	prima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	autrice	autore	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+16-17	dello	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	studio	studio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+23	che	che	SCONJ	CS	_	32	mark	_	_
+24	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	stile	stile	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	vita	vita	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	complessivamente	complessivamente	ADV	B	_	29	advmod	_	_
+29	sano	sare	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+30	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	base	base	NOUN	S	Gender=Fem|Number=Sing	22	csubj	_	_
+33	da	da	ADP	E	_	34	case	_	_
+34	cui	cui	PRON	PR	PronType=Rel	35	obl	_	_
+35	partire	partire	VERB	V	VerbForm=Inf	32	acl:relcl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	ma	ma	CCONJ	CC	_	38	cc	_	_
+38	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+39	ancora	ancora	ADV	B	_	38	advmod	_	_
+40	raccomandazioni	raccomandazione	NOUN	S	Gender=Fem|Number=Plur	38	nsubj	_	_
+41	dietetiche	dietetico	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	_
+42	specifiche	specifico	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 20
+# text = Quello che il nostro studio ha dimostrato sul l'eccesso di proteine animali è in linea con altre ricerche.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	studio	studio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	animali	animali	ADJ	A	Number=Plur	13	amod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	linea	linea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	altre	altro	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 21
+# text = Quello che ci ha sorpreso è invece il dato sul fruttosio, il cui consumo potrebbe non essere così rischioso in sé, come abbiamo creduto finora.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	invece	invece	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dato	dato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fruttosio	fruttosio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	cui	cui	DET	DR	PronType=Rel	16	det:poss	_	_
+16	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+17	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	essere	essere	AUX	V	VerbForm=Inf	21	cop	_	_
+20	così	così	ADV	B	_	21	advmod	_	_
+21	rischioso	rischioso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	come	come	SCONJ	CS	_	27	mark	_	_
+26	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+28	finora	finora	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = E non sembrerebbe correlato alla Nafld.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sembrerebbe	sembrare	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	correlato	correlato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Nafld	Nafld	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Un risultato da interpretare con estrema cautela e sul quale effettueremo altri studi".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	interpretare	interpretare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+12	effettueremo	effettuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	conj	_	_
+13	altri	altro	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	studi	studio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

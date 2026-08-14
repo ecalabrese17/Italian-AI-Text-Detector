@@ -1,0 +1,325 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Da allora guardo tutto:
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	3	case	_	_
+3	allora	allora	ADV	B	_	4	advmod	_	_
+4	guardo	guardare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = sarà gusto per l’orrido?”.
+1	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	gusto	gusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	orrido	orrido	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La domanda, lasciata sospesa come un macigno, non è retorica e non si esaurisce nella semplice autocritica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lasciata	lasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	sospesa	sospendere	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	macigno	macigno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	retorica	retorico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	esaurisce	esaurire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	semplice	semplice	ADJ	A	Number=Sing	20	amod	_	_
+20	autocritica	autocritica	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = È, in realtà, una spia rivelatrice di un’inquietudine più profonda, un sintomo di una sinistra che ha smarrito il contatto con il senso comune e che, forse, trova una sinistra perversione nell’esaltazione della distruzione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	realtà	realtà	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	spia	spio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	rivelatrice	rivelatore	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	inquietudine	inquietudine	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sintomo	sintomo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	smarrito	smarrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	senso	senso	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	comune	comune	ADJ	A	Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	34	cc	_	_
+30	che	che	PRON	PR	PronType=Rel	34	nsubj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	forse	forse	ADV	B	_	34	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	trova	trovare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	conj	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	perversione	perversione	NOUN	S	Gender=Fem|Number=Sing	36	compound	_	_
+38-39	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+38	in	in	ADP	E	_	40	case	_	_
+39	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	esaltazione	esaltazione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	distruzione	distruzione	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Non si tratta, naturalmente, di criminalizzare una preferenza estetica personale.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	naturalmente	naturalmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	criminalizzare	criminalizzare	VERB	V	VerbForm=Inf	3	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	preferenza	preferenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	estetica	estetico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	personale	personale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ognuno è libero di essere attratto da ciò che desidera, anche dal macabro.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	libero	libero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	attratto	attrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl:agent	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	desidera	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	macabro	macabro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il problema è quando tale attrazione diventa un filtro attraverso cui interpretare la realtà, una lente deformante che legittima, se non addirittura invoca, il caos.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quando	quando	SCONJ	CS	_	7	mark	_	_
+5	tale	tale	DET	DD	Number=Sing|PronType=Dem	6	det	_	_
+6	attrazione	attrazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	filtro	filtro	NOUN	S	Gender=Masc|Number=Sing	7	xcomp	_	_
+10	attraverso	attraverso	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	interpretare	interpretare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	realtà	realtà	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lente	lente	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+18	deformante	deformante	ADJ	A	Number=Sing	17	amod	_	_
+19	che	che	PRON	PR	PronType=Rel	28	case	_	_
+20	legittima	legittimare	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	se	se	SCONJ	CS	_	25	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	addirittura	addirittura	ADV	B	_	25	advmod	_	_
+25	invoca	invoco	ADJ	A	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	caos	caos	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = L'amore a prima vista per la violenza, anche mediata, è un campanello d’allarme.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	vista	vista	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	mediata	mediato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	d’	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = Soprattutto se appartiene a chi aspira a governare il Paese.
+1	Soprattutto	soprattutto	ADV	B	_	3	advmod	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	appartiene	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obl	_	_
+6	aspira	aspirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	governare	governare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = La sinistra italiana, da tempo, sembra aver abbracciato una retorica che miscela vittimismo e risentimento, alimentando un clima di radicalizzazione e delegittimazione delle istituzioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	abbracciato	abbracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	retorica	retorica	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	miscela	miscelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	vittimismo	vittimismo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	risentimento	risentimento	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	alimentando	alimentare	VERB	V	VerbForm=Ger	10	advcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	clima	clima	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	radicalizzazione	radicalizzazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	delegittimazione	delegittimazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Il video in questione, legato a contestazioni estreme, testimonia proprio questo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc	11	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	contestazioni	contestazione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	estreme	estremo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	testimonia	testimoniare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	proprio	proprio	ADV	B	_	13	advmod	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 12
+# text = la volontà di sovvertire l’ordine costituito, di sfidare lo Stato con azioni che sconfina nel vandalismo e nella prevaricazione.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volontà	volontà	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	sovvertire	sovvertire	VERB	V	VerbForm=Inf	2	acl	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	costituito	costituito	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	sfidare	sfidare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	sconfina	sconfinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	vandalismo	vandalismo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	prevaricazione	prevaricazione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Trovare in questo un “fascino” o, peggio, un “amore a prima vista”, è un fatto grave.
+1	Trovare	trovare	VERB	V	VerbForm=Inf	22	csubj	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	6	punct	_	_
+8	o	o	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	peggio	peggio	ADV	B	_	14	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	vista	vista	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+23	grave	grave	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 14
+# text = Sarebbe ingenuo pensare che si tratti di un caso isolato.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ingenuo	ingenuo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	pensare	pensare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	tratti	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Assistiamo, da
+1	Assistiamo	Assistare	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	da	da	ADP	E	_	1	case	_	SpacesAfter=\n
+

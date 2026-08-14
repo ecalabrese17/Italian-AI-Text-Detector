@@ -1,0 +1,387 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il dottor Khalil, medico siriano a bordo della nave Geo Barents di SOS Mediterranee, lo ripete come un mantra, gli occhi fissi su un punto indefinito al di là del porto di Catania.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Khalil	Khalil	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	medico	medico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	siriano	siriare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	nave	nave	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Geo	Geo	PROPN	SP	_	11	nmod	_	_
+13	Barents	Barents	PROPN	SP	_	12	flat:name	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	SOS	SOS	PROPN	SP	_	11	nmod	_	_
+16	Mediterranee	Mediterranee	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mantra	mantra	NOUN	S	Gender=Masc	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+26	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	punto	punto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	indefinito	indefinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	là	là	ADV	B	_	37	advmod	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	porto	porto	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Catania	Catania	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = "Bambini.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bambini	bambini	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I miei bambini, li ho visti morire.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	morire	morire	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = E l’Italia li ha lasciati annegare".
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Italia	Italia	PROPN	SP	_	6	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lasciati	lasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	annegare	annegare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Non è un’accusa a singoli uomini o donne in divisa, ma un atto d’accusa ben più ampio, rivolto a una politica che trasforma il mare in una fossa comune e la solidarietà in un crimine.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	divisa	divisa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	atto	atto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+16	d’	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	ben	bene	ADV	B	_	20	advmod	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	4	punct	_	_
+22	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	politica	politica	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mare	mare	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	fossa	fossa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33	comune	comune	ADJ	A	Number=Sing	32	amod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	solidarietà	solidarietà	NOUN	S	Gender=Fem	32	conj	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	crimine	crimine	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Khalil ha negli occhi le immagini dei giorni scorsi, le mani piccole strette a quelle dei genitori, la tosse che si faceva sempre più debole, la disidratazione che li consumava.
+1	Khalil	Khalil	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	_
+15	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	16	obl	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+28	sempre	sempre	ADV	B	_	27	advmod	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	debole	debole	ADJ	A	Number=Sing	27	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	disidratazione	disidratazione	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	obj	_	_
+36	consumava	consumare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Una ventina di minori tra i circa duecento migranti soccorsi dalla Geo Barents.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ventina	ventina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	minori	minore	NOUN	S	Number=Plur	2	nmod	_	_
+5	tra	tra	ADP	E	_	9	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	duecento	duecento	NUM	N	NumType=Card	9	nummod	_	_
+9	migranti	migrante	NOUN	S	Number=Plur	2	nmod	_	_
+10	soccorsi	soccorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Geo	Geo	PROPN	SP	_	10	obl:agent	_	_
+14	Barents	Barents	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Molti di loro provenienti dalla Libia, dalla Siria, dal Sudan.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	1	acl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Libia	Libia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Siria	Siria	PROPN	SP	_	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Sudan	Sudan	PROPN	SP	_	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Fuggivano da guerre, fame, oppressione.
+1	Fuggivano	Fuggire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	fame	fame	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Cercavano una vita, non la morte.
+1	Cercavano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = E l'Italia, dice, li ha lasciati morire di fronte al suo sguardo, in un gioco perverso di calcoli politici e respingimenti indiretti.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Italia	Italia	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lasciati	lasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	morire	morire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fronte	fronte	NOUN	S	Number=Sing	10	obl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+21	perverso	perverso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	calcoli	calcolo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	politici	politico	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	respingimenti	respingimento	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+27	indiretti	indiretto	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = "Quando abbiamo richiesto soccorso, speravamo in un immediato sbarco, soprattutto per i malati e i bambini" racconta con la voce roca dalla stanchezza e dal dolore.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	4	mark	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+5	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	speravamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	immediato	immediato	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	sbarco	sbarco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	soprattutto	soprattutto	ADV	B	_	16	advmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	malati	malato	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	7	punct	_	_
+21	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	voce	voce	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	roca	rocare	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = "Invece, ore di attesa, di comunicazioni burocratiche, di richieste di indicazioni precise sulla nave e i suoi occupanti.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Invece	invece	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	comunicazioni	comunicazione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	burocratiche	burocratico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	indicazioni	indicazione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nave	nave	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	occupanti	occupante	NOUN	S	Number=Plur	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ore che per quei bambini erano ore di vita sottratte.
+1	Ore	ora	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	advcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	sottratte	sottratto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Ore durante le quali le loro condizioni peggioravano inesorabilmente".
+1	Ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	durante	durante	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	quali	quale	PRON	PR	Number=Plur|PronType=Rel	8	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	peggioravano	peggiorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+9	inesorabilmente	inesorabilmente	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Non si tratta, sottolinea, di una mancanza di coordinamento o di un problema logistico.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	coordinamento	coordinamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	o	o	CCONJ	CC	_	15	cc	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	problema	problema	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+16	logistico	logistico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = "È una scelta politica – afferma con fermezza – Una
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	politica	politico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	–	–	PUNCT	FB	_	7	punct	_	_
+7	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	fermezza	fermezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	–	–	PUNCT	FF	_	7	punct	_	_
+11	Una	Una	PROPN	SP	_	4	nmod	_	SpacesAfter=\n
+

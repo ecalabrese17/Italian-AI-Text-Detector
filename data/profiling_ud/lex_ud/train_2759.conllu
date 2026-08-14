@@ -1,0 +1,439 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Raniero Busco, ex fidanzato di Simonetta Cesaroni, rinviato a giudizio per omicidio volontario, ora si dispera:
+1	Raniero	Raniero	PROPN	SP	_	19	nsubj	_	_
+2	Busco	Busco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	ex	ex	ADJ	A	_	5	amod	_	_
+5	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Simonetta	Simonetta	PROPN	SP	_	5	nmod	_	_
+8	Cesaroni	Cesaroni	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	rinviato	rinviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	volontario	volontario	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	ora	ora	ADV	B	_	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	dispera	disperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 2
+# text = «non è giusto, non è giusto», ripete dopo avere saputo dal suo avvocato Paolo Loria nel corso di un breve colloquio della decisione del gup Maddalena Cipriani.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	dopo	dopo	SCONJ	CS	_	14	mark	_	_
+13	avere	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	14	obl:agent	_	_
+19	Paolo	Paolo	PROPN	SP	_	18	nmod	_	_
+20	Loria	Loria	PROPN	SP	_	19	flat:name	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	corso	corso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	breve	breve	ADJ	A	Number=Sing	27	amod	_	_
+27	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	gup	gup	NOUN	S	Gender=Masc	30	nmod	_	_
+34	Maddalena	Maddalena	PROPN	SP	_	33	nmod	_	_
+35	Cipriani	Cipriani	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = «Raniero si sente disarmato - dice l'avvocato Loria dopo aver parlato col suo assistito - di fronte a una decisione di cui non comprende le ragioni, i presupposti».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Raniero	Raniero	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	disarmato	disarmare	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	-	-	PUNCT	FF	_	4	punct	_	_
+7	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	Loria	Loria	PROPN	SP	_	9	nmod	_	_
+11	dopo	dopo	SCONJ	CS	_	13	mark	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+14-15	col	_	_	_	_	_	_	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	assistito	assistito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	-	-	PUNCT	FF	_	7	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fronte	fronte	NOUN	S	Number=Sing	4	obl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	23	nmod	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	comprende	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	presupposti	presupposto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+33	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La famiglia e gli amici di Raniero, a detta del penalista, «in queste ore non gli hanno fatto mancare le loro attestazioni di solidarietà.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Raniero	Raniero	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	detta	detta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	penalista	penalista	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	«	«	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+16	in	in	ADP	E	_	18	case	_	_
+17	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	ore	ora	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	mancare	mancare	VERB	V	VerbForm=Inf	22	ccomp	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	attestazioni	attestazione	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	solidarietà	solidarietà	NOUN	S	Gender=Fem	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 5
+# text = E tutto il quartiere popolare di Morena, dove i Busco sono conosciuti, non ha dubbi:
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+5	popolare	popolare	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Morena	Morena	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	dove	dove	ADV	B	_	13	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Busco	Busco	PROPN	SP	_	13	nsubj	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	conosciuti	conoscere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 6
+# text = «È un bravo ragazzo, è innocente».Volevo bene a Simonetta-dice Busco al suo avvocato- Discutevamo, certo, ma erano cose di ragazzi«.
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	innocente	innocente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.Volevo	.Volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	parataxis	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Simonetta-dice	Simonetta-dice	PROPN	SP	_	10	obl	_	_
+14	Busco	Busco	PROPN	SP	_	13	flat:name	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	_
+20	Discutevamo	Discutere	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	certo	certo	ADV	B	_	18	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	10	punct	_	_
+24	ma	ma	CCONJ	CC	_	26	cc	_	_
+25	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+26	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Il processo non lenisce il dolore di mamma Cesaroni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	processo	processo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	lenisce	lenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	Cesaroni	Cesaroni	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = «Non perdonerò gli inquirenti perchè mi hanno fatto passare 19 anni di sofferenza in più.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	perdonerò	perdonerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	inquirenti	inquirente	ADJ	A	Number=Plur	3	obj	_	_
+6	perchè	perché	SCONJ	CS	_	9	mark	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	passare	passare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	19	19	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	più	più	ADV	B	_	10	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Potevano fare ciò che hanno fatto, soprattutto gli esami sul morso, già 19 anni fa», dice lucida Anna Di Giambattista, confidandosi col suo legale Lucio Molinaro.
+1	Potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	esami	esame	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	morso	morso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	già	già	ADV	B	_	17	advmod	_	_
+16	19	19	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+18	fa	fa	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+22	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	Anna	Anna	PROPN	SP	_	21	nsubj	_	_
+24	Di	Di	ADP	E	_	25	case	_	_
+25	Giambattista	Giambattista	PROPN	SP	_	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27-28	confidandosi	_	_	_	_	_	_	_	_
+27	confidando	confidare	VERB	V	VerbForm=Ger	21	advcl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29-30	col	_	_	_	_	_	_	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	legale	legale	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+33	Lucio	Lucio	PROPN	SP	_	32	nmod	_	_
+34	Molinaro	Molinaro	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = «Mi hanno dato la soddisfazione dell'avere un processo per la morte di mia figlia Simonetta - aggiunge la donna - e io me la prendo, ma voglio sapere perchè al tempo non hanno fatto le indagini su quel morso sul seno di mia figlia».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	mark	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	6	acl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	processo	processo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	morte	morte	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Simonetta	Simonetta	PROPN	SP	_	17	nmod	_	_
+19	-	-	PUNCT	FF	_	20	punct	_	_
+20	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+23	-	-	PUNCT	FB	_	20	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	conj	_	_
+26	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	expl	_	_
+27	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	prendo	prendere	VERB	V	VerbForm=Ger	25	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	ma	ma	CCONJ	CC	_	32	cc	_	_
+31	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	sapere	sapere	VERB	V	VerbForm=Inf	4	conj	_	_
+33	perchè	perché	SCONJ	CS	_	39	mark	_	_
+34-35	al	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+38	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	ccomp	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	39	obj	_	_
+42	su	su	ADP	E	_	44	case	_	_
+43	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+44	morso	morso	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45-46	sul	_	_	_	_	_	_	_	_
+45	su	su	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	seno	seno	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+51	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Nel 2005 morì Claudio, padre di Simonetta, e la moglie Anna, secondo quanto riferito dall'avvocato Molinaro, ancora «quasi parla con lui.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2005	2005	NUM	N	NumType=Card	4	obl	_	_
+4	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Claudio	Claudio	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Simonetta	Simonetta	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+14	Anna	Anna	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	secondo	secondo	ADP	E	_	17	case	_	_
+17	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	4	obl	_	_
+18	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+19-20	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+19	da	da	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	18	obl:agent	_	_
+22	Molinaro	Molinaro	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	ancora	ancora	ADV	B	_	27	advmod	_	_
+25	«	«	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	quasi	quasi	ADV	B	_	27	advmod	_	_
+27	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Tanto che, quando l'ho raggiunta telefonicamente per dare la notizia del rinvio a giudizio di Raniero Busco, lei ha parlato del marito come fosse presente.
+1	Tanto	tanto	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	24	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	24	punct	_	_
+4	quando	quando	SCONJ	CS	_	7	mark	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	raggiunta	raggiungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+8	telefonicamente	telefonico	ADV	B	_	10	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	dare	dare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	rinvio	rinvio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Raniero	Raniero	PROPN	SP	_	15	nmod	_	_
+20	Busco	Busco	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	7	punct	_	_
+22	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	marito	marito	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	fosse	fossa	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	presente	presente	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Ha un legame permanente con lui».
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	legame	legame	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	permanente	permanente	ADJ	A	Number=Sing	3	amod	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = E su Busco, Anna ha poche, incredule parole:
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	su	su	ADP	E	_	3	case	_	_
+3	Busco	Busco	PROPN	SP	_	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Anna	Anna	PROPN	SP	_	6	nsubj	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	incredule	incredule	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+10	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 15
+# text = «Sorpresa, amarezza e sgomento, Raniero era uno di famiglia».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Raniero	Raniero	PROPN	SP	_	10	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

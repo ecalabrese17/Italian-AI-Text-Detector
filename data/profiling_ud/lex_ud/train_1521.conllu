@@ -1,0 +1,1619 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Subito dopo si posiziona "Veloce come il vento" di Matteo Rovere, con 16 nomination.
+1	Subito	subito	ADV	B	_	4	advmod	_	_
+2	dopo	dopo	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	posiziona	posizionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Veloce	veloce	PROPN	SP	_	4	nsubj	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vento	vento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Matteo	Matteo	PROPN	SP	_	6	nmod	_	_
+13	Rovere	Rovere	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	16	16	NUM	N	NumType=Card	17	nummod	_	_
+17	nomination	nomination	NOUN	S	_	4	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Doppia candidatura per Valerio Mastandrea (miglior attore protagonista per "Fai bei sogni" e miglior attore non protagonista per "Fiore").
+1	Doppia	doppio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Valerio	Valerio	PROPN	SP	_	2	nmod	_	_
+5	Mastandrea	Mastandrea	PROPN	SP	_	4	flat:name	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	miglior	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	attore	attore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	protagonista	protagonista	ADJ	A	Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Fai	fare	PROPN	SP	_	8	nmod	_	_
+13	bei	bello	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+14	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	8	compound	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	miglior	miglior	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+18	attore	attore	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	protagonista	protagonista	ADJ	A	Number=Sing	18	amod	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Fiore	fiore	PROPN	SP	_	20	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Lunedì 27 febbraio verranno consegnati i prestigiosi David di Donatello, presso gli Studi De Paolis di via Tiburtina a Roma.
+1	Lunedì	lunedì	NOUN	S	Gender=Masc	5	nsubj:pass	_	_
+2	27	27	NUM	N	NumType=Card	1	nmod	_	_
+3	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	consegnati	consegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	prestigiosi	prestigioso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	David	David	PROPN	SP	_	5	nsubj:pass	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Donatello	Donatello	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	presso	presso	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Studi	Studi	PROPN	SP	_	5	obl	_	_
+15	De	De	PROPN	SP	_	14	flat:name	_	_
+16	Paolis	Paolis	PROPN	SP	_	14	flat:name	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	via	via	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	Tiburtina	Tiburtina	PROPN	SP	_	18	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Roma	Roma	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Le candidature sono state annunciate questa mattina alla Casa del Cinema di Roma e riguardano i film usciti al cinema dal 29 febbraio al 31 dicembre 2016.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	candidature	candidatura	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	annunciate	annunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Cinema	cinema	NOUN	S	Gender=Masc	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Roma	Roma	PROPN	SP	_	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	riguardano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	film	film	NOUN	S	Gender=Masc	17	obj	_	_
+20	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cinema	cinema	NOUN	S	Gender=Masc	20	obl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	29	29	NUM	N	NumType=Card	23	nmod	_	_
+27	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	26	flat	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	31	31	NUM	N	NumType=Card	20	obl	_	_
+31	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	30	flat	_	_
+32	2016	2016	NUM	N	NumType=Card	30	flat	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Miglior regia I candidati nella sezione miglior regia sono: Marco Bellocchio per "Fai bei sogni", Claudio Giovannesi per "Fiore", Edoardo De Angelis per "Indivisibili", Paolo Virzì per "La pazza gioia", Matteo Rovere per "Veloce come il vento".
+1	Miglior	miglior	PROPN	SP	_	2	nsubj	_	_
+2	regia	regiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	miglior	migliore	ADJ	A	Number=Sing	7	amod	_	_
+9	regia	regia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	Marco	Marco	PROPN	SP	_	9	nsubj	_	_
+13	Bellocchio	Bellocchio	PROPN	SP	_	12	flat:name	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Fai	fare	PROPN	SP	_	12	nmod	_	_
+17	bei	bello	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	16	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Claudio	Claudio	PROPN	SP	_	12	conj	_	_
+22	Giovannesi	Giovannesi	PROPN	SP	_	21	flat:name	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Fiore	fiore	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	21	punct	_	_
+28	Edoardo	Edoardo	PROPN	SP	_	21	flat:name	_	_
+29	De	De	PROPN	SP	_	28	flat:name	_	_
+30	Angelis	Angelis	PROPN	SP	_	28	flat:name	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	Indivisibili	Indivisibili	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	21	punct	_	_
+36	Paolo	Paolo	PROPN	SP	_	21	flat:name	_	_
+37	Virzì	Virzì	PROPN	SP	_	36	flat:name	_	_
+38	per	per	ADP	E	_	41	case	_	_
+39	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+42	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	Matteo	Matteo	PROPN	SP	_	12	conj	_	_
+46	Rovere	Rovere	PROPN	SP	_	45	flat:name	_	_
+47	per	per	ADP	E	_	49	case	_	_
+48	"	"	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+49	Veloce	veloce	PROPN	SP	_	45	nmod	_	_
+50	come	come	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	vento	vento	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+53	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Miglior regista esordiente A contendersi la statuetta del migliore regista esordiente ci saranno invece Michele Vannucci per "Il più grande sogno", Marco Danieli con "La ragazza del mondo", Marco Segato per il film "La pelle dell'orso", Nicola Guaglianone e Fabio Resinaro per il film "Mine".
+1	Miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	regista	regista	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	esordiente	esordiente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+4	A	a	ADP	E	_	5	mark	_	_
+5-6	contendersi	_	_	_	_	_	_	_	_
+5	contender	contendere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	statuetta	statuetta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+12	regista	regista	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	esordiente	esordiente	ADJ	A	Number=Sing	12	amod	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+15	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	invece	invece	ADV	B	_	15	advmod	_	_
+17	Michele	Michele	PROPN	SP	_	15	nsubj	_	_
+18	Vannucci	Vannucci	PROPN	SP	_	17	flat:name	_	_
+19	per	per	ADP	E	_	24	case	_	_
+20	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+21	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	grande	grande	ADJ	A	Number=Sing	24	amod	_	_
+24	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	Marco	Marco	PROPN	SP	_	24	nmod	_	_
+28	Danieli	Danieli	PROPN	SP	_	27	flat:name	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	24	punct	_	_
+38	Marco	Marco	PROPN	SP	_	24	nmod	_	_
+39	Segato	Segare	PROPN	SP	_	38	flat:name	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	film	film	NOUN	S	Gender=Masc	24	nmod	_	_
+43	"	"	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+44	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+46-47	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+46	di	di	ADP	E	_	48	case	_	_
+47	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	orso	orso	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+49	"	"	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	42	punct	_	_
+51	Nicola	Nicola	PROPN	SP	_	42	appos	_	_
+52	Guaglianone	Guaglianone	PROPN	SP	_	51	flat:name	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	Fabio	Fabio	PROPN	SP	_	51	conj	_	_
+55	Resinaro	Resinaro	PROPN	SP	_	54	flat:name	_	_
+56	per	per	ADP	E	_	58	case	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	film	film	NOUN	S	Gender=Masc	51	nmod	_	_
+59	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+60	Mine	mine	PROPN	SP	_	58	nmod	_	SpaceAfter=No
+61	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Infine Lorenzo Corvino per "WAX:
+1	Infine	infine	ADV	B	_	2	advmod	_	_
+2	Lorenzo	Lorenzo	PROPN	SP	_	0	root	_	_
+3	Corvino	Corvino	PROPN	SP	_	2	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	WAX	WAX	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = We are the X".
+1	We	we	ADV	B	_	2	advmod	_	_
+2	are	are	VERB	V	VerbForm=Inf	0	root	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	X	X	NOUN	S	_	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Miglior film "Fai bei sogni", "Fiore", "Indivisibili", "La pazza gioia", "Veloce come il vento".
+1	Miglior	migliore	NOUN	S	_	0	root	_	_
+2	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	acl	_	_
+5	bei	bello	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Fiore	fiore	PROPN	SP	_	4	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Indivisibili	Indivisibili	PROPN	SP	_	2	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	La	La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+20	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Veloce	veloce	ADJ	A	Number=Sing	1	amod	_	_
+25	come	come	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	vento	vento	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Miglior attore protagonista
+1	Miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	protagonista	protagonista	NOUN	S	Number=Sing	2	nmod	_	_
+
+# sent_id = 11
+# text = I candidati ai David di Donatello per il titolo di miglior attore protagonista sono invece Valerio Mastandrea per "Fai bei sogni", Michele Riondino per "La ragazza del mondo", Sergio Rubini per "La stoffa dei sogni", Toni Servillo per "Le confessioni", Stefano Accorsi per "Veloce come il vento".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	David	David	PROPN	SP	_	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Donatello	Donatello	PROPN	SP	_	5	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	miglior	miglior	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	attore	attore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	protagonista	protagonista	NOUN	S	Number=Sing	13	compound	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	invece	invece	ADV	B	_	17	advmod	_	_
+17	Valerio	Valerio	PROPN	SP	_	0	root	_	_
+18	Mastandrea	Mastandrea	PROPN	SP	_	17	flat:name	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Fai	fare	PROPN	SP	_	17	nmod	_	_
+22	bei	bello	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	21	flat:name	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	Michele	Michele	PROPN	SP	_	17	conj	_	_
+27	Riondino	Riondino	PROPN	SP	_	26	flat:name	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+30	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	Sergio	Sergio	PROPN	SP	_	17	conj	_	_
+38	Rubini	Rubini	PROPN	SP	_	37	flat:name	_	_
+39	per	per	ADP	E	_	42	case	_	_
+40	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+41	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+43-44	dei	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+46	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	Toni	toni	PROPN	SP	_	17	conj	_	_
+49	Servillo	Servillo	PROPN	SP	_	48	flat:name	_	_
+50	per	per	ADP	E	_	53	case	_	_
+51	"	"	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+52	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	48	nmod	_	SpaceAfter=No
+54	"	"	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	56	punct	_	_
+56	Stefano	Stefano	PROPN	SP	_	17	conj	_	_
+57	Accorsi	accorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	56	acl	_	_
+58	per	per	ADP	E	_	60	case	_	_
+59	"	"	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+60	Veloce	veloce	PROPN	SP	_	57	obl	_	_
+61	come	come	ADP	E	_	63	case	_	_
+62	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	vento	vento	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+64	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+65	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 12
+# text = Migliore attore non protanista Valerio Mastrandea per il film Fiore;
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	protanista	protanista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Valerio	Valerio	PROPN	SP	_	4	obj	_	_
+6	Mastrandea	Mastrandea	PROPN	SP	_	5	flat:name	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	4	obl	_	_
+10	Fiore	Fiore	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 13
+# text = Massimiliano Rossi per il film Indivisibili;
+1	Massimiliano	Massimiliano	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	Indivisibili	Indivisibili	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ennio Fantastichini per il film La stoffa dei sogni;
+1	Ennio	Ennio	PROPN	SP	_	0	root	_	_
+2	Fantastichini	Fantastichini	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	La	La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = Pierfrancesco Favino per Le confessioni;
+1	Pierfrancesco	Pierfrancesco	PROPN	SP	_	0	root	_	_
+2	Favino	Favino	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 16
+# text = Roberto De Francesco per il film Le ultime cose.
+1	Roberto	Roberto	PROPN	SP	_	0	root	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Francesco	Francesco	PROPN	SP	_	1	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+7	Le	Le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	9	amod	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Migliore sceneggiatura originale Claudio Giovannesi, Filippo Gravino, Antonella Lattanzi per il film "Fiore";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	sceneggiatura	sceneggiatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	originale	originale	ADJ	A	Number=Sing	2	amod	_	_
+4	Claudio	Claudio	PROPN	SP	_	2	nsubj	_	_
+5	Giovannesi	Giovannesi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Filippo	Filippo	PROPN	SP	_	4	conj	_	_
+8	Gravino	Gravino	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	Antonella	Antonella	PROPN	SP	_	4	appos	_	_
+11	Lattanzi	Lattanzi	PROPN	SP	_	10	flat:name	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Fiore	Fiore	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 18
+# text = Michele Astori, Pierfrancesco Dilibero, Marco Martani per "In guerra per amore";
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Astori	Astore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Pierfrancesco	Pierfrancesco	PROPN	SP	_	1	conj	_	_
+5	Dilibero	Dilibero	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	Marco	Marco	PROPN	SP	_	1	appos	_	_
+8	Martani	Martani	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	In	in	ADP	E	_	12	case	_	_
+12	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 19
+# text = Nicola Guaglianone, Barbara Petronio, Edoardo De Angelis per il film "Indivisibili";
+1	Nicola	Nicola	PROPN	SP	_	0	root	_	_
+2	Guaglianone	Guaglianone	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Barbara	Barbara	PROPN	SP	_	1	conj	_	_
+5	Petronio	Petronio	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Edoardo	Edoardo	PROPN	SP	_	1	conj	_	_
+8	De	De	PROPN	SP	_	7	flat:name	_	_
+9	Angelis	Angelis	PROPN	SP	_	7	flat:name	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	film	film	NOUN	S	Gender=Masc	7	nmod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Indivisibili	Indivisibili	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 20
+# text = Francesca Archibugi, Paolo Virzì per il film "La pazza gioia";
+1	Francesca	Francesca	PROPN	SP	_	0	root	_	_
+2	Archibugi	Archibugi	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Paolo	Paolo	PROPN	SP	_	1	appos	_	_
+5	Virzì	Virzì	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 21
+# text = Roberto Andò, Angelo Pasquini per "Le confessioni";
+1	Roberto	Roberto	PROPN	SP	_	0	root	_	_
+2	Andò	andò	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Angelo	Angelo	PROPN	SP	_	1	appos	_	_
+5	Pasquini	Pasquini	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 22
+# text = Filippo Gravino, Francesca Manieri, Matteo Rovere per la pellicola "Veloce come il vento".
+1	Filippo	Filippo	PROPN	SP	_	0	root	_	_
+2	Gravino	Gravino	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Francesca	Francesca	PROPN	SP	_	1	conj	_	_
+5	Manieri	Manieri	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Matteo	Matteo	PROPN	SP	_	1	conj	_	_
+8	Rovere	Rovere	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Veloce	veloce	PROPN	SP	_	11	nmod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	vento	vento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Migliore sceneggiatura adattata Per la migliore sceneggiatura adattata:
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	sceneggiatura	sceneggiatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	adattata	adattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	Per	per	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	_
+7	sceneggiatura	sceneggiatura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	adattata	adattato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = Fiorella Infascelli, Antonio Leotti per il film "Era d'estate";
+1	Fiorella	Fiorella	PROPN	SP	_	10	obl	_	_
+2	Infascelli	Infascelli	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Antonio	Antonio	PROPN	SP	_	10	nsubj	_	_
+5	Leotti	Leotti	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	10	obl	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	estate	estate	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 25
+# text = Edoardo Albinati, Marco Bellocchio, Valia Santella per "Fai bei sogni";
+1	Edoardo	Edoardo	PROPN	SP	_	0	root	_	_
+2	Albinati	Albinato	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Marco	Marco	PROPN	SP	_	1	conj	_	_
+5	Bellocchio	Bellocchio	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Valia	Valia	PROPN	SP	_	1	conj	_	_
+8	Santella	Santella	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Fai	Fai	PROPN	SP	_	7	nmod	_	_
+12	bei	bello	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = Gianfranco Cabiddu, Ugo Chiti, Salvatore De Mola per "La stoffa dei sogni";
+1	Gianfranco	Gianfranco	PROPN	SP	_	0	root	_	_
+2	Cabiddu	Cabiddu	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Ugo	Ugo	PROPN	SP	_	1	conj	_	_
+5	Chiti	Chito	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Salvatore	Salvatore	PROPN	SP	_	1	conj	_	_
+8	De	De	PROPN	SP	_	7	flat:name	_	_
+9	Mola	Mola	PROPN	SP	_	7	flat:name	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 27
+# text = Francesco Patierno per il film "Naples '44";
+1	Francesco	Francesco	PROPN	SP	_	0	root	_	_
+2	Patierno	Patierno	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Naples	Naples	PROPN	SP	_	5	nmod	_	_
+8	'44	'44	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 28
+# text = Francesca Marciano, Valia Santella, Stefano Mordini per "Pericle il nero"; infine Massimo Gaudioso per la pellicola "Un paese quasi perfetto".
+1	Francesca	Francesca	PROPN	SP	_	17	nmod	_	_
+2	Marciano	Marciano	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Valia	Valia	PROPN	SP	_	1	conj	_	_
+5	Santella	Santella	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Stefano	Stefano	PROPN	SP	_	1	conj	_	_
+8	Mordini	Mordini	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Pericle	Pericle	PROPN	SP	_	7	nmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nero	nero	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+16	infine	infine	ADV	B	_	17	advmod	_	_
+17	Massimo	Massimo	PROPN	SP	_	0	root	_	_
+18	Gaudioso	Gaudioso	PROPN	SP	_	17	flat:name	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+22	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 29
+# text = Miglior produttore
+1	Miglior	miglior	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 30
+# text = La statuetta per il migliore produttore se la contenderanno:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	statuetta	statuetta	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+6	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	contenderanno	contenderanno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 31
+# text = Cristiano Bortone, Bart Van Langendonck, Peter Bouckaert, Gong Ming Cai, Natacha Devillers per il film "Caffè";
+1	Cristiano	cristiano	PROPN	SP	_	0	root	_	_
+2	Bortone	Bortone	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Bart	Bart	PROPN	SP	_	1	conj	_	_
+5	Van	Van	PROPN	SP	_	4	flat:name	_	_
+6	Langendonck	Langendonck	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Peter	Peter	PROPN	SP	_	1	conj	_	_
+9	Bouckaert	Bouckaert	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Gong	Gong	PROPN	SP	_	1	conj	_	_
+12	Ming	Ming	PROPN	SP	_	11	flat:name	_	_
+13	Cai	Cai	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Natacha	Natacha	PROPN	SP	_	1	conj	_	_
+16	Devillers	Devillers	PROPN	SP	_	15	flat:name	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Caffè	caffé	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 32
+# text = Pupkin Production e IBC Movie con Rai Cinema per il film "Fiore";
+1	Pupkin	Pupkino	PROPN	SP	_	0	root	_	_
+2	Production	Production	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	IBC	IBC	PROPN	SP	_	1	conj	_	_
+5	Movie	Movie	PROPN	SP	_	4	flat:name	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Rai	Rai	PROPN	SP	_	1	nmod	_	_
+8	Cinema	cinema	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Fiore	Fiore	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 33
+# text = Attilio De Razza, Pierpaolo Verga per il film "Indivisibili";
+1	Attilio	Attilio	PROPN	SP	_	0	root	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Razza	razza	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Pierpaolo	Pierpaolo	PROPN	SP	_	1	appos	_	_
+6	Verga	Vergare	PROPN	SP	_	5	flat:name	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Indivisibili	Indivisibili	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 34
+# text = Marco Belardi per "Lotus";
+1	Marco	Marco	PROPN	SP	_	0	root	_	_
+2	Belardi	Belardi	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Lotus	Lotus	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 35
+# text = Production (una società di Leone Film Group) - in coll. con Rai Cinema.
+1	Production	Production	NOUN	S	_	0	root	_	_
+2	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	società	società	NOUN	S	Gender=Fem	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Leone	Leone	PROPN	SP	_	4	nmod	_	_
+7	Film	Film	PROPN	SP	_	6	flat:name	_	_
+8	Group	Group	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	4	punct	_	_
+10	-	-	PUNCT	FF	_	4	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	coll.	coll.	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Rai	Rai	PROPN	SP	_	12	nmod	_	_
+15	Cinema	cinema	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = per "La pazza gioia";
+1	per	per	ADP	E	_	4	case	_	_
+2	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+3	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 37
+# text = Angelo Barbagallo per Bibi Film con Rai Cinema per il film "Le confessioni".
+1	Angelo	Angelo	PROPN	SP	_	0	root	_	_
+2	Barbagallo	Barbagallo	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Bibi	Bibi	PROPN	SP	_	1	nmod	_	_
+5	Film	Film	PROPN	SP	_	4	flat:name	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Rai	Rai	PROPN	SP	_	1	nmod	_	_
+8	Cinema	cinema	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+12	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 38
+# text = Domenico Procacci con Rai Cinema per il film "Veloce come il vento".
+1	Domenico	Domenico	PROPN	SP	_	0	root	_	_
+2	Procacci	Procacci	PROPN	SP	_	1	flat:name	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	Rai	Rai	PROPN	SP	_	1	nmod	_	_
+5	Cinema	cinema	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Veloce	veloce	PROPN	SP	_	8	nmod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vento	vento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = Migliore attrice protagonista Daphne Scoccia per "Fiore", Angela e Marianna Fontana per "Indivisibili", Valeria Bruni Tedeschi per "La pazza gioia", Micaela Ramazzotti per "La pazza gioia", Matilda De Angelis per "Veloce come il vento".
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	protagonista	protagonista	NOUN	S	Number=Sing	2	nmod	_	_
+4	Daphne	Daphne	PROPN	SP	_	3	nmod	_	_
+5	Scoccia	Scoccia	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Fiore	Fiore	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Angela	Angela	PROPN	SP	_	8	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Marianna	Marianna	PROPN	SP	_	8	conj	_	_
+14	Fontana	fontana	PROPN	SP	_	13	flat:name	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Indivisibili	Indivisibili	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	Valeria	Valeria	PROPN	SP	_	2	nmod	_	_
+21	Bruni	Bruni	PROPN	SP	_	20	flat:name	_	_
+22	Tedeschi	Tedeschi	PROPN	SP	_	20	flat:name	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+27	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	2	punct	_	_
+30	Micaela	Micaela	PROPN	SP	_	2	conj	_	_
+31	Ramazzotti	Ramazzotti	PROPN	SP	_	30	flat:name	_	_
+32	per	per	ADP	E	_	35	case	_	_
+33	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+34	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+36	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	Matilda	Matilda	PROPN	SP	_	2	conj	_	_
+40	De	De	PROPN	SP	_	39	flat:name	_	_
+41	Angelis	Angelis	PROPN	SP	_	40	flat:name	_	_
+42	per	per	ADP	E	_	44	case	_	_
+43	"	"	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	Veloce	veloce	PROPN	SP	_	39	nmod	_	_
+45	come	come	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	vento	vento	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Migliore attrice non protagonista Migliore attrice non protagonista:
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	protagonista	protagonista	ADJ	A	Number=Sing	2	amod	_	_
+5	Migliore	migliore	PROPN	SP	_	2	nmod	_	_
+6	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	protagonista	protagonista	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 41
+# text = Antonia Truppo per il film "Indivisibili";
+1	Antonia	Antonia	PROPN	SP	_	0	root	_	_
+2	Truppo	Truppo	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Indivisibili	Indivisibili	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 42
+# text = Valentina Carnelutti per il film "La pazza gioia";
+1	Valentina	Valentina	PROPN	SP	_	0	root	_	_
+2	Carnelutti	Carnelutti	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 43
+# text = Valeria Golino per "La vita possibile";
+1	Valeria	Valeria	PROPN	SP	_	0	root	_	_
+2	Golino	Golino	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	possibile	possibile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 44
+# text = Michela Cescon per il film "Piuma";
+1	Michela	Michela	PROPN	SP	_	0	root	_	_
+2	Cescon	Cescon	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Piuma	piuma	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 45
+# text = Roberta Mattei per il film "Veloce come il vento".
+1	Roberta	Roberta	PROPN	SP	_	0	root	_	_
+2	Mattei	Mattei	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Veloce	veloce	PROPN	SP	_	5	nmod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 46
+# text = Migliore autore della fotografia Daniele Ciprì per il film "Fai bei sogni";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	autore	autore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	Daniele	Daniele	PROPN	SP	_	5	nmod	_	_
+7	Ciprì	Ciprì	PROPN	SP	_	6	flat:name	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Fai	Fai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	acl	_	_
+13	bei	bello	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 47
+# text = Ferran Paredes Rubio per il film "Indivisibili";
+1	Ferran	Ferran	PROPN	SP	_	0	root	_	_
+2	Paredes	Paredes	PROPN	SP	_	1	flat:name	_	_
+3	Rubio	Rubio	PROPN	SP	_	1	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Indivisibili	Indivisibili	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 48
+# text = Vladan Radovic per "La pazza gioia";
+1	Vladan	Vladan	PROPN	SP	_	0	root	_	_
+2	Radovic	Radovic	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 49
+# text = Maurizio Calvesi per la pellicola "Le confessioni";
+1	Maurizio	Maurizio	PROPN	SP	_	0	root	_	_
+2	Calvesi	Calvese	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 50
+# text = Michele D'Attanasio per il film "Veloce come il vento".
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	D'	D'	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	Attanasio	Attanasio	PROPN	SP	_	1	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Veloce	veloce	PROPN	SP	_	6	nmod	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vento	vento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 51
+# text = Migliore musicista Carlo Crivelli per il film "Fai bei sogni";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	musicista	musicista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Carlo	Carlo	PROPN	SP	_	2	nmod	_	_
+4	Crivelli	Crivelli	PROPN	SP	_	3	flat:name	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Fai	Fai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl	_	_
+10	bei	bello	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 52
+# text = Enzo Avitabile per il film "Indivisibili";
+1	Enzo	Enzo	PROPN	SP	_	0	root	_	_
+2	Avitabile	Avitabile	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Indivisibili	Indivisibili	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 53
+# text = Carlo Virzì per il film "La pazza gioia";
+1	Carlo	Carlo	PROPN	SP	_	0	root	_	_
+2	Virzì	Virzì	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 54
+# text = Franco Piersanti per il film "La stoffa dei sogni";
+1	Franco	franco	PROPN	SP	_	0	root	_	_
+2	Piersanti	Piersante	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 55
+# text = Andrea Farri per il film "Veloce come il vento".
+1	Andrea	Andrea	PROPN	SP	_	0	root	_	_
+2	Farri	Farri	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Veloce	veloce	PROPN	SP	_	5	nmod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 56
+# text = Migliore canzone originale I Can See The Stars, musica e testi di Fabrizio Campanelli, interpretata da Leonardo Cecchi, Eleonora Gaggero, Beatrice Vendramin per il film "Come diventare grandi nonostante i genitori";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	originale	originale	ADJ	A	Number=Sing	2	amod	_	_
+4	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Can	Can	PROPN	SP	_	2	nmod	_	_
+6	See	See	PROPN	SP	_	5	flat:name	_	_
+7	The	The	PROPN	SP	_	5	flat:name	_	_
+8	Stars	Stars	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	musica	musica	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	testi	testo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Fabrizio	Fabrizio	PROPN	SP	_	12	nmod	_	_
+15	Campanelli	Campanelli	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	Leonardo	Leonardo	PROPN	SP	_	17	obl:agent	_	_
+20	Cecchi	Cecchi	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	Eleonora	Eleonora	PROPN	SP	_	19	conj	_	_
+23	Gaggero	Gaggero	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	Beatrice	Beatore	PROPN	SP	_	19	conj	_	_
+26	Vendramin	Vendramin	PROPN	SP	_	25	flat:name	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	film	film	NOUN	S	Gender=Masc	25	nmod	_	_
+30	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	Come	come	ADP	E	_	32	mark	_	_
+32	diventare	diventare	VERB	V	VerbForm=Inf	29	acl	_	_
+33	grandi	grande	ADJ	A	Number=Plur	32	xcomp	_	_
+34	nonostante	nonostante	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 57
+# text = Abbi pietà di noi, musica, testi di Enzo Avitabile, interpretata da Enzo Avitabile, Angela e Marianna Fonana per il film "Indivisibili";
+1	Abbi	Abbo	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	pietà	pietà	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	testi	testo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Enzo	Enzo	PROPN	SP	_	8	nmod	_	_
+11	Avitabile	Avitabile	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Enzo	Enzo	PROPN	SP	_	13	obl:agent	_	_
+16	Avitabile	Avitabile	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	Angela	Angela	PROPN	SP	_	15	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Marianna	Marianna	PROPN	SP	_	15	conj	_	_
+21	Fonana	Fonana	PROPN	SP	_	20	flat:name	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	film	film	NOUN	S	Gender=Masc	13	obl	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	Indivisibili	Indivisibili	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 58
+# text = L'estate addosso, musica di Lorenzo Cherubini in arte Jovanotti, Christian Rigano e Riccardo Onori, testi di L. Cherubini e Vasco Brondi, interpretata da Lorenzo Cherubini per il film "L'estate addosso";
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	addosso	addosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Lorenzo	Lorenzo	PROPN	SP	_	5	nmod	_	_
+8	Cherubini	Cherubini	PROPN	SP	_	7	flat:name	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	arte	arte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+11	Jovanotti	Jovanotti	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Christian	Christian	PROPN	SP	_	11	conj	_	_
+14	Rigano	Rigare	PROPN	SP	_	13	flat:name	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Riccardo	Riccardo	PROPN	SP	_	11	conj	_	_
+17	Onori	Onori	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	testi	testo	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	L.	lira	NOUN	S	Gender=Fem	19	nmod	_	_
+22	Cherubini	Cherubini	PROPN	SP	_	21	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Vasco	Vasco	PROPN	SP	_	22	conj	_	_
+25	Brondi	Brondi	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	Lorenzo	Lorenzo	PROPN	SP	_	27	obl:agent	_	_
+30	Cherubini	Cherubini	PROPN	SP	_	29	flat:name	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	film	film	NOUN	S	Gender=Masc	27	obl	_	_
+34	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+35	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	estate	estate	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	addosso	addosso	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+39	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 59
+# text = PO POPPOROPPÒ, musica e testi di Carlo Virzì interpretata dai pazienti di Villa Biondi per il film "La pazza gioia";
+1	PO	PO	PROPN	SP	_	0	root	_	_
+2	POPPOROPPÒ	Popporoppò	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	testi	testo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Carlo	Carlo	PROPN	SP	_	6	nmod	_	_
+9	Virzì	Virzì	PROPN	SP	_	8	flat:name	_	_
+10	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+11-12	dai	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	pazienti	paziente	NOUN	S	Number=Plur	10	obl:agent	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Villa	Villa	PROPN	SP	_	13	nmod	_	_
+16	Biondi	Biondi	PROPN	SP	_	15	flat:name	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+20	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 60
+# text = Seventeen, musica di Andrea Farri, testi di Lara Martelli, interpretata da Matilda De Angelis per il film "Veloce come il vento".
+1	Seventeen	Seventeen	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	musica	musica	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Andrea	Andrea	PROPN	SP	_	3	nmod	_	_
+6	Farri	Farri	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	testi	testo	NOUN	S	Gender=Masc|Number=Plur	5	appos	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Lara	Lara	PROPN	SP	_	8	nmod	_	_
+11	Martelli	Martelli	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Matilda	Matilda	PROPN	SP	_	13	obl:agent	_	_
+16	De	De	PROPN	SP	_	15	flat:name	_	_
+17	Angelis	Angelis	PROPN	SP	_	15	flat:name	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	film	film	NOUN	S	Gender=Masc	13	obl	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Veloce	veloce	PROPN	SP	_	20	nmod	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vento	vento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 61
+# text = Migliore scenografo Marcello Di Carlo per il film "In guerra per amore";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	scenografo	scenografo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Marcello	Marcello	PROPN	SP	_	2	nmod	_	_
+4	Di	Di	PROPN	SP	_	3	flat:name	_	_
+5	Carlo	Carlo	PROPN	SP	_	3	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	In	in	ADP	E	_	11	case	_	_
+11	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 62
+# text = Carmine Guarino per il film "Indivisibili";
+1	Carmine	Carmine	PROPN	SP	_	0	root	_	_
+2	Guarino	Guarino	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Indivisibili	Indivisibili	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 63
+# text = Marco Dentici per "Fai bei sogni";
+1	Marco	Marco	PROPN	SP	_	0	root	_	_
+2	Dentici	Dentici	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Fai	Fai	PROPN	SP	_	1	nmod	_	_
+6	bei	bello	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 64
+# text = Tonino Zera per il film "La pazza gioia";
+1	Tonino	Tonino	PROPN	SP	_	0	root	_	_
+2	Zera	Zera	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 65
+# text = Livia Borgognoni per "La stoffa dei sogni".
+1	Livia	Livia	PROPN	SP	_	0	root	_	_
+2	Borgognoni	Borgognoni	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 66
+# text = Migliore costumista Cristiana Ricceri per il film "In guerra per amore";
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	costumista	costumista	NOUN	S	Number=Sing	0	root	_	_
+3	Cristiana	cristiana	PROPN	SP	_	2	nmod	_	_
+4	Ricceri	Ricceri	PROPN	SP	_	3	flat:name	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+8	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	In	in	ADP	E	_	10	case	_	_
+10	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 67
+# text = Massimo Cantini Parrini per il film "Indivisibili";
+1	Massimo	Massimo	PROPN	SP	_	0	root	_	_
+2	Cantini	Cantini	PROPN	SP	_	1	flat:name	_	_
+3	Parrini	Parrini	PROPN	SP	_	1	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Indivisibili	Indivisibili	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 68
+# text = Catia Dottori per il film "La pazza gioia";
+1	Catia	Catiare	PROPN	SP	_	0	root	_	_
+2	Dottori	dottore	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 69
+# text = Beatrice Giannini, Elisabetta Antico per il film "La stoffa dei sogni";
+1	Beatrice	Beatore	PROPN	SP	_	0	root	_	_
+2	Giannini	Giannini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Elisabetta	Elisabetta	PROPN	SP	_	1	appos	_	_
+5	Antico	antico	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 70
+# text = Cristina Laparola per il film "Veloce come il vento".
+1	Cristina	Cristina	PROPN	SP	_	0	root	_	_
+2	Laparola	Laparola	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Veloce	veloce	PROPN	SP	_	5	nmod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 71
+# text = Migliore truccatore Gino Tamagnini per il film Fai bei sogni, Maurizio FazziniZZINI per il film:
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	truccatore	truccatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Gino	Gino	PROPN	SP	_	2	nmod	_	_
+4	Tamagnini	Tamagnini	PROPN	SP	_	3	flat:name	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	film	film	NOUN	S	Gender=Masc	2	nmod	_	_
+8	Fai	fare	ADV	B	_	9	advmod	_	_
+9	bei	bello	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+10	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	Maurizio	Maurizio	PROPN	SP	_	10	nmod	_	_
+13	FazziniZZINI	FazziniZZINI	PROPN	SP	_	12	flat:name	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	film	film	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 72
+# text = In guerra per amore Valentina IANNUCCILLI per il film:
+1	In	in	ADP	E	_	2	case	_	_
+2	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	Valentina	Valentina	PROPN	SP	_	4	nmod	_	_
+6	IANNUCCILLI	IANNUCCILLI	PROPN	SP	_	5	flat:name	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 73
+# text = Indivisibili Esmè SCIARONI per il film:
+1	Indivisibili	Indivisibile	ADJ	A	Number=Plur	2	amod	_	_
+2	Esmè	Esmè	PROPN	SP	_	0	root	_	_
+3	SCIARONI	SCIARONI	PROPN	SP	_	2	flat:name	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 74
+# text = La pazza gioia Silvia BELTRANI per il film:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gioia	gioia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Silvia	Silvia	PROPN	SP	_	3	obj	_	_
+5	BELTRANI	BELTRANI	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	film	film	NOUN	S	Gender=Masc	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 75
+# text = La stoffa dei sogni Luca MAZZOCCOLI per il film:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	Luca	Luca	PROPN	SP	_	5	nmod	_	_
+7	MAZZOCCOLI	MAZZOCCOLI	PROPN	SP	_	6	flat:name	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	film	film	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 76
+# text = Veloce come il vento Migliore montatore Consuelo Catucci per il film "7 minuti";
+1	Veloce	veloce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vento	vento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	Migliore	migliore	PROPN	SP	_	4	nmod	_	_
+6	montatore	montatore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+7	Consuelo	Consuelo	PROPN	SP	_	6	nmod	_	_
+8	Catucci	Catucci	PROPN	SP	_	7	flat:name	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	film	film	NOUN	S	Gender=Masc	1	obl	_	_
+12	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	7	7	NUM	N	NumType=Card	14	nummod	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 77
+# text = Chiara Grizotti per il film "Indivisibili";
+1	Chiara	Chiarare	PROPN	SP	_	0	root	_	_
+2	Grizotti	Grizotti	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Indivisibili	Indivisibili	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 78
+# text = Cecilia Zanuso per il film "La pazza gioia";
+1	Cecilia	Cecilia	PROPN	SP	_	0	root	_	_
+2	Zanuso	Zanuso	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 79
+# text = Alessio Doglione per il film "La stoffa dei sogni";
+1	Alessio	Alessio	PROPN	SP	_	0	root	_	_
+2	Doglione	Doglione	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 80
+# text = Gianni Vezzosi per il film "Veloce come il vento".
+1	Gianni	Gianni	PROPN	SP	_	0	root	_	_
+2	Vezzosi	Vezzoso	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Veloce	veloce	PROPN	SP	_	5	nmod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 81
+# text = David Giovani "7 minuti" di Michele Placido;
+1	David	David	PROPN	SP	_	0	root	_	_
+2	Giovani	giovani	PROPN	SP	_	1	flat:name	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	7	7	NUM	N	NumType=Card	5	nummod	_	_
+5	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Michele	Michele	PROPN	SP	_	5	nmod	_	_
+9	Placido	Placido	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 82
+# text = "In guerra per amore" di Pierfrancesco Diliberto;
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Pierfrancesco	Pierfrancesco	PROPN	SP	_	3	nmod	_	_
+9	Diliberto	Diliberto	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 83
+# text = "L'estate addosso" di Gabriele Muccino;
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	estate	estate	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	addosso	addosso	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Gabriele	Gabriele	PROPN	SP	_	3	nmod	_	_
+8	Muccino	Muccino	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 84
+# text = "La pazza gioia" di Paolo Virzì;
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	gioia	gioia	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Paolo	Paolo	PROPN	SP	_	3	nmod	_	_
+8	Virzì	Virzì	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 85
+# text = "Piuma" di Roan Johnson.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Piuma	piuma	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Roan	Roan	PROPN	SP	_	2	nmod	_	_
+6	Johnson	Johnson	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

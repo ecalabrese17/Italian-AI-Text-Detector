@@ -1,0 +1,366 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 24 anni fa, furono i fucili, le pistole e le bombe di Timothy McVeigh a seminare morte e distruzione a Oklahoma City.
+1	24	24	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fucili	fucile	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	pistole	pistola	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	bombe	bomba	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Timothy	Timothy	PROPN	SP	_	13	nmod	_	_
+16	McVeigh	McVeigh	PROPN	SP	_	15	flat:name	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	seminare	seminare	VERB	V	VerbForm=Inf	13	acl	_	_
+19	morte	morto	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	distruzione	distruzione	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Oklahoma	Oklahoma	PROPN	SP	_	18	obl	_	_
+24	City	City	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Oggi, un'altra lobby sta tentando di utilizzare l'ingiusta morte di 17 scolaretti nel terrore della Florida, ma questa volta con una trovata ben più subdola:
+1	Oggi	oggi	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	lobby	lobby	NOUN	S	Gender=Fem	7	nsubj	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tentando	tentare	VERB	V	VerbForm=Ger	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	utilizzare	utilizzare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	ingiusta	ingiusto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	17	17	NUM	N	NumType=Card	15	nummod	_	_
+15	scolaretti	scolaretto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Florida	Florida	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	trovata	trovata	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	ben	bene	ADV	B	_	31	advmod	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	subdola	subdolo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = vietare le armi agli esponenti dello zoccolo duro dell'Nra, la lobby dei fabbricanti di armi.
+1	vietare	vietare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	armi	arma	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4-5	agli	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	zoccolo	zoccolo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	duro	duro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Nra	Nra	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	lobby	lobby	NOUN	S	Gender=Fem	1	conj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	fabbricanti	fabbricante	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	armi	arma	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sembrerebbe una valle di lacrime biblica, eppure...può esserlo davvero?
+1	Sembrerebbe	Sembrare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	valle	valle	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	biblica	biblico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	eppure...può	eppure...potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9-10	esserlo	_	_	_	_	_	_	_	_
+9	esser	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj	_	_
+11	davvero	davvero	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Per far ciò, ci vorrebbe un membro della studentesca commissione di Everglade (che secondo il leader adolescente X González è anche penetrato nel fortino), uno di quelli che ha denunciato la lobby in toni assai solenni, il quale parli a nome dell'intera classe.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	far	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	membro	membro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	studentesca	studentesca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	11	compound	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Everglade	Everglade	PROPN	SP	_	11	nmod	_	_
+15	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+16	che	che	PRON	PR	PronType=Rel	25	nsubj:pass	_	_
+17	secondo	secondo	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	leader	leader	NOUN	S	_	25	obl	_	_
+20	adolescente	adolescente	NOUN	S	Number=Sing	19	compound	_	_
+21	X	X	PROPN	SP	_	19	nmod	_	_
+22	González	González	PROPN	SP	_	21	flat:name	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+24	anche	anche	ADV	B	_	25	advmod	_	_
+25	penetrato	penetrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	fortino	fortino	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	8	punct	_	_
+31	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	appos	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	31	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	lobby	lobby	NOUN	S	Gender=Fem	36	obj	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	toni	tono	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
+41	assai	assai	ADV	B	_	42	advmod	_	_
+42	solenni	solenne	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	38	punct	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	quale	quale	PRON	PR	Number=Sing|PronType=Rel	38	nmod	_	_
+46-47	parli	_	_	_	_	_	_	_	_
+46	par	parre	VERB	V	VerbForm=Inf	45	advcl	_	_
+47	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	obj	_	_
+48	a	a	ADP	E	_	49	case	_	_
+49	nome	nome	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50-51	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+50	di	di	ADP	E	_	53	case	_	_
+51	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+52	intera	intero	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
+53	classe	classe	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Sarebbe una mossa nefasta e pericolosa, che getterebbe benzina sul fuoco di un dibattito che ormai è divampato.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	nefasta	nefasto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	pericolosa	pericoloso	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	getterebbe	gettere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	ormai	ormai	ADV	B	_	20	advmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	divampato	divampare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = A questo punto, quei sopravvissuti non possono quindi permettersi di rispondere ad un simile troll per di più di potersi difendere.
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	sopravvissuti	sopravvissuto	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	quindi	quindi	ADV	B	_	10	advmod	_	_
+10-11	permettersi	_	_	_	_	_	_	_	_
+10	permetter	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	rispondere	rispondere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	ad	a	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	simile	simile	ADJ	A	Number=Sing	17	amod	_	_
+17	troll	troll	NOUN	S	Gender=Masc	13	obl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	più	più	ADV	B	_	24	advmod	_	_
+21	di	di	ADP	E	_	24	mark	_	_
+22-23	potersi	_	_	_	_	_	_	_	_
+22	poter	potere	AUX	VM	VerbForm=Inf	24	aux	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	difendere	difendere	VERB	V	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Tuttavia, questa scelta scorretta comportamentale da parte di un possibile nemico rende la differenza tra mistificazione idealista e mistificazione idealizzata:
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	scorretta	scorretto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	comportamentale	comportamentale	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	possibile	possibile	ADJ	A	Number=Sing	12	amod	_	_
+12	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	tra	tra	ADP	E	_	17	case	_	_
+17	mistificazione	mistificazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	idealista	idealista	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	mistificazione	mistificazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+21	idealizzata	idealizzato	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = forse nel tempo si dovrà pur contribuire a diffondere un po' di verità, perché le armi non sono la causa di tutti i mali, anzi, possono dare un aiuto concreto laddove inizia una vera tirannia.
+1	forse	forse	ADV	B	_	8	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+6	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+7	pur	pure	ADV	B	_	8	advmod	_	_
+8	contribuire	contribuire	VERB	V	VerbForm=Inf	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	diffondere	diffondere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	po'	poco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	verità	verità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	perché	perché	SCONJ	CS	_	22	mark	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	armi	arma	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	causa	causa	NOUN	S	Gender=Fem|Number=Sing	8	advcl	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	26	det:predet	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	mali	male	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	anzi	anzi	ADV	B	_	31	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	dare	dare	VERB	V	VerbForm=Inf	22	advcl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	laddove	laddove	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	vera	vero	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+39	tirannia	tirannia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Lo disse anche uno pseudofolle suicida nella strage di Dallas, Lee Harvey Oswald:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	pseudofolle	pseudofolla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	suicida	suicida	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	strage	strage	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Dallas	Dallas	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	Lee	Lee	PROPN	SP	_	2	nsubj	_	_
+14	Harvey	Harvey	PROPN	SP	_	13	flat:name	_	_
+15	Oswald	Oswald	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Se la gente sapesse per cosa sono state usate...".
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	9	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	sapesse	sapere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	usate...	usate.	NOUN	S	_	9	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Un conto è il fanatismo organizzato esasperato di certi estremisti, diverso è coinvolgere in questa polemica fini persone laiche, che magari hanno fatto dagli al
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fanatismo	fanatismo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+6	organizzato	organizzato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	esasperato	esasperato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	estremisti	estremista	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	5	conj	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	polemica	polemico	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+18	fini	fine	ADJ	A	Number=Plur	14	xcomp	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+20	laiche	laico	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	magari	magari	ADV	B	_	25	advmod	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+26-27	dagli	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28-29	al	_	_	_	_	_	_	_	SpacesAfter=\n
+28	a	a	ADP	E	_	25	obl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	_
+

@@ -1,0 +1,324 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un serpente innocuo, ma nel posto sbagliato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	serpente	serpente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	innocuo	innocuo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	sbagliato	sbagliato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non in campagna, ma dentro il buco di un bagno delle officine.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	dentro	dentro	ADV	B	_	8	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	buco	buco	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	officine	officina	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Un video a immortalarlo, mentre gli operai gli davano la caccia.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	immortalarlo	_	_	_	_	_	_	_	SpaceAfter=No
+4	immortalar	immortalare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	mentre	mentre	SCONJ	CS	_	11	mark	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il filmato è diventato subito virale grazie alla pubblicazione sulla pagina Facebook " Taranto è lui ".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	filmato	filmato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	subito	subito	ADV	B	_	6	advmod	_	_
+6	virale	virale	ADJ	A	Number=Sing	4	xcomp	_	_
+7	grazie	grazie	NOUN	S	_	10	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pubblicazione	pubblicazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	Facebook	Facebook	PROPN	SP	_	13	nmod	_	_
+15	"	"	PUNCT	FB	_	18	punct	_	_
+16	Taranto	Taranto	PROPN	SP	_	18	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	advcl	_	_
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Intimorita e sorpresa la prima reazione delle tute blu.
+1	Intimorita	Intimorire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	sorpresa	sorprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tute	tuta	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	blu	blu	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il serpente sembra quasi un'allegoria del disagio vissuto all'interno dello stabilimento siderurgico il cui destino continua ad essere incerto malgrado l'acquisto da parte della multinazionale Arcelor Mittal.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	serpente	serpente	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quasi	quasi	ADV	B	_	6	advmod	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	allegoria	allegoria	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+10	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	interno	interno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+17	siderurgico	siderurgico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	cui	cui	DET	DR	PronType=Rel	20	det:poss	_	_
+20	destino	destino	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+22	ad	a	ADP	E	_	24	mark	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	incerto	incrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	xcomp	_	_
+25	malgrado	malgrado	SCONJ	CS	_	27	mark	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	parte	parte	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	multinazionale	multinazionale	ADJ	A	Number=Sing	33	amod	_	_
+33	Arcelor	Arcelor	PROPN	SP	_	29	nmod	_	_
+34	Mittal	Mittal	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 7
+# text = La biscia serpeggiava come serpeggia, tra i dipendenti, la paura di perdere il lavoro viste le intenzioni dei nuovi proprietari di ridimensionare l'occupazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	biscia	biscia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	serpeggiava	serpeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	serpeggia	serpeggia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	dipendenti	dipendente	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	paura	paura	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	perdere	perdere	VERB	V	VerbForm=Inf	12	acl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	viste	vedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	ridimensionare	ridimensionare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Taranto, un serpente nel bagno dell'Ilva La scena ripresa è stata surreale, con il rettile a dimenarsi spaventato e gli operai altrettanto spaventati, pure troppo, dal suo agitarsi.
+1	Taranto	Taranto	ADV	B	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	serpente	serpente	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Ilva	Ilva	PROPN	SP	_	7	nmod	_	_
+11	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	scena	scena	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	ripresa	ripresa	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+16	surreale	surreale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rettile	rettile	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22-23	dimenarsi	_	_	_	_	_	_	_	_
+22	dimenar	dimenare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	spaventato	spaventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+28	altrettanto	altrettanto	ADV	B	_	29	advmod	_	_
+29	spaventati	spaventato	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	27	punct	_	_
+31	pure	pure	ADV	B	_	32	advmod	_	_
+32	troppo	troppo	ADV	B	_	33	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	27	punct	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37-38	agitarsi	_	_	_	_	_	_	_	SpaceAfter=No
+37	agitar	agitare	VERB	V	VerbForm=Inf	16	conj	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 9
+# text = A un certo punto l'animale, quasi in preda a convulsioni, è scivolato via dal bagno velocissimo e la tuta blu che riprendeva con il telefonino, insieme ai compagni divertiti dal finale, è fuggito in officina sentendosi inseguito, tra le risate e le urla dei protagonisti di una scena trasformatasi improvvisamente in un comico sketch dal finale incerto:
+1	A	a	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	certo	certo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	animale	animale	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	quasi	quasi	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	preda	preda	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	convulsioni	convulsione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	scivolato	scivolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	via	via	ADV	B	_	15	advmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	velocissimo	veloce	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	tuta	tuta	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+24	blu	blu	ADJ	A	_	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	riprendeva	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	telefonino	telefonino	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	15	punct	_	_
+31	insieme	insieme	ADV	B	_	34	case	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	31	fixed	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+35	divertiti	divertire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	acl	_	_
+36-37	dal	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	finale	finale	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	15	punct	_	_
+40	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	fuggito	fuggire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	officina	officina	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+44-45	sentendosi	_	_	_	_	_	_	_	_
+44	sentendo	sentire	VERB	V	VerbForm=Ger	41	advcl	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+46	inseguito	inseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	tra	tra	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	risate	risata	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	_
+51	e	e	CCONJ	CC	_	53	cc	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	urla	urlo	NOUN	S	Gender=Fem|Number=Plur	50	conj	_	_
+54-55	dei	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	53	nmod	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	scena	scena	NOUN	S	Gender=Fem|Number=Sing	56	nmod	_	_
+60-61	trasformatasi	_	_	_	_	_	_	_	_
+60	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	59	acl	_	_
+61	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	60	expl	_	_
+62	improvvisamente	improvvisamente	ADV	B	_	60	advmod	_	_
+63	in	in	ADP	E	_	66	case	_	_
+64	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+65	comico	comico	ADJ	A	Gender=Masc|Number=Sing	66	amod	_	_
+66	sketch	sketch	NOUN	S	Gender=Masc	60	obl	_	_
+67-68	dal	_	_	_	_	_	_	_	_
+67	da	da	ADP	E	_	69	case	_	_
+68	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	finale	finale	NOUN	S	Number=Sing	60	obl:agent	_	_
+70	incerto	incerto	ADJ	A	Gender=Masc|Number=Sing	69	amod	_	SpaceAfter=No
+71	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 10
+# text = non è dato sapere, infatti, che fine abbia fatto la povera biscia capitata per errore nei bagni dell'acciaieria.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	infatti	infatti	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	DET	DE	PronType=Exc	9	det	_	_
+9	fine	fine	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	povera	povero	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	biscia	biscia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	capitata	capitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	errore	errore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18-19	nei	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	bagni	bagno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	acciaieria	acciaieria	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

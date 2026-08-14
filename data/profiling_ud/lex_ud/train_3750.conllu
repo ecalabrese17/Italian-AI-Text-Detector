@@ -1,0 +1,295 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non un’illusione ottica, non un artefatto naturale, ma una complessa rete di geometrie che rompe ogni schema geologico conosciuto.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	ottica	ottico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	artefatto	artefatto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	naturale	naturale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	rete	rete	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	geometrie	geometria	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	rompe	rompo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+19	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	schema	schema	NOUN	S	Gender=Masc|Number=Sing	14	acl:relcl	_	_
+21	geologico	geologico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Le prime immagini, rubate (o meglio, diffuse con un’albanda di segreti da un whistleblower incredibilmente coraggioso - e visibilmente terrorizzato - all'interno della NASA) mostrano prospetti di una natura inattesa.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
+3	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	rubate	rubare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+6	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8	meglio	meglio	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	diffuse	diffondere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	albanda	albanda	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	segreti	segreto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	whistleblower	whistleblower	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	incredibilmente	incredibilmente	ADV	B	_	20	advmod	_	_
+20	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+21	-	-	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	visibilmente	visibilmente	ADV	B	_	24	advmod	_	_
+24	terrorizzato	terrorizzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+25	-	-	PUNCT	FB	_	24	punct	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	interno	interno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	NASA	NASA	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	24	punct	_	_
+33	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+34	prospetti	prospetto	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	natura	natura	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	inattesa	inatteso	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 3
+# text = Non si tratta di una base, o di un modulo di esplorazione, ma di un’architettura a livelli, che sembra penetrare l’atmosfera gioviana e farsi strada fino alle profondità del pianeta.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	base	base	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	o	o	CCONJ	CC	_	11	cc	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	modulo	modulo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	esplorazione	esplorazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	architettura	architettura	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+24	penetrare	penetrare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	gioviana	gioviano	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29-30	farsi	_	_	_	_	_	_	_	_
+29	far	fare	VERB	V	VerbForm=Inf	24	conj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	strada	strada	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	fino	fino	ADV	B	_	35	case	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	32	fixed	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	profondità	profondità	NOUN	S	Gender=Fem	29	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Un’infrastruttura che sfida la logica e, a detta dei geofisici coinvolti, suggerisce un’intelligenza non terrestre.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	infrastruttura	infrastruttura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	sfida	sfidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	logica	logica	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	16	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	detta	detta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	geofisici	geofisico	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	coinvolti	coinvolto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	suggerisce	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	terrestre	terrestre	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = L’analisi, ancora in corso, ha rivelato qualcosa di ancora più inquietante:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	analisi	analisi	NOUN	S	Gender=Fem	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	ancora	ancora	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	inquietante	inquietante	ADJ	A	Number=Sing	10	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 6
+# text = la struttura emette un segnale elettromagnetico in frequenze precise, quartine di numeri primi, una sorta di codice matematico.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	emette	emettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	elettromagnetico	elettromagnetico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	frequenze	frequenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+9	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	quartine	quartino	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	codice	codice	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	matematico	matematico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Un codice che, secondo gli esperti, non può essere un errore di trasmissione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	codice	codice	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	errore	errore	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Si ipotizza che sia un messaggio, deliberatamente inviato verso… noi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	ipotizza	ipotizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	deliberatamente	deliberatamente	ADV	B	_	9	advmod	_	_
+9	inviato	inviare	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	verso…	verso…	PUNCT	FF	_	9	punct	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ma chi sono “Giunone” e “Giove”?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	chi	chi	PRON	PQ	PronType=Int	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Giunone	Giunone	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Giove	Giove	PROPN	SP	_	5	conj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Le teorie, com’è prevedibile, spaziano dal soprannaturale alla fantascienza.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	com’	como	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	iobj	_	SpaceAfter=No
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	prevedibile	prevedibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	spaziano	spaziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	soprannaturale	soprannaturala	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fantascienza	fantascienza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Alcuni evocano figure mitologiche, richiamando le divinità del cielo greco, il re Giove e la dea Giunone.
+1	Alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	evocano	evocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	figure	figura	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	mitologiche	mitologico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	richiamando	richiamare	VERB	V	VerbForm=Ger	2	advcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	divinità	divinità	NOUN	S	Gender=Fem	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	greco	greco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	re	re	NOUN	S	Gender=Masc	2	obj	_	_
+16	Giove	Giove	PROPN	SP	_	15	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	dea	dea	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	Giunone	Giunone	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Un’analogia, quanto mai appropriata, vista la natura dell’inquadramento di
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	analogia	analogia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quanto	quanto	ADV	B	_	6	advmod	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	appropriata	appropriato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	natura	natura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	inquadramento	inquadramento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	13	case	_	SpacesAfter=\n
+

@@ -1,0 +1,267 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questa resistenza non nasce da vere armi, né da conflitti aperti.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	vere	vere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	armi	arma	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	né	né	CCONJ	CC	_	11	cc	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	conflitti	conflitto	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+12	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nascerebbe da una semplice scelta:
+1	Nascerebbe	Nascare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	5	amod	_	_
+5	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = vivere in modo diverso, resistere anche quando tutto sembra perso.
+1	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	resistere	resistere	VERB	V	VerbForm=Inf	1	conj	_	_
+7	anche	anche	ADV	B	_	10	advmod	_	_
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	perso	perso	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La storia di questa resistenza non è scritta nei bilanci del governo, né nei rapporti delle forze armate.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	bilanci	bilancio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	né	né	CCONJ	CC	_	19	cc	_	_
+17-18	nei	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	forze	forza	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	armate	armato	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = È scritta nei regali di solitudine, nei messaggi scambiati tra amici che non si vedono da anni, nelle biblioteche di montagna dove si leggono libri che non sono più ammessi nei paesi di frontiera.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nei	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	regali	regalo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+12	scambiati	scambiare	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	tra	tra	ADP	E	_	14	case	_	_
+14	amici	amico	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22-23	nelle	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	biblioteche	biblioteca	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	dove	dove	ADV	B	_	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	leggono	leggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+30	libri	libro	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31	che	che	PRON	PR	PronType=Rel	35	nsubj:pass	_	_
+32	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+33	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	_
+34	più	più	ADV	B	_	35	advmod	_	_
+35	ammessi	ammettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+36-37	nei	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = È nelle case di quelle persone che, senza mai mostrare il volto, si regalano la speranza quotidiana attraverso la parola, attraverso la cultura, attraverso l'educazione delle nuove generazioni.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	case	casa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	senza	senza	ADP	E	_	12	mark	_	_
+11	mai	mai	ADV	B	_	12	advmod	_	_
+12	mostrare	mostrare	VERB	V	VerbForm=Inf	17	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	volto	volto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	regalano	regalare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	attraverso	attraverso	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	parola	parola	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	attraverso	attraverso	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	attraverso	attraverso	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+35	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = In regioni come la Siberia orientale, dove il silenzio è una forma di obbedienza, le comunità si snodano in piccoli gruppi di persone che organizzano corsi di lettura di testi di autori comunisti, di scrittori dei paesi della ex Unione Sovietica, di pensatori che hanno resistito all'oppressione.
+1	In	in	ADP	E	_	2	case	_	_
+2	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Siberia	Siberia	PROPN	SP	_	20	obl	_	_
+6	orientale	orientale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	dove	dove	ADV	B	_	13	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	forma	forma	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	obbedienza	obbedienza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	comunità	comunità	NOUN	S	Gender=Fem	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	snodano	snodare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	persone	persona	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	organizzano	organizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	testi	testo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	autori	autore	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+35	comunisti	comunista	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+39-40	dei	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	ex	ex	ADJ	A	_	45	amod	_	_
+45	Unione	unione	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+46	Sovietica	sovietica	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	45	punct	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	pensatori	pensatore	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	_
+50	che	che	PRON	PR	PronType=Rel	52	nsubj	_	_
+51	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
+52	resistito	resistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	acl:relcl	_	_
+53-54	all'	_	_	_	_	_	_	_	SpaceAfter=No
+53	a	a	ADP	E	_	55	case	_	_
+54	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
+55	oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 8
+# text = Hanno ritrovato, attraverso i libri, una lingua di libertà.
+1	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	attraverso	attraverso	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	libertà	libertà	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Sono in prima fila, non solo per conoscere il mondo, ma per strappare la mente dalle misure del potere
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	fila	fila	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	conoscere	conoscere	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	strappare	strappare	VERB	V	VerbForm=Inf	9	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mente	mente	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	misure	misura	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	potere	potere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpacesAfter=\n
+

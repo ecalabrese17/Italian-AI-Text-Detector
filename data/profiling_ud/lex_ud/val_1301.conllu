@@ -1,0 +1,307 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Livio, all'epoca dodici anni, viveva con la sua famiglia in un paesino dell'Appenino emiliano.
+1	Livio	Livio	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	dodici	dodici	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	paesino	paesino	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Appenino	Appenino	PROPN	SP	_	16	nmod	_	_
+20	emiliano	emiliano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = La sua vita cambiò bruscamente quando, una notte, si trovò testimone di un drammatico inseguimento tra i partigiani e i nazi-fascisti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	cambiò	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	bruscamente	bruscamente	ADV	B	_	4	advmod	_	_
+6	quando	quando	SCONJ	CS	_	12	mark	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	testimone	testimone	NOUN	S	Number=Sing	12	obj	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	inseguimento	inseguimento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	tra	tra	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	nazi	nazio	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+24	-fascisti	-fascista	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = I partigiani, in fuga, si rifugiarono nella casa di Livio, chiedendo aiuto al bambino per scappare attraverso i tunnel sotterranei che conosciavano a memoria.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	rifugiarono	rifugiarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Livio	Livio	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	chiedendo	chiedere	VERB	V	VerbForm=Ger	8	advcl	_	_
+16	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	scappare	scappare	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	attraverso	attraverso	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	tunnel	tunnel	NOUN	S	Gender=Masc	21	obl	_	_
+25	sotterranei	sotterraneo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	conosciavano	conosciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Livio, senza esitare, li guidò attraverso i labirinti oscuri fino ad unозяйudeno sicuro.
+1	Livio	Livio	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	4	mark	_	_
+4	esitare	esitare	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	guidò	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	attraverso	attraverso	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	labirinti	labirinto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	oscuri	oscuro	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	fino	fino	ADV	B	_	14	case	_	_
+13	ad	a	ADP	E	_	12	fixed	_	_
+14	unозяйudeno	unозяйudeno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = La sua azione coraggiosa salvò la vita a molti dei partigiani, ma portarlo conseguenze tragiche per lui e la sua famiglia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	azione	azione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	coraggiosa	coraggioso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	salvò	salvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15-16	portarlo	_	_	_	_	_	_	_	_
+15	portar	portare	VERB	V	VerbForm=Inf	5	conj	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	tragiche	tragico	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = I nazi-fascisti, infatti, scoprirono il loro nascondiglio e li catturarono tutti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nazi	nazio	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	SpaceAfter=No
+3	-fascisti	-fascista	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	scoprirono	scoprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	nascondiglio	nascondiglio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	catturarono	catturare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Livio e sua madre furono imprigionati e sottoposti a torture per farli confessare dove si trovavano i partigiani.
+1	Livio	Livio	PROPN	SP	_	6	nsubj:pass	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	madre	madre	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	imprigionati	imprigionare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	sottoposti	sottoporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	farli	_	_	_	_	_	_	_	_
+12	far	fare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	confessare	confessare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+15	dove	dove	ADV	B	_	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trovavano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Tuttavia, grazie al coraggio e alla fermezza del bambino, non rivelarono mai nothing.
+1	Tuttavia	tuttavia	ADV	B	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	grazie	grazie	NOUN	S	_	6	case	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fermezza	fermezza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	rivelarono	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	mai	mai	ADV	B	_	16	advmod	_	_
+18	nothing	nothing	SYM	X	_	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 9
+# text = La storia di Livio Sandini è un esempio di come anche i bambini possono dimostrare un coraggio insolito e decisivo per la lotta contro l'oppressione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Livio	Livio	PROPN	SP	_	2	nmod	_	_
+5	Sandini	Sandini	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	15	mark	_	_
+10	come	come	SCONJ	CS	_	9	fixed	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dimostrare	dimostrare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	insolito	insolito	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+24	contro	contro	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	oppressione	oppressione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Tuttavia, è anche una storia di ingiustizia, poiché questo eroe della Resistenza è stato dimenticato per decenni, mentre altri episodi della storia italiana sono stati messi in evidenza.
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	poiché	poiché	SCONJ	CS	_	18	mark	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Resistenza	Resistenza	PROPN	SP	_	12	nmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	mentre	mentre	SCONJ	CS	_	31	mark	_	_
+23	altri	altro	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	31	nsubj:pass	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	storia	storia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	aux:pass	_	_
+31	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	evidenza	evidenza	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = E' giusto e doveroso, quindi, ricordare e celebrare la figura di Livio Sandini, un bambino che ha dato un contributo fondamentale alla lotta
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	doveroso	doveroso	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	quindi	quindi	ADV	B	_	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ricordare	ricordare	VERB	V	VerbForm=Inf	2	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	celebrare	celebrare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	figura	figura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Livio	Livio	PROPN	SP	_	12	nmod	_	_
+15	Sandini	Sandini	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	fondamentale	fondamentale	ADJ	A	Number=Sing	23	amod	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpacesAfter=\n
+

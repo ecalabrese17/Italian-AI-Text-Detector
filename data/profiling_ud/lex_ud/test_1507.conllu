@@ -1,0 +1,293 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ARCHIVIO:
+1	ARCHIVIO	archivio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = COSI' MIGLIAIA DI STUDENTI ESCLUSI Una retromarcia importante rispetto a una decisione che aveva scatenato molte proteste.
+1	COSI'	COSIo	ADP	E	_	2	case	_	_
+2	MIGLIAIA	migliaio	PROPN	SP	_	0	root	_	_
+3	DI	di	ADP	E	_	4	case	_	_
+4	STUDENTI	studente	NOUN	S	Number=Plur	2	nmod	_	_
+5	ESCLUSI	escluso	PROPN	SP	_	4	nmod	_	_
+6	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	retromarcia	retromarcia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	importante	importante	ADJ	A	Number=Sing	7	amod	_	_
+9	rispetto	rispetto	ADV	B	_	12	case	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I nuovi criteri di calcolo dell'Isee, infatti, avrebbero escluso migliaia di studenti che da un anno all'altro si sono ritrovati ad essere più ricchi pur senza aver guadagnato un centesimo di più.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Isee	Isee	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	infatti	infatti	ADV	B	_	13	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	obl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	ritrovati	ritrovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+27	ad	a	ADP	E	_	30	mark	_	_
+28	essere	essere	AUX	V	VerbForm=Inf	30	cop	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	26	xcomp	_	_
+31	pur	pure	ADV	B	_	34	advmod	_	_
+32	senza	senza	ADP	E	_	34	mark	_	_
+33	aver	avere	AUX	VA	VerbForm=Inf	34	aux	_	_
+34	guadagnato	guadagnato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	centesimo	centesimo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	più	più	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Sotto accusa era finito appunto l'Ispe, cioè l'indicatore della situazione patrimoniale.
+1	Sotto	sotto	ADP	E	_	2	case	_	_
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	appunto	appunto	ADV	B	_	4	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Ispe	Ispe	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	cioè	cioè	CCONJ	CC	_	11	cc	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	indicatore	indicatore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	patrimoniale	patrimoniale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Le case di proprietà infatti vengono ormai calcolate non più a fini Ici, ma a fini Imu e la rivalutazione è stata orizzontale.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	case	casa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	proprietà	proprietà	NOUN	S	Gender=Fem	2	nmod	_	_
+5	infatti	infatti	ADV	B	_	8	advmod	_	_
+6	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	ormai	ormai	ADV	B	_	8	advmod	_	_
+8	calcolate	calcolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	più	più	ADV	B	_	13	advmod	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	fini	fine	ADJ	A	Number=Plur	13	amod	_	_
+13	Ici	Ici	PROPN	SP	_	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	24	punct	_	_
+15	ma	ma	CCONJ	CC	_	24	cc	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	fini	fine	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+18	Imu	Imu	PROPN	SP	_	24	nsubj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rivalutazione	rivalutazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	cop	_	_
+24	orizzontale	orizzontale	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Risultato:
+1	Risultato	risultato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = chi fino a ieri era molto al di sotto della soglia di 33mila euro, limite massimo per poter concorrere all'ottenimento di una borsa di studio, in base ai nuovi criteri supera ampiamente questa soglia, facendo lievitare la condizione economica di studenti che finora erano sempre risultati "idonei".
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+2	fino	fino	ADV	B	_	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	ieri	ieri	ADV	B	_	10	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+6	molto	molto	ADV	B	_	10	advmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sotto	sotto	ADV	B	_	13	advmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	33mila	33mila	NUM	N	NumType=Card	16	nummod	_	_
+16	euro	euro	NOUN	S	Gender=Masc	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	limite	limite	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+19	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	per	per	ADP	E	_	22	mark	_	_
+21	poter	potere	AUX	VM	VerbForm=Inf	22	aux	_	_
+22	concorrere	concorrere	VERB	V	VerbForm=Inf	19	advcl	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	ottenimento	ottenimento	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	studio	studio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	base	base	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+34-35	ai	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	37	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+37	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+38	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+39	ampiamente	ampio	ADV	B	_	38	advmod	_	_
+40	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	41	det	_	_
+41	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	38	punct	_	_
+43	facendo	fare	VERB	V	VerbForm=Ger	38	advcl	_	_
+44	lievitare	lievitare	VERB	V	VerbForm=Inf	43	ccomp	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+47	economica	economico	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	46	nmod	_	_
+50	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
+51	finora	finora	ADV	B	_	54	advmod	_	_
+52	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	54	aux	_	_
+53	sempre	sempre	ADV	B	_	54	advmod	_	_
+54	risultati	risultare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	49	acl:relcl	_	_
+55	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+56	idonei	idoneo	ADJ	A	Gender=Masc|Number=Plur	54	xcomp	_	SpaceAfter=No
+57	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = "La rivisitazione delle soglie Isee e Ispe - ha aggiunto Giannini - è un tema caldo e importante.
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rivisitazione	rivisitazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	soglie	soglia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	Isee	Isee	PROPN	SP	_	6	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Ispe	Ispe	PROPN	SP	_	7	conj	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	_
+13	Giannini	Giannini	PROPN	SP	_	12	nsubj	_	_
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	importante	importante	ADJ	A	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = Sono d'accordo con quella parte degli studenti che costruttivamente dice che c'è stata una penalizzazione forte nell'applicazione di certi parametri Ispe:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	costruttivamente	costruttivamente	ADV	B	_	12	advmod	_	_
+12	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	SpaceAfter=No
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	penalizzazione	penalizzazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+19	forte	forte	ADJ	A	Number=Sing	18	amod	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	parametri	parametro	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	Ispe	Ispe	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = li abbiamo rivisitati venendo incontro alle loro richieste e facendo con il ministero del Lavoro la valutazione di quanto si recupera e di quanto si rimanga in un quadro di equità e di diagnosi di evasione fiscale".
+1	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	rivisitati	rivisitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	venendo	venire	VERB	V	VerbForm=Ger	3	advcl	_	_
+5	incontro	incontro	ADV	B	_	4	advmod	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	facendo	fare	VERB	V	VerbForm=Ger	3	conj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Lavoro	lavoro	PROPN	SP	_	14	nmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	19	nmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	recupera	recuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	23	obl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	rimanga	rimanere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	equità	equità	NOUN	S	Gender=Fem	31	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	diagnosi	diagnoso	NOUN	S	Gender=Fem	33	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	evasione	evasione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	fiscale	fiscale	ADJ	A	Number=Sing	38	amod	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

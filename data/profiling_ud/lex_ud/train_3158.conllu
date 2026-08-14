@@ -1,0 +1,372 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non solo il profumo di terra bagnata, ma un senso di opacità, di smarrimento.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	bagnata	bagnato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	opacità	opacità	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	smarrimento	smarrimento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Un’aria viscosa che avvolge le piazze, i monumenti, il cuore pulsante della città, come se qualcosa di importante, di fondamentale, stesse per essere spento.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aria	aria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	viscosa	viscoso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	avvolge	avvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	monumenti	monumento	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+14	pulsante	pulsante	ADJ	A	Number=Sing	13	amod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	città	città	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	come	come	ADV	B	_	21	advmod	_	_
+20	se	se	SCONJ	CS	_	21	mark	_	_
+21	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	2	advcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	importante	importante	ADJ	A	Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	fondamentale	fondamentale	ADJ	A	Number=Sing	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+29	per	per	ADP	E	_	31	mark	_	_
+30	essere	essere	AUX	V	VerbForm=Inf	31	cop	_	_
+31	spento	spegnere	ADJ	A	Gender=Masc|Number=Sing	28	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non è una vaga malinconia, non è il tipico torpore romano che le giornate estive infittiscono.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vaga	vaga	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	malinconia	malinconio	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	torpore	torpore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	romano	romere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+16	estive	estivo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	infittiscono	infittire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = C'è un altro sentimento, un’angoscia più profonda, che si ciba del silenzio e della rassegnazione.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	altro	altro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	ciba	cibare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rassegnazione	rassegnazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ultimamente, per quanto Roma si sforzi di appare cipro, di proiezione di vitalità, un’ombra lunga e gelida si è insinuata tra i vicoli.
+1	Ultimamente	ultimamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	7	obl	_	_
+5	Roma	Roma	PROPN	SP	_	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	sforzi	sforzare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	appare	apparire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	cipro	cipro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	proiezione	proiezione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	vitalità	vitalità	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+19	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	gelida	gelido	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	insinuata	insinuare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	tra	tra	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	vicoli	vicolo	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 6
+# text = Parlo della riforma del fisco, certo.
+1	Parlo	parlare	PROPN	SP	_	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fisco	fisco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	certo	certo	ADV	B	_	1	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ma non la riforma tradita dai sussurri degli speculatori e dei lobi di potere, non quella che prometteva di semplificare e rendere più efficiente il sistema.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	tradita	tradire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dai	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	sussurri	sussurre	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	speculatori	speculatore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	lobi	lobio	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	potere	potere	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	prometteva	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	semplificare	semplificare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	rendere	rendere	VERB	V	VerbForm=Inf	24	conj	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	efficiente	efficiente	ADJ	A	Number=Sing	26	xcomp	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Parlo di quella che, nella pratica, si sta rivelando un’arma di distruzione di massa, un vero e proprio sibilio per le famiglie, le piccole imprese, i lavoratori, per chiunque abbia il coraggio di immaginare un futuro.
+1	Parlo	parlo	NOUN	S	Gender=Masc|Number=Sing	38	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	nmod	_	_
+4	che	che	PRON	PR	PronType=Rel	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rivelando	rivelare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	arma	arma	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	distruzione	distruzione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	massa	massa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vero	vero	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	sibilio	sibilio	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	1	punct	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	38	obl	_	_
+38	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	di	di	ADP	E	_	42	mark	_	_
+42	immaginare	immaginare	VERB	V	VerbForm=Inf	40	acl	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	38	punct	_	_
+
+# sent_id = 9
+# text = Ci dicono che è "modernizzazione", che è "digitalizzazione", che è "semplificazione".
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	modernizzazione	modernizzazione	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	digitalizzazione	digitalizzazione	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	semplificazione	semplificazione	NOUN	S	Gender=Fem|Number=Sing	12	acl:relcl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ci dicono che è un passo verso un’Europa più efficiente.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Europa	Europa	PROPN	SP	_	6	obl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	efficiente	efficiente	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ma cosa significa, in realtà?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	realtà	realtà	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Significa obbligare i cittadini a investire in software e hardware per reperire un certificato che dovrebbe essere una formalità.
+1	Significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	obbligare	obbligare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	investire	investire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	software	software	NOUN	S	Gender=Masc	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	hardware	hardware	NOUN	S	Gender=Masc	8	conj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	reperire	reperire	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	certificato	certificato	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	essere	essere	VERB	V	VerbForm=Inf	14	acl:relcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	formalità	formalità	NOUN	S	Gender=Fem	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Significa destinare ore interminabili al telefono, a navigare in siti web labirintici, a confrontarsi con burocrazia aliena e incomprensibile.
+1	Significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	destinare	destinare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+4	interminabili	interminabile	ADJ	A	Number=Plur	3	amod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	navigare	navigare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	siti	sito	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	web	web	NOUN	S	Gender=Masc	12	compound	_	_
+14	labirintici	labirintico	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	confrontarsi	_	_	_	_	_	_	_	_
+17	confrontar	confrontarre	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	aliena	alieno	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	incomprensibile	incomprensibile	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Significa, soprattutto, prelevare, senza scrupoli, risorse che potevano essere investite in sanità, istruzione, infrastrutture, nel cuore della società civile.
+1	Significa	significo	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	soprattutto	soprattutto	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	prelevare	prelevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	scrupoli	scrupolo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	risorse	risorrere	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj:pass	_	_
+12	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	14	aux:pass	_	_
+14	investite	investire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	sanità	sanità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	14	punct	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	società	società	NOUN	S	Gender=Fem	24	nmod	_	_
+28	civile	civile	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

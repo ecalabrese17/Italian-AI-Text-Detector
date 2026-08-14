@@ -1,0 +1,925 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E soprattutto, perché questo capo di carne, così caro alla cucina e alla cultura, debba essere masticato?
+1	E	e	CCONJ	CC	_	22	cc	_	_
+2	soprattutto	soprattutto	ADV	B	_	22	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perché	perché	SCONJ	CS	_	22	mark	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	carne	carne	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	caro	caro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	22	aux:pass	_	_
+22	masticato	masticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 2
+# text = È ora di rispondere a questa domanda che, seppur sembra cosmopolita, ha radici profonde nella nostra società.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	rispondere	rispondere	VERB	V	VerbForm=Inf	14	advcl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	seppur	seppure	ADV	B	_	11	advmod	_	_
+11	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	cosmopolita	cosmopolito	NOUN	S	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	radici	radice	NUM	N	NumType=Card	16	nummod	_	_
+16	profonde	profondo	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	società	società	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Una perdita di valore oppure una testimonianza di identità?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	valore	valore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	oppure	oppure	CCONJ	CC	_	7	cc	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	identità	identità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Per chiarire, abbiamo invitato due protagonisti che rappresentano due visioni in linea con le implicazioni culturali ed economiche del consumo di agnello:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	chiarire	chiarire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	visioni	visioni	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	linea	linea	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	implicazioni	implicazione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	culturali	culturale	ADJ	A	Number=Plur	16	amod	_	_
+18	ed	e	CCONJ	CC	_	19	cc	_	_
+19	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	17	conj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = Dalla Chiesa, personaggio di spicco che ha parlato spesso di diritto e dei valori consolanti del sistema giuridico nazionale, e Bracconeri, noto commentatore che si è fatto un nome parlando di politica, cultura e “diet” alimentari con la sua personalità idiosincratica.
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	spicco	spicco	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	spesso	spesso	ADV	B	_	10	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	valori	valore	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	consolanti	consolante	ADJ	A	Number=Plur	17	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22	giuridico	giuridico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	nazionale	nazionale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	Bracconeri	Bracconeri	PROPN	SP	_	3	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	noto	noto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	commentatore	commentatore	NOUN	S	Gender=Masc|Number=Sing	26	appos	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:impers	_	_
+32	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	nome	nome	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+36	parlando	parlare	VERB	V	VerbForm=Ger	33	advcl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	politica	politica	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	“	“	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+43	diet	diet	ADV	B	_	38	conj	_	SpaceAfter=No
+44	”	”	PUNCT	FB	_	43	punct	_	_
+45	alimentari	alimentare	ADJ	A	Number=Plur	43	amod	_	_
+46	con	con	ADP	E	_	49	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	personalità	personalità	NOUN	S	Gender=Fem	45	obl	_	_
+50	idiosincratica	idiosincratico	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Botta e risposta: – "Perché mangi l'agnello?" chiede l’intervistatore, affrontando direttamente Dalla Chiesa.
+1	Botta	botta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+5	–	–	PUNCT	FF	_	1	punct	_	_
+6	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+7	Perché	perché	ADV	B	_	13	advmod	_	_
+8	mangi	mangere	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	13	punct	_	_
+13	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	intervistatore	intervistatore	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	affrontando	affrontare	VERB	V	VerbForm=Ger	13	advcl	_	_
+18	direttamente	direttamente	ADV	B	_	17	advmod	_	_
+19-20	Dalla	_	_	_	_	_	_	_	_
+19	Da	Da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = Dalla Chiesa risponde:
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = “È una questione di tradizione e di storia.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = L’agnello, lunga la nostra eredità, ci ricorda la tradizione di coloro che hanno costruito il nostro paese.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	eredità	eredità	NOUN	S	Gender=Fem	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+10	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Non si può trascurare il ruolo delle festività e delle vie che il patrimonio culinario lingetta.” – “Qual è la tua opinione sul fatto che la carne sia un prodotto con proteine complete e che alimenti e popoli in modo equilibrato?” chiede l’intervistatore.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trascurare	trascurare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	festività	festività	NOUN	S	Gender=Fem	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vie	via	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+17	culinario	culinario	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	lingetta.	lingetta.	NOUN	S	_	16	compound	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	16	punct	_	_
+20	–	–	PUNCT	FB	_	16	punct	_	_
+21	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+22	Qual	Qual	PRON	PQ	Number=Sing|PronType=Int	13	acl:relcl	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	che	che	SCONJ	CS	_	35	mark	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	carne	carne	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+33	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	29	advcl	_	_
+36	con	con	ADP	E	_	37	case	_	_
+37	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	49	obl	_	_
+38	complete	completo	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+39	e	e	CCONJ	CC	_	49	cc	_	_
+40	che	che	SCONJ	CS	_	49	mark	_	_
+41	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	49	obj	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	41	conj	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	modo	modo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+46	equilibrato	equilibrato	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	?	?	PUNCT	FS	_	41	punct	_	SpaceAfter=No
+48	”	”	PUNCT	FB	_	49	punct	_	_
+49	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
+50	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
+51	intervistatore	intervistatore	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Bracconeri, rapido, osserva:
+1	Bracconeri	Bracconeri	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	osserva	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = “Le proteine sono importanti, ma sapere da dove le derivi è altrettanto cruciale.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	importanti	importante	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	5	conj	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	dove	dove	ADV	B	_	15	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	derivi	derivio	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	altrettanto	altrettanto	ADV	B	_	15	advmod	_	_
+15	cruciale	cruciale	ADJ	A	Number=Sing	8	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Il consumo eccessivo di carne può portare a un aumento del rischio di malattie, eppure l’agnello, se consumato con moderazione, offre tutti i benefici: vitamina B12, ferro, e il sapore roling unico su un piatto tipico.” – Dalla Chiesa riferisce che, nella sua esperienza, "c’è un equilibrio tra rispetto per le tradizioni culturali e la necessità di informare la popolazione sulle scelte alimentari.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	carne	carne	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	portare	portare	VERB	V	VerbForm=Inf	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	26	punct	_	_
+17	eppure	eppure	CCONJ	CC	_	26	cc	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	se	se	SCONJ	CS	_	22	mark	_	_
+22	consumato	consumare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	moderazione	moderazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+27	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	29	det:predet	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	50	nsubj	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	29	punct	_	_
+31	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	50	nsubj	_	_
+32	B12	B12	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+39	roling	roling	NOUN	S	Gender=Masc	38	compound	_	_
+40	unico	unico	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	su	su	ADP	E	_	43	case	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+44	tipico.	tipico.	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+45	”	”	PUNCT	FB	_	31	punct	_	_
+46	–	–	PUNCT	FF	_	31	punct	_	_
+47-48	Dalla	_	_	_	_	_	_	_	_
+47	Da	da	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+50	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+51	che	che	SCONJ	CS	_	60	mark	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	60	punct	_	_
+53-54	nella	_	_	_	_	_	_	_	_
+53	in	in	ADP	E	_	56	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	det:poss	_	_
+56	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	60	obl	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	56	punct	_	_
+58	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+59	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	60	expl	_	SpaceAfter=No
+60	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	ccomp	_	_
+61	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	60	nsubj	_	_
+63	tra	tra	ADP	E	_	64	case	_	_
+64	rispetto	rispetto	ADV	B	_	67	advmod	_	_
+65	per	per	ADP	E	_	67	case	_	_
+66	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
+67	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	62	nmod	_	_
+68	culturali	culturale	ADJ	A	Number=Plur	67	amod	_	_
+69	e	e	CCONJ	CC	_	71	cc	_	_
+70	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	necessità	necessità	NOUN	S	Gender=Fem	67	conj	_	_
+72	di	di	ADP	E	_	73	mark	_	_
+73	informare	informare	VERB	V	VerbForm=Inf	71	acl	_	_
+74	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
+75	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	73	obj	_	_
+76-77	sulle	_	_	_	_	_	_	_	_
+76	su	su	ADP	E	_	78	case	_	_
+77	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	78	det	_	_
+78	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	75	nmod	_	_
+79	alimentari	alimentare	ADJ	A	Number=Plur	78	amod	_	SpaceAfter=No
+80	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 14
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 15
+# text = Il suo punto di vista è molto pragmatico, ma carico di approvazione per la “natura” della carne, – volutamente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vista	vista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	pragmatico	pragmatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	carico	carico	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	natura	natura	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	21	punct	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	carne	carne	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	–	–	PUNCT	FF	_	13	punct	_	_
+24	volutamente	voluto	ADV	B	_	13	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = – Bracconeri, dal canto suo, esprime la sua visione:
+1	–	–	PUNCT	FF	_	2	punct	_	_
+2	Bracconeri	Bracconeri	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	canto	canto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	esprime	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	visione	visione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 17
+# text = “I consumatori moderni hanno molti errori da correggere.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	moderni	moderno	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	errori	errore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	correggere	correggere	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Non solo le scelte, ma la produzione.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Il nostro obiettivo è garantire la sicurezza alimentare ed essere sensibili nella produzione della carne… la produzione di agnello dovrebbe essere regolamentata per garantire che gli animali siano trattati con rispetto, guidati da principi etici di cooperazione e non solo la massima redditività.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	garantire	garantire	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	alimentare	alimentare	ADJ	A	Number=Sing	7	amod	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	11	cop	_	_
+11	sensibili	sensibile	ADJ	A	Number=Plur	5	conj	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	carne…	carne…	PUNCT	FF	_	14	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	regolamentata	regolamentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	garantire	garantire	VERB	V	VerbForm=Inf	24	advcl	_	_
+27	che	che	SCONJ	CS	_	31	mark	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	animali	animale	NOUN	S	Gender=Masc|Number=Plur	31	nsubj:pass	_	_
+30	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	ccomp	_	_
+32	con	con	ADP	E	_	33	case	_	_
+33	rispetto	rispetto	ADV	B	_	35	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	guidati	guidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	advcl	_	_
+36	da	da	ADP	E	_	37	case	_	_
+37	principi	principio	NOUN	S	Gender=Masc|Number=Plur	35	obl:agent	_	_
+38	etici	etico	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	e	e	CCONJ	CC	_	46	cc	_	_
+42	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+43	solo	solo	ADV	B	_	46	advmod	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+46	redditività	redditività	NOUN	S	Gender=Fem	37	conj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 20
+# text = ” – L’intervistatore percepisce però una differenza fondamentale.
+1	”	”	PUNCT	FB	_	5	punct	_	_
+2	–	–	PUNCT	FF	_	5	punct	_	_
+3	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intervistatore	intervistatore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	percepisce	percepiscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	però	però	ADV	B	_	5	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	fondamentale	fondamentale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Dalla Chiesa, si concentra sui valori della cultura, sulla storia ricco di alimenti “tradizionali”.
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	concentra	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	valori	valore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+17	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	tradizionali	tradizionale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Bracconeri miri a concentrare la disposizione in uscita su “pensioni prime 70 e augmenti pubblici.” – “Quali sono i benefici della carne di agnello?” domanda l’intervistore fin dal colloquio con Bracconeri.
+1	Bracconeri	Bracconeri	ADV	B	_	2	advmod	_	_
+2	miri	mirare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	concentrare	concentrare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	pensioni	pensione	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+12	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	31	amod	_	_
+13	70	70	NUM	N	NumType=Card	16	nummod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	augmenti	augmento	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	pubblici.	pubblici.	NOUN	S	_	20	nsubj	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	16	punct	_	_
+18	–	–	PUNCT	FB	_	16	punct	_	_
+19	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Quali	quale	PRON	PQ	Number=Plur|PronType=Int	31	obj	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	31	nsubj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	carne	carne	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	23	punct	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	31	punct	_	_
+31	domanda	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	intervistore	intervistore	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	fin	fino	ADP	E	_	37	case	_	_
+35-36	dal	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	34	fixed	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+38	con	con	ADP	E	_	39	case	_	_
+39	Bracconeri	Bracconeri	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 23
+# text = Bracconeri, con gli occhi sul proprio stile di vita, risponde:
+1	Bracconeri	Bracconeri	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	stile	stile	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 24
+# text = “La carne è un nutriente comune.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	carne	carne	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nutriente	nutriente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	comune	comune	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Scegli la carne di qualità con l’onore considerato vero per i nostri eredità.” – Dalla Chiesa controlla e corregge le tue credenze:
+1	Scegli	scegliere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	carne	carne	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	qualità	qualità	NOUN	S	Gender=Fem	3	nmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	onore	onore	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+9	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	eredità	eredità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+16	”	”	PUNCT	FB	_	1	punct	_	_
+17	–	–	PUNCT	FF	_	1	punct	_	_
+18-19	Dalla	_	_	_	_	_	_	_	_
+18	Da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+21	controlla	controllo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	corregge	correggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	credenze	credenza	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = “Tale matassa di proteine può aumentare la tua rete di sonno, td l’agnello.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Tale	tale	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+3	matassa	matassa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aumentare	aumentare	VERB	V	VerbForm=Inf	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	rete	rete	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	td	td	CCONJ	CC	_	16	cc	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	agnello.	agnello.	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+
+# sent_id = 27
+# text = ” – L’intervistatore agricollo “Mi scuso per la critica della carne dal punto di vista delle conversazioni.
+1	”	”	PUNCT	FB	_	4	punct	_	SpacesAfter= \s
+2	–	–	PUNCT	FF	_	4	punct	_	_
+3	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intervistatore	intervistatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	agricollo	agricollo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+8	scuso	scudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	critica	critico	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	carne	carne	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	vista	vista	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	conversazioni	conversazione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Non nota però che la nostra società è commestibile” – Sa cosa vuole fare qui.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	nota	noto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	società	società	NOUN	S	Gender=Fem	9	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	commestibile	commestibile	ADJ	A	Number=Sing	2	csubj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	–	–	PUNCT	FF	_	9	punct	_	_
+12	Sa	sapere	PROPN	SP	_	15	nsubj	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	15	obj	_	_
+14	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	qui	qui	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Bracconeri era ancora più acuto del tabellone.
+1	Bracconeri	Bracconeri	ADV	B	_	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	acuto	acuto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tabellone	tabellone	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = – ”E?
+1	–	–	PUNCT	FF	_	2	punct	_	_
+2	”	”	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	E	e	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 31
+# text = Il pubblico?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Una procedura di merchandising sul principale, l’autorizzante ecosocchi e, logicamente, il diwo misurazione dei piatti ?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procedura	procedura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	merchandising	merchandising	NOUN	S	_	2	nmod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	principale	principale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	autorizzante	autorizzante	ADJ	A	Number=Sing	11	amod	_	_
+11	ecosocchi	ecosocco	NOUN	S	Number=Sing	2	conj	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	logicamente	logicamente	ADV	B	_	17	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	diwo	diwo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+18	misurazione	misurazione	NOUN	S	Gender=Fem|Number=Sing	17	compound	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = ?” – Dalla Chiesa dice che “La regola importante si può giocare con la dieta…”
+1	?	?	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+2	”	”	PUNCT	FB	_	3	punct	_	_
+3	–	–	PUNCT	FF	_	1	punct	_	_
+4-5	Dalla	_	_	_	_	_	_	_	_
+4	Da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+7	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	15	mark	_	_
+9	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+10	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	regola	regola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+12	importante	importante	ADJ	A	Number=Sing	11	amod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+14	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	giocare	giocare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dieta…	dieta…	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	7	punct	_	_
+
+# sent_id = 34
+# text = È chiusa la domanda: “Perché mangi l’agnello?”
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+6	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	Perché	perché	SCONJ	CS	_	8	mark	_	_
+8	mangi	mangi	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 35
+# text = Se non è una risposta, è una conferma:
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 36
+# text = per concreto accentuare la saggezza delle tradizioni derivata dalle focaccine di padri alle filiale che creano e ci vogliono trasformare.
+1	per	per	ADP	E	_	2	case	_	_
+2	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	_
+3	accentuare	accentuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	saggezza	saggezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tradizioni	tradizioni	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	derivata	derivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	focaccine	focaccina	NOUN	S	Gender=Fem|Number=Plur	9	obl:agent	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	padri	padre	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	filiale	filiale	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+22	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	trasformare	trasformare	VERB	V	VerbForm=Inf	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = Con il buon senso, il “senso” della cultura forma l’agnello, nelle sue forme di tradizione.
+1	Con	con	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	buon	buono	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	8	punct	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	forme	forma	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 38
+# text = Nel profilo di “Il Giornale”, il dovere di chiarire l’equilibrio di queste
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	chiarire	chiarire	VERB	V	VerbForm=Inf	11	acl	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	15	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,151 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono gli alberi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Un albero in testa, lo sguardo si spazia sulla cornice verde del Parco Re Mida, periferia di Roma che si apre sulla stazione ferrovia, da lì, si apre la vista verso la cupola di San Pietro.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	albero	albero	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	spazia	spaziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	verde	verde	ADJ	A	Number=Sing	12	amod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Parco	parco	PROPN	SP	_	12	nmod	_	_
+17	Re	re	PROPN	SP	_	16	flat:name	_	_
+18	Mida	Mido	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	periferia	periferia	NOUN	S	Gender=Fem|Number=Sing	16	appos	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Roma	Roma	PROPN	SP	_	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	ferrovia	ferrovia	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	lì	lì	ADV	B	_	28	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	9	punct	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	vista	vista	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	verso	verso	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	cupola	cupola	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	San	San	PROPN	SP	_	40	nmod	_	_
+43	Pietro	Pietro	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 3
+# text = Gli alberi chiudento gli edifici sottostanti, che mandano turbinare il verde in alto come se fossero delle gete.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	chiudento	chiudento	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	sottostanti	sottostante	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	mandano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	turbinare	turbinare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	verde	verde	ADJ	A	Number=Sing	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	alto	alto	ADJ	A	Gender=Masc|Number=Sing	10	obl	_	_
+15	come	come	ADV	B	_	17	advmod	_	_
+16	se	se	SCONJ	CS	_	17	mark	_	_
+17	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	gete	gete	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Un albero anche i merli che attaccano le piattaforme dei condomini e le sale dell'ingresso dei negozi, il bucato appeso al balcone, le fionda con il campioncino con calendario;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	albero	albero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5-6	merli	_	_	_	_	_	_	_	_
+5	mer	mer	NOUN	S	_	2	nmod	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	compound	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	attaccano	attaccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	piattaforme	piattaforma	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	condomini	condominio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	sale	sala	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bucato	bucato	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+26	appeso	appendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	2	punct	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	fionda	fionda	NOUN	S	Gender=Fem	2	conj	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	campioncino	campioncino	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	con	con	ADP	E	_	37	case	_	_
+37	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = è un richiamo all'ordine, al verde e allo studio.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	richiamo	richiamo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	verde	verde	ADJ	A	Number=Sing	3	conj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	allo	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	studio	studio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

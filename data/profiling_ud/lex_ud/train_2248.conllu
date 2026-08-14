@@ -1,0 +1,703 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli inquirenti lo accusano di tre reati:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	accusano	accusare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	reati	reato	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = l’omicidio, il vilipendio e l’occultamento di cadavere.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vilipendio	vilipendio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	occultamento	occultamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cadavere	cadavere	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma la prima delle tre accuse è caduta di fronte al Gip nella richiesta di fermo:
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	prima	primo	ADV	B	_	7	case	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fronte	fronte	NOUN	S	Number=Sing	9	obl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Gip	gip	NOUN	S	_	11	nmod	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	fermo	fermo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = finché non arriveranno gli esami tossicologici e quelli sui rilievi - biologici e non - effettuati dal Ris nell’appartamento di mattoncini rossi in via Spalato a Macerata, è impossibile tenere qualcuno in carcere con l’accusa di omicidio.
+1	finché	finché	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	esami	esame	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	tossicologici	tossicologico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+9-10	sui	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	rilievi	rilievo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	-	-	PUNCT	FF	_	11	punct	_	_
+13	biologici	biologico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	-	-	PUNCT	FF	_	17	punct	_	_
+17	effettuati	effettuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Ris	Ris	PROPN	SP	_	17	obl	_	_
+21-22	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	mattoncini	mattoncino	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	via	via	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	Spalato	Spalato	PROPN	SP	_	28	nmod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Macerata	Macerata	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	17	punct	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	impossibile	impossibile	ADJ	A	Number=Sing	17	conj	_	_
+35	tenere	tenere	VERB	V	VerbForm=Inf	34	csubj	_	_
+36	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	obj	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Gli indizi al momento sono insufficienti a escludere che la morte sia stata provocata da un’overdose.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	indizi	indizio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	insufficienti	insufficiente	ADJ	A	Number=Plur	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	escludere	escludere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	morte	morte	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+13	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	provocata	provocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	overdose	overdosa	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Non lo sono affatto, invece, a ritenere Innocent coinvolto in modo decisivo negli altri due reati, l’occultamento e il vilipendio del corpo di Pamela, scaricato in pezzi in due trolley nelle campagne di Pollenza.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	affatto	affatto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	invece	invece	ADV	B	_	11	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	ritenere	ritenere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+10	Innocent	Innocent	PROPN	SP	_	9	obj	_	_
+11	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15-16	negli	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	19	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+17	altri	altro	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	reati	reato	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	occultamento	occultamento	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vilipendio	vilipendio	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Pamela	Pamela	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	22	punct	_	_
+32	scaricato	scaricare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	due	due	NUM	N	NumType=Card	37	nummod	_	_
+37	trolley	trolley	NOUN	S	Gender=Masc	34	nmod	_	_
+38-39	nelle	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Pollenza	Pollenza	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Intanto, il lavoro degli inquirenti prosegue sull’altro indagato in relazione alla morte della ragazza:
+1	Intanto	intanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	inquirenti	inquirente	ADJ	A	Number=Plur	8	amod	_	_
+8	prosegue	proseguire	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9-10	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+9	su	su	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+12	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	morte	morte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = nigeriano anch’egli, è l’amico di Innocent a cui lo spacciatore si è rivolto per procurare a Pamela una dose di eroina, come gli avrebbe chiesto la ragazza.
+1	nigeriano	nigeriare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anch’	ancho	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amico	amico	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Innocent	Innocent	PROPN	SP	_	7	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	spacciatore	spacciatore	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	procurare	procurare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Pamela	Pamela	PROPN	SP	_	18	obl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	dose	dosa	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	eroina	eroina	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	come	come	SCONJ	CS	_	29	mark	_	_
+27	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+28	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Innocent in casa aveva solo 80 grammi di marijuana, non eroina.
+1	Innocent	Innocent	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	80	80	NUM	N	NumType=Card	7	nummod	_	_
+7	grammi	grammo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	marijuana	marijuana	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	eroina	eroinare	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Per questo si sono recati nella zona dello stadio a incontrare il suo amico, un pusher meglio rifornito anche della “eroina bianca” molto diffusa nel giro della tossicodipendenza maceratese.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	recati	recare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	zona	zona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	incontrare	incontrare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	amico	amico	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pusher	pusher	NOUN	S	Number=Sing	16	appos	_	_
+20	meglio	meglio	ADV	B	_	21	advmod	_	_
+21	rifornito	rifornito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	anche	anche	ADV	B	_	26	advmod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	“	“	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	eroina	eroina	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+27	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	26	punct	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	giro	giro	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	tossicodipendenza	tossicodipendenza	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	maceratese	maceratesa	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ma gli inquirenti sospettano che il secondo indagato, lo spacciatore dell’eroina, possa aver avuto un ruolo anche nella fase finale di quest’orrore:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	inquirenti	inquirente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	sospettano	sospettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	18	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	indagato	indagato	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spacciatore	spacciatore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	eroina	eroina	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+18	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	anche	anche	ADV	B	_	24	advmod	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	fase	fase	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+25	finale	finale	ADJ	A	Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	quest’	questo	DET	DD	Number=Sing|PronType=Dem	28	det	_	SpaceAfter=No
+28	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = lo scempio del corpo, e il tentativo di lavar via le prove con la candeggina.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scempio	scempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	lavar	lavare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	via	via	ADV	B	_	11	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	prove	prova	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	candeggina	candeggina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Sospettano fortemente che qualcuno abbia quantomeno aiutato Innocent in queste due operazioni, la prima delle quali richiede terribili ma precise capacità.
+1	Sospettano	sospettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fortemente	fortemente	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+5	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	quantomeno	quantomeno	ADV	B	_	7	advmod	_	_
+7	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+8	Innocent	Innocent	PROPN	SP	_	7	obj	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	prima	prima	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	quali	quale	ADJ	A	Number=Plur	19	amod	_	_
+19	richiede	richiedere	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+20	terribili	terribili	ADJ	A	Number=Plur	23	amod	_	_
+21	ma	ma	CCONJ	CC	_	22	cc	_	_
+22	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	capacità	capacità	NOUN	S	Gender=Fem	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = E il primo nome in lista, tra i possibili complici anche in questo epilogo miserabile, è proprio l’amico pusher di Innocent, lo spacciatore dell’ultima dose di eroina.
+1	E	e	CCONJ	CC	_	21	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	lista	lista	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	tra	tra	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	possibili	possibile	ADJ	A	Number=Plur	11	amod	_	_
+11	complici	complico	NOUN	S	Number=Plur	4	nmod	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	epilogo	epilogo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	miserabile	miserabile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	proprio	proprio	ADV	B	_	21	advmod	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+22	pusher	pusher	NOUN	S	Gender=Masc	21	compound	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Innocent	Innocent	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	spacciatore	spacciatore	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+28-29	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	31	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+30	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	dose	dosa	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	eroina	eroina	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 15
+# text = Il tutto in attesa, naturalmente, degli esami tossicologici che potrebbero escludere l’overdose come causa della morte aggiungendo l’omicidio volontario, che rimane ipotizzato dagli inquirenti nelle indagini, tra i motivi per i quali Innocent dovrà restare in galera in attesa del processo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	naturalmente	naturalmente	ADV	B	_	10	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	esami	esame	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+11	tossicologici	tossicologico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	escludere	escludere	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	overdose	overdosa	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	causa	causa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	morte	morte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	14	advcl	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	volontario	volontario	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	ipotizzato	ipotizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	xcomp	_	_
+30-31	dagli	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	inquirenti	inquirente	NOUN	S	Number=Plur	29	obl:agent	_	_
+33-34	nelle	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	tra	tra	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	quali	quale	PRON	PR	Number=Plur|PronType=Rel	45	obl	_	_
+43	Innocent	Innocent	PROPN	SP	_	45	nsubj	_	_
+44	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	45	aux	_	_
+45	restare	restare	VERB	V	VerbForm=Inf	39	acl:relcl	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	galera	galera	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	processo	processo	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Qualora invece gli esami dovessero decretare la morte per overdose, Innocent e i suoi eventuali complici potrebbero addirittura ottenere gli arresti domiciliari.
+1	Qualora	qualora	SCONJ	CS	_	6	mark	_	_
+2	invece	invece	ADV	B	_	6	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	esami	esame	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	decretare	decretare	VERB	V	VerbForm=Inf	20	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	morte	morte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	overdose	overdosa	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Innocent	Innocent	PROPN	SP	_	10	conj	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	eventuali	eventuale	ADJ	A	Number=Plur	17	amod	_	_
+17	complici	complico	NOUN	S	Number=Plur	10	conj	_	_
+18	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	addirittura	addirittura	ADV	B	_	20	advmod	_	_
+20	ottenere	ottenere	VERB	V	VerbForm=Inf	0	root	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	arresti	arresto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	domiciliari	domiciliare	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 17
+# text = In serata a Macerata si è tenuta sotto la pioggia una partecipata fiaccolata organizzata dall'associazione "L'esistenza Ora".
+1	In	in	ADP	E	_	2	case	_	_
+2	serata	serata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Macerata	Macerata	PROPN	SP	_	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tenuta	tenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	sotto	sotto	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	partecipata	partecipata	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+13	fiaccolata	fiaccolato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	organizzata	organizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+15	da	da	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	Ora	ora	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Alla camminata silenziosa "Una luce per Pamela", partita dai giardini Diaz, hanno partecipato anche i genitori di Pamela.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	camminata	camminata	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+4	silenziosa	silenzioso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	Pamela	Pamela	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+16	Diaz	Diaz	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	anche	anche	ADV	B	_	22	advmod	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Pamela	Pamela	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 19
+# text = "E' disumano quello che hanno fatto a mia figlia - ha detto la madre, Alessandra Verni - , una violenza assurda.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	disumano	disumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	-	-	PUNCT	FB	_	13	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	Alessandra	Alessandra	PROPN	SP	_	13	nsubj	_	_
+18	Verni	Verno	PROPN	SP	_	17	flat:name	_	_
+19	-	-	PUNCT	FF	_	13	punct	_	_
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+23	assurda	assurdo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Quella di Pamela era una morte che poteva essere evitata".
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Pamela	Pamela	PROPN	SP	_	1	nmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	morte	morte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+8	poteva	potere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	evitata	evitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Accanto a lei hanno sfilato il marito Stefano e uno zio di Pamela.
+1	Accanto	accanto	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sfilato	sfilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	Stefano	Stefano	PROPN	SP	_	7	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	zio	zio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Pamela	Pamela	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Circa 200 persone partecipato all'iniziativa, portando striscioni:
+1	Circa	circa	ADV	B	_	3	advmod	_	_
+2	200	200	NUM	N	NumType=Card	3	nummod	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	portando	portare	VERB	V	VerbForm=Ger	4	advcl	_	_
+10	striscioni	striscione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 23
+# text = 'luci per Pamela' e '#stop alla violenza'.
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	luci	luce	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Pamela	Pamela	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	4	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	'	'	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	#stop	#stop	NOUN	S	Gender=Masc	4	conj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Sempre stasera era prevista in città una manifestazione di Forza Nuova con l'intervento del leader Roberto Fiore, che però non è stata autorizzata:
+1	Sempre	sempre	ADV	B	_	4	advmod	_	_
+2	stasera	stasera	ADV	B	_	4	advmod	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	prevista	prevedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	città	città	NOUN	S	Gender=Fem	4	obl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Forza	Forza	PROPN	SP	_	8	nmod	_	_
+11	Nuova	Nuova	PROPN	SP	_	10	flat:name	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	leader	leader	NOUN	S	_	14	nmod	_	_
+18	Roberto	Roberto	PROPN	SP	_	17	nmod	_	_
+19	Fiore	fiore	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	26	nsubj:pass	_	_
+22	però	però	ADV	B	_	26	advmod	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	autorizzata	autorizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 25
+# text = il gruppo di estrema destra l'ha riconvocata per giovedì.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	estrema	estremo	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	destra	destra	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riconvocata	riconvocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	giovedì	giovedì	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

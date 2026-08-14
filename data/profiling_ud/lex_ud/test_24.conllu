@@ -1,0 +1,362 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Innanzitutto, occorre considerare l’impatto sulla qualità dell’aria e dell’acqua.
+1	Innanzitutto	innanzitutto	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	considerare	considerare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	qualità	qualità	NOUN	S	Gender=Fem	6	nmod	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	aria	aria	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Da nord a sud del paese gli incendi hanno generato una nube di fumo e polveri che hanno contaminato l’aria, rendendo difficile la respirazione e causando problemi respiratori anche gravi.
+1	Da	da	ADP	E	_	2	case	_	_
+2	nord	nord	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	sud	sud	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	incendi	incendio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	generato	generare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nube	nube	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	polveri	polvero	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	contaminato	contaminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	aria	aria	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	rendendo	rendere	VERB	V	VerbForm=Ger	20	advcl	_	_
+25	difficile	difficile	ADJ	A	Number=Sing	27	amod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	respirazione	respirazione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	causando	causare	VERB	V	VerbForm=Ger	24	conj	_	_
+30	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31	respiratori	respiratorio	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+32	anche	anche	ADV	B	_	33	advmod	_	_
+33	gravi	grave	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Quelli di maggiore entità hanno raggiunto anche le città e le regioni vicine, producendo ambiti d’inquinamento dentro le metropoli e in riva al mare.
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	entità	entità	NOUN	S	Gender=Fem	1	nmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	6	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+13	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	producendo	produrre	VERB	V	VerbForm=Ger	6	advcl	_	_
+16	ambiti	ambito	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+17	d’	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	dentro	dentro	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	metropoli	metropoli	NOUN	S	Gender=Fem	15	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	riva	riva	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mare	mare	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Questo fenomeno non ha riguardato soltanto la nostra nazione, ma ha impattato su tutte le culture che si affacciano sul Mediterraneo.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riguardato	riguardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	impattato	impattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	culture	cultura	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	affacciano	affacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Mediterraneo	Mediterraneo	PROPN	SP	_	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = 1 degrees denuncia denunciano il rischio che una situazione come quella che si sta verificando in questi giorni possa ripetersi in altre regioni del continente a causa delle alte temperature e della mancanza di precipitazioni.
+1	1	1	NUM	N	NumType=Card	4	nummod	_	_
+2	degrees	degrees	ADP	E	_	3	case	_	_
+3	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	denunciano	denunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	che	che	SCONJ	CS	_	20	mark	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	verificando	verificare	VERB	V	VerbForm=Ger	11	acl:relcl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+18	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20-21	ripetersi	_	_	_	_	_	_	_	_
+20	ripeter	ripetere	VERB	V	VerbForm=Inf	6	acl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	continente	continente	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	causa	causa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	alte	alto	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+33	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	33	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	precipitazioni	precipitazione	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Bargoni de La Repubblica rivela che a causa degli incendi gli aerei hanno interrotto le operazioni di volo a causa della presenza di fumo in volo.
+1	Bargoni	Bargone	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	de	di	ADP	E	_	4	case	_	_
+3	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Repubblica	repubblica	PROPN	SP	_	1	nmod	_	_
+5	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	15	mark	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	causa	causa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	incendi	incendio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	aerei	aereo	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	interrotto	interrompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	volo	volo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	causa	causa	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	volo	volo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Per questo motivo nei prossimi giorni saranno trasferiti altrove tutti i velivoli coinvolti nelle operazioni antincendio.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+8	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	trasferiti	trasferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	altrove	altrove	ADV	B	_	9	advmod	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	velivoli	velivolo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+14	coinvolti	coinvolto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	nelle	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	antincendio	antincendio	ADJ	A	_	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Ecco perché gli elicotteri ed i velivoli che possono essere operativi sono limitati.
+1	Ecco	ecco	ADV	B	_	13	advmod	_	_
+2	perché	perché	SCONJ	CS	_	13	mark	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	elicotteri	elicottero	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+5	ed	e	CCONJ	CC	_	7	cc	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	velivoli	velivolo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	cop	_	_
+11	operativi	operativo	ADJ	A	Gender=Masc|Number=Plur	7	acl:relcl	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	limitati	limitare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 9
+# text = Lo stesso vale per i Canadair che in alcuni casi sono stati costretti a rimandare gli interventi a vantaggio dei velivoli da terra.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Canadair	Canadair	PROPN	SP	_	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	13	nsubj:pass	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	casi	caso	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	rimandare	rimandare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	velivoli	velivolo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	terra	terra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Una decisione, questa, che è stata dettata da ragioni strategiche di salvaguardia degli equilibri in gioco nella difficile disputa fra esigenze di salvaguardia ambientale e responsabilità nel volo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	dettata	dettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	9	obl:agent	_	_
+12	strategiche	strategico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	salvaguardia	salvaguardia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	equilibri	equilibrio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	difficile	difficile	ADJ	A	Number=Sing	23	amod	_	_
+23	disputa	disputa	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	fra	fra	ADP	E	_	25	case	_	_
+25	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	salvaguardia	salvaguardia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	ambientale	ambientale	ADJ	A	Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	responsabilità	responsabilità	NOUN	S	Gender=Fem	27	conj	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	volo	volo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Sullo sfondo di questo contesto di diffusa emergenza si mette in evidenza anche il ruolo dell’irresponsabilità dell’uomo, sempre più allergica all’ambiente naturale e i cui crimini ambientali ricadono sulla collettività rischiando
+1-2	Sullo	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	evidenza	evidenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	irresponsabilità	irresponsabilità	NOUN	S	Gender=Fem	16	nmod	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	sempre	sempre	ADV	B	_	25	advmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	allergica	allergico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+27-28	all’	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	naturale	naturale	ADJ	A	Number=Sing	29	amod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	cui	cui	DET	DR	PronType=Rel	34	det:poss	_	_
+34	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+35	ambientali	ambientale	ADJ	A	Number=Plur	34	amod	_	_
+36	ricadono	ricadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+37-38	sulla	_	_	_	_	_	_	_	_
+37	su	su	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	collettività	collettività	NOUN	S	Gender=Fem	36	obl	_	_
+40	rischiando	rischiare	VERB	V	VerbForm=Ger	36	advcl	_	SpacesAfter=\n
+

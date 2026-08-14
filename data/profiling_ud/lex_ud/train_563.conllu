@@ -1,0 +1,424 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli obiettivi a rischio sono l'Italia, la Francia, la Danimarca, il Qatar e gli Emirati Arabi.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Italia	Italia	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Francia	Francia	PROPN	SP	_	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Danimarca	Danimarca	PROPN	SP	_	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Qatar	Qatar	PROPN	SP	_	7	conj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Emirati	emirato	PROPN	SP	_	7	conj	_	_
+20	Arabi	Arabi	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Maroni:
+1	Maroni	Marone	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = "Stop ai bombardamenti" "L’unica soluzione è che cessino i bombardamenti e che la guerra finisca.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Stop	stop	ADJ	A	_	0	root	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bombardamenti	bombardamento	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	unica	unico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	cessino	cessino	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	bombardamenti	bombardamento	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	che	che	SCONJ	CS	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+20	finisca	finisco	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Senza la guerra non esistono nemmeno i profughi che diventano clandestini e che come tali puoi rimpatriare".
+1	Senza	senza	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	clandestini	clandestino	ADJ	A	Gender=Masc|Number=Plur	10	xcomp	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	tali	tale	PRON	PD	Number=Plur|PronType=Dem	17	obl	_	_
+16	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	rimpatriare	rimpatriare	VERB	V	VerbForm=Inf	10	conj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Il ministro dell’Interno, Roberto Maroni, chiede uno stop ai raid aerei in Libia:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Interno	interno	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Roberto	Roberto	PROPN	SP	_	2	appos	_	_
+8	Maroni	Maroni	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	stop	stop	NOUN	S	Gender=Masc	10	obj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	raid	raid	NOUN	S	Gender=Masc	10	obl	_	_
+16	aerei	aare	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Libia	Libia	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 6
+# text = "Frontex se ne lava le mani, non possiamo fare altro".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Frontex	Frontex	PROPN	SP	_	5	nsubj	_	_
+3	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	lava	lavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+12	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Maroni fa il punto sull’arrivo di immigrati e profughi:
+1	Maroni	Maroni	PROPN	SP	_	2	nsubj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Non è vero che noi non lo facciamo, noi respingiamo e rimpatriamo i clandestini.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	csubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	respingiamo	respingere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	rimpatriamo	rimpatrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	clandestini	clandestino	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = L’abbiamo sempre fatto - spiega il responsabile del Viminale - Anche con la Tunisia, con il cui governo abbiamo fatto un accordo, procediamo con i rimpatri.
+1	L’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	responsabile	responsabile	NOUN	S	Number=Sing	6	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Viminale	Viminale	PROPN	SP	_	8	nmod	_	_
+12	-	-	PUNCT	FB	_	6	punct	_	_
+13	Anche	anche	ADV	B	_	16	advmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Tunisia	Tunisia	PROPN	SP	_	23	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	cui	cui	DET	DR	PronType=Rel	21	det:poss	_	_
+21	governo	governo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+22	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	procediamo	procedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	rimpatri	rimpatro	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Proprio l’altro ieri abbiamo consegnato al governo di Tunisi quattro motovedette per il controllo delle coste e per impedire le partenze.
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	altro	altro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	ieri	ieri	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	consegnato	consegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Tunisi	Tunisi	PROPN	SP	_	9	nmod	_	_
+12	quattro	quattro	NUM	N	NumType=Card	13	nummod	_	_
+13	motovedette	motovedetta	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	coste	costa	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	impedire	impedire	VERB	V	VerbForm=Inf	6	conj	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	partenze	partenze	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = L’accordo firmato il 4 aprile funziona e lo dimostra il fatto che dalla Tunisia gli arrivi ormai sono pochissimi".
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	4	4	NUM	N	NumType=Card	3	obl	_	_
+6	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+13	che	che	SCONJ	CS	_	18	mark	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Tunisia	Tunisia	PROPN	SP	_	18	obl	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	arrivi	arrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+19	ormai	ormai	ADV	B	_	21	advmod	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	pochissimi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	conj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = "La Spagna - prosegue Maroni - ha come interlocutore il Marocco, noi lo stiamo facendo con la Tunisia ma con la con la Libia è impossibile, perchè lì c’è la guerra e quelli che arrivano sono profughi che non possiamo rimpatriare".
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Spagna	Spagna	PROPN	SP	_	8	nsubj	_	_
+4	-	-	PUNCT	FB	_	5	punct	_	_
+5	prosegue	proseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+6	Maroni	Maroni	PROPN	SP	_	5	nsubj	_	_
+7	-	-	PUNCT	FF	_	5	punct	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	interlocutore	interlocutore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Marocco	Marocco	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+16	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	facendo	fare	VERB	V	VerbForm=Ger	8	advcl	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Tunisia	Tunisia	PROPN	SP	_	17	obl	_	_
+21	ma	ma	CCONJ	CC	_	28	cc	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Libia	Libia	PROPN	SP	_	28	obl	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	impossibile	impossibile	ADJ	A	Number=Sing	41	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	perchè	perché	SCONJ	CS	_	33	mark	_	_
+31	lì	lì	ADV	B	_	33	advmod	_	_
+32	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	SpaceAfter=No
+33	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	41	nsubj	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+40	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+41	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+42	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+43	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+44	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	rimpatriare	rimpatriare	VERB	V	VerbForm=Inf	41	acl:relcl	_	SpaceAfter=No
+46	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = "Noi sappiamo - continua l’esponente leghista - che quelli che arrivano dalla Libia li manda Gheddafi e dobbiamo accoglierli.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-	-	PUNCT	FB	_	5	punct	_	_
+5	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	esponente	esponente	NOUN	S	Number=Sing	5	nsubj	_	_
+8	leghista	leghisto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	-	-	PUNCT	FB	_	5	punct	_	_
+10	che	che	SCONJ	CS	_	18	mark	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	18	nsubj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Libia	Libia	PROPN	SP	_	13	obl	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+19	Gheddafi	Gheddafi	PROPN	SP	_	18	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22-23	accoglierli	_	_	_	_	_	_	_	SpaceAfter=No
+22	accoglier	accogliere	VERB	V	VerbForm=Inf	18	conj	_	_
+23	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Però è doveroso da parte nostra verificare chi c’è su quelle navi".
+1	Però	però	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	doveroso	doveroso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+7	verificare	verificare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	obj	_	_
+9	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	navi	nave	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = "Al di là di altre considerazione - conclude Maroni - la Danimarca può agire in un certo modo perchè le regole Schengen si applicano ai confini di terra.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2-3	Al	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	là	là	ADV	B	_	8	advmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+9	-	-	PUNCT	FF	_	10	punct	_	_
+10	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+11	Maroni	Maroni	PROPN	SP	_	10	nsubj	_	_
+12	-	-	PUNCT	FF	_	10	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Danimarca	Danimarca	PROPN	SP	_	16	nsubj	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	agire	agire	VERB	V	VerbForm=Inf	0	root	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	certo	certo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	modo	modo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	perchè	perché	SCONJ	CS	_	26	mark	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	regole	regola	NOUN	S	Gender=Fem|Number=Plur	26	nsubj:pass	_	_
+24	Schengen	Schengen	PROPN	SP	_	23	nmod	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl:pass	_	_
+26	applicano	applicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+27-28	ai	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	confini	confine	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	terra	terra	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 16
+# text = Noi invece abbiamo gli ingressi via mare, e in questo caso non puoi bloccare le frontiere.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	invece	invece	ADV	B	_	3	advmod	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ingressi	ingresso	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	via	via	ADP	E	_	7	case	_	_
+7	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	caso	caso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	bloccare	bloccare	VERB	V	VerbForm=Inf	3	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	frontiere	frontiera	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Per questo sostengo che l’unica soluzione è che cessino i bombardamenti e che la guerra finisca".
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	sostengo	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	unica	unico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	cessino	cessino	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	bombardamenti	bombardamento	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	che	che	SCONJ	CS	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+17	finisca	finisco	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

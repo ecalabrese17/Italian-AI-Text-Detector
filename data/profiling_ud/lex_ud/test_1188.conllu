@@ -1,0 +1,220 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Kristal era nato a Zabrze, in Polonia, nel 1903, in una famiglia ebraica.
+1	Kristal	Kristal	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Zabrze	Zabrze	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Polonia	Polonia	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	1903	1903	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+17	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La sua vita cambiò radicalmente con l'avvento al potere dei nazisti, che lo deportarono a Auschwitz nel 1940.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	cambiò	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	radicalmente	radicalmente	ADV	B	_	4	advmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	avvento	avvento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	potere	potere	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	nazisti	nazista	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	deportarono	deportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Auschwitz	Auschwitz	PROPN	SP	_	18	obl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	1940	1940	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Lì, insieme alla moglie e al figlio, ha sperimentato l'horror della Shoah, ma riuscì non solo a sopravvivere, ma anche a superare la dura prova della Shoa diventando, come diceva lui stesso, un uomo più maturo.
+1	Lì	lì	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	insieme	insieme	ADV	B	_	6	case	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sperimentato	sperimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	horror	horror	NOUN	S	Gender=Masc	13	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Shoah	Shoah	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	riuscì	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	solo	solo	ADV	B	_	21	advmod	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	ma	ma	CCONJ	CC	_	30	cc	_	_
+28	anche	anche	ADV	B	_	30	advmod	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	superare	superare	VERB	V	VerbForm=Inf	13	conj	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	dura	duro	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	prova	prova	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Shoa	Shoa	PROPN	SP	_	33	nmod	_	_
+37	diventando	diventare	VERB	V	VerbForm=Ger	30	advcl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	come	come	SCONJ	CS	_	40	mark	_	_
+40	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	advcl	_	_
+41	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+42	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	41	punct	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	41	appos	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	maturo	maturo	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = La sua esperienza nella città polacca Tsanzha, durante la prima guerra mondiale, gli fece chiaramente comprendere la differenza fra la calamità e la sua resilienza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	città	città	NOUN	S	Gender=Fem	3	nmod	_	_
+7	polacca	polacco	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	Tsanzha	Tsanzha	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	durante	durante	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+14	mondiale	mondiale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	fece	fece	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	chiaramente	chiaro	ADV	B	_	17	advmod	_	_
+19	comprendere	comprendere	VERB	V	VerbForm=Inf	17	ccomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	fra	fra	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	calamità	calamità	NOUN	S	Gender=Fem	21	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 5
+# text = Datile morale suscita in ogni humano un meccanismo per superare una serie di vita a parte.
+1	Datile	Datile	ADJ	A	Number=Sing	2	amod	_	_
+2	morale	morale	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	suscita	suscitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	humano	humare	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	meccanismo	meccanismo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	superare	superare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serie	serie	NOUN	S	Gender=Fem	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Tornato a quando il confine tra naturale e inferno si scopre una determinazione non data solo dal fatto che è un ebreo o un christiano.
+1	Tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	quando	quando	SCONJ	CS	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	confine	confine	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	naturale	naturale	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16	solo	solo	ADV	B	_	19	advmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	che	che	SCONJ	CS	_	23	mark	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ebreo	ebreo	NOUN	S	Gender=Masc|Number=Sing	19	advcl	_	_
+24	o	o	CCONJ	CC	_	26	cc	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	christiano	christiano	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Nel 1945, dopo la liberazione di Auschwitz da parte delle truppe sovietiche, Kristal ha lasciato la prigionia per,in
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1945	1945	NUM	N	NumType=Card	19	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Auschwitz	Auschwitz	PROPN	SP	_	7	nmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	truppe	truppa	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	sovietiche	sovietico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	Kristal	Kristal	PROPN	SP	_	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	prigionia	prigionia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	per,in	per,ino	ADV	B	_	19	advmod	_	SpacesAfter=\n
+

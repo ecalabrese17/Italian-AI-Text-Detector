@@ -1,0 +1,335 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva perso tre dita di una mano mentre preparava un attentato sui binari per fermare un treno tedesco che doveva rifornire gli eserciti di munizioni.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	dita	dito	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	mentre	mentre	SCONJ	CS	_	9	mark	_	_
+9	preparava	preparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	binari	binario	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	fermare	fermare	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	treno	treno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	rifornire	rifornire	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	eserciti	esercito	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	munizioni	munizione	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = "Addio, Eros.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Addio	Addio	INTJ	I	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Eros	Eros	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quella sera del luglio del 2016 cantammo Bella Ciao.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	2016	2016	NUM	N	NumType=Card	9	nummod	_	_
+9	cantammo	cantare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	Bella	bella	PROPN	SP	_	9	nmod	_	_
+11	Ciao	ciao	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non lo dimenticheremo, non ti dimenticheremo", lo ha salutato su Facebook Giuseppe Civati.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	dimenticheremo	dimentichere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+7	dimenticheremo	dimentichere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	salutato	salutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	Facebook	Facebook	PROPN	SP	_	12	obl	_	_
+15	Giuseppe	Giuseppe	PROPN	SP	_	12	obj	_	_
+16	Civati	Civato	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Lorenzoni, storico presidente dell’Anpi trevigiana, aveva due figlie.
+1	Lorenzoni	Lorenzoni	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	storico	storico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Anpi	Anpi	PROPN	SP	_	4	nmod	_	_
+8	trevigiana	trevigiano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	figlie	figlio	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Per l’Anpi Castelfranco "è stato un esempio e guida per molti giovani che, nel corso degli anni, hanno voluto combattere le ingiustizie e difendere gli ultimi".
+1	Per	per	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Anpi	Anpi	PROPN	SP	_	0	root	_	_
+4	Castelfranco	Castelfranco	PROPN	SP	_	3	flat:name	_	_
+5	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	guida	guidare	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	giovani	giovane	NOUN	S	Number=Plur	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	26	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux	_	_
+26	combattere	combattere	VERB	V	VerbForm=Inf	14	acl:relcl	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	ingiustizie	ingiustizia	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	difendere	difendere	VERB	V	VerbForm=Inf	3	conj	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	30	xcomp	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = 25 aprile, gli ultimi partigiani:
+1	25	25	NUM	N	NumType=Card	0	root	_	_
+2	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 8
+# text = vita, lotte e morte del "Cion".
+1	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	lotte	lotta	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	morte	morta	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Cion	Cion	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Lorenzoni aveva aderito alla Resistenza interrompendo gli studi classici.
+1	Lorenzoni	Lorenzoni	PROPN	SP	_	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	aderito	aderire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Resistenza	Resistenza	PROPN	SP	_	3	obl	_	_
+7	interrompendo	interrompere	VERB	V	VerbForm=Ger	3	advcl	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	studi	studio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	classici	classico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Commissario di battaglione nella divisione “Nino Nannetti”, dopo la Liberazione divenne direttore di un’azienda di confezioni.
+1	Commissario	Commissario	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	battaglione	battaglione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Nino	Nino	PROPN	SP	_	6	nmod	_	_
+9	Nannetti	Nannetti	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	dopo	dopo	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Liberazione	Liberazione	PROPN	SP	_	15	obl	_	_
+15	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	15	xcomp	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	confezioni	confezione	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Per decine di anni è stato consigliere comunale a Nervesa.
+1	Per	per	ADP	E	_	2	case	_	_
+2	decine	decina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	comunale	comunale	ADJ	A	Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Nervesa	Nervesa	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Alla festa della Liberazione del 2015 a Treviso aveva tenuto il discorso per il settantesimo anniversario del 25 aprile, facendo un appello al rispetto dei valori della Costituzione.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	festa	festa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Liberazione	Liberazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2015	2015	NUM	N	NumType=Card	6	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Treviso	Treviso	PROPN	SP	_	13	obl	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	per	per	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	settantesimo	settantesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	anniversario	anniversario	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	25	25	NUM	N	NumType=Card	19	nmod	_	_
+23	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	13	punct	_	_
+25	facendo	fare	VERB	V	VerbForm=Ger	13	advcl	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	appello	appello	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	valori	valore	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 13
+# text = Su Facebook, oggi un nipote lo ricorda "vicino allora nella resistenza agli ideali di giustizia e libertà e poi del socialismo e infine deciso propugnatore del no al referendum che voleva stravolgere la costituzione".
+1	Su	su	ADP	E	_	2	case	_	_
+2	Facebook	Facebook	PROPN	SP	_	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	oggi	oggi	ADV	B	_	8	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nipote	nipote	NOUN	S	Number=Sing	8	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	vicino	vicino	ADV	B	_	14	case	_	_
+11	allora	allora	ADV	B	_	10	advmod	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	10	fixed	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+15-16	agli	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ideali	ideale	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	libertà	libertà	NOUN	S	Gender=Fem	17	conj	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	poi	poi	ADV	B	_	26	advmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	socialismo	socialismo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	infine	infine	ADV	B	_	29	advmod	_	_
+29	deciso	deciso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+30	propugnatore	propugnatore	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	no	no	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34-35	al	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	referendum	referendum	NOUN	S	Gender=Masc	29	obl	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
+39	stravolgere	stravolgere	VERB	V	VerbForm=Inf	36	acl:relcl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Partigiani vite di resistenza e libertà I partigiani raccontano:
+1	Partigiani	Partigiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	vite	vito	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	libertà	libertà	NOUN	S	Gender=Fem	8	conj	_	_
+7	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 15
+# text = volti e voci dalla Resistenza
+1	volti	volto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	voci	voce	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Resistenza	Resistenza	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

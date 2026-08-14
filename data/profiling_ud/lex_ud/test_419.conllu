@@ -1,0 +1,341 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una fotografia intendente e, a tratti, sorprendente.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	intendente	intendente	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	sorprendente	sorprendente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il test, promosso dall’Accademia della Crusca e pubblicato su riconosciute piattaforme educative, ha visto la partecipazione di oltre 10mila utenti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	test	test	NOUN	S	Gender=Masc	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Accademia	Accademia	PROPN	SP	_	4	obl:agent	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Crusca	Crusca	PROPN	SP	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	riconosciute	riconoscere	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	piattaforme	piattaforma	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	educative	educativo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	oltre	oltre	ADV	B	_	24	advmod	_	_
+24	10mila	10mila	NUM	N	NumType=Card	25	nummod	_	_
+25	utenti	utente	NOUN	S	Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = L’obiettivo era semplice:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = verificare quanto gli italiani conoscessero i dialetti provenienti da diverse regioni del Bel Paese.
+1	verificare	verificare	VERB	V	VerbForm=Inf	0	root	_	_
+2	quanto	quanto	ADV	B	_	5	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	conoscessero	conoscere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dialetti	dialetto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	7	acl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Bel	bel	PROPN	SP	_	11	nmod	_	_
+15	Paese	paese	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = I risultati, presentati in un Viena отношение pubblicata dalla Crusca stessa, mostrano una realtà Dawson:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	presentati	presentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Viena	Viena	PROPN	SP	_	4	obl	_	_
+8	отношение	отношение	PROPN	SP	_	7	flat:name	_	_
+9	pubblicata	pubblicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Crusca	Crusca	PROPN	SP	_	9	obl:agent	_	_
+13	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	realtà	realtà	NOUN	S	Gender=Fem	15	obj	_	_
+18	Dawson	Dawson	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 6
+# text = se da un lato ci sono regioni dove il dialetto èstill vissuto e говорitato quotidianamente, dall’altro ci sono aree dove la sua conoscenza si è notevolmente ridotta, soprattutto tra i più giovani.
+1	se	se	SCONJ	CS	_	6	mark	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lato	lato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+8	dove	dove	ADV	B	_	22	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+11	èstill	èstill	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	говорitato	говорitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+15	quotidianamente	quotidiano	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17-18	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+17	da	da	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	aree	area	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+23	dove	dove	ADV	B	_	30	advmod	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	notevolmente	notevolmente	ADV	B	_	30	advmod	_	_
+30	ridotta	ridurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	soprattutto	soprattutto	ADV	B	_	30	advmod	_	_
+33	tra	tra	ADP	E	_	36	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	giovani	giovane	ADJ	A	Number=Plur	30	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = In particolare, i dialetti del Nord, come il milanese o il veneziano, riescono a suscitare una memoria comune maggiore rispetto a quelli del Sud, con il napoletano e il siciliano che, pur essendo tra i più noti, rivelano lacune gonfie di Chi non è originario della regione.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	dialetti	dialetto	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Nord	Nord	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	milanese	milanese	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	veneziano	veneziano	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	suscitare	suscitare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	comune	comune	ADJ	A	Number=Sing	21	amod	_	_
+23	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	21	amod	_	_
+24	rispetto	rispetto	ADV	B	_	26	case	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	19	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Sud	sud	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	17	punct	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	napoletano	napoletano	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	siciliano	siciliano	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+37	che	che	PRON	PR	PronType=Rel	46	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	pur	pure	ADV	B	_	40	advmod	_	_
+40	essendo	essere	VERB	V	VerbForm=Ger	46	advcl	_	_
+41	tra	tra	ADP	E	_	44	case	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	noti	noto	ADJ	A	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	40	punct	_	_
+46	rivelano	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+47	lacune	lacuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	48	det	_	_
+48	gonfie	gonfie	NOUN	S	Gender=Fem|Number=Plur	46	obj	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	Chi	chi	PROPN	SP	_	48	nmod	_	_
+51	non	non	ADV	BN	PronType=Neg	53	advmod	_	_
+52	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+53	originario	originario	ADJ	A	Gender=Fem|Number=Sing	50	acl:relcl	_	_
+54-55	della	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	regione	regione	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 8
+# text = La Crusca ha evidenziato come questa diversità linguistica sia un tesoro da preservare, in un’epoca in cui la globalizzazione e il dilagare dell’inglese rischiano di omogenizzare le Lingue locali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Crusca	Crusca	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	evidenziato	evidenziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	diversità	diversità	NOUN	S	Gender=Fem	4	obl	_	_
+8	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	preservare	preservare	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	globalizzazione	globalizzazione	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dilagare	dilagare	VERB	V	VerbForm=Inf	21	conj	_	_
+25-26	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	inglese	inglese	NOUN	S	Number=Sing	24	obl	_	_
+28	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	omogenizzare	omogenizzare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	Lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33	locali	locale	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = femmes et hommes della Crusca, a riguardo, hanno spiegato che il dialetto non è solo un modo di parlare, ma un elemento identitario e culturale che racconta la storia di un territorio.
+1	femmes	femmes	NOUN	S	Gender=Masc	12	nsubj	_	_
+2	et	e	CCONJ	CC	_	3	cc	_	_
+3	hommes	hommes	NOUN	S	Gender=Masc	1	conj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Crusca	Crusca	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	che	che	SCONJ	CS	_	20	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	solo	solo	ADV	B	_	20	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	ccomp	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	parlare	parlare	VERB	V	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	ma	ma	CCONJ	CC	_	26	cc	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+27	identitario	identitario	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	culturale	culturale	ADJ	A	Number=Sing	27	conj	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	storia	storia	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 10
+# text = Per questo l’Accademia ha già annunciato l’intenzione di Continua a promuovere iniziative volte alla valorizzazione dei dialetti, attraverso laboratori, convegni e collaborazione con le scuole del nostro Paese.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Accademia	accademia	PROPN	SP	_	7	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	già	già	ADV	B	_	7	advmod	_	_
+7	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Continua	continuare	PROPN	SP	_	9	nmod	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	promuovere	promuovere	VERB	V	VerbForm=Inf	7	advcl	_	_
+14	iniziative	iniziativo	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	volte	volta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	valorizzazione	valorizzazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	dialetti	dialetto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	attraverso	attraverso	ADP	E	_	24	case	_	_
+24	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	convegni	convegno	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Un segnale importante in un momento in cui la pluralità culturale e linguistica italiana deve essere
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pluralità	pluralità	NOUN	S	Gender=Fem	16	nsubj	_	_
+11	culturale	culturale	ADJ	A	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+15	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	essere	essere	AUX	V	VerbForm=Inf	6	acl:relcl	_	SpacesAfter=\n
+

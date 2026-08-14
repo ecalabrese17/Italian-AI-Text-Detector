@@ -1,0 +1,366 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il centrosinistra, che a livello nazionale è rappresentato dal Partito Democratico, ha vinto al primo turno con un risultato pressoché senza precedenti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	9	nsubj:pass	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	livello	livello	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	nazionale	nazionale	ADJ	A	Number=Sing	6	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	rappresentato	rappresentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	Democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	turno	turno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+24	pressoché	pressoché	ADV	B	_	23	advmod	_	_
+25	senza	senza	ADP	E	_	26	case	_	_
+26	precedenti	precedente	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Il candidato sindaco della coalizione, Lisandro شهری jure, ha ottenuto ben il 53,3% dei voti, un risultato che conferma la sua posizione di forza nella politica locale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coalizione	coalizione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Lisandro	Lisandro	PROPN	SP	_	2	appos	_	_
+9	شهری	شهري	PROPN	SP	_	8	flat:name	_	_
+10	jure	juro	NOUN	S	Gender=Fem|Number=Plur	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	ben	bene	ADV	B	_	17	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	53,3	53,3	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	13	obj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	voti	voto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	forza	forza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31-32	nella	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	politica	politica	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+34	locale	locale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Il successo del centrosinistra a Aosta è ancora più eclatante se si considera che la coalizione si è presentata handing al governo nazionale guidato dal premier Giuseppe Conte, che ha wealthy fianchi di diversi scandali in questi mesi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	successo	successo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Aosta	Aosta	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	ancora	ancora	ADV	B	_	11	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	eclatante	eclatante	ADJ	A	Number=Sing	0	root	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	considera	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	coalizione	coalizione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+21	handing	handing	NOUN	S	_	20	nsubj:pass	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	governo	governo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	nazionale	nazionale	ADJ	A	Number=Sing	24	amod	_	_
+26	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	premier	premier	NOUN	S	_	26	obl:agent	_	_
+30	Giuseppe	Giuseppe	PROPN	SP	_	29	nmod	_	_
+31	Conte	Conte	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	11	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+35	wealthy	wealthy	ADJ	A	_	36	amod	_	_
+36	fianchi	fianco	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
+39	scandali	scandale	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	42	det	_	_
+42	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Il risultato di Aosta dimostra che il centrosinistra è in grado di ottenere successo anche senza aver il governo centrale al suo fianco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Aosta	Aosta	PROPN	SP	_	2	nmod	_	_
+5	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	ottenere	ottenere	VERB	V	VerbForm=Inf	11	acl	_	_
+14	successo	successo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	senza	senza	ADP	E	_	17	mark	_	_
+17	aver	avere	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	centrale	centrale	ADJ	A	Number=Sing	19	amod	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ma il risultato più sorprendente delle elezioni ad Aosta è stata la crescita vertiginosa della Lega, il partito di estrema destra guidato dal ministro dell'Interno Matteo Salvini.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	sorprendente	sorprendente	ADJ	A	Number=Sing	3	amod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	ad	a	ADP	E	_	10	case	_	_
+10	Aosta	Aosta	PROPN	SP	_	8	nmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15	vertiginosa	vertiginoso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Lega	Lega	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	partito	partito	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	destra	destra	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	25	obl:agent	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	Interno	Interno	PROPN	SP	_	28	nmod	_	_
+32	Matteo	Matteo	PROPN	SP	_	31	flat:name	_	_
+33	Salvini	Salvini	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Il candidato sindaco leghista, Max Fossati, ha ottenuto il 26,4% dei voti, il doppio rispetto alle Communities del 2018.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	leghista	leghista	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Max	Max	PROPN	SP	_	2	appos	_	_
+7	Fossati	Fossati	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	26,4	26,4	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	10	obj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	voti	voto	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	doppio	doppio	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+20	rispetto	rispetto	ADV	B	_	23	case	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	Communities	Communities	PROPN	SP	_	19	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	2018	2018	NUM	N	NumType=Card	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Si tratta di una crescita eccezionale per un partito che, solo un anno fa, era ao Alison in grave crisi a livello nazionale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	eccezionale	eccezionale	ADJ	A	Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	partito	partito	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	18	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	solo	solo	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+15	fa	fa	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+18	ao	ao	NOUN	S	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+19	Alison	Alison	PROPN	SP	_	18	nsubj	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	grave	grave	ADJ	A	Number=Sing	22	amod	_	_
+22	crisi	crisi	NOUN	S	Gender=Fem	19	nmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	livello	livello	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	nazionale	nazionale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = La performance ad Aosta dimostra che la Lega è in grado di raccogliere consensi anche dalle aree tradizionalmente meno propense al voto di destra, come la Valle d'Aosta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	performance	performance	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	Aosta	Aosta	PROPN	SP	_	2	nmod	_	_
+5	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lega	lega	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	raccogliere	raccogliere	VERB	V	VerbForm=Inf	11	acl	_	_
+14	consensi	consenso	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	aree	area	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+19	tradizionalmente	tradizionalmente	ADV	B	_	21	advmod	_	_
+20	meno	meno	ADV	B	_	21	advmod	_	_
+21	propense	propenso	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	voto	voto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	destra	destra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	13	punct	_	_
+28	come	come	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Valle	Valle	PROPN	SP	_	13	obl	_	_
+31	d'	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	Aosta	Aosta	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Ma cosa ha determinato una simile crescita della Lega?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	determinato	determinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	simile	simile	ADJ	A	Number=Sing	7	amod	_	_
+7	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lega	Lega	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = In parte, è stato il risultato del successo nazional-popolare di Salvini, che è stato in grado di attrarre consensi anche in una piccola città come Aosta.
+1	In	in	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	successo	successo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	nazional-	_	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	popolare	popolare	ADJ	A	Number=Sing	10	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Salvini	Salvini	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	grado	grado	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	attrarre	attrarre	VERB	V	VerbForm=Inf	20	acl	_	_
+23	consensi	consenso	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24	anche	anche	ADV	B	_	28	advmod	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	città	città	NOUN	S	Gender=Fem	22	obl	_	_
+29	come	come	ADP	E	_	30	case	_	_
+30	Aosta	Aosta	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = In parte, è stata l'assenza di un candidato forte e autorevole per il centro-destra, a parte
+1	In	in	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	forte	forte	ADJ	A	Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	autorevole	autorevole	ADJ	A	Number=Sing	11	conj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	centro-destra	centro-destra	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpacesAfter=\n
+

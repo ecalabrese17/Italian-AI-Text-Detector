@@ -1,0 +1,403 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tra i tanti messaggi di emozioni, ricordi, anche quello di Fiorello che si firma "Il tuo scaldapubblico" e scrive:
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Fiorello	Fiorello	PROPN	SP	_	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+16	firma	firmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	scaldapubblico	scaldapubblico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = "Io ho spostato il televisore Al Centro del salotto".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	spostato	spostare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	televisore	televisore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	Al	_	_	_	_	_	_	_	_
+7	A	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Centro	centro	PROPN	SP	_	4	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = E che gli vuoi dire al “Capitano”??
+1	E	e	CCONJ	CC	_	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Capitano	capitano	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Io ho spostato il televisore “Al Centro “ del salotto .
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spostato	spostare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	televisore	televisore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7-8	Al	_	_	_	_	_	_	_	_
+7	A	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Centro	centro	PROPN	SP	_	5	nmod	_	_
+10	“	“	PUNCT	FB	_	13	punct	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Mi godo i miei ricordi ...grazie @ClaudioBaglioni ! !!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	godo	godo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	...grazie	...grazia	NOUN	S	_	5	compound	_	_
+7	@ClaudioBaglioni	@ClaudioBaglioni	PROPN	SP	_	5	nmod	_	_
+8	!	!	PUNCT	FS	_	2	punct	_	_
+9	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Con affetto Il tuo scaldapubblico.
+1	Con	con	ADP	E	_	2	case	_	_
+2	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+3	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	scaldapubblico	scaldapubblico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = — Rosario Fiorello (@Fiorello) 15 settembre 2018 In ambienti della rete ammiraglia Rai si fa rilevare che il dato di ascolto dell'evento veronese è stato tra i migliori, se non il migliore, per una diretta tv di un concerto puro.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Rosario	rosario	PROPN	SP	_	15	nsubj	_	_
+3	Fiorello	Fiorello	PROPN	SP	_	2	flat:name	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	@Fiorello	@Fiorello	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	15	15	NUM	N	NumType=Card	2	nmod	_	_
+8	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	_
+9	2018	2018	NUM	N	NumType=Card	7	flat	_	_
+10	In	in	ADP	E	_	11	case	_	_
+11	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rete	rete	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	ammiraglia	ammiragliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	Rai	Rai	PROPN	SP	_	15	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+19	rilevare	rilevare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+20	che	che	SCONJ	CS	_	33	mark	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dato	dato	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	ascolto	ascolto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	evento	evento	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	veronese	veronese	ADJ	A	Number=Sing	27	amod	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+30	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	cop	_	_
+31	tra	tra	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	19	ccomp	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	38	punct	_	_
+35	se	se	SCONJ	CS	_	38	mark	_	_
+36	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	33	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+43	tv	televisione	NOUN	S	Gender=Fem	42	compound	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+47	puro	puro	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = La regia teatrale e la direzione coreografica è di Giuliano Peparini, la regia televisiva è firmata da Duccio Forzano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	regia	regia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	teatrale	teatrale	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	coreografica	coreografico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Giuliano	Giuliano	PROPN	SP	_	0	root	_	_
+11	Peparini	Peparini	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	regia	regia	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+15	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	firmata	firmare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	Duccio	Duccio	PROPN	SP	_	17	obl:agent	_	_
+20	Forzano	Forzano	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = #AlCentro #Arena di #Verona 14 settembre Ph:
+1	#AlCentro	#AlCentro	ADP	E	_	2	case	_	_
+2	#Arena	#Arena	PROPN	SP	_	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	#Verona	#Verona	PROPN	SP	_	2	nmod	_	_
+5	14	14	NUM	N	NumType=Card	7	nummod	_	_
+6	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	Ph	Ph	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = Angelo Trani pic.twitter.com/QGsfYseBy6 — Claudio Baglioni (@ClaudioBaglioni) 15 settembre 2018 Ballerini, acrobati e giocolieri hanno dato vita alla storia musicale di Baglioni mentre sul palco, per la prima volta al centro dell'Arena di Verona, lo spettacolo di immagini e luci illuminavano la scena.
+1	Angelo	Angelo	PROPN	SP	_	19	nsubj	_	_
+2	Trani	Trani	PROPN	SP	_	1	flat:name	_	_
+3	pic.twitter.com/QGsfYseBy6	pic.twitter.com/QGsfYseBy6	PROPN	SP	_	1	flat:name	_	_
+4	—	—	PUNCT	FF	_	5	punct	_	_
+5	Claudio	Claudio	PROPN	SP	_	1	nmod	_	_
+6	Baglioni	Baglioni	PROPN	SP	_	5	flat:name	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	@ClaudioBaglioni	@ClaudioBaglioni	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	15	15	NUM	N	NumType=Card	13	nummod	_	_
+11	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	_
+12	2018	2018	NUM	N	NumType=Card	10	flat	_	_
+13	Ballerini	ballerini	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	acrobati	acrobata	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	giocolieri	giocoliere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	storia	storia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	musicale	musicale	ADJ	A	Number=Sing	23	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Baglioni	Baglione	PROPN	SP	_	23	nmod	_	_
+27	mentre	mentre	CCONJ	CC	_	30	cc	_	_
+28-29	sul	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	palco	palco	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	19	punct	_	_
+32	per	per	ADP	E	_	35	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	35	amod	_	_
+35	volta	volta	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	_
+36-37	al	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	centro	centro	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39-40	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+39	di	di	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	Arena	Arena	PROPN	SP	_	38	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	Verona	Verona	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	41	punct	_	_
+45	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	41	appos	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	luci	luce	NOUN	S	Gender=Fem|Number=Plur	46	conj	_	_
+51	illuminavano	illuminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	scena	scena	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 11
+# text = Gli anni in sovrimpressione hanno scandito la scaletta di tre ore di concerto, seguendo in maniera cronologica le canzoni del cantautore romano che ha anticipato con tre date all'Arena il tour nei palasport che partirà in autunno.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	sovrimpressione	sovrimpressione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scandito	scandire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scaletta	scaletta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	tre	tre	NUM	N	NumType=Card	11	nummod	_	_
+11	ore	ora	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	seguendo	seguire	VERB	V	VerbForm=Ger	6	advcl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	cronologica	cronologico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cantautore	cantautore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	romano	romano	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	anticipato	anticipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	tre	tre	NUM	N	NumType=Card	30	nummod	_	_
+30	date	data	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	ccomp	_	_
+31-32	all'	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	Arena	Arena	PROPN	SP	_	30	obl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tour	tour	NOUN	S	Gender=Masc	30	nsubj	_	_
+36-37	nei	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	palasport	palasport	NOUN	S	Gender=Masc	35	nmod	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	acl:relcl	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Dopo l'anteprima con Signora Lia (1970) cantata in versione acustica sotto il celebre balcone di Giulietta a Verona, Baglioni è entrato nell'Arena introdotto da un video in bianco e nero accompagnato dai ballerini e performer scatenati nelle strade della città.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	anteprima	anteprima	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	Signora	signore	PROPN	SP	_	3	nmod	_	_
+6	Lia	Lia	PROPN	SP	_	5	flat:name	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	1970	1970	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	cantata	cantare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	versione	versione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	acustica	acustico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	sotto	sotto	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	celebre	celebre	ADJ	A	Number=Sing	17	amod	_	_
+17	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Giulietta	Giulietta	PROPN	SP	_	17	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Verona	Verona	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	Baglioni	Baglioni	PROPN	SP	_	25	nsubj	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	entrato	entrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26-27	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	in	in	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	Arena	Arena	PROPN	SP	_	25	obl	_	_
+29	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	video	video	NOUN	S	Gender=Masc|Number=Sing	29	obl:agent	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	nero	nero	ADJ	A	Gender=Masc|Number=Sing	34	conj	_	_
+37	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+38-39	dai	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	ballerini	ballerino	NOUN	S	Gender=Masc|Number=Plur	37	obl:agent	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	performer	performere	AUX	VA	VerbForm=Inf	43	aux	_	_
+43	scatenati	scatenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	conj	_	_
+44-45	nelle	_	_	_	_	_	_	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	strade	strada	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	città	città	NOUN	S	Gender=Fem	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 13
+# text = E sulle note di Questo piccolo grande amore (1972) ha iniziato il suo viaggio musicale, "Tratto da una storia vera" come si legge sul piccolo schermo.
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2-3	sulle	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	note	nota	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+7	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	1972	1972	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	musicale	musicale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Tratto	trarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	storia	storia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	vera	vero	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	21	punct	_	_
+27	come	come	SCONJ	CS	_	29	mark	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+29	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+30-31	sul	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 14
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n
+

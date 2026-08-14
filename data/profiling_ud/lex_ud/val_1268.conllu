@@ -1,0 +1,306 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Io e mia sorella Marina non sapevamo niente ed erano accuse distanti da tutto quello che conoscevamo.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	Marina	marina	PROPN	SP	_	5	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sapevamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	accuse	accudere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+13	distanti	distante	ADJ	A	Number=Plur	12	xcomp	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+18	conoscevamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Mio padre mi disse che non conosceva queste vicende, di stare tranquillo perché era tutto regolare.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	vicende	vicenda	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	stare	stare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+13	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	_
+14	perché	perché	SCONJ	CS	_	17	mark	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	_
+17	regolare	regolare	ADJ	A	Number=Sing	12	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quando è arrivata l’archiviazione per l’accusa di riciclaggio mi sono sentito sollevato, e non ho voluto approfondire oltre", ha aggiunto Pier Silvio Berlusconi.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	archiviazione	archiviazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	riciclaggio	riciclaggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	sollevato	sollevato	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux	_	_
+20	approfondire	approfondire	VERB	V	VerbForm=Inf	13	conj	_	_
+21	oltre	oltre	ADV	B	_	22	advmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+26	Pier	Pier	PROPN	SP	_	25	nsubj	_	_
+27	Silvio	Silvio	PROPN	SP	_	26	flat:name	_	_
+28	Berlusconi	Berlusconi	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Che poi ha detto di non aver mai conosciuto l’avvocato inglese David Mills:
+1	Che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+2	poi	poi	ADV	B	_	1	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	inglese	inglese	ADJ	A	Number=Sing	11	amod	_	_
+13	David	David	PROPN	SP	_	11	nmod	_	_
+14	Mills	Mills	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = "Ne ho sentito parlare dagli avvocati o leggendo articoli sui giornali.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	4	parataxis	_	_
+6-7	dagli	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	leggendo	leggere	VERB	V	VerbForm=Ger	5	conj	_	_
+11	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Io mi occupo di programmazione.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	occupo	occupo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	programmazione	programmazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = L’acquisto dei diritti tv è roba da superspecialisti, per sapere cosa si compra bisogna guardare ore di programmi e di film.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	tv	tv	NOUN	S	Gender=Masc	5	compound	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	roba	robare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	superspecialisti	superspecialista	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	sapere	sapere	VERB	V	VerbForm=Inf	16	advcl	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	compra	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+17	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+18	guardare	guardare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	ore	ora	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	film	film	NOUN	S	Gender=Masc	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = I diritti sono sempre stati una componente importante, prima se ne occupava Bernasconi (ex manager del gruppo poi deceduto, ndr), poi Maurizio Carlotti, io ho iniziato a seguire dopo, ma c’erano degli esperti, sapevo solo che ci approvvigionavamo da tutte le major Usa e comunque anche oggi non so dire quale prodotto ha un certo produttore e chi si occupa delle trattative".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	sempre	sempre	ADV	B	_	7	advmod	_	_
+5	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	componente	componente	NOUN	S	Number=Sing	0	root	_	_
+8	importante	importante	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	prima	prima	ADV	B	_	13	advmod	_	_
+11	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	occupava	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+14	Bernasconi	Bernasconi	PROPN	SP	_	13	obj	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	ex	ex	ADJ	A	_	17	amod	_	_
+17	manager	manager	NOUN	S	_	14	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	poi	poi	ADV	B	_	22	advmod	_	_
+22	deceduto	decedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	ndr	ndr	NOUN	S	_	22	obl	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	poi	poi	ADV	B	_	28	advmod	_	_
+28	Maurizio	Maurizio	PROPN	SP	_	7	conj	_	_
+29	Carlotti	Carlotti	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+32	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	seguire	seguire	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	dopo	dopo	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	43	punct	_	_
+38	ma	ma	CCONJ	CC	_	43	cc	_	_
+39	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	43	expl	_	SpaceAfter=No
+40	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
+41-42	degli	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	7	punct	_	_
+45	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+46	solo	solo	ADV	B	_	49	advmod	_	_
+47	che	che	SCONJ	CS	_	49	mark	_	_
+48	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	49	expl	_	_
+49	approvvigionavamo	approvvigionare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	45	ccomp	_	_
+50	da	da	ADP	E	_	53	case	_	_
+51	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	53	det:predet	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	major	major	NOUN	S	_	49	obl	_	_
+54	Usa	Usa	PROPN	SP	_	53	nmod	_	_
+55	e	e	CCONJ	CC	_	60	cc	_	_
+56	comunque	comunque	ADV	B	_	60	advmod	_	_
+57	anche	anche	ADV	B	_	60	advmod	_	_
+58	oggi	oggi	ADV	B	_	60	advmod	_	_
+59	non	non	ADV	BN	PronType=Neg	60	advmod	_	_
+60	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	49	conj	_	_
+61	dire	dire	VERB	V	VerbForm=Inf	60	ccomp	_	_
+62	quale	quale	DET	DQ	Number=Sing|PronType=Int	63	det	_	_
+63	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	64	obj	_	_
+64	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	ccomp	_	_
+65	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+66	certo	certo	ADJ	A	Gender=Masc|Number=Sing	67	amod	_	_
+67	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	64	obj	_	_
+68	e	e	CCONJ	CC	_	71	cc	_	_
+69	chi	chi	PRON	PR	PronType=Rel	71	nsubj	_	_
+70	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	71	expl	_	_
+71	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	conj	_	_
+72-73	delle	_	_	_	_	_	_	_	_
+72	di	di	ADP	E	_	74	case	_	_
+73	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	74	det	_	_
+74	trattative	trattativa	NOUN	S	Gender=Fem|Number=Plur	71	obl	_	SpaceAfter=No
+75	"	"	PUNCT	FB	_	74	punct	_	SpaceAfter=No
+76	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Il produttore televisivo statunitense Frank Agrama?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	televisivo	televisivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	statunitense	statunitense	ADJ	A	Number=Sing	2	amod	_	_
+5	Frank	Frank	PROPN	SP	_	2	nmod	_	_
+6	Agrama	Agrama	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Per me era un signor nessuno.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	signor	signore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	nessuno	nessuno	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Ho incontrato Agrama una sola volta, nei primi anni del 2000, a una festa a Cannes, si presentò e trovai il personaggio folcloristico e un poco invadente, i suoi atteggiamenti e i suoi modi mi fecero sorridere ".
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	Agrama	Agrama	PROPN	SP	_	2	obj	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	2000	2000	NUM	N	NumType=Card	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	festa	festa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Cannes	Cannes	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	presentò	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	23	conj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	folcloristico	folcloristico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	poco	poco	ADV	B	_	32	advmod	_	_
+32	invadente	invadente	ADJ	A	Number=Sing	27	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	2	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	atteggiamenti	atteggiamente	NOUN	S	Gender=Masc|Number=Plur	42	obj	_	_
+37	e	e	CCONJ	CC	_	42	cc	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	modi	modo	NOUN	S	Gender=Masc|Number=Plur	42	nsubj	_	_
+41	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	42	obj	_	_
+42	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+43	sorridere	sorridere	VERB	V	VerbForm=Inf	42	xcomp	_	_
+44	"	"	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

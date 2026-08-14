@@ -1,0 +1,367 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ad annunciarlo è stato il viceparroco della chiesa di Sant’Anna, a Roma, dove venerdì prossimo alle 11 si svolgeranno i funerali delle due studentesse morte ieri nel crollo di un costone mentre erano in gita scolastica nell’isola di Ventotene.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2-3	annunciarlo	_	_	_	_	_	_	_	_
+2	annunciar	annunciare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	viceparroco	viceparroco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Sant’	Santo	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	Anna	Anna	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Roma	Roma	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	dove	dove	ADV	B	_	25	advmod	_	_
+19	venerdì	venerdì	NOUN	S	Gender=Masc	25	obl	_	_
+20	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	11	11	NUM	N	NumType=Card	19	nmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:pass	_	_
+25	svolgeranno	svolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	acl:relcl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	funerali	funerale	NOUN	S	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	due	due	NUM	N	NumType=Card	31	nummod	_	_
+31	studentesse	studente	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+32	morte	morto	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+33	ieri	ieri	ADV	B	_	25	advmod	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	costone	costone	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	mentre	mentre	SCONJ	CS	_	43	mark	_	_
+41	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	gita	gita	NOUN	S	Gender=Fem|Number=Sing	25	advcl	_	_
+44	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45-46	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+45	in	in	ADP	E	_	47	case	_	_
+46	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	isola	isola	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	Ventotene	Ventotene	PROPN	SP	_	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = "Chiunque vorrà dare loro l’ultimo saluto - ha aggiunto il viceparroco - potrà comunque visitare la camera ardente".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+3	vorrà	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+9	-	-	PUNCT	FF	_	11	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	viceparroco	viceparroco	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14	-	-	PUNCT	FB	_	11	punct	_	_
+15	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	_
+16	comunque	comunque	ADV	B	_	17	advmod	_	_
+17	visitare	visitare	VERB	V	VerbForm=Inf	4	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	camera	camera	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	ardente	ardente	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Aperta un'inchiesta Un’inchiesta aperta per duplice omicidio colposo e lesioni aggravate, una spiaggia sotto sequestro ma nessun indagato per la tragedia avvenuta ieri a Cala Rossano.
+1	Aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	duplice	duplice	ADJ	A	Number=Sing	9	amod	_	_
+9	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	colposo	colposo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	aggravate	aggravato	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+17	sotto	sotto	ADP	E	_	18	case	_	_
+18	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	indagato	indagato	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26	ieri	ieri	ADV	B	_	25	advmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	Cala	Cala	PROPN	SP	_	25	obl	_	_
+29	Rossano	Rossano	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Lo conferma il procuratore aggiunto di Latina Nunzia D’Elia.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	aggiunto	aggiunto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Latina	Latina	PROPN	SP	_	4	nmod	_	_
+8	Nunzia	Nunzia	PROPN	SP	_	7	flat:name	_	_
+9	D’	D’	ADP	E	_	10	case	_	SpaceAfter=No
+10	Elia	elia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Ci sono indagini a 360 gradi - spiega - finalizzate a verificare la consistenza geologica della roccia ed eventuali piccole avvisaglie avvenute in passato che avrebbero potuto mettere in guardia".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	360	360	NUM	N	NumType=Card	7	nummod	_	_
+7	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	-	-	PUNCT	FF	_	9	punct	_	_
+9	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	-	-	PUNCT	FF	_	9	punct	_	_
+11	finalizzate	finalizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	verificare	verificare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	consistenza	consistenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	geologica	geologico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	roccia	roccia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	ed	e	CCONJ	CC	_	23	cc	_	_
+21	eventuali	eventuale	ADJ	A	Number=Plur	23	amod	_	_
+22	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	avvisaglie	avvisaglia	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	avvenute	avvenire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	passato	passato	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux	_	_
+30	mettere	mettere	VERB	V	VerbForm=Inf	26	acl:relcl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il fascicolo aperto in procura è quindi ancora contro ignoti e sulla posizione del sindaco di Ventotene Giuseppe Assenso il procuratore D’Elia ha precisato:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fascicolo	fascicolo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	procura	procura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	quindi	quindi	ADV	B	_	10	advmod	_	_
+8	ancora	ancora	ADV	B	_	10	advmod	_	_
+9	contro	contro	ADV	B	_	10	advmod	_	_
+10	ignoti	ignoto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Ventotene	Ventotene	PROPN	SP	_	17	nmod	_	_
+20	Giuseppe	Giuseppe	PROPN	SP	_	17	nmod	_	_
+21	Assenso	Assenso	PROPN	SP	_	20	flat:name	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+24	D’	Do	ADP	E	_	25	case	_	SpaceAfter=No
+25	Elia	elia	PROPN	SP	_	23	nmod	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	precisato	precisare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 7
+# text = "Alla luce delle notizie attualmente acquisite non abbiamo ritenuto di doverlo indagare.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2-3	Alla	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	luce	luce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	notizie	notizie	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	attualmente	attualmente	ADV	B	_	9	advmod	_	_
+9	acquisite	acquisito	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	di	di	ADP	E	_	16	mark	_	_
+14-15	doverlo	_	_	_	_	_	_	_	_
+14	dover	dovere	AUX	VM	VerbForm=Inf	16	aux	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	indagare	indagare	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ma l’indagine è appena iniziata.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = C’è una delega ai carabinieri per le prime verifiche di carattere amministrativo.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	delega	delega	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	verifiche	verifica	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	amministrativo	amministrativo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Al di là della tragedia occorre acquisire atti in Comune e procedere a un accertamento sulla legislatura della materia, che riguarda anche la Regione".
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	7	advmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	acquisire	acquisire	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	atti	atto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Comune	comune	PROPN	SP	_	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	procedere	procedere	VERB	V	VerbForm=Inf	9	conj	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	accertamento	accertamento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	legislatura	legislatura	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	materia	materia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+27	anche	anche	ADV	B	_	29	advmod	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Per quanto riguarda eventuali altre zone a rischio sull’isola Nunzia D’Elia ha spiegato:
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	16	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	eventuali	eventuale	ADJ	A	Number=Plur	3	xcomp	_	_
+5	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	zone	zona	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+9	su	su	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	isola	isola	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+12	Nunzia	Nunzia	PROPN	SP	_	11	nmod	_	_
+13	D’	D’	ADP	E	_	14	case	_	SpaceAfter=No
+14	Elia	elia	PROPN	SP	_	12	nmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 12
+# text = "Con il sostituto Saveriano siamo stati sull’isola ieri.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sostituto	sostituto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	Saveriano	Saveriano	PROPN	SP	_	4	nmod	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+8-9	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	isola	isola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	ieri	ieri	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Abbiamo visto la spiaggia più grande, quella di Cala Nave dove si stanno effettuando lavori che saranno finiti a breve per mettere in sicurezza un tratto pericoloso entro l’estate".
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	grande	grande	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Cala	Cala	PROPN	SP	_	8	nmod	_	_
+11	Nave	nave	PROPN	SP	_	10	flat:name	_	_
+12	dove	dove	ADV	B	_	15	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	effettuando	effettuare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+16	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+19	finiti	finire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	breve	breve	ADJ	A	Number=Sing	19	obl	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	mettere	mettere	VERB	V	VerbForm=Inf	19	advcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+28	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	entro	entro	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	estate	estate	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

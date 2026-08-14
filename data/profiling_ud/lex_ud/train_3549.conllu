@@ -1,0 +1,636 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le temperature, spiegano i meteorologi, subiranno un calo generalizzato, più marcato nella giornata di domani.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	spiegano	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	meteorologi	meteorologo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	subiranno	subirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	calo	calo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	generalizzato	generalizzato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	marcato	marcato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	domani	domani	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Per quel che riguarda nuvole e piogge, invece, oggi sarà ancora caratterizzato da condizioni di tempo buono in gran parte d'Italia.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	piogge	pioggia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	invece	invece	ADV	B	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	oggi	oggi	ADV	B	_	14	advmod	_	_
+12	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	caratterizzato	caratterizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	buono	buono	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	gran	gran	ADJ	A	Number=Sing	22	amod	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	Italia	Italia	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Domani, invece, un vortice depressionario scivolerà lungo la Penisola favorendo, oltre al deciso calo termico, anche una marcata instabilità al Centrosud con numerosi temporali soprattutto nelle regioni centrali adriatiche e al Sud.
+1	Domani	domani	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vortice	vortice	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	depressionario	depressionario	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	scivolerà	scivolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	lungo	lungo	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Penisola	penisola	PROPN	SP	_	8	obl	_	_
+12	favorendo	favorire	VERB	V	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	oltre	oltre	ADV	B	_	18	case	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	deciso	deciso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	calo	calo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19	termico	termico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	anche	anche	ADV	B	_	24	advmod	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	marcata	marcato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	instabilità	instabilità	NOUN	S	Gender=Fem	12	obj	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Centrosud	Centrosud	PROPN	SP	_	24	nmod	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+30	temporali	temporale	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+31	soprattutto	soprattutto	ADV	B	_	34	advmod	_	_
+32-33	nelle	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+35	centrali	centrale	ADJ	A	Number=Plur	34	amod	_	_
+36	adriatiche	adriatiche	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Sud	Sud	PROPN	SP	_	36	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = LE PREVISIONI Nuvole in arrivo.
+1	LE	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PREVISIONI	previsioni	PROPN	SP	_	0	root	_	_
+3	Nuvole	Nuvole	PROPN	SP	_	2	flat:name	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Dal pomeriggio un po' di nuvole, alternate a schiarite, arrivano su zone alpine, Friuli Venezia Giulia, Centro, Gargano e Sardegna, con isolati rovesci o temporali su Alpi Occidentali e zone interne tra basso Lazio e Abruzzo.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	alternate	alternare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	schiarite	schiarita	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	su	su	ADP	E	_	15	case	_	_
+15	zone	zona	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	alpine	alpino	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	Friuli	Friuli	PROPN	SP	_	13	nsubj	_	_
+19	Venezia	Venezia	PROPN	SP	_	18	flat:name	_	_
+20	Giulia	Giulia	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	Centro	centro	PROPN	SP	_	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	Gargano	Gargano	PROPN	SP	_	18	conj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	Sardegna	Sardegna	PROPN	SP	_	18	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	18	punct	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	isolati	isolato	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+30	rovesci	rovesce	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	o	o	CCONJ	CC	_	32	cc	_	_
+32	temporali	temporale	ADJ	A	Number=Plur	30	conj	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	Alpi	Alpi	PROPN	SP	_	32	obl	_	_
+35	Occidentali	occidentale	ADJ	A	Number=Plur	34	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	zone	zona	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+38	interne	interno	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+39	tra	tra	ADP	E	_	41	case	_	_
+40	basso	basso	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+41	Lazio	Lazio	PROPN	SP	_	38	obl	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	Abruzzo	Abruzzo	PROPN	SP	_	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = In serata breve fase instabile con locali rovesci o temporali anche su Trentino Alto Adige, basso Piemonte e Liguria centrale, in trasferimento nella notte all'Emilia.
+1	In	in	ADP	E	_	2	case	_	_
+2	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	breve	breve	ADJ	A	Number=Sing	2	amod	_	_
+4	fase	fase	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+5	instabile	instabile	ADJ	A	Number=Sing	4	amod	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	locali	locale	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	rovesci	rovesce	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	temporali	temporale	ADJ	A	Number=Plur	8	conj	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	Trentino	Trentino	PROPN	SP	_	4	nmod	_	_
+14	Alto	Alto	PROPN	SP	_	13	flat:name	_	_
+15	Adige	Adige	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	basso	basso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	Piemonte	Piemonte	PROPN	SP	_	13	appos	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Liguria	Liguria	PROPN	SP	_	18	conj	_	_
+21	centrale	centrale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	notte	notte	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	all'	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	Emilia	Emilia	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sempre nella notte, rischio di rovesci o temporali tra basso Lazio, Abruzzo, Molise, Campania settentrionale e nord Puglia settentrionale.
+1	Sempre	sempre	ADV	B	_	4	advmod	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	rovesci	rovesce	NOUN	S	Gender=Masc	6	nmod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	temporali	temporale	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+11	tra	tra	ADP	E	_	13	case	_	_
+12	basso	basso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	Lazio	Lazio	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Abruzzo	Abruzzo	PROPN	SP	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Molise	Molise	PROPN	SP	_	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	Campania	Campania	PROPN	SP	_	8	conj	_	_
+20	settentrionale	settentrionale	ADJ	A	Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	nord	nord	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+23	Puglia	Puglia	PROPN	SP	_	22	nmod	_	_
+24	settentrionale	settentrionale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Temperature massime in diminuzione in gran parte del Paese, ma ancora al di sopra della norma in diverse regioni:
+1	Temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	massime	massimo	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	gran	gran	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	20	punct	_	_
+12	ma	ma	CCONJ	CC	_	20	cc	_	_
+13	ancora	ancora	ADV	B	_	17	advmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sopra	sopra	ADV	B	_	20	advmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	norma	norma	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = picchi di caldo intenso con punte vicine ai 35 gradi saranno ancora possibili nel settore ionico e nel sudest della Sicilia.
+1	picchi	picchio	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	intenso	intenso	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	punte	punta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	35	35	NUM	N	NumType=Card	11	nummod	_	_
+11	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	possibili	possibili	ADJ	A	Number=Plur	0	root	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	settore	settore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	ionico	ionico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sudest	sudest	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Sicilia	Sicilia	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 10
+# text = Venti di maestrale, da deboli a moderati, su gran parte del Centrosud e Isole, specie in Sardegna, dove saranno in ulteriore rinforzo dalla sera.
+1	Venti	vento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	maestrale	maestrale	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	deboli	debolo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	moderati	moderare	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	gran	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Centrosud	Centrosud	PROPN	SP	_	1	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Isole	Isole	PROPN	SP	_	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	specie	specie	NOUN	S	Gender=Fem	1	nmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Sardegna	Sardegna	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	dove	dove	ADV	B	_	24	advmod	_	_
+24	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	ulteriore	ulteriore	ADJ	A	Number=Sing	27	amod	_	_
+27	rinforzo	rinforzare	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	sera	sera	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Allerta temporali.
+1	Allerta	Allerta	NOUN	S	Number=Sing	0	root	_	_
+2	temporali	temporale	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Allerta della Protezione civile regionale su tutta l'Emilia-Romagna dalle 20 di stasera, per 40 ore, fino alle 12 di lunedì per temporali.
+1	Allerta	Allerta	PROPN	SP	_	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Protezione	Protezione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	civile	civile	ADJ	A	Number=Sing	4	amod	_	_
+6	regionale	regionale	ADJ	A	Number=Sing	4	amod	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Emilia	Emilia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+12	Romagna	Romagna	PROPN	SP	_	4	nmod	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	20	20	NUM	N	NumType=Card	1	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	stasera	stasera	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	40	40	NUM	N	NumType=Card	21	nummod	_	_
+21	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	fino	fino	ADV	B	_	26	case	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	12	12	NUM	N	NumType=Card	1	nummod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	lunedì	lunedì	NOUN	S	Gender=Masc	26	nmod	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	temporali	temporale	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Secondo quanto riferisce la nota di attivazione della fase di attenzione nelle prime ore del mattino di domenica i fenomeni interesseranno principalmente la pianura centro-occidentale, per traslare nel pomeriggio verso il settore est. Temperature in calo.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	24	obl	_	_
+3	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nota	nota	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	attivazione	attivazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fase	fase	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	16	amod	_	_
+16	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	fenomeni	fenomeno	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+24	interesseranno	interesserare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+25	principalmente	principalmente	ADV	B	_	24	advmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pianura	pianura	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+28	centro-occidentale	centro-occidentale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	24	punct	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	traslare	traslare	VERB	V	VerbForm=Inf	24	advcl	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	verso	verso	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	settore	settore	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	est	est	SYM	X	_	40	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	38	punct	_	_
+40	Temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	calo	calo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 14
+# text = Domani sole diffuso al Nordovest, in prevalenza soleggiato anche sul Triveneto:
+1	Domani	Domani	ADV	B	_	2	advmod	_	_
+2	sole	sole	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Nordovest	Nordovest	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	prevalenza	prevalenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	soleggiato	soleggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Triveneto	Triveneto	PROPN	SP	_	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = nuvolosità molto irregolare e variabile nel resto d'Italia.
+1	nuvolosità	nuvolosità	NOUN	S	Gender=Fem	0	root	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	irregolare	irregolare	ADJ	A	Number=Sing	1	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	variabile	variabile	ADJ	A	Number=Sing	3	conj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	resto	resto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Al mattino rovesci o temporali su Emilia Romagna e nella fascia tra bassa Campania, Lucania e Puglia centrale, più isolati su Abruzzo, nord della Calabria e delle Isole.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	rovesci	rovere	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	temporali	temporali	ADJ	A	Number=Plur	4	conj	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	Emilia	Emilia	PROPN	SP	_	3	nmod	_	_
+9	Romagna	Romagna	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fascia	fascia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+14	tra	tra	ADP	E	_	16	case	_	_
+15	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	Campania	Campania	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	Lucania	Lucania	PROPN	SP	_	16	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Puglia	Puglia	PROPN	SP	_	16	conj	_	_
+21	centrale	centrale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	isolati	isolato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+25	su	su	ADP	E	_	26	case	_	_
+26	Abruzzo	Abruzzo	PROPN	SP	_	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	nord	nord	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Calabria	Calabria	PROPN	SP	_	28	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	Isole	Isole	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Nel pomeriggio instabilità più diffusa al Centrosud, con numerosi rovesci o temporali su zone interne del Centro, medio-basso Adriatico, alto Ionio e, più verso sera, anche sul basso Tirreno.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+4	instabilità	instabilità	NOUN	S	Gender=Fem	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Centrosud	Centrosud	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	rovesci	rovesce	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	temporali	temporale	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	zone	zona	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	interne	interno	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Centro	Centro	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	medio	medio	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	basso	basso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	Adriatico	Adriatico	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	21	punct	_	_
+28	alto	alto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	Ionio	Ionio	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	più	più	ADV	B	_	21	conj	_	_
+33	verso	verso	ADP	E	_	34	case	_	_
+34	sera	sera	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	anche	anche	ADV	B	_	39	advmod	_	_
+37-38	sul	_	_	_	_	_	_	_	_
+37	su	su	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	basso	basso	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+40	Tirreno	Tirreno	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Non si escludono episodi di forte intensità nel settore del medio-basso Adriatico e dell'alto Ionio.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	escludono	escludere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	forte	forte	ADJ	A	Number=Sing	7	amod	_	_
+7	intensità	intensità	NOUN	S	Gender=Fem	4	nmod	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	settore	settore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	medio	medio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+15	basso	basso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	Adriatico	Adriatico	PROPN	SP	_	3	nsubj	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	21	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	alto	alto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	Ionio	Ionio	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Temperature massime in ulteriore decisa diminuzione in Emilia, Romagna, Centrosud e Isole: fine del caldo anomalo in tutta Italia.
+1	Temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	massime	massimo	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	ulteriore	ulteriore	ADJ	A	Number=Sing	6	amod	_	_
+5	decisa	decidere	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Emilia	Emilia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Romagna	Romagna	PROPN	SP	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Centrosud	Centrosud	PROPN	SP	_	8	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Isole	Isole	PROPN	SP	_	8	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+16	fine	fine	NOUN	S	Number=Sing	1	appos	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	anomalo	anomalo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	23	det	_	_
+23	Italia	Italia	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Massime non oltre 25-27 gradi al Centronord e in Sardegna, 29 gradi al Sud con ultime, locali punte di 30-31 sullo Ionio.
+1	Massime	massima	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	oltre	oltre	ADP	E	_	7	case	_	_
+4	25	25	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	27	27	NUM	N	NumType=Card	4	compound	_	_
+7	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Centronord	Centronord	PROPN	SP	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Sardegna	Sardegna	PROPN	SP	_	1	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	29	29	NUM	N	NumType=Card	16	nummod	_	_
+16	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Sud	Sud	PROPN	SP	_	16	nmod	_	_
+20	con	con	ADP	E	_	24	case	_	_
+21	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	24	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	locali	locale	ADJ	A	Number=Plur	24	amod	_	_
+24	punte	punta	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	30	30	NUM	N	NumType=Card	24	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	31	31	NUM	N	NumType=Card	26	compound	_	_
+29-30	sullo	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Ionio	Ionio	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

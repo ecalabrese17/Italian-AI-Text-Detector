@@ -1,0 +1,1371 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era stato dato per spacciato.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	spacciato	spacciato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Nel 2015, due anni dopo essere scappato dalla Siria con i genitori e approdato in Germania, la sua malattia si era aggravata.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2015	2015	NUM	N	NumType=Card	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+7	dopo	dopo	ADV	B	_	6	advmod	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	scappato	scappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Siria	Siria	PROPN	SP	_	9	obl:agent	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	approdato	approdare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Germania	Germania	PROPN	SP	_	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	26	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	aggravata	aggravare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = L'epidermolisi bolllosa è causata dal difetto di un gene.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	epidermolisi	epidermolisi	NOUN	S	Gender=Fem	5	nsubj:pass	_	_
+3	bolllosa	bollloso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	causata	causare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	difetto	difetto	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gene	gena	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = L'epidermide, in mancanza di una proteina, non si lega al derma sottostante e la pelle si sfarina, cade.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	epidermide	epidermide	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	proteina	proteina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	lega	legare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	derma	derma	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+16	sottostante	sottostante	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	sfarina	sfarina	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	cade	cada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Proprio come le ali di una farfalla.
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	ali	ala	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	farfalla	farfalla	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Quando Hassan aveva una settimana, i medici in Siria ci avevano comunicato la diagnosi.
+1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	4	mark	_	_
+3	Hassan	Hassan	PROPN	SP	_	4	nsubj	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	medici	medico	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Siria	Siria	PROPN	SP	_	14	obl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	iobj	_	_
+13	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	comunicato	comunicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	diagnosi	diagnosi	NOUN	S	Gender=Fem	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Avevano aggiunto che non esistevano cure" racconta il padre.
+1	Avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	esistevano	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	cure	cure	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	8	punct	_	_
+8	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	padre	padre	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = FOTO Così Hassan è tornato a giocare a calcio A ottobre del 2015, mentre Hassan è in fin di vita con l'80% del corpo privo di pelle, piagato da febbre e infezioni, sedato per lenire il dolore, ridotto a 17 chili, nutrito solo con la flebo, a Modena Michele De Luca e Graziella Pellegrini si affrettano per salire su un jet affittato per l'emergenza, destinazione Bochum .
+1	FOTO	foto	PROPN	SP	_	5	nsubj	_	_
+2	Così	così	PROPN	SP	_	1	flat:name	_	_
+3	Hassan	Hassan	PROPN	SP	_	1	flat:name	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	giocare	giocare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	A	a	ADP	E	_	11	case	_	_
+11	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	2015	2015	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	mentre	mentre	SCONJ	CS	_	20	mark	_	_
+17	Hassan	Hassan	PROPN	SP	_	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	fin	fine	NOUN	S	Gender=Fem|Number=Sing	66	nsubj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	con	con	ADP	E	_	26	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	80	80	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	20	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	privo	privo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	20	punct	_	_
+34	piagato	piagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	febbre	febbre	NOUN	S	Gender=Fem|Number=Plur	34	obl:agent	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	infezioni	infezione	NOUN	S	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	20	punct	_	_
+40	sedato	sedare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	lenire	lenire	VERB	V	VerbForm=Inf	40	advcl	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	20	punct	_	_
+46	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+47	a	a	ADP	E	_	49	case	_	_
+48	17	17	NUM	N	NumType=Card	49	nummod	_	_
+49	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	46	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	20	punct	_	_
+51	nutrito	nutrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+52	solo	solo	ADV	B	_	55	advmod	_	_
+53	con	con	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	flebo	flebo	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	55	punct	_	_
+57	a	a	ADP	E	_	58	case	_	_
+58	Modena	Modena	PROPN	SP	_	51	obl	_	_
+59	Michele	Michele	PROPN	SP	_	58	flat:name	_	_
+60	De	De	PROPN	SP	_	58	flat:name	_	_
+61	Luca	Luca	PROPN	SP	_	58	flat:name	_	_
+62	e	e	CCONJ	CC	_	63	cc	_	_
+63	Graziella	Graziella	PROPN	SP	_	58	conj	_	_
+64	Pellegrini	pellegrini	PROPN	SP	_	63	flat:name	_	_
+65	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	66	expl	_	_
+66	affrettano	affrettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+67	per	per	ADP	E	_	68	mark	_	_
+68	salire	salire	VERB	V	VerbForm=Inf	66	advcl	_	_
+69	su	su	ADP	E	_	71	case	_	_
+70	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	jet	jet	NOUN	S	Gender=Masc	68	obl	_	_
+72	affittato	affittare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	71	acl	_	_
+73	per	per	ADP	E	_	75	case	_	_
+74	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	75	det	_	SpaceAfter=No
+75	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	72	obl	_	SpaceAfter=No
+76	,	,	PUNCT	FF	_	77	punct	_	_
+77	destinazione	destinazione	NOUN	S	Gender=Fem|Number=Sing	75	conj	_	_
+78	Bochum	Bochum	PROPN	SP	_	77	nmod	_	_
+79	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = In mano, i due ricercatori del Centro di Medicina Rigenerativa dell'università di Modena e Reggio Emilia hanno un contenitore per il trasporto degli organi.
+1	In	in	ADP	E	_	2	case	_	_
+2	mano	mano	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Centro	centro	PROPN	SP	_	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Medicina	medicina	PROPN	SP	_	9	nmod	_	_
+12	Rigenerativa	Rigenerativo	PROPN	SP	_	9	flat:name	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	università	università	NOUN	S	Gender=Fem	9	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Modena	Modena	PROPN	SP	_	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Reggio	Reggio	PROPN	SP	_	17	conj	_	_
+20	Emilia	Emilia	PROPN	SP	_	19	flat:name	_	_
+21	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	contenitore	contenitore	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	degli	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	organi	organo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 10
+# text = Dentro c'è la combinazione di due delle tecniche più pionieristiche della medicina moderna:
+1	Dentro	dentro	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	combinazione	combinazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	due	due	NUM	N	NumType=Card	5	nmod	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	pionieristiche	pionieristico	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+16	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = cellule staminali e terapia genica.
+1	cellule	cellula	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	staminali	staminale	ADJ	A	Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	terapia	terapio	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	genica	genica	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Messe insieme, hanno permesso di ricostruire in laboratorio la pelle di Hassan, ma con il gene corretto.
+1	Messe	mettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+2	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	ricostruire	ricostruire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Hassan	Hassan	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gene	gena	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+19	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Quei lembi di epidermide - 4100 centimetri quadri per il momento, la metà della superficie perduta - sono l'unica speranza.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	lembi	lembo	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	epidermide	epidermide	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	-	-	PUNCT	FB	_	2	punct	_	_
+6	4100	4100	NUM	N	NumType=Card	7	nummod	_	_
+7	centimetri	centimetro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	quadri	quadre	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	metà	metà	NOUN	S	Gender=Fem	2	conj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	superficie	superficie	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	-	-	PUNCT	FB	_	2	punct	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+22	unica	unico	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 14
+# text = Vengono portati in sala operatoria appena in tempo per tentare l'intervento.
+1	Vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	sala	sala	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	operatoria	operatorio	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	appena	appena	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	tentare	tentare	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Hassan, il bambino 'farfalla' torna a giocare.
+1	Hassan	Hassan	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	farfalla	farfallare	NOUN	S	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	1	punct	_	_
+8	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	giocare	giocare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Poche settimane prima, dall'ospedale tedesco era arrivata a Modena la telefonata di uno dei chirurghi del bambino, Tobias Rothoeft.
+1	Poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+3	prima	prima	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+8	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Modena	Modena	PROPN	SP	_	10	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nmod	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	chirurghi	chirurgo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	Tobias	Tobias	PROPN	SP	_	16	appos	_	_
+25	Rothoeft	Rothoeft	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = "Noi ci siamo sentiti di provare" racconta De Luca.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sentiti	sentire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	provare	provare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	De	De	PROPN	SP	_	9	nsubj	_	_
+11	Luca	Luca	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = "Da quel momento, per tre mesi, tutti qui al Centro abbiamo lavorato a testa bassa per quell'unico scopo".
+1	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	_
+11	qui	qui	ADV	B	_	16	advmod	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Centro	Centro	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	testa	testa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	quell'	quello	DET	DD	Number=Sing|PronType=Dem	23	det	_	SpaceAfter=No
+22	unico	unico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 19
+# text = Dopo l'operazione, per sperare che la pelle attecchisca è necessario che Hassan resti immobile.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	sperare	sperare	VERB	V	VerbForm=Inf	3	acl	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	attecchisca	attecchisco	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	6	ccomp	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14	Hassan	Hassan	PROPN	SP	_	12	csubj	_	_
+15	resti	resto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+16	immobile	immobile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Nelle sue fasce da mummia viene mantenuto in anestesia totale per una settimana.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fasce	fascia	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	mummia	mummia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	mantenuto	mantenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	anestesia	anestesia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	totale	totale	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = Al risveglio delira.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	risveglio	risveglio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	delira	deliro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = "Ma quando, all'ottavo giorno, siamo tornati a Bochum per togliere le bende, ci siamo accorti che l'epidermide aveva attecchito" racconta De Luca.
+1	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	21	cc	_	_
+3	quando	quando	SCONJ	CS	_	11	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	ottavo	ottavo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Bochum	Bochum	PROPN	SP	_	11	obl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	togliere	togliere	VERB	V	VerbForm=Inf	11	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	bende	benda	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+20	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+22	che	che	SCONJ	CS	_	26	mark	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	epidermide	epidermide	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	attecchito	attecchire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	28	punct	_	_
+28	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+29	De	De	PROPN	SP	_	28	nsubj	_	_
+30	Luca	Luca	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 23
+# text = "Non piccoli frammenti qua e là.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	frammenti	frammento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	qua	qua	ADV	B	_	4	advmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	là	là	ADV	B	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Tutto il trapianto stava funzionando.
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trapianto	trapianto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	funzionando	funzionare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = E' stata un'emozione".
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Un lembo della pelle curata con la terapia genica Altri 3000 centimetri quadri vengono trasportati in Germania a novembre 2015.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lembo	lembo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	curata	curare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	genica	genico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	Altri	altro	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+12	3000	3000	NUM	N	NumType=Card	13	nummod	_	_
+13	centimetri	centimetro	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	quadri	quadre	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	trasportati	trasportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Germania	Germania	PROPN	SP	_	16	obl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	2015	2015	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 27
+# text = Sempre con lo stesso contenitore, ma questa volta con un volo normale:
+1	Sempre	sempre	ADV	B	_	5	advmod	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	contenitore	contenitore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	volo	volo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	normale	normale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 28
+# text = Hassan sta meglio, è senza febbre, viene tenuto sveglio dopo l'intervento.
+1	Hassan	Hassan	PROPN	SP	_	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+3	meglio	meglio	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	sveglio	sveglio	ADV	B	_	10	advmod	_	_
+12	dopo	dopo	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 29
+# text = Un terzo passaggio in sala operatoria avviene a gennaio 2016, per gli ultimi 1400 centimetri quadri.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	sala	sala	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	operatoria	operatorio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	2016	2016	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	per	per	ADP	E	_	16	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+14	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	16	amod	_	_
+15	1400	1400	NUM	N	NumType=Card	16	nummod	_	_
+16	centimetri	centimetro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+17	quadri	quadre	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 30
+# text = A febbraio il bambino viene dimesso, dopo sette mesi e mezzo di ospedale.
+1	A	a	ADP	E	_	2	case	_	_
+2	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	dimesso	dimettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	sette	sette	NUM	N	NumType=Card	10	nummod	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = A marzo riprende la scuola elementare a Munster, dove la famiglia si stava faticosamente integrando.
+1	A	a	ADP	E	_	2	case	_	_
+2	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	elementare	elementare	ADJ	A	Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Munster	Munster	PROPN	SP	_	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dove	dove	ADV	B	_	16	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+14	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	faticosamente	faticosamente	ADV	B	_	16	advmod	_	_
+16	integrando	integrare	VERB	V	VerbForm=Ger	8	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = Alla storia di Hassan, risalito alla vita grazie alla scienza, oggi la rivista Nature dedica una serie di articoli e in un editoriale .
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Hassan	Hassan	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	risalito	risalire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	grazie	grazie	NOUN	S	_	14	case	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	oggi	oggi	ADV	B	_	20	advmod	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	Nature	Nature	PROPN	SP	_	18	nmod	_	_
+20	dedica	dedicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	serie	serie	NOUN	S	Gender=Fem	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	editoriale	editoriale	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+29	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 33
+# text = "Lui parla arabo e tedesco, non siamo riusciti a comunicare a parole" racconta De Luca.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	arabo	arabo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	comunicare	comunicare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	16	punct	_	_
+16	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+17	De	De	PROPN	SP	_	16	nsubj	_	_
+18	Luca	Luca	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = "Ma quando mi ha visto la prima volta mi ha sorriso.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	12	cc	_	_
+3	quando	quando	SCONJ	CS	_	6	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sorriso	sorridere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 35
+# text = E in quel sorriso c'era tutto".
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 36
+# text = VIDEO: IL RACCONTO DEL PADRE "Mi sembra un sogno" dice il padre con un filo di voce.
+1	VIDEO	video	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	IL	il	PROPN	SP	_	1	obj	_	_
+4	RACCONTO	racconto	PROPN	SP	_	3	flat:name	_	_
+5-6	DEL	_	_	_	_	_	_	_	_
+5	DI	Di	ADP	E	_	6	case	_	_
+6	IL	il	PROPN	SP	_	3	flat:name	_	_
+7	PADRE	padre	PROPN	SP	_	3	flat:name	_	_
+8	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	filo	filo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	voce	voce	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 37
+# text = "Sapevamo che si trattava di una cura nuova, sperimentale, ma dovevamo tentare il tutto per tutto".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sapevamo	Sapere	PROPN	SP	_	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cura	cura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	sperimentale	sperimentale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	dovevamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	tentare	tentare	VERB	V	VerbForm=Inf	2	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obj	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = La nuova pelle del bambino è elastica e resistente, solo leggermente macchiata e con piccole asperità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	elastica	elastico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	resistente	resistente	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	solo	solo	ADV	B	_	14	advmod	_	_
+13	leggermente	leggermente	ADV	B	_	14	advmod	_	_
+14	macchiata	macchiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	asperità	asperità	NOUN	S	Gender=Fem	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 39
+# text = "La cosa più brutta - ricorda l'uomo - era dover rispondere alle sue domande.
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	-	-	PUNCT	FB	_	7	punct	_	_
+7	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	-	-	PUNCT	FB	_	7	punct	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+12	dover	dovere	AUX	VM	VerbForm=Inf	13	aux	_	_
+13	rispondere	rispondere	VERB	V	VerbForm=Inf	0	root	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 40
+# text = Perché ho questa malattia?
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 41
+# text = Perché devo fare questa vita?
+1	Perché	perché	ADV	B	_	3	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 42
+# text = Ora gioca, è attivo, ama la vita.
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	gioca	gioco	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 43
+# text = Non come prima".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	prima	prima	ADV	B	_	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 44
+# text = Il suo futuro, salvo sorprese, non prevede ricadute.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	salvo	salvo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+6	sorprese	sorpresa	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ricadute	ricaduta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 45
+# text = "Nella ricostruzione dell'epidermide con le staminali per gli ustionati abbiamo trent'anni di esperienza.
+1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2-3	Nella	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	epidermide	epidermide	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	staminali	staminale	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	ustionati	ustionato	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	trent'	trenta	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 46
+# text = Anche a distanza di tempo, in genere non ci sono problemi" spiega De Luca, che di questa tecnica è il pioniere nel mondo.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	genere	genere	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	14	punct	_	_
+14	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+15	De	De	PROPN	SP	_	14	nsubj	_	_
+16	Luca	Luca	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	15	acl:relcl	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pioniere	pioniere	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 47
+# text = "Prima del bambino avevamo trattato altri due pazienti, ma con superfici di epidermide molto ridotte.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Prima	prima	ADV	B	_	5	case	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	pazienti	paziente	NOUN	S	Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	superfici	superficie	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	epidermide	epidermide	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	molto	molto	ADV	B	_	18	advmod	_	_
+18	ridotte	ridotto	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 48
+# text = Gli interventi erano andati bene, ma non avevano inciso molto sulla qualità di vita.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	inciso	incidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	molto	molto	ADV	B	_	10	advmod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	qualità	qualità	NOUN	S	Gender=Fem	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 49
+# text = Ora siamo pronti per tentare nuove sperimentazioni.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	tentare	tentare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	sperimentazioni	sperimentazione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 50
+# text = Hassan, il bambino 'farfalla' torna a giocare.
+1	Hassan	Hassan	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	farfalla	farfallare	NOUN	S	Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	1	punct	_	_
+8	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	giocare	giocare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 51
+# text = Nel caso di Hassan sapevamo che il difetto riguardava un gene chiamato Lamb3.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Hassan	Hassan	PROPN	SP	_	3	nmod	_	_
+6	sapevamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	difetto	difetto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	riguardava	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	gene	gena	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	Lamb3	Lamb3	PROPN	SP	_	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 52
+# text = Per altre forme della malattia ci muoveremmo su un terreno più incerto, ma siamo pronti a provare".
+1	Per	per	ADP	E	_	3	case	_	_
+2	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	forme	forma	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+8	muoveremmo	muoveere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	incerto	incerto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	provare	provare	VERB	V	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 53
+# text = Di epidermolisi soffrono 1.500 persone in Italia e 500mila nel mondo.
+1	Di	di	ADP	E	_	2	case	_	_
+2	epidermolisi	epidermolisi	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+3	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	1.500	1.500	NUM	N	NumType=Card	5	nummod	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	3	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	500mila	500milare	NUM	N	NumType=Card	7	conj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 54
+# text = Il 40% non supera l'adolescenza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	40	40	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	adolescenza	adolescenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 55
+# text = La tecnica è consistita nel prelevare un frammento di pelle sana dal bambino.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	consistita	consistere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prelevare	prelevare	VERB	V	VerbForm=Inf	4	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	frammento	frammento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	sana	sano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 56
+# text = Da lì sono state estratte le cellule staminali.
+1	Da	da	ADP	E	_	2	case	_	_
+2	lì	lì	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	estratte	estrarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	cellule	cellula	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	staminali	staminale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 57
+# text = Un virus assemblato in laboratorio ha infettato le cellule, inserendo nel loro genoma una copia di Lamb3 corretta.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	virus	virus	NOUN	S	Gender=Masc	7	nsubj	_	_
+3	assemblato	assemblare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	infettato	infettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	cellule	cellula	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	inserendo	inserire	VERB	V	VerbForm=Ger	7	advcl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	genoma	genoma	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	copia	copia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Lamb3	Lamb3	PROPN	SP	_	17	nmod	_	_
+20	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 58
+# text = Le staminali a quel punto sono state lasciate proliferare.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	staminali	staminale	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	lasciate	lasciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	proliferare	proliferare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 59
+# text = In 4 settimane hanno formato dei lembi di ampiezza sufficiente per il trapiano.
+1	In	in	ADP	E	_	3	case	_	_
+2	4	4	NUM	N	NumType=Card	3	nummod	_	_
+3	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	formato	formare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	lembi	lembo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ampiezza	ampiezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	sufficiente	sufficiente	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	trapiano	trapiano	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 60
+# text = Il disegno regalato da Hassan ai medici di Modena Il ricercatore ci tiene a ricordare che tutti i costi sono stati sostenuti dalla Regione Emilia Romagna, dal Centro di Medicina Rigenerativa Stefano Ferrari dell'università di Modena, dall'azienda biotech Holostem Terapie Avanzate e dalla Fondazione Cassa di Risparmio di Modena.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Hassan	Hassan	PROPN	SP	_	3	obl:agent	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	medici	medico	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Modena	Modena	PROPN	SP	_	8	nmod	_	_
+11	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ricercatore	ricercatore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	ricordare	ricordare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	che	che	SCONJ	CS	_	23	mark	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	costi	costo	NOUN	S	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	sostenuti	sostenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	ccomp	_	_
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	23	obl:agent	_	_
+27	Emilia	Emilia	PROPN	SP	_	26	nmod	_	_
+28	Romagna	Romagna	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Centro	centro	PROPN	SP	_	23	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Medicina	medicina	PROPN	SP	_	32	nmod	_	_
+35	Rigenerativa	Rigenerativo	PROPN	SP	_	32	nmod	_	_
+36	Stefano	Stefano	PROPN	SP	_	35	flat:name	_	_
+37	Ferrari	Ferrari	PROPN	SP	_	35	flat:name	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	università	università	NOUN	S	Gender=Fem	32	nmod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Modena	Modena	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	32	punct	_	_
+44-45	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+44	da	da	ADP	E	_	46	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	23	obl:agent	_	_
+47	biotech	biotech	NOUN	S	_	46	compound	_	_
+48	Holostem	Holostem	PROPN	SP	_	46	nmod	_	_
+49	Terapie	terapie	PROPN	SP	_	48	flat:name	_	_
+50	Avanzate	avanzato	PROPN	SP	_	48	flat:name	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52-53	dalla	_	_	_	_	_	_	_	_
+52	da	da	ADP	E	_	54	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	Fondazione	fondazione	PROPN	SP	_	46	conj	_	_
+55	Cassa	cassa	PROPN	SP	_	54	flat:name	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	Risparmio	risparmio	PROPN	SP	_	54	nmod	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	Modena	Modena	PROPN	SP	_	54	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 61
+# text = "Avevamo partecipato a dei bandi per i finanziamenti nazionali Prin - dice polemico - ma evidentemente i loro criteri di selezione sono diversi da quelli di Nature".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bandi	bando	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	finanziamenti	finanziamento	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	nazionali	nazionale	ADJ	A	Number=Plur	10	amod	_	_
+12	Prin	Prin	PROPN	SP	_	10	nmod	_	_
+13	-	-	PUNCT	FF	_	3	punct	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+15	polemico	polemico	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	-	-	PUNCT	FF	_	14	punct	_	_
+17	ma	ma	CCONJ	CC	_	25	cc	_	_
+18	evidentemente	evidentemente	ADV	B	_	25	advmod	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	criteri	criterio	NOUN	S	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	selezione	selezione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	diversi	diverso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	25	obl:agent	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Nature	Nature	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 62
+# text = Anche Tobias Rothoeft, chirurgo di Bochum ha qualcosa da precisare prima di tornare da Modena a Bochum:
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Tobias	Tobias	PROPN	SP	_	8	nsubj	_	_
+3	Rothoeft	Rothoeft	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	chirurgo	chirurgo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Bochum	Bochum	PROPN	SP	_	5	nmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	precisare	precisare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	prima	prima	ADV	B	_	14	mark	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	tornare	tornare	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Modena	Modena	PROPN	SP	_	14	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Bochum	Bochum	PROPN	SP	_	14	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 63
+# text = "Il fatto che il paziente fosse un profugo siriano non ha contato nulla per noi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	paziente	paziente	NOUN	S	Number=Sing	9	nsubj	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	profugo	profugo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	siriano	siriano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	contato	contare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+14	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 64
+# text = Il bambino è stato accolto dal sistema sanitario tedesco, che è diverso da quello americano, e curato come avremmo fatto con qualunque altro essere umano".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	acl:relcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
+17	americano	americano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+21	come	come	SCONJ	CS	_	23	mark	_	_
+22	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obl	_	_
+27	essere	essere	AUX	V	VerbForm=Inf	28	cop	_	_
+28	umano	umano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

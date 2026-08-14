@@ -1,0 +1,909 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La società è andata avanti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	società	società	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Poi succede qualcosa di orribile ed è come se tutti venissimo catapultati indietro, nel passato".
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	orribile	orribile	ADJ	A	Number=Sing	3	nmod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	come	come	ADV	B	_	12	advmod	_	_
+9	se	se	SCONJ	CS	_	12	mark	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	nsubj:pass	_	_
+11	venissimo	venissimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	catapultati	catapultare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	indietro	indietro	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	passato	passato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Joe Lansdale, lo scrittore che ha trasformato in romanzo i nostri peggiori incubi, il maestro pulp che con i suoi libri - da Una stagione selvaggia a Freddo a luglio ha sviscerato il lato oscuro dell'America profonda, si dice "preoccupato" dalle tensioni razziali.
+1	Joe	Joe	PROPN	SP	_	44	nsubj	_	_
+2	Lansdale	Lansdale	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	peggiori	peggiore	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+14	incubi	incubo	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+18	pulp	pulp	NOUN	S	Gender=Masc	17	compound	_	_
+19	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	libri	libro	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+24	-	-	PUNCT	FB	_	27	punct	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	selvaggia	selvaggio	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Freddo	freddo	PROPN	SP	_	27	nmod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	sviscerato	sviscerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	lato	lato	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	America	America	PROPN	SP	_	36	nmod	_	_
+41	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	1	punct	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl:impers	_	_
+44	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+45	"	"	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	preoccupato	preoccupato	ADJ	A	Gender=Masc|Number=Sing	44	xcomp	_	SpaceAfter=No
+47	"	"	PUNCT	FB	_	46	punct	_	_
+48-49	dalle	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	44	obl	_	_
+51	razziali	razziale	ADJ	A	Number=Plur	50	amod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	44	punct	_	_
+
+# sent_id = 4
+# text = Ma soprattutto "stanco ".
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	soprattutto	soprattutto	ADV	B	_	4	advmod	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Prima i fatti di Ferguson e Staten Island.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Ferguson	Ferguson	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Staten	Staten	PROPN	SP	_	5	conj	_	_
+8	Island	Island	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ora l'omicidio di due poliziotti a Brooklyn.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Brooklyn	Brooklyn	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Cosa sta succedendo in America?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	succedendo	succedere	VERB	V	VerbForm=Ger	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	America	America	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Quello che accade oggi è sempre accaduto.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	oggi	oggi	ADV	B	_	8	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ha radici profonde.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	radici	radice	NUM	N	NumType=Card	3	nummod	_	_
+3	profonde	profondo	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Siamo un Paese che ha posto le sue basi su schiavitù e segregazione razziale.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	posto	porre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	basi	base	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	schiavitù	schiavitù	NOUN	S	Gender=Fem	9	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	segregazione	segregazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+14	razziale	razziale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Una società basata sulla diffidenza.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	società	società	NOUN	S	Gender=Fem	0	root	_	_
+3	basata	basato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diffidenza	diffidenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Così la gente ha paura della polizia anche quando la polizia è nel giusto, si comporta bene.
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	anche	anche	ADV	B	_	16	advmod	_	_
+10	quando	quando	SCONJ	CS	_	16	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	giusto	giusto	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	bene	bene	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ci sono state troppe ingiustizie:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	ingiustizie	ingiustizia	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = è difficile vedere oltre".
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	oltre	oltre	ADV	B	_	5	advmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = L'odio è tale da sparare a due poliziotti in strada?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	odio	odio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	tale	tale	ADJ	A	Number=Sing	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	sparare	sparare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	strada	strada	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = "Non credo che l'uomo che ha sparato a New York pensasse alle tensioni razziali.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	13	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sparato	sparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	New	New	PROPN	SP	_	9	obl	_	_
+12	York	York	PROPN	SP	_	11	flat:name	_	_
+13	pensasse	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	razziali	razziale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Semmai ha sfruttato questo momento per giustificare la cosa terribile che aveva appena fatto:
+1	Semmai	semmai	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sfruttato	sfruttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	giustificare	giustificare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	terribile	terribile	ADJ	A	Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	appena	appena	ADV	B	_	14	advmod	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = sparare alla fidanzata poche ore prima.
+1	sparare	sparare	VERB	V	VerbForm=Inf	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	ore	ora	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	prima	prima	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Certo, è un'epoca difficile, le tensioni sociali e razziali sono tremende.
+1	Certo	certo	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+10	sociali	sociale	ADJ	A	Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	razziali	razziale	ADJ	A	Number=Plur	10	conj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	tremende	tremendere	ADJ	A	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Ma questo duplice omicidio così efferato non ha niente a che fare con Ferguson.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	duplice	duplice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	efferato	efferato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10	a	a	ADP	E	_	12	mark	_	_
+11	che	che	SCONJ	CS	_	10	fixed	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Ferguson	Ferguson	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = L'assassino ha forse tentato un'estrema nobilitazione del suo gesto.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	assassino	assassino	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	forse	forse	ADV	B	_	5	advmod	_	_
+5	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	nobilitazione	nobilitazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Si è inventato una causa dell'ultim'ora ".
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	causa	causa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	9	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	ultim'	ultim'	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Eppure sembra che l'America non riesca a voltare pagina...
+1	Eppure	eppure	CCONJ	CC	_	2	cc	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	America	America	PROPN	SP	_	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riesca	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	voltare	voltare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	pagina..	pagina..	NOUN	S	_	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = "Il fatto incredibile è che le relazioni fra bianchi e neri non sono mai state così buone.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	incredibile	incredibile	ADJ	A	Number=Sing	3	amod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	18	mark	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	relazioni	relazione	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+9	fra	fra	ADP	E	_	10	case	_	_
+10	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	neri	nero	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	mai	mai	ADV	B	_	18	advmod	_	_
+16	state	essere	AUX	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	cop	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	buone	buono	ADJ	A	Gender=Fem|Number=Plur	5	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Provi a pensare a com'era 50 anni fa dove vivo io, in Texas:
+1	Provi	Provo	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	8	case	_	_
+5	com'	come	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	50	50	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	fa	fa	ADV	B	_	8	advmod	_	_
+10	dove	dove	ADV	B	_	11	advmod	_	_
+11	vivo	vire	ADJ	A	Gender=Masc|Number=Sing	8	acl:relcl	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Texas	Texas	PROPN	SP	_	11	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 26
+# text = sarebbe stato inimmaginabile vedere una coppia mista:
+1	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	inimmaginabile	inimmaginabile	ADJ	A	Number=Sing	0	root	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	mista	misto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 27
+# text = ora nessuno ci fa più caso.
+1	ora	ora	ADV	B	_	4	advmod	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Anche l'omofobia appartiene al passato.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	omofobia	omofobia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	appartiene	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = La società americana è cambiata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	società	società	NOUN	S	Gender=Fem	5	nsubj:pass	_	_
+3	americana	americano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Ma questo non vuol dire che non ci siano tensioni".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Noam Chomsky dice che la società americana è ancora profondamente razzista...
+1	Noam	Noam	PROPN	SP	_	3	nsubj	_	_
+2	Chomsky	Chomsky	PROPN	SP	_	1	flat:name	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	8	nsubj	_	_
+7	americana	americano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	ancora	ancora	ADV	B	_	10	advmod	_	_
+10	profondamente	profondamente	ADV	B	_	8	advmod	_	_
+11	razzista..	razzista	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = "Il razzismo esiste:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 33
+# text = in America come in Europa.
+1	in	in	ADP	E	_	2	case	_	_
+2	America	America	PROPN	SP	_	3	obl	_	_
+3	come	come	ADV	B	_	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Europa	Europa	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Sono stato di recente da voi in Italia e ho sentito dire cose orribili delle persone che chiamate "africani".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	recente	recente	ADJ	A	Number=Sing	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	4	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	orribili	orribile	ADJ	A	Number=Plur	13	amod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	chiamate	chiamare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	africani	africano	ADJ	A	Gender=Masc|Number=Plur	19	xcomp	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = Le persone che non riescono ad accettare la diversità sono ovunque.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	accettare	accettare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	diversità	diversità	NOUN	S	Gender=Fem	7	obj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	ovunque	ovunque	ADV	B	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 36
+# text = E questa è la nostra più grande sconfitta come esseri umani".
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj:pass	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	sconfitta	sconfitta|sconfitto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	umani	umano	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 37
+# text = Ma fa particolarmente impressione in un Paese dove per la prima volta c'è un presidente afroamericano...
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	fa	fare	ADV	B	_	3	advmod	_	_
+3	particolarmente	particolarmente	ADV	B	_	4	advmod	_	_
+4	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	dove	dove	ADV	B	_	14	advmod	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	afroamericano..	afroamericano	NOUN	S	_	16	compound	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 38
+# text = "Obama non è stato capace di fare così bene come molti di noi speravano.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Obama	Obama	PROPN	SP	_	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	capace	capace	ADJ	A	Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	bene	bene	ADV	B	_	8	advmod	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nmod	_	_
+15	speravano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 39
+# text = C'è il problema economico che rimane grave.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	economico	economico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	grave	grave	ADJ	A	Number=Sing	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = E c'è un problema di incomprensione culturale tanto più dove diverse etnie convivono, ma non si mischiano.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	incomprensione	incomprensione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	culturale	culturale	ADJ	A	Number=Sing	7	amod	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	più	più	ADV	B	_	7	advmod	_	_
+11	dove	dove	ADV	B	_	14	advmod	_	_
+12	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	etnie	etnia	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+14	convivono	convivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	mischiano	mischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 41
+# text = Poi c'è questa atavica diffidenza verso la polizia e della polizia verso tutti coloro che sono minimamente sospetti anche se innocenti.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	atavica	atavico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	diffidenza	diffidenza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+14	verso	verso	ADP	E	_	16	case	_	_
+15	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	6	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	minimamente	minimamente	ADV	B	_	20	advmod	_	_
+20	sospetti	sospeggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	anche	anche	ADV	B	_	23	advmod	_	_
+22	se	se	SCONJ	CS	_	23	mark	_	_
+23	innocenti	innocente	ADJ	A	Number=Plur	20	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 42
+# text = Siamo una società fondata sulla paura.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	società	società	NOUN	S	Gender=Fem	0	root	_	_
+4	fondata	fondato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 43
+# text = E la paura porta a reazioni spropositate.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	spropositate	spropositato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 44
+# text = Ma ripeto:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ripeto	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 45
+# text = in altri tempi era peggio".
+1	in	in	ADP	E	_	3	case	_	_
+2	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	peggio	peggio	ADV	B	_	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 46
+# text = Il sindacato dei poliziotti di New York ha detto che il sindaco de Blasio "ha le mani sporche di sangue" per aver sostenuto le proteste contro di loro:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sindacato	sindacato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	New	New	PROPN	SP	_	5	nmod	_	_
+8	York	York	PROPN	SP	_	7	flat:name	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	che	che	SCONJ	CS	_	17	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	de	de	ADP	E	_	15	case	_	_
+15	Blasio	Blasio	PROPN	SP	_	13	nmod	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	mani	mano	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	sporche	sporco	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	26	punct	_	_
+24	per	per	ADP	E	_	26	mark	_	_
+25	aver	avere	AUX	VA	VerbForm=Inf	26	aux	_	_
+26	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	contro	contro	ADP	E	_	31	case	_	_
+30	di	di	ADP	E	_	29	fixed	_	_
+31	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 47
+# text = accuse pesanti...
+1	accuse	accusa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	pesanti..	pesanti..	NOUN	S	_	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 48
+# text = "Sbagliano.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sbagliano	Sbagliano	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 49
+# text = La sola persona responsabile di quello che è accaduto a New York è l'assassino.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	responsabile	responsabile	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	New	New	PROPN	SP	_	9	obl	_	_
+12	York	York	PROPN	SP	_	11	flat:name	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	assassino	assassino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 50
+# text = E poi uno dei valori basilari di questo paese è la libertà d'espressione.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	valori	valore	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	basilari	basilare	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	libertà	libertà	NOUN	S	Gender=Fem	0	root	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 51
+# text = Dobbiamo garantire alla gente il diritto di protestare pacificamente anche quando non siamo d'accordo con loro.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	garantire	garantire	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	protestare	protestare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	pacificamente	pacificamente	ADV	B	_	9	advmod	_	_
+11	anche	anche	ADV	B	_	16	advmod	_	_
+12	quando	quando	SCONJ	CS	_	16	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 52
+# text = Altrimenti non saremmo più l'America".
+1	Altrimenti	altrimenti	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	saremmo	essere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	America	America	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 53
+# text = C'è speranza di uscirne?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	uscirne	_	_	_	_	_	_	_	SpaceAfter=No
+5	uscir	uscire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 54
+# text = "La gente reagisce in maniera sproporzionata e temo che gli americani abbiano l'attitudine a pensare che tutto possa essere risolto con la violenza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	reagisce	reagire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	sproporzionata	sproporzionato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	temo	temere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	americani	americano	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	pensare	pensare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+18	che	che	SCONJ	CS	_	22	mark	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	nsubj:pass	_	_
+20	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	22	aux:pass	_	_
+22	risolto	risolvere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 55
+# text = Ma sono ottimista:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ottimista	ottimista	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 56
+# text = le cose andranno meglio proprio perché oggi la società è più avanti di 50, 25 anni fa.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	andranno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	meglio	meglio	ADV	B	_	3	advmod	_	_
+5	proprio	proprio	ADV	B	_	3	advmod	_	_
+6	perché	perché	SCONJ	CS	_	12	mark	_	_
+7	oggi	oggi	ADV	B	_	12	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	società	società	NOUN	S	Gender=Fem	12	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	avanti	avanti	ADV	B	_	3	advcl	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	50	50	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	25	25	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+18	fa	fa	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 57
+# text = E non saranno fatti terribili come questi a farcelo dimenticare".
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	terribili	terribili	ADJ	A	Number=Plur	4	xcomp	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	obl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	farcelo	farcelo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dimenticare	dimenticare	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

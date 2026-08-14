@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È il suo modo di vedere le cose, di raccontare le storie.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	raccontare	raccontare	VERB	V	VerbForm=Inf	4	acl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	storie	storia	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E anche questa volta non si sottrae alla sua peculiarità.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	sottrae	sottrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	peculiarità	peculiarità	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = La città di Milano, meta di arte, design e moda, è teatro di un mistero che involve il celebre commissario Maigret.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	15	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Milano	Milano	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	meta	meta	NOUN	S	Number=Sing	2	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	arte	arte	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	design	design	NOUN	S	Gender=Masc	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	moda	moda	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	involve	involvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	celebre	celebre	ADJ	A	Number=Sing	23	amod	_	_
+23	commissario	commissario	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	Maigret	Maigret	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 4
+# text = Un freddo insolito per la stagione si è abbattuto sulla città, tanto da renderenecessario l'uso dei cappotti più pesanti.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	insolito	insolito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	abbattuto	abbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	città	città	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	tanto	tanto	ADV	B	_	16	advmod	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	renderenecessario	renderenecessario	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	uso	uso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	cappotti	cappotto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	pesanti	pesante	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = E così, mentre i milanesi si stringono nelle loro case, unського si muove tra le strade della città.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	così	così	ADV	B	_	16	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mentre	mentre	SCONJ	CS	_	8	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	milanesi	milanese	NOUN	S	Number=Plur	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	stringono	stringere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	case	casa	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	unського	unського	PROPN	SP	_	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	strade	strada	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	città	città	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = Mocellin, con la sua esperienza e il suo acuto intuito, si trova a incrociare le strade di Maigret.
+1	Mocellin	Mocellin	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	acuto	acuto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	intuito	intuito	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	incrociare	incrociare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	strade	strada	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Maigret	Maigret	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Un incontro quasi casuale, ma solo in apparenza.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	quasi	quasi	ADV	B	_	4	advmod	_	_
+4	casuale	casuale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = La veramentea è che il commissario ha bisogno di lui, del suo occhio attento e della sua mente PhiPensive.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	veramentea	veramentea	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	commissario	commissario	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+16	attento	attento	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	mente	mente	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+22	PhiPensive	PhiPensivo	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = together they will try to solve the mystery that ha老师 la città.
+1	together	togethere	ADP	E	_	2	case	_	_
+2	they	they	NOUN	S	Gender=Masc	4	nmod	_	_
+3	will	will	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	try	try	X	SW	Foreign=Yes	0	root	_	_
+5	to	to	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	solve	solvo	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	the	the	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	mystery	mystery	X	SW	Foreign=Yes	4	flat:foreign	_	_
+9	that	thare	X	SW	Foreign=Yes	4	flat:foreign	_	_
+10	ha老师	ha老师	PROPN	SP	_	4	nmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	città	città	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Maigret, con la sua esperienza e il suo metodo, e Mocellin, con la sua capacità di guardare oltre le apparenze.ogether they will try to solve the mystery that haiparancaugtasia, together they will try to solve the mystery that haiparancaugtasia, together they will try to solve the mystery that ha teacher.
+1	Maigret	Maigret	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Mocellin	Mocellin	PROPN	SP	_	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	capacità	capacità	NOUN	S	Gender=Fem	1	nmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	guardare	guardare	VERB	V	VerbForm=Inf	18	acl	_	_
+21	oltre	oltre	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	apparenze.ogether	apparenze.ogether	NOUN	S	Number=Sing	54	obl	_	_
+24	they	they	CCONJ	CC	_	54	cc	_	_
+25	will	will	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	try	try	X	SW	Foreign=Yes	54	nsubj	_	_
+27	to	to	X	SW	Foreign=Yes	26	flat:foreign	_	_
+28	solve	solvo	X	SW	Foreign=Yes	26	flat:foreign	_	_
+29	the	the	X	SW	Foreign=Yes	26	flat:foreign	_	_
+30	mystery	mystery	X	SW	Foreign=Yes	26	flat:foreign	_	_
+31	that	that	X	SW	Foreign=Yes	26	flat:foreign	_	_
+32	haiparancaugtasia	haiparancaugtasia	CCONJ	CC	_	35	cc	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	together	togethere	ADP	E	_	35	case	_	_
+35	they	they	NOUN	S	Gender=Masc	26	conj	_	_
+36	will	will	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37	try	try	X	SW	Foreign=Yes	35	compound	_	_
+38	to	to	X	SW	Foreign=Yes	37	flat:foreign	_	_
+39	solve	solvo	X	SW	Foreign=Yes	37	flat:foreign	_	_
+40	the	the	X	SW	Foreign=Yes	37	flat:foreign	_	_
+41	mystery	mystery	X	SW	Foreign=Yes	37	flat:foreign	_	_
+42	that	that	X	SW	Foreign=Yes	37	flat:foreign	_	_
+43	haiparancaugtasia	haiparancaugtasia	CCONJ	CC	_	46	cc	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	46	punct	_	_
+45	together	togethere	ADP	E	_	46	case	_	_
+46	they	they	NOUN	S	Gender=Masc	26	conj	_	_
+47	will	will	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	_
+48	try	try	X	SW	Foreign=Yes	46	compound	_	_
+49	to	to	X	SW	Foreign=Yes	48	flat:foreign	_	_
+50	solve	solvo	X	SW	Foreign=Yes	48	flat:foreign	_	_
+51	the	the	X	SW	Foreign=Yes	48	flat:foreign	_	_
+52	mystery	mystery	X	SW	Foreign=Yes	48	flat:foreign	_	_
+53	that	that	X	SW	Foreign=Yes	48	flat:foreign	_	_
+54	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+55	teacher	teachere	NOUN	S	Gender=Masc|Number=Sing	54	obj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Maigret, con la sua esperienza e il suo metodo, e Mocellin, con la sua capacità di guardare oltre le apparenze, insieme proveranno a risolvere il mistero che ha colpito la città.
+1	Maigret	Maigret	PROPN	SP	_	26	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	metodo	metodo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Mocellin	Mocellin	PROPN	SP	_	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	capacità	capacità	NOUN	S	Gender=Fem	26	obl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	guardare	guardare	VERB	V	VerbForm=Inf	18	acl	_	_
+21	oltre	oltre	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	apparenze	apparenze	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	insieme	insieme	ADV	B	_	26	advmod	_	_
+26	proveranno	provare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	risolvere	risolvere	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	città	città	NOUN	S	Gender=Fem	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 12
+# text = E così, tra indagini e colpi di scena, il freddo sembra sciogliersi, leaving behind only the satisfaction of a well-deserved victory.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	così	così	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	5	case	_	_
+5	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	scena	scena	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14-15	sciogliersi	_	_	_	_	_	_	_	SpaceAfter=No
+14	scioglier	sciogliere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	leaving	leaving	X	SW	Foreign=Yes	13	appos	_	_
+18	behind	behind	X	SW	Foreign=Yes	17	flat:foreign	_	_
+19	only	only	X	SW	Foreign=Yes	17	flat:foreign	_	_
+20	the	the	X	SW	Foreign=Yes	17	flat:foreign	_	_
+21	satisfaction	satisfaction	X	SW	Foreign=Yes	17	flat:foreign	_	_
+22	of	of	X	SW	Foreign=Yes	17	flat:foreign	_	_
+23	a	a	X	X	_	17	flat:foreign	_	_
+24	well-deserved	well-deserved	X	SW	Foreign=Yes	17	flat:foreign	_	_
+25	victory	victory	X	SW	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

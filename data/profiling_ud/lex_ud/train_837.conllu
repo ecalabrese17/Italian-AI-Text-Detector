@@ -1,0 +1,405 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Prova ne è l'esposizione che è in corso a Liverpool, la città dei Beatles, dove Julian e Cynthia Lennon ripercorrono con fotografie, testimonianze, documenti inediti raccolti in giro per il mondo (aste comprese), gli anni del primo matrimonio di Lennon (1963), quello che il manager del gruppo volle tenere nascosto per un bel po', convinto che avrebbe danneggiato l'immagine pubblica della band.
+1	Prova	prova	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	1	iobj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	corso	corso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Liverpool	Liverpool	PROPN	SP	_	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	11	appos	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Beatles	Beatles	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	dove	dove	ADV	B	_	24	advmod	_	_
+20	Julian	Julian	PROPN	SP	_	24	nsubj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Cynthia	Cynthia	PROPN	SP	_	20	conj	_	_
+23	Lennon	Lennon	PROPN	SP	_	22	flat:name	_	_
+24	ripercorrono	ripercorre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	fotografie	fotografia	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	_
+31	inediti	inedito	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	giro	giro	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+38	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	aste	asta	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+40	comprese	compreso	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+41	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	5	punct	_	_
+43	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	48	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	48	amod	_	_
+48	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	Lennon	Lennon	PROPN	SP	_	48	nmod	_	_
+51	(	(	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	1963	1963	NUM	N	NumType=Card	50	nummod	_	SpaceAfter=No
+53	)	)	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	5	punct	_	_
+55	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+56	che	che	PRON	PR	PronType=Rel	62	obj	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	manager	manager	NOUN	S	_	62	nsubj	_	_
+59-60	del	_	_	_	_	_	_	_	_
+59	di	di	ADP	E	_	61	case	_	_
+60	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+62	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	55	acl:relcl	_	_
+63	tenere	tenere	VERB	V	VerbForm=Inf	62	xcomp	_	_
+64	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	63	xcomp	_	_
+65	per	per	ADP	E	_	67	case	_	_
+66	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	bel	bello	ADJ	A	Gender=Masc|Number=Sing	64	obl	_	_
+68	po'	poco	ADV	B	_	67	advmod	_	SpaceAfter=No
+69	,	,	PUNCT	FF	_	67	punct	_	_
+70	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	67	amod	_	_
+71	che	che	PRON	PR	PronType=Rel	73	nsubj	_	_
+72	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	aux	_	_
+73	danneggiato	danneggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	70	acl:relcl	_	_
+74	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	75	det	_	SpaceAfter=No
+75	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	73	obj	_	_
+76	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	75	amod	_	_
+77-78	della	_	_	_	_	_	_	_	_
+77	di	di	ADP	E	_	79	case	_	_
+78	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
+79	band	band	NOUN	S	Gender=Fem	75	nmod	_	SpaceAfter=No
+80	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = C'è Lennon che tiene in braccio il figlio mentre i due indossano entrambi buffi occhiali.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Lennon	Lennon	PROPN	SP	_	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	due	due	NUM	N	NumType=Card	13	nsubj	_	_
+13	indossano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det	_	_
+15	buffi	buffo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	occhiali	occhiale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = C'è Lennon pensieroso sul divano, mentre il piccolo Julian guarda dritto in camera e intanto si attacca al volto del padre.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Lennon	Lennon	PROPN	SP	_	2	nsubj	_	_
+4	pensieroso	pensierodere	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	Julian	Julian	PROPN	SP	_	13	nsubj	_	_
+13	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+14	dritto	dritto	ADV	B	_	13	advmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	camera	camera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	intanto	intanto	ADV	B	_	20	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	volto	volto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	padre	padre	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E poi c'è Cynthia, la moglie tradita per Yoko Ono, la donna a cui - mentre il suo mito esplodeva - Lennon si rifiutava di dare più di 75mila sterline per gli alimenti:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Cynthia	Cynthia	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+9	tradita	tradire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	Yoko	Yoko	PROPN	SP	_	9	obl	_	_
+12	Ono	Ono	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	appos	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	mito	mito	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	esplodeva	esplodere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	parataxis	_	_
+24	-	-	PUNCT	FB	_	23	punct	_	_
+25	Lennon	Lennon	PROPN	SP	_	27	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	rifiutava	rifiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	dare	dare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	più	più	ADV	B	_	33	advmod	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	75mila	75mila	NUM	N	NumType=Card	33	nummod	_	_
+33	sterline	sterlina	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = "Cosa hai fatto per meritarli?
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	meritarli	_	_	_	_	_	_	_	SpaceAfter=No
+6	meritar	meritare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = ", diceva.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = «John Lennon è un idolo per milioni di persone che sono cresciute amando la sua musica e i suoi ideali, ma per me è il padre che ho amato e che ho perso - spiega Julian, oggi quarantacinquenne -.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	John	John	PROPN	SP	_	6	nsubj	_	_
+3	Lennon	Lennon	PROPN	SP	_	2	flat:name	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	idolo	idolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	amando	amare	VERB	V	VerbForm=Ger	13	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	musica	musica	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ideali	ideale	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	28	punct	_	_
+23	ma	ma	CCONJ	CC	_	28	cc	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	obl	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	padre	padre	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	obj	_	_
+30	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	_
+36	-	-	PUNCT	FB	_	6	punct	_	_
+37	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+38	Julian	Julian	PROPN	SP	_	37	nsubj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	oggi	oggi	ADV	B	_	41	advmod	_	_
+41	quarantacinquenne	quarantacinquenne	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	_
+42	-	-	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Spero che questa mostra faccia vedere alla gente un altro aspetto della sua vita e del tempo che abbiamo trascorso insieme.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+22	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	insieme	insieme	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Questa collezione rappresenta qualcosa di veramente importante per noi e per la nostra storia».
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	collezione	collezione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	veramente	veramente	ADV	B	_	7	advmod	_	_
+7	importante	importante	ADJ	A	Number=Sing	4	nmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	obl	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = E' un ritratto di famiglia, insomma, che si dipana attraverso immagini e ricordi quello proposto da Julian.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ritratto	ritratto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	dipana	dipana	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	attraverso	attraverso	ADP	E	_	13	case	_	_
+13	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nmod	_	_
+17	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	Julian	Julian	PROPN	SP	_	17	obl:agent	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = E' l'altra faccia di Lennon, prima dell'abuso di droga e dei tradimenti alla moglie.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Lennon	Lennon	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	prima	prima	ADV	B	_	11	case	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	8	fixed	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	abuso	abuso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	droga	droga	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	tradimenti	tradimento	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E' l'immagine privata di un uomo che stava per farsi mito intramontabile.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	privata	privato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	farsi	_	_	_	_	_	_	_	_
+11	far	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	mito	mire	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	intramontabile	intramontabile	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = White Feather:
+1	White	White	PROPN	SP	_	0	root	_	_
+2	Feather	Feather	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = The Spirit of Lennon sarà in mostra fino al 31 dicembre a Liverpool, The Beatles Story.
+1	The	The	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	Spirit	Spirit	PROPN	SP	_	7	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	Lennon	Lennon	PROPN	SP	_	2	nmod	_	_
+5	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	fino	fino	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	31	31	NUM	N	NumType=Card	7	nmod	_	_
+12	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Liverpool	Liverpool	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	The	The	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	Beatles	Beatles	PROPN	SP	_	7	nmod	_	_
+18	Story	Story	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = ( foto: Cynthia Lennon collection )
+1	(	(	PUNCT	FB	_	2	punct	_	_
+2	foto	foto	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	Cynthia	Cynthia	PROPN	SP	_	2	nmod	_	_
+5	Lennon	Lennon	PROPN	SP	_	4	flat:name	_	_
+6	collection	collection	NOUN	S	_	4	nmod	_	_
+7	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\n
+

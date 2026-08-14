@@ -1,0 +1,698 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Isaac Asimov nel suo capolavoro Io, Robot previde che gi automi si sarebbero occupati non solo di compiti legati alla produzione industriale, come ormai accade già da tempo, ma anche di affiancare gli uomini nella loro vita familiare, sociale e anche politica.
+1	Isaac	Isaac	PROPN	SP	_	10	nsubj	_	_
+2	Asimov	Asimov	PROPN	SP	_	1	flat:name	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	capolavoro	capolavoro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+7	Io	Io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Robot	robot	PROPN	SP	_	10	nsubj	_	_
+10	previde	previdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	gi	gio	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+13	automi	automo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	occupati	occupare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	ccomp	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	solo	solo	ADV	B	_	20	advmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	industriale	industriale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	come	come	ADP	E	_	29	mark	_	_
+28	ormai	ormai	ADV	B	_	29	advmod	_	_
+29	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+30	già	già	ADV	B	_	29	advmod	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	37	punct	_	_
+34	ma	ma	CCONJ	CC	_	37	cc	_	_
+35	anche	anche	ADV	B	_	37	advmod	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	affiancare	affiancare	VERB	V	VerbForm=Inf	29	conj	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	_
+40-41	nella	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	43	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	loro	loro	DET	AP	Poss=Yes|PronType=Prs	43	det:poss	_	_
+43	vita	vita	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+44	familiare	familiare	ADJ	A	Number=Sing	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	46	punct	_	_
+46	sociale	sociale	ADJ	A	Number=Sing	44	conj	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	anche	anche	ADV	B	_	49	advmod	_	_
+49	politica	politico	ADJ	A	Gender=Fem|Number=Sing	44	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Da allora l'intelligenza artificiale ha fatto molti passi avanti:
+1	Da	da	ADP	E	_	2	case	_	_
+2	allora	allora	ADV	B	_	7	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	artificiale	artificiale	ADJ	A	Number=Sing	4	amod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	passi	passo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	avanti	avanti	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = recentemente Paul Allen, il co-fondatore di Microsoft insieme a Bill Gates ha investito un'ingente somma di denaro per creare il robot-cervello perfetto , in grado di passare persino l'esame di maturità.
+1	recentemente	recentemente	ADV	B	_	2	advmod	_	_
+2	Paul	Paul	PROPN	SP	_	14	nsubj	_	_
+3	Allen	Allen	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	co-fondatore	co-fondatore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Microsoft	Microsoft	PROPN	SP	_	6	nmod	_	_
+9	insieme	insieme	ADV	B	_	11	case	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	Bill	Bill	PROPN	SP	_	6	nmod	_	_
+12	Gates	Gates	PROPN	SP	_	11	flat:name	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	ingente	ingente	ADJ	A	Number=Sing	17	amod	_	_
+17	somma	somma	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	creare	creare	VERB	V	VerbForm=Inf	14	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	robot	robot	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	23	compound	_	_
+26	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	grado	grado	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	passare	passare	VERB	V	VerbForm=Inf	29	acl	_	_
+32	persino	persino	ADV	B	_	31	advmod	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	esame	esame	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	maturità	maturità	NOUN	S	Gender=Fem	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Ora, la nuova frontiera robotica, investe anche il mondo giornalistico, portandosi dietro conseguenze che spaventano molti cronisti.
+1	Ora	ora	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	robotica	robotico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	investe	invedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	giornalistico	giornalistico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14-15	portandosi	_	_	_	_	_	_	_	_
+14	portando	portare	VERB	V	VerbForm=Ger	8	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	dietro	dietro	ADP	E	_	17	case	_	_
+17	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	spaventano	spaventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	cronisti	cronista	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La compagnia Automated Insights ha lanciato Wordsmith Beta , una versione aperta al pubblico del software che genera automaticamente contenuti scritti, e personalizzabili, a partire dai dati.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Automated	Automated	PROPN	SP	_	2	nmod	_	_
+4	Insights	Insights	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	Wordsmith	Wordsmith	PROPN	SP	_	6	obj	_	_
+8	Beta	Beta	PROPN	SP	_	7	flat:name	_	_
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	versione	versione	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+12	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	software	software	NOUN	S	Gender=Masc	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	genera	generare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	automaticamente	automaticamente	ADV	B	_	22	advmod	_	_
+22	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	personalizzabili	personalizzabile	ADJ	A	Number=Plur	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	partire	partire	VERB	V	VerbForm=Inf	6	advcl	_	_
+30-31	dai	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	dati	dato	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = La tecnologia non è una novità, infatti, è utilizzata da tempo da testate giornalistiche come Associated Press (dalla metà del 2014) e da Yahoo!
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	novità	novità	NOUN	S	Gender=Fem	11	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	utilizzata	utilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	testate	testata	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	giornalistiche	giornalistico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	Associated	Associated	PROPN	SP	_	15	nmod	_	_
+19	Press	Press	PROPN	SP	_	18	flat:name	_	_
+20	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	metà	metà	NOUN	S	Gender=Fem	18	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	2014	2014	NUM	N	NumType=Card	23	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	23	punct	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	Yahoo	Yahoo	PROPN	SP	_	18	conj	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = per autogenerare Report finanziari e articoli di sport, ma le applicazioni di questa nuova tecnologia sono potenzialmente infinite.
+1	per	per	ADP	E	_	2	mark	_	_
+2	autogenerare	autogenerare	VERB	V	VerbForm=Inf	0	root	_	_
+3	Report	Report	PROPN	SP	_	2	obj	_	_
+4	finanziari	finanziare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sport	sport	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	19	punct	_	_
+10	ma	ma	CCONJ	CC	_	19	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	potenzialmente	potenzialmente	ADV	B	_	19	advmod	_	_
+19	infinite	infinito	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Attraverso l'analisi dei dati, che devono essere caricati dall'utente sul sito, il software sviluppa un resoconto dettagliato o un articolo completo.
+1	Attraverso	attraverso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	analisi	analisi	NOUN	S	Gender=Fem	1	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dati	dato	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+9	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	caricati	caricare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12-13	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	utente	utente	NOUN	S	Number=Sing	11	obl:agent	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sito	sito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	software	software	NOUN	S	Gender=Masc	21	nsubj	_	_
+21	sviluppa	sviluppare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	resoconto	resoconto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	dettagliato	dettagliato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	o	o	CCONJ	CC	_	27	cc	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+28	completo	completo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 9
+# text = In un secondo momento si possono personalizzare i contenuti, in modo da rendere unico il testo.
+1	In	in	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+6	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	personalizzare	personalizzare	VERB	V	VerbForm=Inf	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	rendere	rendere	VERB	V	VerbForm=Inf	12	acl	_	_
+15	unico	unico	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	testo	testo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = È sufficiente richiedere l'accesso alla piattaforma per sperimentarne l'autogenerazione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	_
+3	richiedere	richiedere	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	sperimentarne	_	_	_	_	_	_	_	_
+10	sperimentar	sperimentare	VERB	V	VerbForm=Inf	5	acl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	autogenerazione	autogenerazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Per ora si tratta solo di un test:
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	4	advmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	test	test	NOUN	S	Gender=Masc	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = la versione definitiva del sito, infatti, verrà lanciata a gennaio e sarà completamente libera (senza richiesta di accesso).
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	versione	versione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sito	sito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+11	lanciata	lanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	cop	_	_
+16	completamente	completamente	ADV	B	_	17	advmod	_	_
+17	libera	libero	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	senza	senza	ADP	E	_	20	case	_	_
+20	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Un "robot giornalista" alla portata di tutti:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	robot	robot	NOUN	S	Gender=Masc	0	root	_	_
+4	giornalista	giornalista	NOUN	S	Number=Sing	3	compound	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	portata	portata	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = arriva Wordsmith beta Per comprendere il successo del software è sufficiente fare l'esempio di come è stato utilizzato da Associated Press.
+1	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Wordsmith	Wordsmith	PROPN	SP	_	1	nsubj	_	_
+3	beta	beto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+4	Per	per	ADP	E	_	5	mark	_	_
+5	comprendere	comprendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	successo	successo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	software	software	NOUN	S	Gender=Masc	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	sufficiente	sufficiente	ADJ	A	Number=Sing	1	ccomp	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	12	csubj	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	20	mark	_	_
+17	come	come	SCONJ	CS	_	16	fixed	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	Associated	Associated	PROPN	SP	_	20	obl:agent	_	_
+23	Press	Press	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Wordsmith ha generato per l'agenzia americana più di 3000 report finanziari in un solo trimestre.
+1	Wordsmith	Wordsmith	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	generato	generare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	americana	americano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	più	più	ADV	B	_	11	advmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	3000	3000	NUM	N	NumType=Card	11	nummod	_	_
+11	report	report	NOUN	S	Gender=Masc	6	nmod	_	_
+12	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	solo	solo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	trimestre	trimestre	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Negli ultimi due anni, Wordsmith ha prodotto più contenuti di qualsiasi altra azienda al mondo:
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	5	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Wordsmith	Wordsmith	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	contenuti	contenuto	ADJ	A	Gender=Masc|Number=Plur	9	xcomp	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+14	altra	altro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 17
+# text = solo lo scorso anno ha creato oltre un miliardo di pezzi con una squadra di meno di 50 dipendenti.
+1	solo	solo	ADV	B	_	4	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	oltre	oltre	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	meno	meno	PRON	PI	PronType=Ind	14	nmod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	50	50	NUM	N	NumType=Card	19	nummod	_	_
+19	dipendenti	dipendento	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Secondo uno studio di Christer Clerwall (Pdf) , che ha sottoposto ad alcune persone sia articoli scritti da robot che da giornalisti in carne e ossa, "non c’è significativa differenza tra un contenuto prodotto da un software e uno scritto da un umano”.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	studio	studio	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Christer	Christer	PROPN	SP	_	3	nmod	_	_
+6	Clerwall	Clerwall	PROPN	SP	_	5	flat:name	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Pdf	Pdf	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+14	ad	a	ADP	E	_	16	case	_	_
+15	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	sia	essere	CCONJ	CC	_	18	cc	_	_
+18	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+19	scritti	scrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	robot	robot	NOUN	S	Gender=Masc	19	obl:agent	_	_
+22	che	che	CCONJ	CC	_	24	cc	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	carne	carne	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	ossa	ossa	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	3	punct	_	_
+30	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	SpaceAfter=No
+33	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+34	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+36	tra	tra	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+39	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+40	da	da	ADP	E	_	42	case	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	software	software	NOUN	S	Gender=Masc	39	obl:agent	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	conj	_	_
+45	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	acl	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	umano	umano	ADJ	A	Gender=Masc|Number=Sing	45	obl:agent	_	SpaceAfter=No
+49	”	”	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 19
+# text = Le critiche mosse allo studio, però, sono quelle di aver selezionato un numero di notizie e un campione d'intervistati troppo ristretto per essere davvero significativo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+3	mosse	muovere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	allo	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	studio	studio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	però	però	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	selezionato	selezionato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	numero	numero	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	campione	campione	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	intervistati	intervistato	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	troppo	troppo	ADV	B	_	25	advmod	_	_
+25	ristretto	restringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+26	per	per	ADP	E	_	29	mark	_	_
+27	essere	essere	AUX	V	VerbForm=Inf	29	cop	_	_
+28	davvero	davvero	ADV	B	_	29	advmod	_	_
+29	significativo	significativo	ADJ	A	Gender=Masc|Number=Sing	25	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 20
+# text = È la fine del lavoro giornalistico?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	giornalistico	giornalistico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = No, perchè, a differenza di chi scrive, il robot non pensa, o perlomeno, non lo fa "fuori dagli schemi".
+1	No	no	INTJ	I	Polarity=Neg	21	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perchè	perché	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	14	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	nmod	_	_
+9	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	robot	robot	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	perlomeno	perlomeno	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	fuori	fuori	ADV	B	_	21	advmod	_	_
+24-25	dagli	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	schemi	schema	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 22
+# text = Per produrre contenuti di qualità il software richiede un alto grado di personalizzazione che non può prescindere dall'apporto umano.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	produrre	produrre	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	qualità	qualità	NOUN	S	Gender=Fem	3	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	software	software	NOUN	S	Gender=Masc	8	nsubj	_	_
+8	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	alto	alto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	personalizzazione	personalizzazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	prescindere	prescindere	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+18-19	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+18	da	da	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	apporto	apporto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	umano	umano	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 23
+# text = Per questo motivo è considerato più adatto a essere utilizzato per report finanziari, sul traffico, sul meteo e in generale per lavori di Data journalism.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	_
+8	a	a	ADP	E	_	10	mark	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	report	report	NOUN	S	Gender=Masc	10	obl	_	_
+13	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	meteo	meteo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	generale	generale	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Data	Data	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	journalism	journalism	NOUN	S	_	28	compound	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Di certo non è valido per la redazione di articoli di fantasia.
+1	Di	di	ADP	E	_	2	case	_	_
+2	certo	certo	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	valido	valido	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = La tecnologia, infatti, si basa su numeri, tempi e dati e non può sostituire la parte creativa del lavoro giornalistico.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	dati	dato	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	sostituire	sostituire	VERB	V	VerbForm=Inf	7	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	creativa	creativo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	giornalistico	giornalistico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,313 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un sollievo, certo, ma una vittoria che non può cancellare l'ombra lunga e inquietante del caldo che continua a percorrere il Paese.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cancellare	cancellare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	inquietante	inquietante	ADJ	A	Number=Sing	15	conj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	percorrere	percorrere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non è una pioggia magica, non è la cura per l'imminente crisi climatica.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	magica	magico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cura	cura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	imminente	imminente	ADJ	A	Number=Sing	14	amod	_	_
+14	crisi	crisi	NOUN	S	Gender=Fem	10	nmod	_	_
+15	climatica	climatica	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Le precipitazioni, concentrate soprattutto in alcune zone, sono un’eventualità che, purtroppo, rientra nelle previsioni degli esperti da ormai troppo tempo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	precipitazioni	precipitazione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	concentrate	concentrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	soprattutto	soprattutto	ADV	B	_	8	advmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	zone	zona	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	eventualità	eventualità	NOUN	S	Gender=Fem	0	root	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	purtroppo	purtroppo	ADV	B	_	17	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	rientra	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18-19	nelle	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	da	da	ADP	E	_	27	case	_	_
+25	ormai	ormai	ADV	B	_	27	advmod	_	_
+26	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Una risposta, per quanto necessaria, ad un ecosistema allo stremo, in cui la siccità ha esacerbato le fragilità e amplificato le disuguaglianze.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	quanto	quanto	ADV	B	_	4	fixed	_	_
+6	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ecosistema	ecosistema	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11-12	allo	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stremo	stre	ADJ	A	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	siccità	siccità	NOUN	S	Gender=Fem	20	nsubj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	esacerbato	esacerbare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	fragilità	fragilità	NOUN	S	Gender=Fem	20	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	amplificato	amplificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	disuguaglianze	disuguaglianza	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = In Piemonte, Lombardia e Veneto, le zone più colpite, si respira un’aria più fresca, ma la fatica è ancora palpabile.
+1	In	in	ADP	E	_	2	case	_	_
+2	Piemonte	Piemonte	PROPN	SP	_	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Lombardia	Lombardia	PROPN	SP	_	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Veneto	Veneto	PROPN	SP	_	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	zone	zona	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	colpite	colpite	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+14	respira	respirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	aria	aria	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	25	punct	_	_
+20	ma	ma	CCONJ	CC	_	25	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	ancora	ancora	ADV	B	_	25	advmod	_	_
+25	palpabile	palpabile	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = I coltivatori, che hanno visto i loro campi trasformarsi in deserti arancioni, possono accappare un respiro di speranza.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	coltivatori	coltivatore	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	campi	campo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+10-11	trasformarsi	_	_	_	_	_	_	_	_
+10	trasformar	trasformare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	deserti	deserto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	arancioni	arancione	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	accappare	accappare	VERB	V	VerbForm=Inf	0	root	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 7
+# text = La produzione agricola, messa a dura prova dall’assenza di acqua, ha lottato strenuamente per non crollare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	dura	duro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	prova	prova	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	lottato	lottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	strenuamente	strenuo	ADV	B	_	20	advmod	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	crollare	crollare	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Ma, come spesso accade, la pioggia non consola la perdita di raccolti, il rischio di bolle alimentari e la precarietà di un’economia che dipende in larga misura dalla terra.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	come	come	ADP	E	_	5	mark	_	_
+4	spesso	spesso	ADV	B	_	5	advmod	_	_
+5	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	consola	consolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	raccolti	raccolto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	bolle	bolla	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	alimentari	alimentare	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	precarietà	precarietà	NOUN	S	Gender=Fem	17	conj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	economia	economia	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	larga	largo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	misura	misura	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	terra	terra	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = E poi c’è il resto d’Italia, quella che attende ancora, con l’ansia che le bruciature solari e la scarsità idrica continuino a imperversare.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	d’	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	attende	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	ancora	ancora	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	che	che	SCONJ	CS	_	26	mark	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	bruciature	bruciatura	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+21	solari	solare	ADJ	A	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	scarsità	scarsità	NOUN	S	Gender=Fem	20	conj	_	_
+25	idrica	idrico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	continuino	continuare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	imperversare	imperversare	VERB	V	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = La Sardegna, la Sicilia, la Puglia… epiche terre di contraddizioni, dove la bellezza naturale si scontra con la drammatica difficoltà di gestire le risorse.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Sardegna	Sardegna	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Sicilia	Sicilia	PROPN	SP	_	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Puglia…	puglia…	PROPN	SP	_	2	conj	_	_
+9	epiche	epico	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	terre	terre	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	contraddizioni	contraddizione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	dove	dove	ADV	B	_	19	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	naturale	naturale	ADJ	A	Number=Sing	16	amod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	scontra	scontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	drammatica	drammatico	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	difficoltà	difficoltà	NOUN	S	Gender=Fem	19	obl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	gestire	gestire	VERB	V	VerbForm=Inf	19	advcl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Qui, il caldo persistente non è solo un disagio, è
+1	Qui	qui	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	persistente	persistente	ADJ	A	Number=Sing	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpacesAfter=\n
+

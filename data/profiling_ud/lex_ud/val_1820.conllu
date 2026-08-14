@@ -1,0 +1,449 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il murale è apparso in queste ore nel centro salernitano e in altri comuni limitrofi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	murale	murale	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	apparso	apparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	centro	centro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	salernitano	salernitano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	altri	altro	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	comuni	comune	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+16	limitrofi	limitrofo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Riporta le immagini di Benito Mussolini e di Matteo Renzi, messe a confronto insieme a fascismo e democrazia.
+1	Riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Benito	Benito	PROPN	SP	_	3	nmod	_	_
+6	Mussolini	Mussolini	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Matteo	Matteo	PROPN	SP	_	5	conj	_	_
+10	Renzi	Renzi	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	messe	mettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	insieme	insieme	ADV	B	_	17	case	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	fascismo	fascismo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E se, per gli estensori del manifesto, il fascismo ha dato pensioni, case popolari, fatto leggi per difendere gli invalidi, reso grande l’Italia e “fatto lavorare tutti perché nella patria non dovevano esistere parassiti”, la democrazia (impersonata da Matteo Renzi), ha tolto case, pensioni, costringe a pagar l’Imu, svende l’Italia e “da un sussidio da 1.200 euro agli immigrati”.
+1	E	e	CCONJ	CC	_	20	cc	_	_
+2	se	se	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	14	punct	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	estensori	estensore	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fascismo	fascismo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+15	pensioni	pensione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	case	casa	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+18	popolari	popolare	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	difendere	difendere	VERB	V	VerbForm=Inf	27	advcl	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	invalidi	invalidi	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+28	grande	grande	ADJ	A	Number=Sing	27	xcomp	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	Italia	Italia	PROPN	SP	_	27	xcomp	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	“	“	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+34	lavorare	lavorare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+35	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	34	obj	_	_
+36	perché	perché	SCONJ	CS	_	42	mark	_	_
+37-38	nella	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	patria	patria	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+41	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	esistere	esistere	VERB	V	VerbForm=Inf	33	advcl	_	_
+43	parassiti	parassito	NOUN	S	Gender=Masc|Number=Plur	42	obj	_	SpaceAfter=No
+44	”	”	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	43	punct	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	43	appos	_	_
+48	(	(	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+49	impersonata	impersonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	47	acl	_	_
+50	da	da	ADP	E	_	51	case	_	_
+51	Matteo	Matteo	PROPN	SP	_	49	obl:agent	_	_
+52	Renzi	Renzi	PROPN	SP	_	51	flat:name	_	SpaceAfter=No
+53	)	)	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	33	punct	_	_
+55	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+56	tolto	togliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+57	case	casa	NOUN	S	Gender=Fem|Number=Plur	56	obj	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	59	punct	_	_
+59	pensioni	pensione	NOUN	S	Gender=Fem|Number=Plur	57	conj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	61	punct	_	_
+61	costringe	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+62	a	a	ADP	E	_	63	mark	_	_
+63	pagar	pagare	VERB	V	VerbForm=Inf	61	xcomp	_	_
+64	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	65	det	_	SpaceAfter=No
+65	Imu	Imu	PROPN	SP	_	63	obj	_	SpaceAfter=No
+66	,	,	PUNCT	FF	_	63	punct	_	_
+67	svende	svendere	ADP	E	_	69	case	_	_
+68	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	69	det	_	SpaceAfter=No
+69	Italia	Italia	PROPN	SP	_	63	obl	_	_
+70	e	e	CCONJ	CC	_	74	cc	_	_
+71	“	“	PUNCT	FB	_	74	punct	_	SpaceAfter=No
+72	da	da	ADP	E	_	74	case	_	_
+73	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	sussidio	sussidio	NOUN	S	Gender=Masc|Number=Sing	69	conj	_	_
+75	da	da	ADP	E	_	77	case	_	_
+76	1.200	1.200	NUM	N	NumType=Card	77	nummod	_	_
+77	euro	euro	NOUN	S	Gender=Masc	74	nmod	_	_
+78-79	agli	_	_	_	_	_	_	_	_
+78	a	a	ADP	E	_	80	case	_	_
+79	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	80	det	_	_
+80	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	63	obl	_	SpaceAfter=No
+81	”	”	PUNCT	FB	_	80	punct	_	SpaceAfter=No
+82	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 4
+# text = Un’immagine nemmeno troppo originale, in fondo.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	originale	originale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Del tenore simile, se non addirittura uguale, se ne trovano a migliaia in rete.
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tenore	tenore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	simile	simile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	addirittura	addirittura	ADV	B	_	9	advmod	_	_
+9	uguale	uguale	ADJ	A	Number=Sing	13	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	rete	rete	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = A corredo del manifesto passato dal web alle bacheche pubbliche, però, c’è una firma e un post scriptum.
+1	A	a	ADP	E	_	2	case	_	_
+2	corredo	corredo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	passato	passato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	web	webbraio	NOUN	S	Gender=Masc	6	obl:agent	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	bacheche	bacheca	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+13	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	però	però	ADV	B	_	18	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	firma	firma	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	post	post	ADJ	A	_	24	amod	_	_
+24	scriptum	scriptum	NOUN	S	Gender=Masc	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 7
+# text = La firma è quella del circolo di Noi con Salvini di Giffoni Valle Piana e di Guido Carpinelli, che rivendica d’esser stato consigliere provinciale per Alleanza Nazionale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	firma	firma	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	26	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	circolo	circolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Salvini	Salvini	PROPN	SP	_	26	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Giffoni	Giffoni	PROPN	SP	_	26	nmod	_	_
+14	Valle	valle	PROPN	SP	_	13	flat:name	_	_
+15	Piana	Piana	PROPN	SP	_	13	flat:name	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Guido	Guido	PROPN	SP	_	26	conj	_	_
+19	Carpinelli	Carpinelli	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	rivendica	rivendire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+23	d’	di	ADP	E	_	22	obj	_	SpaceAfter=No
+24	esser	essere	AUX	VA	VerbForm=Inf	26	aux	_	_
+25	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	cop	_	_
+26	consigliere	consigliere	VERB	V	VerbForm=Inf	0	root	_	_
+27	provinciale	provinciale	ADJ	A	Number=Sing	26	xcomp	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	Alleanza	Alleanza	PROPN	SP	_	26	obl	_	_
+30	Nazionale	nazionale	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 8
+# text = Il post scriptum, invece, è una “sfida” al parlamentare Pd Emanuele Fiano:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	post	post	NOUN	S	_	10	nsubj	_	_
+3	scriptum	scriptum	NOUN	S	Gender=Masc	2	compound	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	invece	invece	ADV	B	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	10	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	parlamentare	parlamentare	NOUN	S	Number=Sing	10	nmod	_	_
+15	Pd	pd	PROPN	SP	_	14	nmod	_	_
+16	Emanuele	Emanuele	PROPN	SP	_	14	nmod	_	_
+17	Fiano	Fiano	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 9
+# text = “L’onorevole Fiano è avvisato:
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	onorevole	onorevole	NOUN	S	Number=Sing	6	nsubj	_	_
+4	Fiano	Fiano	PROPN	SP	_	3	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	avvisato	avvisare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = accettiamo querele per apologia del fascismo”.
+1	accettiamo	accettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	querele	querela	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	apologia	apologia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fascismo	fascismo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = L'iniziativa però non è stata per niente apprezzata dai vertici locali del movimento politico vicino a Matteo Salvini.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	_
+9	apprezzata	apprezzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	dai	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	vertici	vertice	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+13	locali	locale	ADJ	A	Number=Plur	12	amod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	politico	politico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	vicino	vicino	ADV	B	_	20	case	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	Matteo	Matteo	PROPN	SP	_	16	nmod	_	_
+21	Salvini	Salvini	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Mariano Falcone, coordinatore provinciale per Salerno e vicecoordinatore regionale di NcS, prende le distanze dal manifesto:
+1	Mariano	Mariano	PROPN	SP	_	14	nsubj	_	_
+2	Falcone	Falcone	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	coordinatore	coordinatore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	provinciale	provinciale	ADJ	A	Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	Salerno	Salerno	PROPN	SP	_	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	vicecoordinatore	vicecoordinatore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	regionale	regionale	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	NcS	NcS	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 13
+# text = “Guido Carpinelli ha fatto affiggere un manifesto non autorizzato dal partito, usando il simbolo in modo improprio.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Guido	Guido	PROPN	SP	_	5	nsubj	_	_
+3	Carpinelli	Carpinelli	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	affiggere	affiggere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	autorizzato	autorizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	partito	partito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	usando	usare	VERB	V	VerbForm=Ger	5	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	improprio	improprio	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Prendiamo le distanze per tutelare l’immagine del partito e di Matteo Salvini ribadendo che Noi con Salvini è un movimento inclusivo non ideologizzato rispetto al passato e alle sue ideologie e quindi un manifesto del genere è anacronistico e porge il fianco ad attaccchi strumentali.
+1	Prendiamo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	tutelare	tutelare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	partito	partito	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Matteo	Matteo	PROPN	SP	_	10	nmod	_	_
+14	Salvini	Salvini	PROPN	SP	_	13	flat:name	_	_
+15	ribadendo	ribadire	VERB	V	VerbForm=Ger	1	advcl	_	_
+16	che	che	SCONJ	CS	_	22	mark	_	_
+17	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	Salvini	Salvini	PROPN	SP	_	17	nmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	15	ccomp	_	_
+23	inclusivo	inclusivo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	ideologizzato	ideologizzato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+26	rispetto	rispetto	ADV	B	_	29	case	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	passato	passato	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30	e	e	CCONJ	CC	_	34	cc	_	_
+31-32	alle	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	34	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	ideologie	ideologia	NOUN	S	Gender=Fem|Number=Plur	29	conj	_	_
+35	e	e	CCONJ	CC	_	43	cc	_	_
+36	quindi	quindi	ADV	B	_	43	advmod	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	genere	genere	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+42	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	anacronistico	anacronistico	ADJ	A	Gender=Masc|Number=Sing	22	conj	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	porge	porgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	_
+48	ad	a	ADP	E	_	49	case	_	_
+49	attaccchi	attaccco	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	_
+50	strumentali	strumentale	ADJ	A	Number=Plur	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Nelle prossime ore valuteremo tutti i provvedimenti del caso, siamo in attesa di una risposta a una richiesta di chiarimenti rivolta al diretto interessato”.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	ore	ora	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+5	valuteremo	valutare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	provvedimenti	provvedimento	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	chiarimenti	chiarimento	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	rivolta	rivolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	diretto	diretto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	interessato	interessato	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

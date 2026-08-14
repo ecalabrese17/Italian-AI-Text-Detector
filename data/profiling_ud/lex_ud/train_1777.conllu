@@ -1,0 +1,377 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anche Leopardi vende meno di Fabio Volo, ma dura nei secoli.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Leopardi	Leopardi	PROPN	SP	_	3	nsubj	_	_
+3	vende	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	meno	meno	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Fabio	Fabio	PROPN	SP	_	3	nmod	_	_
+7	Volo	volo	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Anche Barbana da Modena non compare nelle aste d'arte come Cattelan, ma si trova nei libri di storia, in cui Cattelan non comparirà mai.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Barbana	Barbana	PROPN	SP	_	6	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Modena	Modena	PROPN	SP	_	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	compare	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	aste	asta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	arte	arte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	Cattelan	Cattelan	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18-19	nei	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	libri	libro	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	storia	storia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+26	Cattelan	Cattelan	PROPN	SP	_	28	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	comparirà	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl:relcl	_	_
+29	mai	mai	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Piero Colombani, nato nel 1952 nella bassa Lunigiana, non ha mercato, e neanche lo vuole.
+1	Piero	Piero	PROPN	SP	_	15	nsubj	_	_
+2	Colombani	Colombani	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1952	1952	NUM	N	NumType=Card	4	obl	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	Lunigiana	Lunigiana	PROPN	SP	_	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	mercato	mercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	neanche	neanche	ADV	BN	PronType=Neg	20	advmod	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 4
+# text = Chi dipinge Deposizioni dalla Croce, di 4 metri per 3 per delle chiese, come l' artista ha fatto per San Francesco a Sarzana, sa che non verrà mai preso in considerazione dai mercanti perché oggi fare arte cristiana significa essere marginalizzati.
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	dipinge	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Deposizioni	deposizioni	PROPN	SP	_	2	obj	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Croce	croce	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	4	4	NUM	N	NumType=Card	10	nummod	_	_
+10	metri	metro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	3	3	NUM	N	NumType=Card	10	nummod	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	chiese	chiese	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	artista	artista	NOUN	S	Number=Sing	22	obl	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	San	San	PROPN	SP	_	22	obl	_	_
+25	Francesco	Francesco	PROPN	SP	_	24	flat:name	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Sarzana	Sarzana	PROPN	SP	_	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	22	punct	_	_
+29	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+30	che	che	SCONJ	CS	_	34	mark	_	_
+31	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+32	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	aux	_	_
+33	mai	mai	ADV	B	_	34	advmod	_	_
+34	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	csubj	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+37-38	dai	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	mercanti	mercante	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+40	perché	perché	SCONJ	CS	_	42	mark	_	_
+41	oggi	oggi	ADV	B	_	42	advmod	_	_
+42	fare	fare	VERB	V	VerbForm=Inf	45	advcl	_	_
+43	arte	arte	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+44	cristiana	cristiano	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+46	essere	essere	AUX	VA	VerbForm=Inf	47	aux:pass	_	_
+47	marginalizzati	marginalizzato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	45	xcomp	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	45	punct	_	_
+
+# sent_id = 5
+# text = Lui invece continua a farlo, e da anni sta lavorando ad un'opera invendibile per definizione, sempre in divenire, e chissà se sarà finita il giorno della sua morte:
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	invece	invece	ADV	B	_	3	advmod	_	_
+3	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	far	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+11	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	lavorando	lavorare	VERB	V	VerbForm=Ger	3	conj	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	opera	opera	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	invendibile	invendibile	ADJ	A	Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	definizione	definizione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	sempre	sempre	ADV	B	_	22	advmod	_	_
+21	in	in	ADP	E	_	22	mark	_	_
+22	divenire	divenire	VERB	V	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	chissà	chissà	ADV	B	_	28	advmod	_	_
+26	se	se	SCONJ	CS	_	28	mark	_	_
+27	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	aux	_	_
+28	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	morte	morte	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = un codice miniato che ricalca i codici amanuensi, altomedioevali, una sorta di Evangeliario di Durrow del VII secolo, ma che in realtà è modernissimo:
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	codice	codice	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	miniato	miniato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	ricalca	ricalcare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	codici	codice	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	amanuensi	amanuenso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	altomedioevali	altomedioevale	ADJ	A	Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Evangeliario	Evangeliario	PROPN	SP	_	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Durrow	Durrow	PROPN	SP	_	15	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	VII	VII	ADJ	NO	Number=Sing|NumType=Ord	21	amod	_	_
+21	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	ma	ma	CCONJ	CC	_	28	cc	_	_
+24	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	realtà	realtà	NOUN	S	Gender=Fem	28	obl	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	modernissimo	moderno	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	15	acl:relcl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = con tempere, colla di pesce, gomma arabica, inchiostro, il Codex Colombanus ci parla dei desideri, inquietudini, maledizioni del tempo moderno, ma con un impianto stilistico che all'apparenza è gotico e che nella realizzazione è lentissimo.
+1	con	con	ADP	E	_	2	case	_	_
+2	tempere	tempera	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	colla	colla	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	gomma	gomma	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	arabica	arabico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	inchiostro	inchiostro	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Codex	Codex	PROPN	SP	_	17	nsubj	_	_
+15	Colombanus	Colombanus	PROPN	SP	_	14	flat:name	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
+17	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	desideri	desidere	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	inquietudini	inquietudine	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	maledizioni	maledizione	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	moderno	moderno	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	33	punct	_	_
+30	ma	ma	CCONJ	CC	_	33	cc	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+34	stilistico	stilistico	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+36-37	all'	_	_	_	_	_	_	_	SpaceAfter=No
+36	a	a	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	gotico	gotico	ADJ	A	Gender=Masc|Number=Sing	33	acl:relcl	_	_
+41	e	e	CCONJ	CC	_	47	cc	_	_
+42	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+43-44	nella	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	realizzazione	realizzazione	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+46	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+47	lentissimo	lento	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 8
+# text = Qui sta il corto circuito di questo pittore isolato:
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	corto	corto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	circuito	circuito	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = un mercante va da un artista che vende e gli dice «fammi 100 opere in un anno»;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mercante	mercante	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	artista	artista	NOUN	S	Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vende	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	fammi	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+14	100	100	NUM	N	NumType=Card	15	nummod	_	_
+15	opere	opera	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = Colombani in un'intera vita forse non finisce il suo Codice.
+1	Colombani	Colombano	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	intera	intero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	forse	forse	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Codice	Codice	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Sono due mondi diversi:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	mondi	mondo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = l'39;artista che sforna opere come panini al prosciutto risponde al mercato, al suo cannibalismo;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	39	39	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	;artista	;artista	NOUN	S	Number=Sing	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	sforna	sfornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	opere	opera	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	panini	panino	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	prosciutto	prosciutto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	cannibalismo	cannibalismo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 13
+# text = Colombani risponde ai secoli, e di questa lentezza (che è ricerca e messa a fuoco) gli siamo molto grati.
+1	Colombani	Colombani	PROPN	SP	_	2	nsubj	_	_
+2	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	lentezza	lentezza	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+11	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	ricerca	ricercare	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	messa	mettere	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+21	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	molto	molto	ADV	B	_	23	advmod	_	_
+23	grati	grato	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

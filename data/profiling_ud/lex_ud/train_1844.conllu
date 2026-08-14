@@ -1,0 +1,386 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, avete letto bene, esorcismo.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	esorcismo	esorcismo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = All'epoca dell'Inquisizione tremava sangue, ma ora, nel ventunesimo secolo, sembra che la Chiesa abbia deciso di guardare al passato per resolutions al futuro.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Inquisizione	Inquisizione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	tremava	tremare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	18	punct	_	_
+10	ma	ma	CCONJ	CC	_	18	cc	_	_
+11	ora	ora	ADV	B	_	18	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	ventunesimo	ventunesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	guardare	guardare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	passato	passato	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	resolutions	resolutions	NOUN	S	_	25	obl	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Il corso, tenuto da un esorcista esperto, ha attirato una folla di aspiranti esorcisti provenienti da tutta Italia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	esorcista	esorcista	NOUN	S	Number=Sing	4	obl:agent	_	_
+8	esperto	esperto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	attirato	attirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	folla	folla	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	aspiranti	aspirare	ADJ	A	Number=Plur	16	amod	_	_
+16	esorcisti	esorcista	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	16	acl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det	_	_
+20	Italia	Italia	PROPN	SP	_	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Le lezioni hanno incluso uno studio approfondito delle Scritture, dei riti di esorcismo e dei segni che indicano la presenza di un'entità demoniaca.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	incluso	includere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	approfondito	approfondire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Scritture	Scritture	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	riti	rite	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	esorcismo	esorcismo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	segni	segno	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	entità	entità	NOUN	S	Gender=Fem	24	nmod	_	_
+28	demoniaca	demoniaco	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ma la questione che sorge spontanea è: siamo tornati al Medioevo?
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	sorge	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	spontanea	spontaneo	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+9	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Medioevo	Medioevo	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = 国Il XXI secolo sta assistendo a un Increasing numero di persone che si rivolgono alla Chiesa per trovare risposte ai loro problemi e questi corsi sembrano essere la risposta della Chiesa.
+1	国Il	国Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	XXI	ventunesimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+3	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	assistendo	assistere	VERB	V	VerbForm=Ger	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Increasing	Increasing	PROPN	SP	_	5	obl	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	rivolgono	rivolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	trovare	trovare	VERB	V	VerbForm=Inf	14	advcl	_	_
+20	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
+27	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+28	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+29	essere	essere	AUX	V	VerbForm=Inf	28	xcomp	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = IlOSTA mettere in dubbio la buona fede di chi frequenta questi corsi, ma non si può evitare di chiedere se l'esorcismo sia la soluzione giusta per le problematiche contemporanee.
+1	IlOSTA	IlOSTA	ADV	B	_	2	advmod	_	_
+2	mettere	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	buona	buono	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	fede	fede	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	nmod	_	_
+10	frequenta	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+11	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+17	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	evitare	evitare	VERB	V	VerbForm=Inf	2	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	chiedere	chiedere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	se	se	SCONJ	CS	_	26	mark	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	esorcismo	esorcismo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+24	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+27	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	problematiche	problematica	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	contemporanee	contemporaneo	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = In un'epoca in cui le scienze valutano serie le mentali e fisiche, sembra strano che la Chiesa dia spazio a queste pratiche.
+1	In	in	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	scienze	scienza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	valutano	valutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	serie	serie	ADJ	A	Gender=Fem|Number=Plur	8	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mentali	mentale	ADJ	A	Number=Plur	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	strano	strano	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	dia	dare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+21	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	24	det	_	_
+24	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = Durante il corso, l'insegnante ha anche condiviso la sua esperienza personale con gli esorcismi, asserting che a volte sono stati necessari per liberare le persone dalla presenza demoniaca.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	insegnante	insegnante	NOUN	S	Number=Sing	9	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	condiviso	condividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	personale	personale	ADJ	A	Number=Sing	12	amod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	esorcismi	esorcismo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	asserting	asserting	NOUN	S	Gender=Masc	12	appos	_	_
+19	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	volte	volta	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	cop	_	_
+24	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	18	acl:relcl	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	liberare	liberare	VERB	V	VerbForm=Inf	24	advcl	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	persone	persona	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	demoniaca	demoniaco	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Ma dove sono le prove scientifiche che supportino queste affermazioni?
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	dove	dove	ADV	B	_	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	prove	prova	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+6	scientifiche	scientifico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	supportino	supportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	affermazioni	affermazione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Le scienze moderne non hanno ancora trovato sintesi tra la presenza di entità demoniache e disturbi mentali.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	scienze	scienza	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	moderne	moderno	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	sintesi	sintesi	NOUN	S	Gender=Fem	7	obj	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	entità	entità	NOUN	S	Gender=Fem	11	nmod	_	_
+14	demoniache	demoniaco	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+17	mentali	mentale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Dobbiamo chiederci se questo tipo di pratiche sia veramente in linea con i valori della Chiesa e se non sia invece un passo indietro rispetto ai progressi civili e sociali che la nostra società ha fatto nel corso del tempo.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	chiederci	_	_	_	_	_	_	_	_
+2	chieder	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	se	se	SCONJ	CS	_	12	mark	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	sia	essere	CCONJ	CC	_	12	cc	_	_
+10	veramente	veramente	ADV	B	_	12	advmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	linea	linea	NOUN	S	Gender=Fem|Number=Sing	2	advcl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	valori	valore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	se	se	SCONJ	CS	_	22	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+23	invece	invece	ADV	B	_	22	advmod	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	passo	passo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26	indietro	indietro	ADV	B	_	25	advmod	_	_
+27	rispetto	rispetto	ADV	B	_	30	case	_	_
+28-29	ai	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+31	civili	civile	ADJ	A	Number=Plur	30	amod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	sociali	sociale	ADJ	A	Number=Plur	31	conj	_	_
+34	che	che	SCONJ	CS	_	39	mark	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	società	società	NOUN	S	Gender=Fem	39	nsubj	_	_
+38	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
+40-41	nel	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	corso	corso	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Opposition a una società sempre più secolarizzata, la Chiesa sembraارًا rivolgere a pratiche del passato, ma questa
+1	Opposition	Opposition	NOUN	S	_	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	società	società	NOUN	S	Gender=Fem	1	nmod	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	secolarizzata	secolarizzato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Chiesa	chiesa	PROPN	SP	_	4	nmod	_	_
+11	sembraارًا	sembraارا	PROPN	SP	_	10	flat:name	_	_
+12	rivolgere	rivolgere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	passato	passato	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	ma	ma	CCONJ	CC	_	20	cc	_	_
+20	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	conj	_	SpacesAfter=\n
+

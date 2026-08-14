@@ -1,0 +1,378 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In questi giorni, a Pechino , sono in corso di svolgimento i Mondiali di atletica , la disciplina regina:
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Pechino	Pechino	PROPN	SP	_	3	nmod	_	_
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	svolgimento	svolgimento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Mondiali	Mondiali	NOUN	S	Number=Plur	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	atletica	atletica	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	disciplina	disciplina	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	regina	regino	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = gli atleti si danno battaglia in quello che fu lo stadio, bellissimo, delle Olimpiadi 2008.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	atleti	atleta	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Olimpiadi	Olimpiadi	PROPN	SP	_	5	nmod	_	_
+18	2008	2008	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Alcune medaglie sono state già assegnate, come quelle del lancio del martello : il favoritissimo della vigilia, il polacco Paweł Fajdek , ha rispettato i pronostici e si è aggiudicato l'oro scagliando il martello a 80 metri e 88 centimetri, ben due metri più lontano rispetto ai due atleti che hanno completato il podio, l'atleta del Tigikistan Dilshod Nazarov e l'altro polacco Wojciech Nowicki .
+1	Alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	medaglie	medaglia	NOUN	S	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	assegnate	assegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	martello	martello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	:	:	PUNCT	FC	_	6	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	favoritissimo	favoritissimo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	polacco	polacco	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+25	Paweł	Paweł	PROPN	SP	_	24	nmod	_	_
+26	Fajdek	Fajdek	PROPN	SP	_	25	flat:name	_	_
+27	,	,	PUNCT	FF	_	18	punct	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	rispettato	rispettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	pronostici	pronostico	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	aggiudicato	aggiudicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	conj	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	oro	oro	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+38	scagliando	scagliare	VERB	V	VerbForm=Ger	35	advcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	martello	martello	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	80	80	NUM	N	NumType=Card	43	nummod	_	_
+43	metri	metro	NOUN	S	Gender=Masc|Number=Plur	38	obl	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	88	88	NUM	N	NumType=Card	46	nummod	_	_
+46	centimetri	centimetro	NOUN	S	Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	29	punct	_	_
+48	ben	bene	ADV	B	_	50	advmod	_	_
+49	due	due	NUM	N	NumType=Card	50	nummod	_	_
+50	metri	metro	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+51	più	più	ADV	B	_	52	advmod	_	_
+52	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	50	amod	_	_
+53	rispetto	rispetto	ADV	B	_	57	case	_	_
+54-55	ai	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	53	fixed	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
+56	due	due	NUM	N	NumType=Card	57	nummod	_	_
+57	atleti	atleta	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+58	che	che	PRON	PR	PronType=Rel	60	nsubj	_	_
+59	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+60	completato	completare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	57	acl:relcl	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	podio	podio	NOUN	S	Gender=Masc|Number=Sing	60	obj	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	29	punct	_	_
+64	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	65	det	_	SpaceAfter=No
+65	atleta	atleta	NOUN	S	Number=Sing	29	appos	_	_
+66-67	del	_	_	_	_	_	_	_	_
+66	di	di	ADP	E	_	68	case	_	_
+67	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	Tigikistan	Tigikistan	PROPN	SP	_	65	nmod	_	_
+69	Dilshod	Dilshod	PROPN	SP	_	68	flat:name	_	_
+70	Nazarov	Nazarov	PROPN	SP	_	68	flat:name	_	_
+71	e	e	CCONJ	CC	_	73	cc	_	_
+72	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	73	det	_	SpaceAfter=No
+73	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	65	conj	_	_
+74	polacco	polacco	ADJ	A	Gender=Masc|Number=Sing	73	amod	_	_
+75	Wojciech	Wojciech	PROPN	SP	_	73	nmod	_	_
+76	Nowicki	Nowicki	PROPN	SP	_	75	flat:name	_	_
+77	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = E a fronte di una gara che è sembrata quasi senza storia, a far notizia è il post gara di Fajdek.
+1	E	e	CCONJ	CC	_	20	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	20	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gara	gara	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sembrata	sembrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	quasi	quasi	ADV	B	_	12	advmod	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	post	post	ADJ	A	_	20	amod	_	_
+20	gara	gara	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Fajdek	Fajdek	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = A raccontarlo è il quotidiano sportivo spagnolo Marca:
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	raccontarlo	_	_	_	_	_	_	_	_
+2	raccontar	raccontare	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+7	sportivo	sportivo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+9	Marca	marca	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = pare che il polacco abbia festeggiato in un ristorante della capitale cinese alzando un po' il gomito.
+1	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	polacco	polacco	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	festeggiato	festeggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	cinese	cinese	ADJ	A	Number=Sing	12	amod	_	_
+14	alzando	alzare	VERB	V	VerbForm=Ger	6	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	po'	poco	ADV	B	_	14	advmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gomito	gomito	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Uscito dal locale, ha fermato un taxi per tornare a casa ma, evidentemente poco lucido, avrebbe pagato con la medaglia d'oro appena conquistata.
+1	Uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	locale	locale	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	taxi	taxi	NOUN	S	Gender=Masc	7	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	tornare	tornare	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	evidentemente	evidentemente	ADV	B	_	18	advmod	_	_
+17	poco	poco	ADV	B	_	18	advmod	_	_
+18	lucido	lucido	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	d'	di	ADP	E	_	26	case	_	SpaceAfter=No
+26	oro	oro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	appena	appena	ADV	B	_	28	advmod	_	_
+28	conquistata	conquistare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 8
+# text = Dopo una lunghissima e rigenerante dormita, Fajdek si è accorto di non avere più l'ambito premio e ha chiamato la polizia dicendo di averlo smarrito.
+1	Dopo	dopo	ADP	E	_	8	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+3	lunghissima	lungo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	8	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	rigenerante	rigenerante	ADJ	A	Number=Sing	3	conj	_	_
+6	dormita	dormita	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Fajdek	Fajdek	PROPN	SP	_	11	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	accorto	accorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	avere	avere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	premio	premio	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	dicendo	dire	VERB	V	VerbForm=Ger	21	advcl	_	_
+25	di	di	ADP	E	_	28	mark	_	_
+26-27	averlo	_	_	_	_	_	_	_	_
+26	aver	avere	AUX	VA	VerbForm=Inf	28	aux	_	_
+27	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	smarrito	smarrito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Dopo aver ricostruito l'accaduto, il tassista che qualche ora prima lo ha riaccompagnato a casa è stato rintracciato ed effettivamente ha restituito la medaglia d'oro.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	ricostruito	ricostruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tassista	tassista	NOUN	S	Number=Sing	20	nsubj:pass	_	_
+9	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	ora	ora	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+12	prima	prima	ADV	B	_	15	advmod	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	riaccompagnato	riaccompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	rintracciato	rintracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	ed	e	CCONJ	CC	_	24	cc	_	_
+22	effettivamente	effettivamente	ADV	B	_	24	advmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	restituito	restituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	oro	oro	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 10
+# text = L'autista si è giustificato dicendo di essere stato pagato con la medaglia, smentendo Fajdek che sosteneva di averla solo persa in macchina.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autista	autista	NOUN	S	Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	giustificato	giustificato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	dicendo	dire	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	di	di	ADP	E	_	10	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	smentendo	smentire	VERB	V	VerbForm=Ger	10	advcl	_	_
+16	Fajdek	Fajdek	PROPN	SP	_	15	obj	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	sosteneva	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	averla	_	_	_	_	_	_	_	_
+20	aver	avere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	solo	solo	ADV	B	_	23	advmod	_	_
+23	persa	perdere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Alla fine, l'atleta ha riavuto il suo premio e il tassista probabilmente si è visto rimborsare la corsa.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	atleta	atleta	NOUN	S	Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riavuto	riavere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	premio	premio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tassista	tassista	NOUN	S	Number=Sing	11	conj	_	_
+15	probabilmente	probabilmente	ADV	B	_	18	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+19	rimborsare	rimborsare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = In ogni caso, Paweł Fajdek ha vinto anche la medaglia d'oro per la disavventura più clamorosa di questi Mondiali di atletica.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Paweł	Paweł	PROPN	SP	_	8	nsubj	_	_
+6	Fajdek	Fajdek	PROPN	SP	_	5	flat:name	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	oro	oro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	disavventura	disavventura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	clamorosa	clamoroso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	Mondiali	Mondiali	PROPN	SP	_	11	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	atletica	atletica	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,330 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parole forti, nette, che smorzano le polemiche e chiudono una vicenda che negli ultimi mesi ha visto l’Italia intera in fibrillazione, tra speculatori, burocrati e, ahimè, anche un’insalata di accuse e denunce di manovre illecite.
+1	Parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	forti	forte	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	nette	netto	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	smorzano	smorzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	chiudono	chiudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+15-16	negli	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
+18	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Italia	Italia	PROPN	SP	_	20	obj	_	_
+23	intera	intero	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	fibrillazione	fibrillazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	tra	tra	ADP	E	_	28	case	_	_
+28	speculatori	speculatore	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	burocrati	burocrato	ADJ	A	Gender=Masc|Number=Plur	28	conj	_	_
+31	e	e	CCONJ	CC	_	37	cc	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	37	punct	_	_
+33	ahimè	ahimè	INTJ	I	_	37	discourse	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	anche	anche	ADV	B	_	37	advmod	_	_
+36	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	insalata	insalata	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	39	conj	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	manovre	manovra	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	_
+44	illecite	illecito	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Berlusconi, con la sua solita dose di franchezza, non ha voluto entrare nei dettagli contrattuali, limitandosi a dichiarare:
+1	Berlusconi	Berlusconi	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	7	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	solita	solito	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	dose	dosa	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	franchezza	franchezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	entrare	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+15-16	nei	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	contrattuali	contrattuale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20-21	limitandosi	_	_	_	_	_	_	_	_
+20	limitando	limitare	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	dichiarare	dichiarare	VERB	V	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 3
+# text = “È un’operazione che mi riempie di orgoglio.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	riempie	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il Milan è tornato ai suoi colori, al suo pubblico, alla sua storia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Milan	Milan	PROPN	SP	_	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	colori	colore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = E soprattutto, è tornato italiano”.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	soprattutto	soprattutto	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = E a questo proposito, la questione della filiazione azzurra, ovvero il ruolo della famiglia Yong, è stata affrontata con un’acclarata e definitiva presa di posizione.
+1	E	e	CCONJ	CC	_	23	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	questione	questione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	filiazione	filiazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	azzurra	azzurro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ovvero	ovvero	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	Yong	Yong	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	affrontata	esaffronere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	con	con	ADP	E	_	29	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+26	acclarata	acclarato	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	26	conj	_	_
+29	presa	presa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 7
+# text = “Quel gruppo, non ci sarà più.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Qualsiasi tentativo di screditare la nostra gestione ha prodotto solo confusione e destabilizzazione.
+1	Qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	screditare	screditare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	solo	solo	ADV	B	_	11	advmod	_	_
+11	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	destabilizzazione	destabilizzazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Abbiamo scelto la soluzione più rapida e più trasparente, per il bene del club e dei suoi tifosi”.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	trasparente	trasparente	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bene	bene	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	club	club	NOUN	S	Gender=Masc	13	nmod	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = L'operazione, come già scritto da questo giornale, è stata orchestrata con maestria da Edoardo Garrone e Gea Capital, gruppo di investimento che ha dimostrato di possedere la competenza e la determinazione necessarie a superare gli ostacoli burocratici e politici che hanno rallentato in passato ogni tentativo di riacquisire il controllo del Milan.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	6	mark	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	orchestrata	orchestrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	maestria	maestria	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	Edoardo	Edoardo	PROPN	SP	_	13	obl:agent	_	_
+18	Garrone	Garrone	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Gea	Gea	PROPN	SP	_	17	conj	_	_
+21	Capital	Capital	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	possedere	possedere	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	competenza	competenza	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+36	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38	superare	superare	VERB	V	VerbForm=Inf	36	advcl	_	_
+39	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+41	burocratici	burocratico	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	politici	politico	ADJ	A	Gender=Masc|Number=Plur	41	conj	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+46	rallentato	rallentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	passato	passato	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+49	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	50	det	_	_
+50	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	46	obj	_	_
+51	di	di	ADP	E	_	52	mark	_	_
+52	riacquisire	riacquisire	VERB	V	VerbForm=Inf	50	acl	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	52	obj	_	_
+55-56	del	_	_	_	_	_	_	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	Milan	Milan	PROPN	SP	_	54	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 11
+# text = Un plauso va anche al Presidente Garrone, figura seria e competente, che ha saputo gestire con eroismo le pressioni e le minacce.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	plauso	plauso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	Garrone	Garrone	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	figura	figura	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+11	seria	serio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	competente	competente	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+18	gestire	gestire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	eroismo	eroismo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	pressioni	pressione	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = È un raggio di sole su un calcio italiano troppo spesso som
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	troppo	troppo	ADV	B	_	11	advmod	_	_
+11	spesso	spesso	ADV	B	_	8	advmod	_	_
+12	som	som	NOUN	S	Gender=Masc	3	compound	_	SpacesAfter=\n
+

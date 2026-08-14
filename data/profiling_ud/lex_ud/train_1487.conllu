@@ -1,0 +1,369 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Da questi due indotti si servivano migliaia di famiglie per un totale di 30/40 litri di acqua al secondo.
+1	Da	da	ADP	E	_	4	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	indotti	indotto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	servivano	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	totale	totale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	30	30	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+15	/40	/40	NUM	N	NumType=Card	14	flat	_	_
+16	litri	litro	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = L'acqua era utilizzata soprattutto in agricoltura per irrigare le campagne.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	utilizzata	utilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	irrigare	irrigare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	campagne	campagno	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Come si sa, la provincia di Foggia vive soprattutto di economia agricola.
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Foggia	Foggia	PROPN	SP	_	6	nmod	_	_
+9	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	soprattutto	soprattutto	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	economia	economia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = E l'economia, la facevano davvero, però, quelli che usufruivano dell'allaccio abusivo non pagando la bolletta.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	economia	economia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	davvero	davvero	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	però	però	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	usufruivano	usufruivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	allaccio	allaccio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	abusivo	abusivo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	pagando	pagare	VERB	V	VerbForm=Ger	13	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	bolletta	bolletta	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Entrambi gli allacci erano stati costruiti lungo la condotta che alimenta l'abitato di Manfredonia e la litoranea sud del Gargano fino a Vieste.
+1	Entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	allacci	allaccio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	costruiti	costruire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	lungo	lungo	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	abitato	abitato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Manfredonia	Manfredonia	PROPN	SP	_	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	litoranea	litoraneo	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+19	sud	sud	NOUN	S	Gender=Masc|Number=Sing	18	compound	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Gargano	Gargano	PROPN	SP	_	18	nmod	_	_
+23	fino	fino	ADV	B	_	25	case	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	Vieste	Viesta	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Si trattava di un vero e proprio sistema ad hoc che con pezzi d'acciaio e con bulloni su una condotta in cemento armato consentivano di collegare una tubazione, con relativa saracinesca, interrata per la chiusura e apertura dell'acqua la quale fuoriusciva dal suolo a diversi metri di distanza.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	8	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+8	sistema	sistema	X	SW	Foreign=Yes	2	obl	_	_
+9	ad	a	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	hoc	hoc	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	bulloni	bullone	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	cemento	cemento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	armato	armato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	consentivano	consentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	collegare	collegare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tubazione	tubazione	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	2	punct	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	saracinesca	saracinesca	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	interrata	interrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+41-42	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+41	di	di	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	quale	quale	PRON	PR	Number=Sing|PronType=Rel	46	nsubj	_	_
+46	fuoriusciva	fuoriuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
+47-48	dal	_	_	_	_	_	_	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50	a	a	ADP	E	_	52	case	_	_
+51	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	52	det	_	_
+52	metri	metro	NOUN	S	Gender=Masc|Number=Plur	46	obl	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il tutto è stato denunciato da Acquedotto Pugliese ai carabinieri.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Acquedotto	acquedotto	PROPN	SP	_	5	obl:agent	_	_
+8	Pugliese	Pugliese	PROPN	SP	_	7	flat:name	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Non è la prima volta che il foggiano balza agli onori della cronaca per i furti d'acqua.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	foggiano	foggiano	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	balza	balzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10-11	agli	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	onori	onore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	furti	furto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Diverse decine gli allacci abusivi rilevati e rimossi, negli ultimi anni in tutta la Puglia, con particolare concentrazione nell'area del Gargano.
+1	Diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	decine	decina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	allacci	allaccio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	abusivi	abusivo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	rilevati	rilevare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	rimossi	rimuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Puglia	Puglia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	particolare	particolare	ADJ	A	Number=Sing	21	amod	_	_
+21	concentrazione	concentrazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+22-23	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	in	in	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	area	area	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Gargano	Gargano	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il recupero del corrispettivo per il servizio erogato, ma non riscosso, si applicherà fino a 10 anni dalla scoperta del prelievo abusivo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	recupero	recupero	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corrispettivo	corrispettivo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	erogato	erogare	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	riscosso	riscuovere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	applicherà	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	conj	_	_
+17	fino	fino	ADV	B	_	20	case	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	10	10	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	prelievo	prelievo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	abusivo	abusivo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 11
+# text = Il comportamento omissivo assunto da qualcuno è dannoso per Acquedotto Pugliese, spiega una nota dell'Ente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	omissivo	omissivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	assunto	assumere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl:agent	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	dannoso	dannoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	Acquedotto	acquedotto	PROPN	SP	_	8	obl	_	_
+11	Pugliese	Pugliese	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	nota	nota	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Ente	ente	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = L'Aqp "svolge la propria attività grazie al corrispettivo per il servizio reso".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Aqp	Aqp	PROPN	SP	_	4	nsubj	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	svolge	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	attività	attività	NOUN	S	Gender=Fem	4	obj	_	_
+8	grazie	grazie	NOUN	S	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	corrispettivo	corrispettivo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	reso	reso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = L'Acquedotto parla di comportamento irrispettoso nei confronti di quegli utenti che onorano con puntualità le fatture, consentendo, di fatto, il servizio anche a chi non onora i suoi impegni.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Acquedotto	acquedotto	PROPN	SP	_	3	nsubj	_	_
+3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	irrispettoso	irrispettoso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	utenti	utente	NOUN	S	Number=Plur	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	onorano	onorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	puntualità	puntualità	NOUN	S	Gender=Fem	14	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	fatture	fattura	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	consentendo	consentire	VERB	V	VerbForm=Ger	14	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	3	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+27	anche	anche	ADV	B	_	29	advmod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	chi	chi	PRON	PR	Number=Sing|PronType=Rel	26	nmod	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	onora	onorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

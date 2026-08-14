@@ -1,0 +1,876 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È accusato di avere legami con “un Paese straniero...
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	avere	avere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	legami	legamare	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	straniero...	straniero.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = e di agire per sovvertire l’ordine costituito in Bahrain e danneggiare i gli interessi nazionali”.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	agire	agire	VERB	V	VerbForm=Inf	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	sovvertire	sovvertire	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	costituito	costituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Bahrain	Bahrain	PROPN	SP	_	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	danneggiare	danneggiare	VERB	V	VerbForm=Inf	8	conj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+16	nazionali	nazionale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E' accusato inoltre di “aver rivelato a un Paese straniero informazioni che possono danneggiare lo Stato e la reputazione del Bahrain”.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	inoltre	inoltre	ADV	B	_	7	advmod	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	10	acl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	danneggiare	danneggiare	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	reputazione	reputazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Bahrain	Bahrain	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Negli stessi giorni altri dieci esponenti sciiti sono stati condannati a dieci anni di carcere e privati della nazionalità per “complotto terroristico”.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+5	altri	altro	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+6	dieci	dieci	NUM	N	NumType=Card	7	nummod	_	_
+7	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+8	sciiti	sciito	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	dieci	dieci	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	privati	privato	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	nazionalità	nazionalità	NOUN	S	Gender=Fem	18	nmod	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	terroristico	terroristico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Mentre altre 19 persone sono state condannate per “collaborazione con l’Iran per rovesciare il governo.
+1	Mentre	mentre	SCONJ	CS	_	7	mark	_	_
+2	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	7	nsubj:pass	_	_
+3	19	19	NUM	N	NumType=Card	4	nummod	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	condannate	condannare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Iran	Iran	PROPN	SP	_	10	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	rovesciare	rovesciare	VERB	V	VerbForm=Inf	7	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governo	governo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 7
+# text = Una famiglia sunnita controlla un Paese con il 65% di sciiti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sunnita	sunnito	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	65	65	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	SYM	_	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sciiti	sciito	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Il piccolo regno, una monarchia costituzionale ereditaria, è guidata dalla famiglia sunnita Khalifa, anche se la popolazione musulmana è per il 65% sciita.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	regno	regno	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	monarchia	monarchia	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+7	costituzionale	costituzionale	ADJ	A	Number=Sing	6	amod	_	_
+8	ereditaria	ereditario	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	guidata	guidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	sunnita	sunnito	ADJ	A	Number=Sing	14	amod	_	_
+16	Khalifa	Khalifa	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	anche	anche	ADV	B	_	28	advmod	_	_
+19	se	se	SCONJ	CS	_	28	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+22	musulmana	musulmano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+24	per	per	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	65	65	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+27	%	%	SYM	SYM	_	28	obl	_	_
+28	sciita	sciire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 9
+# text = La repressione è iniziata nel febbraio 2001 quando, sull’onda delle cosiddette ‘primavere arabe’, anche in Bahrain iniziarono le rivolte.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	repressione	repressione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	iniziata	iniziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	2001	2001	NUM	N	NumType=Card	7	flat	_	_
+9	quando	quando	SCONJ	CS	_	24	mark	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	24	punct	_	_
+11-12	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+11	su	su	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	onda	onda	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	cosiddette	cosiddetto	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	‘primavere	‘primavere	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	arabe	arabo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	’	’	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	anche	anche	ADV	B	_	23	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Bahrain	Bahrain	PROPN	SP	_	24	obl	_	_
+24	iniziarono	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	rivolte	rivolta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Al centro delle proteste, la denuncia delle discriminazioni contro la comunità sciita.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	centro	centro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	discriminazioni	discriminazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	contro	contro	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	comunità	comunità	NOUN	S	Gender=Fem	12	nmod	_	_
+16	sciita	sciito	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Le dimostrazioni furono represse dal regime con l’aiuto di forze inviate dall’Arabia Saudita.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dimostrazioni	dimostrazione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	represse	reprere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	regime	regime	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	forze	forza	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	inviate	inviare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Arabia	Arabia	PROPN	SP	_	13	obl:agent	_	_
+17	Saudita	Saudita	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Nel luglio 2016, il partito guidato da Ali Salmane, “al-Wefaq” era stato sciolto dal tribunale del Bahrain.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+4	2016	2016	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	partito	partito	NOUN	S	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+8	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Ali	Ali	PROPN	SP	_	8	obl:agent	_	_
+11	Salmane	Salmano	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+14-15	al	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	-	-	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Wefaq	Wefaq	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	sciolto	sciogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	21	obl:agent	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Bahrain	Bahrain	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 13
+# text = Ali Salmane era stato già arrestato dalle autorità nel dicembre 2014 ed era stato condannato a nove anni di carcere.
+1	Ali	ala	PROPN	SP	_	6	nsubj:pass	_	_
+2	Salmane	Salmano	PROPN	SP	_	1	flat:name	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	autorità	autorità	NOUN	S	Gender=Fem	6	obl:agent	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	2014	2014	NUM	N	NumType=Card	12	flat	_	_
+14	ed	e	CCONJ	CC	_	17	cc	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+16	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	nove	nove	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Fuorilegge anche leader sunnita di Waad.
+1	Fuorilegge	fuorilegge	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	1	advmod	_	_
+3	leader	leader	NOUN	S	_	1	nsubj	_	_
+4	sunnita	sunnito	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Waad	Waad	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Poche settimane fa è stato messo fuorilegge anche il “Waad”, movimento alleato di “al-Wefaq”.
+1	Poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	fuorilegge	fuorilegge	NOUN	S	_	6	nsubj:pass	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Waad	Waad	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	alleato	alleato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	di	di	ADP	E	_	21	case	_	_
+17	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18-19	al	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	-	-	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Wefaq	Wefaq	PROPN	SP	_	15	obl	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Il religioso Issa Qassim, massima autorità spirituale sciita del Paese, è stato privato della sua nazionalità, nel 2016, su richiesta del Ministero degli Interni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	Issa	Issa	PROPN	SP	_	16	nsubj:pass	_	_
+4	Qassim	Qassim	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	autorità	autorità	NOUN	S	Gender=Fem	3	appos	_	_
+8	spirituale	spirituale	ADJ	A	Number=Sing	7	amod	_	_
+9	sciita	sciire	ADJ	A	Number=Sing	7	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	privato	privare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	nazionalità	nazionalità	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	2016	2016	NUM	N	NumType=Card	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	16	punct	_	_
+26	su	su	ADP	E	_	27	case	_	_
+27	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Ministero	Ministero	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Interni	Interni	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 17
+# text = La repressione del regime non riguarda solo la comunità sciita.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	repressione	repressione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	regime	regime	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	comunità	comunità	NOUN	S	Gender=Fem	7	obj	_	_
+11	sciita	sciito	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Il leader sunnita di Waad, Ibrahim Charif, è stato arrestato nel 2016, con l’accusa di “incitamento all’odio”, per la sua continua richiesta di maggiore democrazia nel Paese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	12	nsubj:pass	_	_
+3	sunnita	sunnito	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Waad	Waad	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Ibrahim	Ibrahim	PROPN	SP	_	2	appos	_	_
+8	Charif	Charif	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2016	2016	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	incitamento	incitamento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	all’	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	odio	odio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+26	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	12	punct	_	_
+28	per	per	ADP	E	_	32	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	35	amod	_	_
+35	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 19
+# text = A maggio Amnesty International ha denunciato lo scioglimento dei principali partiti politici di opposizione.
+1	A	a	ADP	E	_	2	case	_	_
+2	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	Amnesty	Amnesty	PROPN	SP	_	6	nsubj	_	_
+4	International	International	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	scioglimento	scioglimento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	principali	principale	ADJ	A	Number=Plur	12	amod	_	_
+12	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	politici	politico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = “Il Bahrain si sta muovendo verso una repressione totale dei diritti umani”, ha detto Lynn Maalouf, direttore presso l’ufficio regionale di Amnesty International a Beirut.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Bahrain	Bahrain	PROPN	SP	_	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	muovendo	muovere	VERB	V	VerbForm=Ger	0	root	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	repressione	repressione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	totale	totale	ADJ	A	Number=Sing	9	amod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+14	umani	umano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+19	Lynn	Lynn	PROPN	SP	_	18	nsubj	_	_
+20	Maalouf	Maalouf	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	_
+23	presso	presso	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	regionale	regionale	ADJ	A	Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Amnesty	Amnesty	PROPN	SP	_	25	nmod	_	_
+29	International	International	PROPN	SP	_	28	flat:name	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Beirut	Beirut	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = “Lo scioglimento di “Waad” è un attacco alla libertà di espressione e associazione.
+1	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scioglimento	scioglimento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Waad	Waad	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	3	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	libertà	libertà	NOUN	S	Gender=Fem	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 22
+# text = Dimostra ancora una volta che le autorità non hanno intenzione di mantenere gli impegni presi a favore del progresso dei diritti umani.
+1	Dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	autorità	autorità	NOUN	S	Gender=Fem	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	mantenere	mantenere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	favore	favore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	umani	umano	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 23
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 24
+# text = Denunciate organizzazioni per i diritti umani.
+1	Denunciate	denunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	umani	umano	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Nella stessa direzione vanno le denunce di altre associazioni per i diritti umani.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	altre	altro	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	umani	umano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = “Per anni le autorità del Bahrein hanno soffocato la società civile, ma nel 2016 hanno deciso di ridurla al silenzio”, ha dichiarato Joe Stork, vice direttore della divisione Medio Oriente di “ Human Rights Watch ”.
+1	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	autorità	autorità	NOUN	S	Gender=Fem	10	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bahrein	Bahrein	PROPN	SP	_	5	nmod	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	soffocato	soffocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	società	società	NOUN	S	Gender=Fem	10	obj	_	_
+13	civile	civile	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	ma	ma	CCONJ	CC	_	20	cc	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2016	2016	NUM	N	NumType=Card	20	nummod	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	ridurla	_	_	_	_	_	_	_	_
+22	ridur	ridurre	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	10	punct	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	_
+31	Joe	Joe	PROPN	SP	_	30	nsubj	_	_
+32	Stork	Stork	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	vice	vice	ADJ	A	_	35	amod	_	_
+35	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	31	appos	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	Medio	medio	PROPN	SP	_	38	nmod	_	_
+40	Oriente	Oriente	PROPN	SP	_	39	flat:name	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	“	“	PUNCT	FB	_	43	punct	_	_
+43	Human	Human	PROPN	SP	_	38	nmod	_	_
+44	Rights	Rights	PROPN	SP	_	43	nmod	_	_
+45	Watch	Watch	PROPN	SP	_	44	flat:name	_	_
+46	”	”	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 27
+# text = “La stabilità a lungo termine del Bahrain dipende da un processo di riforma politica che rispetta i diritti umani fondamentali, ma per il momento purtroppo sta avvenendo il contrario.
+1	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stabilità	stabilità	NOUN	S	Gender=Fem	10	nsubj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	termine	termine	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Bahrain	Bahrain	PROPN	SP	_	3	nmod	_	_
+10	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	processo	processo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	politica	politico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	rispetta	rispettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	umani	umano	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	fondamentali	fondamentale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	30	punct	_	_
+24	ma	ma	CCONJ	CC	_	30	cc	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	momento	momento	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+28	purtroppo	purtroppo	ADV	B	_	30	advmod	_	_
+29	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	avvenendo	avvenire	VERB	V	VerbForm=Ger	10	conj	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 28
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 29
+# text = Anche la mancanza di risposta internazionale alla repressione nel paese è stata ripetutamente denunciata dalle organizzazioni umanitarie.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	internazionale	internazionale	ADJ	A	Number=Sing	5	amod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	repressione	repressione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paese	paese	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	ripetutamente	ripetutamente	ADV	B	_	16	advmod	_	_
+16	denunciata	denunciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17-18	dalle	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	16	obl:agent	_	_
+20	umanitarie	umanitario	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 30
+# text = Il via libera di Donald Trump.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	libera	libero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Donald	Donald	PROPN	SP	_	2	nmod	_	_
+6	Trump	Trump	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = Nel marzo 2017, il presidente USA Donald Trump aveva detto al re Hamad del Bahrain; “Non ci sarà alcuna pressione sul Paese con la mia amministrazione”.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	2017	2017	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	USA	USA	PROPN	SP	_	7	nmod	_	_
+9	Donald	Donald	PROPN	SP	_	7	nmod	_	_
+10	Trump	Trump	PROPN	SP	_	9	flat:name	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	parataxis	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	re	re	NOUN	S	Gender=Masc	12	obl	_	_
+16	Hamad	Hamad	PROPN	SP	_	15	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Bahrain	Bahrain	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	12	punct	_	_
+21	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	Non	Non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+24	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+25	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
+26	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	con	con	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+34	”	”	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 32
+# text = La piccola monarchia sembra aver interpretato questa dichiarazione come una luce verde per continuare la sua politica di repressione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	monarchia	monarchia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	interpretato	interpretare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	verde	verde	ADJ	A	Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	continuare	continuare	VERB	V	VerbForm=Inf	6	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	politica	politica	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	repressione	repressione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = C’è un chiaro segnale che quella di re Hamad sia l’interpretazione corretta.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	re	re	VERB	V	VerbForm=Inf	7	acl	_	_
+10	Hamad	Hamad	PROPN	SP	_	9	obj	_	_
+11	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	5	acl:relcl	_	_
+14	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 34
+# text = Nonostante il piccolo regno ospiti la “Quinta Flotta” statunitense, Barack Obama aveva congelato la vendita degli aerei militari F-16, considerando che Manama non aveva fatto abbastanza progressi nel campo dei diritti umani.
+1	Nonostante	nonostante	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	regno	regno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+5	ospiti	ospire	NOUN	S	Number=Plur	16	nmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	Quinta	Quinta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	Flotta	flotto	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	statunitense	statunitense	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	Barack	Barack	PROPN	SP	_	16	nsubj	_	_
+14	Obama	Obama	PROPN	SP	_	13	flat:name	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	congelato	congelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	aerei	aereo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	militari	militare	ADJ	A	Number=Plur	21	amod	_	_
+23	F	f	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	16	16	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	considerando	considerare	VERB	V	VerbForm=Ger	16	advcl	_	_
+28	che	che	SCONJ	CS	_	32	mark	_	_
+29	Manama	Manama	PROPN	SP	_	32	nsubj	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+33	abbastanza	abbastanza	ADV	B	_	32	advmod	_	_
+34	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+35-36	nel	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	campo	campo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+41	umani	umano	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 35
+# text = L’amministrazione Trump a settembre è tornata su questa decisione per autorizzare la vendita.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	Trump	Trump	PROPN	SP	_	2	nmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	autorizzare	autorizzare	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
