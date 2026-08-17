@@ -3,3 +3,12 @@ data/profiling_ud/lex_ud/
 
 # Ignore the Non-Lexical features CSV file
 data/profiling_ud/nonlex_ud.csv
+
+# Ignore embedding file + folder
+data/embeddings/
+data/embeddings/itwac128.sqlite
+
+# Ignore BERT fine tuning files
+02_classification/bert_finetuned/
+*.safetensors
+*.bin
